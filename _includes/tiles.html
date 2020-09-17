@@ -1,0 +1,17 @@
+<section class="tiles">
+{% assign sticky = site.pages | where: 'sticky', true | sort: 'order' %}
+{% for page in sticky %}
+	<article class="style{{ forloop.index | plus:1 }}">
+		<span class="image">
+			<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
+		</span>
+		<a href="{{ page.url | absolute_url }}">
+			<h2>{{ page.title }}</h2>
+			<!-- <div class="content">
+				<p>{{ page.excerpt }}</p>
+			</div> -->
+		</a>
+	</article>
+{% endfor %}
+
+</section>
