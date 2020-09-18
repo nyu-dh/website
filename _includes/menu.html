@@ -1,13 +1,10 @@
 <nav id="menu">
 	<h2>Menu</h2>
 	<ul>
+		<li><a href="{{ '/' | absolute_url }}">Home</a></li>
 		{% assign sticky = site.pages | where: 'sticky', true | sort: 'order' %}
 		{% for page in sticky %}
-			{% if page.path == "index.html" %}
-				<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
-			{% else %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
-			{% endif %}
+			<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
 		{% endfor %}
 	</ul>
 </nav>

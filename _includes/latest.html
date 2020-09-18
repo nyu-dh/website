@@ -1,0 +1,11 @@
+<div class='latest'>
+  <b>Latest dispatches:</b>
+  <ul>
+    {% for item in site.data.latest | reverse | limit: 5 %}
+    <li>
+      {{ item.text }}
+      <a href="{{ item.link | absolute_url }}">{{ item.link_text }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

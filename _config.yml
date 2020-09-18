@@ -18,6 +18,9 @@ logo-image-url: images/logo.png
 collections:
   pages:
     output: true
+  updates:
+    output: true
+    permalink: /:collection/:name
 
 # Social settings
 github_username: ''
@@ -25,6 +28,3 @@ twitter_username: ''
 
 # Build settings
 markdown: kramdown
-
-# Layout settings
-home-link-in-menu: yes
