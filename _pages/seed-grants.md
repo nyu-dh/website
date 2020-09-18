@@ -1,5 +1,6 @@
 ---
-layout: page
 title: Seed Grants
-permalink: /seed-grants
+permalink: "/seed-grants"
+layout: page
 ---
+
