@@ -1,9 +1,9 @@
 ---
 title: Resources
 layout: page
-featured-image: images/pic13.jpg
 order: '4'
 sticky: true
+permalink: "/resources"
 ---
 
 Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Mauris eget sem mauris. Nam vel pretium nunc. Pellentesque fringilla, orci et venenatis dictum, diam magna rhoncus justo, ac tristique metus erat id dolor. Phasellus placerat rutrum molestie. Short paragraph about how resource come from lots of places (IT, DoL, Studio, Humanities Center, etc.)

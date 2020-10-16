@@ -1,6 +1,15 @@
 ---
 title: DH@NYU
 timezone: UTC
+email: dh.help@nyu.edu
+description: Digital Humanities at New York University
+baseurl: ''
+url: ''
+permalink: pretty
+logo-image-url: images/logo.png
+github_username: 'nyu-dh'
+twitter_username: 'nyu_dh'
+markdown: kramdown
 collections:
   pages:
     title: Pages
@@ -15,12 +24,3 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: youremailaddress@gmail.com
-description: Digital Humanities at New York University
-baseurl: ''
-url: ''
-permalink: pretty
-logo-image-url: images/logo.png
-github_username: ''
-twitter_username: ''
-markdown: kramdown
