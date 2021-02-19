@@ -1,7 +1,7 @@
 ---
 title: Resources
 layout: page
-order: '4'
+order: '5'
 sticky: true
 permalink: "/resources"
 ---

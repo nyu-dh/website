@@ -1,10 +1,32 @@
-<nav id="menu">
-	<h2>Menu</h2>
-	<ul>
-		<li><a href="{{ '/' | absolute_url }}">Home</a></li>
+<div class="sticky">
+	<div class="topnav-wrap box-shadow">
+		<div class="inner">
+			<div class="topnav justify">
+				<a href="{{ '/' | absolute_url }}" class="logo">
+					<span class="title">{{ site.title }}</span>
+				</a>
+				<a class="topnav-right" href="{{ 'search' | absolute_url }}">Search</a>
+			</div>
+		</div>
+	</div>
+	<div class="topnav-wrap gradient">
+		<div class="inner">
+			<div class="topnav">
+				{% assign sticky = site.pages | where: 'sticky', true | sort: 'order' %}
+				{% for page in sticky %}
+				<a class="topnav-right" href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- <div class="custom-nav">
+	<div class="inner">
+
 		{% assign sticky = site.pages | where: 'sticky', true | sort: 'order' %}
 		{% for page in sticky %}
-			<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
+		<div class="nav-item"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></div>
 		{% endfor %}
-	</ul>
-</nav>
+	</div>
+</div> -->

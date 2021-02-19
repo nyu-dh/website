@@ -1,9 +1,19 @@
 <section class="tiles">
 {% assign sticky = site.pages | where: 'sticky', true | sort: 'order' %}
+{% assign maxstyles = 5 %}
 {% for page in sticky %}
-	<article class="style{{ forloop.index | plus:1 }}">
+	<p>{{ styles }}</p>
+	{% if forloop.index > maxstyles %}
+		{% assign stylenum = forloop.index | minus: maxstyles %}
+		{% if stylenum > maxstyles %}
+			{% assign stylenum = stylenum | minus: maxstyles %}
+		{% endif %}
+	{% else %}
+		{% assign stylenum = forloop.index %}
+	{% endif %}
+	<article class="style{{ stylenum }}">
 		<span class="image">
-			<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
+			<img src="{{ 'images/nyu' | append: stylenum | append: '.jpg' | absolute_url }}" alt="" />
 		</span>
 		<a href="{{ page.url | absolute_url }}">
 			<h2>{{ page.title }}</h2>

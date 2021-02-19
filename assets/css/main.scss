@@ -6,7 +6,8 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 @import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900');
+// @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;800&display=swap');
 
 /*
 	Phantom by HTML5 UP
@@ -43,6 +44,10 @@
 		)
 	));
 
+// overrides
+
+	@import 'nyu-dh';
+
 // Base.
 
 	@import 'base/page';
@@ -67,3 +72,6 @@
 	@import 'layout/main';
 	@import 'layout/footer';
 	@import 'layout/wrapper';
+
+// Override.
+	@import 'nyu-dh';

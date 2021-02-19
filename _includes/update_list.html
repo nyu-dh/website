@@ -1,0 +1,39 @@
+<style>
+  table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0 !important;
+    padding: 0 0 1em 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    font-size: 100% !important;
+    vertical-align: middle !important;
+    background: transparent !important;
+    line-height: 150%;
+  }
+</style>
+
+<div class='updates'>
+  <table>
+    {% assign sorted_updates = site.data.update_list | reverse %}
+    {% for item in sorted_updates limit: include.limit %}
+      <tr>
+        <td>
+          <b>{{ item.date }}</b>
+        </td>
+
+        <td>&nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          <a href="{{ item.link | absolute_url }}">
+            {{ item.text }}
+          </a>
+
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+  {% if include.limit %}
+    <br>
+    <h4>
+      <a href="{{ '/updates' | absolute_url }}">View all</a>
+    </h4>
+  {% endif %}
+</div>
