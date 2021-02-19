@@ -13,6 +13,8 @@ logo-image-url: images/logo.png
 github_username: 'nyu-dh'
 twitter_username: 'nyu_dh'
 markdown: kramdown
+plugins:
+  - pagemaster
 
 collections:
   pages:
@@ -25,3 +27,10 @@ collections:
   uploads:
     title: Uploads
     output: true
+  projects:
+    title: Projects
+    output: true
+    permalink: "/:collection/:name"
+    layout: project
+    source: projects.yml
+    id_key: title

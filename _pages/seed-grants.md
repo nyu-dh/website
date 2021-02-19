@@ -10,22 +10,12 @@ The following projects are recipients of the inaugural round of Digital Humaniti
 
 ## 2020 DH Seed Grant Recipients
 
-{% for project in site.data.seed_grant_projects_2020 %}
-  <div class="project-card">
-    <h3>{{ project.title }}</h3>
-    <p>
-      <b>Principal Investigators:</b><br>
-      {% for pi in project.pis %}
-        {{ pi.name }}, {{ pi.title }}{% unless forloop.last %} & {% endunless %}
-      {% endfor %}
-    </p>
-    <p>
-      <b>Abstract:</b> {{ project.abstract | default: 'Coming Soon!' }}
-    </p>
-    {% if project.link %}
-    <p>
-      <b>Project Website: </b> <a href="{{ project.link | aabsolute_url }}">{{ project.link }}</a>
-    </p>
-    {% endif %}
-  </div>
+<ul>
+{% assign seeds2020 = site.projects | where: 'category', '2020 DH Seed Grant Recipient' %}
+{% for project in seeds2020 %}
+  <li>
+    <a href="{{ project.url | absolute_url }}"><b>{{ project.title }}</b></a><br>
+    {%- for pi in project.pis -%}{{ pi.name }}, {{ pi.title }}{% unless forloop.last %} & {% endunless %}{%- endfor -%}
+  </li>
 {% endfor %}
+</ul>
