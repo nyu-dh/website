@@ -112,3 +112,15 @@ $font: (
     z-index:-1;
     box-shadow: 0px 0px 8px .2em $text-color;
 }
+
+.project-card {
+  border-left: 1.5em solid;
+  padding: 1.5em;
+  background: white;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom, $accent3, $accent4);
+  margin: 1.5em 0 1.5em 0;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
