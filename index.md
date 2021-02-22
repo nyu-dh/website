@@ -5,7 +5,7 @@ sticky: true
 welcome_text: true
 ---
 
-<h2>Latest dispatches:</h2>
+## Latest dispatches:
 {% include update_list.html limit=5 %}
 
 {% include tiles.html %}

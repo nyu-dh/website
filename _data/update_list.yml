@@ -5,13 +5,13 @@
   text: "2020 NYU Digital Humanities Seed Grants have been awarded!"
 - date: 02/18/2021
   type: update
-  link: "https://nyu-dss.github.io/soul-of-reason"
+  link: "projects/raising-the-volume-amplifying-the-soul-of-reason"
   text: "\"Raising the Volume!\" amplifies the Soul of Reason radio collection through community events and data science."
 - date: 02/18/2021
   type: opportunity
-  link: "https://nyuhumanities.org/opportunity/digital-humanities-seed-grants/"
+  link: /seed-grants
   text: 'Apply for a 2021 NYU Digital Humanities Seed Grant.'
 - date: 02/18/2021
   type: opportunity
-  link: 'https://nyuhumanities.org/opportunity/digital-humanities-graduate-student-summer-fellowships/'
+  link: /fellowships
   text: 'Apply for a 2021 NYU Digital Humanities Graduate Student Summer Fellowship.'

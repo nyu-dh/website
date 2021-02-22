@@ -1,7 +1,7 @@
 <section class="tiles">
 {% assign sticky = site.pages | where: 'sticky', true | sort: 'order' %}
 {% assign maxstyles = 5 %}
-{% for page in sticky %}
+{% for page in sticky | limit: 6%}
 	<p>{{ styles }}</p>
 	{% if forloop.index > maxstyles %}
 		{% assign stylenum = forloop.index | minus: maxstyles %}
@@ -13,7 +13,7 @@
 	{% endif %}
 	<article class="style{{ stylenum }}">
 		<span class="image">
-			<img src="{{ 'images/nyu' | append: stylenum | append: '.jpg' | absolute_url }}" alt="" />
+			<img src="{{ 'images/nyu' | append: stylenum | append: '.jpg' | absolute_url }}" />
 		</span>
 		<a href="{{ page.url | absolute_url }}">
 			<p>{{ page.title }}</p>
