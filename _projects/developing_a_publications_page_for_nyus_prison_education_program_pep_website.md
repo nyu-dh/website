@@ -1,6 +1,7 @@
 ---
 title: Developing a 'Publications Page' for NYU’s Prison Education Program (PEP) Website
-category: 2020 DH Seed Grant Recipient
+category: DH Seed Grant Recipient
+year: '2020'
 pis:
 - name: Thomas Jacobs
   title: Clinical Assistant Professor, NYU Writing Center & PEP Faculty

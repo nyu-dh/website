@@ -1,6 +1,7 @@
 ---
 title: Brown Brothers Collection
-category: 2020 DH Seed Grant Recipient
+category: DH Seed Grant Recipient
+year: '2020'
 pis:
 - name: Thomas Augst
   title: Associate Professor, Department of English, Faculty of Arts and Science

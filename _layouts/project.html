@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+{% if page.category == 'DH Seed Grant Recipient' %}
+<a href="{{ '/seed-grants' | absolute_url }}">Back to Seed Grants</a>
+{% elsif page.category == 'DH Fellowship Recipient' %}
+<a href="{{ '/fellowships' | absolute_url }}">Back to Fellowships</a>
+{% endif %}
+
 <div class="project-card">
   <h1>{{ page.title }}</h3>
   <p>

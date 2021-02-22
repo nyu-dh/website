@@ -1,7 +1,8 @@
 ---
 title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
   Research
-category: 2020 DH Seed Grant Recipient
+category: DH Seed Grant Recipient
+year: '2020'
 pis:
 - name: Hilke Schellmann
   title: Assistant Professor, NYU Journalism

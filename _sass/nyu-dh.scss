@@ -124,3 +124,17 @@ $font: (
      -moz-box-shadow: 0 10px 6px -6px #777;
           box-shadow: 0 10px 6px -6px #777;
 }
+
+span.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+#results .title {
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+}

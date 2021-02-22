@@ -1,6 +1,7 @@
 ---
 title: The South African Jewish Cookbook Project
-category: 2020 DH Seed Grant Recipient
+category: DH Seed Grant Recipient
+year: '2020'
 pis:
 - name: Gavin Beinart-Smollan
   title: PhD Candidate, History / Hebrew and Judaic Studies, Graduate School of Arts
