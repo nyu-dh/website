@@ -7,33 +7,33 @@ description: "Here you'll find sit amet, consectetur adipiscing elit. Sed eu eli
 
 baseurl: ''
 url: 'https://nyu-dh.github.io'
+future: true
 
 permalink: pretty
 logo-image-url: images/logo.png
 github_username: 'nyu-dh'
 twitter_username: 'nyu_dh'
 markdown: kramdown
-plugins:
-  - pagemaster
 
 collections:
   pages:
     title: Pages
     output: true
+    permalink: "/:name"
   updates:
     title: Updates
     output: true
     permalink: "/:collection/:name"
-  uploads:
-    title: Uploads
+  events:
+    title: Events
     output: true
+    permalink: "/:collection/:name"
+    layout: events
   projects:
     title: Projects
     output: true
     permalink: "/:collection/:name"
     layout: project
-    source: projects.yml
-    id_key: title
 
 search:
   index: index.json

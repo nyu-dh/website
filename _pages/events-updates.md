@@ -11,5 +11,7 @@ Blurb about events and where they come from. Sed eu elit in diam congue vehicula
 
 Add calendar / link to calendar / link to mailing list?
 
+{% include event_list.html sticky=true %}
+
 ### Updates
-{% include update_list.html %}
+{% include update_list.html limit=10 %}

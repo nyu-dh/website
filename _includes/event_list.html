@@ -11,10 +11,12 @@
   }
 </style>
 
-<div class='updates'>
+<div class='events'>
   <table>
-    {% assign sorted_updates = site.data.update_list | reverse %}
-    {% for item in sorted_updates limit: include.limit %}
+    {{ site.events }}
+    {% assign sorted = site.events sort: date %}
+    {% if include.sticky %}{% assign sorted = sorted | where: 'sticky', true %}{% endif %}
+    {% for item in sorted %}
       <tr>
         <td>
           <b>{{ item.date | date: "%m/%d/%Y" }}</b>
@@ -22,16 +24,16 @@
 
         <td>&nbsp;&nbsp;&nbsp;➮&nbsp;&nbsp;&nbsp;</td>
         <td>
-          <a href="{{ item.link | absolute_url }}">
-            {{ item.text }}
+          <a href="{{ item.url | absolute_url }}">
+            {{ item.title }}
           </a>
 
         </td>
       </tr>
     {% endfor %}
   </table>
-  {% if include.limit %}
+  {% if include.sticky %}
     <br>
-    <p><a href="{{ '/update-archive' | absolute_url }}">View all</a></p>
+    <p><a href="{{ '/event-archive' | absolute_url }}">View all</a></p>
   {% endif %}
 </div>

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<a href="{{ '/events-updates' | absolute_url }}">Back to Events & Updates</a>
+
+
+<div class="project-card">
+  <h1>{{ page.title }}</h1>
+    <p>
+      <b>Date:</b>  {{ page.date | date: "%m/%d/%Y"  }}
+    </p>
+  <p>
+    <b>Location:</b>  {{ page.location }}
+  </p>
+  <p>
+    <b>Instructors:</b>  {{ page.instructors }}
+  </p>
+  <p>
+    <b>Description:</b> {{ page.description }}
+  </p>
+  {% if page.link %}
+  <p>
+    <b>Link: </b> <a href="{{ page.link | aabsolute_url }}">{{ page.link }}</a>
+  </p>
+  {% endif %}
+</div>
