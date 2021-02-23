@@ -2,6 +2,7 @@
 title: "Public Humanities Workshop Series 2: Engaging Communities Online"
 dates:
  - 2021-02-17
+ - 2021-02-19
 location: Remote
 instructors:
   - name: Jojo Karlin

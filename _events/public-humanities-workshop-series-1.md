@@ -2,6 +2,7 @@
 title: "Public Humanities Workshop Series 1: Establishing Your Online Presence"
 dates:
  - 2020-11-18
+ - 2020-11-20
 location: Remote
 instructors:
   - name: Jojo Karlin

@@ -7,19 +7,8 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class='definition-block'>
-    <div class='label'>Dates</div>
-    <div class='content'>
-      <ul>
-      {%- for date in page.dates -%}
-        <li>{{ date | date: "%m/%d/%Y"  }}</li>
-      {%- endfor -%}
-      </ul>
-    </div>
-  </div>
-
-  <div class='definition-block'>
-    <div class='label'>Location</div>
-    <div class='content'>{{ page.location }}</div>
+    <div class='label'>Description</div>
+    <div class='content'>{{ page.description }}</div>
   </div>
 
   <div class='definition-block'>
@@ -40,8 +29,19 @@ layout: default
   </div>
 
   <div class='definition-block'>
-    <div class='label'>Description</div>
-    <div class='content'>{{ page.description }}</div>
+    <div class='label'>Dates</div>
+    <div class='content'>
+      <ul>
+      {%- for date in page.dates -%}
+        <li>{{ date | date: "%m/%d/%Y"  }}</li>
+      {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+
+  <div class='definition-block'>
+    <div class='label'>Location</div>
+    <div class='content'>{{ page.location }}</div>
   </div>
 
   <div class='definition-block'>
@@ -54,4 +54,5 @@ layout: default
       </ul>
     </div>
   </div>
+
 </div>

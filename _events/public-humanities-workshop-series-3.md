@@ -2,6 +2,7 @@
 title: "Public Humanities Workshop Series 3: Bridging Communities with Digital Scholarship"
 dates:
  - 2021-04-14
+ - 2021-04-16
 location: Remote
 instructors:
   - name: Jojo Karlin

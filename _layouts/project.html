@@ -9,21 +9,44 @@ layout: default
 
 <div class="project-card">
   <h1>{{ page.title }}</h1>
-  <p>
-    <b>Category:</b>  {{ page.category }}
-  </p>
-  <p>
-    <b>Principal Investigators:</b><br>
-    {% for pi in page.pis %}
-      {{ pi.name }}, {{ pi.title }}{% unless forloop.last %} & {% endunless %}
-    {% endfor %}
-  </p>
-  <p>
-    <b>Abstract:</b> {{ page.abstract | default: 'Coming Soon!' }}
-  </p>
+
+  <div class='definition-block'>
+    <div class='label'>Abstract</div>
+    <div class='content'>
+      {{ page.abstract | default: 'Coming Soon!' }}
+    </div>
+  </div>
+
   {% if page.link %}
-  <p>
-    <b>Project Website: </b> <a href="{{ page.link | aabsolute_url }}">{{ page.link }}</a>
-  </p>
+  <div class='definition-block'>
+    <div class='label'>Project Website</div>
+    <div class='content'>
+      <a href="{{ page.link | aabsolute_url }}">{{ page.link }}</a>
+    </div>
+  </div>
   {% endif %}
+
+  <div class='definition-block'>
+    <div class='label'>Category</div>
+    <div class='content'>
+      {{ page.category }}
+    </div>
+  </div>
+
+  <div class='definition-block'>
+    <div class='label'>Principal Investigators</div>
+    <div class='content'>
+      <ul>
+      {% for pi in page.pis %}
+        <li>
+          {%- if pi.link -%}<a href="{{ i.link | absolute_url }}">{% endif %}
+          <b>{{ pi.name }}</b>
+          {%- if pi.link -%}</a>{% endif %}
+          <br>
+          {{ pi.title }}
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
