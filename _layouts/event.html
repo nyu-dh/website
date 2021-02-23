@@ -3,24 +3,55 @@ layout: default
 ---
 <a href="{{ '/events-updates' | absolute_url }}">Back to Events & Updates</a>
 
-
 <div class="project-card">
   <h1>{{ page.title }}</h1>
-    <p>
-      <b>Date:</b>  {{ page.date | date: "%m/%d/%Y"  }}
-    </p>
-  <p>
-    <b>Location:</b>  {{ page.location }}
-  </p>
-  <p>
-    <b>Instructors:</b>  {{ page.instructors }}
-  </p>
-  <p>
-    <b>Description:</b> {{ page.description }}
-  </p>
-  {% if page.link %}
-  <p>
-    <b>Link: </b> <a href="{{ page.link | aabsolute_url }}">{{ page.link }}</a>
-  </p>
-  {% endif %}
+
+  <div class='definition-block'>
+    <div class='label'>Dates</div>
+    <div class='content'>
+      <ul>
+      {%- for date in page.dates -%}
+        <li>{{ date | date: "%m/%d/%Y"  }}</li>
+      {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+
+  <div class='definition-block'>
+    <div class='label'>Location</div>
+    <div class='content'>{{ page.location }}</div>
+  </div>
+
+  <div class='definition-block'>
+    <div class='label'>Instructors</div>
+    <div class='content'>
+      <ul>
+      {%-  for i in page.instructors -%}
+        <li>
+          {%- if i.link -%}<a href="{{ i.link | absolute_url }}">{% endif %}
+          <b>{{ i.name }}</b>
+          {%- if i.link -%}</a>{% endif %}
+          <br>
+          {{ i.title }}
+        </li>
+      {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+
+  <div class='definition-block'>
+    <div class='label'>Description</div>
+    <div class='content'>{{ page.description }}</div>
+  </div>
+
+  <div class='definition-block'>
+    <div class='label'>Links</div>
+    <div class='content'>
+      <ul>
+      {% for link in page.links %}
+        <li><a href="{{ link.url | absolute_url }}">{{ link.label }}</a><li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>

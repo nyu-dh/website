@@ -1,17 +1,4 @@
-<style>
-  table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0 !important;
-    padding: 0 0 1em 0 !important;
-    border: 0 !important;
-    outline: 0 !important;
-    font-size: 100% !important;
-    vertical-align: middle !important;
-    background: transparent !important;
-    line-height: 150%;
-  }
-</style>
-
-<div class='updates'>
+<div class='updates table-list-block'>
   <table>
     {% assign sorted_updates = site.data.update_list | reverse %}
     {% for item in sorted_updates limit: include.limit %}
