@@ -15,27 +15,34 @@ DH at NYU is lots of people and lots of groups collaborating. Between its hand i
 ## Executive Committee
 
 {% assign committee = site.data.committee | sort: 'sort' %}
+<ul class="unstyled">
 {% for person in committee %}
-<p>
+  <li>
   {% if person.link %}<a href="{{ person.link | absolute_url }}">{% endif %}
     <b>{{ person.name }}</b>
   {% if person.link %}</a>{% endif %}<br>
   {% for role in person.roles %}
     {{ role.title }}, {{ role.unit }}{% unless forloop.last %} & {% endunless %}
   {% endfor %}
-</p>
+  </li>
 {% endfor %}
+</ul>
 
 <span class="anchor" id="project-pis"></span>
 ## Project PIs
 
-{% for project in site.projects %}
+<span class="anchor" id="project-pis-2020"></span>
+### 2020 Cohort
+{% assign projects2020 = site.projects | where: 'year', '2020' %}
+<ul class="unstyled">
+{% for project in projects2020 %}
   {% for person in project.pis %}
-  <p>
+  <li>
     <a href="{{ project.url | absolute_url }}">
       <b>{{ person.name }}</b>
     </a><br>
     {{ person.title }}
-  </p>
+  </li>
   {% endfor %}
 {% endfor %}
+</ul>
