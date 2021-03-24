@@ -15,4 +15,11 @@ abstract: Raising the Volume is a cross-departmental initiative to transform a h
   a graduate student project in the digital humanities.
 link: https://nyu-dss.github.io/soul-of-reason/
 layout: project
+news:
+  - label: 'Soul of Reason: Archiving a Historic 1970s Black and Latinx Radio Program'
+    category: Interview
+    link: 'https://wp.nyu.edu/connect/2021/03/16/soul-of-reason-black-and-latinx-radio-program/'
+  - label: '2020 DH Awards: Best Use of DH for Public Engagement'
+    category: Award Nomination
+    link: 'http://dhawards.org/dhawards2020/results/'
 ---

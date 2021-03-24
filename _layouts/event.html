@@ -14,7 +14,7 @@ layout: default
   <div class='definition-block'>
     <div class='label'>Instructors</div>
     <div class='content'>
-      <ul>
+      <ul class="unstyled">
       {%-  for i in page.instructors -%}
         <li>
           {%- if i.link -%}<a href="{{ i.link | absolute_url }}">{% endif %}
@@ -31,7 +31,7 @@ layout: default
   <div class='definition-block'>
     <div class='label'>Dates</div>
     <div class='content'>
-      <ul>
+      <ul class="unstyled">
       {%- for date in page.dates -%}
         <li>{{ date | date: "%m/%d/%Y"  }}</li>
       {%- endfor -%}
@@ -47,7 +47,7 @@ layout: default
   <div class='definition-block'>
     <div class='label'>Links</div>
     <div class='content'>
-      <ul>
+      <ul class="unstyled">
       {% for link in page.links %}
         <li><a href="{{ link.url | absolute_url }}">{{ link.label }}</a><li>
       {% endfor %}

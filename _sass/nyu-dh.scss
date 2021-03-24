@@ -152,10 +152,8 @@ $font: (
     padding-bottom: 1em;
 
     ul {
-      list-style-type: none;
       padding: 0;
       margin: 0;
-      text-indent: 0;
     }
 
     li {
@@ -193,5 +191,15 @@ span.anchor {
     vertical-align: middle !important;
     background: transparent !important;
     line-height: 150%;
+  }
+}
+li {
+  padding-bottom: .5em;
+}
+ul.unstyled {
+  list-style-type: none;
+  padding-left: 0;
+  li {
+    padding-left: 0;
   }
 }

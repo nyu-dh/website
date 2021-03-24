@@ -36,7 +36,7 @@ layout: default
   <div class='definition-block'>
     <div class='label'>Principal Investigators</div>
     <div class='content'>
-      <ul>
+      <ul class="unstyled">
       {% for pi in page.pis %}
         <li>
           {%- if pi.link -%}<a href="{{ i.link | absolute_url }}">{% endif %}
@@ -49,4 +49,21 @@ layout: default
       </ul>
     </div>
   </div>
+
+  {% if page.news %}
+  <div class='definition-block'>
+    <div class='label'>Project News</div>
+    <div class='content'>
+      <ul class="unstyled">
+      {% for item in page.news %}
+        <li>
+          {% if item.link %}<a href="{{ item.link | absolute_url }}">{% endif %}
+          {{ item.label }}
+          {% if item.link %}</a>{% endif %}{% if item.category %} ({{ item.category }}){% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endif %}
 </div>
