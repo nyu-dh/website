@@ -1,5 +1,5 @@
 ---
-title: 'Raising the Volume: Amplifying the Soul of Reason'
+title: 'Raising the Volume: Amplifying Soul of Reason'
 category: DH Seed Grant Recipient
 year: '2020'
 pis:
