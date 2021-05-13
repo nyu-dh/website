@@ -14,7 +14,7 @@ DH at NYU is lots of people and lots of groups collaborating. Between its hand i
 <span class="anchor" id="executive-committee"></span>
 ## Executive Committee
 
-{% assign committee = site.data.committee | sort: 'sort' %}
+{% assign committee = site.data.committee | sort: 'sort' | reverse %}
 <ul class="unstyled">
 {% for person in committee %}
   <li>
