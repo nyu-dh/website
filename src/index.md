@@ -1,7 +1,6 @@
 ---
 title: Home
 layout: default
-sticky: true
 welcome_text: true
 ---
 

@@ -1,9 +1,6 @@
 ---
 title: People
 layout: page
-order: '1'
-sticky: true
-permalink: "/people"
 ---
 DH at NYU is lots of people and lots of groups collaborating. Between its hand in humanities computing since the 70s, its long tradition of interdisciplinary exploration, and its global mission, NYU runs the gamut of Digital Humanities modes and models. The key to DH at NYU is, and has long been, the diverse array of people exploring data, networking scholarship, and creatively coding.
 

@@ -1,6 +1,5 @@
 <div class='events table-list-block'>
   <table>
-    {{ site.events }}
     {% assign sorted = site.events sort: dates.first %}
     {% if include.sticky %}{% assign sorted = sorted | where: 'sticky', true %}{% endif %}
     {% for item in sorted %}

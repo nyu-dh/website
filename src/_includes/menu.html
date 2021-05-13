@@ -12,9 +12,8 @@
 	<div class="topnav-wrap gradient">
 		<div class="inner">
 			<div class="topnav">
-				{% assign sticky = site.pages | where: 'sticky', true | sort: 'order' %}
-				{% for page in sticky %}
-				<a class="topnav-right" href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a>
+				{% for item in site.menu %}
+				<a class="topnav-right" href="{{ item.link | absolute_url }}">{{ item.label }}</a>
 				{% endfor %}
 			</div>
 		</div>

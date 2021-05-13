@@ -1,9 +1,6 @@
 ---
-title: Curriculum
+title: Advanced Certificate in Digital Humanities
 layout: page
-order: '4'
-sticky: true
-permalink: "/in-the-classroom"
 ---
 NYU offers points of entry to DH by way of training at various levels in a range of tools and methods. From one-off workshops to registered courses to graduate certificate programs, NYU is here to help researchers find the assistance they need.
 

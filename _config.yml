@@ -8,6 +8,7 @@ description: "Here you'll find sit amet, consectetur adipiscing elit. Sed eu eli
 baseurl: ''
 url: 'https://nyu-dh.github.io'
 future: true
+source: src
 
 permalink: pretty
 logo-image-url: images/logo.png
@@ -15,24 +16,34 @@ github_username: 'nyu-dh'
 twitter_username: 'nyu_dh'
 markdown: kramdown
 
+menu:
+  - label: People
+    link: '/people/'
+  - label: Projects
+    link: '/projects/'
+  - label: Funding
+    link: '/funding/'
+  - label: Certificate Program
+    link: '/certificate/'
+  - label: Consultations & Resources
+    link: '/consultations-and-resources/'
+  - label: Get Involved
+    link: '/get-involved/'
+
 collections:
-  pages:
-    title: Pages
-    output: true
-    permalink: "/:name"
   updates:
     title: Updates
     output: true
-    permalink: "/:collection/:name"
+    # permalink: "/:collection/:name"
   events:
     title: Events
     output: true
-    permalink: "/:collection/:name"
+    # permalink: "/:collection/:name"
     layout: events
   projects:
     title: Projects
     output: true
-    permalink: "/:collection/:name"
+    # permalink: "/:collection/:name"
     layout: project
 
 search:

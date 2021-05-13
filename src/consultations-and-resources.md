@@ -1,15 +1,9 @@
 ---
-title: Resources
+title: Consultations and Resources
 layout: page
-order: '5'
-sticky: true
-permalink: "/resources"
 ---
 
 Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Mauris eget sem mauris. Nam vel pretium nunc. Pellentesque fringilla, orci et venenatis dictum, diam magna rhoncus justo, ac tristique metus erat id dolor. Phasellus placerat rutrum molestie. Short paragraph about how resource come from lots of places (IT, DoL, Studio, Humanities Center, etc.)
-
-## Funding
-- Seed grants
 
 ## Consultations
 - Digital Scholarship Services
