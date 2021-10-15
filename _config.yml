@@ -17,8 +17,8 @@ twitter_username: 'nyu_dh'
 markdown: kramdown
 
 menu:
-  - label: People
-    link: '/people/'
+  - label: About Us
+    link: '/about-us/'
   - label: Projects
     link: '/projects/'
   - label: Funding
