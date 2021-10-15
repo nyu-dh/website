@@ -19,8 +19,8 @@ jobs:
         run: bundle exec jekyll pagemaster --force projects events
       - name: build
         run: bundle exec rake build
-      - name: test
-        run: bundle exec rake test
+      # - name: test
+      #   run: bundle exec rake test
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
