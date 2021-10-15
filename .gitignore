@@ -3,3 +3,8 @@
 _site/
 .jekyll-cache
 .DS_Store
+_projects
+_events
+
+# local gems
+pagemaster

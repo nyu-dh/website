@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/mnyrop/pagemaster.git
+  revision: 2f3701ef809580e571682e420e94e0f7e29a7dca
+  branch: bug/jekyll-source-dir
+  specs:
+    pagemaster (2.1.2)
+      jekyll (~> 4)
+      rainbow (~> 3.0)
+      safe_yaml (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -58,10 +68,6 @@ GEM
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
-    pagemaster (2.1.2)
-      jekyll (~> 4)
-      rainbow (~> 3.0)
-      safe_yaml (~> 1.0)
     parallel (1.20.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -90,7 +96,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll (~> 4.1)
-  pagemaster
+  pagemaster!
   rake
 
 BUNDLED WITH

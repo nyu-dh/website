@@ -32,18 +32,16 @@ menu:
 
 collections:
   updates:
-    title: Updates
     output: true
-    # permalink: "/:collection/:name"
   events:
-    title: Events
+    source: events.yml
+    id_key: title
     output: true
-    # permalink: "/:collection/:name"
-    layout: events
+    layout: event
   projects:
-    title: Projects
+    source: projects.yml
+    id_key: title
     output: true
-    # permalink: "/:collection/:name"
     layout: project
 
 search:

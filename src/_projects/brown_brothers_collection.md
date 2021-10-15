@@ -8,7 +8,7 @@ pis:
 abstract: The Brown Brothers Collection is a collaborative, cross-institutional research
   project that will develop robust teaching, research, and public humanities resources
   that leverage the digitized Brown Brothers & Company archives held by the New York
-  Public Library.  Founded in 1825 by Irish immigrants, this New York bank remains
+  Public Library. Founded in 1825 by Irish immigrants, this New York bank remains
   in operation as one of the largest private financial services firms in the city,
   Brown Brothers Harriman. An initial phase of collection’s digitization was recently
   completed with support from a Hidden Archives grant. We anticipate many kinds of
