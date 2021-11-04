@@ -5,7 +5,7 @@
       <div class="media">
         <div class="media-left">
           <figure class="image is-64x64">
-            <img src="{{ project.img | default: 'https://bulma.io/images/placeholders/64x64.png' }} " alt="{{ project.title }} image">
+            <img src="{{ project.img | absolute_url | default: 'https://bulma.io/images/placeholders/64x64.png' }} " alt="{{ project.title }} image">
           </figure>
         </div>
         <div class="media-content">

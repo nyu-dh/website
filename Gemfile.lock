@@ -74,6 +74,10 @@ GEM
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
+    pagemaster (2.1.2)
+      jekyll (~> 4)
+      rainbow (~> 3.0)
+      safe_yaml (~> 1.0)
     parallel (1.21.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -103,6 +107,7 @@ DEPENDENCIES
   html-proofer
   jekyll (= 4.2)
   nyu-dh-theme!
+  pagemaster
   rake
 
 BUNDLED WITH
