@@ -10,8 +10,8 @@ description: "Here you'll find sit amet, consectetur adipiscing elit. Sed eu eli
 baseurl: ''
 url: ''
 future: true
+show_footer: true
 source: src
-show_footer: false
 
 permalink: pretty
 logo-image-url: images/logo.png
