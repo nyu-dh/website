@@ -2,7 +2,7 @@
 title: Affiliated Faculty
 layout: default
 breadcrumbs:
-  - link: /people/
+  - link: /about-us#people
     name: People
 ---
 

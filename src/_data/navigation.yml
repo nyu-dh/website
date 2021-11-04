@@ -1,6 +1,6 @@
 
-- name: People
-  link: /people
+- name: About Us
+  link: /about-us
 - name: Funding
   dropdown:
     - name: Faculty Seed Grant Program

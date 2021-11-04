@@ -2,7 +2,7 @@
 title: Executive Committee
 layout: default
 breadcrumbs:
-  - link: /people/
+  - link: /about-us#people
     name: People
 ---
 
