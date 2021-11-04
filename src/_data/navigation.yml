@@ -1,0 +1,27 @@
+
+- name: People
+  link: /people
+- name: Funding
+  dropdown:
+    - name: Faculty Seed Grant Program
+      link: /funding/seed-grants
+    - name: Graduate Fellowship Program
+      link: /funding/grad-student-fellowships
+- name: Projects
+  dropdown:
+  - name: DH Seed Grant Projects
+    link: /projects/seed-grants
+  - name: DH Graduate Fellowship Projects
+    link: /projects/grad-fellows
+  - name: All Projects
+    link: /projects/all
+- name: Certificate Program
+  link: /certificate
+- name: Resources
+  dropdown:
+    - name: Staff Consultations
+      link: /resources/consultations
+    - name: High Performance Computing
+    - name: Web Hosting
+    - name: Communication + Events
+      link: /resources/communication-and-events

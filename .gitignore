@@ -1,10 +1,5 @@
-*~
+_site
 .sass-cache
-_site/
 .jekyll-cache
-.DS_Store
-_projects
-_events
-
-# local gems
-pagemaster
+.jekyll-metadata
+vendor

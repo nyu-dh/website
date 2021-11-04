@@ -1,48 +1,20 @@
----
-title: DH@NYU
+theme: nyu-dh-theme
+tagline: 'Digital Humanities at New York University'
+fixed_navbar: true
+
+title: nyu/dh
 timezone: UTC
 email: dh.help@nyu.edu
-long_title: "Welcome to Digital Humanities at <br>New York University."
 description: "Here you'll find sit amet, consectetur adipiscing elit. Sed eu elit in diam congue vehicula non sed magna. Aenean sit amet odio auctor, bibendum est eget, ultricies justo. Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Phasellus placerat rutrum molestie."
 
 baseurl: ''
-url: 'https://nyu-dh.github.io'
+url: ''
 future: true
 source: src
+show_footer: false
 
 permalink: pretty
 logo-image-url: images/logo.png
 github_username: 'nyu-dh'
 twitter_username: 'nyu_dh'
 markdown: kramdown
-
-menu:
-  - label: About Us
-    link: '/about-us/'
-  - label: Projects
-    link: '/projects/'
-  - label: Funding
-    link: '/funding/'
-  - label: Certificate Program
-    link: '/certificate/'
-  - label: Consultations & Resources
-    link: '/consultations-and-resources/'
-  - label: Get Involved
-    link: '/get-involved/'
-
-collections:
-  updates:
-    output: true
-  events:
-    source: events.yml
-    id_key: title
-    output: true
-    layout: event
-  projects:
-    source: projects.yml
-    id_key: title
-    output: true
-    layout: project
-
-search:
-  index: index.json

@@ -1,0 +1,23 @@
+<div class="tile is-ancestor is-flex-wrap-wrap">
+  {% for person in include.data %}
+  <div class="tile is-parent is-4">
+    <div class="tile is-child box">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-64x64">
+            <img src="{{ person.image | default: 'https://bulma.io/images/placeholders/64x64.png' }} " alt="{{ person.name }} image">
+          </figure>
+        </div>
+        <div class="media-content">
+          <p class="title is-6">{{ person.name }}</p>
+          <p class="subtitle is-7 pt-1">{{ person.titles }}
+          {% if person.link %}
+            &nbsp;&nbsp;<a href="{{ person.link | absolute_url }}"><i class="fas fa-external-link-alt"></i></a>
+          {% endif %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

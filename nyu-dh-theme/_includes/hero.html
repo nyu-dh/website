@@ -1,0 +1,21 @@
+<section class="hero is-primary border-gradient">
+  <div class="hero-body">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <div class="container">
+        <ul>
+          {% unless page.url == '/' %}<li><a href="{{ '/' | absolute_url }}">Home </a></li>{% endunless %}
+          {% for crumb in page.breadcrumbs %}
+          <li><a href="{{ crumb.link | absolute_url }}">{{ crumb.name }}</a></li>
+          {% endfor %}
+          <li></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <p class="title">{{ page.title }}</p>
+      {% if page.subtitle %}
+        <p class="subtitle pt-3">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>'  }}</p>
+      {% endif %}
+    </div>
+  </div>
+</section>

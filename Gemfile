@@ -1,12 +1,8 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.1'
+gem 'jekyll', '4.2'
+gem 'nyu-dh-theme', path: 'nyu-dh-theme'
 
 group :jekyll_plugins do
-  gem 'pagemaster', github: 'mnyrop/pagemaster', branch: 'bug/jekyll-source-dir'
-end
-
-group :test do
-  gem 'html-proofer'
-  gem 'rake'
+  gem 'jekyll-feed', '~> 0.12'
 end
