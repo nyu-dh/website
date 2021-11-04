@@ -7,7 +7,7 @@ cards:
     link: 'funding/seed-grants'
   - name: Graduate Student Fellowship Program
     description: 'Learn more about the people behind the seed grants and other projects.'
-    link: 'funding/grad-fellowships'
+    link: 'funding/grad-student-fellowships'
 ---
 
 <div class="columns is-multiline">

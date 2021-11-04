@@ -13,6 +13,7 @@ cards:
   - name: Planning + Initiatives...
     description: "happen through the <a href='/people/executive-committee'>DH Initiative Technology Committee</a> run through, and through the <a href='#TO-DO'>Digital Humanities Faculty Steering Committee</a>."
 ---
+
 <div class="content">
 The shared community at DH at NYU is created by a number of different organizations working in tandem.
 </div>

@@ -1,0 +1,27 @@
+
+name: ci:test
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      BASEURL: ''
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: generate pages from data
+        run: bundle exec jekyll pagemaster --force projects events
+      - name: build
+        run: bundle exec rake build
+      - name: test
+        run: bundle exec rake test
