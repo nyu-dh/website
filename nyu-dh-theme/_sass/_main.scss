@@ -1,0 +1,142 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+$family-sans-serif: 'DM Sans', sans-serif;
+$family-alt: 'Arvo', serif;
+
+$info: #57068C !default;
+$primary: #8806ce !default;
+$secondary: #CAFFD0 !default;
+$tertiary:  #220337 !default;
+$background: #EAEAEA !default;
+$bonus: #2E0219 !default;
+$text: #050404 !default;
+$link: $primary !default;
+$link-hover: $tertiary !default;
+
+$tabs-link-active-color: $primary;
+$tabs-link-active-border-bottom-color: $primary;
+
+$modal-content-width: 800px;
+
+@import "../node_modules/bulma/bulma.sass";
+$hero-darken: $dark !default;
+
+@import "layout";
+@import "syntax";
+@import "showcase";
+@import "../node_modules/bulma-block-list/src/block-list.scss";
+
+body, html {
+  font-size: 1.05rem;
+  line-height: 1.75em;
+}
+
+.title {
+  max-width: 25ch;
+  letter-spacing: .05em;
+  font-size: 2.25rem;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+  border-color: white;
+}
+
+.hero-body {
+  padding: 4rem 4rem;
+}
+
+.navbar.is-primary
+.navbar-brand >
+.navbar-item,
+.navbar.is-primary
+.navbar-brand .navbar-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .05rem;
+}
+
+.container {
+  max-width: 900px !important;
+}
+
+.content {
+  max-width: 60ch;
+}
+
+.border-gradient {
+  border-bottom: solid;
+  border-image-slice: 1;
+  border-width: .8rem;
+  border-image-source: linear-gradient(to left, $secondary, $tertiary);
+}
+
+::selection {
+  background: $secondary;
+  color: $text;
+}
+::-moz-selection {
+  background: $secondary;
+  color: $text;
+}
+
+.is-secondary {
+  color: $secondary !important;
+}
+
+.is-tertiary {
+  color: $tertiary !important;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.color-tiles {
+  .is-child {
+    .title {
+      color: $secondary;
+    }
+    .subtitle {
+      color: $white !important;
+      font-size: .9rem;
+      line-height: 1.25rem;
+    }
+
+    a {
+      color: $white !important;
+      font-weight: bold;
+      text-decoration: underline;
+      &:hover {
+        color: $white !important;
+        text-decoration: none;
+      }
+    }
+  }
+  .color-0, .color-4 {
+    background-color: $bonus;
+  }
+  .color-1 {
+    background-color: $tertiary;
+  }
+  .color-2 {
+    background-color: $info;
+  }
+  .color-3 {
+    background-color: #4A3F5C;
+  }
+}
+
+.hero.is-primary .subtitle a {
+  text-decoration: underline;
+  font-weight: bold;
+  &:hover {
+    text-decoration: none;
+  }
+}
