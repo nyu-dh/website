@@ -8,7 +8,7 @@ breadcrumbs:
 
 ### Communication
 
-Anyone can join the [NYUDH mailing listserv](https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1) to learn about DH courses, events, and student employment opportunities at NYU. We also have an NYU DH Slack channel for NYU affiliates only. You can request an invite to the Slack via **Google Form**. (TO-DO: ADD LINK)
+Anyone can join the [NYUDH mailing listserv](https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1) to learn about DH courses, events, and student employment opportunities at NYU. We also have an NYU DH Slack channel for NYU affiliates only. You can request an invite to the Slack via [**Google Form**](https://forms.gle/kzxyJLetPz4pGGY78). 
 
 If you have specific questions, you can reach out to dh (dot) help (at) nyu (dot) edu or fill out the [consultation request form](https://nyu.qualtrics.com/jfe/form/SV_2srvrbNYpL05GW9) for NYU Libraries’ Digital Scholarship Services (DSS).
 
