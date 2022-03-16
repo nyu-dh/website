@@ -1,21 +1,44 @@
-<section class="hero is-primary border-gradient">
+{% if page.home %}
+<style>
+  .home-hero {
+    max-height: 80vh;
+    overflow-x: scroll;
+    background-image: linear-gradient(to bottom, rgba(34, 3, 55, 0.68), rgba(34, 3, 55, 0.68)), url("{{ '/assets/images/coding-2(1).png' | absolute_url }}");
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+  }
+</style>
+<section class="home-hero hero is-primary border-gradient">
+
   <div class="hero-body">
-    <nav class="breadcrumb" aria-label="breadcrumbs">
-      <div class="container">
-        <ul>
-          {% unless page.url == '/' %}<li><a href="{{ '/' | absolute_url }}">Home </a></li>{% endunless %}
-          {% for crumb in page.breadcrumbs %}
-          <li><a href="{{ crumb.link | absolute_url }}">{{ crumb.name }}</a></li>
-          {% endfor %}
-          <li></li>
-        </ul>
-      </div>
-    </nav>
     <div class="container">
-      <p class="title">{{ page.title }}</p>
-      {% if page.subtitle %}
-        <p class="subtitle pt-3">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>'  }}</p>
-      {% endif %}
+      <div class="content">
+        <h1 class="title" style="padding-bottom:1rem">{{ site.full_title }}</h1>
+        <p class="subtitle">{{ site.tagline }}</p>
+      </div>
     </div>
   </div>
 </section>
+{% else %}
+  <section class="hero is-primary border-gradient">
+    <div class="hero-body">
+      <nav class="breadcrumb" aria-label="breadcrumbs">
+        <div class="container">
+          <ul>
+            {% for crumb in page.breadcrumbs %}
+            <li><a href="{{ crumb.link | absolute_url }}">{{ crumb.name }}</a></li>
+            {% endfor %}
+            <li></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <p class="title">{{ page.title }}</p>
+        {% if page.subtitle %}
+          <p class="subtitle pt-3">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>'  }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+{% endif %}

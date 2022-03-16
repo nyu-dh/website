@@ -1,36 +1,50 @@
-<nav class="navbar is-spaced is-info {% if site.fixed_navbar %} is-fixed-top{% endif %}" x-data="{ openNav: false }">
+<nav class="navbar is-black">
+  <div class="container" style="display:flex;justify-content:space-between;padding-top:.5rem;flex-wrap:wrap;">
+    <a class="logo" href="{{ '/' | absolute_url }}">
+      <h1 class="is-size-6" style="white-space: nowrap;">
+        <img src="{{ 'assets/images/torch.png' | absolute_url }}" alt="Logo" width="60" style="vertical-align:middle;">
+        <span style="color:white;vertical-align:middle;">DH</span>
+      </h1>
+    </a>
+    <div class="unit-menu" style="display:flex;flex-wrap:wrap;">
+      {% if site.data.navigation %}
+        {% for item in site.data.units %}
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="{{ item.link }}" style="font-size:1rem;color:white" class="unit-item is-size-7">{{ item.name }}</a>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar is-spaced is-info" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      <a href="{{ site.baseurl }}/" class="navbar-item is-size-4">
-        nyu<span class="is-secondary">/</span>dh
-      </a>
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
+      <span class="navbar-burger" style="color:white;" data-target="navbar" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
     </div>
-    <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
-
-      <div class="navbar-end">
+    <div class="navbar-menu">
+      <div class="navbar-start">
         {% if site.data.navigation %}
-        {% for item in site.data.navigation %}
-        {% if item.dropdown %}
-        <div class="navbar-item is-size-6 has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
-          <a href="{{ item.link | relative_url }}" class="navbar-link {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
-          <div class="navbar-dropdown">
-            {% for subitem in item.dropdown %}
-            <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
-            {% endfor %}
-          </div>
-        </div>
-        {% else %}
-        <a href="{{ item.link | relative_url }}" class="navbar-item is-size-6 {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
-        {% endif %}
-        {% endfor %}
+          {% for item in site.data.navigation %}
+            {% if item.dropdown %}
+            <div class="navbar-item is-size-5 has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
+              <a href="{{ item.link | relative_url }}" class="navbar-link {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
+              <div class="navbar-dropdown">
+                {% for subitem in item.dropdown %}
+                <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+                {% endfor %}
+              </div>
+            </div>
+            {% else %}
+            <a href="{{ item.link | relative_url }}" class="navbar-item is-size-5 {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
+            {% endif %}
+          {% endfor %}
         {% endif %}
       </div>
-
     </div>
   </div>
 </nav>

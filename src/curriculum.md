@@ -1,5 +1,5 @@
 ---
-title: Advanced Certificate in Digital Humanities
+title: Curriculum
 layout: page
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Funding Opportunities
+title: Grants & Fellowships
 layout: page
 cards:
   - name: Faculty Seed Grant Program

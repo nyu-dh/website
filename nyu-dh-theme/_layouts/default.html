@@ -2,7 +2,8 @@
 layout: none
 ---
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en' }}" class="has-navbar-fixed-top">
+<!--class="has-navbar-fixed-top"-->
+<html lang="{{ site.lang | default: 'en' }}">
   {% include head.html %}
   <body>
     {% include header.html %}
@@ -11,7 +12,7 @@ layout: none
     {% endunless %}
     <section class="section">
       <div class="container">
-        {{ content }}
+        {{ content | markdownify }}
       </div>
     </section>
     {% unless page.hide_footer %}

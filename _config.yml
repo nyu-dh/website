@@ -1,8 +1,8 @@
 theme: nyu-dh-theme
-tagline: 'Digital Humanities at New York University'
-fixed_navbar: true
 
-title: nyu/dh
+title: 'NYU DH'
+full_title: 'NYU Digital Humanities'
+tagline: Researchers in the digital humanities at NYU advance the humanities by developing new ways of using technology to create and publish research, and sharpen our understanding of the digital world by interpreting computational cultures in new ways.
 timezone: UTC
 email: dh.help@nyu.edu
 description: "Here you'll find sit amet, consectetur adipiscing elit. Sed eu elit in diam congue vehicula non sed magna. Aenean sit amet odio auctor, bibendum est eget, ultricies justo. Phasellus aliquam diam nec purus tincidunt lacinia. Duis eu porta enim, a fermentum eros. Phasellus placerat rutrum molestie."
@@ -10,7 +10,7 @@ description: "Here you'll find sit amet, consectetur adipiscing elit. Sed eu eli
 baseurl: ''
 url: ''
 future: true
-show_footer: true
+show_footer: false
 source: src
 
 permalink: pretty
