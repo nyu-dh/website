@@ -15,7 +15,7 @@ cards:
     description: "happen through the <a href='/people/executive-committee'>DH Initiative Technology Committee</a> run through, and through the <a href='#TO-DO'>Digital Humanities Faculty Steering Committee</a>."
 ---
 
-<div class="tile is-ancestor">
+<div class="tile is-ancestor" style="margin-top:-22vh">
   <div class="tile is-vertical is-8">
     <div class="tile">
       <div class="tile is-parent is-vertical">

@@ -13,4 +13,6 @@ cards:
     link: 'people/affiliated-faculty'
 ---
 
-{% include custom/simple-cards.html cards=page.cards %}
+<!-- {% assign people = site.data.people | where_exp: "p", "p.site_roles contains 'proj_pi'" %} -->
+
+{% include custom/people-cards.html data=site.data.people %}

@@ -3,17 +3,13 @@
 - name: Get Involved
   link: '/get-involved'
 - name: Curriculum
-  dropdown:
-    - name: Cerificate
-      link: ''
-    - name: Courses
-      link: ''
+  link: '/curriculum'
 - name: Grants & Fellowships
   dropdown:
     - name: Faculty Seed Grants
-      link: ''
+      link: '/funding/seed-grants'
     - name: Graduate Fellowships
-      link: ''
+      link: '/funding/grad-fellowships'
 - name: People
   link: '/people'
 - name: Projects
