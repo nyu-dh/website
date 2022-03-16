@@ -10,7 +10,7 @@ email: dh.help@nyu.edu
 baseurl: ''
 url: ''
 future: true
-show_footer: false
+show_footer: true
 source: src
 
 permalink: pretty
@@ -18,3 +18,17 @@ logo-image-url: images/logo.png
 github_username: 'nyu-dh'
 twitter_username: 'nyu_dh'
 markdown: kramdown
+
+collections:
+  news:
+    output: true
+
+collections:
+  news:
+    output: true
+
+defaults:
+  - scope:
+      type: news
+    values:
+      layout: page

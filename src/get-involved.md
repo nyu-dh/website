@@ -1,6 +1,6 @@
 ---
 title: Get Involved
-layout: page
+layout: default
 cards:
   - name: Staff Consultations
     description: Find and identify resources is to ask for a consultation with one of the support groups.
@@ -10,7 +10,7 @@ cards:
     link: ''
   - name: News
     description: Read news about DH at NYU
-    link: ''
+    link: '/news'
 
 ---
 

@@ -13,6 +13,6 @@ cards:
     link: ''
   - name: Communication + Events
     description: ''
-    link: 'recources/communication-and-events'
+    link: 'resources/communication-and-events'
 ---
 {% include custom/simple-cards.html cards=page.cards %}

@@ -1,0 +1,27 @@
+<div class="columns is-multiline">
+  {% for item in include.data | limit: include.limit %}
+    <div class="column is-one-third">
+      <div class="card" style="height:100%">
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-size-4">
+                <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>
+              </p>
+              <p class="subtitle is-size-7" style="padding-top:.5rem;">
+                <time datetime="{{ item.date }}">{{ item.date | date: "%B %d, %Y" | upcase }}</time>
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <p class="is-size-6" style="line-height:1.3rem">{{ item.abstract | truncatewords: 20 }}</p>
+          </div>
+
+          <a href="{{ item.url | absolute_url }}" style="position:absolute;right:1rem;bottom:1rem;">
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

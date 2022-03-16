@@ -1,8 +1,7 @@
 {% if page.home %}
 <style>
   .home-hero {
-    max-height: 80vh;
-    overflow-x: scroll;
+    margin-bottom: -6rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("{{ '/assets/images/coding-2(1).png' | absolute_url }}");
     background-size: cover;
     background-position: bottom center;
@@ -11,10 +10,10 @@
 </style>
 <section class="home-hero hero is-primary border-gradient is-medium">
   <div class="hero-body">
-    <div class="container">
-      <div class="content">
-        <h1 class="title" style="padding-bottom:1rem">{{ site.full_title }}</h1>
-        <p class="subtitle">{{ site.tagline }}</p>
+    <div class="container has-text-centered" style="margin:auto">
+      <div class="content" style="margin:auto">
+        <h1 class="title" style="padding-bottom:1rem;margin:auto">{{ site.full_title }}</h1>
+        <p class="subtitle" style="margin:auto">{{ site.tagline }}</p>
       </div>
     </div>
   </div>
@@ -32,11 +31,13 @@
           </ul>
         </div>
       </nav>
-      <div class="container">
-        <p class="title">{{ page.title }}</p>
-        {% if page.subtitle %}
-          <p class="subtitle pt-3">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>'  }}</p>
-        {% endif %}
+      <div class="container has-text-centered" style="margin:auto">
+        <div class="content" style="margin:auto">
+          <p class="title" style="margin:auto">{{ page.title }}</p>
+          {% if page.subtitle %}
+            <p class="subtitle pt-3" style="margin:auto">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>'  }}</p>
+          {% endif %}
+        </div>
       </div>
     </div>
   </section>
