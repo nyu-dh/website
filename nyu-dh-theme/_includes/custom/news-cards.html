@@ -1,5 +1,6 @@
+{% assign data = include.data | sort: 'featureUntil' | reverse %}
 <div class="columns is-multiline">
-  {% for item in include.data | limit: include.limit %}
+  {% for item in data | limit: include.limit %}
     <div class="column is-one-third">
       <div class="card" style="height:100%">
         <div class="card-content">
@@ -9,7 +10,8 @@
                 <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>
               </p>
               <p class="subtitle is-size-7" style="padding-top:.5rem;">
-                <time datetime="{{ item.date }}">{{ item.date | date: "%B %d, %Y" | upcase }}</time>
+                <time datetime="{{ item.date }}">{{ item.date | date: "%B %d, %Y" | upcase }}</time><br>
+                { FEATURED UNTIL <time datetime="{{ item.featureUntil }}">{{ item.featureUntil | date: "%b %d, %Y" | upcase }}</time> }
               </p>
             </div>
           </div>
