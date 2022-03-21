@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '4.2'
-gem 'nyu-dh-theme', path: 'nyu-dh-theme'
+gem 'nyu-dh-theme', path: 'theme'
 
 group :development, :test do
   gem 'html-proofer'

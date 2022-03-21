@@ -1,5 +1,3 @@
-theme: nyu-dh-theme
-
 title: 'NYU DH'
 full_title: 'NYU Digital Humanities'
 tagline: >
@@ -11,7 +9,8 @@ baseurl: ''
 url: ''
 future: true
 show_footer: true
-source: src
+source: source
+theme: nyu-dh-theme
 
 permalink: pretty
 logo-image-url: images/logo.png

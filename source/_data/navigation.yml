@@ -1,0 +1,20 @@
+- name: Home
+  link: '/'
+- name: Get Involved
+  link: '/get-involved'
+- name: Curriculum
+  dropdown:
+    - name: Certificate Program
+      link: '/curriculum/certificate'
+    - name: Courses
+      link: '/curriculum/courses'
+- name: Grants & Fellowships
+  dropdown:
+    - name: Faculty Seed Grants
+      link: '/funding/seed-grants'
+    - name: Graduate Fellowships
+      link: '/funding/grad-fellowships'
+- name: People
+  link: '/people'
+- name: Projects
+  link: '/projects'
