@@ -1,7 +1,7 @@
 ---
 title: Get Involved
 layout: page
-cards:
+communication_cards:
   - name: NYUDH Mailing List
     description: Anyone can join the listserv to learn about DH courses, events, and student employment opportunities at NYU.
     link: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'
@@ -10,9 +10,9 @@ cards:
     link: 'https://forms.gle/kzxyJLetPz4pGGY78'
 ---
 
-<h2>Engage the Community</h2>
+<h2>Join the Conversation</h2>
 
-{% include custom/simple-cards.html cards=page.cards columns=2 full_width=true %}
+{% include custom/simple-cards.html cards=page.communication_cards columns=2 full_width=true %}
 
 <hr>
 <h2>Access Consultations and Resource Guides</h2>
