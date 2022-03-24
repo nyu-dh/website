@@ -5,7 +5,7 @@
       <div class="media">
         <div class="media-left">
           <figure class="image is-64x64">
-            <img src="{{ person.image | default: 'assets/images/flower-05.png' | absolute_url }} " alt="{{ person.name }} image">
+            <img src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }} " alt="{{ person.name }} image">
           </figure>
         </div>
         <div class="media-content">
