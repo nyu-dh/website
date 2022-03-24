@@ -1,5 +1,5 @@
 ---
-title: Seed to Scale: Leveraging Institutional Grants for Additional Funding
+title: 'Seed to Scale: Leveraging Institutional Grants for Additional Funding'
 date: 2022-02-09
 featureUntil: 2022-02-10
 eventDate: 2022-02-10

@@ -1,5 +1,5 @@
 ---
-title: The Web Is All You Need: A Data Analysis Stack for the 2020s
+title: 'The Web Is All You Need: A Data Analysis Stack for the 2020s'
 date: 2022-02-08
 featureUntil: 2022-02-10
 eventDate: 2022-02-10
