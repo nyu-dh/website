@@ -2,15 +2,14 @@
 title: Graduate Student Summer Fellowships
 layout: page
 subtitle: |
-      Graduate Students across NYU can apply through the Humanities
-      Center to be part of a summer cohort earning a stipend to
-      develop a digital project. Students receive $5,000, receive mentoring, and participate in a cohort to develop their skills and sharpen their ideas.
+      Graduate Students across NYU to be part of a summer cohort where they will engage in project-based training and development. Selected students receive mentoring, a $5,000 stipend, and participate in a cohort to develop their skills and sharpen their ideas.
 ---
 
-## 2021 NYUDH Graduate Student Summer Fellowship Program
+## Applying to the Graduate Student Summer Fellowship Program
 
-The NYU Center for the Humanities is currently accepting proposals for the 2021 Digital Humanities Graduate Student Summer Fellowship Program.
+We are no longer receiving applications for the summer 2022 cohort.  
 
-Apply at [NYU Center for the Humanities website](https://nyuhumanities.org/opportunity/digital-humanities-graduate-student-summer-fellowships/) by **March 7, 2021**.
+Visit the [projects page](/projects/) for information about previous fellows' work, or see the [previous call for proposals](https://nyuhumanities.org/opportunity/digital-humanities-graduate-student-summer-fellowships/) for more details about the program.  
 
-[Frequent questions](grad-student-fellowships/FAQ)
+<!-- uncomment once FAQ page is created -->
+<!-- See the [frequent asked questions](/funding/grad-fellowships-faq) page for information specific to the the Graduate Student Summer Fellowship program and the applications process. -->
