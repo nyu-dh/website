@@ -15,4 +15,4 @@ cards:
 
 <!-- {% assign people = site.data.people | where_exp: "p", "p.site_roles contains 'proj_pi'" %} -->
 
-{% include custom/people-cards.html data=site.data.people %}
+{% include custom/people-cards.html data=site.data.people full_width=true %}

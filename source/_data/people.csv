@@ -8,8 +8,7 @@ FALSE,wolf,Nicholas Wolf,Research Data Management Librarian; Interim Co-Head of 
 FALSE,efstathiadis,Stratos Efstathiadis,Director of Research Technology Services; Co-Coordinator of Data Services,Research Technology Services; Data Services,exec_com,https://library.nyu.edu/people/stratos-efstathiadis/,,
 FALSE,brill,Bobby Brill,Director of Strategic Planning and Services,Research Technology Services,exec_com,,,
 FALSE,appert,Lucy Appert,Director of Educational Technology,FAS Office of Educational Technology,exec_com,https://wp.nyu.edu/fas-edtech/about/our-team/,,
-FALSE,ackerman,David Ackerman,Associate Vice President,Research Technology Services,exec_com,,ackerman.jpg,https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-leadership/jcr:content/1/par-left/nyucolumncontrol/2/nyuimage.img.1280.high.jpg/1524150582894.jpg
-FALSE,keramidas,Kimon Keramidas,Clinical Associate Professor in XE,XE: Experimental Humanities & Social Engagement,affil_fac,https://as.nyu.edu/faculty/kimon-keramidas.html,keramidas.jpg,https://as.nyu.edu/content/dam/nyu-as/faculty/images/kimon.keramidas.jpg
+FALSE,keramidas,Kimon Keramidas,Clinical Associate Professor in Experimental Humanities & Social Engagement,XE,affil_fac,https://as.nyu.edu/faculty/kimon-keramidas.html,keramidas.jpg,https://as.nyu.edu/content/dam/nyu-as/faculty/images/kimon.keramidas.jpg
 FALSE,augst,Tom Augst,Associate Professor of English,Faculty of Arts and Science,proj_pi,,augst.jpg,https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/a-f/ThomasAugst.jpg
 FALSE,jacobs,Thomas Jacobs,Clinical Assistant Professor,NYU Writing Center & PEP Faculty,proj_pi,,jacobs.jpg,https://cas.nyu.edu/content/dam/nyu-as/casEWP/images/faculty-photos/jacobs_tom.jpg
 FALSE,schellmann,Hilke Schellmann,Assistant Professor ,NYU Journalism,proj_pi,https://pulitzercenter.org/people/hilke-schellmann,schellmann.jpg,https://pulitzercenter.org/sites/default/files/styles/460x460/public/pictures/picture-440-1312740273.jpg?h=7bc5cf4e&itok=kYQctXYG
@@ -27,13 +26,13 @@ FALSE,spielman,Andrew Spielman,Professor of Molecular Pathobiology,NYU College o
 FALSE,vinkour,Maya Vinokour,Assistant Professor,Faculty of Arts and Science,proj_pi,https://as.nyu.edu/content/nyu-as/as/faculty/maya-vinokour.html,vinkour.jpeg,https://as.nyu.edu/content/dam/nyu-as/russian/images/Headshot.jpeg
 FALSE,soffer,Jonathan Soffer,Professor,Tandon School of Engineering,proj_pi,https://engineering.nyu.edu/faculty/jonathan-soffer,soffer.jpg,https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2018-04/img_2764-soffer.jpg?h=0ccde02c&itok=Mkp8C1oc
 FALSE,martin,Nicholas Martin,Curator for the Arts & Humanities,Special Collections,proj_pi,https://library.nyu.edu/people/nicholas-martin/,martin.jpg,https://s3.amazonaws.com/nyulibraries-www-assets/people-images/nicholas-martin.jpg
-FALSE,mccormick,Jared McCormick,,,,,,
-FALSE,,Rosanna Flouty,,,,,,
-FALSE,,Sebastian Heath,,,,,,
-FALSE,,David Hoover,,,,,,
-FALSE,,Marina Hassapopoulou,,,,,,
-FALSE,,Elaine Gan,,,,,,
-FALSE,,David Wrisley,,,,,,
-FALSE,,Beth Russell,,NYU Abu Dhabi,,,,
-FALSE,,Craig Kapp,,,,,,
-FALSE,,Meredith Broussard,,,,,,
+FALSE,mccormick,Jared McCormick,Director of Graduate Studies for Hagop Kevorkian Center for Near Eastern Studies & Clinical Assistant Professor,Faculty of Arts and Science; Kevorkian Center,,https://as.nyu.edu/faculty/jared-mccormick.html,,
+FALSE,,Rosanna Flouty,"Assistant Clinical Professor, Program in Museum Studies",Faculty of Arts and Science; Museum Sudies,,https://as.nyu.edu/faculty/rosanna-n-flouty.html,,
+FALSE,,Sebastian Heath,Clinical Associate Professor of Computational Humanities and Roman Archaeology,Institute for the Study of the Ancient World,,https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath,,
+FALSE,,David Hoover,Professor of English,Faculty of Arts and Science,,https://as.nyu.edu/faculty/david-hoover.html,,
+FALSE,,Marina Hassapopoulou,Assistant professor,Tisch School of the Arts; Cinema Studies,,https://tisch.nyu.edu/about/directory/cinema-studies/1076827536,,
+FALSE,,Elaine Gan,,Faculty of Arts and Sciences; Experimental Humanities,,https://as.nyu.edu/content/nyu-as/as/faculty/elaine-gan.html,,
+FALSE,,David Wrisley,,NYU Abu Dhabi,,https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/david-wrisley.html,,
+FALSE,,Beth Russell,,NYU Libraries; NYU Abu Dhabi,,https://library.nyu.edu/people/beth-russell/,,
+FALSE,,Craig Kapp,Clinical Associate Professor of Computer Science,Courant,,https://cims.nyu.edu/people/profiles/KAPP_Craig.html,,
+FALSE,,Meredith Broussard,associate professor,Arthur L. Carter Journalism Institute,,https://journalism.nyu.edu/graduate/programs/magazine/faculty/,,
