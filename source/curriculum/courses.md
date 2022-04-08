@@ -36,7 +36,7 @@ Description: This course provides a project-based approach to web programming an
 
 ### Electives around the university
 
-CEH-GA 1089 [Digital Humanities: Collections and Connections] (https://kimon.hosting.nyu.edu/sites/dh-collections-connections/) (XE)  
+CEH-GA 1089 [Digital Humanities: Collections and Connections](https://kimon.hosting.nyu.edu/sites/dh-collections-connections/) (XE)  
 Professor: Kimon Keramidas  
 Description: Two of the most important aspects of digital media are their capacity to allow for the organization of and creation of connections between data. Collecting and connecting technologies have enabled the development of complex information management and network creation systems, which are the foundations of everyday experience in the digital age. This course will consider how databases and networking tools allow us to organize the digital world and how different tools and platforms, such as WordPress, Omeka, Gephi, Twitter, Instagram, and Pinterest, allow us to curate the things in our world and share our experiences. It will also consider how we can analyze these networks and collections to present intellectual arguments in new ways and tell more compelling stories.
 
