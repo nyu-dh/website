@@ -22,8 +22,7 @@ task :test do
     disable_external: true,
     empty_alt_ignore: true,
     assume_extension: true,
-    only_4xx: true,
-    url_ignore: [/.*webedition\/app.*/]
+    only_4xx: true
   }
   HTMLProofer.check_directory('./_site', opts).run
 end
