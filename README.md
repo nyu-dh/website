@@ -17,8 +17,8 @@
 ## **Develop**
 + [Setup Local Environment](docs/guides/setup-local-dev-environment.md)
 + [Pull Data](docs/guides/pull-data-from-google-sheets.md)
++ [Run Tests]()
 + [Branching, Pull Request, and Review Norms]()
 ## **Maintain**
-+ [Deploy](docs/guides/deployment.md)
-+ [Run Tests]()
++ [Deploy](docs/architecture.md#deployment)
 + [Add Issues]()
