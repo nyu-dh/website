@@ -5,7 +5,7 @@
 ## **Get Started**
 + [Architecture](docs/architecture.md)
 + [Style Guide](docs/style-guide.md)
-+ [Code of Conduct](docs/code_of_conduct.md)
++ [Code of Conduct](docs/code-of-conduct.md)
 ## **Contribute Content & Data**
 + [🏛️ Courses](docs/guides/add-edit-courses.md)
 + [📆 Events](docs/guides/add-edit-events.md)
