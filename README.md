@@ -15,8 +15,8 @@
 + [People](docs/guides/add-edit-people.md)
 + [Projects](docs/guides/add-edit-projects.md)
 ## **Develop**
-+ [Setup local environment](docs/guides/setup-local-dev-environment.md)
-+ [Pull data](docs/guides/pull-data-from-google-sheets.md)
++ [Setup Local Environment](docs/guides/setup-local-dev-environment.md)
++ [Pull Data](docs/guides/pull-data-from-google-sheets.md)
 + [Branching, Pull Request, and Review Norms]()
 ## **Maintain**
 + [Deploy](docs/guides/deployment.md)
