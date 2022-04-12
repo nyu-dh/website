@@ -1,10 +1,10 @@
 # Architecture
 
 ## Summary
-- Canonical site data (e.g., People and Project tables) live in Google Sheets.
-- Site content, theme, docs, and Jekyll configuration live in the GitHub repo.
-- Rake tasks pull data from Google Sheets to create derivative CSV copies in the GitHub repo.
-- GitHub action builds the site with Jekyll command, then tests and deploys the compiled static site to host.
+- 💾 Canonical site data (e.g., People and Project tables) live in Google Sheets.
+- 📝🌄🎨📓:octocat: Site content, media, theme files, docs, and Jekyll configuration live in the GitHub repo.
+- 💾:octocat: Rake tasks [pull data](guides/pull-data-from-google-sheets.md) from Google Sheets to create derivative CSV copies in the GitHub repo.
+- :octocat:🎉 GitHub action builds the site with Jekyll command, then tests and deploys the compiled static site to host.
 
 ## Repository Contents
 
