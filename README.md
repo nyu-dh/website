@@ -20,7 +20,7 @@
 + [Setup Local Environment](docs/guides/local-development.md#setup-dev-environment)
 + [Pull Data](docs/guides/pull-data-from-google-sheets.md)
 + [Serve the Site](docs/guides/local-development.md#serve-the-site)
-+ [Run Tests](docs/guides/local-development#run-tests)
++ [Run Tests](docs/guides/local-development.md#run-tests)
 
 ## Maintain
 + [Deploy](docs/architecture.md#deployment)
