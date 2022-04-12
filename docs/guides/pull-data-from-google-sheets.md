@@ -1,9 +1,9 @@
-# Pulling data
+# Pulling Data from Google Sheets
 
 ## Setup
-To pull up to date data from Google Sheets, you will need to have your local development environment set up (see above).
+To pull up to date data from Google Sheets, you will need to have your [local development environment set up](local-development.md#setup-dev-environment).
 
-Next, you will need to add the `.secrets.yml` file to the root of your local project. It is gitignored and will not be committed to the repo.
+Next, you will need to add the `.secrets.yml` file to the root of your local project. (It is gitignored and will not be committed to the repo.)
 
 A copy of this file lives in NYU DH Credentials Box account for you to download into your project.
 
@@ -31,4 +31,4 @@ bundle exec rake wget:projects
 
 This will **overwrite** the local data file, in this case `source/_data/projects.csv`.
 
-You can then serve the site locally to view the updates.
+You can then serve the site locally to view the updates. (See: [Serving the Site Locally](local-development.md#serve-the-site))
