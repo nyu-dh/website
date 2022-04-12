@@ -1,13 +1,7 @@
-# NYU DH (WiP)
+# NYU DH
 
 [![gh pages deploy](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/gh-pages-deploy.yml/badge.svg)](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/gh-pages-deploy.yml) [![ci:test](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/test.yml/badge.svg)](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/test.yml) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-## Project Tree
-
-- `source` :: source content  
-- `theme`  :: wip theme  
-- `_config.yml` :: jekyll site config  
-- `source/_data` :: site data files
 
 ## Contributing
 
@@ -74,7 +68,3 @@ bundle exec rake wget:projects
 This will **overwrite** the local data file, in this case `source/_data/projects.csv`.
 
 You can then serve the site locally (see above) to view the updates.
-
-## Production Deployment
-
-[VIA FTP GITHUB ACTION TO WH; TODO]
