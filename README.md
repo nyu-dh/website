@@ -24,4 +24,4 @@
 
 ## Maintain
 + [Deploy](docs/architecture.md#deployment)
-+ [Branching, Issue, and Pull Request Norms]()
++ [Branching, Issue, and Pull Request Norms](docs/guides/git-collab-norms.md)
