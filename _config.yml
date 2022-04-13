@@ -11,6 +11,8 @@ future: true
 show_footer: true
 source: source
 theme: nyu-dh-theme
+plugins:
+  - pagemaster
 
 permalink: pretty
 logo-image-url: images/logo.png
@@ -23,6 +25,11 @@ collections:
     output: true
   testimonials:
     output: true
+  projects:
+    output: true
+    source: projects.csv
+    id_key: pid
+    layout: project
 
 defaults:
   - scope:

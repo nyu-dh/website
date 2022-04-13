@@ -24,7 +24,8 @@
       <nav class="breadcrumb" aria-label="breadcrumbs">
         <div class="container">
           <ul>
-            {% for crumb in page.breadcrumbs %}
+            {% assign crumbs = page.breadcrumbs | default: layout.breadcrumbs %}
+            {% for crumb in crumbs %}
             <li><a href="{{ crumb.link | absolute_url }}">{{ crumb.name }}</a></li>
             {% endfor %}
             <li></li>
@@ -36,6 +37,8 @@
           <p class="title" style="margin:auto">{{ page.title }}</p>
           {% if page.subtitle %}
             <p class="subtitle pt-3" style="margin:auto">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>'  }}</p>
+          {% elsif page.tagline %}
+            <p class="subtitle pt-3" style="margin:auto">{{ page.tagline | markdownify | remove: '<p>' | remove: '</p>'  }}</p>
           {% endif %}
         </div>
       </div>

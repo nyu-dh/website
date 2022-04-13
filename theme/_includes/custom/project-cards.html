@@ -30,8 +30,8 @@
             </div>
             <div class="column">
               <p class="is-size-6 has-text-weight-bold pb-2 sm-lines">
-                {% if project.link %}
-                  <a href="{{ project.link | absolute_url }}">{{ project.title }}</a>
+                {% if project.url %}
+                  <a href="{{ project.url | absolute_url }}">{{ project.title }}</a>
                 {% else %}
                   {{ project.title }}
                 {% endif %}
@@ -46,8 +46,8 @@
             </div>
           </div>
           <div class="column is-narrow" style="text-align:right;">
-            {% if project.link %}
-            <a href="{{ project.link | absolute_url }}">
+            {% if project.url %}
+            <a href="{{ project.url | absolute_url }}">
               <b><i class="fas fa-arrow-right"></i></b>
             </a>
             {% endif %}
