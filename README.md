@@ -5,6 +5,7 @@
 ## Get Started
 + [Architecture](docs/architecture.md)
 + [Style Guide](docs/style-guide.md)
++ [Collaboration Norms](docs/guides/git-collab-norms.md)
 + [Code of Conduct](docs/code-of-conduct.md)
 
 ## Contribute Content & Data
@@ -21,7 +22,6 @@
 + [Pull Data](docs/guides/pull-data-from-google-sheets.md)
 + [Serve the Site](docs/guides/local-development.md#serve-the-site)
 + [Run Tests](docs/guides/local-development.md#run-tests)
-
-## Maintain
 + [Deploy](docs/architecture.md#deployment)
-+ [Branching, Issue, and Pull Request Norms](docs/guides/git-collab-norms.md)
+
+
