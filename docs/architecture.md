@@ -30,3 +30,5 @@ Specific & versioned Ruby development dependencies can be found in the [Gemfile]
 ## Deployment
 
 The site is currently deployed to [Github Pages](https://nyu-dh.github.io) via [GitHub action](https://github.com/nyu-dh/nyu-dh.github.io/actions) but will be deployed via FTP to [NYU Web Hosting](https://hosting.nyu.edu) on production.
+
+Deployments are triggered automatically when commits are merged into the `main` branch. The site will currently deploy if the site builds sucessfully from the `main` branch *regardless HTML and linkrot tests passing.* On production, tests will need to pass for the deployment to proceed.
