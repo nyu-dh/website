@@ -25,7 +25,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
 
 ## Funded Projects
 
-{% assign seeds2022 = site.data.projects | where: 'cohort_year', '2022' | where_exp: "i", "i.category contains 'Seed'" %}
+{% assign seeds2022 = site.projects | where: 'cohort_year', '2022' | where_exp: "i", "i.category contains 'Seed'" %}
 {% if seeds2022.size > 0 %}
 #### 2022 - 2023
 {% for p in seeds2022 %}
@@ -33,7 +33,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
 {% endfor %}
 {% endif %}
 
-{% assign seeds2021 = site.data.projects | where: 'cohort_year', '2021' | where_exp: "i", "i.category contains 'Seed'" %}
+{% assign seeds2021 = site.projects | where: 'cohort_year', '2021' | where_exp: "i", "i.category contains 'Seed'" %}
 {% if seeds2021.size > 0 %}
 #### 2021 - 2022
 {% for p in seeds2021 %}
@@ -41,7 +41,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
 {% endfor %}
 {% endif %}
 
-{% assign seeds2020 = site.data.projects | where: 'cohort_year', '2020' | where_exp: "i", "i.category contains 'Seed'" %}
+{% assign seeds2020 = site.projects | where: 'cohort_year', '2020' | where_exp: "i", "i.category contains 'Seed'" %}
 {% if seeds2020.size > 0 %}
 #### 2020 – 2021
 {% for p in seeds2020 %}
