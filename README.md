@@ -1,6 +1,8 @@
 # NYU Digital Humanities
 
-[![gh pages deploy](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/gh-pages-deploy.yml/badge.svg)](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/gh-pages-deploy.yml) [![ci:test](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/test.yml/badge.svg)](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/test.yml) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](docs/code-of-conduct.md)
+[![test](https://img.shields.io/github/workflow/status/nyu-dh/nyu-dh.github.io/test?style=flat&logo=github&label=tests)](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/test.yml)
+[![deployment](https://img.shields.io/github/deployments/nyu-dh/nyu-dh.github.io/github-pages?label=deploy&logo=github)](https://github.com/nyu-dh/nyu-dh.github.io/deployments)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](docs/code-of-conduct.md)
 
 ## Get Started
 + [Architecture](docs/architecture.md)
