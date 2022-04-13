@@ -1,5 +1,5 @@
 ---
-title: Seed Grants
+title: NYU DH Faculty Seed Grants
 layout: page
 subtitle: |
   The multi-year seed grants program identifies and funds faculty-led projects that creatively bridge humanistic scholarship with new forms of computation, digital publishing, and digitization.
@@ -9,8 +9,19 @@ The Center for the Humanities, NYU Libraries, and NYU Research Technology fund t
 
 Grants may range in size between $5,000 and $20,000. Collaborative projects are encouraged, but must include at least one NYU faculty member in the humanities. Additional resources may be made available for those proposing computationally intensive work utilizing NYU’s high performance computing cluster and similar [Research Technology resources](https://www.nyu.edu/research/navigating-research-technology.html). We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
 
-## Seed Grant News
-Port posts in? I'm not sure how necessary it is to have these cards here. It starts to get crowded if the news shows up everywhere it's relevant. Maybe it's just about a shortened list of headlines?
+<hr>
+
+## Recent News
+
+{% assign seed_news = site.news | where_exp: "i", "i.tags contains 'Seed grants'" %}
+{% include custom/news-cards.html data=seed_news limit=3 %}
+<p class="has-text-centered">
+  <a href="{{ '/news' | absolute_url }}">
+    <button class="button is-medium is-info">View All News</button>
+  </a>
+</p>
+
+<hr>
 
 ## Funded Projects
 
@@ -37,6 +48,8 @@ Port posts in? I'm not sure how necessary it is to have these cards here. It sta
 - [{{ p.title }}]({{ p.url | absolute_url }})
 {% endfor %}
 {% endif %}
+
+<hr>
 
 ## Grant Cycle
 
