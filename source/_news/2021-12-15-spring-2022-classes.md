@@ -10,4 +10,4 @@ abstract: |
   Registration for Spring 2022 classes is open. See some of the courses in Digital Humanities being taught in the DHSS program and around the university in the new semester's course directory.
 ---
 
-Registration for Spring 2022 classes is open. See some of the courses in Digital Humanities being taught in the DHSS program and around the university [in the new semester's course directory](curriculum/courses).
+Registration for Spring 2022 classes is open. See some of the courses in Digital Humanities being taught in the DHSS program and around the university [in the new semester's course directory]({{ 'curriculum/courses' | absolute_url }}).

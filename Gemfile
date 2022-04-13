@@ -6,5 +6,8 @@ gem 'nyu-dh-theme', path: 'theme'
 group :development, :test do
   gem 'html-proofer'
   gem 'rake'
-  gem 'pagemaster'
+end
+
+group :jekyll_plugins do
+  gem 'pagemaster', github: 'mnyrop/pagemaster', branch: 'bug/jekyll-source-dir'
 end
