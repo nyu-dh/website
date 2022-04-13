@@ -18,7 +18,7 @@
 + [🏺 Projects](docs/guides/add-edit-projects.md)  
 
 ## Develop
-+ [Setup Local Environment](docs/guides/local-development.md#setup-dev-environment)
++ [Set Up Local Environment](docs/guides/local-development.md#set-up-dev-environment)
 + [Pull Data](docs/guides/pull-data-from-google-sheets.md)
 + [Serve the Site](docs/guides/local-development.md#serve-the-site)
 + [Run Tests](docs/guides/local-development.md#run-tests)
