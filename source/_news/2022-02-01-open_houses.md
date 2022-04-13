@@ -6,11 +6,11 @@ abstract: |
 tags:
   - Summer Fellows
 image:
-  url: 'media/img/what_could_you_do.jpeg'
+  url: 'media/news/what_could_you_do.jpeg'
   alt: "'What could you do with a Digital Humanities Graduate Student Summer Fellowship?' floats above a sand castle laptop, graph, book and map beside a rainbow sun umbrella and beach ball"
 ---
 
-![](/static/what_could_you_do.jpeg)
+![{{ page.image.alt }}]({{ page.image.url | absolute_url }})
 Join us for an an Open House about the Digital Humanities Graduate Fellowships.
 
 * Friday, February 18th, at 2:30pm
