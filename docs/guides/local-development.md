@@ -1,6 +1,6 @@
 # Local Development
 
-## Setup Dev Environment
+## Set Up Dev Environment
 
 ### Prerequisites
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
