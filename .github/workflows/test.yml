@@ -5,13 +5,13 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'docs/*'
+      - 'docs/**'
       - 'README.md'
   push:
     branches:
       - main
     paths-ignore:
-      - 'docs/*'
+      - 'docs/**'
       - 'README.md'
 jobs:
   test:
