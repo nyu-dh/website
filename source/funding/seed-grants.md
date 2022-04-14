@@ -3,6 +3,12 @@ title: NYU DH Faculty Seed Grants
 layout: default
 subtitle: |
   The multi-year seed grants program identifies and funds faculty-led projects that creatively bridge humanistic scholarship with new forms of computation, digital publishing, and digitization.
+hero_buttons:
+  - link: ''
+    label: 'Applications Open Until 3/18/22'
+    external: true
+  - link: ''
+    label: 'Testing Button 2'
 sub_pages:
   - name: Frequently Asked Questions
     description: ''
