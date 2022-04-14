@@ -1,6 +1,7 @@
 ---
 layout: default
 home: true
+hero_image: '/assets/images/coding-2(1).png'
 title: Home
 ---
 

@@ -30,7 +30,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
 </div>
 
 
-<section class="section full-width" style="background-color:#f5e5d3;">
+<section class="section full-width is-bg-alt">
   <div class="container">
     <p class="is-size-3 pb-6">Seed Grant News</p>
 
@@ -83,7 +83,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
   </div>
 </section>
 
-<section class="section full-width" style="background-color:#f5e5d3;">
+<section class="section full-width is-bg-alt">
   <div class="container">
     <p class="is-size-3 pb-6">Additional Resources</p>
     {% include custom/simple-cards.html cards=page.sub_pages columns=3 %}

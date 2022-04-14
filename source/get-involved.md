@@ -22,7 +22,7 @@ There are lots of people and services at NYU to help with digital humanities wor
 - The NYU library also maintains some more detailed guides to DH resources at the [NYU DH LibGuide](https://guides.nyu.edu/digital-humanities), and a more opinionated overview of [Guide to DH at NYU on Manifold](https://nyu.manifoldapp.org/projects/nyu-dh).
 </div>
 
-<section class="section full-width mb-6" style="background-color:#f5e5d3;">
+<section class="section full-width mb-6 is-bg-alt">
 <div class="container">
 
 <div class="content" markdown="1">
