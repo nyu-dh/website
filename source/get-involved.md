@@ -2,13 +2,13 @@
 title: Get Involved
 layout: default
 subtitle: "TO DO: Need a little blurb about what you'll find on this page."
-communication_cards:
-  - name: NYUDH Mailing List
-    description: Anyone can join the listserv to learn about DH courses, events, and student employment opportunities at NYU.
+hero_buttons:
+  - label: 'NYU DH Mailing List – Public'
     link: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'
-  - name: NYUDH Slack Channel
-    description: 'We also have an NYU DH Slack for NYU affiliates only. To join, request an invite via Google Form.'
+    external: true
+  - label: 'NYU DH Slack Channel – NYU Members Only'
     link: 'https://forms.gle/kzxyJLetPz4pGGY78'
+    external: true
 ---
 <div class="content" markdown="1">
 ## Access Consultations and Resource Guides
@@ -35,8 +35,3 @@ DH events and courses are sponsored by groups across the University. We recommen
 <p><a href="{{ '/news' | absolute_url }}"><button class="button is-medium is-info">View All</button></a></p>
 </div>
 </section>
-
-<div class="container">
-  <p class="is-size-3 pb-6">Join the Conversation</p>
-  {% include custom/simple-cards.html cards=page.communication_cards columns=3 %}
-</div>
