@@ -1,22 +1,3 @@
-<style>
-  img.circle-fill {
-    height: 75px;
-    width: 75px;
-    border: 1px #eeeeee solid;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  .full-w {
-    width: 100% !important;
-  }
-  .full-h {
-    height: 100% !important;
-  }
-  .sm-lines {
-    line-height:1.1rem;
-  }
-</style>
-
 <section class="{% if include.full_width == true and page.layout == 'default' %}full-width py-3 px-5{% endif %}">
   <div class="columns is-multiline is-vcentered">
     {% for project in include.data %}
@@ -45,7 +26,7 @@
               {% endif %}
             </div>
           </div>
-          <div class="column is-narrow" style="text-align:right;">
+          <div class="column is-narrow has-text-right">
             {% if project.url %}
             <a href="{{ project.url | absolute_url }}">
               <b><i class="fas fa-arrow-right"></i></b>
