@@ -1,18 +1,32 @@
 ---
-layout: page
+layout: default
 breadcrumbs:
-  - name: Projects
+  - name: All Projects
     link: /projects
 ---
-{%- if page.category -%}**Category:** {{ page.category }}<br>{%- endif -%}
-{%- if page.cohort_year -%}**Year Funded:** {{ page.cohort_year }}<br>{%- endif -%}
-{%- if page.link -%}**Project Website:** [{{ page.link }}]({{ page.link }})<br>{%- endif -%}
-{% assign pis = page.pis | split: ';' %}
-{%- if pis -%}
-**People:**&nbsp;
-{%- for p in pis -%}
-{% assign pi = site.data.people | find: 'pid', p %}{{ pi.name }}{% unless forloop.last %}, {% endunless %}{%- endfor -%}
-{%- endif -%}
+<div class="content">
+  <p class="project-info">
+    {% if page.category %}<b>Category: </b> {{ page.category }}<br>{% endif %}
+    {% if page.cohort_year %}<b>Year Funded: </b> {{ page.cohort_year }}<br>{% endif %}
+    {% if page.link %}<b>Project Website: </b> <a href="{{ page.link | absolute_url }}">{{ page.link }}</a><br>{% endif %}
+  <p>
+  <p>{{ page.abstract | escape }}</p>
+</div>
 
-<br><br>
-{{ page.abstract | escape }}
+{% assign people = '' | split: '' %}
+{% assign pi_pids = page.pis | split: ';' %}
+{% for p in pi_pids %}
+  {% assign pid = p | strip %}
+  {% assign person = site.data.people | find: 'pid', pid %}
+  {% unless person.size > 0 %}<code>* Couldn't match person "{{ pid}}"</code>{% endunless %}
+  {% assign people = people | push: person %}
+{% endfor %}
+
+{% if people. size > 0 %}
+<section class="section full-width" style="background-color:#f5e5d3;">
+  <div class="container">
+      <p class="is-size-3 pb-3">People</p>
+    {% include custom/people-cards.html data=people %}
+  </div>
+</section>
+{% endif %}

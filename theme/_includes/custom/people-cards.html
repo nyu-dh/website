@@ -16,11 +16,16 @@
     line-height:1.1rem;
   }
 </style>
+{% if include.data. size < 3 %}
+{% assign col_size = 'is-6' %}
+{% else %}
+{% assign col_size = 'is-4' %}
+{% endif %}
 
-<section class="{% if include.full_width == true and page.layout == 'default' %}full-width py-3 px-5{% endif %}">
+<section class="{% if include.full_width == true %}full-width py-3 px-5{% endif %}">
   <div class="columns is-multiline is-vcentered">
     {% for person in include.data %}
-      <div class="column is-4 full-h">
+      <div class="column {{ col_size }} full-h">
         <div class="card is-relative full-h">
           <div class="columns is-vcentered mt-3 mb-0 mx-3">
             <div class="column is-narrow">
