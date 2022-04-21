@@ -1,4 +1,9 @@
-# Style Guide
+# Language
+
+* Contractions are fin
+* 
+
+# Branding
 
 ## Summer fellowships
 
@@ -18,4 +23,4 @@ This can also be called "The DH Certificate."
 
 Neither "Digital Humanities and Social Sciences" nor the acronym "DHSS" should ever appear.
 
-Students enrolled in this program can be called "Digital Humanities graduate students"; generally those not enrolled shoulnd't 
+Students enrolled in this program can be called "Digital Humanities graduate students"; generally those not enrolled should'nt 

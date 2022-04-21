@@ -1,5 +1,5 @@
 ---
-title: NYU DH Faculty Seed Grants
+title: NYU DH Seed Grants
 layout: default
 subtitle: |
   The multi-year seed grants program identifies and funds faculty-led projects that creatively bridge humanistic scholarship with new forms of computation, digital publishing, and digitization.
@@ -32,7 +32,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
 
 <section class="section full-width" style="background-color:#f5e5d3;">
   <div class="container">
-    <p class="is-size-3 pb-6">Seed Grant News</p>
+    <p class="is-size-3 pb-6">Recent Seed Grant News</p>
 
     {% assign seed_news = site.news | where_exp: "i", "i.tags contains 'Seed grants'" %}
     {% include custom/news-cards.html data=seed_news limit=3 %}
