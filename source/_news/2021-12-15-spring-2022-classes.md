@@ -4,10 +4,11 @@ tags:
   - teaching
   - certificate
 link: /curriculum/courses
-date: 2022-01-02
+date: 2021-11-01
 featureUntil: 2022-03-01
 abstract: |
-  Registration for Spring 2022 classes is open. See some of the courses in Digital Humanities being taught in the DHSS program and around the university in the new semester's course directory.
+  Registration is open for Spring 2022 classes, including courses in the Advanced Certificate in Digital Humanities program as well as other digital humanities offerings.
+
 ---
 
-Registration for Spring 2022 classes is open. See some of the courses in Digital Humanities being taught in the DHSS program and around the university [in the new semester's course directory]({{ 'curriculum/courses' | absolute_url }}).
+Registration is open for [Spring 2022 classes]({{ 'curriculum/courses' | absolute_url }}), including courses in the Advanced Certificate in Digital Humanities program as well as other digital humanities offerings.
