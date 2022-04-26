@@ -5,6 +5,10 @@ tagline: >
 timezone: UTC
 email: dh.help@nyu.edu
 
+semester:
+  current: 'Spring 2022'
+  next: 'Fall 2022'
+
 baseurl: ''
 url: ''
 future: true

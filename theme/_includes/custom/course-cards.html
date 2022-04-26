@@ -1,0 +1,16 @@
+{% for course in include.data %}
+<article class="message">
+  <div class="message-body">
+    <p class="title is-size-5" style="max-width:100%">
+      {{ course.number }}:&nbsp;
+      {%- if course.url -%}
+        <a class="has-text-primary" href="{{ course.url | absolute_url }}">{{ course.title }}</a>
+      {%- else -%}
+        {{ course.title }}
+      {%- endif -%}
+    </p>
+    <p class="is-size-6" style="max-width:100%"><b>Faculty: </b>{{ course.faculty }}</p>
+    <p class="content"><b>Description: </b>{{ course.description }}</p>
+  </div>
+</article>
+{% endfor %}
