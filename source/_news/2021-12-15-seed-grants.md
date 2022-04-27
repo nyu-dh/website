@@ -4,8 +4,8 @@ date: 2021-12-15
 featureUntil: 2022-03-10
 author: jkarlin
 tags:
-- seed-grants
-- grad-fellows
+- seed_grants
+- grad_fellows
 abstract: |
   Applications for NYU Digital Humanities Seed Grants and the Graduate Fellowships in the 2022 cycle are now open.
 ---

@@ -10,7 +10,7 @@ location: Zoom
 abstract: |
   Bring your questions to an Open House about the 2022 NYU Digital Humanities Graduate Fellowships.
 tags:
-  - grad-fellows
+  - grad_fellows
   - event
 image:
   url: 'media/news/what_could_you_do.jpeg'

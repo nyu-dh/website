@@ -3,8 +3,8 @@ title: Gumshoe Wins $200k McGovern Foundation Grant
 date: 2021-12-15
 featureUntil: 2022-12-14
 tags:
-  - seed-grants
-  - featured
+  - seed_grants
+  - external_funding
 abstract: |
   Hilke Schellmann and Mona Sloane have been awarded a $200,000 grant from the Patrick J. McGovern Foundation to bring their prototype Gumshoe project, developed with the help of a DH seed grant, to newsrooms around the country.
 ---
