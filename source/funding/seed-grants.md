@@ -43,7 +43,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
   <div class="container">
     <p class="is-size-3 pb-6">Seed Grant News</p>
 
-    {% assign seed_news = site.news | where_exp: "i", "i.tags contains 'Seed grants'" %}
+    {% assign seed_news = site.news | where_exp: "i", "i.tags contains 'seed_grants'" %}
     {% include custom/news-cards.html data=seed_news limit=3 %}
 
     <p>

@@ -1,7 +1,7 @@
 <style>
   .hideContent {
     overflow: hidden;
-    height: 4rem;
+    height: 0;
   }
   .showContent {
     height: auto;
@@ -12,23 +12,20 @@
 {% for course in include.data %}
 <article class="message">
   <div class="message-body">
-    <p class="title is-size-5" style="max-width:100%">
-      {{ course.number }}:&nbsp;
+    <p class="title is-size-5 mb-1" style="max-width:100%">
       {%- if course.url -%}
         <a class="has-text-primary" href="{{ course.url | absolute_url }}">{{ course.title }}</a>
       {%- else -%}
         {{ course.title }}
       {%- endif -%}
     </p>
-    <p class="is-size-6" style="max-width:100%"><b>Faculty: </b>{{ course.faculty }}</p>
-    {% if course.description.size > 150 %}
+    <p class="is-size-6" style="max-width:100%">
+      {{ course.number }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ course.semester }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ course.faculty }}
+    </p>
     <div class="abbreviated-content">
-      <p class="content hideContent mb-0"><b>Description: </b>{{ course.description }}</p>
-      <a class="read-more">Read more</a>
+      <p class="content hideContent mb-0">{{ course.description }}</p>
+      <a class="read-more mt-1">Show description</a>
     </div>
-    {% else %}
-      <p class="content"><b>Description: </b>{{ course.description }}</p>
-    {% endif %}
   </div>
 </article>
 {% endfor %}

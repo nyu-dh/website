@@ -76,13 +76,13 @@
 
   var click_event = function() {
     var linkText = this.innerHTML.toUpperCase();
-    if (linkText === "READ MORE") {
-        this.innerHTML = "Read less";
+    if (linkText === "SHOW DESCRIPTION") {
+        this.innerHTML = "Hide description";
         this.previousElementSibling.classList.remove("hideContent");
         this.previousElementSibling.classList.add("showContent");
     }
     else {
-        this.innerHTML = "Read more";
+        this.innerHTML = "Show description";
         this.previousElementSibling.classList.remove("showContent");
         this.previousElementSibling.classList.add("hideContent");
     }
