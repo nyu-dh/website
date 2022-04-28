@@ -14,6 +14,7 @@
 + [Architecture](docs/architecture.md)
 + [Style Guide](docs/style-guide.md)
 + [Collaboration Norms](docs/guides/git-collab-norms.md)
++ [Communications Cycles & Chores](docs/communication-cycles-and-chores.md)
 + [Code of Conduct](docs/code-of-conduct.md)
 
 ## Contribute Content & Data
