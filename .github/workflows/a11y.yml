@@ -1,0 +1,26 @@
+name: a11y
+on: [push]
+jobs:
+  lhci:
+    name: Lighthouse
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: install ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: install gems
+        run: bundle install
+      - name: build
+        run: bundle exec rake build
+      - name: run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.8.x
+          lhci autorun
