@@ -3,11 +3,12 @@ FALSE,schmidt,Benjamin Schmidt,Director of Digital Humanities; Clinical Associat
 FALSE,nyrop,Marii Nyrop,Digital Humanities Technology Specialist,Digital Scholarship Services,exec_com,https://marii.info,,
 FALSE,mistry,Himanshu Mistry,"Manager, Data Services",Data Services,exec_com,https://library.nyu.edu/people/himanshu-mistry/,mistry.jpg,https://s3.amazonaws.com/nyulibraries-www-assets/people-images/himanshu-mistry.jpg
 FALSE,coble,Zach Coble,Head of Digital Scholarship Services,Digital Scholarship Services,exec_com; affil_fac,https://library.nyu.edu/people/zachary-coble/,coble.jpg,https://s3.amazonaws.com/nyulibraries-www-assets/people-images/zachary-coble.jpg
-FALSE,karlin,Jojo Karlin,Provost's Postdoctoral Fellow,Digital Scholarship Services,exec_com,https://library.nyu.edu/people/jojo-karlin/,karlin.jpg,https://commons.gc.cuny.edu/files/avatars/5851/5d7424f5d81ff-bpfull.jpg
+FALSE,karlin,Jojo Karlin,Digital Scholarship Specialist,Digital Scholarship Services,exec_com,https://library.nyu.edu/people/jojo-karlin/,karlin.jpg,https://commons.gc.cuny.edu/files/avatars/5851/5d7424f5d81ff-bpfull.jpg
 FALSE,wolf,Nicholas Wolf,Research Data Management Librarian; Interim Co-Head of Data Services,Data Services,exec_com; proj_pi,https://library.nyu.edu/people/nicholas-wolf/,wolf.jpg,https://as.nyu.edu/content/dam/nyu-as/irelandHouse/images/headshots-portraits-promopics-etc/Faculty/Nicholas%20Wolf.JPG
 FALSE,efstathiadis,Stratos Efstathiadis,Director of Research Technology Services; Co-Coordinator of Data Services,Research Technology Services; Data Services,exec_com,https://library.nyu.edu/people/stratos-efstathiadis/,,
 FALSE,brill,Bobby Brill,Director of Strategic Planning and Services,Research Technology Services,exec_com,,,
 FALSE,appert,Lucy Appert,Director of Educational Technology,FAS Office of Educational Technology,exec_com,https://wp.nyu.edu/fas-edtech/about/our-team/,,
+FALSE,maddox,Ben Maddox,"Associate Vice President, Teaching & Learning Technologies, Chief Instructional Technology Officer",Information Technology,exec_com,https://steinhardt.nyu.edu/people/ben-maddox,,https://www.nyu.edu/about/leadership-university-administration/office-of-the-president/office-of-the-executivevicepresident/information-technology.html
 FALSE,keramidas,Kimon Keramidas,Clinical Associate Professor in Experimental Humanities & Social Engagement,XE,affil_fac,https://as.nyu.edu/faculty/kimon-keramidas.html,keramidas.jpg,https://as.nyu.edu/content/dam/nyu-as/faculty/images/kimon.keramidas.jpg
 FALSE,augst,Tom Augst,Associate Professor of English,Faculty of Arts and Science,proj_pi,,augst.jpg,https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/a-f/ThomasAugst.jpg
 FALSE,jacobs,Thomas Jacobs,Clinical Assistant Professor,NYU Writing Center & PEP Faculty,proj_pi,,jacobs.jpg,https://cas.nyu.edu/content/dam/nyu-as/casEWP/images/faculty-photos/jacobs_tom.jpg
@@ -15,7 +16,7 @@ FALSE,schellmann,Hilke Schellmann,Assistant Professor ,NYU Journalism,proj_pi,ht
 FALSE,sloane,Mona Sloane,Adjunct Professor,Tandon School of Engineering,proj_pi,https://ipk.nyu.edu/people/mona-sloane/,sloane.jpg,https://ipk.nyu.edu/wp-content/uploads/2018/09/MONA-435x435.jpg
 FALSE,ralph,Michael Ralph,Associate Professor of Social and Cultural Analysis,Faculty of Arts and Science,proj_pi,https://as.nyu.edu/content/nyu-as/as/faculty/michael-ralph.html,ralph.jpg,https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/q-u/MichaelRalph.jpg
 FALSE,bunde,Janet Bunde,University Archivist,Special Collections,proj_pi,https://library.nyu.edu/people/janet-bunde/,bunde.jpg,https://s3.amazonaws.com/nyulibraries-www-assets/people-images/janet-bunde.jpg
-FALSE,beinart-smollan,Gavin Beinart-Smollan,"PhD Candidate in History, Hebrew and Judaic Studies",Graduate School of Arts and Science,proj_pi; grad_student,,,
+FALSE,beinart-smollan,Gavin Beinart-Smollan,"PhD Candidate in History, Hebrew and Judaic Studies",Graduate School of Arts and Science,proj_pi;,,,
 FALSE,ansari,Ahmed Ansari,Assistant Professor of Practice ,"Technology, Culture and Society",proj_pi,https://engineering.nyu.edu/faculty/ahmed-ansari-1,ansari.jpg,https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2019-10/52303916_10161388995350282_1617569861465014272_n_0.jpg?h=f0d95172&itok=ePal-T28
 FALSE,ayers,Elaine Ayers,Faculty Fellow in Museum Studies,Faculty of Arts and Science,proj_pi,https://as.nyu.edu/faculty/MS.html,ayers.jpg,https://as.nyu.edu/content/dam/nyu-as/museum/images/Ayers_Bio%20Pic.jpg
 FALSE,brain,Tega Brain,Industry Assistant Professor ,"Technology, Culture and Society",proj_pi,https://engineering.nyu.edu/faculty/tega-brain,brain.jpg,https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2021-04/tegabrain-headshot-square.jpg?h=0f87c4e1&itok=Z3gip1Qt
@@ -26,13 +27,30 @@ FALSE,spielman,Andrew Spielman,Professor of Molecular Pathobiology,NYU College o
 FALSE,vinkour,Maya Vinokour,Assistant Professor,Faculty of Arts and Science,proj_pi,https://as.nyu.edu/content/nyu-as/as/faculty/maya-vinokour.html,vinkour.jpeg,https://as.nyu.edu/content/dam/nyu-as/russian/images/Headshot.jpeg
 FALSE,soffer,Jonathan Soffer,Professor,Tandon School of Engineering,proj_pi,https://engineering.nyu.edu/faculty/jonathan-soffer,soffer.jpg,https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2018-04/img_2764-soffer.jpg?h=0ccde02c&itok=Mkp8C1oc
 FALSE,martin,Nicholas Martin,Curator for the Arts & Humanities,Special Collections,proj_pi,https://library.nyu.edu/people/nicholas-martin/,martin.jpg,https://s3.amazonaws.com/nyulibraries-www-assets/people-images/nicholas-martin.jpg
-FALSE,mccormick,Jared McCormick,Director of Graduate Studies for Hagop Kevorkian Center for Near Eastern Studies & Clinical Assistant Professor,Faculty of Arts and Science; Kevorkian Center,,https://as.nyu.edu/faculty/jared-mccormick.html,,
-FALSE,,Rosanna Flouty,"Assistant Clinical Professor, Program in Museum Studies",Faculty of Arts and Science; Museum Sudies,,https://as.nyu.edu/faculty/rosanna-n-flouty.html,,
-FALSE,,Sebastian Heath,Clinical Associate Professor of Computational Humanities and Roman Archaeology,Institute for the Study of the Ancient World,,https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath,,
-FALSE,,David Hoover,Professor of English,Faculty of Arts and Science,,https://as.nyu.edu/faculty/david-hoover.html,,
-FALSE,,Marina Hassapopoulou,Assistant professor,Tisch School of the Arts; Cinema Studies,,https://tisch.nyu.edu/about/directory/cinema-studies/1076827536,,
-FALSE,,Elaine Gan,,Faculty of Arts and Sciences; Experimental Humanities,,https://as.nyu.edu/content/nyu-as/as/faculty/elaine-gan.html,,
-FALSE,,David Wrisley,,NYU Abu Dhabi,,https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/david-wrisley.html,,
-FALSE,,Beth Russell,,NYU Libraries; NYU Abu Dhabi,,https://library.nyu.edu/people/beth-russell/,,
-FALSE,,Craig Kapp,Clinical Associate Professor of Computer Science,Courant,,https://cims.nyu.edu/people/profiles/KAPP_Craig.html,,
-FALSE,,Meredith Broussard,associate professor,Arthur L. Carter Journalism Institute,,https://journalism.nyu.edu/graduate/programs/magazine/faculty/,,
+FALSE,mccormick,Jared McCormick,Director of Graduate Studies for Hagop Kevorkian Center for Near Eastern Studies & Clinical Assistant Professor,Faculty of Arts and Science; Kevorkian Center,affil_fac,https://as.nyu.edu/faculty/jared-mccormick.html,,
+FALSE,flouty,Rosanna Flouty,"Assistant Clinical Professor, Program in Museum Studies",Faculty of Arts and Science; Museum Sudies,affil_fac,https://as.nyu.edu/faculty/rosanna-n-flouty.html,,
+FALSE,heath,Sebastian Heath,Clinical Associate Professor of Computational Humanities and Roman Archaeology,Institute for the Study of the Ancient World,affil_fac,https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath,,
+FALSE,hoover,David Hoover,Professor of English,Faculty of Arts and Science,affil_fac,https://as.nyu.edu/faculty/david-hoover.html,,
+FALSE,hassapopoulou,Marina Hassapopoulou,Assistant professor,Tisch School of the Arts; Cinema Studies,affil_fac,https://tisch.nyu.edu/about/directory/cinema-studies/1076827536,,
+FALSE,gan,Elaine Gan,Artist-scholar,Faculty of Arts and Sciences; Experimental Humanities,affil_fac,https://as.nyu.edu/content/nyu-as/as/faculty/elaine-gan.html,,
+FALSE,wrisley,David Wrisley,Associate Professor of Digital Humanities,NYU Abu Dhabi,affil_fac,https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/david-wrisley.html,,
+FALSE,russell,Beth Russell,Associate Director of Research Services & Strategy and Associate Academic Librarian for the Humanities,NYU Libraries; NYU Abu Dhabi,affil_fac,https://library.nyu.edu/people/beth-russell/,,
+FALSE,kapp,Craig Kapp,Clinical Associate Professor of Computer Science,Courant,affil_fac,https://cims.nyu.edu/people/profiles/KAPP_Craig.html,,
+FALSE,broussard,Meredith Broussard,associate professor,Arthur L. Carter Journalism Institute,affil_fac,https://journalism.nyu.edu/graduate/programs/magazine/faculty/,,
+FALSE,marshall,Jubilee Marshall,Graduate Student,Archives and Public History,fellow,,,
+FALSE,ozkiral,Alijan Ozkiral,Graduate Student,GSAS English,fellow,,,
+FALSE,zehngut-willits,Bryan Zehngut-Willits,Graduate Student,GSAS History,fellow,,,
+FALSE,petiwala,Ada Petiwala,Graduate Student,GSAS Middle Eastern and Islamic Studies,fellow,,,
+FALSE,busser,Lauren Busser ,Graduate Student,IDM Tandon,fellow,,,
+FALSE,tsolakis,Georgios Tsolakis,Graduate Student,Institute for the Study of the Ancient World,fellow,,,
+FALSE,joslyn,Daniel Joslyn,Graduate Student,GSAS History,fellow,,,
+FALSE,armoza,Jonathan Armoza,Graduate Student,GSAS English,fellow,,,
+FALSE,smith,Jackson Smith,Graduate Student,GSAS SCA,fellow,,,
+FALSE,rosenberg,Allegra Rosenberg,Graduate Student,XE Experimental Humanities,fellow,,,
+FALSE,caomhanach,Nuala Caomhanach,Graduate Student,History,fellow,,,
+FALSE,hatanaka,Ayami Hatanaka,Graduate Student,SCA,fellow,,,
+FALSE,chenel,Lynn Chenel,Graduate Student,Kevorkian Center for Near Eastern Studies,fellow,,,
+FALSE,musto,Antonio Musto,Graduate Student,Middle Eastern and Islamic Studies,fellow,,,
+FALSE,stuhler,Oscar Maria Stuhler,Graduate Student,Sociology,fellow,,,
+FALSE,binyamini,Hadas Binyamini,Graduate Student,Hebrew & Judaic Studies,fellow,,,
+FALSE,stec,Helen Frances Stec,Graduate Student,Tisch Cinema Studies,fellow,,,

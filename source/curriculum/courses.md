@@ -12,6 +12,8 @@ contents_links:
     link: '#upcoming-semester'
   - label: 'All Courses (Archive)'
     link: 'archive/'
+  - label: 'Affiliated Teaching Faculty'
+    link: '/people/affiliated-faculty/'
 ---
 
 <h2 id="current-semester">{{ site.semester.current }}</h2>

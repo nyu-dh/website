@@ -1,5 +1,5 @@
 ---
-title: Graduate Student Summer Fellowships
+title: NYU DH Graduate Student Fellowships
 layout: page
 subtitle: |
       Graduate Students across NYU to be part of a summer cohort where they will engage in project-based training and development. Selected students receive mentoring, a $5,000 stipend, and participate in a cohort to develop their skills and sharpen their ideas.

@@ -186,3 +186,11 @@ img.circle-fill {
 html {
   scroll-behavior: smooth;
 }
+
+
+.hover-zoom {
+  transition: transform .3s;
+  &:hover {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}

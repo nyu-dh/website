@@ -6,7 +6,7 @@
   dropdown:
     - name: Certificate Program
       link: '/curriculum/certificate'
-    - name: Courses
+    - name: Relevant Courses
       link: '/curriculum/courses'
 - name: Grants & Fellowships
   dropdown:
