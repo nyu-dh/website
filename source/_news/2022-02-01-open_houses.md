@@ -12,7 +12,9 @@ abstract: |
   Bring your questions to our Open House events about the 2022 NYU Digital Humanities Graduate Fellowships.
 tags:
   - grad_fellows
-
+image:
+  url: 'media/news/what_could_you_do.jpeg'
+  alt: "'What could you do with a Digital Humanities Graduate Student Summer Fellowship?' floats above a sand castle laptop, graph, book and map beside a rainbow sun umbrella and beach ball."
 ---
 
 ![{{ page.image.alt }}]({{ page.image.url | absolute_url }})
