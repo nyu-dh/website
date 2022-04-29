@@ -1,7 +1,7 @@
 ---
 title: Get Involved
 layout: default
-subtitle: "TO DO: Need a little blurb about what you'll find on this page."
+subtitle: "NYU DH invites you to get involved through consultations, events, and funding. Learn more here and join our communication channels for ongoing announcements. "
 hero_buttons:
   - label: 'NYU DH Mailing List – Public'
     link: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'
