@@ -1,33 +1,21 @@
 ---
-title: NYU DH Seed Grants
+title: NYU DH Faculty Seed Grants
 layout: default
 subtitle: |
   The multi-year seed grants program identifies and funds faculty-led projects that creatively bridge humanistic scholarship with new forms of computation, digital publishing, and digitization.
 hero_buttons:
-  - label: 'Applications Open Until 3/18/22'
+  - label: 'Applications Open Until 3/06/2022'
     external: true
-    link: ''
+    link: 'https://nyuhumanities.org/opportunity/digital-humanities-seed-grants/'
 contents_links:
   - label: 'Seed Grant News'
-    link:
+    link: '#seed-grant-news'
   - label: 'Funded Projects'
-    link:
-  - label: 'Additional Resources'
-    link:
+    link: '#funded-projects'
   - label: 'FAQ'
-    link:
+    link: 'faq'
   - label: 'Grant Cycle Information'
-    link:
-resources:
-  - name: Frequently Asked Questions
-    description: ''
-    link: ''
-  - name: Grant Cycle Information
-    description: ''
-    link: ''
-  - name: Information from NYU Center for the Humanities
-    description: ''
-    link: ''
+    link: 'grant-cycles'
 ---
 
 <div class="container">
@@ -41,7 +29,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
 
 <section class="section full-width is-bg-alt">
   <div class="container">
-    <p class="is-size-3 pb-6">Seed Grant News</p>
+    <p class="is-size-3 pb-6" id="seed-grant-news">Seed Grant News</p>
 
     {% assign seed_news = site.news | where_exp: "i", "i.tags contains 'seed_grants'" %}
     {% include custom/news-cards.html data=seed_news limit=3 %}
@@ -57,7 +45,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
 <section class="section full-width">
   <div class="container">
     <div class="content mb-6">
-      <p class="is-size-3">Funded Projects</p>
+      <p class="is-size-3" id="funded-projects">Funded Projects</p>
 
       {% assign seeds2022 = site.projects | where: 'cohort_year', '2022' | where_exp: "i", "i.category contains 'Seed'" %}
       {%- if seeds2022.size > 0 -%}
@@ -91,36 +79,3 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
     </div>
   </div>
 </section>
-
-<section class="section full-width is-bg-alt">
-  <div class="container">
-    <p class="is-size-3 pb-6">Additional Resources</p>
-    {% include custom/simple-cards.html cards=page.resources columns=3 %}
-  </div>
-</section>
-
-{% comment %}
-## Grant Cycle
-
-I feel like this might be nice as a gray content block so that it sits apart from the above information. I could also imagine a calendar or gantt for the timeline overview.
-The NYU Center for the Humanities manages the annual grant applications. The general schedule adheres to a spring application for August to August grant period.
-
-December: CFP Circulated.
-
-early March: Applications due.
-
-March: Review panel meets for evaluation period.
-
-April: Decisions announced, funds available for summer work.
-
-May: Funds available.
-
-August: Funds must be transferred to the receiving department.
-
-August of the following year: Project end date, funds must be spent down.
-
-Applications are released during open call periods at [NYU Center for the Humanities website](https://nyuhumanities.org/opportunity/digital-humanities-seed-grants/).
-
-### Frequently Asked Questions
-I don't know that these will be ready yet, but I imagine them going here.
-{% endcomment %}
