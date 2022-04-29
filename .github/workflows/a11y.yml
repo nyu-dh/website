@@ -34,6 +34,8 @@ jobs:
       - name: build
         run: bundle exec rake build
       - name: run Lighthouse CI
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
         run: |
           npm install -g @lhci/cli@0.9.x
           lhci autorun
