@@ -1,5 +1,5 @@
 ---
-title: Now Accepting Applications for DH Seed Grant & Graduate Fellowship 2022 Cohorts
+title: Notice of Funding for 2022 DH Seed Grant & Graduate Fellowship Cohorts
 date: 2021-12-15
 featureUntil: 2022-03-10
 author: jkarlin
@@ -7,7 +7,7 @@ tags:
 - seed_grants
 - grad_fellows
 abstract: |
-  Applications for NYU Digital Humanities Seed Grants and the Graduate Fellowships in the 2022 cycle are now open.
+  Applications for NYU Digital Humanities Seed Grants and the Graduate Fellowships in the 2022 cycle are open until March 6, 2022.
 ---
 
 ## Digital Humanities Seed Grants (Faculty)

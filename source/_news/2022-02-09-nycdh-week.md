@@ -1,19 +1,19 @@
 ---
-title: Seed to Scale - Leveraging Institutional Grants for Additional Funding
+title: "NYCDH Week Workshop | Seed to Scale: Leveraging Institutional Grants for Additional Funding"
 date: 2022-02-09
+author: jkarlin
+event: true
 featureUntil: 2022-02-10
 eventDate: 2022-02-10
 startTime: 13:00
 endTime: 15:00
 location: Zoom
 link: https://nycdh.org/dhweek/event/seed-to-scale/
-author: jkarlin
 tags:
   - nycdh
-  - event
 abstract: |
-  NYCDH Week event featuring NYU DH Seed Grants awardees who went on to receive additional funding from external sources.
-image:
+  On February 10, join members of the NYU DH community for an NYCDH Week event with NYU DH Seed Grants awardees who went on to receive additional funding from external sources.
+
 ---
 
 # Event: Seed to Scale: Leveraging Institutional Grants for Additional Funding
