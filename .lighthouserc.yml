@@ -10,3 +10,5 @@ ci:
     assertions:
       categories:performance: off
       categories:pwa: off
+  upload:
+    target: temporary-public-storage
