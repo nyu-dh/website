@@ -164,9 +164,9 @@ h1, h2, h3, h4, h5, h6 {
 img.circle-fill {
   height: 75px;
   width: 75px;
-  border: 1px #eeeeee solid;
   object-fit: cover;
   border-radius: 50%;
+  background-color: #efefef;
 }
 .full-w {
   width: 100% !important;
