@@ -3,7 +3,7 @@ title: Frequently Asked Questions
 layout: page
 breadcrumbs:
   - name: Graduate Fellows
-    link: /funding/grad-fellows/
+    link: /funding/grad-fellowships/
 ---
 
 # Digital Humanities Graduate Fellow Frequently Asked Questions
@@ -29,7 +29,7 @@ Projects that involve digital humanities components (computational analysis and 
 ## Project questions
 
 How do you present your project?
-In the 
+In the
 
 Do you need a website?
 Your end goal need not be a completed website. If building a website is integral to your project, then it’s important to factor in the time it will take to choose a platform or design a site. We do not expect every applicant to have web development experience.
@@ -59,5 +59,3 @@ Current CV.
 NYU transcript (official or unofficial copies accepted).
 Letter from advisor or DGS indicating that they are aware of the student’s application. (Not a recommendation letter).
 *FOR MORE INFORMATION:* Please address any questions or requests for consultations are available to dh.help@nyu.edu.
-
-
