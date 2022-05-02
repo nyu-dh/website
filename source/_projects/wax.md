@@ -12,7 +12,7 @@ abstract: Wax is a minimal computing project for producing digital exhibitions f
 limerick:
 pis: nyrop
 link: https://minicomp.github.io/wax/
-local_image: wax.png
+local_image: wax.jpg
 original_img: https://minicomp.github.io/wax/img/logo.png
 layout: project
 ---

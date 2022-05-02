@@ -30,7 +30,7 @@ limerick: |
   ‘Til ZineCat makes all copacetic
 pis: kehoe
 link: https://zinecat.org/
-local_image: zinecat.png
+local_image: zinecat.jpg
 original_img:
 layout: project
 ---

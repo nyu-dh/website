@@ -16,7 +16,7 @@ abstract: NewYorkScapes is a research community exploring the application of dig
 limerick:
 pis: wolf; augst
 link: https://newyorkscapes.org/
-local_image: nyscapes.png
+local_image: nyscapes.jpg
 original_img: https://newyorkscapes.org/wp-content/themes/sink_nyscapes/images/logo.png
 layout: project
 ---

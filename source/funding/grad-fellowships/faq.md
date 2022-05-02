@@ -6,8 +6,6 @@ breadcrumbs:
     link: /funding/grad-fellowships/
 ---
 
-# Digital Humanities Graduate Fellow Frequently Asked Questions
-
 ## What is the timeline for the fellowships?
 Applications generally open in December.
 Applications close in early March.

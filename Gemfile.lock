@@ -98,6 +98,8 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.5)
     rouge (3.28.0)
+    ruby-vips (2.1.4)
+      ffi (~> 1.12)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -118,6 +120,7 @@ DEPENDENCIES
   nyu-dh-theme!
   pagemaster!
   rake
+  ruby-vips (~> 2.1)
 
 BUNDLED WITH
    2.2.24

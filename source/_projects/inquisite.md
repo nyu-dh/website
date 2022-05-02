@@ -14,7 +14,7 @@ abstract: Closely aligned with the objects of NewYorkScapes to provide support f
 limerick:
 pis: wolf; augst
 link: http://www.inquisite.org/
-local_image: inquisite.png
+local_image: inquisite.jpg
 original_img: http://www.inquisite.org/images/inquisite_collage.png
 layout: project
 ---
