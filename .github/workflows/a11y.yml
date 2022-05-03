@@ -32,7 +32,7 @@ jobs:
       - name: install gems
         run: bundle install
       - name: build
-        run: bundle exec rake build
+        run: bundle exec rake site:build
       - name: run Lighthouse CI
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
