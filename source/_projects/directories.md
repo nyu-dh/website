@@ -2,9 +2,9 @@
 done: 'FALSE'
 pid: directories
 title: City Directories
+subtitle:
 category: dataset
 cohort_year:
-tagline:
 abstract:
 limerick:
 pis: wolf

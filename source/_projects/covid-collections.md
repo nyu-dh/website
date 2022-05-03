@@ -2,9 +2,9 @@
 done: 'FALSE'
 pid: covid-collections
 title: COVID Collections
+subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2021'
-tagline:
 abstract: 'As COVID-19 began to dominate the global agenda during the spring of 2020,
   museums, libraries, and archives around the world announced efforts to document
   human experiences of illness, isolation, economic downturn, fear, adaptation, and

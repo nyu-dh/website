@@ -1,10 +1,10 @@
 ---
 done: 'FALSE'
 pid: g2021marshall
-title: 'Black Burials in Philadelphia: A Walking Tour'
+title: Black Burials in Philadelphia
+subtitle: A Walking Tour
 category: Grad Fellowship Project
 cohort_year: '2021'
-tagline:
 abstract:
 limerick:
 pis: marshall

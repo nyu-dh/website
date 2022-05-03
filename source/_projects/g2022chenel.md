@@ -2,9 +2,9 @@
 done: 'FALSE'
 pid: g2022chenel
 title: The Directory of Placenames Unforgotten
+subtitle:
 category: Grad Fellowship Project
 cohort_year: '2022'
-tagline:
 abstract: 'We make sense of the spatial world around us by dividing it into smaller
   units with distinguishable names. If a group exercises more power over another in
   the region, they may replace these placenames by those in their language. Erased

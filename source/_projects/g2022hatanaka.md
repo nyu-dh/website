@@ -1,11 +1,10 @@
 ---
 done: 'FALSE'
 pid: g2022hatanaka
-title: '"Why Are There No ACS Offices in SoHO?": and Interactive, Digital Map of Family
-  Surveillance in New York City'
+title: '"Why Are There No ACS Offices in SoHO?"'
+subtitle: An Interactive, Digital Map of Family Surveillance in New York City
 category: Grad Fellowship Project
 cohort_year: '2022'
-tagline:
 abstract: 'This research project stems from provocations by abolitionist organizers
   in New York City, with questions such as, “Why are there no ACS offices in SoHo?”
   For the summer of 2022, I aim to create an interactive, digital map that layers

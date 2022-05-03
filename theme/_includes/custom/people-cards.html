@@ -1,13 +1,7 @@
-{% if include.data.size < 3 %}
-{% assign col_size = 'is-6' %}
-{% else %}
-{% assign col_size = 'is-4' %}
-{% endif %}
-
 <section class="{% if include.full_width == true %}full-width py-3 px-5{% endif %}">
   <div class="columns is-multiline">
     {% for person in include.data %}
-      <div class="column {{ col_size }}">
+      <div class="column is-4">
         <div class="is-relative m-3">
           <figure class="image mb-2">
           {%- if person.link -%}

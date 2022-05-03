@@ -1,10 +1,10 @@
 ---
 done: 'FALSE'
 pid: g2022caomhanach
-title: 'The Land of the Giants: Digitally UnMapping Madagascar''s Plant Diversity'
+title: The Land of the Giants
+subtitle: Digitally UnMapping Madagascar's Plant Diversity
 category: Grad Fellowship Project
 cohort_year: '2022'
-tagline:
 abstract: By the late twentieth century, conservation scientists declared that time
   was “running out” for Madagascar as plant species were “disappearing 500 times faster
   than normal.” Plants deemed immortal in Malagasy culture, such as the famous Baobab

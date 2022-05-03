@@ -2,9 +2,9 @@
 done: 'FALSE'
 pid: brown
 title: Brown Brothers Collection
+subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2020'
-tagline: Uncovering the historical data linking New York bankers to slavery
 abstract: The Brown Brothers Collection is a collaborative, cross-institutional research
   project that will develop robust teaching, research, and public humanities resources
   that leverage the digitized Brown Brothers & Company archives held by the New York

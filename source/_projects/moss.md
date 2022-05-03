@@ -1,11 +1,10 @@
 ---
 done: 'FALSE'
 pid: moss
-title: 'Inverting the Wunderkammer: Rethinking the Digital Humanities through Botanic
-  Histories and Archives'
+title: Inverting the Wunderkammer
+subtitle: Rethinking the Digital Humanities through Botanic Histories and Archives
 category: DH Seed Grant Recipient
 cohort_year: '2021'
-tagline: Decolonial design for public humanities on botantic archives.
 abstract: Focusing on the the nineteenth-century bryological Mitten Collection at
   the New York Botanical Garden, this project uses moss--one of the most commonplace
   and adaptive plants in the world--to explore how experimental digital imaging techniques

@@ -2,9 +2,9 @@
 done: 'FALSE'
 pid: g2021ozkiral
 title: Reading Comments Reading Instagram Comics
+subtitle:
 category: Grad Fellowship Project
 cohort_year: '2021'
-tagline:
 abstract:
 limerick:
 pis: ozkiral

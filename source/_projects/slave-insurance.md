@@ -1,10 +1,10 @@
 ---
 done: 'FALSE'
 pid: slave-insurance
-title: 'Insuring Slavery: Underwriting Risk in the 18th Century'
+title: Insuring Slavery
+subtitle: Underwriting Risk in the 18th Century
 category: DH Seed Grant Recipient
 cohort_year: '2020'
-tagline: Documenting the growth of the insurance industry in the slave trade
 abstract: "“Underwriting Risk in the 18th century” provides the first systematic analysis
   of the application of probabilistic mathematics to the trade in enslaved Africans
   during the designated period. It will provide foundational research for an exploration
