@@ -39,11 +39,13 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
         <p class="is-size-4">2022 - 2023</p>
         <ul>
           {%- for p in fellow2022 -%}
-            {%- assign piid = p.pis -%}
+            {%- assign piid = p.pis.first -%}
             {%- assign pi = site.data.people | find: 'pid', piid %}
             <li>
               {%- if pi.size -%}<b>{{ pi.name }}</b>, {{ pi.titles }}&nbsp;—&nbsp;{%- endif -%}
-              <a class="is-italic" href="{{ p.url | absolute_url }}">{{ p.title }}</a>
+              <a class="is-italic" href="{{ p.url | absolute_url }}">
+                {{ p.title }}{%- if p.subtitle.size > 0 -%}:&nbsp;{{ p.subtitle }}{%- endif -%}
+              </a>
             </li>
           {%- endfor -%}
         </ul>
@@ -54,11 +56,13 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
         <p class="is-size-4">2021 - 2022</p>
         <ul>
         {%- for p in fellow2021 -%}
-          {%- assign piid = p.pis -%}
+          {%- assign piid = p.pis.first -%}
           {%- assign pi = site.data.people | find: 'pid', piid %}
           <li>
             {%- if pi.size -%}<b>{{ pi.name }}</b>, {{ pi.titles }}&nbsp;—&nbsp;{%- endif -%}
-            <a class="is-italic" href="{{ p.url | absolute_url }}">{{ p.title }}</a>
+            <a class="is-italic" href="{{ p.url | absolute_url }}">
+              {{ p.title }}{%- if p.subtitle.size > 0 -%}:&nbsp;{{ p.subtitle }}{%- endif -%}
+            </a>
           </li>
         {%- endfor -%}
         </ul>

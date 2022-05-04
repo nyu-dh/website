@@ -52,7 +52,9 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
         <p class="is-size-4">2022 - 2023</p>
         <ul>
           {%- for p in seeds2022 -%}
-            <li><a href="{{ p.url | absolute_url }}">{{ p.title }}</a></li>
+            <li><a href="{{ p.url | absolute_url }}">
+              {{ p.title }}{%- if p.subtitle.size > 0 -%}:&nbsp;{{ p.subtitle }}{%- endif -%}
+            </a></li>
           {%- endfor -%}
         </ul>
       {%- endif -%}
@@ -62,7 +64,9 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
         <p class="is-size-4">2021 - 2022</p>
         <ul>
           {% for p in seeds2021 %}
-            <li><a href="{{ p.url | absolute_url }}">{{ p.title }}</a></li>
+            <li><a href="{{ p.url | absolute_url }}">
+              {{ p.title }}{%- if p.subtitle.size > 0 -%}:&nbsp;{{ p.subtitle }}{%- endif -%}
+            </a></li>
           {% endfor %}
         </ul>
       {% endif %}
@@ -72,7 +76,9 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
         <p class="is-size-4">2020 - 2021</p>
         <ul>
           {% for p in seeds2020 %}
-            <li><a href="{{ p.url | absolute_url }}">{{ p.title }}</a></li>
+            <li><a href="{{ p.url | absolute_url }}">
+              {{ p.title }}{%- if p.subtitle.size > 0 -%}:&nbsp;{{ p.subtitle }}{%- endif -%}
+            </a></li>
           {% endfor %}
         </ul>
       {% endif %}

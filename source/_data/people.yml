@@ -7,7 +7,7 @@
     Humanities
   site_roles:
   - exec_com
-  - " affil_fac"
+  - affil_fac
   link: https://benschmidt.org
   local_image: schmidt.jpg
   original_image: https://benschmidt.org/authors/admin/avatar_hu100dbceb67e8fdbed30bfdcfd276f9b6_54689_250x250_fill_lanczos_center_2.png
@@ -38,7 +38,7 @@
   affiliations_tbd: Digital Scholarship Services
   site_roles:
   - exec_com
-  - " affil_fac"
+  - affil_fac
   link: https://library.nyu.edu/people/zachary-coble/
   local_image: coble.jpg
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/zachary-coble.jpg
@@ -60,7 +60,7 @@
   affiliations_tbd: Data Services
   site_roles:
   - exec_com
-  - " proj_pi"
+  - proj_pi
   link: https://library.nyu.edu/people/nicholas-wolf/
   local_image: wolf.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/irelandHouse/images/headshots-portraits-promopics-etc/Faculty/Nicholas%20Wolf.JPG
@@ -163,7 +163,7 @@
   affiliations_tbd: Faculty of Arts and Science
   site_roles:
   - proj_pi
-  link: https://as.nyu.edu/content/nyu-as/as/faculty/michael-ralph.html
+  link:
   local_image: ralph.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/q-u/MichaelRalph.jpg
 - done: false
