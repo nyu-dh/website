@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: g2022binyamini
 title: Structured Data, Mapping, and Textual Analysis of the American Jewish Year
   Book
@@ -26,7 +26,8 @@ abstract: 'Over the course of this summer, I propose to apply digital humanities
   wider public for the first time as structured clean data, and to gain an unprecedented
   overview of Orthodox activities in the late twentieth century.'
 limerick:
-pis: binyamini
+pis:
+- binyamini
 link:
 local_image:
 original_img:

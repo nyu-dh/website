@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: g2022musto
 title: Demystifying the Digitization of Texts
 subtitle: New Textual Analysis for the Medieval History of Islamic Mysticism
@@ -27,7 +27,8 @@ abstract: 'The digitization of Latin-script languages has fundamentally changed 
   already underway to digitize Islamic texts by introducing a previously neglected
   body of literature.'
 limerick:
-pis: musto
+pis:
+- musto
 link:
 local_image:
 original_img:

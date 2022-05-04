@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: slave-insurance
 title: Insuring Slavery
 subtitle: Underwriting Risk in the 18th Century
@@ -28,7 +28,8 @@ abstract: "“Underwriting Risk in the 18th century” provides the first system
   enslaved persons as property on the plantations of the antebellum American South."
 limerick: "This project, our first love, that powered\nour bottom line suddenly soured\nwhen
   we lost our lucks \nof a half million bucks\nWith the PI decamping for Howard."
-pis: ralph
+pis:
+- ralph
 link:
 local_image: slave-insurance.jpg
 original_img:

@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: soviet-sphere
 title: The Post-Soviet Public Sphere
 subtitle: Multimedia Sourcebook of the 1990s
@@ -22,7 +22,8 @@ limerick: |-
   to prod from localhost
   we push the glasnost
   a media russophone ever so suave
-pis: vinkour
+pis:
+- vinkour
 link: https://www.postsoviet90s.com/
 local_image: soviet-sphere.jpg
 original_img: https://images.squarespace-cdn.com/content/v1/59836ba83e00be476e5686a5/1501801511310-OM7GCIPWGCYXIJXIPG8E/image-asset.jpeg?format=1500w

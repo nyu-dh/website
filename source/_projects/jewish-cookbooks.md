@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: jewish-cookbooks
 title: The South African Jewish Cookbook Project
 subtitle:
@@ -25,7 +25,8 @@ limerick: |-
   they published some books
   of the things they cooked
   latke, challah, matzoh
-pis: beinart-smollan
+pis:
+- beinart-smollan
 link:
 local_image:
 original_img:

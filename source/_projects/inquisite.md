@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: inquisite
 title: Inquisite
 subtitle:
@@ -12,7 +12,9 @@ abstract: Closely aligned with the objects of NewYorkScapes to provide support f
   platform is intended to fill needs among faculty and researchers for a low-technology-barrier
   interface for hosting and documenting data iteratively for research management purposes.
 limerick:
-pis: wolf; augst
+pis:
+- wolf
+- augst
 link: http://www.inquisite.org/
 local_image: inquisite.jpg
 original_img: http://www.inquisite.org/images/inquisite_collage.png

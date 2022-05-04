@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: sanger
 title: Margaret Sanger Papers Project
 subtitle:
@@ -13,7 +13,10 @@ abstract: The Margaret Sanger Papers Project is a historical editing project for
   50,000 documents and a ten-year international search of over 1,500 archives and
   private collection.
 limerick:
-pis: katz; nyrop; coble
+pis:
+- katz
+- nyrop
+- coble
 link: https://sanger.hosting.nyu.edu/
 local_image: sanger.jpg
 original_img: https://sanger.hosting.nyu.edu/images/legacy/1929_writing.jpg

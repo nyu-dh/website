@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: covid-collections
 title: COVID Collections
 subtitle:
@@ -28,7 +28,9 @@ limerick: |-
   Since their sustainability's porous,
   That leaves an opening for us
   to make a covid collection, collection.
-pis: noonan; remes
+pis:
+- noonan
+- remes
 link: https://wp.nyu.edu/disasters/covid-collections-project/
 local_image:
 original_img:

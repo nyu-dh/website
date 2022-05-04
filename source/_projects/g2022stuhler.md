@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: g2022stuhler
 title: Who Kisses Whom?
 subtitle: Gendered Interaction in American Novels (1880-2000)
@@ -21,7 +21,8 @@ abstract: Following the framework of distant reading, this project aims to provi
   tracing distinct relationship frames such as friendship, courtship and love, or
   parenting.
 limerick:
-pis: stuhler
+pis:
+- stuhler
 link:
 local_image:
 original_img:

@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: wax
 title: Wax
 subtitle: Minimal Framework for Producing Scholarly Exhibitions with IIIF
@@ -10,7 +10,8 @@ abstract: Wax is a minimal computing project for producing digital exhibitions f
   and to teach, and can produce beautifully rendered, high-quality image collections
   and scholarly exhibits.
 limerick:
-pis: nyrop
+pis:
+- nyrop
 link: https://minicomp.github.io/wax/
 local_image: wax.jpg
 original_img: https://minicomp.github.io/wax/img/logo.png

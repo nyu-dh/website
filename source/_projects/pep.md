@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: pep
 title: Developing a Publications Page for NYU’s Prison Education Program (PEP) Website
 subtitle:
@@ -18,7 +18,8 @@ abstract: This project will establish a website that showcases the finest writin
   of a range of evidence, this project hopes to contribute to the reshaping of perceptions
   and understanding of the incarcerated.
 limerick:
-pis: jacobs
+pis:
+- jacobs
 link: https://prisoneducation.nyu.edu
 local_image: pep.jpg
 original_img: https://prisoneducation.nyu.edu/wp-content/uploads/2017/07/DSC_0418-1-250x250.jpg

@@ -6,3 +6,4 @@ vendor
 .secrets.yml
 .lighthouseci
 .DS_Store
+source/_data/.tmp

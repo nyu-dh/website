@@ -31,7 +31,7 @@ collections:
     output: true
   projects:
     output: true
-    source: projects.csv
+    source: projects.yml
     id_key: pid
     layout: project
 

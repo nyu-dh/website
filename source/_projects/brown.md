@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: brown
 title: Brown Brothers Collection
 subtitle:
@@ -24,7 +24,9 @@ limerick: |-
   They were up to the knavery
   Of bankrolling slavery
   At the NYC house of Brown Bros.
-pis: augst; wolf
+pis:
+- augst
+- wolf
 link: https://newyorkscapes.org/brownbrothers/
 local_image: brown.jpg
 original_img: https://newyorkscapes.org/wp-content/uploads/2021/03/018.57733030.117d9410-dc97-0136-03f0-000d5d842228-edited-768x768.jpeg
