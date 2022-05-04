@@ -2,7 +2,11 @@
 
 {% for group in grouped %}
 <section class="{% if include.full_width == true and page.layout == 'default' %}full-width py-3 px-5{% endif %}">
-  <!-- <div class="content"><p class="is-size-3">{{ group.name }}</p></div> -->
+  <div class="content">
+    <p class="is-size-5">
+      <code>{{ group.name }}</code>
+    </p>
+  </div>
   <div class="columns is-multiline is-vcentered">
     {% for project in group.items %}
       <div class="column is-4 full-h">
