@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: g2022chenel
 title: The Directory of Placenames Unforgotten
 subtitle:
@@ -26,7 +26,8 @@ abstract: 'We make sense of the spatial world around us by dividing it into smal
   the increasing monolingualism of Black Sea-states and erasure of linguistic minority
   heritage from nationalist landscapes. '
 limerick:
-pis: chenel
+pis:
+- chenel
 link:
 local_image:
 original_img:

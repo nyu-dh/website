@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: city-record
 title: City Record Project
 subtitle:
@@ -13,9 +13,10 @@ abstract: The City Record Project hosts the New York City Record from its first 
   Supported by a NEH Humanities Collections and Reference Resources grant, the digitized
   and searchable PDF documents openly accessible to the public.
 limerick:
-pis: soffer
+pis:
+- soffer
 link: http://cityrecord.engineering.nyu.edu/
-local_image: 'city-record.jpg'
+local_image: city-record.jpg
 original_img:
 layout: project
 ---

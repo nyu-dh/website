@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: zinecat
 title: The Zine Union Catalog (ZineCat)
 subtitle:
@@ -28,7 +28,8 @@ limerick: |
   They make systems to suffice
   They can’t easily splice
   ‘Til ZineCat makes all copacetic
-pis: kehoe
+pis:
+- kehoe
 link: https://zinecat.org/
 local_image: zinecat.jpg
 original_img:

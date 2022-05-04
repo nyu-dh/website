@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: soul-of-reason
 title: Raising the Volume
 subtitle: Amplifying <i>Soul of Reason</i>
@@ -19,7 +19,8 @@ limerick: |-
   host roscoe brown
   was the talk of the town
   to miss this would be treason
-pis: bunde
+pis:
+- bunde
 link: https://nyu-dss.github.io/soul-of-reason/
 local_image: soul-of-reason.jpg
 original_img: https://nyu-dss.github.io/soul-of-reason/images/uploads/roscoe-brown-IAAA.jpg

@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: dental-tools
 title: Creating a Digital Museum of the History of Dentistry
 subtitle:
@@ -16,7 +16,8 @@ limerick: |2-
 
 
   These dental instruments are 3D!
-pis: spielman
+pis:
+- spielman
 link:
 local_image:
 original_img:

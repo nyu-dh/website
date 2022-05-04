@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: moss
 title: Inverting the Wunderkammer
 subtitle: Rethinking the Digital Humanities through Botanic Histories and Archives
@@ -26,7 +26,10 @@ limerick: |-
   of decolonial design,
   and critical archives, you'll find
   That your worldview will be changed by some moss.
-pis: ansari; ayers; brain
+pis:
+- ansari
+- ayers
+- brain
 link:
 local_image:
 original_img:

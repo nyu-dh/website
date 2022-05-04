@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: errant-americas
 title: Arts of the Errant Americas
 subtitle:
@@ -24,7 +24,8 @@ abstract: "“Arts of the Errant Americas” proposes a pilot program for a seri
   to Latinx arts and a prompt to develop compelling solutions to translate her murals
   into the digital."
 limerick:
-pis: sloane-britt
+pis:
+- sloane-britt
 link:
 local_image:
 original_img:

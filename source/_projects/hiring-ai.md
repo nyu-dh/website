@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: hiring-ai
 title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
   Research
@@ -23,7 +23,9 @@ limerick: |
   If you don't get a job
   It could be that the snob
   That rejects you's a black-box AI
-pis: schellmann; sloane
+pis:
+- schellmann
+- sloane
 link:
 local_image:
 original_img:

@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: archcus
 title: Archive of Cuban Socialism (ARCHCUS)
 subtitle:
@@ -20,7 +20,8 @@ abstract: 'The proposed Archive of Cuban Socialism (ARCHCUS) will document and a
   material culture as well as to Cuban, Caribbean, Latin American, and state socialist
   studies. '
 limerick:
-pis: cabrera-arus
+pis:
+- cabrera-arus
 link:
 local_image:
 original_img:

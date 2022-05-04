@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: sight-site-cite
 title: Sight/Site/Cite in the Digital Middle East
 subtitle:
@@ -19,7 +19,8 @@ abstract: Sight/Site/Cite (S/S/C) seeks to create a digital hub dedicated to exa
   a long-term partnership with the Kevorkian Center and its fledgling Digital Middle
   East Lab, and seek other potential partners and funding.
 limerick:
-pis: mccormick
+pis:
+- mccormick
 link:
 local_image:
 original_img:

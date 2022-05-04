@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: g2022stec
 title: The Brownies' Book Archive
 subtitle:
@@ -27,7 +27,8 @@ abstract: The Brownies’ Book Archive is a digital archive and exhibit of W.E.B
   actions, and the frequency with which Black individuals appear in the periodicals’
   texts.
 limerick:
-pis: stec
+pis:
+- stec
 link:
 local_image:
 original_img:

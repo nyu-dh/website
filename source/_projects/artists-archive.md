@@ -1,5 +1,5 @@
 ---
-done: 'FALSE'
+done: false
 pid: artists-archive
 title: Artists Archive Initiative
 subtitle:
@@ -14,7 +14,8 @@ abstract: The Artist Archives Initiative promotes research and disseminates know
   and others who are researching the work these artists, and to assist in future exhibition
   and conservation of the artists' works.
 limerick:
-pis: martin
+pis:
+- martin
 link: https://artistarchives.hosting.nyu.edu/Initiative/
 local_image: artists-archive.jpg
 original_img: https://artistarchives.hosting.nyu.edu/Initiative/wp-content/uploads/2021/01/OHVR_PER_PHODOC_1972_AceGalleryLA_RNeiman_JJstudio-prnt005_ImageLink2-1024x679-1.jpg
