@@ -6,7 +6,10 @@ breadcrumbs:
     link: /funding/grad-fellowships/
 ---
 
-## What is the timeline for the fellowships?
+## Questions about applying
+
+### What is the timeline for the program?
+
 Applications generally open in December.
 Applications close in early March.
 The Faculty committee reviews applications.
@@ -14,25 +17,47 @@ Decisions are announced at the end of March-beginning of April.
 Summer sessions begin early June and run weekly until the beginning of August.
 Students present their work at the Digital Humanities Showcase in early October.
 
-## Application questions
-
-Can you clarify the format of the letter of acknowledgment from the advisor in the application?
+### Can you clarify the format of the letter of acknowledgment from the advisor in the application?
 
 We do not need a letter of recommendation, only a letter confirming that your department knows about your digital humanities efforts. While we are prepared to support the selected fellows in Digital Humanities methods, we want to be sure that applicants have departmental/disciplinary support for their projects. A letter acknowledging that your department knows about your project gives us a sense of who is supporting this sort of work (even if they don't practice digital methods) and a way to reach them.
 
-Can the funding support summer writing?
+### Can the funding support summer writing?
 
 Projects that involve digital humanities components (computational analysis and data visualization, web development, digital exhibitions, mobile apps, etc.) will be favored over critical internet studies projects whose outputs align with more conventional outputs.
 
-## Project questions
+### Who reviews the applications?
 
-How do you present your project?
-In the
+Submissions are judged by a committee of affiliated digital humanites faculty from across schools and departments at NYU. 
 
-Do you need a website?
-Your end goal need not be a completed website. If building a website is integral to your project, then it’s important to factor in the time it will take to choose a platform or design a site. We do not expect every applicant to have web development experience.
+## Questions about the projects
 
-Who will build your website?
+### What sort of projects does the committee choose?
+
+See [past projects](/source/_projects/) to see the range. Ideally the application will demonstrate the academic merit of the project, its contribution to the applicant’s course of study, and its feasibility in the timeline proposed. We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
+
+### Do you need to make a website?
+
+Your end goal need not be a completed website. If building a website is integral to your project, then it’s important to factor in the time it will take to choose a platform and/or design a site. We do not expect every applicant to have web development experience, but we anticipate that most projects will have an online presence.
+
+### Who will build your website?
+
+In most cases, we expect that building the web identity of your project is part of the project and that fellows will build their own websites. If you hope to involve a developer collaborator, we like to know how you plan to involve them in your process.
+
+### What are the project presentations?
+
+In early October, Fellows present their summer work at the NYU Digital Humanities Showcase.
+  - Presentations will be a maximum of 3 minutes 
+  - Presenters share website and social media information for those who wish to follow up
+  - Presenters individually operate their slides through screen sharing
+
+The DH Seed Grant presentations take place during the first half hour and the graduate presentations take place in the second half hour of the Showcase.
+
+## Questions about the program
+
+### Can I apply more than once?
+
+Yes. We encourage students to reapply if we think their project will benefit from the program at a different stage in their research. Students can only win the fellowship once during their time at NYU.
+
 
 
 ## Sample Call for Applications
