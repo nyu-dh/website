@@ -14,12 +14,11 @@ breadcrumbs:
 </div>
 
 {% assign people = '' | split: '' %}
-{% assign pi_pids = page.pis | split: ';' %}
-{% for p in pi_pids %}
-  {% assign pid = p | strip %}
+{% for pid in page.pis %}
   {% assign person = site.data.people | find: 'pid', pid %}
-  {% unless person.size > 0 %}<code>* Couldn't match person "{{ pid}}"</code>{% endunless %}
+  {% if person.size %}
   {% assign people = people | push: person %}
+  {% endif %}
 {% endfor %}
 
 {% if people. size > 0 %}
