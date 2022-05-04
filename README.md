@@ -20,9 +20,9 @@
 
 ## Contribute Content & Data
 + [🏛️ Courses](docs/guides/add-edit-courses.md)
-+ [📆 Events](docs/guides/add-edit-events.md)
++ [📆 Events](docs/guides/add-edit-news-events.md)
 + [🖼️ Media](docs/guides/add-edit-media.md)
-+ [📰 News](docs/guides/add-edit-news.md)
++ [📰 News](docs/guides/add-edit-news-events.md)
 + [📝 Pages](docs/guides/add-edit-pages.md)
 + [👤 People](docs/guides/add-edit-people.md)
 + [🏺 Projects](docs/guides/add-edit-projects.md)  
