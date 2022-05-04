@@ -43,7 +43,7 @@ See also [Jekyll Serve Command Options](https://jekyllrb.com/docs/configuration/
 You can run the tests with the following command:
 
 ``` sh
-bundle exec rake test
+bundle exec rake site:test
 ```
 
 This will build the site and flag broken HTML formatting and any broken links.
