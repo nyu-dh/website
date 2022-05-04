@@ -12,6 +12,7 @@
 - [`source/`](../source) :: the site content and data
 - [`theme/`](../theme)  :: WiP Jekyll theme (e.g., style and templating files)
 - [`docs/`](../docs) :: documentation for developing, maintaining, and contributing content to the site
+- [`lib/`](../lib) :: ruby code for development tasks (e.g., data and media processing, ci runs)
 - [`.github/workflows/`](../.github/workflows) :: YAML files that define conditional workflows for GitHub Actions to run
 
 ### Files
