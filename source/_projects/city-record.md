@@ -2,9 +2,9 @@
 done: 'FALSE'
 pid: city-record
 title: City Record Project
+subtitle:
 category: Externally Funded
 cohort_year:
-tagline: Digitized copies of the New York City Record from 1873 - 1949.
 abstract: The City Record Project hosts the New York City Record from its first volume
   in 1873 through 1949. The City Record contains data on every aspect of the city’s
   politics, society, economy, real estate and infrastructure development, employment,
@@ -15,7 +15,7 @@ abstract: The City Record Project hosts the New York City Record from its first 
 limerick:
 pis: soffer
 link: http://cityrecord.engineering.nyu.edu/
-local_image:
+local_image: 'city-record.jpg'
 original_img:
 layout: project
 ---

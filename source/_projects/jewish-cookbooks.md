@@ -2,9 +2,9 @@
 done: 'FALSE'
 pid: jewish-cookbooks
 title: The South African Jewish Cookbook Project
+subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2020'
-tagline: Documenting apartheid communities through their home life
 abstract: The South African Jewish Cookbook Project will digitize a corpus of 50 community
   cookbooks, created by South African Jewish women during the apartheid era. It will
   unite the cookbooks, collected from a broad range of institutions and private individuals

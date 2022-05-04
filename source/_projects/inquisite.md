@@ -2,9 +2,9 @@
 done: 'FALSE'
 pid: inquisite
 title: Inquisite
+subtitle:
 category: Software
 cohort_year:
-tagline:
 abstract: Closely aligned with the objects of NewYorkScapes to provide support for
   the creation, design, and preservation of humanities data, support for the software
   platform Inquisite is being sought to facilitate the use of research data in the

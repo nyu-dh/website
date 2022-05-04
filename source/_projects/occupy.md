@@ -3,10 +3,10 @@ done: 'FALSE'
 pid: occupy
 title: |2-
 
-  NO TURNING BACK: Ten Years After Occupy
+  No Turning Back
+subtitle: Ten Years After Occupy
 category: Library Project
 cohort_year:
-tagline: Representing the physical artifacts of "#OccupyWallStreet" a decade later.
 abstract: This library-based exhibition uses Wax to tell the story of Occupy through
   historical materials.
 limerick: |-

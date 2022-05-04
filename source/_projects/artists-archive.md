@@ -2,9 +2,9 @@
 done: 'FALSE'
 pid: artists-archive
 title: Artists Archive Initiative
+subtitle:
 category: Project
 cohort_year:
-tagline:
 abstract: The Artist Archives Initiative promotes research and disseminates knowledge
   about the display and care of contemporary art. The initiative responds to a growing
   need for art world professionals and academic researchers to work with artists in

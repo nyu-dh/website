@@ -1,10 +1,10 @@
 ---
 done: 'FALSE'
 pid: nlines
-title: 'nLines and Changing: Writing the Shanghai Metro System to the End'
+title: nLines and Changing
+subtitle: Writing the Shanghai Metro System to the End
 category: DH Seed Grant Recipient
 cohort_year: '2022'
-tagline:
 abstract: 'n Lines and Changing is an ongoing digital poetry project that arises from
   nearly 15 years of living in Shanghai, and which I use the expanding Shanghai Metro
   system as a compositional tool which both guides explorations of the city and which

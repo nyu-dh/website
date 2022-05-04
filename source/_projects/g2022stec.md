@@ -2,9 +2,9 @@
 done: 'FALSE'
 pid: g2022stec
 title: The Brownies' Book Archive
+subtitle:
 category: Grad Fellowship Project
 cohort_year: '2022'
-tagline:
 abstract: The Brownies’ Book Archive is a digital archive and exhibit of W.E.B. Du
   Bois and Jessie Redmon Fauset’s children’s magazine, The Brownies’ Book (1920-1921),
   the first periodical published for Black children. The Brownies’ Book Archive will

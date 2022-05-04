@@ -2,9 +2,9 @@
 done: 'FALSE'
 pid: aponte
 title: Digital Aponte
+subtitle:
 category: Project
 cohort_year:
-tagline:
 abstract: 'José Antonio Aponte was a free man of color, carpenter, artist, and alleged
   leader of a massive antislavery conspiracy and rebellion in colonial Cuba in 1811-1812.
   He was the creator of an unusual work of art - a “book of paintings” full of historical

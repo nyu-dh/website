@@ -9,6 +9,5 @@ contents_links:
       link: '/curriculum/courses/'
 ---
 {% assign people = site.data.people | where_exp: "p", "p.site_roles contains 'affil_fac'" %}
-{% assign size = people.size %}
-{% assign people = people | sample: size %}
+{% assign people = people | sort: 'pid' %}
 {% include custom/people-cards.html data=people full_width=false %}

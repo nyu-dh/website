@@ -3,9 +3,9 @@ done: 'FALSE'
 pid: g2022binyamini
 title: Structured Data, Mapping, and Textual Analysis of the American Jewish Year
   Book
+subtitle:
 category: Grad Fellowship Project
 cohort_year: '2022'
-tagline:
 abstract: 'Over the course of this summer, I propose to apply digital humanities methods
   to the text of the American Jewish Year Book (AJYB) to support research for my dissertation,
   “The 1970s’ New Jewish Politics: Grassroots Orthodox Activism in the U.S.” Working
