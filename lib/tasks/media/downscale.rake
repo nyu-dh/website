@@ -1,13 +1,13 @@
-begin
-  require 'vips'
-rescue LoadError
-  puts Rainbow("LOAD ERROR: This task requires that Libvips is installed.\nPlease install it using the instructions at https://libvips.github.io/libvips/install.html.").magenta
-  exit
-end
-
 namespace :media do
   desc 'downsize people and project images to 300px width and convert to jpg'
   task :downscale  do
+    begin
+      require 'vips'
+    rescue LoadError
+      puts Rainbow("LOAD ERROR: This task requires that Libvips is installed.\nPlease install it using the instructions at https://libvips.github.io/libvips/install.html.").magenta
+      exit
+    end
+
     width = 300
 
     Dir.glob("./source/media/{people,projects}/**").each do |path|
