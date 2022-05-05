@@ -1,5 +1,4 @@
 ---
-done: false
 pid: historic-fractures
 title: Historic Fractures
 subtitle: Toward A Digital Future in Museum Accessibility
@@ -22,11 +21,7 @@ abstract: 'This project is a catalyst for access to open Villa La Pietra’s ric
   with diverse motor, cognitive, sensory, and behavior-emotional disabilities, this
   project supports tactical and strategic skills to develop multi-sensory content
   in historic houses.'
-limerick:
 pis:
 - flouty
-link:
-local_image:
-original_img:
 layout: project
 ---

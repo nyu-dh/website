@@ -1,9 +1,7 @@
 ---
-done: false
 pid: g2022binyamini
 title: Structured Data, Mapping, and Textual Analysis of the American Jewish Year
   Book
-subtitle:
 category: Grad Fellowship Project
 cohort_year: '2022'
 abstract: 'Over the course of this summer, I propose to apply digital humanities methods
@@ -25,11 +23,7 @@ abstract: 'Over the course of this summer, I propose to apply digital humanities
   I hope to make the AYJB’s demographic information available to scholars and the
   wider public for the first time as structured clean data, and to gain an unprecedented
   overview of Orthodox activities in the late twentieth century.'
-limerick:
 pis:
 - binyamini
-link:
-local_image:
-original_img:
 layout: project
 ---

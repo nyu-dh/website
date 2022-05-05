@@ -1,8 +1,6 @@
 ---
-done: false
 pid: g2022chenel
 title: The Directory of Placenames Unforgotten
-subtitle:
 category: Grad Fellowship Project
 cohort_year: '2022'
 abstract: 'We make sense of the spatial world around us by dividing it into smaller
@@ -25,11 +23,7 @@ abstract: 'We make sense of the spatial world around us by dividing it into smal
   does not offer conclusions of its own but functions as a source for those tracing
   the increasing monolingualism of Black Sea-states and erasure of linguistic minority
   heritage from nationalist landscapes. '
-limerick:
 pis:
 - chenel
-link:
-local_image:
-original_img:
 layout: project
 ---

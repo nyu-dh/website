@@ -1,10 +1,8 @@
 ---
-done: false
 pid: soviet-sphere
 title: The Post-Soviet Public Sphere
 subtitle: Multimedia Sourcebook of the 1990s
 category: Externally Funded
-cohort_year:
 abstract: Following the collapse of the Soviet regime, Russia seemed poised to develop
   a robust public sphere. This unprecedented moment coincided with the global digital
   revolution, in particular the advent of the Internet — a resource whose immediate

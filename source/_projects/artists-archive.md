@@ -1,10 +1,7 @@
 ---
-done: false
 pid: artists-archive
 title: Artists Archive Initiative
-subtitle:
 category: Project
-cohort_year:
 abstract: The Artist Archives Initiative promotes research and disseminates knowledge
   about the display and care of contemporary art. The initiative responds to a growing
   need for art world professionals and academic researchers to work with artists in
@@ -13,7 +10,6 @@ abstract: The Artist Archives Initiative promotes research and disseminates know
   Jonas Knowledge Base, which are resources intended to aid curators, conservators,
   and others who are researching the work these artists, and to assist in future exhibition
   and conservation of the artists' works.
-limerick:
 pis:
 - martin
 link: https://artistarchives.hosting.nyu.edu/Initiative/

@@ -1,5 +1,4 @@
 ---
-done: false
 pid: soul-of-reason
 title: Raising the Volume
 subtitle: Amplifying <i>Soul of Reason</i>
@@ -21,6 +20,7 @@ limerick: |-
   to miss this would be treason
 pis:
 - bunde
+- dss
 link: https://nyu-dss.github.io/soul-of-reason/
 local_image: soul-of-reason.jpg
 original_img: https://nyu-dss.github.io/soul-of-reason/images/uploads/roscoe-brown-IAAA.jpg

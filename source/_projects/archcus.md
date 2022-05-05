@@ -1,8 +1,6 @@
 ---
-done: false
 pid: archcus
 title: Archive of Cuban Socialism (ARCHCUS)
-subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2021'
 abstract: 'The proposed Archive of Cuban Socialism (ARCHCUS) will document and archive
@@ -19,11 +17,7 @@ abstract: 'The proposed Archive of Cuban Socialism (ARCHCUS) will document and a
   and discussion. This makes it a significant contribution to the study of contemporary
   material culture as well as to Cuban, Caribbean, Latin American, and state socialist
   studies. '
-limerick:
 pis:
 - cabrera-arus
-link:
-local_image:
-original_img:
 layout: project
 ---

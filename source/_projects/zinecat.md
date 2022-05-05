@@ -1,8 +1,6 @@
 ---
-done: false
 pid: zinecat
 title: The Zine Union Catalog (ZineCat)
-subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2021'
 abstract: 'The Zine Union Catalog (aka ZineCat) is a union catalog dedicated to zines.
@@ -32,6 +30,5 @@ pis:
 - kehoe
 link: https://zinecat.org/
 local_image: zinecat.jpg
-original_img:
 layout: project
 ---

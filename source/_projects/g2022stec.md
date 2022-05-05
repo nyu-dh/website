@@ -1,8 +1,6 @@
 ---
-done: false
 pid: g2022stec
 title: The Brownies' Book Archive
-subtitle:
 category: Grad Fellowship Project
 cohort_year: '2022'
 abstract: The Brownies’ Book Archive is a digital archive and exhibit of W.E.B. Du
@@ -26,11 +24,7 @@ abstract: The Brownies’ Book Archive is a digital archive and exhibit of W.E.B
   Black and white individuals, the verbs ascribed to Black and white individuals’
   actions, and the frequency with which Black individuals appear in the periodicals’
   texts.
-limerick:
 pis:
 - stec
-link:
-local_image:
-original_img:
 layout: project
 ---

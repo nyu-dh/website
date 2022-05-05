@@ -1,5 +1,4 @@
 ---
-done: false
 pid: nlines
 title: nLines and Changing
 subtitle: Writing the Shanghai Metro System to the End
@@ -19,11 +18,7 @@ abstract: 'n Lines and Changing is an ongoing digital poetry project that arises
   both online and in talks, readings and lectures. The grant would allow me to develop
   and expand the site (adding documentation, photography, video and sound recordings,
   a Chinese translation "toggle," and a critical essay). '
-limerick:
 pis:
 - perry
-link:
-local_image:
-original_img:
 layout: project
 ---

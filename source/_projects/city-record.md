@@ -1,10 +1,7 @@
 ---
-done: false
 pid: city-record
 title: City Record Project
-subtitle:
 category: Externally Funded
-cohort_year:
 abstract: The City Record Project hosts the New York City Record from its first volume
   in 1873 through 1949. The City Record contains data on every aspect of the city’s
   politics, society, economy, real estate and infrastructure development, employment,
@@ -12,11 +9,9 @@ abstract: The City Record Project hosts the New York City Record from its first 
   of the data it contains, offering digitized resources unmatched by any other city.
   Supported by a NEH Humanities Collections and Reference Resources grant, the digitized
   and searchable PDF documents openly accessible to the public.
-limerick:
 pis:
 - soffer
 link: http://cityrecord.engineering.nyu.edu/
 local_image: city-record.jpg
-original_img:
 layout: project
 ---

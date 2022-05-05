@@ -1,9 +1,7 @@
 ---
-done: false
 pid: hiring-ai
 title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
   Research
-subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2020'
 abstract: 'The "Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
@@ -26,8 +24,5 @@ limerick: |
 pis:
 - schellmann
 - sloane
-link:
-local_image:
-original_img:
 layout: project
 ---

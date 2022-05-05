@@ -1,8 +1,6 @@
 ---
-done: false
 pid: sight-site-cite
 title: Sight/Site/Cite in the Digital Middle East
-subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2022'
 abstract: Sight/Site/Cite (S/S/C) seeks to create a digital hub dedicated to examining
@@ -18,11 +16,7 @@ abstract: Sight/Site/Cite (S/S/C) seeks to create a digital hub dedicated to exa
   host a roundtable at the 2022 Middle East Studies Association conference, establish
   a long-term partnership with the Kevorkian Center and its fledgling Digital Middle
   East Lab, and seek other potential partners and funding.
-limerick:
 pis:
 - mccormick
-link:
-local_image:
-original_img:
 layout: project
 ---

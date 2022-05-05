@@ -1,5 +1,4 @@
 ---
-done: false
 pid: chem-hum
 title: Digitizing Chemical Humanities
 subtitle: Toward a Cross-cultural History of Chemistry
@@ -21,11 +20,7 @@ abstract: The vast majority of non-European alchemy sources remains, for a varie
   at the Max Planck Institute for Mathematics in Science, and the History of Science,
   has licensed access through MPI to Reaxys and has agreed to collaborate on extending
   his analysis of chemical knowledge production to pre-1750 periods.
-limerick:
 pis:
 - mahootian
-link:
-local_image:
-original_img:
 layout: project
 ---

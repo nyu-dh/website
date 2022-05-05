@@ -1,12 +1,10 @@
 ---
-done: false
 pid: occupy
 title: |2-
 
   No Turning Back
 subtitle: Ten Years After Occupy
 category: Library Project
-cohort_year:
 abstract: This library-based exhibition uses Wax to tell the story of Occupy through
   historical materials.
 limerick: |-

@@ -1,5 +1,4 @@
 ---
-done: false
 pid: moss
 title: Inverting the Wunderkammer
 subtitle: Rethinking the Digital Humanities through Botanic Histories and Archives
@@ -30,8 +29,5 @@ pis:
 - ansari
 - ayers
 - brain
-link:
-local_image:
-original_img:
 layout: project
 ---

@@ -1,5 +1,4 @@
 ---
-done: false
 pid: slave-insurance
 title: Insuring Slavery
 subtitle: Underwriting Risk in the 18th Century
@@ -30,8 +29,6 @@ limerick: "This project, our first love, that powered\nour bottom line suddenly 
   we lost our lucks \nof a half million bucks\nWith the PI decamping for Howard."
 pis:
 - ralph
-link:
 local_image: slave-insurance.jpg
-original_img:
 layout: project
 ---

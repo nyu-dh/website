@@ -1,8 +1,6 @@
 ---
-done: false
 pid: dental-tools
 title: Creating a Digital Museum of the History of Dentistry
-subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2021'
 abstract: Imagine a digital museum where artifacts appear in virtual reality in three
@@ -18,8 +16,5 @@ limerick: |2-
   These dental instruments are 3D!
 pis:
 - spielman
-link:
-local_image:
-original_img:
 layout: project
 ---

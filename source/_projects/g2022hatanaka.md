@@ -1,5 +1,4 @@
 ---
-done: false
 pid: g2022hatanaka
 title: '"Why Are There No ACS Offices in SoHO?"'
 subtitle: An Interactive, Digital Map of Family Surveillance in New York City
@@ -24,11 +23,7 @@ abstract: 'This research project stems from provocations by abolitionist organiz
   map to serve an intellectual purpose of answering research questions, but for this
   map to hopefully lead to change in how family policing is understood in New York
   City.'
-limerick:
 pis:
 - hatanaka
-link:
-local_image:
-original_img:
 layout: project
 ---

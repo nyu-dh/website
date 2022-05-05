@@ -1,8 +1,6 @@
 ---
-done: false
 pid: errant-americas
 title: Arts of the Errant Americas
-subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2022'
 abstract: "“Arts of the Errant Americas” proposes a pilot program for a series of
@@ -23,11 +21,7 @@ abstract: "“Arts of the Errant Americas” proposes a pilot program for a seri
   Angeles. This exhibition is a platform for increased appreciation of her contribution
   to Latinx arts and a prompt to develop compelling solutions to translate her murals
   into the digital."
-limerick:
 pis:
 - sloane-britt
-link:
-local_image:
-original_img:
 layout: project
 ---

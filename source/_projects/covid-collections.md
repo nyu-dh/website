@@ -1,8 +1,6 @@
 ---
-done: false
 pid: covid-collections
 title: COVID Collections
-subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2021'
 abstract: 'As COVID-19 began to dominate the global agenda during the spring of 2020,
@@ -32,7 +30,5 @@ pis:
 - noonan
 - remes
 link: https://wp.nyu.edu/disasters/covid-collections-project/
-local_image:
-original_img:
 layout: project
 ---

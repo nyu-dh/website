@@ -1,8 +1,6 @@
 ---
-done: false
 pid: jewish-cookbooks
 title: The South African Jewish Cookbook Project
-subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2020'
 abstract: The South African Jewish Cookbook Project will digitize a corpus of 50 community
@@ -27,8 +25,5 @@ limerick: |-
   latke, challah, matzoh
 pis:
 - beinart-smollan
-link:
-local_image:
-original_img:
 layout: project
 ---

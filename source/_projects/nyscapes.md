@@ -1,10 +1,7 @@
 ---
-done: false
 pid: nyscapes
 title: New York Scapes
-subtitle:
 category: Project
-cohort_year:
 abstract: NewYorkScapes is a research community exploring the application of digital
   concepts, tools, and resources to the study of the history of urban cultures and
   landscapes. Founded in 2013, the initiative comprises a number of activities and
@@ -13,7 +10,6 @@ abstract: NewYorkScapes is a research community exploring the application of dig
   to make discoverable historic data related to the city of New York in both its non-digital
   and digital forms, and to collaboratively build that data for research purposes
   where it is not yet existent.
-limerick:
 pis:
 - wolf
 - augst

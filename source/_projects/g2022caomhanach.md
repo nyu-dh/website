@@ -1,5 +1,4 @@
 ---
-done: false
 pid: g2022caomhanach
 title: The Land of the Giants
 subtitle: Digitally UnMapping Madagascar's Plant Diversity
@@ -25,11 +24,7 @@ abstract: By the late twentieth century, conservation scientists declared that t
   conservation law, critical archival studies, and the history of science, this project
   uses a variety of scientific specimens and data alongside archival material to question
   the colonial legacies of conservation science over Malagasy knowledge. 
-limerick:
 pis:
 - caomhanach
-link:
-local_image:
-original_img:
 layout: project
 ---

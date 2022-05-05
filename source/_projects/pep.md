@@ -1,8 +1,6 @@
 ---
-done: false
 pid: pep
 title: Developing a Publications Page for NYU’s Prison Education Program (PEP) Website
-subtitle:
 category: DH Seed Grant Recipient
 cohort_year: '2020'
 abstract: This project will establish a website that showcases the finest writing
@@ -17,7 +15,6 @@ abstract: This project will establish a website that showcases the finest writin
   and to use theoretical texts as prisms to deepen and expand the meaning and significance
   of a range of evidence, this project hopes to contribute to the reshaping of perceptions
   and understanding of the incarcerated.
-limerick:
 pis:
 - jacobs
 link: https://prisoneducation.nyu.edu
