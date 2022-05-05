@@ -33,7 +33,7 @@ Optional front matter includes:
 *More tips for front matter*
 - title: the passive voice works well here! avoid the active voice - things like "Apply Now..." or "Join us Next Week..." will quickly become outdated and misleading.
 
-*A word on events*
+*A word on events*  
 The main purpose of creating a post for an event on this site is to indicate DH activity that has occurred. Events posts on this site are typically not part of an event's "cycle". We're publishing press releases on events, not events themselves. For example, an event is typically shared on listservs & social media and includes a link to a LibCal or Eventbright registration page.
 
 ### Tags
