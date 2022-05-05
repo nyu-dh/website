@@ -14,4 +14,5 @@ contents_links:
       link: 'graduate-student-fellows'
 ---
 {% assign people = site.data.people | sort: 'pid' %}
+{% assign people = people | where: 'unlist', empty %}
 {% include custom/people-cards.html data=people full_width=false %}
