@@ -1,7 +1,12 @@
 title: 'NYU DH'
 full_title: 'NYU Digital Humanities'
-tagline: >
+description: >
   NYU DH focuses on new technologies, advanced computing, and public engagement to inform and interrogate humanistic inquiry.
+limerick: >
+  Welcome to the NYU DH Periphery /
+  Out here things are rather slippery /
+  We have great Initiative and a Center of thought /
+  Come join our NYU DH Mystery
 timezone: UTC
 email: dh.help@nyu.edu
 
@@ -9,8 +14,8 @@ semester:
   current: 'Spring 2022'
   next: 'Fall 2022'
 
-baseurl: ''
 url: ''
+baseurl: ''
 future: true
 show_footer: true
 source: source

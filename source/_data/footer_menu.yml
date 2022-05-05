@@ -2,10 +2,12 @@ columns:
   "Contact":
     - name: Contact Us
       link: 'mailto:dh.help@nyu.edu'
-    - name: Email List
+    - name: Mailing List
       link: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'
     - name: Slack Channel
       link: 'https://forms.gle/kzxyJLetPz4pGGY78'
+    - name: GitHub
+      link: 'https://github.com/nyu-dh'
   "NYU Partners":
     - name: Arts & Science
       link: 'https://cas.nyu.edu/'

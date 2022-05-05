@@ -8,13 +8,11 @@
             <p class="title is-size-4">
               <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>
             </p>
-            <p class="subtitle is-size-7 pt-3">
-              <time datetime="{{ item.date }}">{{ item.date | date: "%B %d, %Y" | upcase }}</time>
-            </p>
+            <p class="subtitle is-size-7 pt-3">{{ item.date | date: "%B %d, %Y" | upcase }}</p>
             {% unless item.title.size > 50 %}
             <p class="sm-lines" style="font-size:.8rem">{{ item.abstract | truncatewords: 20 }}</p>
             {% endunless %}
-            <a class="is-size-7 has-text-dark is-underlined" href="{{ item.url | absolute_url }}">Read more</a>
+            <a class="is-size-7 has-text-dark is-underlined" alt="" href="{{ item.url | absolute_url }}">Read more</a>
           </div>
         </div>
       </div>

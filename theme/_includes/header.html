@@ -1,23 +1,23 @@
 <nav class="navbar is-black">
   <div class="container" style="display:flex;justify-content:space-between;padding-top:.5rem;flex-wrap:wrap;">
     <a class="logo" href="{{ '/' | absolute_url }}">
-      <h1 class="is-size-6" style="white-space: nowrap;">
-        <img src="{{ 'assets/logo.png' | absolute_url }}" alt="Welcome to the NYU DH Periphery / Out here things are rather slippery / We have great Initiative and a Center of thought / Come join our NYU DH Mystery" width="60" style="vertical-align:middle;">
+      <p class="is-size-6" style="white-space: nowrap;">
+        <img src="{{ 'assets/logo.png' | absolute_url }}" alt="NYU Torch Logo" width="60" style="vertical-align:middle;">
         <span class="has-text-white" style="vertical-align:middle;"> DH</span>
-      </h1>
+      </p>
     </a>
     <div class="unit-menu" style="display:flex;flex-wrap:wrap;">
       {% if site.data.navigation %}
         {% for item in site.data.units %}
           &nbsp;&nbsp;|&nbsp;&nbsp;
-          <a href="{{ item.link }}" {% if item.link contains 'http' %}target="_none"{% endif %} class="unit-item is-size-7 has-text-white">{{ item.name }}</a>
+          <a href="{{ item.link }}" {% if item.link contains 'http' %}target="_blank"{% endif %} class="unit-item is-size-7 has-text-white">{{ item.name }}</a>
         {% endfor %}
       {% endif %}
     </div>
   </div>
 </nav>
 
-<nav class="navbar is-spaced is-info" role="navigation" aria-label="main navigation">
+<nav class="navbar is-spaced is-info" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
       <span class="navbar-burger has-text-white" data-target="navbar" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">

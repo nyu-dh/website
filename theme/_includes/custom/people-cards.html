@@ -4,28 +4,28 @@
       <div class="column is-4">
         <div class="is-relative m-3">
           <figure class="image mb-2">
+          {%- if person.local_image.size > 0 -%}
+            {% assign alt = "Photo of " | append: person.name %}
+          {%- else -%}
+            {% assign alt = '' %}
+          {%- endif -%}
           {%- if person.link -%}
             <a href="{{ person.link | absolute_url }}">
-              <img class="circle-fill" src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }}" alt="{{ person.name }} image">
+              <img class="circle-fill" src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}">
+              <p class="is-size-5 pt-3 sm-lines has-text-weight-bold">
+                {{ person.name }}
+              </p>
             </a>
           {%- else -%}
-            <img class="circle-fill" src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }}" alt="{{ person.name }} image">
+            <img class="circle-fill" src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}">
+            <p class="is-size-5 pt-3 sm-lines has-text-weight-bold">{{ person.name }}</p>
           {%- endif -%}
           </figure>
-          <p class="is-size-5 pb-2 sm-lines">
-            <span class="has-text-weight-bold">
-              {%- if person.link -%}
-                <a href="{{ person.link | absolute_url }}">{{ person.name }}</a>
-              {%- else -%}
-                {{ person.name }}
-              {%- endif -%}
-            </span>
-          </p>
-          <p class="is-size-6 sm-lines has-text-grey is-italic">{{ person.titles }}</p>
+          <p class="is-size-6 sm-lines is-italic" style="color:#444">{{ person.titles }}</p>
 
           {% assign projects = site.projects | where_exp: "p", "p.pis contains person.pid" %}
           {% if projects.size > 0 %}
-          <p class="is-size-7 sm-lines has-text-grey mt-2">
+          <p class="is-size-7 sm-lines mt-2">
             Project{% if projects.size > 1%}s{% endif %}:&nbsp;
             {%- for p in projects -%}
             <a class="is-underlined" href="{{ p.url | absolute_url }}">{{ p.title }}</a>

@@ -18,11 +18,11 @@ contents_links:
 
 Proposals are judged by a Faculty Committee on the merit of the project, its contribution to the applicant’s course of study, and its feasibility in the timeline proposed. We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
 
-### Funding
+**Funding**
 
 Fellows receive a taxable stipend of $5,000 for participating in the program, and are expected to dedicate approximately 300 hours for the fellowship during the summer months. All members of the fellowship cohort are expected to participate in project development sessions during that summer as part of their total hours, and can receive individual mentorship and technical guidance as needed.
 
-### Eligibility
+**Eligibility**
 
 Graduate students in the humanities from all NYU schools, including NYU Global Sites, are eligible. To qualify, they must have completed 16 credits by June 1 and maintain active matriculation at NYU through September 1 of the year they apply. Cohort sessions may be attended remotely. Faculty-led projects, including those with graduate researchers, can be supported under the Digital Humanities Seed Grants.
 
@@ -32,11 +32,11 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
 <section class="section full-width">
   <div class="container">
     <div class="content mb-6">
-      <p class="is-size-3" id="past-fellows">Past Fellows</p>
+      <h2 class="is-size-3" id="past-fellows">Past Fellows</h2>
 
       {% assign fellow2022 = site.projects | where: 'cohort_year', '2022' | where_exp: "i", "i.category contains 'Fellowship'" %}
       {%- if fellow2022.size > 0 -%}
-        <p class="is-size-4">2022 - 2023</p>
+        <h3 class="is-size-4">2022 - 2023</h3>
         <ul>
           {%- for p in fellow2022 -%}
             {%- assign piid = p.pis.first -%}
@@ -53,7 +53,7 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
 
       {% assign fellow2021 = site.projects | where: 'cohort_year', '2021' | where_exp: "i", "i.category contains 'Fellowship'" %}
       {% if fellow2021.size > 0 -%}
-        <p class="is-size-4">2021 - 2022</p>
+        <h3 class="is-size-4">2021 - 2022</h3>
         <ul>
         {%- for p in fellow2021 -%}
           {%- assign piid = p.pis.first -%}
