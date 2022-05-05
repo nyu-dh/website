@@ -14,6 +14,7 @@ module Utils
   end
 
   def self.to_yaml(data, array_keys=[])
+    data = compact_all data
     data = split_arrays(data, array_keys) unless array_keys.empty?
     data = convert_bools data
     data.to_yaml
@@ -29,13 +30,19 @@ module Utils
     end
   end
 
+  def self.compact_all(data)
+    data.map do |h|
+      h.compact
+    end
+  end
+
   def self.write_to_file(content, file)
     FileUtils.mkdir_p File.dirname(file)
     File.open(file, "w") { |f| f.write content }
   end
 
   def self.split_semicolon_string(string)
-    string.split(';').map { |r| r.strip }
+    string.to_s.split(';').map { |r| r.strip }
   end
 
   def self.split_arrays(data, keys)
