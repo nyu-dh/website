@@ -33,7 +33,7 @@ Submissions are judged by a committee of affiliated digital humanites faculty fr
 
 ### What sort of projects does the committee choose?
 
-See [past projects](/source/_projects/) to see the range. Ideally the application will demonstrate the academic merit of the project, its contribution to the applicant’s course of study, and its feasibility in the timeline proposed. We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
+See [past projects](/funding/grad-fellowships/#past-fellows) to see the range. Ideally the application will demonstrate the academic merit of the project, its contribution to the applicant’s course of study, and its feasibility in the timeline proposed. We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
 
 ### Do you need to make a website?
 
