@@ -14,7 +14,7 @@
             {% unless item.title.size > 50 %}
             <p class="sm-lines" style="font-size:.8rem">{{ item.abstract | truncatewords: 20 }}</p>
             {% endunless %}
-            <a class="is-size-7 has-text-dark is-underlined" href="{{ item.url | absolute_url }}">Read more</a>
+            <a class="is-size-7 has-text-dark is-underlined" alt="Read full news post" href="{{ item.url | absolute_url }}">Read more</a>
           </div>
         </div>
       </div>
