@@ -35,9 +35,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
     {% include custom/news-cards.html data=seed_news limit=3 %}
 
     <p>
-      <a href="{{ '/news' | absolute_url }}">
-        <button class="button is-medium is-info">View All News</button>
-      </a>
+      <a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All News</a>
     </p>
   </div>
 </section>

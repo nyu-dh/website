@@ -32,6 +32,6 @@ DH events and courses are sponsored by groups across the University. We recommen
 </div>
 
 {% include custom/news-cards.html data=site.news limit=3 %}
-<p><a href="{{ '/news' | absolute_url }}"><button class="button is-medium is-info">View All</button></a></p>
+<p><a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All</a></p>
 </div>
 </section>
