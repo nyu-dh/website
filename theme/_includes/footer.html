@@ -4,11 +4,13 @@
     <div class="columns">
       {% for col in site.data.footer_menu.columns %}
       <div class="column">
-        <p class="has-text-bold is-size-7 is-underlined">{{ col[0] }}</p>
+        <p class="has-text-bold is-size-7">
+          <span style="border-bottom: 1px solid black;">{{ col[0] }}</span>
+        </p>
         <ul class="is-size-6">
           {% for item in col[1] %}
           <li>
-            <a href="{{ item.link | relative_url }}" class="link" {% if item.link contains 'http' %}target="_none"{% endif %}>
+            <a href="{{ item.link | relative_url }}" class="link" {% if item.link contains 'http' %}target="_blank"{% endif %}>
               {{ item.name }}
             </a>
           </li>

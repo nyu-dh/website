@@ -10,7 +10,7 @@
       {% if site.data.navigation %}
         {% for item in site.data.units %}
           &nbsp;&nbsp;|&nbsp;&nbsp;
-          <a href="{{ item.link }}" {% if item.link contains 'http' %}target="_none"{% endif %} class="unit-item is-size-7 has-text-white">{{ item.name }}</a>
+          <a href="{{ item.link }}" {% if item.link contains 'http' %}target="_blank"{% endif %} class="unit-item is-size-7 has-text-white">{{ item.name }}</a>
         {% endfor %}
       {% endif %}
     </div>

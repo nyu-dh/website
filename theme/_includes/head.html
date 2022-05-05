@@ -3,14 +3,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="limerick" content="{{ site.limerick }}">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
-    <link rel="shortcut icon" type="image/png" href="{{ 'assets/favicon.png' | absolute_url }}"/>
+    <link rel="shortcut icon" type="image/ico" href="{{ 'assets/favicon.ico' | absolute_url }}"/>
 
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-    {% unless site.hide_share_buttons %}
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
-    {% endunless %}
+
     {% seo %}
     {%- if site.google_analytics -%}
       {%- include google-analytics.html -%}

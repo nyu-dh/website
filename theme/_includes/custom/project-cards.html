@@ -2,24 +2,18 @@
 
 {% for group in grouped %}
 <section class="{% if include.full_width == true and page.layout == 'default' %}full-width py-3 px-5{% endif %}">
-  <div class="content">
-    <p class="is-size-5">
-      <code>{{ group.name }}</code>
-    </p>
-  </div>
+  <h2 class="is-size-3 pb-6">Category: {{ group.name }}</h2>
   <div class="columns is-multiline is-vcentered">
     {% for project in group.items %}
       <div class="column is-4 full-h">
         <div class="card hover-zoom is-relative full-h">
-          <a href="{{ project.url | absolute_url }}">
-            <div class="card-image">
-              <figure class="image {% if project.local_image %}is-2by1{% else %}is-3by1 boop{% endif %}">
-                {% if project.local_image %}
-                <img src="{{ project.local_image | prepend: 'media/projects/' | absolute_url }}" alt="{{ project.title }} image" style="object-fit:cover;object-position:center top;">
-                {% endif %}
-              </figure>
-            </div>
-          </a>
+          <div class="card-image">
+            <figure class="image {% if project.local_image %}is-2by1{% else %}is-3by1 boop{% endif %}">
+              {% if project.local_image %}
+              <img src="{{ project.local_image | prepend: 'media/projects/' | absolute_url }}" alt="Image for {{ project.title }} project" style="object-fit:cover;object-position:center top;">
+              {% endif %}
+            </figure>
+          </div>
           <div class="card-content">
             <p class="{% if project.title.size > 20 %}is-size-6{% else %}is-size-5{% endif %} has-text-weight-bold pb-2 sm-lines">
               <a href="{{ project.url | absolute_url }}">{{ project.title }}</a>
