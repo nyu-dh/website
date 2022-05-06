@@ -1,2 +1,23 @@
-# - name: Test
-#   link: /test
+columns:
+  "Contact":
+    - name: Contact Us
+      link: 'mailto:dh.help@nyu.edu'
+    - name: Mailing List
+      link: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'
+    - name: Slack Channel
+      link: 'https://forms.gle/kzxyJLetPz4pGGY78'
+    - name: GitHub
+      link: 'https://github.com/nyu-dh'
+  "NYU Partners":
+    - name: Arts & Science
+      link: 'https://cas.nyu.edu/'
+    - name: Libraries
+      link: 'https://library.nyu.edu/'
+    - name: Information Technology
+      link: 'https://www.nyu.edu/life/information-technology.html'
+    - name: Center for the Humanities
+      link: 'https://nyuhumanities.org/'
+  "Policies":
+    - name: NYU Website Accessibility Policy
+      link: 'https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/website-accessibility.html'
+copyright: '© New York University 2022'

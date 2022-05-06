@@ -1,19 +1,19 @@
 ---
-title: 'The Web Is All You Need: A Data Analysis Stack for the 2020s'
-date: 2022-02-08
-featureUntil: 2022-02-10
+title: "NYCDH Week Workshop | The Web Is All You Need: A Data Analysis Stack for the 2020s"
+date: 2022-02-01
+author: bschmidt
+event: true
+featureUntil: 2022-02-17
 eventDate: 2022-02-10
 startTime: 15:00
 endTime: 17:00
-location: zubatuba
+location: Zoom
 link: https://nycdh.org/dhweek/event/the-web-is-all-you-need-a-data-analysis-stack-for-the-2020s/
-author: bschmidt
 tags:
-  - NYCDH Week
-  - Event
+  - nycdh
 abstract: |
-  NYCDH Week event exploring the Javascript ecosystem to collaboratively share, explore, and analyze data.
-image:
+  On February 10, 2022, join Ben Schmidt for The Web Is All You Need: A Data Analysis Stack for the 2020s, an NYCDH Week event exploring how the Javascript ecosystem can be used to collaboratively share, explore, and analyze data.
+
 ---
 
 # Event: The Web Is All You Need: A Data Analysis Stack for the 2020s

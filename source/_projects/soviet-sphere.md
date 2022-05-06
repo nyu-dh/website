@@ -1,10 +1,8 @@
 ---
-done: 'FALSE'
 pid: soviet-sphere
-title: 'The Post-Soviet Public Sphere: Multimedia Sourcebook of the 1990s'
+title: The Post-Soviet Public Sphere
+subtitle: Multimedia Sourcebook of the 1990s
 category: Externally Funded
-cohort_year:
-tagline:
 abstract: Following the collapse of the Soviet regime, Russia seemed poised to develop
   a robust public sphere. This unprecedented moment coincided with the global digital
   revolution, in particular the advent of the Internet — a resource whose immediate
@@ -22,9 +20,10 @@ limerick: |-
   to prod from localhost
   we push the glasnost
   a media russophone ever so suave
-pis: vinkour
+pis:
+- vinkour
 link: https://www.postsoviet90s.com/
-local_image: soviet-sphere.jpeg
+local_image: soviet-sphere.jpg
 original_img: https://images.squarespace-cdn.com/content/v1/59836ba83e00be476e5686a5/1501801511310-OM7GCIPWGCYXIJXIPG8E/image-asset.jpeg?format=1500w
 layout: project
 ---

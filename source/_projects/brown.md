@@ -1,10 +1,8 @@
 ---
-done: 'FALSE'
 pid: brown
 title: Brown Brothers Collection
 category: DH Seed Grant Recipient
 cohort_year: '2020'
-tagline: Uncovering the historical data linking New York bankers to slavery
 abstract: The Brown Brothers Collection is a collaborative, cross-institutional research
   project that will develop robust teaching, research, and public humanities resources
   that leverage the digitized Brown Brothers & Company archives held by the New York
@@ -24,9 +22,11 @@ limerick: |-
   They were up to the knavery
   Of bankrolling slavery
   At the NYC house of Brown Bros.
-pis: augst; wolf
+pis:
+- augst
+- wolf
 link: https://newyorkscapes.org/brownbrothers/
-local_image: brown.jpeg
+local_image: brown.jpg
 original_img: https://newyorkscapes.org/wp-content/uploads/2021/03/018.57733030.117d9410-dc97-0136-03f0-000d5d842228-edited-768x768.jpeg
 layout: project
 ---

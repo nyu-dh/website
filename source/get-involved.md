@@ -1,14 +1,14 @@
 ---
 title: Get Involved
 layout: default
-subtitle: "TO DO: Need a little blurb about what you'll find on this page."
-communication_cards:
-  - name: NYUDH Mailing List
-    description: Anyone can join the listserv to learn about DH courses, events, and student employment opportunities at NYU.
+subtitle: "NYU DH invites you to get involved through consultations, events, and funding. Learn more here and join our communication channels for ongoing announcements. "
+hero_buttons:
+  - label: 'NYU DH Mailing List – Public'
     link: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'
-  - name: NYUDH Slack Channel
-    description: 'We also have an NYU DH Slack for NYU affiliates only. To join, request an invite via Google Form.'
+    external: true
+  - label: 'NYU DH Slack Channel – NYU Members Only'
     link: 'https://forms.gle/kzxyJLetPz4pGGY78'
+    external: true
 ---
 <div class="content" markdown="1">
 ## Access Consultations and Resource Guides
@@ -18,11 +18,11 @@ There are lots of people and services at NYU to help with digital humanities wor
 - Find [Digital Scholarship Services](https://library.nyu.edu/departments/digital-scholarship-services/) ([request appointment](https://nyu.qualtrics.com/jfe/form/SV_2srvrbNYpL05GW9)) for help with digital publishing & web hosting, project design & scoping.
 - Contact [Data Services](https://guides.nyu.edu/dataservices) ([request appointment](https://guides.nyu.edu/appointment)) for help with data management & analysis, or if you have digital materials you want help with preservation & archiving
 - Email [dh.help@nyu.edu](mailto:dh.help@nyu.edu) for help with project design & scoping, with questions about seed grants, curricula, or graduate summer fellowships, or for advice on applying to external grants.
-- FAS faculty should contact FAS Educational Technology if you’re teaching a course and want help integrating digital elements.
+- FAS faculty should contact [FAS Educational Technology](https://wp.nyu.edu/fas-edtech/) if you’re teaching a course and want help integrating digital elements.
 - The NYU library also maintains some more detailed guides to DH resources at the [NYU DH LibGuide](https://guides.nyu.edu/digital-humanities), and a more opinionated overview of [Guide to DH at NYU on Manifold](https://nyu.manifoldapp.org/projects/nyu-dh).
 </div>
 
-<section class="section full-width mb-6" style="background-color:#f5e5d3;">
+<section class="section full-width mb-6 is-bg-alt">
 <div class="container">
 
 <div class="content" markdown="1">
@@ -32,11 +32,6 @@ DH events and courses are sponsored by groups across the University. We recommen
 </div>
 
 {% include custom/news-cards.html data=site.news limit=3 %}
-<p><a href="{{ '/news' | absolute_url }}"><button class="button is-medium is-info">View All</button></a></p>
+<p><a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All</a></p>
 </div>
 </section>
-
-<div class="container">
-  <p class="is-size-3 pb-6">Join the Conversation</p>
-  {% include custom/simple-cards.html cards=page.communication_cards columns=3 %}
-</div>

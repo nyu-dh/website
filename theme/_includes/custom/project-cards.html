@@ -1,59 +1,30 @@
-<style>
-  img.circle-fill {
-    height: 75px;
-    width: 75px;
-    border: 1px #eeeeee solid;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  .full-w {
-    width: 100% !important;
-  }
-  .full-h {
-    height: 100% !important;
-  }
-  .sm-lines {
-    line-height:1.1rem;
-  }
-</style>
+{% assign grouped = include.data | group_by: 'category' %}
 
+{% for group in grouped %}
 <section class="{% if include.full_width == true and page.layout == 'default' %}full-width py-3 px-5{% endif %}">
+  <h2 class="is-size-3 pb-6">Category: {{ group.name }}</h2>
   <div class="columns is-multiline is-vcentered">
-    {% for project in include.data %}
+    {% for project in group.items %}
       <div class="column is-4 full-h">
-        <div class="card is-relative full-h">
-          <div class="columns is-vcentered mt-3 mb-0 mx-3">
-            <div class="column is-narrow">
-              <figure class="image full-h">
-                <img class="circle-fill" src="{{ project.local_image | default:  'default.png' | prepend: 'media/projects/' | absolute_url }}" alt="{{ person.name }} image">
-              </figure>
-            </div>
-            <div class="column">
-              <p class="is-size-6 has-text-weight-bold pb-2 sm-lines">
-                {% if project.url %}
-                  <a href="{{ project.url | absolute_url }}">{{ project.title }}</a>
-                {% else %}
-                  {{ project.title }}
-                {% endif %}
-              </p>
-              <p class="is-size-6 sm-lines">{{ project.tagline }}</p>
-              {% if project.category %}
-              <p class="mt-3 tags">
-                <span class="tag is-light is-primary">{{ project.category | strip }}</span>
-                {% if project.cohort_year %}<span class="tag is-light is-success">{{ project.cohort_year | strip }}</span>{% endif %}
-              </p>
+        <div class="card hover-zoom is-relative full-h">
+          <div class="card-image">
+            <figure class="image {% if project.local_image %}is-2by1{% else %}is-3by1 boop{% endif %}">
+              {% if project.local_image %}
+              <img src="{{ project.local_image | prepend: 'media/projects/' | absolute_url }}" alt="Image for {{ project.title }} project" style="object-fit:cover;object-position:center top;">
               {% endif %}
-            </div>
+            </figure>
           </div>
-          <div class="column is-narrow" style="text-align:right;">
-            {% if project.url %}
-            <a href="{{ project.url | absolute_url }}">
-              <b><i class="fas fa-arrow-right"></i></b>
-            </a>
-            {% endif %}
+          <div class="card-content">
+            <p class="{% if project.title.size > 20 %}is-size-6{% else %}is-size-5{% endif %} has-text-weight-bold pb-2 sm-lines">
+              <a href="{{ project.url | absolute_url }}">{{ project.title }}</a>
+            </p>
+            <p class="is-size-6 sm-lines">{{ project.subtitle }}</p>
+            <a class="is-size-7 has-text-dark is-underlined" href="{{ project.url | absolute_url }}">Read more</a>
           </div>
         </div>
       </div>
     {% endfor %}
   </div>
 </section>
+{% unless forloop.last %}<hr>{% endunless %}
+{% endfor %}

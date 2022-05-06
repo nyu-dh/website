@@ -1,11 +1,9 @@
 ---
-done: 'FALSE'
 pid: soul-of-reason
-title: 'Raising the Volume: Amplifying Soul of Reason'
+title: Raising the Volume
+subtitle: Amplifying <i>Soul of Reason</i>
 category: DH Seed Grant Recipient
 cohort_year: '2020'
-tagline: Recovering hours of vital radio conversations with Black and Latino cultural
-  leaders
 abstract: Raising the Volume is a cross-departmental initiative to transform a historically
   and culturally rich radio program on Black and Latino culture into a collaboratively
   curated collection as data. The NYU Division of Libraries and the NYU Institute
@@ -20,7 +18,9 @@ limerick: |-
   host roscoe brown
   was the talk of the town
   to miss this would be treason
-pis: bunde
+pis:
+- bunde
+- dss
 link: https://nyu-dss.github.io/soul-of-reason/
 local_image: soul-of-reason.jpg
 original_img: https://nyu-dss.github.io/soul-of-reason/images/uploads/roscoe-brown-IAAA.jpg

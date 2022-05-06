@@ -1,10 +1,8 @@
 ---
-done: 'FALSE'
 pid: covid-collections
 title: COVID Collections
 category: DH Seed Grant Recipient
 cohort_year: '2021'
-tagline:
 abstract: 'As COVID-19 began to dominate the global agenda during the spring of 2020,
   museums, libraries, and archives around the world announced efforts to document
   human experiences of illness, isolation, economic downturn, fear, adaptation, and
@@ -28,9 +26,9 @@ limerick: |-
   Since their sustainability's porous,
   That leaves an opening for us
   to make a covid collection, collection.
-pis: noonan; remes
+pis:
+- noonan
+- remes
 link: https://wp.nyu.edu/disasters/covid-collections-project/
-local_image:
-original_img:
 layout: project
 ---

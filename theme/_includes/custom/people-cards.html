@@ -1,79 +1,38 @@
-<style>
-  img.circle-fill {
-    height: 75px;
-    width: 75px;
-    border: 1px #eeeeee solid;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  .full-w {
-    width: 100% !important;
-  }
-  .full-h {
-    height: 100% !important;
-  }
-  .sm-lines {
-    line-height:1.1rem;
-  }
-</style>
-{% if include.data. size < 3 %}
-{% assign col_size = 'is-6' %}
-{% else %}
-{% assign col_size = 'is-4' %}
-{% endif %}
-
 <section class="{% if include.full_width == true %}full-width py-3 px-5{% endif %}">
-  <div class="columns is-multiline is-vcentered">
+  <div class="columns is-multiline">
     {% for person in include.data %}
-      <div class="column {{ col_size }} full-h">
-        <div class="card is-relative full-h">
-          <div class="columns is-vcentered mt-3 mb-0 mx-3">
-            <div class="column is-narrow">
-              <figure class="image full-h">
-                <img class="circle-fill" src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }}" alt="{{ person.name }} image">
-              </figure>
-            </div>
-            <div class="column">
-              <p class="is-size-5 has-text-weight-bold pb-2 sm-lines">
-                {% if person.link %}
-                  <a href="{{ person.link | absolute_url }}">{{ person.name }}</a>
-                {% else %}
-                  {{ person.name }}
-                {% endif %}
+      <div class="column is-4">
+        <div class="is-relative m-3">
+          <figure class="image mb-2">
+          {%- if person.local_image.size > 0 -%}
+            {% assign alt = "Photo of " | append: person.name %}
+          {%- else -%}
+            {% assign alt = '' %}
+          {%- endif -%}
+          {%- if person.link -%}
+            <a href="{{ person.link | absolute_url }}">
+              <img class="circle-fill" src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}">
+              <p class="is-size-5 pt-3 sm-lines has-text-weight-bold">
+                {{ person.name }}
               </p>
-              <p class="is-size-6 sm-lines">{{ person.titles }}</p>
-              {% if person.affiliations %}
-              {% assign affiliations = person.affiliations | split: ';' %}
-              {% for a in affiliations %}
-              <span class="tag is-light is-primary">{{ a | strip }}</span>
-              {% endfor %}
-              {% endif %}
-            </div>
-          </div>
-          {% if person.affiliations %}
-          <hr class="m-0">
-          <div class="columns m-0 is-vcentered">
-            <div class="column">
-              <p class="m-3 tags">
-                {% assign roles = person.site_roles | split: ';' %}
-                {% for r in roles %}
-                {% assign r = r | strip %}
-                {% assign role = site.data.roles[r] %}
-                {% if role | size %}
-                <span class="tag is-light is-success">{{ role }}</span>
-                {% endif %}
-                {% endfor %}
-              </p>
-            </div>
-          </div>
+            </a>
+          {%- else -%}
+            <img class="circle-fill" src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}">
+            <p class="is-size-5 pt-3 sm-lines has-text-weight-bold">{{ person.name }}</p>
+          {%- endif -%}
+          </figure>
+          <p class="is-size-6 sm-lines is-italic" style="color:#444">{{ person.titles }}</p>
+
+          {% assign projects = site.projects | where_exp: "p", "p.pis contains person.pid" %}
+          {% if projects.size > 0 %}
+          <p class="is-size-7 sm-lines mt-2">
+            Project{% if projects.size > 1%}s{% endif %}:&nbsp;
+            {%- for p in projects -%}
+            <a class="is-underlined" href="{{ p.url | absolute_url }}">{{ p.title }}</a>
+            {% unless forloop.last %}&nbsp;/&nbsp;{% endunless %}
+            {%- endfor -%}
+          </p>
           {% endif %}
-          <!-- <div class="column is-narrow">
-            {% if person.link %}
-            <b><a href="{{ person.link | absolute_url }}">
-              <i class="fas fa-arrow-right"></i>
-            </a></b>
-            {% endif %}
-          </div> -->
         </div>
       </div>
     {% endfor %}

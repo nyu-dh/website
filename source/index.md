@@ -1,6 +1,7 @@
 ---
 layout: default
 home: true
+hero_image: '/assets/images/coding-2(1).png'
 title: Home
 ---
 
@@ -9,7 +10,5 @@ title: Home
 <br>
 
 <p>
-  <a href="{{ '/news' | absolute_url }}">
-    <button class="button is-medium is-info">View All News</button>
-  </a>
+  <a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All News</a>
 </p>

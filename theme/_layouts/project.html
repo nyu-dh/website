@@ -1,7 +1,7 @@
 ---
 layout: default
 breadcrumbs:
-  - name: All Projects
+  - name: Projects
     link: /projects
 ---
 <div class="content">
@@ -14,18 +14,17 @@ breadcrumbs:
 </div>
 
 {% assign people = '' | split: '' %}
-{% assign pi_pids = page.pis | split: ';' %}
-{% for p in pi_pids %}
-  {% assign pid = p | strip %}
+{% for pid in page.pis %}
   {% assign person = site.data.people | find: 'pid', pid %}
-  {% unless person.size > 0 %}<code>* Couldn't match person "{{ pid}}"</code>{% endunless %}
+  {% if person.size %}
   {% assign people = people | push: person %}
+  {% endif %}
 {% endfor %}
 
 {% if people. size > 0 %}
-<section class="section full-width" style="background-color:#f5e5d3;">
+<section class="section full-width">
   <div class="container">
-      <p class="is-size-3 pb-3">People</p>
+    <p class="is-size-3 pb-3">People</p>
     {% include custom/people-cards.html data=people %}
   </div>
 </section>

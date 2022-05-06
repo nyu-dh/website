@@ -10,6 +10,7 @@ $primary: #8806ce !default;
 $secondary: #CAFFD0 !default;
 $tertiary:  #220337 !default;
 $background: #EAEAEA !default;
+$background-alt: #f5e5d3 !default;
 $bonus: #2E0219 !default;
 $text: #050404 !default;
 $link: $primary !default;
@@ -39,10 +40,6 @@ body, html {
 
 .navbar-link:not(.is-arrowless)::after {
   border-color: white;
-}
-
-.hero-body {
-  padding: 4rem 4rem;
 }
 
 .navbar.is-primary
@@ -151,4 +148,57 @@ h1, h2, h3, h4, h5, h6 {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+}
+
+.hero.is-home {
+  margin-bottom: -6rem;
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+}
+
+.is-bg-alt {
+  background: $background-alt !important;
+}
+
+img.circle-fill {
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #efefef;
+}
+.full-w {
+  width: 100% !important;
+}
+.full-h {
+  height: 100% !important;
+}
+.sm-lines {
+  line-height:1.1rem;
+}
+.md-lines {
+  line-height:1.3rem;
+}
+.m-auto {
+  margin: auto !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+.hover-zoom {
+  transition: transform .3s;
+  &:hover {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+.boop { position: relative; }
+.boop::after {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(to left, $secondary, $tertiary);
 }

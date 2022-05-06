@@ -1,10 +1,9 @@
 ---
-done: 'FALSE'
 pid: slave-insurance
-title: 'Insuring Slavery: Underwriting Risk in the 18th Century'
+title: Insuring Slavery
+subtitle: Underwriting Risk in the 18th Century
 category: DH Seed Grant Recipient
 cohort_year: '2020'
-tagline: Documenting the growth of the insurance industry in the slave trade
 abstract: "“Underwriting Risk in the 18th century” provides the first systematic analysis
   of the application of probabilistic mathematics to the trade in enslaved Africans
   during the designated period. It will provide foundational research for an exploration
@@ -28,9 +27,8 @@ abstract: "“Underwriting Risk in the 18th century” provides the first system
   enslaved persons as property on the plantations of the antebellum American South."
 limerick: "This project, our first love, that powered\nour bottom line suddenly soured\nwhen
   we lost our lucks \nof a half million bucks\nWith the PI decamping for Howard."
-pis: ralph
-link:
-local_image: slave-insurance.png
-original_img:
+pis:
+- ralph
+local_image: slave-insurance.jpg
 layout: project
 ---

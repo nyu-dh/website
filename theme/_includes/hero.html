@@ -1,25 +1,22 @@
+{%- if page.hero_image -%}
+{%- capture img_style -%}
+style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('{{ page.hero_image | absolute_url }}')"
+{%- endcapture -%}
+{%- endif -%}
+
 {% if page.home %}
-<style>
-  .home-hero {
-    margin-bottom: -6rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("{{ '/assets/images/coding-2(1).png' | absolute_url }}");
-    background-size: cover;
-    background-position: bottom center;
-    background-attachment: fixed;
-  }
-</style>
-<section class="home-hero hero is-primary border-gradient is-medium">
+<section class="hero is-primary border-gradient is-home" {{ img_style }}>
   <div class="hero-body">
     <div class="container">
-      <div class="content">
-        <h1 class="title" style="padding-bottom:1rem;">{{ site.full_title }}</h1>
-        <p class="subtitle">{{ site.tagline }}</p>
+      <div class="content my-6">
+        <h1 class="title pb-1">{{ site.full_title }}</h1>
+        <p class="subtitle">{{ site.description }}</p>
       </div>
     </div>
   </div>
 </section>
 {% else %}
-  <section class="hero is-primary border-gradient">
+  <section class="hero is-primary border-gradient" {{ img_style }}>
     <div class="hero-body">
       <nav class="breadcrumb" aria-label="breadcrumbs">
         <div class="container">
@@ -33,21 +30,43 @@
         </div>
       </nav>
       <div class="container">
-        <div class="content">
-          <p class="title">{{ page.title }}</p>
-          {% if page.subtitle %}
-          <p class="subtitle pt-3">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>'  }}</p>
-          {% elsif page.tagline %}
-          <p class="subtitle pt-3">{{ page.tagline | markdownify | remove: '<p>' | remove: '</p>'  }}</p>
-          {% endif %}
-          {% if page.hero_buttons %}
-          <div class="buttons pt-3">
-            {% for button in page.hero_buttons %}
-            <a class="button is-white is-outlined" href="{{ button.link | absolute_url }}" {% if button.external %}target="none"{% endif %}>
-              {{ button.label }}
-              {% if button.external %}&nbsp;<i class="fas fa-external-link-alt"></i>{% endif %}
-            </a>
-            {% endfor %}
+        <div class="columns">
+          <div class="column">
+            <div class="content">
+              <h1 class="title pb-1">{{ page.title }}</h1>
+              {% if page.subtitle %}
+              <p class="subtitle">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>'  }}</p>
+              {% elsif page.tagline %}
+              <p class="subtitle">{{ page.tagline | markdownify | remove: '<p>' | remove: '</p>'  }}</p>
+              {% endif %}
+
+              {% if page.hero_buttons %}
+              <div class="buttons pt-3">
+                {% for button in page.hero_buttons %}
+                <a class="button is-white is-outlined" href="{{ button.link | absolute_url }}" {% if button.external %}target="none"{% endif %}>
+                  {{ button.label }}
+                  {% if button.external %}&nbsp;<i class="fas fa-external-link-alt"></i>{% endif %}
+                </a>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+          {% if page.contents_links %}
+          <div class="column is-narrow">
+            <div class="content">
+              <p class="has-text-weight-bold mb-0">Quick Links:</p>
+              <ul class="my-0 ml-0" style="list-style:inside;">
+                {% for item in page.contents_links %}
+                <li class="is-size-6 mt-0">
+                  <a class="is-underlined has-text-weight-normal" href="{{ item.link }}">
+                    {{ item.label }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+              </p>
+            </div>
           </div>
           {% endif %}
         </div>

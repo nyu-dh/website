@@ -1,11 +1,9 @@
 ---
-done: 'FALSE'
 pid: hiring-ai
 title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
   Research
 category: DH Seed Grant Recipient
 cohort_year: '2020'
-tagline: Revealing the reality of hiring patterns through AI
 abstract: 'The "Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
   Research" project is led by Prof. Hilke Schellmann (Journalism) and Dr. Mona Sloane
   (Tandon). It focuses on artificial intelligence (AI) and hiring. Thanks to AI, hiring
@@ -23,9 +21,8 @@ limerick: |
   If you don't get a job
   It could be that the snob
   That rejects you's a black-box AI
-pis: schellmann; sloane
-link:
-local_image:
-original_img:
+pis:
+- schellmann
+- sloane
 layout: project
 ---

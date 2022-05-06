@@ -1,11 +1,8 @@
 ---
-done: 'FALSE'
 pid: dental-tools
-title: Creating a digital Museum of the History of Dentistry at the College of Dentistry,
-  NYU.
+title: Creating a Digital Museum of the History of Dentistry
 category: DH Seed Grant Recipient
 cohort_year: '2021'
-tagline:
 abstract: Imagine a digital museum where artifacts appear in virtual reality in three
   dimensions and can be manipulated for full inspection. The College of Dentistry
   is creating such a museum by 3D scanning and digitizing its artifacts using the
@@ -17,9 +14,7 @@ limerick: |2-
 
 
   These dental instruments are 3D!
-pis: spielman
-link:
-local_image:
-original_img:
+pis:
+- spielman
 layout: project
 ---

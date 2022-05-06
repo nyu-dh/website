@@ -8,7 +8,7 @@
       {% assign color_num = forloop.index | modulo: 4 %}
     {% endif %}
     <div class="tile is-parent p-1 is-{{ 12 | divided_by: cols }}">
-      <div class="tile is-child box content color-1">
+      <div class="tile hover-zoom is-child box content color-1">
         <p class="title is-5 pb-3">{{ card.name }}</p>
         <p class="subtitle is-6">
           {% if card.description.size %}
