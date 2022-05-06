@@ -1,7 +1,7 @@
 ---
 pid: city-record
 title: City Record Project
-category: Externally Funded
+category: Other
 abstract: The City Record Project hosts the New York City Record from its first volume
   in 1873 through 1949. The City Record contains data on every aspect of the city’s
   politics, society, economy, real estate and infrastructure development, employment,

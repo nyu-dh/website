@@ -1,6 +1,5 @@
 ---
-- done: 'FALSE'
-  pid: 1121-fa21
+- pid: 1121-fa21
   number: DHSS-GA.1121
   title: Introduction to Programming
   semester: Fall 2021
@@ -11,8 +10,7 @@
   description: Provides an introduction to the practice, history, and principles of
     programming for students in the humanities through the Python language.
   url: https://benschmidt.org/code21
-- done: 'FALSE'
-  pid: 1089-fa21
+- pid: 1089-fa21
   number: CEH-GA.1089
   title: 'Digital Humanities: Collections and Connections'
   semester: Fall 2021
@@ -36,8 +34,7 @@
     will include readings on network culture and digital curation by authors such
     as McLuhan, Gitelman, Castells, Shirky, Manovich, Cohen, Ramsay, and Galloway.
   url: https://kimon.hosting.nyu.edu/sites/dh-collections-connections/
-- done: 'FALSE'
-  pid: 1121-sp22
+- pid: 1121-sp22
   number: DHSS-GA.1121
   title: Working with Data
   semester: Spring 2022
@@ -45,20 +42,25 @@
   faculty: Ben Schmidt
   day: Monday
   time: 6:20-9:20 pm
-  description: |-
-    Data analysis in the humanities presents challenges of scale, interpretation, and communication distinct from the social sciences and sciences. In recent years, a number of new practices in this sphere have begun to cohere: “cultural analytics,” “distant reading,” “macroanalysis,” and “data feminism.” But it can be hard for humanists to learn how to apply these practices, not just talk intelligently about them.
-
-    This graduate seminar will develop skills to read and create scholarship in these computationalist traditions of the digital humanities. We’ll do so through more traditional seminar readings and a series of programming worksets that will teach you how to do a variety of types of data analysis and visualization that are actually useful for humanists and others communicating in areas where the data is messy and culturally contingent, and where the reading audience is not necessarily trained or interested in statistics.
+  description: 'Data analysis in the humanities presents challenges of scale, interpretation,
+    and communication distinct from the social sciences and sciences. In recent years,
+    a number of new practices in this sphere have begun to cohere: “cultural analytics,”
+    “distant reading,” “macroanalysis,” and “data feminism.” But it can be hard for
+    humanists to learn how to apply these practices, not just talk intelligently about
+    them. This graduate seminar will develop skills to read and create scholarship
+    in these computationalist traditions of the digital humanities. We’ll do so through
+    more traditional seminar readings and a series of programming worksets that will
+    teach you how to do a variety of types of data analysis and visualization that
+    are actually useful for humanists and others communicating in areas where the
+    data is messy and culturally contingent, and where the reading audience is not
+    necessarily trained or interested in statistics.'
   url: https://benschmidt.org/WWD22
-- done: 'FALSE'
-  pid: 1137-sp22
+- pid: 1137-sp22
   number: CEH-GA.1137
   title: 'Digital Humanities: Analysis and Visualization'
   semester: Spring 2022
   program: XE
   faculty: Kimon Keramidas
-  day:
-  time:
   description: This course will consider how the analysis and visualization of information
     through digital technologies has significantly changed the way we look at our
     world both within the academic community and in society at large. The data portion
@@ -70,9 +72,7 @@
     that are used as alternatives to textual explanation. We will work with digital
     tools for analyzing and visualizing humanities data, such as AbbyFine, Voyant,
     Topic Modeling Tool, ArcGIS, and Agisoft Metashape.
-  url:
-- done: 'FALSE'
-  pid: 1122-sp22
+- pid: 1122-sp22
   number: DHSS-GA.1122
   title: Introduction to Web Development
   semester: Spring 2022
@@ -87,28 +87,22 @@
     our notions of discourse and explore how websites can be used for scholarly communication.
     A deeper understanding of these topics will help you make better decisions not
     only in your own web development practice but also in sharing your work more effectively.
-  url:
-- done: 'FALSE'
-  pid: 1121-fa22
+- pid: 1121-fa22
   number: DHSS-GA.1121
   title: Introduction to Programming
   semester: Fall 2022
   program: DHSS
   faculty: Ben Schmidt
-  day:
   time: 6:20-9:20 pm
   description: Provides an introduction to the practice, history, and principles of
     programming for students in the humanities through the Python language.
   url: https://benschmidt.org/code21
-- done: 'FALSE'
-  pid: 1089-fa22
+- pid: 1089-fa22
   number: CEH-GA.1089
   title: 'Digital Humanities: Collections and Connections'
   semester: Fall 2022
   program: XE
   faculty: Kimon Keramidas
-  day:
-  time:
   description: Two of the most important aspects of digital media are their capacity
     to allow for the organization of and creation of connections between data. Collecting
     and connecting technologies have enabled the development of complex information
@@ -125,15 +119,12 @@
     will include readings on network culture and digital curation by authors such
     as McLuhan, Gitelman, Castells, Shirky, Manovich, Cohen, Ramsay, and Galloway.
   url: https://kimon.hosting.nyu.edu/sites/dh-collections-connections/
-- done: 'FALSE'
-  pid: 1121-sp23
+- pid: 1121-sp23
   number: DHSS-GA.1121
   title: Working with Data
   semester: Spring 2023
   program: DHSS
   faculty: Ben Schmidt
-  day:
-  time:
   description: 'Data analysis in the humanities presents challenges of scale, interpretation,
     and communication distinct from the social sciences and sciences. In recent years,
     a number of new practices in this sphere have begun to cohere: “cultural analytics,”
@@ -143,15 +134,12 @@
     and a series of programming worksets that will teach you how to do a variety of
     types of data analysis and visualization.'
   url: https://benschmidt.org/WWD22
-- done: 'FALSE'
-  pid: 1122-sp23
+- pid: 1122-sp23
   number: DHSS-GA.1122
   title: Introduction to Web Development
   semester: Spring 2023
   program: DHSS
   faculty: Zach Coble
-  day:
-  time:
   description: This course provides a project-based approach to web programming and
     development. Students will study the principles of web design and each student
     will build two distinct websites based on topics relevant to their interests.
@@ -159,16 +147,12 @@
     our notions of discourse and explore how websites can be used for scholarly communication.
     A deeper understanding of these topics will help you make better decisions not
     only in your own web development practice but also in sharing your work more effectively.
-  url:
-- done: 'FALSE'
-  pid: 1137-sp23
+- pid: 1137-sp23
   number: CEH-GA.1137
   title: 'Digital Humanities: Analysis and Visualization'
   semester: Spring 2023
   program: XE
   faculty: Kimon Keramidas
-  day:
-  time:
   description: This course will consider how the analysis and visualization of information
     through digital technologies has significantly changed the way we look at our
     world both within the academic community and in society at large. The data portion
@@ -180,9 +164,7 @@
     that are used as alternatives to textual explanation. We will work with digital
     tools for analyzing and visualizing humanities data, such as AbbyFine, Voyant,
     Topic Modeling Tool, ArcGIS, and Agisoft Metashape.
-  url:
-- done:
-  pid:
+- pid: 3032-fa22
   number: CEH-GA 3032
   title: Citizenship in the Digital Age
   semester: Fall 2022
@@ -209,8 +191,7 @@
     and current events we will be studying relate to the day-to-day progress coming
     out of their race.
   url: https://kimon.hosting.nyu.edu/sites/citizenship-in-the-digital-age/
-- done:
-  pid:
+- pid: 3047-fa22
   number: CEH-GA 3047
   title: 'Space, Place, and Data: Spatial Humanities and the Crafting of Digital Narratives'
   semester: Fall 2022
@@ -238,8 +219,7 @@
     relative strengths and weaknesses, including Google Maps/Earth, StoryMap JS, Tableau,
     ArcGIS, ESRI StoryMaps and ARIS.
   url: https://kimon.hosting.nyu.edu/sites/space-place-data/
-- done:
-  pid:
+- pid: 1089-001-fa22
   number: CEH-GA 1089-001, MSMS-GA 1089-001
   title: 'Digital Humanities: Collections and Connections'
   semester: Fall 2022

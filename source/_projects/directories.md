@@ -1,7 +1,7 @@
 ---
 pid: directories
 title: City Directories
-category: dataset
+category: Other
 pis:
 - wolf
 layout: project

@@ -2,6 +2,7 @@
 pid: hiring-ai
 title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
   Research
+featured: true
 category: DH Seed Grant Recipient
 cohort_year: '2020'
 abstract: 'The "Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic

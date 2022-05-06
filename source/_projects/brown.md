@@ -1,6 +1,7 @@
 ---
 pid: brown
 title: Brown Brothers Collection
+featured: true
 category: DH Seed Grant Recipient
 cohort_year: '2020'
 abstract: The Brown Brothers Collection is a collaborative, cross-institutional research
