@@ -1,4 +1,5 @@
 require 'rainbow'
+require 'parsers/default'
 require 'parsers/projects'
 require 'utils'
 
@@ -16,11 +17,11 @@ namespace :fetch do
     puts "Fetching projects from Google Drive" unless ENV['SKIP_WGET']
     Utils.wget_sheet(sheet_key, csv_file) unless ENV['SKIP_WGET']
 
-    data    = Utils.csv_open csv_file
-    content = Utils.to_yaml data, array_keys
+    data  = Utils.csv_open csv_file
+    data  = Parsers::Default.parse data, array_keys
 
     puts "Parsing projects into #{yml_file}"
-    Utils.write_to_file(content, yml_file)
+    Utils.write_to_file(data.to_yaml, yml_file)
 
     sh "bundle exec jekyll pagemaster projects --force"
   end
