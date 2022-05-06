@@ -7,6 +7,7 @@
   link: https://wp.nyu.edu/fas-edtech/about/our-team/
   local_image: appert.jpg
   original_image: https://s18798.pcdn.co/fas-edtech/wp-content/uploads/sites/354/2021/12/appert2021headshot-300x295.jpg
+  affiliated: true
 - pid: ansari
   name: Ahmed Ansari
   titles: Assistant Professor of Practice in Technology, Culture and Society
@@ -64,6 +65,7 @@
   - exec_com
   local_image: brill.jpg
   original_image: https://s3-us-west-1.amazonaws.com/co-directory-images/brill.jpg
+  affiliated: true
 - pid: broussard
   name: Meredith Broussard
   titles: Associate Professor of Journalism
@@ -72,6 +74,7 @@
   link: https://journalism.nyu.edu/graduate/programs/magazine/faculty/
   local_image: broussard.jpg
   original_image: https://journalism.nyu.edu/wp-content/uploads/photo-meredith-broussard.jpg
+  affiliated: true
 - pid: bunde
   name: Janet Bunde
   titles: University Archivist, Division of Libraries
@@ -116,12 +119,14 @@
   link: https://library.nyu.edu/people/zachary-coble/
   local_image: coble.jpg
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/zachary-coble.jpg
+  affiliated: true
 - pid: efstathiadis
   name: Stratos Efstathiadis
   titles: Director of Research Technology Services, NYU IT
   site_roles:
   - exec_com
   link: https://library.nyu.edu/people/stratos-efstathiadis/
+  affiliated: true
 - pid: flouty
   name: Rosanna Flouty
   titles: Director of Program in Museum Studies
@@ -138,6 +143,7 @@
   link: https://as.nyu.edu/content/nyu-as/as/faculty/elaine-gan.html
   local_image: gan.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/ceh/images/faculty/Elaine%20Gan.png
+  affiliated: true
 - pid: hassapopoulou
   name: Marina Hassapopoulou
   titles: Assistant Professor in Cinema Studies and Associate Director of Moving Image
@@ -147,6 +153,7 @@
   link: https://tisch.nyu.edu/about/directory/cinema-studies/1076827536
   local_image: hassapopoulou.jpg
   original_image: https://tisch.nyu.edu/content/dam/tisch/cinema-studies/Marina%20Hassapopoulou%202018.jpg.preset.square.jpeg?
+  affiliated: true
 - pid: hatanaka
   name: Ayami Hatanaka
   titles: Doctoral Student in American Studies
@@ -162,6 +169,7 @@
   link: https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath
   local_image: heath.jpg
   original_image: https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath/@@images/Image/mini
+  affiliated: true
 - pid: hoover
   name: David Hoover
   titles: Professor of English
@@ -170,6 +178,7 @@
   link: https://as.nyu.edu/faculty/david-hoover.html
   local_image: hoover.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/g-k/Hoover-David.jpg
+  affiliated: true
 - pid: jacobs
   name: Thomas Jacobs
   titles: Clinical Assistant Professor, Expository Writing Program
@@ -190,6 +199,7 @@
   link: https://cims.nyu.edu/people/profiles/KAPP_Craig.html
   local_image: kapp.jpg
   original_image: https://cims.nyu.edu/cmt/assets/images/bio_pictures/Kapp.jpg
+  affiliated: true
 - pid: karlin
   name: Jojo Karlin
   titles: Digital Scholarship Specialist, Division of Libraries
@@ -198,6 +208,7 @@
   link: https://library.nyu.edu/people/jojo-karlin/
   local_image: karlin.jpg
   original_image: https://commons.gc.cuny.edu/files/avatars/5851/5d7424f5d81ff-bpfull.jpg
+  affiliated: true
 - pid: kehoe
   name: Lauren Kehoe
   titles: Accessibility & Accommodations Librarian, Division of Libraries
@@ -214,6 +225,7 @@
   link: https://as.nyu.edu/faculty/kimon-keramidas.html
   local_image: keramidas.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/kimon.keramidas.jpg
+  affiliated: true
 - pid: maddox
   name: Ben Maddox
   titles: Vice President, Research & Instructional Technology (RIT) and Chief Academic
@@ -223,6 +235,7 @@
   link: https://steinhardt.nyu.edu/people/ben-maddox
   local_image: maddox.jpg
   original_image: https://steinhardt.nyu.edu/sites/default/files/styles/nyu_profile_image/public/2021-03/4E0BD43F-9787-445D-B0E5-F425455FC5DB%20-%20Ben%20Maddox.jpeg?h=14580d8e&itok=4CrKN7lM
+  affiliated: true
 - pid: mahootian
   name: Farzad Mahootian
   titles: Clinical Associate Professor in Liberal Studies
@@ -260,6 +273,7 @@
   link: https://library.nyu.edu/people/himanshu-mistry/
   local_image: mistry.jpg
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/himanshu-mistry.jpg
+  affiliated: true
 - pid: musto
   name: Antonio Musto
   titles: Doctoral Student, Middle Eastern and Islamic Studies
@@ -280,6 +294,7 @@
   - exec_com
   link: https://library.nyu.edu/people/marii-nyrop/
   local_image: nyrop.jpg
+  affiliated: true
 - pid: ozkiral
   name: Alijan Ozkiral
   titles: Doctoral Student in English
@@ -333,6 +348,7 @@
   link: https://library.nyu.edu/people/beth-russell/
   local_image: russell.jpg
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/beth-russell.jpg
+  affiliated: true
 - pid: schellmann
   name: Hilke Schellmann
   titles: Assistant Professor in Journalism
@@ -350,6 +366,7 @@
   link: https://benschmidt.org
   local_image: schmidt.jpg
   original_image: https://benschmidt.org/authors/admin/avatar_hu100dbceb67e8fdbed30bfdcfd276f9b6_54689_250x250_fill_lanczos_center_2.png
+  affiliated: true
 - pid: sloane
   name: Mona Sloane
   titles: Senior Research Scientist, NYU Center for Responsible AI
@@ -423,6 +440,7 @@
   link: https://library.nyu.edu/people/nicholas-wolf/
   local_image: wolf.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/irelandHouse/images/headshots-portraits-promopics-etc/Faculty/Nicholas%20Wolf.JPG
+  affiliated: true
 - pid: wrisley
   name: David Wrisley
   titles: Associate Professor of Digital Humanities, NYU AD
@@ -431,6 +449,7 @@
   link: https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/david-wrisley.html
   local_image: wrisley.jpg
   original_image: https://nyuad.nyu.edu/content/nyuad/en/home/academics/divisions/arts-and-humanities/faculty/david-wrisley/jcr:content/bio-info/image.adaptive.m1510293016018/290.jpg
+  affiliated: true
 - pid: zehngut-willits
   name: Bryan Zehngut-Willits
   titles: Doctoral Student in History
@@ -438,12 +457,12 @@
   - fellow
   local_image: zehngut-willits.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/history/images/BryanZehngutWillits.jpg
-- unlist: true
-  pid: katz
+- pid: katz
+  unlist: true
   name: Esther Katz
   titles: Former NYU Associate Professor of US History
-- unlist: true
-  pid: dss
+- pid: dss
+  unlist: true
   name: Digital Scholarship Services
   titles: Division of Libraries
   link: https://library.nyu.edu/departments/digital-scholarship-services/
