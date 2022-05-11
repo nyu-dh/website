@@ -5,8 +5,8 @@ title: New York City Directories Extracted Persons Entries, 1850-1890
 featured: true
 category: Other
 tags:
-- Urban Humanities
-- Datasts
+- urban-humanities
+- dataset
 abstract: This project compiles extracted, machine-readable entries from a series
   of New York City directories digitized by the New York Public Library that listed
   the names, occupations or type of business performed by that individual, work address,

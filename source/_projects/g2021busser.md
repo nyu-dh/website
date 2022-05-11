@@ -3,8 +3,8 @@ pid: g2021busser
 title: Knitting Patterns for S.T.E.A.M. Education
 category: Grad Fellowship Project
 tags:
-- Public Humanities
-- Making
+- public-humanities
+- making
 cohort_year: '2021'
 abstract: 'This project focused on gathering and developing knitting patterns that
   would encourage the use of circuit building. The target audience it teen girls,

@@ -1,17 +1,22 @@
 ---
-title: Featured Projects
+title: Projects
 subtitle: |
   Below you'll find a selection of featured projects. You can browse even more projects by category using the quick links.
 layout: default
 contents_links:
   - label: 'NYU DH Seed Grant Projects'
-    link: 'seed-grants'
+    link: '/projects/seed-grants'
   - label: 'NYU DH Graduate Fellowship Projects'
-    link: 'fellowships'
+    link: '/projects/fellowships'
   - label: 'NYU Community DH Projects'
-    link: 'community'
+    link: '/projects/community'
   - label: 'All Projects'
-    link: 'all'
+    link: '/projects/all'
 ---
+
+<div class="content">
+<h2>Featured</h2>
+</div>
+
 {% assign featured_projects = site.projects | where: 'featured', true %}
 {% include custom/project-cards.html data=featured_projects full_width=false %}

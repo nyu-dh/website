@@ -4,8 +4,8 @@ title: Structured Data, Mapping, and Textual Analysis of the American Jewish Yea
   Book
 category: Grad Fellowship Project
 tags:
-- Mapping
-- Textual Analysis
+- mapping
+- text-analysis
 cohort_year: '2022'
 abstract: 'Over the course of this summer, I propose to apply digital humanities methods
   to the text of the American Jewish Year Book (AJYB) to support research for my dissertation,

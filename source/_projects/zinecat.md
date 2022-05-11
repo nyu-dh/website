@@ -4,8 +4,8 @@ done: true
 title: The Zine Union Catalog (ZineCat)
 category: DH Seed Grant Recipient
 tags:
-- Catalog
-- Dataset
+- catalog
+- dataset
 cohort_year: '2021'
 abstract: 'The Zine Union Catalog (aka ZineCat) is a union catalog dedicated to zines.
   A union catalog is a resource where libraries can share cataloging and holdings

@@ -4,7 +4,7 @@ done: true
 title: The South African Jewish Cookbook Project
 category: DH Seed Grant Recipient
 tags:
-- Digitization
+- digitization
 cohort_year: '2020'
 abstract: The South African Jewish Cookbook Project will digitize a corpus of 50 community
   cookbooks, created by South African Jewish women during the apartheid era. It will

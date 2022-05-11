@@ -5,7 +5,7 @@ title: Ancestors and Family Traditions in the Hellenistic and Imperial Polis
 featured: true
 category: Grad Fellowship Project
 tags:
-- Linked Open Data
+- linked-open-data
 cohort_year: '2021'
 abstract: 'This project asks how, when, and why people in the ancient world were referring
   to their ancestral past. To do so, NYU DH Graduate Fellow Tsolakis built an RDF

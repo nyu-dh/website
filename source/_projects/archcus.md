@@ -4,8 +4,8 @@ done: true
 title: Archive of Cuban Socialism (ARCHCUS)
 category: DH Seed Grant Recipient
 tags:
-- Archive
-- Exhibition
+- archive
+- exhibition
 cohort_year: '2021'
 abstract: 'The proposed Archive of Cuban Socialism (ARCHCUS) will document and archive
   the material culture of everyday life in Cuba between 1959 and 1990. It builds on

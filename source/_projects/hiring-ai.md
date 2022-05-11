@@ -6,8 +6,8 @@ title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanist
 featured: true
 category: DH Seed Grant Recipient
 tags:
-- Machine learning
-- Public Humanities
+- machine-learning
+- public-humanities
 cohort_year: '2020'
 abstract: 'The "Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
   Research" project is led by Prof. Hilke Schellmann (Journalism) and Dr. Mona Sloane

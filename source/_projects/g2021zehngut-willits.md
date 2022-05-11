@@ -4,8 +4,8 @@ title: Record-Keeping and the Golden Gate
 featured: true
 category: Grad Fellowship Project
 tags:
-- Public Humanities
-- Exhibition
+- public-humanities
+- exhibition
 cohort_year: '2021'
 abstract: From the nineteenth century to the present, immigrants encountering the
   mechanisms of American bureaucracy, border control, and immigration restriction

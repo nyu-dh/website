@@ -6,7 +6,7 @@ subtitle: Ten Years After Occupy
 featured: true
 category: Other
 tags:
-- Exhibition
+- exhibition
 cohort_year: '2021'
 abstract: This library-based exhibition uses Wax to tell the story of Occupy through
   historical materials.

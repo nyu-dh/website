@@ -6,9 +6,9 @@ subtitle: Rethinking the Digital Humanities through Botanic Histories and Archiv
 featured: true
 category: DH Seed Grant Recipient
 tags:
-- Digitization
-- Critical Digital Humanities
-- Environmental Humanities
+- digitization
+- critical-digital-humanities
+- environmental-humanities
 cohort_year: '2021'
 abstract: Focusing on the the nineteenth-century bryological Mitten Collection at
   the New York Botanical Garden, this project uses moss—one of the most commonplace

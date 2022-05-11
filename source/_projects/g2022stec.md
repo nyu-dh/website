@@ -3,7 +3,7 @@ pid: g2022stec
 title: The Brownies' Book Archive
 category: Grad Fellowship Project
 tags:
-- Exhibitions
+- exhibition
 cohort_year: '2022'
 abstract: The Brownies’ Book Archive is a digital archive and exhibit of W.E.B. Du
   Bois and Jessie Redmon Fauset’s children’s magazine, The Brownies’ Book (1920-1921),

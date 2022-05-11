@@ -3,7 +3,7 @@ pid: g2021joslyn
 title: Organizing Resource Library
 category: Grad Fellowship Project
 tags:
-- Public Humanities
+- public-humanities
 cohort_year: '2021'
 abstract: Joslyn’s project sought to complete work on two essential elements of my
   ongoing project of developing an online, open-source, open-access library collecting

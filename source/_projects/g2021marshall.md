@@ -4,7 +4,7 @@ title: Black Burials in Philadelphia
 subtitle: A Walking Tour
 category: Grad Fellowship Project
 tags:
-- Public Humanities
+- public-humanities
 cohort_year: '2021'
 abstract: Marshall created a digital walking tour of Old City Philadelphia that features
   white and Black churches and graveyards. Through a mobile-friendly website and a

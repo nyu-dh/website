@@ -5,9 +5,9 @@ title: COVID Collections
 featured: true
 category: DH Seed Grant Recipient
 tags:
-- Catalog
-- Dataset
-- Public Humanities
+- catalog
+- dataset
+- public-humanities
 cohort_year: '2021'
 abstract: 'As COVID-19 began to dominate the global agenda during the spring of 2020,
   museums, libraries, and archives around the world announced efforts to document

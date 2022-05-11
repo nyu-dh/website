@@ -5,7 +5,7 @@
       <div class="column is-4 full-h">
         <div class="card hover-zoom is-relative full-h">
           <div class="card-image">
-            <figure class="image {% if project.local_image %}is-3by1{% else %} is-3by1 boop{% endif %}">
+            <figure class="image is-3by1 {% if project.local_image %}{% else %} boop{% endif %}">
               {% if project.local_image %}
               <img class="img-fit" src="{{ project.local_image | prepend: 'media/projects/' | absolute_url }}" alt="Image for {{ project.title }} project">
               {% endif %}
@@ -16,7 +16,14 @@
               <a href="{{ project.url | absolute_url }}">{{ project.title }}</a>
             </p>
             <p class="is-size-6 sm-lines">{{ project.subtitle }}</p>
-            <a class="is-size-7 has-text-dark is-underlined" href="{{ project.url | absolute_url }}">Read more</a>
+            {% if project.tags %}
+            {% comment %}style="position:absolute;top:.5rem;right:.5rem;text-align:right;z-index:1000;margin-left:.5rem;"{% endcomment %}
+            <div class="tags mt-4">
+              {% for tag in project.tags %}
+                <a href="/projects/tag/{{ tag | slugify }}" class="tag is-link is-light is-small">#{{ tag | slugify }}</a>
+              {% endfor %}
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>

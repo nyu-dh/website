@@ -3,8 +3,8 @@ pid: g2021ozkiral
 title: Reading Comments Reading Instagram Comics
 category: Grad Fellowship Project
 tags:
-- Social Media
-- Text Analysis
+- social-media
+- text-analysis
 cohort_year: '2021'
 abstract: "What connects a social media user to the ethnocide of the Uyghur people?
   How do social media comments reflect public response to international crises and
