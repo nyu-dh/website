@@ -3,6 +3,9 @@ pid: historic-fractures
 title: Historic Fractures
 subtitle: Toward A Digital Future in Museum Accessibility
 category: DH Seed Grant Recipient
+tags:
+- Public Humanities
+- Accessibility
 cohort_year: '2022'
 abstract: 'This project is a catalyst for access to open Villa La Pietra’s rich collection
   of over 6000 objects dating from the 17th to 20th centuries for audiences with disabilities.

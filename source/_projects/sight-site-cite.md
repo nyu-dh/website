@@ -2,6 +2,9 @@
 pid: sight-site-cite
 title: Sight/Site/Cite in the Digital Middle East
 category: DH Seed Grant Recipient
+tags:
+- Digitial Communities
+- Publications
 cohort_year: '2022'
 abstract: Sight/Site/Cite (S/S/C) seeks to create a digital hub dedicated to examining
   changing practices of Middle East digital scholarship which will gather, curate,

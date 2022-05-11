@@ -3,6 +3,8 @@ pid: chem-hum
 title: Digitizing Chemical Humanities
 subtitle: Toward a Cross-cultural History of Chemistry
 category: DH Seed Grant Recipient
+tags:
+- Science Studies
 cohort_year: '2022'
 abstract: The vast majority of non-European alchemy sources remains, for a variety
   of reasons, untranslated. I address the strategic question of where to start the

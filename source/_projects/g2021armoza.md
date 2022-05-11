@@ -3,6 +3,8 @@ pid: g2021armoza
 title: Framing a Model
 subtitle: Literary Model Quality and the Autiobiography of Mark Twain
 category: Grad Fellowship Project
+tags:
+- Text Analysis
 cohort_year: '2021'
 abstract: 'The publication of Mark Twain’s autobiography 100 years after his death
   presents a difficult proposition for the reading public with an unwieldy size of

@@ -1,8 +1,13 @@
 ---
 pid: brown
-title: Brown Brothers Collection
+done: true
+title: Brown Brothers Collection Transcription Project
+subtitle: Transforming historical bank records into data sets for research and teaching.
 featured: true
 category: DH Seed Grant Recipient
+tags:
+- Dataset
+- Machine Learning
 cohort_year: '2020'
 abstract: The Brown Brothers Collection is a collaborative, cross-institutional research
   project that will develop robust teaching, research, and public humanities resources
@@ -26,7 +31,7 @@ limerick: |-
 pis:
 - augst
 - wolf
-link: https://newyorkscapes.org/brownbrothers/
+link: https://brownbros.newyorkscapes.org/
 local_image: brown.jpg
 original_img: https://newyorkscapes.org/wp-content/uploads/2021/03/018.57733030.117d9410-dc97-0136-03f0-000d5d842228-edited-768x768.jpeg
 layout: project

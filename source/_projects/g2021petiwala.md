@@ -3,6 +3,8 @@ pid: g2021petiwala
 title: Consuming India, Becoming Global
 subtitle: Contemporary Popular Culture and Branding between Mumbai, Dubai, and Cairo
 category: Grad Fellowship Project
+tags:
+- Images
 cohort_year: '2021'
 abstract: Pettiwala's dissertation explores the contemporary transnational processes
   by which Indian commodities and media circulate the Middle East, and simultaneously

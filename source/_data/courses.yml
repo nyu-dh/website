@@ -1,5 +1,6 @@
 ---
 - pid: 1121-fa21
+  done: true
   number: DHSS-GA.1121
   title: Introduction to Programming
   semester: Fall 2021
@@ -11,6 +12,7 @@
     programming for students in the humanities through the Python language.
   url: https://benschmidt.org/code21
 - pid: 1089-fa21
+  done: true
   number: CEH-GA.1089
   title: 'Digital Humanities: Collections and Connections'
   semester: Fall 2021
@@ -35,6 +37,7 @@
     as McLuhan, Gitelman, Castells, Shirky, Manovich, Cohen, Ramsay, and Galloway.
   url: https://kimon.hosting.nyu.edu/sites/dh-collections-connections/
 - pid: 1121-sp22
+  done: true
   number: DHSS-GA.1121
   title: Working with Data
   semester: Spring 2022
@@ -56,6 +59,7 @@
     necessarily trained or interested in statistics.'
   url: https://benschmidt.org/WWD22
 - pid: 1137-sp22
+  done: true
   number: CEH-GA.1137
   title: 'Digital Humanities: Analysis and Visualization'
   semester: Spring 2022
@@ -73,6 +77,7 @@
     tools for analyzing and visualizing humanities data, such as AbbyFine, Voyant,
     Topic Modeling Tool, ArcGIS, and Agisoft Metashape.
 - pid: 1122-sp22
+  done: true
   number: DHSS-GA.1122
   title: Introduction to Web Development
   semester: Spring 2022
@@ -88,6 +93,7 @@
     A deeper understanding of these topics will help you make better decisions not
     only in your own web development practice but also in sharing your work more effectively.
 - pid: 1121-fa22
+  done: true
   number: DHSS-GA.1121
   title: Introduction to Programming
   semester: Fall 2022
@@ -98,6 +104,7 @@
     programming for students in the humanities through the Python language.
   url: https://benschmidt.org/code21
 - pid: 1089-fa22
+  done: true
   number: CEH-GA.1089
   title: 'Digital Humanities: Collections and Connections'
   semester: Fall 2022
@@ -120,6 +127,7 @@
     as McLuhan, Gitelman, Castells, Shirky, Manovich, Cohen, Ramsay, and Galloway.
   url: https://kimon.hosting.nyu.edu/sites/dh-collections-connections/
 - pid: 1121-sp23
+  done: true
   number: DHSS-GA.1121
   title: Working with Data
   semester: Spring 2023
@@ -135,6 +143,7 @@
     types of data analysis and visualization.'
   url: https://benschmidt.org/WWD22
 - pid: 1122-sp23
+  done: true
   number: DHSS-GA.1122
   title: Introduction to Web Development
   semester: Spring 2023
@@ -148,6 +157,7 @@
     A deeper understanding of these topics will help you make better decisions not
     only in your own web development practice but also in sharing your work more effectively.
 - pid: 1137-sp23
+  done: true
   number: CEH-GA.1137
   title: 'Digital Humanities: Analysis and Visualization'
   semester: Spring 2023
@@ -165,6 +175,7 @@
     tools for analyzing and visualizing humanities data, such as AbbyFine, Voyant,
     Topic Modeling Tool, ArcGIS, and Agisoft Metashape.
 - pid: 3032-fa22
+  done: true
   number: CEH-GA 3032
   title: Citizenship in the Digital Age
   semester: Fall 2022
@@ -192,6 +203,7 @@
     out of their race.
   url: https://kimon.hosting.nyu.edu/sites/citizenship-in-the-digital-age/
 - pid: 3047-fa22
+  done: true
   number: CEH-GA 3047
   title: 'Space, Place, and Data: Spatial Humanities and the Crafting of Digital Narratives'
   semester: Fall 2022
@@ -220,6 +232,7 @@
     ArcGIS, ESRI StoryMaps and ARIS.
   url: https://kimon.hosting.nyu.edu/sites/space-place-data/
 - pid: 1089-001-fa22
+  done: true
   number: CEH-GA 1089-001, MSMS-GA 1089-001
   title: 'Digital Humanities: Collections and Connections'
   semester: Fall 2022

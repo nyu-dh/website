@@ -2,6 +2,8 @@
 pid: nyscapes
 title: New York Scapes
 category: Other
+tags:
+- Urban Humanities
 abstract: NewYorkScapes is a research community exploring the application of digital
   concepts, tools, and resources to the study of the history of urban cultures and
   landscapes. Founded in 2013, the initiative comprises a number of activities and

@@ -1,7 +1,10 @@
 ---
 pid: inquisite
+done: false
 title: Inquisite
 category: Other
+tags:
+- Linked Open Data
 abstract: Closely aligned with the objects of NewYorkScapes to provide support for
   the creation, design, and preservation of humanities data, support for the software
   platform Inquisite is being sought to facilitate the use of research data in the

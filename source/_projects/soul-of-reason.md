@@ -1,8 +1,13 @@
 ---
 pid: soul-of-reason
+done: true
 title: Raising the Volume
 subtitle: Amplifying <i>Soul of Reason</i>
+featured: true
 category: DH Seed Grant Recipient
+tags:
+- Dataset
+- Exhibition
 cohort_year: '2020'
 abstract: Raising the Volume is a cross-departmental initiative to transform a historically
   and culturally rich radio program on Black and Latino culture into a collaboratively
