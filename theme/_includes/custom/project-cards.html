@@ -1,16 +1,13 @@
-{% assign grouped = include.data | group_by: 'category' %}
-
-{% for group in grouped %}
+{% assign projects = include.data | sort_natural : 'title' %}
 <section class="{% if include.full_width == true and page.layout == 'default' %}full-width py-3 px-5{% endif %}">
-  <h2 class="is-size-3 pb-6">Category: {{ group.name }}</h2>
   <div class="columns is-multiline is-vcentered">
-    {% for project in group.items %}
+    {% for project in projects %}
       <div class="column is-4 full-h">
         <div class="card hover-zoom is-relative full-h">
           <div class="card-image">
-            <figure class="image {% if project.local_image %}is-2by1{% else %}is-3by1 boop{% endif %}">
+            <figure class="image {% if project.local_image %}is-3by1{% else %} is-3by1 boop{% endif %}">
               {% if project.local_image %}
-              <img src="{{ project.local_image | prepend: 'media/projects/' | absolute_url }}" alt="Image for {{ project.title }} project" style="object-fit:cover;object-position:center top;">
+              <img class="img-fit" src="{{ project.local_image | prepend: 'media/projects/' | absolute_url }}" alt="Image for {{ project.title }} project">
               {% endif %}
             </figure>
           </div>
@@ -26,5 +23,3 @@
     {% endfor %}
   </div>
 </section>
-{% unless forloop.last %}<hr>{% endunless %}
-{% endfor %}
