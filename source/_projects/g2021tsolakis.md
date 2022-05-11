@@ -1,19 +1,24 @@
 ---
 pid: g2021tsolakis
+done: true
 title: Ancestors and Family Traditions in the Hellenistic and Imperial Polis
+featured: true
 category: Grad Fellowship Project
+tags:
+- linked-open-data
 cohort_year: '2021'
-abstract: |-
-  Tsolakis's research question is how, when, and why people in the ancient world were referring to their ancestral past. As part of my project, he was building (and querying) an RDF-based database based on large sets of epigraphic evidence and prosopographical information from printed prosopographies and online databases. Such a database will allow him to answer more complicated questions, as for instance:
-  • which are the offices and magistrates attested in a specific polis?
-  • which individuals held a specific office in a city;
-  • what are the office-holding patterns in the Greek polis;
-  • why specific families connect their public presence with specific honorific epithets;
-  • what was the role of women in the public sphere and how it was revealed by means of endowments, benefactions, priesthoods, etc.;
-  • how name-patterns can help us recognize members of the same family?
-
-  The advantage of an RDF-based database lies in its ability both to store information of various natures and to query multiple SPARQL endpoints based on the needs of the user. 
+abstract: 'This project asks how, when, and why people in the ancient world were referring
+  to their ancestral past. To do so, NYU DH Graduate Fellow Tsolakis built an RDF
+  database and wrote programs to query existing databases based on large sets of epigraphic
+  evidence and prosopographical information from printed prosopographies and online
+  databases. The combined data sets enabled more specific lines of inquiry. For example:
+  Why do some families connect their public presence with specific honorific epithets?
+  How can name-patterns help us recognize members of the same family? What was the
+  role of women in the public sphere and how it was revealed by means of endowments,
+  benefactions, or priesthoods?'
 pis:
 - tsolakis
+local_image: g2021tsolakis.jpg
+original_img: https://live.staticflickr.com/5600/15400872168_e299ed41b4_b.jpg
 layout: project
 ---

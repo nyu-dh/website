@@ -2,6 +2,9 @@
 pid: g2022chenel
 title: The Directory of Placenames Unforgotten
 category: Grad Fellowship Project
+tags:
+- mapping
+- text-analysis
 cohort_year: '2022'
 abstract: 'We make sense of the spatial world around us by dividing it into smaller
   units with distinguishable names. If a group exercises more power over another in

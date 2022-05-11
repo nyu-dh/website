@@ -3,6 +3,8 @@ pid: g2022stuhler
 title: Who Kisses Whom?
 subtitle: Gendered Interaction in American Novels (1880-2000)
 category: Grad Fellowship Project
+tags:
+- text-analysis
 cohort_year: '2022'
 abstract: Following the framework of distant reading, this project aims to provide
   a comprehensive analysis of gendered social relationships in American literature
