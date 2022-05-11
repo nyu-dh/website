@@ -10,7 +10,7 @@ namespace :fetch do
     sheet_key   = ENV['PROJECTS_SHEET_KEY'] || @secrets.dig('PROJECTS_SHEET_KEY')
     csv_file    = "#{@data_dir}/.tmp/projects.csv"
     yml_file    = "#{@data_dir}/projects.yml"
-    array_keys  = %w(pis)
+    array_keys  = %w(pis tags)
 
     next puts Rainbow("No projects sheet key found. Is .secrets.yml present?").magenta if sheet_key.nil?
 
