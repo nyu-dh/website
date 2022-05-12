@@ -26,7 +26,6 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
   </div>
 </div>
 
-
 <section class="section full-width is-bg-alt">
   <div class="container">
     <h2 class="is-size-3 pb-6" id="seed-grant-news">Seed Grant News</h2>

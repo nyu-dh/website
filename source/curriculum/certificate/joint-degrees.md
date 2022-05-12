@@ -1,6 +1,7 @@
 ---
 
 title: DH Certificate joint degrees
+layout: page
 
 ---
 
