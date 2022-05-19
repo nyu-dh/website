@@ -1,5 +1,5 @@
 ---
-title: NYU DH Faculty Seed Grants
+title: NYU DH Seed Grants
 layout: default
 subtitle: |
   The multi-year seed grants program identifies and funds faculty-led projects that creatively bridge humanistic scholarship with new forms of computation, digital publishing, and digitization.
@@ -25,7 +25,6 @@ The Center for the Humanities, NYU Libraries, and NYU Research Technology fund t
 Grants may range in size between $5,000 and $20,000. Collaborative projects are encouraged, but must include at least one NYU faculty member in the humanities. Additional resources may be made available for those proposing computationally intensive work utilizing NYU’s high performance computing cluster and similar [Research Technology resources](https://www.nyu.edu/research/navigating-research-technology.html). We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
   </div>
 </div>
-
 
 <section class="section full-width is-bg-alt">
   <div class="container">
