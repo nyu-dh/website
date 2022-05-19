@@ -3,6 +3,8 @@ pid: g2022caomhanach
 title: The Land of the Giants
 subtitle: Digitally UnMapping Madagascar's Plant Diversity
 category: Grad Fellowship Project
+tags:
+- environmental-humanities
 cohort_year: '2022'
 abstract: By the late twentieth century, conservation scientists declared that time
   was “running out” for Madagascar as plant species were “disappearing 500 times faster

@@ -1,5 +1,6 @@
 require 'rainbow'
 require 'parsers/courses'
+require 'parsers/default'
 require 'utils'
 
 namespace :fetch do
@@ -14,10 +15,10 @@ namespace :fetch do
     puts "Fetching courses from Google Drive" unless ENV['SKIP_WGET']
     Utils.wget_sheet(sheet_key, csv_file) unless ENV['SKIP_WGET']
 
-    data    = Utils.csv_open(csv_file)
-    content = Utils.to_yaml(data)
+    data  = Utils.csv_open(csv_file)
+    data  = Parsers::Default.parse data
 
     puts "Parsing courses into #{yml_file}"
-    Utils.write_to_file(content, yml_file)
+    Utils.write_to_file(data.to_yaml, yml_file)
   end
 end

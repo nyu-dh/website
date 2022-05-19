@@ -1,7 +1,13 @@
 ---
 pid: covid-collections
+done: true
 title: COVID Collections
+featured: true
 category: DH Seed Grant Recipient
+tags:
+- catalog
+- dataset
+- public-humanities
 cohort_year: '2021'
 abstract: 'As COVID-19 began to dominate the global agenda during the spring of 2020,
   museums, libraries, and archives around the world announced efforts to document
@@ -30,5 +36,7 @@ pis:
 - noonan
 - remes
 link: https://wp.nyu.edu/disasters/covid-collections-project/
+local_image: covid-collections.jpg
+original_img: https://images.pexels.com/photos/3786153/pexels-photo-3786153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
 layout: project
 ---

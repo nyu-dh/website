@@ -1,7 +1,10 @@
 ---
 pid: sanger
+done: true
 title: Margaret Sanger Papers Project
-category: Project
+category: Other
+tags:
+- digital-edition
 abstract: The Margaret Sanger Papers Project is a historical editing project formed
   by Esther Katz and sponsored by the NYU's Department of History and Division of
   Libraries to locate, arrange, edit, research, and publish the papers of the noted

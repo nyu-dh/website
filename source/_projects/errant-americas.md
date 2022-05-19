@@ -2,6 +2,8 @@
 pid: errant-americas
 title: Arts of the Errant Americas
 category: DH Seed Grant Recipient
+tags:
+- images
 cohort_year: '2022'
 abstract: "“Arts of the Errant Americas” proposes a pilot program for a series of
   annual digital humanities art exhibitions that aim to reroute the standard narrative
