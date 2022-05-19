@@ -4,7 +4,7 @@ layout: page
 hero_buttons:
   - label: 'Apply (Current NYU students)'
     external: true
-    link: 'https://google.com/nonexistent-form'
+    link: 'https://google.com/#nonexistent-formXXX'
 ---
 
 The [Advanced Certificate in Digital Humanities](https://as.nyu.edu/dhss/advanced-certificate.html) trains students in the creative and critical work of productively bringing digital methods to issues in the humanities fields. Students learn the fundamentals of programming,  of analyzing and structuring data, and of publishing on the modern web by cultivating their digital skills and engaging with research that has successfully bridged digital methods and humanistic questions. Students learn to advance academic knowledge in their own disciplines, and to build transferrable skills for carrying that knowledge into their future careers.
