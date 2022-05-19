@@ -1,14 +1,12 @@
 ---
-
 title: DH Certificate joint degrees
 layout: page
-
 ---
 
-The Graduate School in Arts and Sciences at NYU offers joint degrees in which a student can receive 
+The Graduate School in Arts and Sciences at NYU offers joint degrees in which a student can receive
 an official degree in Digital Humanities while double-counting most of their course work.
 
-Students must take the three [required digital humanities courses](./core-dh-courses), two 
+Students must take the three [required digital humanities courses](../core-dh-courses), two
 of which can be double-counted against their degree requirements, as well as two electives. In most cases,
 this means that students will take two additional courses above the requirements for the MA or PhD.
 
