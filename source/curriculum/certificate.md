@@ -16,4 +16,4 @@ See the [digital humanities courses](/curriculum/courses/) page for a list of co
 
 Most certificate program students are enrolled through joint degrees with many GSAS doctoral and master’s programs. Students in these programs. Courses are open to all graduate students at NYU; PhD candidates at other institutions in the New York Area may also enroll.
 
-There are also a number of ways to learn Digital Humanities without formally enrolling in coursework. The **[NYU Library offers workshops](https://nyu.libcal.com/)** including Data Services, Digital Scholarship, and High Performance Computing.
+There are also a number of ways to learn Digital Humanities without formally enrolling in coursework. The [NYU Library offers workshops](https://nyu.libcal.com/) including Data Services, Digital Scholarship, and High Performance Computing.
