@@ -10,63 +10,55 @@ abstract: |
 
 ---
 
-# 2022 NYU Digital Humanities Graduate Fellows
 The Center for the Humanities, NYU Libraries, and NYU Research Technology fund ten Digital Humanities Graduate Fellows. These students from across NYU employ a range of DH methods whether they analyze digital sources, apply algorithmic methods to humanities data, or create digital publications, exhibits, or websites. The goal of the program is to support digital projects and bolster a sense of NYU DH Community across schools and departments.
 
 We are excited to announce this year's cohort of funded fellows. Congratulations to them all!
 
-## 2022 Cohort
-### Allegra Rosenberg
-Mapping the Victorian Polar Network
+## NYU DH Graduate Fellows 2022 Cohort
 
-XE Experimental Humanities (GSAS)
+**Allegra Rosenberg**, XE Experimental Humanities (GSAS)
 
-### Nuala Caomhanach
+_Mapping the Victorian Polar Network_
 
-The Land of the Giants: Digitally UnMapping Madagascar's Plant Diversity
+**Antonio Musto**, Middle Eastern and Islamic Studies (GSAS)
 
-History (GSAS)
-
-### Ayami Hatanaka
-"Why Are There No ACS Offices in SoHO?": and Interactive, Digital Map of Family Surveillance in New York City
-
-Social and Cultural Analysis (GSAS)
-
-### Lynn Chenel
-The Directory of Placenames Unforgotten
-
-Hagop Kevorkian Center for Near Eastern Studies (GSAS)
-
-### Antonio Musto
 Demystifying the Digitization of Texts: New Textual Analysis for the Medieval History of Islamic Mysticism
 
-Middle Eastern and Islamic Studies (GSAS)
+**Ayami Hatanaka**, Social and Cultural Analysis (GSAS)
+
+_"Why Are There No ACS Offices in SoHO?": and Interactive, Digital Map of Family Surveillance in New York City_
+
+**Fatma Deniz**, Middle Eastern and Islamic Studies (GSAS)
+
+_Mapping, Visualizing and Analyzing the Sufi Mobility in the Early Modern Ottoman Empire_
+
+**Hadas Binyamini**, Hebrew & Judaic Studies (GSAS)
+
+_Structured Data, Mapping, and Textual Analysis of the American Jewish Year Book_
+
+**Helen Frances Stec**, Cinema Studies (Tisch)
+
+_The Brownies' Book Archive_
+
+**Lynn Chenel**, Hagop Kevorkian Center for Near Eastern Studies (GSAS)
+
+_The Directory of Placenames Unforgotten_
 
 
-### Oscar Maria Stuhler
-Who Kisses Whom? Gendered Interaction in American Novels (1880-2000)
+**Nuala Caomhanach**, History (GSAS)
 
-Sociology (GSAS)
+_The Land of the Giants: Digitally UnMapping Madagascar's Plant Diversity_
 
-### Hadas Binyamini
-Structured Data, Mapping, and Textual Analysis of the American Jewish Year Book
+**Oscar Maria Stuhler**, Sociology (GSAS)
 
-Hebrew & Judaic Studies (GSAS)
+_Who Kisses Whom? Gendered Interaction in American Novels (1880-2000)_
 
-### Helen Frances Stec
-The Brownies' Book Archive
+**Ryan Zohar**, Dual Degree Near Eastern Studies (GSAS) and Palmer School (LIU)
 
-Cinema Studies (Tisch)
+_Mapping the Circulation of Mizrahi Texts in the Arab World, 1948-1982_
 
-### Ryan Zohar
-Mapping the Circulation of Mizrahi Texts in the Arab World, 1948-1982
 
-Dual Degree Near Eastern Studies (GSAS) and Palmer School (LIU)
 
-### Fatma Deniz
-Mapping, Visualizing and Analyzing the Sufi Mobility in the Early Modern Ottoman Empire
-
-Middle Eastern and Islamic Studies (GSAS)
 
 
 
