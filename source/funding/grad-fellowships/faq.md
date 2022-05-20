@@ -8,11 +8,11 @@ breadcrumbs:
 
 ## Eligibility FAQ
 
-**Q: an I apply more than once?**
-  > Yes. We encourage students to reapply if we think their project will benefit from the program at a different stage in their research. Students can only win the fellowship once during their time at NYU.
+**Q: Can I apply more than once?**
+  > Yes. We especially encourage students to reapply if your project will benefit from the program at a different stage in your research. Students may only receive the fellowship once during their time at NYU.
 
 **Q: Can the funding support summer writing?**
-  > Projects that involve digital humanities components (computational analysis and data visualization, web development, digital exhibitions, mobile apps, etc.) will be favored over critical internet studies projects whose outputs align with more conventional outputs.
+  > Projects that involve digital humanities components (computational analysis and data visualization, web development, digital exhibitions, mobile apps, etc.) will be favored over critical studies projects whose outputs align with more conventional outputs.
 
 **Q: What kinds of fellowship projects get selected?**
   > You can browse [past projects](/funding/grad-fellowships/#past-fellows) to see the range. Ideally the application will demonstrate the academic merit of the project, its contribution to the applicant’s course of study, and its feasibility in the timeline proposed. We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
@@ -20,10 +20,10 @@ breadcrumbs:
 ## Applications FAQ
 
 **Q: Who reviews the applications?**
-  > Submissions are judged by a committee of affiliated digital humanites faculty from across schools and departments at NYU.
+  > Submissions are judged by a committee of affiliated digital humanities faculty from across schools and departments at NYU.
 
 **Q: Can you clarify the format of the letter of acknowledgment from the advisor in the application?**
-  > We do not need a letter of recommendation, only a letter confirming that your department knows about your digital humanities efforts. While we are prepared to support the selected fellows in Digital Humanities methods, we want to be sure that applicants have departmental/disciplinary support for their projects. A letter acknowledging that your department knows about your project gives us a sense of who is supporting this sort of work (even if they don't practice digital methods) and a way to reach them.
+  > We do not need a letter of recommendation, only a brief letter confirming that your department knows about your digital humanities efforts. While we are prepared to support the selected fellows in Digital Humanities methods, we want to be sure that applicants have departmental/disciplinary support for their projects. A letter acknowledging that your department knows about your project gives us a sense of who is supporting this sort of work (even if they don't practice digital methods) and a way to reach them.
 
 **Q: Can I see a sample call for applications?**
   > Sure! We have a past call available [here](../sample-call).
@@ -31,13 +31,13 @@ breadcrumbs:
 ## Expectations FAQ
 
 **Q: What is the timeline for the program?**
-  > Applications generally open in December and close in early March. The Faculty committee then reviews applications, and decisions are usually announced by mid-April.
+  > Applications generally open in December and close in early March. The faculty review panel then evaluates applications, and decisions are typically announced by mid-April.
   >
   > Summer sessions for selected fellows begin early June and run weekly until the beginning of August.
-  > Fellows then present their work at the Digital Humanities Showcase in early October.
+  > Fellows then present their work at the Digital Humanities Showcase in October.
 
 **Q: What are the project presentations?**
-  > In early October, Fellows present their summer work at the NYU Digital Humanities Showcase.
+  > In October, Fellows present their summer work at the NYU Digital Humanities Showcase.
   >  - Presentations will be a maximum of 3 minutes
   >  - Presenters share website and social media information for those who wish to follow up
   >  - Presenters individually operate their slides through screen sharing
