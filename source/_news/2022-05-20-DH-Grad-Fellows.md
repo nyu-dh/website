@@ -18,44 +18,55 @@ We are excited to announce this year's cohort of funded fellows. Congratulations
 ## 2022 Cohort
 ### Allegra Rosenberg
 Mapping the Victorian Polar Network
-XE
+
+XE Experimental Humanities (GSAS)
 
 ### Nuala Caomhanach
+
 The Land of the Giants: Digitally UnMapping Madagascar's Plant Diversity
-History
+
+History (GSAS)
 
 ### Ayami Hatanaka
 "Why Are There No ACS Offices in SoHO?": and Interactive, Digital Map of Family Surveillance in New York City
-SCA
+
+Social and Cultural Analysis (GSAS)
 
 ### Lynn Chenel
 The Directory of Placenames Unforgotten
-Kevorkian Center
+
+Hagop Kevorkian Center for Near Eastern Studies (GSAS)
 
 ### Antonio Musto
 Demystifying the Digitization of Texts: New Textual Analysis for the Medieval History of Islamic Mysticism
-Middle Eastern and Islamic Studies
+
+Middle Eastern and Islamic Studies (GSAS)
 
 
 ### Oscar Maria Stuhler
 Who Kisses Whom? Gendered Interaction in American Novels (1880-2000)
-Sociology, Arts & Sciences
+
+Sociology (GSAS)
 
 ### Hadas Binyamini
 Structured Data, Mapping, and Textual Analysis of the American Jewish Year Book
-Hebrew & Judaic Studies
+
+Hebrew & Judaic Studies (GSAS)
 
 ### Helen Frances Stec
 The Brownies' Book Archive
-Tisch Cinema Studies
+
+Cinema Studies (Tisch)
 
 ### Ryan Zohar
 Mapping the Circulation of Mizrahi Texts in the Arab World, 1948-1982
-Dual Degree Kevorkian Center and Palmer School
+
+Dual Degree Near Eastern Studies (GSAS) and Palmer School (LIU)
 
 ### Fatma Deniz
 Mapping, Visualizing and Analyzing the Sufi Mobility in the Early Modern Ottoman Empire
-Middle Eastern and Islamic Studies
+
+Middle Eastern and Islamic Studies (GSAS)
 
 
 
