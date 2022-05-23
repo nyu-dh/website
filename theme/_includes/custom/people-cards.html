@@ -12,13 +12,13 @@
           {%- if person.link -%}
             <a href="{{ person.link | absolute_url }}">
               <img class="circle-fill" src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}">
-              <p class="is-size-5 pt-3 sm-lines has-text-weight-bold">
+              <p class="is-size-5 pt-3 has-text-weight-bold">
                 {{ person.name }}
               </p>
             </a>
           {%- else -%}
             <img class="circle-fill" src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}">
-            <p class="is-size-5 pt-3 sm-lines has-text-weight-bold">{{ person.name }}</p>
+            <p class="is-size-5 pt-3 has-text-weight-bold">{{ person.name }}</p>
           {%- endif -%}
           </figure>
           <p class="is-size-6 sm-lines is-italic" style="color:#444">{{ person.titles }}</p>
