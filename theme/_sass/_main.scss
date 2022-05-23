@@ -1,14 +1,14 @@
 @charset "utf-8";
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
 
 $family-sans-serif: 'DM Sans', sans-serif;
-$family-alt: 'Arvo', serif;
 
 $info: #57068C !default;
 $primary: #8806ce !default;
-$secondary: #CAFFD0 !default;
-$tertiary:  #220337 !default;
+$secondary: #C7FBCD !default;
+$tertiary:  #7f0191 !default;
 $background: #EAEAEA !default;
 $background-alt: #f5e5d3 !default;
 $bonus: #2E0219 !default;
@@ -187,6 +187,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.hero-body {
+  padding: 2rem 2rem;
+}
+
 
 .hover-zoom {
   transition: transform .3s;
@@ -207,7 +211,7 @@ figure.image {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, $secondary, $tertiary);
+  background: linear-gradient(to left, $secondary, $background-alt);
 }
 
 .img-fit {
@@ -218,4 +222,15 @@ figure.image {
   -moz-filter: saturate(80%) blur(0);
   -o-filter: saturate(80%) blur(0);
   -ms-filter: saturate(80%) blur(0);
+}
+
+.fancy-font {
+  font-family: 'Nova Square', sans-serif;
+}
+.title {
+  font-family: 'Nova Square', sans-serif;
+}
+.subtitle {
+  font-size: 1.15rem;
+  line-height: 1.5rem;
 }

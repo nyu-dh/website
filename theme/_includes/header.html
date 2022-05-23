@@ -1,19 +1,16 @@
 <nav class="navbar is-black">
-  <div class="container" style="display:flex;justify-content:space-between;padding-top:.5rem;flex-wrap:wrap;">
-    <a class="logo" href="{{ '/' | absolute_url }}">
-      <p class="is-size-6" style="white-space: nowrap;">
-        <img src="{{ 'assets/logo.png' | absolute_url }}" alt="NYU Torch Logo" width="60" style="vertical-align:middle;">
-        <span class="has-text-white" style="vertical-align:middle;"> DH</span>
-      </p>
+  <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;">
+    <a class="logo" style="margin-right:auto;" href="https://nyu.edu" target="_blank">
+      <img src="{{ 'assets/logo.png' | absolute_url }}" alt="NYU Torch Logo" style="height:1rem;margin-top:.6rem;">
     </a>
-    <div class="unit-menu" style="display:flex;flex-wrap:wrap;">
-      {% if site.data.navigation %}
-        {% for item in site.data.units %}
-          &nbsp;&nbsp;|&nbsp;&nbsp;
-          <a href="{{ item.link }}" {% if item.link contains 'http' %}target="_blank"{% endif %} class="unit-item is-size-7 has-text-white">{{ item.name }}</a>
-        {% endfor %}
-      {% endif %}
-    </div>
+    {% if site.data.navigation %}
+      {% for item in site.data.units %}
+      <span class="unit-item is-size-7">
+        &nbsp;&nbsp;|&nbsp;
+        <a class="has-text-white" href="{{ item.link }}" {% if item.link contains 'http' %}target="_blank"{% endif %}>{{ item.name }}</a>
+      </span>
+      {% endfor %}
+    {% endif %}
   </div>
 </nav>
 
@@ -28,10 +25,15 @@
     </div>
     <div class="navbar-menu">
       <div class="navbar-start">
+        <a href="{{ '/' | absolute_url }}" class="navbar-item is-size-4 fancy-font" style="font-weight:bold;background-color:#480574;color:#91FF9E">
+          {{ site.title }}
+        </a>
+      </div>
+      <div class="navbar-end">
         {% if site.data.navigation %}
           {% for item in site.data.navigation %}
             {% if item.dropdown %}
-            <div class="navbar-item is-size-5 has-dropdown is-hoverable">
+            <div class="navbar-item is-size-6 has-dropdown is-hoverable">
               <a href="{{ item.link | relative_url }}" class="navbar-link">{{ item.name }}</a>
               <div class="navbar-dropdown">
                 {% for subitem in item.dropdown %}
@@ -40,7 +42,7 @@
               </div>
             </div>
             {% else %}
-            <a href="{{ item.link | relative_url }}" class="navbar-item is-size-5">{{ item.name }}</a>
+            <a href="{{ item.link | relative_url }}" class="navbar-item is-size-6">{{ item.name }}</a>
             {% endif %}
           {% endfor %}
         {% endif %}
