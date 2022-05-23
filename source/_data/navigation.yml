@@ -1,5 +1,3 @@
-- name: Home
-  link: '/'
 - name: Get Involved
   link: '/get-involved'
 - name: Curriculum
