@@ -1,5 +1,5 @@
 ---
-title: Congratulations to the 2022 Digital Humanities Graduate Fellows
+title: Congratulations to the 2022 NYU DH Graduate Fellows!
 date: 2022-05-20
 featureUntil: 2022-08-01
 author: jkarlin
@@ -56,10 +56,3 @@ _Who Kisses Whom? Gendered Interaction in American Novels (1880-2000)_
 **Ryan Zohar**, Dual Degree Near Eastern Studies (GSAS) and Palmer School (LIU)
 
 _Mapping the Circulation of Mizrahi Texts in the Arab World, 1948-1982_
-
-
-
-
-
-
-

@@ -10,5 +10,5 @@ title: Home
 <br>
 
 <p>
-  <a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All News</a>
+  <a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All</a>
 </p>

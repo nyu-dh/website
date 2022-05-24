@@ -3,10 +3,6 @@ title: NYU DH Seed Grants
 layout: default
 subtitle: |
   The multi-year seed grants program identifies and funds faculty-led projects that creatively bridge humanistic scholarship with new forms of computation, digital publishing, and digitization.
-hero_buttons:
-  - label: 'Applications Open Until 3/06/2022'
-    external: true
-    link: 'https://nyuhumanities.org/opportunity/digital-humanities-seed-grants/'
 contents_links:
   - label: 'Seed Grant News'
     link: '#seed-grant-news'
@@ -34,7 +30,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
     {% include custom/news-cards.html data=seed_news limit=3 %}
 
     <p>
-      <a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All News</a>
+      <a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All</a>
     </p>
   </div>
 </section>

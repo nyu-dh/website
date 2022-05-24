@@ -1,18 +1,31 @@
-{% assign data = include.data | sort: 'featureUntil' | reverse %}
+{% assign data = include.data | sort: 'date' | reverse %}
 <div class="columns is-vcentered is-multiline">
   {% for item in data | limit: include.limit %}
     <div class="column is-one-third">
       <div class="card hover-zoom">
         <div class="card-content">
           <div class="content">
-            <p class="title is-size-4">
-              <a href="{{ item.url | absolute_url }}">{{ item.title }}</a>
+            <p class="subtitle is-size-6 pb-3">
+              {% if item.event %}
+              <i class="far fa-calendar-alt"></i><b> Event</b>
+              {% else %}
+              <i class="far fa-newspaper"></i><b> News</b>
+              {% endif %}
             </p>
-            <p class="subtitle is-size-7 pt-3">{{ item.date | date: "%B %d, %Y" | upcase }}</p>
-            {% unless item.title.size > 50 %}
-            <p class="sm-lines" style="font-size:.8rem">{{ item.abstract | truncatewords: 20 }}</p>
-            {% endunless %}
-            <a class="is-size-7 has-text-dark is-underlined" href="{{ item.url | absolute_url }}">Read more</a>
+            <p class="title is-size-5">
+              <a href="{{ item.url | absolute_url }}">
+                {{ item.title }}
+              </a>
+            </p>
+            <p class="subtitle is-size-7 pt-3">
+              {% if item.event %}
+              {{ item.eventDate | date: "%B %d, %Y" | upcase }}
+              {% else %}
+              {{ item.date | date: "%B %d, %Y" | upcase }}
+              {% endif %}
+            </p>
+            <p class="sm-lines" style="font-size:.8rem">{{ item.abstract | truncatewords: 14 }}</p>
+            <!-- <a class="is-size-7 has-text-dark is-underlined" href="{{ item.url | absolute_url }}">Read more</a> -->
           </div>
         </div>
       </div>

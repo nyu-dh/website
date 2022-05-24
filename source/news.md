@@ -1,5 +1,5 @@
 ---
-title: All News
+title: All News & Events
 layout: default
 ---
 

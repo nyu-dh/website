@@ -48,4 +48,4 @@ defaults:
   - scope:
       type: news
     values:
-      layout: page
+      layout: news

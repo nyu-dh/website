@@ -1,5 +1,6 @@
 ---
-title: "NYCDH Week Workshop | Seed to Scale: Leveraging Institutional Grants for Additional Funding"
+title: 'NYCDH Week Workshop: "Seed to Scale"'
+subtitle: "Leveraging Institutional Grants for Additional Funding"
 date: 2022-02-09
 author: jkarlin
 event: true
