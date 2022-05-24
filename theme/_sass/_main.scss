@@ -7,6 +7,10 @@
 $family-sans-serif: 'DM Sans', sans-serif;
 $family-fancy: 'Montserrat', sans-serif;
 
+$navbar-breakpoint: 800px;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
 $info: #57068C !default;
 $primary: #8806ce !default;
 $secondary: #C7FBCD !default;
@@ -235,4 +239,18 @@ figure.image {
 .subtitle {
   font-size: 1.15rem;
   line-height: 1.5rem;
+}
+
+.navbar-link.group-header {
+  @include until($navbar-breakpoint) {
+    cursor: default !important;
+    color: $text !important;
+    text-decoration: underline;
+    background-color: initial;
+  }
+}
+
+.button {
+  max-width: 100%;
+  overflow-x: scroll;
 }
