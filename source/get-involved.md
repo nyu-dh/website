@@ -3,15 +3,20 @@ title: Get Involved
 layout: default
 subtitle: "NYU DH invites you to get involved through consultations, events, and funding. Learn more here and join our communication channels for ongoing announcements. "
 hero_buttons:
-  - label: 'NYU DH Mailing List – Public'
+  - label: 'NYU DH Mailing List (Public)'
     link: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'
     external: true
-  - label: 'NYU DH Slack Channel – NYU Members Only'
+  - label: 'NYU DH Slack Channel (NYU Only)'
     link: 'https://forms.gle/kzxyJLetPz4pGGY78'
     external: true
+contents_links:
+    - label: 'Consultations and Resources'
+      link: '#access-consultations-and-resources'
+    - label: 'News and Events'
+      link: '#explore-news-and-events'
 ---
 <div class="content" markdown="1">
-## Access Consultations and Resource Guides
+## Access Consultations and Resources
 
 There are lots of people and services at NYU to help with digital humanities work from fresh ideas to established projects. The best way to find and identify resources is to ask for a consultation with one of the support groups.
 
@@ -31,7 +36,7 @@ There are lots of people and services at NYU to help with digital humanities wor
 DH events and courses are sponsored by groups across the University. We recommend checking the calendars maintained by [NYU Libraries](https://nyu.libcal.com/calendar/?cid=1564&t=d&d=0000-00-00&cal=1564&inc=0), [NYU Center for the Humanities](https://nyuhumanities.org/events/), the [NYU Center for Data Science](https://cds.nyu.edu/cds-events/), as well as [New York City Digital Humanities](https://nycdh.org/calendar/).
 </div>
 
-{% include custom/news-cards.html data=site.news limit=3 %}
+{% include cards/news.html data=site.news limit=3 %}
 <p><a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All</a></p>
 </div>
 </section>

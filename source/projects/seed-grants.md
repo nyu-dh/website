@@ -7,4 +7,4 @@ breadcrumbs:
     link: /projects
 ---
 {% assign seeds = site.projects | where_exp: "i", "i.category contains 'Seed'" %}
-{% include custom/project-cards.html data=seeds full_width=false %}
+{% include cards/projects.html data=seeds full_width=false %}

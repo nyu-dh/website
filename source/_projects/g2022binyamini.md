@@ -4,7 +4,7 @@ title: Structured Data, Mapping, and Textual Analysis of the American Jewish Yea
   Book
 category: Grad Fellowship Project
 tags:
-- mapping
+- spatial-humanities
 - text-analysis
 cohort_year: '2022'
 abstract: 'Over the course of this summer, I propose to apply digital humanities methods

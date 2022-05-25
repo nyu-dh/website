@@ -7,7 +7,7 @@ featured: true
 category: DH Seed Grant Recipient
 tags:
 - dataset
-- exhibition
+- data-visualization
 cohort_year: '2020'
 abstract: "“Underwriting Risk in the 18th century” provides the first systematic analysis
   of the application of probabilistic mathematics to the trade in enslaved Africans

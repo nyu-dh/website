@@ -7,7 +7,7 @@ featured: true
 category: DH Seed Grant Recipient
 tags:
 - digitization
-- critical-digital-humanities
+- computational-culture
 - environmental-humanities
 cohort_year: '2021'
 abstract: Focusing on the the nineteenth-century bryological Mitten Collection at

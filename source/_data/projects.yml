@@ -96,7 +96,7 @@
   category: DH Seed Grant Recipient
   tags:
   - dataset
-  - exhibition
+  - data-visualization
   cohort_year: '2020'
   abstract: "“Underwriting Risk in the 18th century” provides the first systematic
     analysis of the application of probabilistic mathematics to the trade in enslaved
@@ -216,7 +216,7 @@
   category: DH Seed Grant Recipient
   tags:
   - digitization
-  - critical-digital-humanities
+  - computational-culture
   - environmental-humanities
   cohort_year: '2021'
   abstract: Focusing on the the nineteenth-century bryological Mitten Collection at
@@ -276,8 +276,8 @@
   title: The Zine Union Catalog (ZineCat)
   category: DH Seed Grant Recipient
   tags:
-  - catalog
   - dataset
+  - public-humanities
   cohort_year: '2021'
   abstract: 'The Zine Union Catalog (aka ZineCat) is a union catalog dedicated to
     zines. A union catalog is a resource where libraries can share cataloging and
@@ -312,8 +312,7 @@
   featured: true
   category: DH Seed Grant Recipient
   tags:
-  - catalog
-  - dataset
+  - medical-humanities
   - public-humanities
   cohort_year: '2021'
   abstract: 'As COVID-19 began to dominate the global agenda during the spring of
@@ -351,6 +350,7 @@
   category: DH Seed Grant Recipient
   tags:
   - exhibition
+  - medical-humanities
   cohort_year: '2021'
   abstract: Imagine a digital museum where artifacts appear in virtual reality in
     three dimensions and can be manipulated for full inspection. The College of Dentistry
@@ -370,7 +370,7 @@
   subtitle: Civil Forfeiture, Vice Police, and Illicit Capital in Philadelphia
   category: Grad Fellowship Project
   tags:
-  - mapping
+  - spatial-humanities
   cohort_year: '2021'
   abstract: 'Smith''s dissertation explores how police and prosecutors use civil forfeiture
     to wage the drug war in Philadelphia. Forfeiture operates through the legal fiction
@@ -467,7 +467,7 @@
   subtitle: Contemporary Popular Culture and Branding between Mumbai, Dubai, and Cairo
   category: Grad Fellowship Project
   tags:
-  - images
+  - visual-culture
   cohort_year: '2021'
   abstract: Pettiwala's dissertation explores the contemporary transnational processes
     by which Indian commodities and media circulate the Middle East, and simultaneously
@@ -644,7 +644,7 @@
   title: Artists Archive Initiative
   category: Other
   tags:
-  - images
+  - visual-culture
   abstract: The Artist Archives Initiative promotes research and disseminates knowledge
     about the display and care of contemporary art. The initiative responds to a growing
     need for art world professionals and academic researchers to work with artists
@@ -740,6 +740,7 @@
   tags:
   - software
   - text-analysis
+  - data-visualization
   abstract: 'Bookworm makes it easy to interactively explore massive collections of
     texts as data. If you have a huge collection of texts, it provides a way to interpret
     them, make them explorable, and unlock them to a wide variety of uses even if
@@ -884,7 +885,7 @@
     Book
   category: Grad Fellowship Project
   tags:
-  - mapping
+  - spatial-humanities
   - text-analysis
   cohort_year: '2022'
   abstract: 'Over the course of this summer, I propose to apply digital humanities
@@ -913,7 +914,7 @@
   title: Mapping the Victorian Polar Network
   category: Grad Fellowship Project
   tags:
-  - mapping
+  - spatial-humanities
   - public-humanities
   cohort_year: '2022'
   abstract: |-
@@ -926,6 +927,8 @@
   title: Demystifying the Digitization of Texts
   subtitle: New Textual Analysis for the Medieval History of Islamic Mysticism
   category: Grad Fellowship Project
+  tags:
+  - text-analysis
   cohort_year: '2022'
   abstract: 'The digitization of Latin-script languages has fundamentally changed
     the scope of scholarship in the humanities, but only recently have scholars undertaken
@@ -955,7 +958,7 @@
   subtitle: An Interactive, Digital Map of Family Surveillance in New York City
   category: Grad Fellowship Project
   tags:
-  - mapping
+  - spatial-humanities
   cohort_year: '2022'
   abstract: 'This research project stems from provocations by abolitionist organizers
     in New York City, with questions such as, “Why are there no ACS offices in SoHo?”
@@ -1032,9 +1035,6 @@
 - pid: sight-site-cite
   title: Sight/Site/Cite in the Digital Middle East
   category: DH Seed Grant Recipient
-  tags:
-  - digitial-communities
-  - publication
   cohort_year: '2022'
   abstract: Sight/Site/Cite (S/S/C) seeks to create a digital hub dedicated to examining
     changing practices of Middle East digital scholarship which will gather, curate,
@@ -1057,6 +1057,7 @@
   category: DH Seed Grant Recipient
   tags:
   - science-studies
+  - text-analysis
   cohort_year: '2022'
   abstract: The vast majority of non-European alchemy sources remains, for a variety
     of reasons, untranslated. I address the strategic question of where to start the

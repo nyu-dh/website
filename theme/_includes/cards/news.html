@@ -19,9 +19,9 @@
             </p>
             <p class="subtitle is-size-7 pt-3">
               {% if item.event %}
-              {{ item.eventDate | date: "%B %d, %Y" | upcase }}
+              HAPPENING {{ item.eventDate | date: "%b %d, %Y" | upcase }}
               {% else %}
-              {{ item.date | date: "%B %d, %Y" | upcase }}
+              PUBLISHED {{ item.date | date: "%b %d, %Y" | upcase }}
               {% endif %}
             </p>
             <p class="sm-lines" style="font-size:.8rem">{{ item.abstract | truncatewords: 14 }}</p>

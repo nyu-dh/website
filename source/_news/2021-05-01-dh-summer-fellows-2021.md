@@ -2,14 +2,12 @@
 title: Meet the 2021 NYU DH Graduate Fellows
 date: 2021-05-01
 featureUntil: 2022-09-01
-author: jkarlin
+author: Jojo Karlin
 tags:
   - grad_fellows
 abstract: |
   We are excited to announce the 2021 NYU Digital Humanities Graduate Fellows.
 ---
-
-# Digital Humanities Graduate Student Fellowships announced
 
 NYU Libraries, NYU Center for the Humanities, and NYU Research Technology are pleased to announce the winners of the inaugural Digital Humanities Graduate Fellowship.
 

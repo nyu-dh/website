@@ -11,12 +11,12 @@ $navbar-breakpoint: 800px;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
-$info: #57068C !default;
+$info: #321650 !default;
 $primary: #8806ce !default;
-$secondary: #C7FBCD !default;
-$tertiary:  #7f0191 !default;
+$secondary: #C5F5CB !default;
+$tertiary:  #E63946 !default;
 $background: #EAEAEA !default;
-$background-alt: #f5e5d3 !default;
+$background-alt: #F5EBE0 !default;
 $bonus: #2E0219 !default;
 $text: #050404 !default;
 $link: $primary !default;
@@ -69,8 +69,8 @@ body, html {
 .border-gradient {
   border-bottom: solid;
   border-image-slice: 1;
-  border-width: .8rem;
-  border-image-source: linear-gradient(to left, $secondary, $tertiary);
+  border-width: .5rem;
+  border-image-source: linear-gradient(to left, $background-alt, $tertiary);
 }
 
 ::selection {
@@ -98,42 +98,6 @@ body, html {
   margin-left: -50vw;
   margin-right: -50vw;
 }
-
-.color-tiles {
-  .is-child {
-    .title {
-      color: $secondary;
-    }
-    .subtitle {
-      color: $white !important;
-      font-size: .9rem;
-      line-height: 1.25rem;
-    }
-
-    a {
-      color: $white !important;
-      font-weight: bold;
-      text-decoration: underline;
-      &:hover {
-        color: $white !important;
-        text-decoration: none;
-      }
-    }
-  }
-  .color-0, .color-4 {
-    background-color: $bonus;
-  }
-  .color-1 {
-    background-color: $tertiary;
-  }
-  .color-2 {
-    background-color: $info;
-  }
-  .color-3 {
-    background-color: #4A3F5C;
-  }
-}
-
 .hero.is-primary .subtitle a {
   text-decoration: underline;
   font-weight: bold;
@@ -217,7 +181,7 @@ figure.image {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(80,15,89,1) 0%, rgba(199,251,205,1) 87%);
+  background: linear-gradient(to left, $background-alt, $footer-background-color);
 }
 
 .img-fit {

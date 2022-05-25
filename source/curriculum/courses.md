@@ -21,19 +21,19 @@ contents_links:
 
 ### DH Certificate Courses
 {% assign current_core = current_semester | where: 'program', 'DHSS' %}
-{% include custom/course-cards.html data=current_core %}
+{% include cards/courses.html data=current_core %}
 
 ### Elective Courses
 {% assign current_elective = current_semester | where_exp: "item", "item.program != 'DHSS'" %}
-{% include custom/course-cards.html data=current_elective %}
+{% include cards/courses.html data=current_elective %}
 
 <h2 id="upcoming-semester">{{ site.semester.next }}</h2>
 {% assign next_semester =  site.data.courses | where: 'semester', site.semester.next %}
 
 ### DH Certificate Courses
 {% assign next_core = next_semester | where: 'program', 'DHSS' %}
-{% include custom/course-cards.html data=next_core %}
+{% include cards/courses.html data=next_core %}
 
 ### Elective Courses
 {% assign next_elective = next_semester | where_exp: "item", "item.program != 'DHSS'" %}
-{% include custom/course-cards.html data=next_elective %}
+{% include cards/courses.html data=next_elective %}

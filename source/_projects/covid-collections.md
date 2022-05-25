@@ -5,8 +5,7 @@ title: COVID Collections
 featured: true
 category: DH Seed Grant Recipient
 tags:
-- catalog
-- dataset
+- medical-humanities
 - public-humanities
 cohort_year: '2021'
 abstract: 'As COVID-19 began to dominate the global agenda during the spring of 2020,

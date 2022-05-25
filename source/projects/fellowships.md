@@ -7,4 +7,4 @@ breadcrumbs:
     link: /projects
 ---
 {% assign fellows = site.projects | where_exp: "i", "i.category contains 'Fellowship'" %}
-{% include custom/project-cards.html data=fellows full_width=false %}
+{% include cards/projects.html data=fellows full_width=false %}

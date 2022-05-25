@@ -5,7 +5,7 @@ hero_image: '/assets/images/coding-2(1).png'
 title: Home
 ---
 
-{% include custom/news-cards.html data=site.news limit=6 %}
+{% include cards/news.html data=site.news limit=6 %}
 
 <br>
 

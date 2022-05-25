@@ -19,4 +19,4 @@ contents_links:
 </div>
 
 {% assign featured_projects = site.projects | where: 'featured', true %}
-{% include custom/project-cards.html data=featured_projects full_width=false %}
+{% include cards/projects.html data=featured_projects full_width=false %}
