@@ -218,3 +218,36 @@ figure.image {
   max-width: 100%;
   overflow-x: scroll;
 }
+
+.post-content {
+  h2, h3, h4, h5, h6 {
+    color: #321650;
+    max-width: 600px;
+  }
+  h2 {
+    font-weight: normal;
+    font-family: $family-fancy;
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    filter: brightness(75%);
+    font-size: 1.27rem;
+  }
+  h4 {
+    color:lighten(#321650, 20%);
+    font-size: 1.2rem;
+  }
+  h5 {
+    color: lighten($text, 35%);
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1.1rem;
+  }
+   h6 {
+     font-size: 1rem;
+  }
+}
