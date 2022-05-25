@@ -16,4 +16,4 @@ contents_links:
     link: '/projects/community'
 ---
 {% assign projects = site.projects %}
-{% include custom/project-cards.html data=projects full_width=false %}
+{% include cards/projects.html data=projects full_width=false %}

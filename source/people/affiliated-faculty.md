@@ -10,4 +10,4 @@ contents_links:
 ---
 {% assign people = site.data.people | where_exp: "p", "p.site_roles contains 'affil_fac'" %}
 {% assign people = people | sort: 'pid' %}
-{% include custom/people-cards.html data=people full_width=false %}
+{% include cards/people.html data=people full_width=false %}

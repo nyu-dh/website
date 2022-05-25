@@ -4,7 +4,7 @@ title: '"Why Are There No ACS Offices in SoHO?"'
 subtitle: An Interactive, Digital Map of Family Surveillance in New York City
 category: Grad Fellowship Project
 tags:
-- mapping
+- spatial-humanities
 cohort_year: '2022'
 abstract: 'This research project stems from provocations by abolitionist organizers
   in New York City, with questions such as, “Why are there no ACS offices in SoHo?”

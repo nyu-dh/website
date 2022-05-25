@@ -5,4 +5,4 @@ breadcrumbs:
   - name: Courses
     link: /curriculum/courses
 ---
-{% include custom/course-cards.html data=site.data.courses %}
+{% include cards/courses.html data=site.data.courses %}

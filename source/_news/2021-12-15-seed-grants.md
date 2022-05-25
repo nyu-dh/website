@@ -2,7 +2,7 @@
 title: Notice of Funding for 2022 DH Seed Grant & Graduate Fellowship Cohorts
 date: 2021-12-15
 featureUntil: 2022-03-10
-author: jkarlin
+author: Jojo Karlin
 tags:
 - seed_grants
 - grad_fellows

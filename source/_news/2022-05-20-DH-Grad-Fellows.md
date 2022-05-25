@@ -1,13 +1,12 @@
 ---
-title: Congratulations to the 2022 Digital Humanities Graduate Fellows
+title: Congratulations to the 2022 NYU DH Graduate Fellows!
 date: 2022-05-20
 featureUntil: 2022-08-01
-author: jkarlin
+author: Jojo Karlin
 tags:
 - grad-fellows
 abstract: |
   Meet the recipients of the 2022 NYU Digital Humanities Graduate Student Fellows, sponsored by the NYU Center for Humanities, NYU Libraries, and NYU Research Technology.
-
 ---
 
 The Center for the Humanities, NYU Libraries, and NYU Research Technology fund ten Digital Humanities Graduate Fellows. These students from across NYU employ a range of DH methods whether they analyze digital sources, apply algorithmic methods to humanities data, or create digital publications, exhibits, or websites. The goal of the program is to support digital projects and bolster a sense of NYU DH Community across schools and departments.
@@ -56,10 +55,3 @@ _Who Kisses Whom? Gendered Interaction in American Novels (1880-2000)_
 **Ryan Zohar**, Dual Degree Near Eastern Studies (GSAS) and Palmer School (LIU)
 
 _Mapping the Circulation of Mizrahi Texts in the Arab World, 1948-1982_
-
-
-
-
-
-
-

@@ -1,22 +1,24 @@
 ---
-title: "NYCDH Week Workshop | Seed to Scale: Leveraging Institutional Grants for Additional Funding"
+title: 'NYCDH Week Workshop: "Seed to Scale"'
+subtitle: "Leveraging Institutional Grants for Additional Funding"
 date: 2022-02-09
-author: jkarlin
+author: Jojo Karlin
 event: true
 featureUntil: 2022-02-10
 eventDate: 2022-02-10
-startTime: 13:00
-endTime: 15:00
+startTime: 1:00PM EST
+endTime: 3:00PM EST
 location: Zoom
 link: https://nycdh.org/dhweek/event/seed-to-scale/
 tags:
   - nycdh
 abstract: |
   On February 10, join members of the NYU DH community for an NYCDH Week event with NYU DH Seed Grants awardees who went on to receive additional funding from external sources.
-
+hero_buttons:
+  - label: 'Registration Page'
+    link: 'https://nycdh.org/dhweek/event/seed-to-scale/'
+    external: true
 ---
-
-# Event: Seed to Scale: Leveraging Institutional Grants for Additional Funding
 
 This roundtable session features projects that have leveraged NYU DH Seed Grants to scale up and receive additional funding from external sources. Given the NYCDH theme of Support, panelists will share their processes and highlight elements of their work that made a difference in their ability to grow their projects and attract new funding. Participants will include:
 
@@ -26,4 +28,4 @@ Elaine Ayers's project, “Inverting the Wunderkammer: Rethinking the Digital Hu
 
 Since 2019, NYU Center for the Humanities, NYU Research Technologies, and NYU Libraries have jointly sponsored a [DH Seed Grant program]({{ 'projects/' | absolute_url }}), which aims to seed projects that may go on to receive greater funding from other sources or otherwise build NYU’s institutional capacity in Digital Humanities work. Projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the subfield of Global Digital Humanities are especially welcomed.
 
-Register at https://nycdh.org/dhweek/event/seed-to-scale/.
+Register at <https://nycdh.org/dhweek/event/seed-to-scale/>.

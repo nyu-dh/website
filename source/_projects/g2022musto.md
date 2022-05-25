@@ -3,6 +3,8 @@ pid: g2022musto
 title: Demystifying the Digitization of Texts
 subtitle: New Textual Analysis for the Medieval History of Islamic Mysticism
 category: Grad Fellowship Project
+tags:
+- text-analysis
 cohort_year: '2022'
 abstract: 'The digitization of Latin-script languages has fundamentally changed the
   scope of scholarship in the humanities, but only recently have scholars undertaken

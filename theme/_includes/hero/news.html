@@ -1,0 +1,44 @@
+<section class="hero is-primary border-gradient">
+  <div class="hero-body">
+    {% include hero/partials/breadcrumbs.html %}
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="content">
+            <h1 class="title pb-2">
+              {{ page.title }}
+            </h1>
+            {% if page.abstract %}<p class="subtitle">{{ page.abstract | trim }}</p>{% endif %}
+            {% include hero/partials/buttons.html %}
+          </div>
+        </div>
+
+        <div class="column is-narrow">
+          <p class="is-size-6 mb-0">
+            <i class="far fa-newspaper mr-1"></i> News
+          </p>
+          <p class="is-size-6 mb-0">
+            <i class="fas fa-feather mr-1"></i> {{ page.date | date: "%m/%d/%Y" }}
+          </p>
+          <p class="is-size-6 mb-0">
+            <i class="far fa-user mr-1"></i>&nbsp;
+            {% if page.author %}{{ page.author }}
+            {% else %}NYU DH Staff{% endif %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% comment %}
+  <div class="hero-foot">
+    <nav aria-label="pagination">
+      <div class="container">
+        <p class="is-size-5">
+          <a aria-label="previous" style="float:left"><</a>
+          <a aria-label="next" style="float:right">></a>
+        </p>
+      </div>
+    </nav>
+  </div>
+  {% endcomment %}
+</section>
