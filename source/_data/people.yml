@@ -1,158 +1,14 @@
 ---
-- pid: appert
-  done: true
-  name: Lucy Appert
-  titles: Director of Educational Technology, FAS
-  site_roles:
-  - exec_com
-  link: https://wp.nyu.edu/fas-edtech/about/our-team/
-  local_image: appert.jpg
-  original_image: https://s18798.pcdn.co/fas-edtech/wp-content/uploads/sites/354/2021/12/appert2021headshot-300x295.jpg
-  affiliated: true
-- pid: ansari
-  done: true
-  name: Ahmed Ansari
-  titles: Assistant Professor of Practice in Technology, Culture and Society
-  site_roles:
-  - proj_pi
-  link: https://engineering.nyu.edu/faculty/ahmed-ansari-1
-  local_image: ansari.jpg
-  original_image: https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2019-10/52303916_10161388995350282_1617569861465014272_n_0.jpg?h=f0d95172&itok=ePal-T28
-- pid: armoza
-  done: true
-  name: Jonathan Armoza
-  titles: Doctoral Student in English and American Literature
-  site_roles:
-  - fellow
-- pid: augst
-  done: true
-  name: Tom Augst
-  titles: Associate Professor of English
-  site_roles:
-  - proj_pi
-  local_image: augst.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/a-f/ThomasAugst.jpg
-- pid: ayers
-  done: true
-  name: Elaine Ayers
-  titles: Faculty Fellow in Museum Studies
-  site_roles:
-  - proj_pi
-  link: https://as.nyu.edu/faculty/MS.html
-  local_image: ayers.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/museum/images/Ayers_Bio%20Pic.jpg
-- pid: beinart-smollan
-  done: true
-  name: Gavin Beinart-Smollan
-  titles: PhD Candidate in History, Hebrew and Judaic Studies
-  site_roles:
-  - proj_pi
-  local_image: beinart-smollan.jpg
-  original_image: https://media-exp1.licdn.com/dms/image/C4D03AQEz-EuoDHduQA/profile-displayphoto-shrink_200_200/0/1517157595257?e=1655942400&v=beta&t=_OduBvWt9S-dznnKwuL2ASIyscMaKx4nrLFBZDCg3Yw
-- pid: binyamini
-  done: true
-  name: Hadas Binyamini
-  titles: Doctoral Student in History and Hebrew & Judaic Studies
-  site_roles:
-  - fellow
-  local_image: binyamini.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/hebrew/images/student-profile-pictures/Hadas%20Binyamini.png
-- pid: brain
-  done: true
-  name: Tega Brain
-  titles: Industry Assistant Professor in Technology, Culture and Society
-  site_roles:
-  - proj_pi
-  link: https://engineering.nyu.edu/faculty/tega-brain
-  local_image: brain.jpg
-  original_image: https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2021-04/tegabrain-headshot-square.jpg?h=0f87c4e1&itok=Z3gip1Qt
-- pid: brill
-  done: true
-  name: Bobby Brill
-  titles: Director of Strategic Planning and Services, NYU IT
-  site_roles:
-  - exec_com
-  local_image: brill.jpg
-  original_image: https://s3-us-west-1.amazonaws.com/co-directory-images/brill.jpg
-  affiliated: true
 - pid: broussard
   done: true
   name: Meredith Broussard
   titles: Associate Professor of Journalism
   site_roles:
   - affil_fac
-  link: https://journalism.nyu.edu/graduate/programs/magazine/faculty/
+  link: https://journalism.nyu.edu/about-us/profile/meredith-broussard/
   local_image: broussard.jpg
   original_image: https://journalism.nyu.edu/wp-content/uploads/photo-meredith-broussard.jpg
   affiliated: true
-- pid: bunde
-  done: true
-  name: Janet Bunde
-  titles: University Archivist, Division of Libraries
-  site_roles:
-  - proj_pi
-  link: https://library.nyu.edu/people/janet-bunde/
-  local_image: bunde.jpg
-  original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/janet-bunde.jpg
-- pid: busser
-  done: true
-  name: Lauren Busser
-  titles: Graduate Student in Integrated Design & Media
-  site_roles:
-  - fellow
-  local_image: busser.jpg
-  original_image: https://s18798.pcdn.co/digitalgallatin/wp-content/uploads/sites/1980/2020/09/IMG_6716-400x600.jpg
-- pid: cabrera-arus
-  done: true
-  name: Maria A. Cabrera Arus
-  titles: Instructor at Gallatin School of Individualized Studies
-  site_roles:
-  - proj_pi
-  link: https://gallatin.nyu.edu/people/faculty/mac29.html
-  local_image: cabrera-arus.jpg
-  original_image: https://www.brown.edu/research/projects/tracing-cuba-us-connections/sites/tracing-cuba-us-connections/files/images/large_Maria%20A%20Cabrera%20Arus%2C%20Bio%20Photo%20%281%29.jpeg
-- pid: caomhanach
-  done: true
-  name: Nuala Caomhanach
-  titles: Doctoral Student in History
-  site_roles:
-  - fellow
-- pid: chenel
-  done: true
-  name: Lynn Chenel
-  titles: Doctoral Student, Kevorkian Center for Near Eastern Studies
-  site_roles:
-  - fellow
-  local_image: chenel.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/nearEast/images/62b219af-8d55-4493-80cc-73ac705f59a4%202%20-%20Pelin%20Senel%20(1).JPG
-- pid: coble
-  done: true
-  name: Zach Coble
-  titles: Head of Digital Scholarship Services, Division of Libraries
-  site_roles:
-  - exec_com
-  - affil_fac
-  link: https://library.nyu.edu/people/zachary-coble/
-  local_image: coble.jpg
-  original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/zachary-coble.jpg
-  affiliated: true
-- pid: efstathiadis
-  done: true
-  name: Stratos Efstathiadis
-  titles: Director of Research Technology Services, NYU IT
-  site_roles:
-  - exec_com
-  link: https://library.nyu.edu/people/stratos-efstathiadis/
-  affiliated: true
-- pid: flouty
-  done: true
-  name: Rosanna Flouty
-  titles: Director of Program in Museum Studies
-  site_roles:
-  - affil_fac, proj_pi
-  link: https://as.nyu.edu/faculty/rosanna-n-flouty.html
-  local_image: flouty.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/Flouty_Rosanna.jpg
 - pid: gan
   done: true
   name: Elaine Gan
@@ -174,14 +30,6 @@
   local_image: hassapopoulou.jpg
   original_image: https://tisch.nyu.edu/content/dam/tisch/cinema-studies/Marina%20Hassapopoulou%202018.jpg.preset.square.jpeg?
   affiliated: true
-- pid: hatanaka
-  done: true
-  name: Ayami Hatanaka
-  titles: Doctoral Student in American Studies
-  site_roles:
-  - fellow
-  local_image: hatanaka.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/sca/images/AH_Photo.JPG
 - pid: heath
   done: true
   name: Sebastian Heath
@@ -202,49 +50,16 @@
   local_image: hoover.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/g-k/Hoover-David.jpg
   affiliated: true
-- pid: jacobs
-  done: true
-  name: Thomas Jacobs
-  titles: Clinical Assistant Professor, Expository Writing Program
-  site_roles:
-  - proj_pi
-  local_image: jacobs.jpg
-  original_image: https://cas.nyu.edu/content/dam/nyu-as/casEWP/images/faculty-photos/jacobs_tom.jpg
-- pid: joslyn
-  done: true
-  name: Daniel Joslyn
-  titles: Doctoral Student in History
-  site_roles:
-  - fellow
 - pid: kapp
   done: true
   name: Craig Kapp
   titles: Clinical Associate Professor of Computer Science
   site_roles:
   - affil_fac
-  link: https://cims.nyu.edu/people/profiles/KAPP_Craig.html
+  link: https://cims.nyu.edu/~kapp/
   local_image: kapp.jpg
   original_image: https://cims.nyu.edu/cmt/assets/images/bio_pictures/Kapp.jpg
   affiliated: true
-- pid: karlin
-  done: true
-  name: Jojo Karlin
-  titles: Digital Scholarship Specialist, Division of Libraries
-  site_roles:
-  - exec_com
-  link: https://library.nyu.edu/people/jojo-karlin/
-  local_image: karlin.jpg
-  original_image: https://commons.gc.cuny.edu/files/avatars/5851/5d7424f5d81ff-bpfull.jpg
-  affiliated: true
-- pid: kehoe
-  done: true
-  name: Lauren Kehoe
-  titles: Accessibility & Accommodations Librarian, Division of Libraries
-  site_roles:
-  - proj_pi
-  link: https://library.nyu.edu/people/lauren-kehoe/
-  local_image: kehoe.jpg
-  original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/lauren-kehoe.jpg
 - pid: keramidas
   done: true
   name: Kimon Keramidas
@@ -255,134 +70,6 @@
   local_image: keramidas.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/kimon.keramidas.jpg
   affiliated: true
-- pid: maddox
-  done: true
-  name: Ben Maddox
-  titles: Vice President, Research & Instructional Technology (RIT) and Chief Academic
-    Technology Officer, NYU IT
-  site_roles:
-  - exec_com
-  link: https://steinhardt.nyu.edu/people/ben-maddox
-  local_image: maddox.jpg
-  original_image: https://steinhardt.nyu.edu/sites/default/files/styles/nyu_profile_image/public/2021-03/4E0BD43F-9787-445D-B0E5-F425455FC5DB%20-%20Ben%20Maddox.jpeg?h=14580d8e&itok=4CrKN7lM
-  affiliated: true
-- pid: mahootian
-  done: true
-  name: Farzad Mahootian
-  titles: Clinical Associate Professor in Liberal Studies
-  site_roles:
-  - proj_pi
-  link: https://liberalstudies.nyu.edu/content/nyu-as/liberalstudies/about/faculty-listing/farzad-mahootian.html
-- pid: marshall
-  done: true
-  name: Jubilee Marshall
-  titles: Graduate Student in Archives and Public History
-  site_roles:
-  - fellow
-  local_image: marshall.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/history/images/JubileeMarshall.jpg
-- pid: martin
-  done: true
-  name: Nicholas Martin
-  titles: Curator for the Arts & Humanities, Division of Libraries
-  site_roles:
-  - proj_pi
-  link: https://library.nyu.edu/people/nicholas-martin/
-  local_image: martin.jpg
-  original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/nicholas-martin.jpg
-- pid: mccormick
-  done: true
-  name: Jared McCormick
-  titles: Clinical Assistant Professor, Hagop Kevorkian Center for Near Eastern Studies
-  site_roles:
-  - affil_fac, proj_pi
-  link: https://as.nyu.edu/faculty/jared-mccormick.html
-  local_image: mccormick.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/nearEast/images/Screen%20Shot%202021-10-26%20at%2011.22.45%20AM.png
-- pid: mistry
-  done: true
-  name: Himanshu Mistry
-  titles: Manager of Data Services, NYU IT
-  site_roles:
-  - exec_com
-  link: https://library.nyu.edu/people/himanshu-mistry/
-  local_image: mistry.jpg
-  original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/himanshu-mistry.jpg
-  affiliated: true
-- pid: musto
-  done: true
-  name: Antonio Musto
-  titles: Doctoral Student, Middle Eastern and Islamic Studies
-  site_roles:
-  - fellow
-- pid: noonan
-  done: true
-  name: Ellen Noonan
-  titles: Clinical Associate Professor and Director, Archives and Public History Program
-  site_roles:
-  - proj_pi
-  link: https://as.nyu.edu/faculty/ellen-noonan.html
-  local_image: noonan.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/ellenNoonan.png
-- pid: nyrop
-  done: true
-  name: Marii Nyrop
-  titles: Digital Humanities Technology Specialist, NYU IT and Division of Libraries
-  site_roles:
-  - exec_com
-  link: https://library.nyu.edu/people/marii-nyrop/
-  local_image: nyrop.jpg
-  affiliated: true
-- pid: ozkiral
-  done: true
-  name: Alijan Ozkiral
-  titles: Doctoral Student in English
-  site_roles:
-  - fellow
-- pid: perry
-  done: true
-  name: David Perry
-  titles: Creative Writing Coordinator and Senior Lecturer, NYU Shanghai
-  site_roles:
-  - proj_pi
-  link: https://shanghai.nyu.edu/academics/faculty/directory/david-perry
-  local_image: perry.jpg
-  original_image: https://cdn.shanghai.nyu.edu/sites/default/files/field/profile/david_perry.jpg
-- pid: petiwala
-  done: true
-  name: Ada Petiwala
-  titles: Doctoral Student in Middle Eastern and Islamic Studies
-  site_roles:
-  - fellow
-  link: https://as.nyu.edu/content/nyu-as/as/departments/meis/people/students/ada-petiwala.html
-  local_image: petiwala.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/meis/images/Ada%20Petiwala.jpg
-- pid: ralph
-  done: true
-  name: Michael Ralph
-  titles: Former NYU Associate Professor of Social and Cultural Analysis
-  site_roles:
-  - proj_pi
-  local_image: ralph.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/q-u/MichaelRalph.jpg
-- pid: remes
-  done: true
-  name: Jacob Remes
-  titles: Clinical Associate Professor, Gallatin
-  site_roles:
-  - proj_pi
-  link: https://gallatin.nyu.edu/people/faculty/jar31.html
-  local_image: remes.jpg
-  original_image: https://gallatin.nyu.edu/gallatin/en/people/faculty/jar31/_jcr_content/image.img.320.medium.jpg
-- pid: rosenberg
-  done: true
-  name: Allegra Rosenberg
-  titles: Graduate Student in Experimental Humanities & Social Engagement
-  site_roles:
-  - fellow
-  link: https://as.nyu.edu/departments/xe/people0/current-students1/allegra-rosenberg.html
-  local_image: rosenberg.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/ceh/images/students/Allegra%20Rosenberg.jpeg
 - pid: russell
   done: true
   name: Beth Russell
@@ -394,15 +81,118 @@
   local_image: russell.jpg
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/beth-russell.jpg
   affiliated: true
-- pid: schellmann
+- pid: wrisley
   done: true
-  name: Hilke Schellmann
-  titles: Assistant Professor in Journalism
+  name: David Wrisley
+  titles: Associate Professor of Digital Humanities, NYU AD
   site_roles:
-  - proj_pi
-  link: https://pulitzercenter.org/people/hilke-schellmann
-  local_image: schellmann.jpg
-  original_image: https://pulitzercenter.org/sites/default/files/styles/460x460/public/pictures/picture-440-1312740273.jpg?h=7bc5cf4e&itok=kYQctXYG
+  - affil_fac
+  link: https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/david-wrisley.html
+  local_image: wrisley.jpg
+  original_image: https://nyuad.nyu.edu/content/nyuad/en/home/academics/divisions/arts-and-humanities/faculty/david-wrisley/jcr:content/bio-info/image.adaptive.m1510293016018/290.jpg
+  affiliated: true
+- pid: flouty
+  done: true
+  name: Rosanna Flouty
+  titles: Director of Program in Museum Studies
+  site_roles:
+  - affil_fac, proj_pi
+  link: https://as.nyu.edu/faculty/rosanna-n-flouty.html
+  local_image: flouty.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/Flouty_Rosanna.jpg
+- pid: mccormick
+  done: true
+  name: Jared McCormick
+  titles: Clinical Assistant Professor, Hagop Kevorkian Center for Near Eastern Studies
+  site_roles:
+  - affil_fac, proj_pi
+  link: https://as.nyu.edu/faculty/jared-mccormick.html
+  local_image: mccormick.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/nearEast/images/Screen%20Shot%202021-10-26%20at%2011.22.45%20AM.png
+- pid: appert
+  done: true
+  name: Lucy Appert
+  titles: Director of Educational Technology, FAS
+  site_roles:
+  - exec_com
+  link: https://wp.nyu.edu/fas-edtech/about/our-team/
+  local_image: appert.jpg
+  page_1_display_order: '5'
+  original_image: https://s18798.pcdn.co/fas-edtech/wp-content/uploads/sites/354/2021/12/appert2021headshot-300x295.jpg
+  affiliated: true
+- pid: brill
+  done: true
+  name: Bobby Brill
+  titles: Director of Strategic Planning and Services, NYU IT
+  site_roles:
+  - exec_com
+  local_image: brill.jpg
+  original_image: https://s3-us-west-1.amazonaws.com/co-directory-images/brill.jpg
+  affiliated: true
+- pid: efstathiadis
+  done: true
+  name: Stratos Efstathiadis
+  titles: Director of Research Technology Services, NYU IT
+  site_roles:
+  - exec_com
+  link: https://library.nyu.edu/people/stratos-efstathiadis/
+  affiliated: true
+- pid: karlin
+  done: true
+  name: Jojo Karlin
+  titles: Digital Scholarship Specialist, Division of Libraries
+  site_roles:
+  - exec_com
+  link: https://library.nyu.edu/people/jojo-karlin/
+  local_image: karlin.jpg
+  page_1_display_order: '4'
+  original_image: https://commons.gc.cuny.edu/files/avatars/5851/5d7424f5d81ff-bpfull.jpg
+  affiliated: true
+- pid: maddox
+  done: true
+  name: Ben Maddox
+  titles: Vice President, Research & Instructional Technology (RIT) and Chief Academic
+    Technology Officer, NYU IT
+  site_roles:
+  - exec_com
+  link: https://steinhardt.nyu.edu/people/ben-maddox
+  local_image: maddox.jpg
+  page_1_display_order: '7'
+  original_image: https://steinhardt.nyu.edu/sites/default/files/styles/nyu_profile_image/public/2021-03/4E0BD43F-9787-445D-B0E5-F425455FC5DB%20-%20Ben%20Maddox.jpeg?h=14580d8e&itok=4CrKN7lM
+  affiliated: true
+- pid: mistry
+  done: true
+  name: Himanshu Mistry
+  titles: Manager of Data Services, NYU IT
+  site_roles:
+  - exec_com
+  link: https://library.nyu.edu/people/himanshu-mistry/
+  local_image: mistry.jpg
+  page_1_display_order: '4'
+  original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/himanshu-mistry.jpg
+  affiliated: true
+- pid: nyrop
+  done: true
+  name: Marii Nyrop
+  titles: Digital Humanities Technology Specialist, NYU IT and Division of Libraries
+  site_roles:
+  - exec_com
+  link: https://library.nyu.edu/people/marii-nyrop/
+  local_image: nyrop.jpg
+  page_1_display_order: '3'
+  affiliated: true
+- pid: coble
+  done: true
+  name: Zach Coble
+  titles: Head of Digital Scholarship Services, Division of Libraries
+  site_roles:
+  - exec_com
+  - affil_fac
+  link: https://library.nyu.edu/people/zachary-coble/
+  local_image: coble.jpg
+  page_1_display_order: '1'
+  original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/zachary-coble.jpg
+  affiliated: true
 - pid: schmidt
   done: true
   name: Benjamin Schmidt
@@ -412,47 +202,116 @@
   - affil_fac
   link: https://benschmidt.org
   local_image: schmidt.jpg
+  page_1_display_order: '2'
   original_image: https://benschmidt.org/authors/admin/avatar_hu100dbceb67e8fdbed30bfdcfd276f9b6_54689_250x250_fill_lanczos_center_2.png
   affiliated: true
-- pid: sloane
+- pid: wolf
   done: true
-  name: Mona Sloane
-  titles: Senior Research Scientist, NYU Center for Responsible AI
+  name: Nicholas Wolf
+  titles: Research Data Management Librarian and Interim Co-Head of Data Services,
+    Division of Libraries
   site_roles:
+  - exec_com
   - proj_pi
-  link: https://ipk.nyu.edu/people/mona-sloane/
-  local_image: sloane.jpg
-  original_image: https://ipk.nyu.edu/wp-content/uploads/2018/09/MONA-435x435.jpg
-- pid: sloane-britt
+  link: https://library.nyu.edu/people/nicholas-wolf/
+  local_image: wolf.jpg
+  page_1_display_order: '6'
+  original_image: https://as.nyu.edu/content/dam/nyu-as/irelandHouse/images/headshots-portraits-promopics-etc/Faculty/Nicholas%20Wolf.JPG
+  affiliated: true
+- pid: armoza
   done: true
-  name: Summer Sloane-Britt
-  titles: Doctoral Student, Institute of Fine Arts
+  name: Jonathan Armoza
+  titles: Doctoral Student in English and American Literature
   site_roles:
-  - proj_pi
+  - fellow
+- pid: binyamini
+  done: true
+  name: Hadas Binyamini
+  titles: Doctoral Student in History and Hebrew & Judaic Studies
+  site_roles:
+  - fellow
+  local_image: binyamini.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/hebrew/images/student-profile-pictures/Hadas%20Binyamini.png
+- pid: busser
+  done: true
+  name: Lauren Busser
+  titles: Graduate Student in Integrated Design & Media
+  site_roles:
+  - fellow
+  local_image: busser.jpg
+  original_image: https://s18798.pcdn.co/digitalgallatin/wp-content/uploads/sites/1980/2020/09/IMG_6716-400x600.jpg
+- pid: caomhanach
+  done: true
+  name: Nuala Caomhanach
+  titles: Doctoral Student in History
+  site_roles:
+  - fellow
+- pid: chenel
+  done: true
+  name: Lynn Chenel
+  titles: Doctoral Student, Kevorkian Center for Near Eastern Studies
+  site_roles:
+  - fellow
+  local_image: chenel.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/nearEast/images/62b219af-8d55-4493-80cc-73ac705f59a4%202%20-%20Pelin%20Senel%20(1).JPG
+- pid: hatanaka
+  done: true
+  name: Ayami Hatanaka
+  titles: Doctoral Student in American Studies
+  site_roles:
+  - fellow
+  local_image: hatanaka.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/sca/images/AH_Photo.JPG
+- pid: joslyn
+  done: true
+  name: Daniel Joslyn
+  titles: Doctoral Student in History
+  site_roles:
+  - fellow
+- pid: marshall
+  done: true
+  name: Jubilee Marshall
+  titles: Graduate Student in Archives and Public History
+  site_roles:
+  - fellow
+  local_image: marshall.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/history/images/JubileeMarshall.jpg
+- pid: musto
+  done: true
+  name: Antonio Musto
+  titles: Doctoral Student, Middle Eastern and Islamic Studies
+  site_roles:
+  - fellow
+- pid: ozkiral
+  done: true
+  name: Alijan Ozkiral
+  titles: Doctoral Student in English
+  site_roles:
+  - fellow
+- pid: petiwala
+  done: true
+  name: Ada Petiwala
+  titles: Doctoral Student in Middle Eastern and Islamic Studies
+  site_roles:
+  - fellow
+  link: https://as.nyu.edu/content/nyu-as/as/departments/meis/people/students/ada-petiwala.html
+  local_image: petiwala.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/meis/images/Ada%20Petiwala.jpg
+- pid: rosenberg
+  done: true
+  name: Allegra Rosenberg
+  titles: Graduate Student in Experimental Humanities & Social Engagement
+  site_roles:
+  - fellow
+  link: https://as.nyu.edu/departments/xe/people0/current-students1/allegra-rosenberg.html
+  local_image: rosenberg.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/ceh/images/students/Allegra%20Rosenberg.jpeg
 - pid: smith
   done: true
   name: Jackson Smith
   titles: Doctoral Student in American Studies
   site_roles:
   - fellow
-- pid: soffer
-  done: true
-  name: Jonathan Soffer
-  titles: Professor in Technology, Culture, and Society
-  site_roles:
-  - proj_pi
-  link: https://engineering.nyu.edu/faculty/jonathan-soffer
-  local_image: soffer.jpg
-  original_image: https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2018-04/img_2764-soffer.jpg?h=0ccde02c&itok=Mkp8C1oc
-- pid: spielman
-  done: true
-  name: Andrew Spielman
-  titles: Professor of Molecular Pathobiology
-  site_roles:
-  - proj_pi
-  link: https://dental.nyu.edu/faculty/ft/ais1.html
-  local_image: spielman.jpg
-  original_image: https://dental.nyu.edu/content/nyudental/en/faculty/ft/ais1/_jcr_content/singleBox01/nyuimage.img.jpg/1496692443176.jpg
 - pid: stec
   done: true
   name: Helen Frances Stec
@@ -477,6 +336,188 @@
   link: https://isaw.nyu.edu/people/students/georgios-tsolakis
   local_image: tsolakis.jpg
   original_image: https://isaw.nyu.edu/people/students/georgios-tsolakis/@@images/Image/mini
+- pid: zehngut-willits
+  done: true
+  name: Bryan Zehngut-Willits
+  titles: Doctoral Student in History
+  site_roles:
+  - fellow
+  local_image: zehngut-willits.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/history/images/BryanZehngutWillits.jpg
+- pid: zohar
+  name: Ryan Zohar
+  titles: Dual Degree Graduate Student, Kevorkian Center and Palmer School
+  site_roles:
+  - fellow
+- pid: deniz
+  name: Fatma Deniz
+  titles: Doctoral Student in Middle Eastern and Islamic Studies
+  site_roles:
+  - fellow
+- pid: ansari
+  done: true
+  name: Ahmed Ansari
+  titles: Assistant Professor of Practice in Technology, Culture and Society
+  site_roles:
+  - proj_pi
+  link: https://engineering.nyu.edu/faculty/ahmed-ansari-1
+  local_image: ansari.jpg
+  original_image: https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2019-10/52303916_10161388995350282_1617569861465014272_n_0.jpg?h=f0d95172&itok=ePal-T28
+- pid: augst
+  done: true
+  name: Tom Augst
+  titles: Associate Professor of English
+  site_roles:
+  - proj_pi
+  link: https://as.nyu.edu/faculty/thomas-augst.html
+  local_image: augst.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/a-f/ThomasAugst.jpg
+- pid: ayers
+  done: true
+  name: Elaine Ayers
+  titles: Faculty Fellow in Museum Studies
+  site_roles:
+  - proj_pi
+  link: https://as.nyu.edu/faculty/MS.html
+  local_image: ayers.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/museum/images/Ayers_Bio%20Pic.jpg
+- pid: brain
+  done: true
+  name: Tega Brain
+  titles: Industry Assistant Professor in Technology, Culture and Society
+  site_roles:
+  - proj_pi
+  link: https://engineering.nyu.edu/faculty/tega-brain
+  local_image: brain.jpg
+  original_image: https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2021-04/tegabrain-headshot-square.jpg?h=0f87c4e1&itok=Z3gip1Qt
+- pid: bunde
+  done: true
+  name: Janet Bunde
+  titles: University Archivist, Division of Libraries
+  site_roles:
+  - proj_pi
+  link: https://library.nyu.edu/people/janet-bunde/
+  local_image: bunde.jpg
+  original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/janet-bunde.jpg
+- pid: cabrera-arus
+  done: true
+  name: Maria A. Cabrera Arus
+  titles: Instructor at Gallatin School of Individualized Studies
+  site_roles:
+  - proj_pi
+  link: https://gallatin.nyu.edu/people/faculty/mac29.html
+  local_image: cabrera-arus.jpg
+  original_image: https://www.brown.edu/research/projects/tracing-cuba-us-connections/sites/tracing-cuba-us-connections/files/images/large_Maria%20A%20Cabrera%20Arus%2C%20Bio%20Photo%20%281%29.jpeg
+- pid: jacobs
+  done: true
+  name: Thomas Jacobs
+  titles: Clinical Assistant Professor, Expository Writing Program
+  site_roles:
+  - proj_pi
+  local_image: jacobs.jpg
+  original_image: https://cas.nyu.edu/content/dam/nyu-as/casEWP/images/faculty-photos/jacobs_tom.jpg
+- pid: kehoe
+  done: true
+  name: Lauren Kehoe
+  titles: Accessibility & Accommodations Librarian, Division of Libraries
+  site_roles:
+  - proj_pi
+  link: https://library.nyu.edu/people/lauren-kehoe/
+  local_image: kehoe.jpg
+  original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/lauren-kehoe.jpg
+- pid: mahootian
+  done: true
+  name: Farzad Mahootian
+  titles: Clinical Associate Professor in Liberal Studies
+  site_roles:
+  - proj_pi
+  link: https://liberalstudies.nyu.edu/content/nyu-as/liberalstudies/about/faculty-listing/farzad-mahootian.html
+- pid: martin
+  done: true
+  name: Nicholas Martin
+  titles: Curator for the Arts & Humanities, Division of Libraries
+  site_roles:
+  - proj_pi
+  link: https://library.nyu.edu/people/nicholas-martin/
+  local_image: martin.jpg
+  original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/nicholas-martin.jpg
+- pid: noonan
+  done: true
+  name: Ellen Noonan
+  titles: Clinical Associate Professor and Director, Archives and Public History Program
+  site_roles:
+  - proj_pi
+  link: https://as.nyu.edu/faculty/ellen-noonan.html
+  local_image: noonan.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/ellenNoonan.png
+- pid: perry
+  done: true
+  name: David Perry
+  titles: Creative Writing Coordinator and Senior Lecturer, NYU Shanghai
+  site_roles:
+  - proj_pi
+  link: https://shanghai.nyu.edu/academics/faculty/directory/david-perry
+  local_image: perry.jpg
+  original_image: https://cdn.shanghai.nyu.edu/sites/default/files/field/profile/david_perry.jpg
+- pid: ralph
+  done: true
+  name: Michael Ralph
+  titles: Former NYU Associate Professor of Social and Cultural Analysis
+  site_roles:
+  - proj_pi
+  local_image: ralph.jpg
+  original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/q-u/MichaelRalph.jpg
+- pid: remes
+  done: true
+  name: Jacob Remes
+  titles: Clinical Associate Professor, Gallatin
+  site_roles:
+  - proj_pi
+  link: https://gallatin.nyu.edu/people/faculty/jar31.html
+  local_image: remes.jpg
+  original_image: https://gallatin.nyu.edu/gallatin/en/people/faculty/jar31/_jcr_content/image.img.320.medium.jpg
+- pid: schellmann
+  done: true
+  name: Hilke Schellmann
+  titles: Assistant Professor in Journalism
+  site_roles:
+  - proj_pi
+  link: https://journalism.nyu.edu/about-us/profile/hilke-schellmann/
+  local_image: schellmann.jpg
+  original_image: https://pulitzercenter.org/sites/default/files/styles/460x460/public/pictures/picture-440-1312740273.jpg?h=7bc5cf4e&itok=kYQctXYG
+- pid: sloane
+  done: true
+  name: Mona Sloane
+  titles: Senior Research Scientist, NYU Center for Responsible AI
+  site_roles:
+  - proj_pi
+  link: https://engineering.nyu.edu/faculty/mona-sloane
+  local_image: sloane.jpg
+  original_image: https://ipk.nyu.edu/wp-content/uploads/2018/09/MONA-435x435.jpg
+- pid: sloane-britt
+  done: true
+  name: Summer Sloane-Britt
+  titles: Doctoral Student, Institute of Fine Arts
+  site_roles:
+  - proj_pi
+- pid: soffer
+  done: true
+  name: Jonathan Soffer
+  titles: Professor in Technology, Culture, and Society
+  site_roles:
+  - proj_pi
+  link: https://engineering.nyu.edu/faculty/jonathan-soffer
+  local_image: soffer.jpg
+  original_image: https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2018-04/img_2764-soffer.jpg?h=0ccde02c&itok=Mkp8C1oc
+- pid: spielman
+  done: true
+  name: Andrew Spielman
+  titles: Professor of Molecular Pathobiology
+  site_roles:
+  - proj_pi
+  link: https://dental.nyu.edu/faculty/ft/ais1.html
+  local_image: spielman.jpg
+  original_image: https://dental.nyu.edu/content/nyudental/en/faculty/ft/ais1/_jcr_content/singleBox01/nyuimage.img.jpg/1496692443176.jpg
 - pid: vinkour
   done: true
   name: Maya Vinokour
@@ -486,36 +527,14 @@
   link: https://as.nyu.edu/content/nyu-as/as/faculty/maya-vinokour.html
   local_image: vinkour.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/russian/images/Headshot.jpeg
-- pid: wolf
+- pid: beinart-smollan
   done: true
-  name: Nicholas Wolf
-  titles: Research Data Management Librarian and Interim Co-Head of Data Services,
-    Division of Libraries
+  name: Gavin Beinart-Smollan
+  titles: PhD Candidate in History, Hebrew and Judaic Studies
   site_roles:
-  - exec_com
   - proj_pi
-  link: https://library.nyu.edu/people/nicholas-wolf/
-  local_image: wolf.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/irelandHouse/images/headshots-portraits-promopics-etc/Faculty/Nicholas%20Wolf.JPG
-  affiliated: true
-- pid: wrisley
-  done: true
-  name: David Wrisley
-  titles: Associate Professor of Digital Humanities, NYU AD
-  site_roles:
-  - affil_fac
-  link: https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/david-wrisley.html
-  local_image: wrisley.jpg
-  original_image: https://nyuad.nyu.edu/content/nyuad/en/home/academics/divisions/arts-and-humanities/faculty/david-wrisley/jcr:content/bio-info/image.adaptive.m1510293016018/290.jpg
-  affiliated: true
-- pid: zehngut-willits
-  done: true
-  name: Bryan Zehngut-Willits
-  titles: Doctoral Student in History
-  site_roles:
-  - fellow
-  local_image: zehngut-willits.jpg
-  original_image: https://as.nyu.edu/content/dam/nyu-as/history/images/BryanZehngutWillits.jpg
+  local_image: beinart-smollan.jpg
+  original_image: https://media-exp1.licdn.com/dms/image/C4D03AQEz-EuoDHduQA/profile-displayphoto-shrink_200_200/0/1517157595257?e=1655942400&v=beta&t=_OduBvWt9S-dznnKwuL2ASIyscMaKx4nrLFBZDCg3Yw
 - pid: katz
   done: true
   name: Esther Katz
@@ -525,3 +544,6 @@
   name: Digital Scholarship Services
   titles: Division of Libraries
   link: https://library.nyu.edu/departments/digital-scholarship-services/
+- pid: dh
+  done: true
+  name: Digital Humanities

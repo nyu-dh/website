@@ -1,5 +1,6 @@
 ---
 pid: g2022hatanaka
+done: true
 title: '"Why Are There No ACS Offices in SoHO?"'
 subtitle: An Interactive, Digital Map of Family Surveillance in New York City
 category: Grad Fellowship Project

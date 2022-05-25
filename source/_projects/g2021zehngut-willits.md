@@ -1,5 +1,6 @@
 ---
 pid: g2021zehngut-willits
+done: true
 title: Record-Keeping and the Golden Gate
 featured: true
 category: Grad Fellowship Project

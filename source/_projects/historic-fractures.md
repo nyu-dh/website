@@ -1,5 +1,6 @@
 ---
 pid: historic-fractures
+done: true
 title: Historic Fractures
 subtitle: Toward A Digital Future in Museum Accessibility
 category: DH Seed Grant Recipient

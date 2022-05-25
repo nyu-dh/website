@@ -1,5 +1,6 @@
 ---
 pid: g2021joslyn
+done: true
 title: Organizing Resource Library
 category: Grad Fellowship Project
 tags:

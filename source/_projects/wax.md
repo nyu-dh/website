@@ -1,5 +1,6 @@
 ---
 pid: wax
+done: true
 title: Wax
 subtitle: Minimal Framework for Producing Scholarly Exhibitions with IIIF
 featured: true

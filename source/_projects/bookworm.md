@@ -1,6 +1,8 @@
 ---
 pid: bookworm
+done: true
 title: Bookworm
+featured: true
 category: Other
 tags:
 - software

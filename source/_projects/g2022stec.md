@@ -1,5 +1,6 @@
 ---
 pid: g2022stec
+done: true
 title: The Brownies' Book Archive
 category: Grad Fellowship Project
 tags:

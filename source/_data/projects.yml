@@ -187,7 +187,7 @@
   pis:
   - beinart-smollan
 - pid: occupy
-  done: false
+  done: true
   title: No Turning Back
   subtitle: Ten Years After Occupy
   featured: true
@@ -366,6 +366,7 @@
   pis:
   - spielman
 - pid: g2021smith
+  done: true
   title: Dirty Money and Disorderly Homes
   subtitle: Civil Forfeiture, Vice Police, and Illicit Capital in Philadelphia
   category: Grad Fellowship Project
@@ -397,6 +398,7 @@
   pis:
   - smith
 - pid: g2021marshall
+  done: true
   title: Black Burials in Philadelphia
   subtitle: A Walking Tour
   category: Grad Fellowship Project
@@ -411,8 +413,9 @@
     thesis, which was published in 2020 in "Pennsylvania History."
   pis:
   - marshall
-  link: https://bit.ly/blackburialstour
+  link: https://jubilee.hosting.nyu.edu/wordpress/home/
 - pid: g2021ozkiral
+  done: true
   title: Reading Comments Reading Instagram Comics
   category: Grad Fellowship Project
   tags:
@@ -443,6 +446,7 @@
   pis:
   - ozkiral
 - pid: g2021zehngut-willits
+  done: true
   title: Record-Keeping and the Golden Gate
   featured: true
   category: Grad Fellowship Project
@@ -463,6 +467,7 @@
   local_image: g2021zehngut-willits.jpg
   original_img: https://www.mercurynews.com/wp-content/uploads/2016/08/20120517__alienfil1.jpg?w=400
 - pid: g2021petiwala
+  done: true
   title: Consuming India, Becoming Global
   subtitle: Contemporary Popular Culture and Branding between Mumbai, Dubai, and Cairo
   category: Grad Fellowship Project
@@ -487,6 +492,7 @@
   pis:
   - petiwala
 - pid: g2021busser
+  done: true
   title: Knitting Patterns for S.T.E.A.M. Education
   category: Grad Fellowship Project
   tags:
@@ -525,6 +531,7 @@
   local_image: g2021tsolakis.jpg
   original_img: https://live.staticflickr.com/5600/15400872168_e299ed41b4_b.jpg
 - pid: g2021joslyn
+  done: true
   title: Organizing Resource Library
   category: Grad Fellowship Project
   tags:
@@ -542,6 +549,7 @@
   pis:
   - joslyn
 - pid: g2021armoza
+  done: true
   title: Framing a Model
   subtitle: Literary Model Quality and the Autiobiography of Mark Twain
   category: Grad Fellowship Project
@@ -622,7 +630,9 @@
   link: http://cityrecord.engineering.nyu.edu/
   local_image: city-record.jpg
 - pid: nyscapes
+  done: true
   title: New York Scapes
+  featured: true
   category: Other
   tags:
   - urban-humanities
@@ -641,6 +651,7 @@
   local_image: nyscapes.jpg
   original_img: https://newyorkscapes.org/wp-content/themes/sink_nyscapes/images/logo.png
 - pid: artists-archive
+  done: true
   title: Artists Archive Initiative
   category: Other
   tags:
@@ -659,6 +670,7 @@
   local_image: artists-archive.jpg
   original_img: https://artistarchives.hosting.nyu.edu/Initiative/wp-content/uploads/2021/01/OHVR_PER_PHODOC_1972_AceGalleryLA_RNeiman_JJstudio-prnt005_ImageLink2-1024x679-1.jpg
 - pid: aponte
+  done: true
   title: Digital Aponte
   category: Other
   tags:
@@ -699,6 +711,7 @@
   local_image: sanger.jpg
   original_img: https://sanger.hosting.nyu.edu/images/legacy/1929_writing.jpg
 - pid: wax
+  done: true
   title: Wax
   subtitle: Minimal Framework for Producing Scholarly Exhibitions with IIIF
   featured: true
@@ -735,7 +748,9 @@
   local_image: inquisite.jpg
   original_img: http://www.inquisite.org/images/inquisite_collage.png
 - pid: bookworm
+  done: true
   title: Bookworm
+  featured: true
   category: Other
   tags:
   - software
@@ -769,6 +784,7 @@
   local_image: directories.jpg
   original_img: https://iiif-prod.nypl.org/index.php?id=57275760&t=w
 - pid: g2022chenel
+  done: true
   title: The Directory of Placenames Unforgotten
   category: Grad Fellowship Project
   tags:
@@ -798,6 +814,7 @@
   pis:
   - chenel
 - pid: g2022caomhanach
+  done: true
   title: The Land of the Giants
   subtitle: Digitally UnMapping Madagascar's Plant Diversity
   category: Grad Fellowship Project
@@ -828,6 +845,7 @@
   pis:
   - caomhanach
 - pid: g2022stec
+  done: true
   title: The Brownies' Book Archive
   category: Grad Fellowship Project
   tags:
@@ -857,6 +875,7 @@
   pis:
   - stec
 - pid: g2022stuhler
+  done: true
   title: Who Kisses Whom?
   subtitle: Gendered Interaction in American Novels (1880-2000)
   category: Grad Fellowship Project
@@ -881,6 +900,7 @@
   pis:
   - stuhler
 - pid: g2022binyamini
+  done: true
   title: Structured Data, Mapping, and Textual Analysis of the American Jewish Year
     Book
   category: Grad Fellowship Project
@@ -911,6 +931,7 @@
   pis:
   - binyamini
 - pid: g2022rosenberg
+  done: true
   title: Mapping the Victorian Polar Network
   category: Grad Fellowship Project
   tags:
@@ -924,6 +945,7 @@
   pis:
   - rosenberg
 - pid: g2022musto
+  done: true
   title: Demystifying the Digitization of Texts
   subtitle: New Textual Analysis for the Medieval History of Islamic Mysticism
   category: Grad Fellowship Project
@@ -954,6 +976,7 @@
   pis:
   - musto
 - pid: g2022hatanaka
+  done: true
   title: '"Why Are There No ACS Offices in SoHO?"'
   subtitle: An Interactive, Digital Map of Family Surveillance in New York City
   category: Grad Fellowship Project
@@ -982,6 +1005,7 @@
   pis:
   - hatanaka
 - pid: errant-americas
+  done: true
   title: Arts of the Errant Americas
   category: DH Seed Grant Recipient
   tags:
@@ -1008,6 +1032,7 @@
   pis:
   - sloane-britt
 - pid: nlines
+  done: true
   title: nLines and Changing
   subtitle: Writing the Shanghai Metro System to the End
   category: DH Seed Grant Recipient
@@ -1033,8 +1058,11 @@
   pis:
   - perry
 - pid: sight-site-cite
+  done: true
   title: Sight/Site/Cite in the Digital Middle East
   category: DH Seed Grant Recipient
+  tags:
+  - public-humanities
   cohort_year: '2022'
   abstract: Sight/Site/Cite (S/S/C) seeks to create a digital hub dedicated to examining
     changing practices of Middle East digital scholarship which will gather, curate,
@@ -1052,6 +1080,7 @@
   pis:
   - mccormick
 - pid: chem-hum
+  done: true
   title: Digitizing Chemical Humanities
   subtitle: Toward a Cross-cultural History of Chemistry
   category: DH Seed Grant Recipient
@@ -1078,6 +1107,7 @@
   pis:
   - mahootian
 - pid: historic-fractures
+  done: true
   title: Historic Fractures
   subtitle: Toward A Digital Future in Museum Accessibility
   category: DH Seed Grant Recipient

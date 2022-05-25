@@ -1,5 +1,6 @@
 ---
 pid: chem-hum
+done: true
 title: Digitizing Chemical Humanities
 subtitle: Toward a Cross-cultural History of Chemistry
 category: DH Seed Grant Recipient

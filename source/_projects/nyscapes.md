@@ -1,6 +1,8 @@
 ---
 pid: nyscapes
+done: true
 title: New York Scapes
+featured: true
 category: Other
 tags:
 - urban-humanities

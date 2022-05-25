@@ -1,5 +1,6 @@
 ---
 pid: aponte
+done: true
 title: Digital Aponte
 category: Other
 tags:
