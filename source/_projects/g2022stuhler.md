@@ -1,5 +1,6 @@
 ---
 pid: g2022stuhler
+done: true
 title: Who Kisses Whom?
 subtitle: Gendered Interaction in American Novels (1880-2000)
 category: Grad Fellowship Project

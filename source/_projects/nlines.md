@@ -1,5 +1,6 @@
 ---
 pid: nlines
+done: true
 title: nLines and Changing
 subtitle: Writing the Shanghai Metro System to the End
 category: DH Seed Grant Recipient

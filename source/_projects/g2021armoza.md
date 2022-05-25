@@ -1,5 +1,6 @@
 ---
 pid: g2021armoza
+done: true
 title: Framing a Model
 subtitle: Literary Model Quality and the Autiobiography of Mark Twain
 category: Grad Fellowship Project

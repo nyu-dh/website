@@ -1,5 +1,6 @@
 ---
 pid: g2021ozkiral
+done: true
 title: Reading Comments Reading Instagram Comics
 category: Grad Fellowship Project
 tags:

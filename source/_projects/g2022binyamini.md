@@ -1,5 +1,6 @@
 ---
 pid: g2022binyamini
+done: true
 title: Structured Data, Mapping, and Textual Analysis of the American Jewish Year
   Book
 category: Grad Fellowship Project

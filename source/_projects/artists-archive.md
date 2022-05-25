@@ -1,5 +1,6 @@
 ---
 pid: artists-archive
+done: true
 title: Artists Archive Initiative
 category: Other
 tags:

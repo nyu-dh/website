@@ -1,6 +1,6 @@
 ---
 pid: occupy
-done: false
+done: true
 title: No Turning Back
 subtitle: Ten Years After Occupy
 featured: true

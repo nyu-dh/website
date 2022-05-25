@@ -1,5 +1,6 @@
 ---
 pid: g2022caomhanach
+done: true
 title: The Land of the Giants
 subtitle: Digitally UnMapping Madagascar's Plant Diversity
 category: Grad Fellowship Project

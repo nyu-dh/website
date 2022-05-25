@@ -1,5 +1,6 @@
 ---
 pid: g2021smith
+done: true
 title: Dirty Money and Disorderly Homes
 subtitle: Civil Forfeiture, Vice Police, and Illicit Capital in Philadelphia
 category: Grad Fellowship Project

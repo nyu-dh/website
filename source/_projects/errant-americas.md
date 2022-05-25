@@ -1,5 +1,6 @@
 ---
 pid: errant-americas
+done: true
 title: Arts of the Errant Americas
 category: DH Seed Grant Recipient
 tags:

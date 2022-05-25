@@ -1,5 +1,6 @@
 ---
 pid: g2022rosenberg
+done: true
 title: Mapping the Victorian Polar Network
 category: Grad Fellowship Project
 tags:

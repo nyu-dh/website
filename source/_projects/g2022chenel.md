@@ -1,5 +1,6 @@
 ---
 pid: g2022chenel
+done: true
 title: The Directory of Placenames Unforgotten
 category: Grad Fellowship Project
 tags:

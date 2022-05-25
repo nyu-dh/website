@@ -1,5 +1,6 @@
 ---
 pid: g2021petiwala
+done: true
 title: Consuming India, Becoming Global
 subtitle: Contemporary Popular Culture and Branding between Mumbai, Dubai, and Cairo
 category: Grad Fellowship Project
