@@ -20,7 +20,7 @@ jobs:
       - name: test
         run: bundle exec rake site:test
       - name: deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: ${{secrets.FTP_SERVER}}
           username: ${{secrets.FTP_USERNAME}}@{{secrets.FTP_SERVER}}
