@@ -5,13 +5,22 @@ breadcrumbs:
     link: /projects
 ---
 <div class="content">
-  <p class="project-info">
-    {% if page.category %}<b>Category: </b> {{ page.category }}<br>{% endif %}
-    {% if page.tags %}<b>Tags: </b> {% for t in page.tags %}<a href="{{ '/projects/tag'| absolute_url }}/{{ t | slugify }}">#{{ t }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}<br>{% endif %}
-    {% if page.cohort_year %}<b>Year Funded: </b> {{ page.cohort_year }}<br>{% endif %}
-    {% if page.link %}<b>Project Website: </b> <a href="{{ page.link | absolute_url }}">{{ page.link }}</a><br>{% endif %}
-  <p>
-  <p>{{ page.abstract }}</p>
+  {% if page.category == 'DH Seed Grant Recipient' %}
+    <b>
+      This project was funded through the {% if page.cohort_year %}{{ page.cohort_year }} {% endif %}<a href="/funding/seed-grants">NYU DH Seed Grant program</a>! We hope you'll <a href="/projects/seed-grants/">browse other projects</a> funded through this initiative.
+    </b>
+    <hr>
+  {% elsif page.category == 'Grad Fellowship Project' %}
+    <b>
+      This project was funded through the {% if page.cohort_year %}{{ page.cohort_year }} {% endif %}<a href="/funding/grad-fellowships">NYU DH Graduate Student Fellowship Program</a>! We hope you'll <a href="/projects/fellowships/">browse other projects</a> funded through this initiative.
+    </b>
+    <hr>
+  {% endif %}
+
+  <div class="post-content">
+    {{ page.abstract | markdownify }}
+    <hr>
+  </div>
 </div>
 
 {% assign people = '' | split: '' %}
