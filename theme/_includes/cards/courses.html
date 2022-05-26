@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
   .hideContent {
     overflow: hidden;
     height: 0;
@@ -6,7 +6,7 @@
   .showContent {
     height: auto;
   }
-</style>
+</style> -->
 
 
 {% for course in include.data %}
@@ -22,10 +22,11 @@
     <p class="is-size-6" style="max-width:100%">
       {{ course.number }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ course.semester }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ course.faculty }}
     </p>
-    <div class="abbreviated-content">
-      <p class="content hideContent mb-0">{{ course.description }}</p>
-      <a class="read-more mt-1">Show description</a>
-    </div>
+
+    <details>
+      <summary>Course description</summary>
+      <p>{{ course.description }}</p>
+    </details>
   </div>
 </article>
 {% endfor %}
