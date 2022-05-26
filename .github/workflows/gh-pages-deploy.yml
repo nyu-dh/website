@@ -23,8 +23,8 @@ jobs:
         run: bundle install
       - name: build
         run: bundle exec rake site:build
-      # - name: test
-      #   run: bundle exec rake site:test
+      - name: test
+        run: bundle exec rake site:test
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
