@@ -28,5 +28,5 @@ Students in these programs. Courses are open to all graduate students at NYU; Ph
 in the New York Area may also enroll.
 
 There are also a number of ways to learn Digital Humanities without formally enrolling in coursework.
-The **[NYU Library offers workshops](https://nyu.libcal.com/)** including Data Services,
+The [NYU Library offers workshops](https://nyu.libcal.com/) including Data Services,
 Digital Scholarship, and High Performance Computing.
