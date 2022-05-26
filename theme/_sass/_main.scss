@@ -131,13 +131,19 @@ h1, h2, h3, h4, h5, h6 {
   background: $background-alt !important;
 }
 
-img.circle-fill {
+.person-circle {
   height: 75px;
   width: 75px;
-  object-fit: cover;
   border-radius: 50%;
+  overflow: hidden;
   background-color: #efefef;
+  img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
 }
+
 .full-w {
   width: 100% !important;
 }
@@ -181,6 +187,10 @@ figure.image {
   top: 0;
   width: 100%;
   height: 100%;
+  background: linear-gradient(to left, $background-alt, $footer-background-color);
+}
+
+.bg-neutral-gradient {
   background: linear-gradient(to left, $background-alt, $footer-background-color);
 }
 

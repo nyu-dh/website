@@ -11,13 +11,21 @@
           {%- endif -%}
           {%- if person.link -%}
             <a href="{{ person.link | absolute_url }}">
-              <img class="circle-fill" src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}">
+              <figure class="bg-neutral-gradient person-circle">
+                {% if person.local_image %}
+                <img src="{{ person.local_image | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}"/>
+                {% endif %}
+              </figure>
               <p class="is-size-5 pt-3 has-text-weight-bold">
                 {{ person.name }}
               </p>
             </a>
           {%- else -%}
-            <img class="circle-fill" src="{{ person.local_image | default:  'default.png' | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}">
+            <figure class="bg-neutral-gradient person-circle">
+              {% if person.local_image %}
+              <img src="{{ person.local_image | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}"/>
+              {% endif %}
+            </figure>
             <p class="is-size-5 pt-3 has-text-weight-bold">{{ person.name }}</p>
           {%- endif -%}
           </figure>
