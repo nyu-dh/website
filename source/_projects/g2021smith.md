@@ -30,5 +30,6 @@ abstract: 'Smith''s dissertation explores how police and prosecutors use civil f
   segregation and fuels urban redevelopment.'
 pis:
 - smith
+order: '012'
 layout: project
 ---

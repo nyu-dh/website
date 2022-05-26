@@ -6,5 +6,5 @@ breadcrumbs:
     link: /people
 ---
 {% assign people = site.data.people | where_exp: "p", "p.site_roles contains 'exec_com'" %}
-{% assign people = people | sort: 'pid' %}
+{% assign people = people | sort: 'order' %}
 {% include cards/people.html data=people full_width=false %}

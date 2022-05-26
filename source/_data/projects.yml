@@ -34,6 +34,7 @@
   link: https://brownbros.newyorkscapes.org/
   local_image: brown.jpg
   original_img: https://newyorkscapes.org/wp-content/uploads/2021/03/018.57733030.117d9410-dc97-0136-03f0-000d5d842228-edited-768x768.jpeg
+  order: '000'
 - pid: pep
   done: true
   title: Developing a Publications Page for NYU’s Prison Education Program (PEP) Website
@@ -58,6 +59,7 @@
   link: https://prisoneducation.nyu.edu
   local_image: pep.jpg
   original_img: https://prisoneducation.nyu.edu/wp-content/uploads/2017/07/DSC_0418-1-250x250.jpg
+  order: '001'
 - pid: hiring-ai
   done: true
   title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
@@ -88,6 +90,7 @@
   pis:
   - schellmann
   - sloane
+  order: '002'
 - pid: slave-insurance
   done: true
   title: Insuring Slavery
@@ -127,6 +130,7 @@
   - ralph
   local_image: slave-insurance.jpg
   original_img: https://www.nyu.edu/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage.img.1280.high.jpg/1647273514669.jpg
+  order: '003'
 - pid: soul-of-reason
   done: true
   title: Raising the Volume
@@ -157,6 +161,7 @@
   link: https://nyu-dss.github.io/soul-of-reason/
   local_image: soul-of-reason.jpg
   original_img: https://nyu-dss.github.io/soul-of-reason/images/uploads/roscoe-brown-IAAA.jpg
+  order: '004'
 - pid: jewish-cookbooks
   done: true
   title: The South African Jewish Cookbook Project
@@ -186,6 +191,7 @@
     latke, challah, matzoh
   pis:
   - beinart-smollan
+  order: '005'
 - pid: occupy
   done: true
   title: No Turning Back
@@ -208,6 +214,7 @@
   link: https://specialcollections.hosting.nyu.edu/exhibitions/occupy/
   local_image: occupy.jpg
   original_img: https://image1.dlib.nyu.edu:8183/iiif/2/photo%2Ftamwag_tam630_cuid34928%2Ftamwag_tam630_cuid34928_n000001_d.jp2/full/321,/0/default.jpg
+  order: '006'
 - pid: moss
   done: true
   title: Inverting the Wunderkammer
@@ -247,6 +254,7 @@
   - brain
   local_image: moss.jpg
   original_img: https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage_1928656045.img.1280.high.jpg/1647273469309.jpg
+  order: '007'
 - pid: archcus
   done: true
   title: Archive of Cuban Socialism (ARCHCUS)
@@ -271,6 +279,7 @@
     Caribbean, Latin American, and state socialist studies. '
   pis:
   - cabrera-arus
+  order: '008'
 - pid: zinecat
   done: true
   title: The Zine Union Catalog (ZineCat)
@@ -306,6 +315,7 @@
   - kehoe
   link: https://zinecat.org/
   local_image: zinecat.jpg
+  order: '009'
 - pid: covid-collections
   done: true
   title: COVID Collections
@@ -344,6 +354,7 @@
   link: https://wp.nyu.edu/disasters/covid-collections-project/
   local_image: covid-collections.jpg
   original_img: https://images.pexels.com/photos/3786153/pexels-photo-3786153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+  order: '010'
 - pid: dental-tools
   done: true
   title: Creating a Digital Museum of the History of Dentistry
@@ -365,6 +376,7 @@
     These dental instruments are 3D!
   pis:
   - spielman
+  order: '011'
 - pid: g2021smith
   done: true
   title: Dirty Money and Disorderly Homes
@@ -397,6 +409,7 @@
     redevelopment.'
   pis:
   - smith
+  order: '012'
 - pid: g2021marshall
   done: true
   title: Black Burials in Philadelphia
@@ -414,6 +427,7 @@
   pis:
   - marshall
   link: https://jubilee.hosting.nyu.edu/wordpress/home/
+  order: '013'
 - pid: g2021ozkiral
   done: true
   title: Reading Comments Reading Instagram Comics
@@ -445,6 +459,7 @@
     while raising awareness for an international crisis."
   pis:
   - ozkiral
+  order: '014'
 - pid: g2021zehngut-willits
   done: true
   title: Record-Keeping and the Golden Gate
@@ -466,6 +481,7 @@
   - zehngut-willits
   local_image: g2021zehngut-willits.jpg
   original_img: https://www.mercurynews.com/wp-content/uploads/2016/08/20120517__alienfil1.jpg?w=400
+  order: '015'
 - pid: g2021petiwala
   done: true
   title: Consuming India, Becoming Global
@@ -491,6 +507,7 @@
     alike) that she had previously not had the chance to incorporate.
   pis:
   - petiwala
+  order: '016'
 - pid: g2021busser
   done: true
   title: Knitting Patterns for S.T.E.A.M. Education
@@ -509,6 +526,7 @@
     in the field. '
   pis:
   - busser
+  order: '017'
 - pid: g2021tsolakis
   done: true
   title: Ancestors and Family Traditions in the Hellenistic and Imperial Polis
@@ -530,6 +548,7 @@
   - tsolakis
   local_image: g2021tsolakis.jpg
   original_img: https://live.staticflickr.com/5600/15400872168_e299ed41b4_b.jpg
+  order: '018'
 - pid: g2021joslyn
   done: true
   title: Organizing Resource Library
@@ -548,6 +567,7 @@
     New York City.
   pis:
   - joslyn
+  order: '019'
 - pid: g2021armoza
   done: true
   title: Framing a Model
@@ -580,6 +600,7 @@
     humanities research beyond this project.'
   pis:
   - armoza
+  order: '020'
 - pid: soviet-sphere
   done: true
   title: The Post-Soviet Public Sphere
@@ -611,6 +632,7 @@
   link: https://www.postsoviet90s.com/
   local_image: soviet-sphere.jpg
   original_img: https://images.squarespace-cdn.com/content/v1/59836ba83e00be476e5686a5/1501801511310-OM7GCIPWGCYXIJXIPG8E/image-asset.jpeg?format=1500w
+  order: '021'
 - pid: city-record
   done: true
   title: City Record Project
@@ -629,6 +651,7 @@
   - soffer
   link: http://cityrecord.engineering.nyu.edu/
   local_image: city-record.jpg
+  order: '022'
 - pid: nyscapes
   done: true
   title: New York Scapes
@@ -650,6 +673,7 @@
   link: https://newyorkscapes.org/
   local_image: nyscapes.jpg
   original_img: https://newyorkscapes.org/wp-content/themes/sink_nyscapes/images/logo.png
+  order: '023'
 - pid: artists-archive
   done: true
   title: Artists Archive Initiative
@@ -669,6 +693,7 @@
   link: https://artistarchives.hosting.nyu.edu/Initiative/
   local_image: artists-archive.jpg
   original_img: https://artistarchives.hosting.nyu.edu/Initiative/wp-content/uploads/2021/01/OHVR_PER_PHODOC_1972_AceGalleryLA_RNeiman_JJstudio-prnt005_ImageLink2-1024x679-1.jpg
+  order: '024'
 - pid: aponte
   done: true
   title: Digital Aponte
@@ -691,6 +716,7 @@
   link: https://aponte.hosting.nyu.edu/
   local_image: aponte.jpg
   original_img: https://aponte.hosting.nyu.edu/wp-content/uploads/2016/07/003.jpg
+  order: '025'
 - pid: sanger
   done: true
   title: Margaret Sanger Papers Project
@@ -710,6 +736,7 @@
   link: https://sanger.hosting.nyu.edu/
   local_image: sanger.jpg
   original_img: https://sanger.hosting.nyu.edu/images/legacy/1929_writing.jpg
+  order: '026'
 - pid: wax
   done: true
   title: Wax
@@ -728,6 +755,7 @@
   link: https://minicomp.github.io/wax/
   local_image: wax.jpg
   original_img: https://minicomp.github.io/wax/img/logo.png
+  order: '027'
 - pid: inquisite
   done: false
   title: Inquisite
@@ -747,6 +775,7 @@
   link: http://www.inquisite.org/
   local_image: inquisite.jpg
   original_img: http://www.inquisite.org/images/inquisite_collage.png
+  order: '028'
 - pid: bookworm
   done: true
   title: Bookworm
@@ -763,6 +792,7 @@
   pis:
   - schmidt
   link: https://github.com/Bookworm-project
+  order: '029'
 - pid: directories
   done: true
   title: New York City Directories Extracted Persons Entries, 1850-1890
@@ -783,6 +813,7 @@
   link: https://archive.nyu.edu/handle/2451/61521
   local_image: directories.jpg
   original_img: https://iiif-prod.nypl.org/index.php?id=57275760&t=w
+  order: '030'
 - pid: g2022chenel
   done: true
   title: The Directory of Placenames Unforgotten
@@ -813,6 +844,7 @@
     erasure of linguistic minority heritage from nationalist landscapes. '
   pis:
   - chenel
+  order: '031'
 - pid: g2022caomhanach
   done: true
   title: The Land of the Giants
@@ -844,6 +876,7 @@
     legacies of conservation science over Malagasy knowledge. 
   pis:
   - caomhanach
+  order: '032'
 - pid: g2022stec
   done: true
   title: The Brownies' Book Archive
@@ -874,6 +907,7 @@
     which Black individuals appear in the periodicals’ texts.
   pis:
   - stec
+  order: '033'
 - pid: g2022stuhler
   done: true
   title: Who Kisses Whom?
@@ -899,6 +933,7 @@
     and love, or parenting.
   pis:
   - stuhler
+  order: '034'
 - pid: g2022binyamini
   done: true
   title: Structured Data, Mapping, and Textual Analysis of the American Jewish Year
@@ -930,6 +965,7 @@
     late twentieth century.'
   pis:
   - binyamini
+  order: '035'
 - pid: g2022rosenberg
   done: true
   title: Mapping the Victorian Polar Network
@@ -944,6 +980,7 @@
     This public humanities project will draw on my scholarly interests in communities of affinity and participatory cultures in order to encourage continued interest in the lesser-studied aspects of polar history. Presenting this information digitally in accessible visual form will, I hope, prompt new inquiries into the lesser-known relationships and figures who make up the underlying layers of the Victorian polar milieu.
   pis:
   - rosenberg
+  order: '036'
 - pid: g2022musto
   done: true
   title: Demystifying the Digitization of Texts
@@ -975,6 +1012,7 @@
     a previously neglected body of literature.'
   pis:
   - musto
+  order: '037'
 - pid: g2022hatanaka
   done: true
   title: '"Why Are There No ACS Offices in SoHO?"'
@@ -1004,6 +1042,7 @@
     in New York City.'
   pis:
   - hatanaka
+  order: '038'
 - pid: errant-americas
   done: true
   title: Arts of the Errant Americas
@@ -1031,6 +1070,7 @@
     into the digital."
   pis:
   - sloane-britt
+  order: '039'
 - pid: nlines
   done: true
   title: nLines and Changing
@@ -1057,6 +1097,7 @@
     "toggle," and a critical essay). '
   pis:
   - perry
+  order: '040'
 - pid: sight-site-cite
   done: true
   title: Sight/Site/Cite in the Digital Middle East
@@ -1079,6 +1120,7 @@
     Digital Middle East Lab, and seek other potential partners and funding.
   pis:
   - mccormick
+  order: '041'
 - pid: chem-hum
   done: true
   title: Digitizing Chemical Humanities
@@ -1106,6 +1148,7 @@
     on extending his analysis of chemical knowledge production to pre-1750 periods.
   pis:
   - mahootian
+  order: '042'
 - pid: historic-fractures
   done: true
   title: Historic Fractures
@@ -1134,3 +1177,4 @@
     skills to develop multi-sensory content in historic houses.'
   pis:
   - flouty
+  order: '043'

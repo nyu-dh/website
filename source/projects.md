@@ -18,5 +18,5 @@ contents_links:
 <h2>Featured</h2>
 </div>
 
-{% assign featured_projects = site.projects | where: 'featured', true %}
+{% assign featured_projects = site.projects | where: 'featured', true | sort: 'order' %}
 {% include cards/projects.html data=featured_projects full_width=false %}

@@ -1,4 +1,4 @@
-{% assign projects = include.data | sort_natural : 'title' %}
+{% assign projects = include.data %}
 <section class="{% if include.full_width == true and page.layout == 'default' %}full-width py-3 px-5{% endif %}">
   <div class="columns is-multiline is-vcentered">
     {% for project in projects %}

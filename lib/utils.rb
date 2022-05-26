@@ -18,4 +18,11 @@ module Utils
     FileUtils.mkdir_p File.dirname(file)
     File.open(file, "w") { |f| f.write content }
   end
+
+  def self.inject_order(data)
+    data.map.with_index do |h, i|
+      h['order'] = i.to_s.rjust(3, "0")
+      h
+    end
+  end
 end

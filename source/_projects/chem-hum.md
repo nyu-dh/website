@@ -26,5 +26,6 @@ abstract: The vast majority of non-European alchemy sources remains, for a varie
   his analysis of chemical knowledge production to pre-1750 periods.
 pis:
 - mahootian
+order: '042'
 layout: project
 ---

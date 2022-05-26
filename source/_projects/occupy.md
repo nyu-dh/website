@@ -21,5 +21,6 @@ pis:
 link: https://specialcollections.hosting.nyu.edu/exhibitions/occupy/
 local_image: occupy.jpg
 original_img: https://image1.dlib.nyu.edu:8183/iiif/2/photo%2Ftamwag_tam630_cuid34928%2Ftamwag_tam630_cuid34928_n000001_d.jp2/full/321,/0/default.jpg
+order: '006'
 layout: project
 ---

@@ -17,5 +17,6 @@ pis:
 link: http://www.inquisite.org/
 local_image: inquisite.jpg
 original_img: http://www.inquisite.org/images/inquisite_collage.png
+order: '028'
 layout: project
 ---

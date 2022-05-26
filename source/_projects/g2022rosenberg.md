@@ -13,5 +13,6 @@ abstract: |-
   This public humanities project will draw on my scholarly interests in communities of affinity and participatory cultures in order to encourage continued interest in the lesser-studied aspects of polar history. Presenting this information digitally in accessible visual form will, I hope, prompt new inquiries into the lesser-known relationships and figures who make up the underlying layers of the Victorian polar milieu.
 pis:
 - rosenberg
+order: '036'
 layout: project
 ---

@@ -16,7 +16,8 @@ namespace :fetch do
     puts "Fetching people from Google Drive" unless ENV['SKIP_WGET']
     Utils.wget_sheet(sheet_key, csv_file) unless ENV['SKIP_WGET']
 
-    data  = Utils.csv_open(csv_file)
+    data  = Utils.csv_open csv_file
+    data  = Utils.inject_order data
     data  = Parsers::Default.parse data, array_keys
     data  = Parsers::People.parse data
 

@@ -20,5 +20,6 @@ pis:
 link: https://newyorkscapes.org/
 local_image: nyscapes.jpg
 original_img: https://newyorkscapes.org/wp-content/themes/sink_nyscapes/images/logo.png
+order: '023'
 layout: project
 ---

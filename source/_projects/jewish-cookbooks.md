@@ -28,5 +28,6 @@ limerick: |-
   latke, challah, matzoh
 pis:
 - beinart-smollan
+order: '005'
 layout: project
 ---
