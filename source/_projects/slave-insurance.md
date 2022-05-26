@@ -7,7 +7,7 @@ featured: true
 category: DH Seed Grant Recipient
 tags:
 - dataset
-- exhibition
+- data-visualization
 cohort_year: '2020'
 abstract: "“Underwriting Risk in the 18th century” provides the first systematic analysis
   of the application of probabilistic mathematics to the trade in enslaved Africans
@@ -36,5 +36,6 @@ pis:
 - ralph
 local_image: slave-insurance.jpg
 original_img: https://www.nyu.edu/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage.img.1280.high.jpg/1647273514669.jpg
+order: '003'
 layout: project
 ---

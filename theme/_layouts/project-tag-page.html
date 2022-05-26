@@ -6,4 +6,4 @@ breadcrumbs:
 ---
 
 {% assign projects = site.projects | where_exp: "i", "i.tags contains page.slug" %}
-{% include custom/project-cards.html data=projects full_width=false %}
+{% include cards/projects.html data=projects full_width=false %}

@@ -1,5 +1,6 @@
 ---
 pid: wax
+done: true
 title: Wax
 subtitle: Minimal Framework for Producing Scholarly Exhibitions with IIIF
 featured: true
@@ -16,5 +17,6 @@ pis:
 link: https://minicomp.github.io/wax/
 local_image: wax.jpg
 original_img: https://minicomp.github.io/wax/img/logo.png
+order: '027'
 layout: project
 ---

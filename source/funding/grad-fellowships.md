@@ -13,7 +13,7 @@ contents_links:
 ---
 
 <div class="container">
-  <div class="content mb-6" markdown="1">
+  <div class="content post-content mb-6" markdown="1">
 [The Center for the Humanities](https://nyuhumanities.org/), [NYU Libraries](https://library.nyu.edu/) and [NYU Research Technology](https://www.nyu.edu/research/navigating-research-technology.html) annually fund between 8 and 10 Digital Humanities Graduate Student Fellows. Students apply with their own proposed project, which might involve–for example–engaging with digital humanities methods as the basis for a dissertation chapter or article, or building a digital public humanities project or exhibit. Project work will take place during the summer, and participants will report on work completed at an annual fall showcase event.
 
 Proposals are judged by a Faculty Committee on the merit of the project, its contribution to the applicant’s course of study, and its feasibility in the timeline proposed. We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
@@ -29,9 +29,11 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
   </div>
 </div>
 
+<hr>
+
 <section class="section full-width">
   <div class="container">
-    <div class="content mb-6">
+    <div class="content post-content mb-6">
       <h2 class="is-size-3" id="past-fellows">Past Fellows</h2>
 
       {% assign fellow2022 = site.projects | where: 'cohort_year', '2022' | where_exp: "i", "i.category contains 'Fellowship'" %}

@@ -1,5 +1,6 @@
 ---
 pid: g2021joslyn
+done: true
 title: Organizing Resource Library
 category: Grad Fellowship Project
 tags:
@@ -15,5 +16,6 @@ abstract: Joslyn’s project sought to complete work on two essential elements o
   with a variety of community-based libraries and archives across New York City.
 pis:
 - joslyn
+order: '019'
 layout: project
 ---

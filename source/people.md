@@ -13,5 +13,6 @@ contents_links:
     - label: 'Graduate Student Fellows'
       link: 'graduate-student-fellows'
 ---
-{% assign people = site.data.people | sort: 'pid' | where: 'affiliated', true %}
-{% include custom/people-cards.html data=people full_width=false %}
+
+{% assign people = site.data.people | where: 'affiliated', true | sort: 'order' %}
+{% include cards/people.html data=people full_width=false %}

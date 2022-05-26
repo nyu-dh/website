@@ -1,0 +1,12 @@
+<nav class="breadcrumb" aria-label="breadcrumbs">
+  <div class="container">
+    <ul>
+      <li><a href="{{ '/' | absolute_url }}">Home</a></li>
+      {% assign crumbs = page.breadcrumbs | default: layout.breadcrumbs %}
+      {% for crumb in crumbs %}
+      <li><a href="{{ crumb.link | absolute_url }}">{{ crumb.name }}</a></li>
+      {% endfor %}
+      <li></li>
+    </ul>
+  </div>
+</nav>

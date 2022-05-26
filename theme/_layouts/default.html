@@ -7,9 +7,19 @@ layout: none
   {% include head.html %}
   <body>
     {% include header.html %}
-    {% unless page.hide_hero %}
-      {% include hero.html %}
-    {% endunless %}
+      {% if page.home %}
+        {% include hero/home.html %}
+      {% elsif page.collection == 'news' %}
+        {% if page.event %}
+          {% include hero/event.html %}
+        {% else %}
+          {% include hero/news.html %}
+        {% endif %}
+      {% elsif page.collection == 'projects' %}
+          {% include hero/project.html %}
+      {% else %}
+        {% include hero/default.html %}
+      {% endif %}
     <div class="section">
       <div class="container m-auto">
         {{ content }}
@@ -18,6 +28,6 @@ layout: none
     {% unless page.hide_footer %}
       {% include footer.html %}
     {% endunless %}
-    {%- include footer-scripts.html -%}
+    {%- include scripts/footer.html -%}
   </body>
 </html>

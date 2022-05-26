@@ -1,5 +1,6 @@
 ---
 pid: g2022chenel
+done: true
 title: The Directory of Placenames Unforgotten
 category: Grad Fellowship Project
 tags:
@@ -28,5 +29,6 @@ abstract: 'We make sense of the spatial world around us by dividing it into smal
   heritage from nationalist landscapes. '
 pis:
 - chenel
+order: '031'
 layout: project
 ---

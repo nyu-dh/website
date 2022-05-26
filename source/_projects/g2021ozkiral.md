@@ -1,5 +1,6 @@
 ---
 pid: g2021ozkiral
+done: true
 title: Reading Comments Reading Instagram Comics
 category: Grad Fellowship Project
 tags:
@@ -29,5 +30,6 @@ abstract: "What connects a social media user to the ethnocide of the Uyghur peop
   for an international crisis."
 pis:
 - ozkiral
+order: '014'
 layout: project
 ---

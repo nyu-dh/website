@@ -1,10 +1,11 @@
 ---
 pid: g2022binyamini
+done: true
 title: Structured Data, Mapping, and Textual Analysis of the American Jewish Year
   Book
 category: Grad Fellowship Project
 tags:
-- mapping
+- spatial-humanities
 - text-analysis
 cohort_year: '2022'
 abstract: 'Over the course of this summer, I propose to apply digital humanities methods
@@ -28,5 +29,6 @@ abstract: 'Over the course of this summer, I propose to apply digital humanities
   overview of Orthodox activities in the late twentieth century.'
 pis:
 - binyamini
+order: '035'
 layout: project
 ---

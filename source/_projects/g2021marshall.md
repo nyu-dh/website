@@ -1,5 +1,6 @@
 ---
 pid: g2021marshall
+done: true
 title: Black Burials in Philadelphia
 subtitle: A Walking Tour
 category: Grad Fellowship Project
@@ -14,6 +15,7 @@ abstract: Marshall created a digital walking tour of Old City Philadelphia that 
   which was published in 2020 in "Pennsylvania History."
 pis:
 - marshall
-link: https://bit.ly/blackburialstour
+link: https://jubilee.hosting.nyu.edu/wordpress/home/
+order: '013'
 layout: project
 ---

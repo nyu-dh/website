@@ -1,5 +1,6 @@
 ---
 pid: g2022caomhanach
+done: true
 title: The Land of the Giants
 subtitle: Digitally UnMapping Madagascar's Plant Diversity
 category: Grad Fellowship Project
@@ -28,5 +29,6 @@ abstract: By the late twentieth century, conservation scientists declared that t
   the colonial legacies of conservation science over Malagasy knowledge. 
 pis:
 - caomhanach
+order: '032'
 layout: project
 ---

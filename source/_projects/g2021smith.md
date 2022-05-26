@@ -1,10 +1,11 @@
 ---
 pid: g2021smith
+done: true
 title: Dirty Money and Disorderly Homes
 subtitle: Civil Forfeiture, Vice Police, and Illicit Capital in Philadelphia
 category: Grad Fellowship Project
 tags:
-- mapping
+- spatial-humanities
 cohort_year: '2021'
 abstract: 'Smith''s dissertation explores how police and prosecutors use civil forfeiture
   to wage the drug war in Philadelphia. Forfeiture operates through the legal fiction
@@ -29,5 +30,6 @@ abstract: 'Smith''s dissertation explores how police and prosecutors use civil f
   segregation and fuels urban redevelopment.'
 pis:
 - smith
+order: '012'
 layout: project
 ---

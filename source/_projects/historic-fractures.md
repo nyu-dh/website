@@ -1,5 +1,6 @@
 ---
 pid: historic-fractures
+done: true
 title: Historic Fractures
 subtitle: Toward A Digital Future in Museum Accessibility
 category: DH Seed Grant Recipient
@@ -26,5 +27,6 @@ abstract: 'This project is a catalyst for access to open Villa La Pietra’s ric
   in historic houses.'
 pis:
 - flouty
+order: '043'
 layout: project
 ---

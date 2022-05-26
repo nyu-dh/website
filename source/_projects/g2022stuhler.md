@@ -1,5 +1,6 @@
 ---
 pid: g2022stuhler
+done: true
 title: Who Kisses Whom?
 subtitle: Gendered Interaction in American Novels (1880-2000)
 category: Grad Fellowship Project
@@ -23,5 +24,6 @@ abstract: Following the framework of distant reading, this project aims to provi
   parenting.
 pis:
 - stuhler
+order: '034'
 layout: project
 ---

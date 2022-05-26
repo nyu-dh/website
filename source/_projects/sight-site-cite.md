@@ -1,10 +1,10 @@
 ---
 pid: sight-site-cite
+done: true
 title: Sight/Site/Cite in the Digital Middle East
 category: DH Seed Grant Recipient
 tags:
-- digitial-communities
-- publication
+- public-humanities
 cohort_year: '2022'
 abstract: Sight/Site/Cite (S/S/C) seeks to create a digital hub dedicated to examining
   changing practices of Middle East digital scholarship which will gather, curate,
@@ -21,5 +21,6 @@ abstract: Sight/Site/Cite (S/S/C) seeks to create a digital hub dedicated to exa
   East Lab, and seek other potential partners and funding.
 pis:
 - mccormick
+order: '041'
 layout: project
 ---

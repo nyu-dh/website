@@ -2,7 +2,7 @@
 title: Notice of Funding for 2022 DH Seed Grant & Graduate Fellowship Cohorts
 date: 2021-12-15
 featureUntil: 2022-03-10
-author: jkarlin
+author: Jojo Karlin
 tags:
 - seed_grants
 - grad_fellows
@@ -20,7 +20,7 @@ For more info (and to apply), visit [https://nyuhumanities.org/opportunity/digit
 For application questions, contact dh.help@nyu.edu.
 For examples of past projects, visit [The Center for Humanities website](https://nyuhumanities.org/digital-humanities-seed-grant-projects/).
 
-
+---------
 
 ## Digital Humanities Graduate Student Summer Fellowship (Grad Students)
 

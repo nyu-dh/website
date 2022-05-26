@@ -1,5 +1,6 @@
 ---
 pid: g2021busser
+done: true
 title: Knitting Patterns for S.T.E.A.M. Education
 category: Grad Fellowship Project
 tags:
@@ -16,5 +17,6 @@ abstract: 'This project focused on gathering and developing knitting patterns th
   in the field. '
 pis:
 - busser
+order: '017'
 layout: project
 ---

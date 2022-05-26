@@ -34,6 +34,7 @@
   link: https://brownbros.newyorkscapes.org/
   local_image: brown.jpg
   original_img: https://newyorkscapes.org/wp-content/uploads/2021/03/018.57733030.117d9410-dc97-0136-03f0-000d5d842228-edited-768x768.jpeg
+  order: '000'
 - pid: pep
   done: true
   title: Developing a Publications Page for NYU’s Prison Education Program (PEP) Website
@@ -58,6 +59,7 @@
   link: https://prisoneducation.nyu.edu
   local_image: pep.jpg
   original_img: https://prisoneducation.nyu.edu/wp-content/uploads/2017/07/DSC_0418-1-250x250.jpg
+  order: '001'
 - pid: hiring-ai
   done: true
   title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
@@ -88,6 +90,7 @@
   pis:
   - schellmann
   - sloane
+  order: '002'
 - pid: slave-insurance
   done: true
   title: Insuring Slavery
@@ -96,7 +99,7 @@
   category: DH Seed Grant Recipient
   tags:
   - dataset
-  - exhibition
+  - data-visualization
   cohort_year: '2020'
   abstract: "“Underwriting Risk in the 18th century” provides the first systematic
     analysis of the application of probabilistic mathematics to the trade in enslaved
@@ -127,6 +130,7 @@
   - ralph
   local_image: slave-insurance.jpg
   original_img: https://www.nyu.edu/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage.img.1280.high.jpg/1647273514669.jpg
+  order: '003'
 - pid: soul-of-reason
   done: true
   title: Raising the Volume
@@ -157,6 +161,7 @@
   link: https://nyu-dss.github.io/soul-of-reason/
   local_image: soul-of-reason.jpg
   original_img: https://nyu-dss.github.io/soul-of-reason/images/uploads/roscoe-brown-IAAA.jpg
+  order: '004'
 - pid: jewish-cookbooks
   done: true
   title: The South African Jewish Cookbook Project
@@ -186,8 +191,9 @@
     latke, challah, matzoh
   pis:
   - beinart-smollan
+  order: '005'
 - pid: occupy
-  done: false
+  done: true
   title: No Turning Back
   subtitle: Ten Years After Occupy
   featured: true
@@ -208,6 +214,7 @@
   link: https://specialcollections.hosting.nyu.edu/exhibitions/occupy/
   local_image: occupy.jpg
   original_img: https://image1.dlib.nyu.edu:8183/iiif/2/photo%2Ftamwag_tam630_cuid34928%2Ftamwag_tam630_cuid34928_n000001_d.jp2/full/321,/0/default.jpg
+  order: '006'
 - pid: moss
   done: true
   title: Inverting the Wunderkammer
@@ -216,7 +223,7 @@
   category: DH Seed Grant Recipient
   tags:
   - digitization
-  - critical-digital-humanities
+  - computational-culture
   - environmental-humanities
   cohort_year: '2021'
   abstract: Focusing on the the nineteenth-century bryological Mitten Collection at
@@ -247,6 +254,7 @@
   - brain
   local_image: moss.jpg
   original_img: https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage_1928656045.img.1280.high.jpg/1647273469309.jpg
+  order: '007'
 - pid: archcus
   done: true
   title: Archive of Cuban Socialism (ARCHCUS)
@@ -271,13 +279,14 @@
     Caribbean, Latin American, and state socialist studies. '
   pis:
   - cabrera-arus
+  order: '008'
 - pid: zinecat
   done: true
   title: The Zine Union Catalog (ZineCat)
   category: DH Seed Grant Recipient
   tags:
-  - catalog
   - dataset
+  - public-humanities
   cohort_year: '2021'
   abstract: 'The Zine Union Catalog (aka ZineCat) is a union catalog dedicated to
     zines. A union catalog is a resource where libraries can share cataloging and
@@ -306,14 +315,14 @@
   - kehoe
   link: https://zinecat.org/
   local_image: zinecat.jpg
+  order: '009'
 - pid: covid-collections
   done: true
   title: COVID Collections
   featured: true
   category: DH Seed Grant Recipient
   tags:
-  - catalog
-  - dataset
+  - medical-humanities
   - public-humanities
   cohort_year: '2021'
   abstract: 'As COVID-19 began to dominate the global agenda during the spring of
@@ -345,12 +354,14 @@
   link: https://wp.nyu.edu/disasters/covid-collections-project/
   local_image: covid-collections.jpg
   original_img: https://images.pexels.com/photos/3786153/pexels-photo-3786153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+  order: '010'
 - pid: dental-tools
   done: true
   title: Creating a Digital Museum of the History of Dentistry
   category: DH Seed Grant Recipient
   tags:
   - exhibition
+  - medical-humanities
   cohort_year: '2021'
   abstract: Imagine a digital museum where artifacts appear in virtual reality in
     three dimensions and can be manipulated for full inspection. The College of Dentistry
@@ -365,12 +376,14 @@
     These dental instruments are 3D!
   pis:
   - spielman
+  order: '011'
 - pid: g2021smith
+  done: true
   title: Dirty Money and Disorderly Homes
   subtitle: Civil Forfeiture, Vice Police, and Illicit Capital in Philadelphia
   category: Grad Fellowship Project
   tags:
-  - mapping
+  - spatial-humanities
   cohort_year: '2021'
   abstract: 'Smith''s dissertation explores how police and prosecutors use civil forfeiture
     to wage the drug war in Philadelphia. Forfeiture operates through the legal fiction
@@ -396,7 +409,9 @@
     redevelopment.'
   pis:
   - smith
+  order: '012'
 - pid: g2021marshall
+  done: true
   title: Black Burials in Philadelphia
   subtitle: A Walking Tour
   category: Grad Fellowship Project
@@ -411,8 +426,10 @@
     thesis, which was published in 2020 in "Pennsylvania History."
   pis:
   - marshall
-  link: https://bit.ly/blackburialstour
+  link: https://jubilee.hosting.nyu.edu/wordpress/home/
+  order: '013'
 - pid: g2021ozkiral
+  done: true
   title: Reading Comments Reading Instagram Comics
   category: Grad Fellowship Project
   tags:
@@ -442,7 +459,9 @@
     while raising awareness for an international crisis."
   pis:
   - ozkiral
+  order: '014'
 - pid: g2021zehngut-willits
+  done: true
   title: Record-Keeping and the Golden Gate
   featured: true
   category: Grad Fellowship Project
@@ -462,12 +481,14 @@
   - zehngut-willits
   local_image: g2021zehngut-willits.jpg
   original_img: https://www.mercurynews.com/wp-content/uploads/2016/08/20120517__alienfil1.jpg?w=400
+  order: '015'
 - pid: g2021petiwala
+  done: true
   title: Consuming India, Becoming Global
   subtitle: Contemporary Popular Culture and Branding between Mumbai, Dubai, and Cairo
   category: Grad Fellowship Project
   tags:
-  - images
+  - visual-culture
   cohort_year: '2021'
   abstract: Pettiwala's dissertation explores the contemporary transnational processes
     by which Indian commodities and media circulate the Middle East, and simultaneously
@@ -486,7 +507,9 @@
     alike) that she had previously not had the chance to incorporate.
   pis:
   - petiwala
+  order: '016'
 - pid: g2021busser
+  done: true
   title: Knitting Patterns for S.T.E.A.M. Education
   category: Grad Fellowship Project
   tags:
@@ -503,6 +526,7 @@
     in the field. '
   pis:
   - busser
+  order: '017'
 - pid: g2021tsolakis
   done: true
   title: Ancestors and Family Traditions in the Hellenistic and Imperial Polis
@@ -524,7 +548,9 @@
   - tsolakis
   local_image: g2021tsolakis.jpg
   original_img: https://live.staticflickr.com/5600/15400872168_e299ed41b4_b.jpg
+  order: '018'
 - pid: g2021joslyn
+  done: true
   title: Organizing Resource Library
   category: Grad Fellowship Project
   tags:
@@ -541,7 +567,9 @@
     New York City.
   pis:
   - joslyn
+  order: '019'
 - pid: g2021armoza
+  done: true
   title: Framing a Model
   subtitle: Literary Model Quality and the Autiobiography of Mark Twain
   category: Grad Fellowship Project
@@ -572,6 +600,7 @@
     humanities research beyond this project.'
   pis:
   - armoza
+  order: '020'
 - pid: soviet-sphere
   done: true
   title: The Post-Soviet Public Sphere
@@ -603,6 +632,7 @@
   link: https://www.postsoviet90s.com/
   local_image: soviet-sphere.jpg
   original_img: https://images.squarespace-cdn.com/content/v1/59836ba83e00be476e5686a5/1501801511310-OM7GCIPWGCYXIJXIPG8E/image-asset.jpeg?format=1500w
+  order: '021'
 - pid: city-record
   done: true
   title: City Record Project
@@ -621,8 +651,11 @@
   - soffer
   link: http://cityrecord.engineering.nyu.edu/
   local_image: city-record.jpg
+  order: '022'
 - pid: nyscapes
+  done: true
   title: New York Scapes
+  featured: true
   category: Other
   tags:
   - urban-humanities
@@ -640,11 +673,13 @@
   link: https://newyorkscapes.org/
   local_image: nyscapes.jpg
   original_img: https://newyorkscapes.org/wp-content/themes/sink_nyscapes/images/logo.png
+  order: '023'
 - pid: artists-archive
+  done: true
   title: Artists Archive Initiative
   category: Other
   tags:
-  - images
+  - visual-culture
   abstract: The Artist Archives Initiative promotes research and disseminates knowledge
     about the display and care of contemporary art. The initiative responds to a growing
     need for art world professionals and academic researchers to work with artists
@@ -658,7 +693,9 @@
   link: https://artistarchives.hosting.nyu.edu/Initiative/
   local_image: artists-archive.jpg
   original_img: https://artistarchives.hosting.nyu.edu/Initiative/wp-content/uploads/2021/01/OHVR_PER_PHODOC_1972_AceGalleryLA_RNeiman_JJstudio-prnt005_ImageLink2-1024x679-1.jpg
+  order: '024'
 - pid: aponte
+  done: true
   title: Digital Aponte
   category: Other
   tags:
@@ -679,6 +716,7 @@
   link: https://aponte.hosting.nyu.edu/
   local_image: aponte.jpg
   original_img: https://aponte.hosting.nyu.edu/wp-content/uploads/2016/07/003.jpg
+  order: '025'
 - pid: sanger
   done: true
   title: Margaret Sanger Papers Project
@@ -698,7 +736,9 @@
   link: https://sanger.hosting.nyu.edu/
   local_image: sanger.jpg
   original_img: https://sanger.hosting.nyu.edu/images/legacy/1929_writing.jpg
+  order: '026'
 - pid: wax
+  done: true
   title: Wax
   subtitle: Minimal Framework for Producing Scholarly Exhibitions with IIIF
   featured: true
@@ -715,6 +755,7 @@
   link: https://minicomp.github.io/wax/
   local_image: wax.jpg
   original_img: https://minicomp.github.io/wax/img/logo.png
+  order: '027'
 - pid: inquisite
   done: false
   title: Inquisite
@@ -734,12 +775,16 @@
   link: http://www.inquisite.org/
   local_image: inquisite.jpg
   original_img: http://www.inquisite.org/images/inquisite_collage.png
+  order: '028'
 - pid: bookworm
+  done: true
   title: Bookworm
+  featured: true
   category: Other
   tags:
   - software
   - text-analysis
+  - data-visualization
   abstract: 'Bookworm makes it easy to interactively explore massive collections of
     texts as data. If you have a huge collection of texts, it provides a way to interpret
     them, make them explorable, and unlock them to a wide variety of uses even if
@@ -747,6 +792,7 @@
   pis:
   - schmidt
   link: https://github.com/Bookworm-project
+  order: '029'
 - pid: directories
   done: true
   title: New York City Directories Extracted Persons Entries, 1850-1890
@@ -767,7 +813,9 @@
   link: https://archive.nyu.edu/handle/2451/61521
   local_image: directories.jpg
   original_img: https://iiif-prod.nypl.org/index.php?id=57275760&t=w
+  order: '030'
 - pid: g2022chenel
+  done: true
   title: The Directory of Placenames Unforgotten
   category: Grad Fellowship Project
   tags:
@@ -796,7 +844,9 @@
     erasure of linguistic minority heritage from nationalist landscapes. '
   pis:
   - chenel
+  order: '031'
 - pid: g2022caomhanach
+  done: true
   title: The Land of the Giants
   subtitle: Digitally UnMapping Madagascar's Plant Diversity
   category: Grad Fellowship Project
@@ -826,7 +876,9 @@
     legacies of conservation science over Malagasy knowledge. 
   pis:
   - caomhanach
+  order: '032'
 - pid: g2022stec
+  done: true
   title: The Brownies' Book Archive
   category: Grad Fellowship Project
   tags:
@@ -855,7 +907,9 @@
     which Black individuals appear in the periodicals’ texts.
   pis:
   - stec
+  order: '033'
 - pid: g2022stuhler
+  done: true
   title: Who Kisses Whom?
   subtitle: Gendered Interaction in American Novels (1880-2000)
   category: Grad Fellowship Project
@@ -879,12 +933,14 @@
     and love, or parenting.
   pis:
   - stuhler
+  order: '034'
 - pid: g2022binyamini
+  done: true
   title: Structured Data, Mapping, and Textual Analysis of the American Jewish Year
     Book
   category: Grad Fellowship Project
   tags:
-  - mapping
+  - spatial-humanities
   - text-analysis
   cohort_year: '2022'
   abstract: 'Over the course of this summer, I propose to apply digital humanities
@@ -909,11 +965,13 @@
     late twentieth century.'
   pis:
   - binyamini
+  order: '035'
 - pid: g2022rosenberg
+  done: true
   title: Mapping the Victorian Polar Network
   category: Grad Fellowship Project
   tags:
-  - mapping
+  - spatial-humanities
   - public-humanities
   cohort_year: '2022'
   abstract: |-
@@ -922,10 +980,14 @@
     This public humanities project will draw on my scholarly interests in communities of affinity and participatory cultures in order to encourage continued interest in the lesser-studied aspects of polar history. Presenting this information digitally in accessible visual form will, I hope, prompt new inquiries into the lesser-known relationships and figures who make up the underlying layers of the Victorian polar milieu.
   pis:
   - rosenberg
+  order: '036'
 - pid: g2022musto
+  done: true
   title: Demystifying the Digitization of Texts
   subtitle: New Textual Analysis for the Medieval History of Islamic Mysticism
   category: Grad Fellowship Project
+  tags:
+  - text-analysis
   cohort_year: '2022'
   abstract: 'The digitization of Latin-script languages has fundamentally changed
     the scope of scholarship in the humanities, but only recently have scholars undertaken
@@ -950,12 +1012,14 @@
     a previously neglected body of literature.'
   pis:
   - musto
+  order: '037'
 - pid: g2022hatanaka
+  done: true
   title: '"Why Are There No ACS Offices in SoHO?"'
   subtitle: An Interactive, Digital Map of Family Surveillance in New York City
   category: Grad Fellowship Project
   tags:
-  - mapping
+  - spatial-humanities
   cohort_year: '2022'
   abstract: 'This research project stems from provocations by abolitionist organizers
     in New York City, with questions such as, “Why are there no ACS offices in SoHo?”
@@ -978,7 +1042,9 @@
     in New York City.'
   pis:
   - hatanaka
+  order: '038'
 - pid: errant-americas
+  done: true
   title: Arts of the Errant Americas
   category: DH Seed Grant Recipient
   tags:
@@ -1004,7 +1070,9 @@
     into the digital."
   pis:
   - sloane-britt
+  order: '039'
 - pid: nlines
+  done: true
   title: nLines and Changing
   subtitle: Writing the Shanghai Metro System to the End
   category: DH Seed Grant Recipient
@@ -1029,12 +1097,13 @@
     "toggle," and a critical essay). '
   pis:
   - perry
+  order: '040'
 - pid: sight-site-cite
+  done: true
   title: Sight/Site/Cite in the Digital Middle East
   category: DH Seed Grant Recipient
   tags:
-  - digitial-communities
-  - publication
+  - public-humanities
   cohort_year: '2022'
   abstract: Sight/Site/Cite (S/S/C) seeks to create a digital hub dedicated to examining
     changing practices of Middle East digital scholarship which will gather, curate,
@@ -1051,12 +1120,15 @@
     Digital Middle East Lab, and seek other potential partners and funding.
   pis:
   - mccormick
+  order: '041'
 - pid: chem-hum
+  done: true
   title: Digitizing Chemical Humanities
   subtitle: Toward a Cross-cultural History of Chemistry
   category: DH Seed Grant Recipient
   tags:
   - science-studies
+  - text-analysis
   cohort_year: '2022'
   abstract: The vast majority of non-European alchemy sources remains, for a variety
     of reasons, untranslated. I address the strategic question of where to start the
@@ -1076,7 +1148,9 @@
     on extending his analysis of chemical knowledge production to pre-1750 periods.
   pis:
   - mahootian
+  order: '042'
 - pid: historic-fractures
+  done: true
   title: Historic Fractures
   subtitle: Toward A Digital Future in Museum Accessibility
   category: DH Seed Grant Recipient
@@ -1103,3 +1177,4 @@
     skills to develop multi-sensory content in historic houses.'
   pis:
   - flouty
+  order: '043'

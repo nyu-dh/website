@@ -1,5 +1,6 @@
 ---
 pid: errant-americas
+done: true
 title: Arts of the Errant Americas
 category: DH Seed Grant Recipient
 tags:
@@ -25,5 +26,6 @@ abstract: "“Arts of the Errant Americas” proposes a pilot program for a seri
   into the digital."
 pis:
 - sloane-britt
+order: '039'
 layout: project
 ---
