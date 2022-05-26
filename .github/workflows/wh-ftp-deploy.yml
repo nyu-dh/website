@@ -22,8 +22,8 @@ jobs:
       - name: deploy
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ${{secrets.FTP_SERVER}}
-          username: ${{secrets.FTP_USERNAME}}@{{secrets.FTP_SERVER}}
+          server: dh.hosting.nyu.edu
+          username: ${{secrets.FTP_USERNAME}}@dh.hosting.nyu.edu
           password: ${{secrets.FTP_PASSWORD}}
           state-name: ./.ftp-deploy-sync-state.json
           local-dir: ./_site/
