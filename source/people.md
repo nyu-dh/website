@@ -2,7 +2,7 @@
 title: People
 layout: default
 subtitle: |
-  Here you'll find an alphabetically ordered list of people affiliated with digital humanities at NYU. You can find more specific committees and cohorts in the quick links section.
+  Meet some of the people affiliated with digital humanities at NYU. You can find more specific committees and cohorts in the quick links section.
 contents_links:
     - label: 'Executive Committee'
       link: 'executive-committee'
