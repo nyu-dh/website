@@ -251,3 +251,14 @@ figure.image {
      font-size: 1rem;
   }
 }
+
+.monospace {
+  font-family: monospace;
+}
+
+.border-bottom-hover {
+  border-bottom: 1px solid;
+  &:hover {
+    border-bottom: none;
+  }
+}

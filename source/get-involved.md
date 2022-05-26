@@ -15,7 +15,7 @@ contents_links:
     - label: 'News and Events'
       link: '#explore-news-and-events'
 ---
-<div class="content" markdown="1">
+<div class="content post-content" markdown="1">
 ## Access Consultations and Resources
 
 There are lots of people and services at NYU to help with digital humanities work from fresh ideas to established projects. The best way to find and identify resources is to ask for a consultation with one of the support groups.
@@ -30,7 +30,7 @@ There are lots of people and services at NYU to help with digital humanities wor
 <section class="section full-width mb-6 is-bg-alt">
 <div class="container">
 
-<div class="content" markdown="1">
+<div class="content post-content" markdown="1">
 ## Explore News and Events
 
 DH events and courses are sponsored by groups across the University. We recommend checking the calendars maintained by [NYU Libraries](https://nyu.libcal.com/calendar/?cid=1564&t=d&d=0000-00-00&cal=1564&inc=0), [NYU Center for the Humanities](https://nyuhumanities.org/events/), the [NYU Center for Data Science](https://cds.nyu.edu/cds-events/), as well as [New York City Digital Humanities](https://nycdh.org/calendar/).

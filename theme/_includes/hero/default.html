@@ -9,12 +9,7 @@
               {%- if page.collection == 'project_tags' -%}Tag: {{ page.slug }}{%- else -%}{{ page.title }}{%- endif -%}
             </h1>
 
-            {% if page.collection == 'projects' %}
-              {% if page.subtitle or page.tagline %}<p class="subtitle">{{ page.subtitle | default: page.tagline | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
-            {% else %}
-              {% if page.subtitle %}<p class="subtitle">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
-            {% endif %}
-            
+            {% if page.subtitle %}<p class="subtitle">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}            
             {% include hero/partials/buttons.html %}
           </div>
         </div>
