@@ -11,6 +11,7 @@
   description: Provides an introduction to the practice, history, and principles of
     programming for students in the humanities through the Python language.
   url: https://benschmidt.org/code21
+  order: '000'
 - pid: 1089-fa21
   done: true
   number: CEH-GA.1089
@@ -36,6 +37,7 @@
     will include readings on network culture and digital curation by authors such
     as McLuhan, Gitelman, Castells, Shirky, Manovich, Cohen, Ramsay, and Galloway.
   url: https://kimon.hosting.nyu.edu/sites/dh-collections-connections/
+  order: '001'
 - pid: 1121-sp22
   done: true
   number: DHSS-GA.1121
@@ -58,6 +60,7 @@
     data is messy and culturally contingent, and where the reading audience is not
     necessarily trained or interested in statistics.'
   url: https://benschmidt.org/WWD22
+  order: '002'
 - pid: 1137-sp22
   done: true
   number: CEH-GA.1137
@@ -76,6 +79,7 @@
     that are used as alternatives to textual explanation. We will work with digital
     tools for analyzing and visualizing humanities data, such as AbbyFine, Voyant,
     Topic Modeling Tool, ArcGIS, and Agisoft Metashape.
+  order: '003'
 - pid: 1122-sp22
   done: true
   number: DHSS-GA.1122
@@ -92,6 +96,7 @@
     our notions of discourse and explore how websites can be used for scholarly communication.
     A deeper understanding of these topics will help you make better decisions not
     only in your own web development practice but also in sharing your work more effectively.
+  order: '004'
 - pid: 1121-fa22
   done: true
   number: DHSS-GA.1120
@@ -104,6 +109,7 @@
   description: Provides an introduction to the practice, history, and principles of
     programming for students in the humanities through the Python language.
   url: https://benschmidt.org/code21
+  order: '005'
 - pid: 1089-fa22
   done: true
   number: CEH-GA.1089
@@ -127,6 +133,7 @@
     will include readings on network culture and digital curation by authors such
     as McLuhan, Gitelman, Castells, Shirky, Manovich, Cohen, Ramsay, and Galloway.
   url: https://kimon.hosting.nyu.edu/sites/dh-collections-connections/
+  order: '006'
 - pid: 1121-sp23
   done: true
   number: DHSS-GA.1121
@@ -143,6 +150,7 @@
     and a series of programming worksets that will teach you how to do a variety of
     types of data analysis and visualization.'
   url: https://benschmidt.org/WWD22
+  order: '007'
 - pid: 1122-sp23
   done: true
   number: DHSS-GA.1122
@@ -157,6 +165,7 @@
     our notions of discourse and explore how websites can be used for scholarly communication.
     A deeper understanding of these topics will help you make better decisions not
     only in your own web development practice but also in sharing your work more effectively.
+  order: '008'
 - pid: 1137-sp23
   done: true
   number: CEH-GA.1137
@@ -175,6 +184,7 @@
     that are used as alternatives to textual explanation. We will work with digital
     tools for analyzing and visualizing humanities data, such as AbbyFine, Voyant,
     Topic Modeling Tool, ArcGIS, and Agisoft Metashape.
+  order: '009'
 - pid: 3032-fa22
   done: true
   number: CEH-GA 3032
@@ -203,6 +213,7 @@
     and current events we will be studying relate to the day-to-day progress coming
     out of their race.
   url: https://kimon.hosting.nyu.edu/sites/citizenship-in-the-digital-age/
+  order: '010'
 - pid: 3047-fa22
   done: true
   number: CEH-GA 3047
@@ -232,6 +243,7 @@
     relative strengths and weaknesses, including Google Maps/Earth, StoryMap JS, Tableau,
     ArcGIS, ESRI StoryMaps and ARIS.
   url: https://kimon.hosting.nyu.edu/sites/space-place-data/
+  order: '011'
 - pid: 1089-001-fa22
   done: true
   number: CEH-GA 1089-001, MSMS-GA 1089-001
@@ -254,3 +266,4 @@
     these networks and collections to present intellectual arguments in new ways and
     tell more compelling stories.
   url: https://kimon.hosting.nyu.edu/sites/dh-collections-connections/
+  order: '012'

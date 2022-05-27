@@ -1,7 +1,5 @@
 require 'csv'
 require 'fileutils'
-require 'json'
-require 'yaml'
 
 module Utils
   def self.wget_sheet(sheet_key, csv_file)
@@ -13,16 +11,8 @@ module Utils
     CSV.open(file, headers: :first_row).map(&:to_h)
   end
 
-
   def self.write_to_file(content, file)
     FileUtils.mkdir_p File.dirname(file)
     File.open(file, "w") { |f| f.write content }
-  end
-
-  def self.inject_order(data)
-    data.map.with_index do |h, i|
-      h['order'] = i.to_s.rjust(3, "0")
-      h
-    end
   end
 end
