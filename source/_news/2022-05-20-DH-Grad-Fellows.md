@@ -22,7 +22,7 @@ We are excited to announce this year's cohort of funded fellows. Congratulations
 - **Ayami Hatanaka**, Social and Cultural Analysis (GSAS)<br>_"Why Are There No ACS Offices in SoHO?": and Interactive, Digital Map of Family Surveillance in New York City_
 - **Fatma Deniz**, Middle Eastern and Islamic Studies (GSAS)<br>_Mapping, Visualizing and Analyzing the Sufi Mobility in the Early Modern Ottoman Empire_
 - **Hadas Binyamini**, Hebrew & Judaic Studies (GSAS)<br>_Structured Data, Mapping, and Textual Analysis of the American Jewish Year Book_
-- **Helen Frances Stec**, Cinema Studies (Tisch)<br>_The Brownies' Book Archive_
+- **Helen Frances Stec**, XE Experimental Humanities (GSAS)<br>_The Brownies' Book Archive_
 - **Lynn Chenel**, Hagop Kevorkian Center for Near Eastern Studies (GSAS)<br>_The Directory of Placenames Unforgotten_
 - **Nuala Caomhanach**, History (GSAS)<br>_The Land of the Giants: Digitally UnMapping Madagascar's Plant Diversity_
 - **Oscar Maria Stuhler**, Sociology (GSAS)<br>_Who Kisses Whom? Gendered Interaction in American Novels (1880-2000)_
