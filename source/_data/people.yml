@@ -8,7 +8,6 @@
   - affil_fac
   link: https://library.nyu.edu/people/zachary-coble/
   local_image: coble.jpg
-  display_order: '1'
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/zachary-coble.jpg
   order: '000'
   affiliated: true
@@ -21,7 +20,6 @@
   - affil_fac
   link: https://benschmidt.org
   local_image: schmidt.jpg
-  display_order: '2'
   original_image: https://benschmidt.org/authors/admin/avatar_hu100dbceb67e8fdbed30bfdcfd276f9b6_54689_250x250_fill_lanczos_center_2.png
   order: '001'
   affiliated: true
@@ -33,7 +31,6 @@
   - exec_com
   link: https://library.nyu.edu/people/marii-nyrop/
   local_image: nyrop.jpg
-  display_order: '3'
   order: '002'
   affiliated: true
 - pid: karlin
@@ -44,7 +41,6 @@
   - exec_com
   link: https://library.nyu.edu/people/jojo-karlin/
   local_image: karlin.jpg
-  display_order: '4'
   original_image: https://commons.gc.cuny.edu/files/avatars/5851/5d7424f5d81ff-bpfull.jpg
   order: '003'
   affiliated: true
@@ -56,7 +52,6 @@
   - exec_com
   link: https://library.nyu.edu/people/himanshu-mistry/
   local_image: mistry.jpg
-  display_order: '4'
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/himanshu-mistry.jpg
   order: '004'
   affiliated: true
@@ -68,7 +63,6 @@
   - exec_com
   link: https://wp.nyu.edu/fas-edtech/about/our-team/
   local_image: appert.jpg
-  display_order: '5'
   original_image: https://s18798.pcdn.co/fas-edtech/wp-content/uploads/sites/354/2021/12/appert2021headshot-300x295.jpg
   order: '005'
   affiliated: true
@@ -82,7 +76,6 @@
   - proj_pi
   link: https://library.nyu.edu/people/nicholas-wolf/
   local_image: wolf.jpg
-  display_order: '6'
   original_image: https://as.nyu.edu/content/dam/nyu-as/irelandHouse/images/headshots-portraits-promopics-etc/Faculty/Nicholas%20Wolf.JPG
   order: '006'
   affiliated: true
@@ -95,7 +88,6 @@
   - exec_com
   link: https://steinhardt.nyu.edu/people/ben-maddox
   local_image: maddox.jpg
-  display_order: '7'
   original_image: https://steinhardt.nyu.edu/sites/default/files/styles/nyu_profile_image/public/2021-03/4E0BD43F-9787-445D-B0E5-F425455FC5DB%20-%20Ben%20Maddox.jpeg?h=14580d8e&itok=4CrKN7lM
   order: '007'
   affiliated: true
@@ -382,18 +374,6 @@
   local_image: zehngut-willits.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/history/images/BryanZehngutWillits.jpg
   order: '037'
-- pid: zohar
-  name: Ryan Zohar
-  titles: Dual Degree Graduate Student, Kevorkian Center and Palmer School
-  site_roles:
-  - fellow
-  order: '038'
-- pid: deniz
-  name: Fatma Deniz
-  titles: Doctoral Student in Middle Eastern and Islamic Studies
-  site_roles:
-  - fellow
-  order: '039'
 - pid: ansari
   done: true
   name: Ahmed Ansari
