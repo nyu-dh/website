@@ -33,7 +33,7 @@ module Parsers
 
     def self.split_arrays(data, keys)
       data.map do |hash|
-        keys.each { |k|  hash[k] = split_semicolon_string(hash[k]) if hash.has_key?(k) }
+        keys.each { |k| hash[k] = split_semicolon_string(hash[k]) if hash.has_key?(k) }
         hash
       end
     end

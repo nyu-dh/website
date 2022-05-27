@@ -341,7 +341,9 @@
 - pid: stec
   done: true
   name: Helen Frances Stec
-  titles: Graduate Student in Cinema Studies
+  titles: 'Graduate student in Experimental Humanities
+
+    '
   site_roles:
   - fellow
   order: '034'
