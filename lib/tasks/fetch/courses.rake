@@ -17,5 +17,9 @@ namespace :fetch do
 
     puts "Parsing courses into #{Vars::Courses.yml_file}"
     Utils.write_to_file(data.to_yaml, Vars::Courses.yml_file)
+
+    puts Rainbow("Done ✓").green
+    
+    Rake::Task["lint:courses"].invoke
   end
 end

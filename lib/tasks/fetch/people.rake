@@ -20,5 +20,7 @@ namespace :fetch do
     Utils.write_to_file data.to_yaml, Vars::People.yml_file
 
     puts Rainbow("Done ✓").green
+
+    Rake::Task["lint:people"].invoke
   end
 end

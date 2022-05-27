@@ -7,14 +7,10 @@ require 'yaml'
 namespace :lint do
   desc 'lint the fetched project yaml data'
   task :projects do
-    categories = %w(DH Seed Grant Recipient Grad Fellowship Project Other)
-    people     = YAML.load_file(Vars::People.yml_file).map { |h| h['pid'] }
-    projects   = YAML.load_file Vars::Projects.yml_file
+    projects = YAML.load_file Vars::Projects.yml_file
 
-    projects.each do |project|
-      project.dig('pis').each do |pi|
-        puts Rainbow("WARNING: Project '#{project['pid']}' references nonexisting person '#{pi}'.").magenta unless people.include? pi
-      end
-    end
+    Linters::Default.assert_pids projects
+    Linters::Projects.assert_categories projects
+    Linters::Projects.assert_people projects
   end
 end
