@@ -38,7 +38,7 @@ collections:
     source: project_tags.yml
     id_key: slug
     layout: project-tag-page
-    permalink: /projects/tag/:title
+    permalink: /projects/tag/:title/
   projects:
     output: true
     source: projects.yml
