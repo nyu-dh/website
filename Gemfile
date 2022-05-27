@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '4.2.2'
+gem 'jekyll'
 gem 'nyu-dh-theme', path: 'theme'
 
 group :development, :test do
