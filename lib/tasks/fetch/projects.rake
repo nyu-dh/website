@@ -23,6 +23,8 @@ namespace :fetch do
     puts "Parsing projects into #{Vars::Projects.yml_file}"
     Utils.write_to_file(data.to_yaml, Vars::Projects.yml_file)
 
+    Rake::Task["lint:projects"].invoke
+
     sh "bundle exec jekyll pagemaster projects --force"
     sh "bundle exec jekyll pagemaster project_tags --force"
   end

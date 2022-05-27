@@ -1,7 +1,5 @@
 require 'csv'
 require 'fileutils'
-require 'json'
-require 'yaml'
 
 module Utils
   def self.wget_sheet(sheet_key, csv_file)
@@ -12,7 +10,6 @@ module Utils
   def self.csv_open(file)
     CSV.open(file, headers: :first_row).map(&:to_h)
   end
-
 
   def self.write_to_file(content, file)
     FileUtils.mkdir_p File.dirname(file)
