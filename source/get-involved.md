@@ -18,13 +18,13 @@ contents_links:
 <div class="content post-content" markdown="1">
 ## Access Consultations and Resources
 
-There are lots of people and services at NYU to help with digital humanities work from fresh ideas to established projects. The best way to find and identify resources is to ask for a consultation with one of the support groups.
+There are lots of people and services at NYU to help digital humanities work at all stages, fresh ideas to established projects. The best way to find and secure resources is to ask for a consultation with one of the support groups.
 
-- Find [Digital Scholarship Services](https://library.nyu.edu/departments/digital-scholarship-services/) ([request appointment](https://nyu.qualtrics.com/jfe/form/SV_2srvrbNYpL05GW9)) for help with digital publishing & web hosting, project design & scoping.
-- Contact [Data Services](https://guides.nyu.edu/dataservices) ([request appointment](https://guides.nyu.edu/appointment)) for help with data management & analysis, or if you have digital materials you want help with preservation & archiving
+- Contact [Digital Scholarship Services](https://library.nyu.edu/departments/digital-scholarship-services/) ([request appointment](https://nyu.qualtrics.com/jfe/form/SV_2srvrbNYpL05GW9)) for help with digital publishing & web hosting, project design & scoping.
+- Contact [Data Services](https://guides.nyu.edu/dataservices) ([request appointment](https://guides.nyu.edu/appointment)) for help with data management & analysis, and with digital materials you want help preserving and archiving.
 - Email [dh.help@nyu.edu](mailto:dh.help@nyu.edu) for help with project design & scoping, with questions about seed grants, curricula, or graduate summer fellowships, or for advice on applying to external grants.
 - FAS faculty should contact [FAS Educational Technology](https://wp.nyu.edu/fas-edtech/) if you’re teaching a course and want help integrating digital elements.
-- The NYU library also maintains some more detailed guides to DH resources at the [NYU DH LibGuide](https://guides.nyu.edu/digital-humanities), and a more opinionated overview of [Guide to DH at NYU on Manifold](https://nyu.manifoldapp.org/projects/nyu-dh).
+- The NYU library also maintains some more detailed guides to DH resources with the [NYU DH LibGuide](https://guides.nyu.edu/digital-humanities), and a narrated overview in the [Guide to DH at NYU on Manifold](https://nyu.manifoldapp.org/projects/nyu-dh).
 </div>
 
 <section class="section full-width mb-6 is-bg-alt">
