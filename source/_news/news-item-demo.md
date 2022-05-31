@@ -1,6 +1,7 @@
 ---
 title: My super efficient yet unique title
 date: 2022-05-25
+output: false
 tags:
   - tag1
   - tag2
