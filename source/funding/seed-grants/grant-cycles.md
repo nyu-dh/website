@@ -6,7 +6,7 @@ breadcrumbs:
     link: /funding/seed-grants/
 ---
 
-NYU Digital Humanities Faculty Seed Grants are awarded annually and must be spent down before the start of the subsequent academic year. The call is typically announced in late December and open through the beginning of March. We encourage applicants to address questions to dh.help@nyu.edu during this time and host open houses for general questions. In March, the applications are reviewed by a faculty committee with experience in Digital Humanities projects. Announcements are made in April and funds are transferred before the end of the semester. During the grant cycle, grant winners are expected to attend an orientation. After their grant cycle, winners present their work at the NYU Digital Humanities Showcase.
+NYU Digital Humanities Faculty Seed Grants are awarded annually and must be spent down before the start of the subsequent academic year. The call is typically announced in late December and open through the beginning of March. We host open houses for general questions during this time, and we encourage applicants to address questions to dh.help@nyu.edu. In March, the applications are reviewed by a faculty committee with experience in Digital Humanities projects. Announcements are made in April and funds are transferred before the end of the semester. During the grant cycle, grant winners are expected to attend an orientation session. After their grant cycle, winners present their work at the NYU Digital Humanities Showcase.
 
 
 ## SCHEDULE:
@@ -28,4 +28,4 @@ NYU Digital Humanities Faculty Seed Grants are awarded annually and must be spen
 * October: Presentation at NYU Digital Humanities Showcase.
 
 
-**MORE INFORMATION:** Please address any questions or requests for consultations are available to dh.help@nyu.edu.
+**MORE INFORMATION:** Please address any questions or requests for consultations to dh.help@nyu.edu.
