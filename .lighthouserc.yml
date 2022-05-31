@@ -6,6 +6,9 @@ ci:
       - http://localhost/
       - http://localhost/projects
       - http://localhost/funding/seed-grants
+      - http://localhost/people
+      - http://localhost/curriculum/courses
+      - http://localhost/projects/brown/
   assert:
     assertions:
       categories:performance: off
