@@ -3,6 +3,12 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'docs/**'
+      - 'lib/**'
+      - 'README.md'
+      - '.github/workflows/a11y.yml'
+      - '.github/workflows/test.yml'
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -11,8 +17,8 @@ jobs:
         with:
           fetch-depth: 1
       - uses: ruby/setup-ruby@v1
-#         with:
-#           bundler-cache: true
+        with:
+          bundler-cache: true
       - name: install
         run: gem install bundler && bundle
       - name: build
