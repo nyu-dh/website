@@ -376,6 +376,22 @@
   local_image: zehngut-willits.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/history/images/BryanZehngutWillits.jpg
   order: '037'
+- pid: zohar
+  done: true
+  name: Ryan Zohar
+  titles: Dual Degree Graduate Student, Near Eastern Studies and Palmer School
+  site_roles:
+  - fellow
+  order: '038'
+- pid: deniz
+  done: true
+  name: Fatma Deniz
+  titles: Doctoral Student in History and Middle Eastern and Islamic Studies
+  site_roles:
+  - fellow
+  link: https://as.nyu.edu/meis/people/students/tara-stephan1.html
+  original_image: https://as.nyu.edu/meis/people/students/tara-stephan1.html
+  order: '039'
 - pid: ansari
   done: true
   name: Ahmed Ansari

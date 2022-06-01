@@ -4,7 +4,7 @@ layout: default
 subtitle: |
     This annual DH Fellowship program supports selected NYU graduate students as they develop innovative digital humanities projects. Successful applicants receive mentoring, a $5,000 stipend, and participate in a cohort to develop their skills and sharpen their ideas.
 contents_links:
-  - label: 'Past Fellows'
+  - label: 'Current and Past Fellows'
     link: '#past-fellows'
   - label: 'FAQ'
     link: 'faq'
@@ -34,7 +34,7 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
 <section class="section full-width">
   <div class="container">
     <div class="content post-content mb-6">
-      <h2 class="is-size-3" id="past-fellows">Past Fellows</h2>
+      <h2 class="is-size-3" id="past-fellows">Current and Past Fellows</h2>
 
       {% assign fellow2022 = site.projects | where: 'cohort_year', '2022' | where_exp: "i", "i.category contains 'Fellowship'" %}
       {%- if fellow2022.size > 0 -%}
