@@ -5,13 +5,19 @@ on:
       - main
     paths-ignore:
       - 'docs/**'
+      - 'lib/**'
       - 'README.md'
+      - '.github/workflows/wh-ftp-deploy.yml'
+      - '.github/workflows/test.yml'
   push:
     branches:
       - main
     paths-ignore:
       - 'docs/**'
+      - 'lib/**'
       - 'README.md'
+      - '.github/workflows/wh-ftp-deploy.yml'
+      - '.github/workflows/test.yml'
 
 jobs:
   lhci:
