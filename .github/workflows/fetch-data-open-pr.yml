@@ -27,7 +27,8 @@ jobs:
           title: New data fetched from Google Drive
           commit-message: "Data fetched ${{ env.NOWISH }}"
           body: |
-            "Data fetched from Google Drive ${{ env.NOWISH }}.\n
-            If tests pass below, merging into main branch will trigger
-            an automated deploy action to production."
+            **Data fetched from Google Drive ${{ env.NOWISH }}.**
+            
+            **TO TRIGGER TESTS**, please close this PR then immediately reopen it.
+            If tests pass, merging this PR into the main branch will trigger an automated deploy action to production.
           branch: 'content/new-fetch-google-drive'
