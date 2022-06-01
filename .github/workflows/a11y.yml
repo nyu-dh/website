@@ -33,8 +33,8 @@ jobs:
           node-version: 14.x
       - name: install ruby
         uses: ruby/setup-ruby@v1
-#         with:
-#           bundler-cache: true
+        with:
+          bundler-cache: true
       - name: install gems
         run: bundle install
       - name: build
