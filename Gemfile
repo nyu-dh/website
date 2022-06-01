@@ -12,3 +12,5 @@ end
 group :jekyll_plugins do
   gem 'pagemaster', github: 'mnyrop/pagemaster', branch: 'bug/jekyll-source-dir'
 end
+
+gem "webrick", "~> 1.7"

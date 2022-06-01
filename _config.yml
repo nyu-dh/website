@@ -28,7 +28,6 @@ incremental: true
 logo-image-url: images/logo.png
 github_username: 'nyu-dh'
 twitter_username: 'nyu_dh'
-markdown: kramdown
 
 collections:
   news:
