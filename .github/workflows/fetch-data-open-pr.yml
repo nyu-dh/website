@@ -1,0 +1,28 @@
+name: fetch data open pr
+on: workflow_dispatch
+
+jobs:
+  prod-fetch-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # setup
+      - uses: actions/checkout@v3
+      - name: setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: get datetime
+        run: echo "NOWISH=$(TZ=America/New_York date)" >> ${GITHUB_ENV}
+      # fetch data
+      - name: fetch data
+        env:
+          COURSES_SHEET_KEY: ${{secrets.COURSES_SHEET_KEY}}
+          PEOPLE_SHEET_KEY: ${{secrets.PEOPLE_SHEET_KEY}}
+          PROJECTS_SHEET_KEY: ${{secrets.PROJECTS_SHEET_KEY}}
+        run: bundle exec rake fetch:all
+      # open pull request
+      - name: open pull request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: "Data fetched ${{ env.NOWISH }}"
+          branch: 'content/new-fetch-google-drive'
