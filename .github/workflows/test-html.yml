@@ -15,11 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # setup
-      - uses: actions/checkout@v2
-      - uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@v3
+      - name: setup ruby
+        uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      # build
-      - run: bundle exec rake site:build
+      # build site
+      - name: build site
+        run: bundle exec rake site:build
       # test html
-      - run: bundle exec rake site:test
+      - name: test html
+        run: bundle exec rake site:test

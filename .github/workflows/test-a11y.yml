@@ -14,18 +14,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # setup
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: echo "NODE_VERSION=$(cat '.nvmrc')" >> ${GITHUB_ENV}
-      - uses: actions/setup-node@v1
+      - name: setup node
+        uses: actions/setup-node@v1
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - uses: ruby/setup-ruby@v1
+      - name: setup ruby
+        uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      # build
-      - run: bundle exec rake site:build
+      # build site
+      - name: build site
+        run: bundle exec rake site:build
       # test a11y
-      - env:
+      - name: test a11y
+        env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
         run: |
           npm install -g @lhci/cli@0.9.x
