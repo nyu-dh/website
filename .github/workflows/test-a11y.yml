@@ -10,9 +10,10 @@ on:
       - '.github/workflows/*deploy.yml'
       - '.github/workflows/test-html.yml'
 jobs:
-  setup:
+  test-a11y:
     runs-on: ubuntu-latest
     steps:
+      # setup
       - uses: actions/checkout@v2
       - run: echo "NODE_VERSION=$(cat '.nvmrc')" >> ${GITHUB_ENV}
       - uses: actions/setup-node@v1
@@ -21,15 +22,9 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-  build:
-    needs: setup
-    runs-on: ubuntu-latest
-    steps:
+      # build
       - run: bundle exec rake site:build
-  test:
-    needs: [setup, build]
-    runs-on: ubuntu-latest
-    steps:
+      # test a11y
       - env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
         run: |
