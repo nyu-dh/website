@@ -1,0 +1,47 @@
+name: prod deploy with fetched data
+
+on:
+  workflow_dispatch:
+    inputs:
+      msg:
+        description: 'Deploy message'
+        required: true
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+  fetch:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - run: bundle exec rake fetch:all
+
+  build:
+    needs: [setup, fetch]
+    runs-on: ubuntu-latest
+    steps:
+      - run: bundle exec rake site:build
+
+  test:
+    needs: [setup, fetch, build]
+    runs-on: ubuntu-latest
+    steps:
+      - run: bundle exec rake site:test
+
+  prod-deploy:
+    needs: [setup, fetch, build, test]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: dh.hosting.nyu.edu
+          username: ${{secrets.FTP_USERNAME}}@dh.hosting.nyu.edu
+          password: ${{secrets.FTP_PASSWORD}}
+          state-name: ./.ftp-deploy-sync-state.json
+          local-dir: ./_site/

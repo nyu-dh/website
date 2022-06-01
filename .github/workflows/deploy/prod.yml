@@ -1,4 +1,5 @@
-name: web hosting ftp deploy
+name: prod deploy
+
 on:
   push:
     branches:
@@ -7,26 +8,34 @@ on:
       - 'docs/**'
       - 'lib/**'
       - 'README.md'
-      - '.github/workflows/a11y.yml'
-      - '.github/workflows/test.yml'
+      - '.github/workflows/test/**'
+
 jobs:
-  deploy:
+  setup:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 1
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - name: install
-        run: gem install bundler && bundle
-      - name: build
-        run: bundle exec rake site:build
-      - name: test
-        run: bundle exec rake site:test
-      - name: deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+
+  build:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - run: bundle exec rake site:build
+
+  test:
+    needs: [setup, build]
+    runs-on: ubuntu-latest
+    steps:
+      - run: bundle exec rake site:test
+
+  prod-deploy:
+    needs: [setup, build, test]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: dh.hosting.nyu.edu
           username: ${{secrets.FTP_USERNAME}}@dh.hosting.nyu.edu
