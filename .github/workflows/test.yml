@@ -5,13 +5,19 @@ on:
       - main
     paths-ignore:
       - 'docs/**'
+      - 'lib/**'
       - 'README.md'
+      - '.github/workflows/wh-ftp-deploy.yml'
+      - '.github/workflows/a11y.yml'
   push:
     branches:
       - main
     paths-ignore:
       - 'docs/**'
+      - 'lib/**'
       - 'README.md'
+      - '.github/workflows/wh-ftp-deploy.yml'
+      - '.github/workflows/a11y.yml'
 jobs:
   test:
     runs-on: ubuntu-latest
