@@ -13,27 +13,27 @@ breadcrumbs:
 
 **Deadline:** March 6, 2022 (11:59 pm EST)
 
-**CALL FOR APPLICATIONS**
+**Call for Applications**
 
 The Center for the Humanities, in partnership with the NYU Libraries and NYU Research Technology, invites applications for 2022 Digital Humanities Graduate Student Summer Fellowships. Students apply with their own proposed project, which might involve–for example–engaging with digital humanities methods as the basis for a dissertation chapter or article, or building a digital public humanities project or exhibit. Project work will take place during Summer 2022, and participants will report on work completed at a Fall 2022 event.
 
 Applicants should submit a 250-word abstract, a 1250-word narrative, and supporting documentation. Proposals will be judged on the merit of the project, its contribution to the applicant’s course of study, and its feasibility in the timeline proposed. We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
 
-**FUNDING**  
+**Funding**  
 
 Fellows will receive a taxable stipend of $5,000 for participating in the program, and will be expected to dedicate approximately 300 hours for the fellowship during the summer months of 2022. All members of the fellowship cohort are expected to participate in project development sessions during the summer of 2022 as part of their total hours, and can receive individual mentorship and technical guidance as needed.
 
-**ELIGIBILITY**  
+**Eligibility**  
 
 Graduate students in the humanities from all NYU schools, including NYU Global Sites, are eligible. To qualify, they must have completed 16 credits by June 1, 2022, maintain active matriculation at NYU through September 1, 2022. Cohort sessions may be attended remotely. Faculty-led projects, including those with graduate researchers, can be supported under the Digital Humanities Seed Grants.
 
 Equal Opportunity Statement: NYU-funded programs do not discriminate on the basis of race, color, national origin, sex, disability, or age. For more information, please visit <https://www.nyu.edu/about/policies-guidelines-compliance/equal-opportunity.html>.
 
-**DEADLINE**
+**Deadline**
 
 Applications must be received by March 6, 2022, 11:59 pm, EST.
 
-**SCHEDULE**
+**Schedule**
 
 March 6, 2022, 11:59 pm, EST:   Deadline  
 April 2022:                     Fellowships announced  
@@ -41,7 +41,7 @@ June 1, 2022:                   Fellowships begin
 September 1, 2022:              End of fellowship period  
 September 2022:                 Project presentations  
 
-**APPLICATION INSTRUCTIONS**
+**Application Instructions**
 
 To apply, please use the link below. You will be asked to provide the following information:
 - **Abstract** — A 250-word abstract describing the project for an interdisciplinary audience; this may share language with the narrative.
@@ -52,6 +52,6 @@ To apply, please use the link below. You will be asked to provide the following 
 - **NYU transcript** (official or unofficial copies accepted).
 - **Letter of support** from advisor or DGS indicating that they are aware of the student’s application. (Not a recommendation letter).
 
-**FOR MORE INFORMATION:**
+**For More Information:**
 
 Please address any questions or requests for consultations are available to <dh.help@nyu.edu>.
