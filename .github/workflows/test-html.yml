@@ -3,12 +3,6 @@ on:
   pull_request:
     branches:
       - main
-    paths-ignore:
-      - 'docs/**'
-      - 'lib/**'
-      - 'README.md'
-      - '.github/workflows/*deploy.yml'
-      - '.github/workflows/test-a11y.yml'
 
 jobs:
   test-html:

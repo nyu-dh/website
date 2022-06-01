@@ -24,5 +24,10 @@ jobs:
       - name: open pull request
         uses: peter-evans/create-pull-request@v4
         with:
+          title: New data fetched from Google Drive
           commit-message: "Data fetched ${{ env.NOWISH }}"
+          body: |
+            "Data fetched from Google Drive ${{ env.NOWISH }}.\n
+            If tests pass below, merging into main branch will trigger
+            an automated deploy action to production."
           branch: 'content/new-fetch-google-drive'
