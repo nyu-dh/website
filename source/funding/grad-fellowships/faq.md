@@ -9,7 +9,7 @@ breadcrumbs:
 ## Eligibility FAQ
 
 **Q: Can I apply more than once?**
-  > Yes. We especially encourage students to reapply if your project will benefit from the program at a different stage in your research. Students may only receive the fellowship once during their time at NYU.
+  > Yes. We especially encourage students to reapply if your project will benefit from the program at a different stage in your research. However, students may only receive the fellowship once during their time at NYU.
 
 **Q: Can the funding support summer writing?**
   > Projects that involve digital humanities components (computational analysis and data visualization, web development, digital exhibitions, mobile apps, etc.) will be favored over critical studies projects whose outputs align with more conventional outputs.
@@ -38,7 +38,7 @@ breadcrumbs:
 
 **Q: What are the project presentations?**
   > In October, Fellows present their summer work at the NYU Digital Humanities Showcase.
-  >  - Presentations will be a maximum of 3 minutes
+  >  - Presentations will be brief, approximately 3 minutes
   >  - Presenters share website and social media information for those who wish to follow up
   >  - Presenters individually operate their slides through screen sharing
   >

@@ -11,7 +11,7 @@ NYU Digital Humanities Faculty Seed Grants are awarded annually and must be spen
 
 ## SCHEDULE:
 
-* December: CFP Circulated
+* December: CFP Circulated.
 
 * March: Applications due.
 

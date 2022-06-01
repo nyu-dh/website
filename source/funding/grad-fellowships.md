@@ -14,17 +14,17 @@ contents_links:
 
 <div class="container">
   <div class="content post-content mb-6" markdown="1">
-[The Center for the Humanities](https://nyuhumanities.org/), [NYU Libraries](https://library.nyu.edu/) and [NYU Research Technology](https://www.nyu.edu/research/navigating-research-technology.html) annually fund between 8 and 10 Digital Humanities Graduate Student Fellows. Students apply with their own proposed project, which might involve–for example–engaging with digital humanities methods as the basis for a dissertation chapter or article, or building a digital public humanities project or exhibit. Project work will take place during the summer, and participants will report on work completed at an annual fall showcase event.
+[The Center for the Humanities](https://nyuhumanities.org/), [NYU Libraries](https://library.nyu.edu/), and [NYU Research Technology](https://www.nyu.edu/research/navigating-research-technology.html) annually fund between 8 and 10 Digital Humanities Graduate Student Fellows. Students apply with their own proposed project, which might involve–for example–engaging with digital humanities methods as the basis for a dissertation chapter or article, or building a digital public humanities project or exhibit. Project work will take place during the summer, and participants will report on work completed at an annual fall showcase event.
 
-Proposals are judged by a Faculty Committee on the merit of the project, its contribution to the applicant’s course of study, and its feasibility in the timeline proposed. We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
+Proposals are judged by a faculty committee based on the merit of the project, its contribution to the applicant’s course of study, and its feasibility in the timeline proposed. We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
 
 **Funding**
 
-Fellows receive a taxable stipend of $5,000 for participating in the program, and are expected to dedicate approximately 300 hours for the fellowship during the summer months. All members of the fellowship cohort are expected to participate in project development sessions during that summer as part of their total hours, and can receive individual mentorship and technical guidance as needed.
+Fellows receive a taxable stipend of $5,000 for participating in the program, and are expected to dedicate approximately 300 hours for the fellowship during the summer months (June-August). All members of the fellowship cohort are expected to participate in project development sessions during that summer as part of their total hours, and can receive individual mentorship and technical guidance as needed.
 
 **Eligibility**
 
-Graduate students in the humanities from all NYU schools, including NYU Global Sites, are eligible. To qualify, they must have completed 16 credits by June 1 and maintain active matriculation at NYU through September 1 of the year they apply. Cohort sessions may be attended remotely. Faculty-led projects, including those with graduate researchers, can be supported under the Digital Humanities Seed Grants.
+Graduate students in the humanities from all NYU schools, including NYU Global Sites, are eligible. To qualify, they must have completed 16 credits by June 1 and maintain active matriculation at NYU through September 1 of the year they apply. Cohort sessions may be attended remotely. Faculty-led projects, including those with graduate researchers, should be supported under the [Digital Humanities Seed Grants](/funding/seed-grants/).
 
   </div>
 </div>
