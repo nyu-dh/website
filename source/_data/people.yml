@@ -300,7 +300,7 @@
 - pid: musto
   done: true
   name: Antonio Musto
-  titles: Doctoral Student, Middle Eastern and Islamic Studies
+  titles: Doctoral Student in Middle Eastern and Islamic Studies
   site_roles:
   - fellow
   order: '029'
@@ -341,9 +341,7 @@
 - pid: stec
   done: true
   name: Helen Frances Stec
-  titles: 'Graduate student in Experimental Humanities
-
-    '
+  titles: Graduate Student in Experimental Humanities & Social Engagement
   site_roles:
   - fellow
   order: '034'
@@ -379,7 +377,8 @@
 - pid: zohar
   done: true
   name: Ryan Zohar
-  titles: Dual Degree Graduate Student, Near Eastern Studies and Palmer School
+  titles: Dual Degree Graduate Student, Near Eastern Studies and Palmer School of
+    Library & Information Science
   site_roles:
   - fellow
   order: '038'
