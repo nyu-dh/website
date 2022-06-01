@@ -7,8 +7,8 @@ on:
       - 'docs/**'
       - 'lib/**'
       - 'README.md'
-      - '.github/workflows/wh-ftp-deploy.yml'
-      - '.github/workflows/test.yml'
+      - '.github/workflows/*deploy.yml'
+      - '.github/workflows/test-html.yml'
 jobs:
   setup:
     runs-on: ubuntu-latest

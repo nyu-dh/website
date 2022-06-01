@@ -1,14 +1,11 @@
-name: prod deploy
+name: prod fetch and deploy
 
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - 'docs/**'
-      - 'lib/**'
-      - 'README.md'
-      - '.github/workflows/test/**'
+  workflow_dispatch:
+    inputs:
+      msg:
+        description: 'Deploy message'
+        required: true
 
 jobs:
   setup:
@@ -19,20 +16,26 @@ jobs:
         with:
           bundler-cache: true
 
-  build:
+  fetch:
     needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - run: bundle exec rake fetch:all
+
+  build:
+    needs: [setup, fetch]
     runs-on: ubuntu-latest
     steps:
       - run: bundle exec rake site:build
 
   test:
-    needs: [setup, build]
+    needs: [setup, fetch, build]
     runs-on: ubuntu-latest
     steps:
       - run: bundle exec rake site:test
 
   prod-deploy:
-    needs: [setup, build, test]
+    needs: [setup, fetch, build, test]
     runs-on: ubuntu-latest
     steps:
       - uses: SamKirkland/FTP-Deploy-Action@4.3.0
