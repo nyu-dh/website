@@ -27,6 +27,7 @@ abstract: 'This project is a catalyst for access to open Villa La Pietra’s ric
   in historic houses.'
 pis:
 - flouty
+- kapp
 order: '043'
 layout: project
 ---
