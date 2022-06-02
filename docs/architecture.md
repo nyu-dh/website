@@ -3,8 +3,8 @@
 ## Summary
 - 💾 Canonical site data (e.g., People and Project tables) live in Google Sheets.
 - 📝🌄🎨📓:octocat: Site content, media, theme files, docs, and Jekyll configuration live in the GitHub repo.
-- 💾:octocat: Rake tasks [pull data](guides/pull-data-from-google-sheets.md) from Google Sheets to create derivative CSV copies in the GitHub repo.
-- :octocat:🎉 GitHub action builds the site with Jekyll command, then tests and deploys the compiled static site to host.
+- 💾:octocat: Rake tasks [pull data](guides/pull-data-from-google-sheets.md) from Google Sheets to create derivative YAML copies in the GitHub repo.
+- :octocat:🎉 GitHub action builds the site with Jekyll command, then tests and deploys the compiled static site to NYU Web Hosting.
 
 ## Repository Contents
 
@@ -30,6 +30,6 @@ Specific & versioned Ruby development dependencies can be found in the [Gemfile]
 
 ## Deployment
 
-The site is currently deployed to [Github Pages](https://nyu-dh.github.io) via [GitHub action](https://github.com/nyu-dh/nyu-dh.github.io/actions) but will be deployed via FTP to [NYU Web Hosting](https://hosting.nyu.edu) on production.
-
-Deployments are triggered automatically when commits are merged into the `main` branch. The site will currently deploy if the site builds sucessfully from the `main` branch *regardless HTML and linkrot tests passing.* On production, tests will need to pass for the deployment to proceed.
+The site is currently deployed to [NYU Web Hosting](https://hosting.nyu.edu) by a [GitHub Action](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/prod-deploy.yml).  
+The Action is triggered automatically when commits are merged into the `main` branch.  
+The site will deploy **ONLY** if the site builds sucessfully from the `main` branch and if HTML and linkrot tests pass.
