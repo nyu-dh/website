@@ -1100,6 +1100,8 @@
     Digital Middle East Lab, and seek other potential partners and funding.
   pis:
   - mccormick
+  - pettiwala
+  - tawil-souri
   order: '041'
 - pid: chem-hum
   done: true
