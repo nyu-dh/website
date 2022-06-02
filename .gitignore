@@ -7,3 +7,4 @@ vendor
 .lighthouseci
 .DS_Store
 source/_data/.tmp
+.bundle
