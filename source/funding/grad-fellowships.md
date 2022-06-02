@@ -38,7 +38,7 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
 
       {% assign fellow2022 = site.projects | where: 'cohort_year', '2022' | where_exp: "i", "i.category contains 'Fellowship'" %}
       {%- if fellow2022.size > 0 -%}
-        <h3 class="is-size-4">2022 - 2023</h3>
+        <h3 class="is-size-4">2022</h3>
         <ul>
           {%- for p in fellow2022 -%}
             {%- assign piid = p.pis.first -%}
@@ -55,7 +55,7 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
 
       {% assign fellow2021 = site.projects | where: 'cohort_year', '2021' | where_exp: "i", "i.category contains 'Fellowship'" %}
       {% if fellow2021.size > 0 -%}
-        <h3 class="is-size-4">2021 - 2022</h3>
+        <h3 class="is-size-4">2021</h3>
         <ul>
         {%- for p in fellow2021 -%}
           {%- assign piid = p.pis.first -%}
