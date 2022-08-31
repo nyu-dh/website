@@ -11,8 +11,8 @@ timezone: UTC
 email: dh.help@nyu.edu
 
 semester:
-  current: 'Spring 2022'
-  next: 'Fall 2022'
+  current: 'Fall 2022'
+  next: 'Spring 2023'
 
 url: ''
 baseurl: ''

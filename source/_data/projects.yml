@@ -824,6 +824,9 @@
     erasure of linguistic minority heritage from nationalist landscapes. '
   pis:
   - chenel
+  link: https://lynnchenel.com/dopu/
+  local_image: g2022chenel.jpg
+  original_img: https://drive.google.com/file/d/1-rWnlcFgDDdnKeQjKeKVevOKgtUG0TtJ/view
   order: '031'
 - pid: g2022caomhanach
   done: true
@@ -887,6 +890,7 @@
     which Black individuals appear in the periodicals’ texts.
   pis:
   - stec
+  link: https://helen.hosting.nyu.edu/browniesbookarchive/exhibits/show/intro/intro
   order: '033'
 - pid: g2022stuhler
   done: true
@@ -948,7 +952,7 @@
   order: '035'
 - pid: g2022rosenberg
   done: true
-  title: Mapping the Victorian Polar Network
+  title: Visualizing the Victorian Polar Network
   category: Grad Fellowship Project
   tags:
   - spatial-humanities
@@ -960,6 +964,8 @@
     This public humanities project will draw on my scholarly interests in communities of affinity and participatory cultures in order to encourage continued interest in the lesser-studied aspects of polar history. Presenting this information digitally in accessible visual form will, I hope, prompt new inquiries into the lesser-known relationships and figures who make up the underlying layers of the Victorian polar milieu.
   pis:
   - rosenberg
+  local_image: g2022rosenberg.jpg
+  original_img: https://drive.google.com/open?id=1LTE_WVB4tJRsS077H75CzscQvEL69S3k
   order: '036'
 - pid: g2022musto
   done: true
@@ -992,10 +998,11 @@
     a previously neglected body of literature.'
   pis:
   - musto
+  link: https://www.nusus.net/
   order: '037'
 - pid: g2022hatanaka
   done: true
-  title: '"Why Are There No ACS Offices in SoHO?"'
+  title: Why Are There No ACS Offices in SoHO?
   subtitle: An Interactive, Digital Map of Family Surveillance in New York City
   category: Grad Fellowship Project
   tags:
@@ -1192,6 +1199,8 @@
     and Third Worldist thought.'
   pis:
   - zohar
+  local_image: g2022zohar.jpg
+  original_img: https://drive.google.com/open?id=1pSYt5Rw1FCpnVOQTXtQcqcyhvZGZuQoS
   order: '044'
 - pid: g2022deniz
   done: true
@@ -1222,4 +1231,6 @@
     religious and urban history of the Ottoman Empire.'
   pis:
   - deniz
+  local_image: g2022deniz.jpg
+  original_img: https://drive.google.com/open?id=1juRqvI0mL2_xENMYVjeWClCKYr8OyeQZ
   order: '045'

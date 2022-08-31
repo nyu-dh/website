@@ -1,7 +1,7 @@
 ---
 pid: g2022rosenberg
 done: true
-title: Mapping the Victorian Polar Network
+title: Visualizing the Victorian Polar Network
 category: Grad Fellowship Project
 tags:
 - spatial-humanities
@@ -13,6 +13,8 @@ abstract: |-
   This public humanities project will draw on my scholarly interests in communities of affinity and participatory cultures in order to encourage continued interest in the lesser-studied aspects of polar history. Presenting this information digitally in accessible visual form will, I hope, prompt new inquiries into the lesser-known relationships and figures who make up the underlying layers of the Victorian polar milieu.
 pis:
 - rosenberg
+local_image: g2022rosenberg.jpg
+original_img: https://drive.google.com/open?id=1LTE_WVB4tJRsS077H75CzscQvEL69S3k
 order: '036'
 layout: project
 ---

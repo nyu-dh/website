@@ -15,25 +15,16 @@ contents_links:
   - label: 'Affiliated Teaching Faculty'
     link: '/people/affiliated-faculty/'
 ---
-
-<h2 id="current-semester">{{ site.semester.current }}</h2>
 {% assign current_semester =  site.data.courses | where: 'semester', site.semester.current %}
+{% if current_semester.size  > 0 %}
+<h2 id="current-semester">{{ site.semester.current }}</h2>
 
-### DH Certificate Courses
-{% assign current_core = current_semester | where: 'program', 'DHSS' %}
-{% include cards/courses.html data=current_core %}
+{% include cards/courses.html data=current_semester %}
+{% endif %}
 
-### Elective Courses
-{% assign current_elective = current_semester | where_exp: "item", "item.program != 'DHSS'" %}
-{% include cards/courses.html data=current_elective %}
-
-<h2 id="upcoming-semester">{{ site.semester.next }}</h2>
 {% assign next_semester =  site.data.courses | where: 'semester', site.semester.next %}
+{% if next_semester.size  > 0 %}
+<h2 id="upcoming-semester">{{ site.semester.next }}</h2>
 
-### DH Certificate Courses
-{% assign next_core = next_semester | where: 'program', 'DHSS' %}
-{% include cards/courses.html data=next_core %}
-
-### Elective Courses
-{% assign next_elective = next_semester | where_exp: "item", "item.program != 'DHSS'" %}
-{% include cards/courses.html data=next_elective %}
+{% include cards/courses.html data=next_semester %}
+{% endif %}
