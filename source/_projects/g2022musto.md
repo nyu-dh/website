@@ -30,6 +30,7 @@ abstract: 'The digitization of Latin-script languages has fundamentally changed 
   body of literature.'
 pis:
 - musto
+link: https://www.nusus.net/
 order: '037'
 layout: project
 ---

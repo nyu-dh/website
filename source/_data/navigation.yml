@@ -1,11 +1,7 @@
 - name: Get Involved
   link: '/get-involved'
 - name: Curriculum
-  dropdown:
-    - name: Certificate Program
-      link: '/curriculum/certificate'
-    - name: Relevant Courses
-      link: '/curriculum/courses'
+  link: '/curriculum/courses'
 - name: Grants & Fellowships
   dropdown:
     - name: Faculty Seed Grants

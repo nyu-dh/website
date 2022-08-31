@@ -29,6 +29,9 @@ abstract: 'We make sense of the spatial world around us by dividing it into smal
   heritage from nationalist landscapes. '
 pis:
 - chenel
+link: https://lynnchenel.com/dopu/
+local_image: g2022chenel.jpg
+original_img: https://drive.google.com/file/d/1-rWnlcFgDDdnKeQjKeKVevOKgtUG0TtJ/view
 order: '031'
 layout: project
 ---

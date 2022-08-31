@@ -21,7 +21,7 @@ abstract: Sight/Site/Cite (S/S/C) seeks to create a digital hub dedicated to exa
   East Lab, and seek other potential partners and funding.
 pis:
 - mccormick
-- pettiwala
+- petiwala
 - tawil-souri
 order: '041'
 layout: project
