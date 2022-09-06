@@ -112,27 +112,15 @@
   order: '005'
 - pid: 1089-fa22
   done: true
-  number: CEH-GA.1089
-  title: 'Digital Humanities: Collections and Connections'
+  number: CINE-GT.3040
+  title: 'Cinema & the Digital Humanities: History, Concepts and New Approaches to the Study of Moving Images'
   semester: Fall 2022
-  program: XE
-  faculty: Kimon Keramidas
-  description: Two of the most important aspects of digital media are their capacity
-    to allow for the organization of and creation of connections between data. Collecting
-    and connecting technologies have enabled the development of complex information
-    management and network creation systems, which are the foundations of everyday
-    experience in the digital age. Because these systems play such a significant role
-    in how we communicate with one another they are critical to understanding how
-    new media can play a role in public discourse and scholarly conversations. This
-    course will consider how databases and networking tools allow us to organize the
-    digital world and how different tools and platforms, such as WordPress, Omeka,
-    Gephi, Twitter, Instagram, and Pinterest, allow us to curate the things in our
-    world and share our experiences. It will also consider how we can analyze these
-    networks and collections to present intellectual arguments in new ways and tell
-    more compelling stories. Along with practical work with digital tools, this course
-    will include readings on network culture and digital curation by authors such
-    as McLuhan, Gitelman, Castells, Shirky, Manovich, Cohen, Ramsay, and Galloway.
-  url: https://kimon.hosting.nyu.edu/sites/dh-collections-connections/
+  program: Tisch
+  faculty: Marina Hassapopoulou
+  description: "This course will explore Cinema Studies within the interdisciplinary context of the Digital Humanities (DH). Digital tools and platforms, along with the databases they create, have expanded the ways we study moving images and filmmaking traditions. Despite Cinema Studies’ important contributions to the expansion of DH, the study of moving images and time-based media is usually not at the forefront of DH-related inquiry. One of the course objectives is to therefore place Cinema Studies research at the center of DH methodologies in order to diversify interdisciplinary approaches to both DH and Cinema Studies. In this course, students will study DH practice alongside related theoretical frameworks in order to explore the profound historiographical, philosophical, sociocultural, and institutional imperatives that drive the need for digital tools and computational methods in the study of moving images. This approach will help students establish in-depth connections between theory and practice, and will assist them in planning, prototyping, and creating their own final projects to address significant research questions related to Cinema Studies and other fields."
+"Part I of the course will focus on a historical and critical exploration of pre-digital and early digital Cinema Studies projects that prefigure the interactive, data-driven, cartographic/spatial, and/or computational logic of current DH tools. We will cover a broad historical range of critical making that includes the works of early film theorists-practitioners (such as Lev Kuleshov, Dziga Vertov, and Sergei Eisenstein), collaborations between computer scientists and artists (including the Bell Labs 1960s experiments), as well as more recent digital projects and tools (by Yuri Tsivian, Adelheid Heftberger, Anne Friedberg, Steve F. Anderson, and many others). In addition, Part I of the course will analyze DH projects that contribute to a relatively new subfield in Cinema Studies: “new cinema history,” which refers to a cluster of new methodologies and digital tools for studying the cultural and social histories of cinema and its audiences. We will explore the impact of this new cinema history and of “distant reading” (the collection and computational/statistical analysis of large amounts of text data, rather than the close reading of individual texts) on traditional methodologies in Cinema Studies, through the work of influential DHers such as Deb Verhoeven, Richard Maltby, and Jeffrey Klenotic. Our analysis of these projects will not only focus on technical and methodological aspects, but also on the intellectual, cultural, ethical, and institutional debates regarding the use of digital and open-access platforms in the Humanities."
+"Part II of the course will provide hands-on DH training through workshops that will introduce students to a variety of DH tools and platforms, including data visualization, text mining, glitching/data-bending, mapping, annotations, digital archiving, collaborative authoring, film forensics, volumetrics, interactive design, databases, and critical remixing. The workshops will help students acquire a diverse set of skills for analyzing moving images, and will provide them with tools to use in their final projects and other class activities. The scope of the workshops will be adjusted according to student interests. Final project options include: conceptualizing and designing new analytical tools, creating new platforms for the digital analysis of moving images, curating digital/digitized artifacts/collections, using existing DH tools for a new research project, activist work, critically remixing archival material/found footage, contributing content to an existing DH initiative, producing multimedia scholarship (including videographic criticism), or using an online authoring platform (such as Scalar, Omeka, Mapme, and StoryMaps) for an academic research paper."
+  url: 
   order: '006'
 - pid: 1121-sp23
   done: true
@@ -140,7 +128,7 @@
   title: Working with Data
   semester: Spring 2023
   program: DHSS
-  faculty: Ben Schmidt
+  faculty: TBD
   description: 'Data analysis in the humanities presents challenges of scale, interpretation,
     and communication distinct from the social sciences and sciences. In recent years,
     a number of new practices in this sphere have begun to cohere: “cultural analytics,”
