@@ -2,7 +2,7 @@
 
 [![test](https://img.shields.io/github/workflow/status/nyu-dh/nyu-dh.github.io/test?style=flat&logo=github&label=tests)](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/test.yml)
 [![deployment](https://img.shields.io/github/deployments/nyu-dh/nyu-dh.github.io/github-pages?label=deploy&logo=github)](https://github.com/nyu-dh/nyu-dh.github.io/deployments) 
-[![a11y](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/test-a11y.yml/badge.svg)](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/test-a11y.yml)
+[![a11y](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/test-a11y.yml/badge.svg?branch=main)](https://github.com/nyu-dh/nyu-dh.github.io/actions/workflows/test-a11y.yml)
 [![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fdh.hosting.nyu.edu&label=w3c)](https://validator.nu/?doc=https%3A%2F%2Fdh.hosting.nyu.edu)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?label=contributor+covenant)](docs/code-of-conduct.md)
 ![GitHub contributors](https://img.shields.io/github/contributors/nyu-dh/nyu-dh.github.io)
