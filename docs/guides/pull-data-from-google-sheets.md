@@ -5,7 +5,7 @@ To pull up-to-date data from Google Sheets, you will need to have your [local de
 
 Next, you will need to add the `.secrets.yml` file to the root of your local project. (It is gitignored and will not be committed to the repo.)
 
-A copy of this file lives in NYU DH Credentials Box account for you to download into your project.
+A copy of this file lives in NYU DH Credentials Box account for you to download into your project. (The Box file will need to be renamed from `secrets.yml` to `.secrets.yml`)
 
 ## Run the tasks
 
