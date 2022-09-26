@@ -16,13 +16,11 @@
   name: Benjamin Schmidt
   titles: Director of Digital Humanities and Clinical Associate Professor of History
   site_roles:
-  - exec_com
-  - affil_fac
+  - alum
   link: https://benschmidt.org
   local_image: schmidt.jpg
   original_image: https://benschmidt.org/authors/admin/avatar_hu100dbceb67e8fdbed30bfdcfd276f9b6_54689_250x250_fill_lanczos_center_2.png
   order: '001'
-  affiliated: true
 - pid: nyrop
   done: true
   name: Marii Nyrop
@@ -107,12 +105,11 @@
   name: Elaine Gan
   titles: Visiting Assistant Professor in Experimental Humanities & Social Engagement
   site_roles:
-  - affil_fac
+  - alum
   link: https://as.nyu.edu/content/nyu-as/as/faculty/elaine-gan.html
   local_image: gan.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/ceh/images/faculty/Elaine%20Gan.png
   order: '009'
-  affiliated: true
 - pid: hassapopoulou
   done: true
   name: Marina Hassapopoulou
@@ -163,12 +160,11 @@
   name: Kimon Keramidas
   titles: Clinical Associate Professor in Experimental Humanities & Social Engagement
   site_roles:
-  - affil_fac
+  - alum
   link: https://as.nyu.edu/faculty/kimon-keramidas.html
   local_image: keramidas.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/kimon.keramidas.jpg
   order: '014'
-  affiliated: true
 - pid: russell
   done: true
   name: Beth Russell
