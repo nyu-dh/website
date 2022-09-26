@@ -1,8 +1,8 @@
 ---
 pid: moss
 done: true
-title: Inverting the Wunderkammer
-subtitle: Rethinking the Digital Humanities through Botanic Histories and Archives
+title: Thinking With Moss
+subtitle: Troubling Botanical Archives through Co-Designing Critical Interfaces
 featured: true
 category: DH Seed Grant Recipient
 tags:

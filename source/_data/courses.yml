@@ -110,30 +110,6 @@
     programming for students in the humanities through the Python language.
   url: https://benschmidt.org/code21
   order: '005'
-- pid: 1089-fa22
-  done: true
-  number: CEH-GA.1089
-  title: 'Digital Humanities: Collections and Connections'
-  semester: Fall 2022
-  program: XE
-  faculty: Kimon Keramidas
-  description: Two of the most important aspects of digital media are their capacity
-    to allow for the organization of and creation of connections between data. Collecting
-    and connecting technologies have enabled the development of complex information
-    management and network creation systems, which are the foundations of everyday
-    experience in the digital age. Because these systems play such a significant role
-    in how we communicate with one another they are critical to understanding how
-    new media can play a role in public discourse and scholarly conversations. This
-    course will consider how databases and networking tools allow us to organize the
-    digital world and how different tools and platforms, such as WordPress, Omeka,
-    Gephi, Twitter, Instagram, and Pinterest, allow us to curate the things in our
-    world and share our experiences. It will also consider how we can analyze these
-    networks and collections to present intellectual arguments in new ways and tell
-    more compelling stories. Along with practical work with digital tools, this course
-    will include readings on network culture and digital curation by authors such
-    as McLuhan, Gitelman, Castells, Shirky, Manovich, Cohen, Ramsay, and Galloway.
-  url: https://kimon.hosting.nyu.edu/sites/dh-collections-connections/
-  order: '006'
 - pid: 1121-sp23
   done: true
   number: DHSS-GA.1121
@@ -185,85 +161,29 @@
     tools for analyzing and visualizing humanities data, such as AbbyFine, Voyant,
     Topic Modeling Tool, ArcGIS, and Agisoft Metashape.
   order: '009'
-- pid: 3032-fa22
+- pid: 3040-fa22
   done: true
-  number: CEH-GA 3032
-  title: Citizenship in the Digital Age
+  number: CINE-GT.3040
+  title: 'Cinema and the Digital Humanities: History, Concepts and New Approaches
+    to the Study of Moving Images'
   semester: Fall 2022
-  program: XE
-  faculty: Kimon Keramidas
+  program: Cinema Studies
+  faculty: Marina Hassapopoulou
   day: Tuesday
-  time: 6:15-9:00pm
-  description: Data-driven campaigns, inaccurate polling, hacked email systems, social
-    media disinformation, hyper-polarized media coverage, debates over electoral tabulation,
-    the evidence is all around us that the digital technologies of the 21st century
-    have become central features of global political discourse and processes. This
-    course considers how these new technologies have altered our approach to acquiring
-    and critiquing data and information, mediated our modes of social communication,
-    and in turn, fundamentally changed the experience of being a citizen. The course
-    includes discussions of foundational readings on theories of citizenship and the
-    development of large-scale networked information systems. Additional topics include
-    methods of the role of digital tools and algorithms in shaping polling methodology,
-    demographic segmentation through digitally-enhanced mapmaking (see gerrymandering),
-    representations of race, gender, and ethnicity in the digital public sphere, and
-    online protest and activism. To support readings and in-class discussions, students
-    will perform real-time critical analysis through a close integration of the upcoming
-    2022 mid-term elections into coursework. Each student will select a significant
-    political race to follow and report back to the class about how the history, theories,
-    and current events we will be studying relate to the day-to-day progress coming
-    out of their race.
-  url: https://kimon.hosting.nyu.edu/sites/citizenship-in-the-digital-age/
-  order: '010'
-- pid: 3047-fa22
-  done: true
-  number: CEH-GA 3047
-  title: 'Space, Place, and Data: Spatial Humanities and the Crafting of Digital Narratives'
-  semester: Fall 2022
-  program: XE
-  faculty: Kimon Keramidas
-  day: Wednesday
-  time: 2:00-5:00pm
-  description: As the digital medium has exploded over the last forty or so years,
-    devices, data, networks, and new modes of visual expression have changed our perception
-    of and ability to express our sense of where we are and how we perceive landscapes
-    of experience. As a result, notions of space and place, and a desire to express
-    the situatedness of lived experience and historical narratives, have come increasingly
-    to the fore in humanities and the social sciences. At the same time, interdisciplinary
-    fields such as geography and digital humanities have looked to provide new lenses
-    on the worlds around us (both physical and virtual) and new tools with which to
-    share our stories of traveling through different places. These changes reflect
-    our increasing capacity to capture and express geographical information through
-    new tools for doing work in what has come to be called the “spatial humanities.”
-    This course will explore our new perceptions of space and place relative to data
-    and data structures both creatively and critically, including questioning how
-    the epistemological tendencies of specific tools--and geographic information systems
-    (GIS) as a whole--impact our perception of the world. Along with readings and
-    discussion, an important part of this course will be learning about the kinds
-    of tools that can be used to perform work in the spatial humanities and their
-    relative strengths and weaknesses, including Google Maps/Earth, StoryMap JS, Tableau,
-    ArcGIS, ESRI StoryMaps and ARIS.
-  url: https://kimon.hosting.nyu.edu/sites/space-place-data/
-  order: '011'
-- pid: 1089-001-fa22
-  done: true
-  number: CEH-GA 1089-001, MSMS-GA 1089-001
-  title: 'Digital Humanities: Collections and Connections'
-  semester: Fall 2022
-  program: XE; MSMS
-  faculty: Kimon Keramidas
-  day: Tuesday
-  time: 2:00-5:00pm
-  description: Two of the most important aspects of digital media are their capacity
-    to allow for the organization of and creation of connections between data. Collecting
-    and connecting technologies have enabled the development of complex information
-    management and network creation systems, which are the foundations of everyday
-    experience in the digital age. Because these systems play such a significant role
-    in how we communicate with one another, they are critical to understanding how
-    new media can play a role in public discourse and scholarly conversations. This
-    course will consider how databases and networking tools allow us to organize the
-    digital world and how different tools and platforms allow us to curate the things
-    in our world and share our experiences. It will also consider how we can analyze
-    these networks and collections to present intellectual arguments in new ways and
-    tell more compelling stories.
-  url: https://kimon.hosting.nyu.edu/sites/dh-collections-connections/
-  order: '012'
+  time: 12:30-4:30pm
+  description: This course will explore Cinema Studies within the interdisciplinary
+    context of the Digital Humanities (DH). Digital tools and platforms, along with
+    the databases they create, have expanded the ways we study moving images and filmmaking
+    traditions. Despite Cinema Studies’ important contributions to the expansion of
+    DH, the study of moving images and time-based media is usually not at the forefront
+    of DH-related inquiry. One of the course objectives is to therefore place Cinema
+    Studies research at the center of DH methodologies in order to diversify interdisciplinary
+    approaches to both DH and Cinema Studies. In this course, students will study
+    DH practice alongside related theoretical frameworks in order to explore the profound
+    historiographical, philosophical, sociocultural, and institutional imperatives
+    that drive the need for digital tools and computational methods in the study of
+    moving images. This approach will help students establish in-depth connections
+    between theory and practice, and will assist them in planning, prototyping, and
+    creating their own final projects to address significant research questions related
+    to Cinema Studies and other fields.
+  order: '013'
