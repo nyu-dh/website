@@ -8,10 +8,10 @@ contents_links:
       link: 'executive-committee'
     - label: 'Project PIs'
       link: 'project-pis'
-    - label: 'Affiliated Teaching Faculty'
-      link: 'affiliated-faculty'
     - label: 'Graduate Student Fellows'
       link: 'graduate-student-fellows'
+    - label: 'Alumni'
+      link: 'alumni'
 ---
 
 {% assign people = site.data.people | where: 'affiliated', true | sort: 'order' %}
