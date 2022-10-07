@@ -14,7 +14,8 @@
 - pid: schmidt
   done: true
   name: Benjamin Schmidt
-  titles: Director of Digital Humanities and Clinical Associate Professor of History
+  titles: Former Director of Digital Humanities and Clinical Associate Professor of
+    History
   site_roles:
   - alum
   link: https://benschmidt.org
@@ -103,7 +104,8 @@
 - pid: gan
   done: true
   name: Elaine Gan
-  titles: Visiting Assistant Professor in Experimental Humanities & Social Engagement
+  titles: Former Visiting Assistant Professor in Experimental Humanities & Social
+    Engagement
   site_roles:
   - alum
   link: https://as.nyu.edu/content/nyu-as/as/faculty/elaine-gan.html
@@ -158,7 +160,8 @@
 - pid: keramidas
   done: true
   name: Kimon Keramidas
-  titles: Clinical Associate Professor in Experimental Humanities & Social Engagement
+  titles: Former Clinical Associate Professor in Experimental Humanities & Social
+    Engagement
   site_roles:
   - alum
   link: https://as.nyu.edu/faculty/kimon-keramidas.html
