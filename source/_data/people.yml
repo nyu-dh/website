@@ -492,11 +492,12 @@
   name: Ellen Noonan
   titles: Clinical Associate Professor and Director, Archives and Public History Program
   site_roles:
-  - proj_pi
+  - affil_fac
   link: https://as.nyu.edu/faculty/ellen-noonan.html
   local_image: noonan.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/ellenNoonan.png
   order: '050'
+  affiliated: true
 - pid: perry
   done: true
   name: David Perry
@@ -616,3 +617,17 @@
   - proj_pi
   link: http://www.helga.com/
   order: '064'
+- pid: suk
+  done: true
+  name: Jo Suk
+  titles: Digital Scholarship Graduate Student Specialist
+  order: '065'
+  affiliated: true
+- pid: bach
+  done: true
+  name: Alona Bach
+  titles: |-
+    Director, Sponsored Research
+    Arts and Science Office of Research
+  order: '066'
+  affiliated: true
