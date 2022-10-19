@@ -14,7 +14,7 @@ semester:
   current: 'Fall 2022'
   next: 'Spring 2023'
 
-url: 'https://digitalhumanites.nyu.edu'
+url: 'https://digitalhumanities.nyu.edu/'
 baseurl: ''
 future: true
 show_footer: true
