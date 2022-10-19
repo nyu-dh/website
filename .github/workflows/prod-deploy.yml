@@ -27,15 +27,7 @@ jobs:
       - name: test html
         run: bundle exec rake site:test
       # deploy via ftp
-      - name: ftp deploy to host1
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
-        with:
-          server: dh.hosting.nyu.edu
-          username: ${{secrets.FTP_USERNAME}}@dh.hosting.nyu.edu
-          password: ${{secrets.FTP_PASSWORD}}
-          state-name: ./.ftp-deploy-sync-state.json
-          local-dir: ./_site/
-      - name: ftp deploy to host 2
+      - name: ftp deploy to host
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           server: website.dh.hosting.nyu.edu
