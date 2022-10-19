@@ -2,7 +2,7 @@
 layout: default
 home: true
 hero_image: '/assets/images/coding-2(1).png'
-title: Home
+title: Digital Humanities at New York University
 ---
 
 {% include cards/news.html data=site.news limit=6 %}

@@ -33,7 +33,7 @@
           {% for item in site.data.navigation %}
             {% if item.dropdown %}
             <div class="navbar-item is-size-6 has-dropdown is-hoverable">
-              <a class="navbar-link group-header">{{ item.name }}</a>
+              <span class="navbar-link group-header">{{ item.name }}</span>
               <div class="navbar-dropdown">
                 {% for subitem in item.dropdown %}
                 <a href="{{ subitem.link | relative_url }}" class="navbar-item">{{ subitem.name }}</a>
