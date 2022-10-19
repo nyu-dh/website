@@ -2,6 +2,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="limerick" content="{{ site.limerick }}">
+    <meta name="robots"   content="index, follow">
+
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
     <link rel="shortcut icon" type="image/ico" href="{{ 'assets/favicon.ico' | absolute_url }}"/>
 
@@ -9,6 +11,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 
     {% seo %}
+    {%- if page.local_image -%}
+    <meta property="og:image" content="{{ page.local_image | prepend: 'media/projects/' | absolute_url }}" />
+    {% else -%}
+    <meta property="og:image" content="{{ '/assets/og_image.jpg' | absolute_url }}" />
+    {%- endif -%}
+    {%- if page.tagline -%}
+    <meta property="og:description" content="{{ page.tagline }}" />
+    {% elsif page.subtitle %}
+    <meta property="og:description" content="{{ page.subtitle }}" />
+    {%- endif -%}
     {%- if site.google_analytics -%}
       {%- include scripts/google-analytics.html -%}
     {%- endif -%}
