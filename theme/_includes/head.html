@@ -21,8 +21,6 @@
     {% elsif page.subtitle %}
     <meta property="og:description" content="{{ page.subtitle }}" />
     {%- endif -%}
-    {%- if site.google_analytics -%}
-      {%- include scripts/google-analytics.html -%}
-    {%- endif -%}
+    {%- include scripts/google-analytics.html -%}
     {%- include scripts/head.html -%}
 </head>

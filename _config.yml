@@ -29,6 +29,7 @@ incremental: true
 logo-image-url: images/logo.png
 github_username: 'nyu-dh'
 twitter_username: 'nyu_dh'
+google_analytics: 'G-R2JKDFQRDJ'
 
 collections:
   news:
