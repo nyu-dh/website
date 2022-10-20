@@ -7,8 +7,8 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?label=contributor+covenant)](docs/code-of-conduct.md)
 ![GitHub contributors](https://img.shields.io/github/contributors/nyu-dh/nyu-dh.github.io)
 ![repo size](https://img.shields.io/github/repo-size/nyu-dh/nyu-dh.github.io)
-![GitHub issues](https://img.shields.io/github/issues-raw/nyu-dh/nyu-dh.github.io) 
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/nyu-dh/nyu-dh.github.io)
+[![GitHub issues](https://img.shields.io/github/issues-raw/nyu-dh/nyu-dh.github.io)](https://github.com/nyu-dh/website/issues?q=is%3Aissue+is%3Aopen+) 
+[![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/nyu-dh/nyu-dh.github.io)](https://github.com/nyu-dh/website/issues?q=is%3Aissue+is%3Aclosed)
 
 
 ## Get Started
