@@ -26,11 +26,17 @@
     <meta name="twitter:image" content="{{ '/assets/og_image.jpg' | absolute_url }}">
     {%- endif -%}
     {%- if page.tagline -%}
+    <meta name="description" content="{{ page.tagline }}"/>
     <meta property="og:description" content="{{ page.tagline }}" />
     <meta name="twitter:description" content="{{ page.tagline }}">
     {% elsif page.subtitle %}
+    <meta name="description" content="{{ page.subtitle }}"/>
     <meta property="og:description" content="{{ page.subtitle }}" />
     <meta name="twitter:description" content="{{ page.subtitle }}">
+    {% else %}
+    <meta name="description" content="{{ site.tagline }}"/>
+    <meta property="og:description" content="{{ site.tagline }}" />
+    <meta name="twitter:description" content="{{ site.tagline }}">
     {%- endif -%}
 
 
