@@ -9,18 +9,31 @@
 
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    <title>
+      {% if page.title == site.title %}
+        {{ site.title }}
+      {% else %}
+        {{ page.title }} | {{ site.title }}
+      {% endif %}
+    </title>
 
-    {% seo %}
+    {% seo title=false %}
     {%- if page.local_image -%}
     <meta property="og:image" content="{{ page.local_image | prepend: 'media/projects/' | absolute_url }}" />
+    <meta name="twitter:image" content="{{ page.local_image | prepend: 'media/projects/' | absolute_url }}">
     {% else -%}
     <meta property="og:image" content="{{ '/assets/og_image.jpg' | absolute_url }}" />
+    <meta name="twitter:image" content="{{ '/assets/og_image.jpg' | absolute_url }}">
     {%- endif -%}
     {%- if page.tagline -%}
     <meta property="og:description" content="{{ page.tagline }}" />
+    <meta name="twitter:description" content="{{ page.tagline }}">
     {% elsif page.subtitle %}
     <meta property="og:description" content="{{ page.subtitle }}" />
+    <meta name="twitter:description" content="{{ page.subtitle }}">
     {%- endif -%}
+
+
     {%- include scripts/google-analytics.html -%}
     {%- include scripts/head.html -%}
 </head>

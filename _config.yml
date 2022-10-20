@@ -1,5 +1,5 @@
-title: 'NYU DH'
-full_title: 'Digital Humanities<br>at New York University'
+title: 'New York University Digital Humanities'
+short_title: 'NYU DH'
 description: >
   NYU DH focuses on new technologies, advanced computing, and public engagement to inform and interrogate humanistic inquiry.
 limerick: >
@@ -31,6 +31,7 @@ github_username: 'nyu-dh'
 twitter_username: 'nyu_dh'
 google_analytics: 'G-R2JKDFQRDJ'
 
+
 collections:
   news:
     output: true
@@ -51,3 +52,7 @@ defaults:
       type: news
     values:
       layout: news
+
+# seo
+twitter:
+  username: nyu_dh
