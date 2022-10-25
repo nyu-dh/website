@@ -43,6 +43,17 @@
   original_image: https://commons.gc.cuny.edu/files/avatars/5851/5d7424f5d81ff-bpfull.jpg
   order: '003'
   affiliated: true
+- pid: weatherby
+  done: true
+  name: Leif Weatherby
+  titles: Associate Professor of German
+  site_roles:
+  - exec_com
+  link: https://as.nyu.edu/faculty/leif-allison-reid-weatherby.html
+  local_image: weatherby.jpg
+  original_image: https://larb-main-wp-cdn.azureedge.net/wp-content/uploads/2016/12/leifweatherby.jpg
+  order: '004'
+  affiliated: true
 - pid: mistry
   done: true
   name: Himanshu Mistry
@@ -52,7 +63,7 @@
   link: https://library.nyu.edu/people/himanshu-mistry/
   local_image: mistry.jpg
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/himanshu-mistry.jpg
-  order: '004'
+  order: '005'
   affiliated: true
 - pid: appert
   done: true
@@ -63,7 +74,7 @@
   link: https://wp.nyu.edu/fas-edtech/about/our-team/
   local_image: appert.jpg
   original_image: https://s18798.pcdn.co/fas-edtech/wp-content/uploads/sites/354/2021/12/appert2021headshot-300x295.jpg
-  order: '005'
+  order: '006'
   affiliated: true
 - pid: wolf
   done: true
@@ -76,7 +87,7 @@
   link: https://library.nyu.edu/people/nicholas-wolf/
   local_image: wolf.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/irelandHouse/images/headshots-portraits-promopics-etc/Faculty/Nicholas%20Wolf.JPG
-  order: '006'
+  order: '007'
   affiliated: true
 - pid: maddox
   done: true
@@ -88,7 +99,7 @@
   link: https://steinhardt.nyu.edu/people/ben-maddox
   local_image: maddox.jpg
   original_image: https://steinhardt.nyu.edu/sites/default/files/styles/nyu_profile_image/public/2021-03/4E0BD43F-9787-445D-B0E5-F425455FC5DB%20-%20Ben%20Maddox.jpeg?h=14580d8e&itok=4CrKN7lM
-  order: '007'
+  order: '008'
   affiliated: true
 - pid: broussard
   done: true
@@ -99,7 +110,7 @@
   link: https://journalism.nyu.edu/about-us/profile/meredith-broussard/
   local_image: broussard.jpg
   original_image: https://journalism.nyu.edu/wp-content/uploads/photo-meredith-broussard.jpg
-  order: '008'
+  order: '009'
   affiliated: true
 - pid: gan
   done: true
@@ -111,7 +122,7 @@
   link: https://as.nyu.edu/content/nyu-as/as/faculty/elaine-gan.html
   local_image: gan.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/ceh/images/faculty/Elaine%20Gan.png
-  order: '009'
+  order: '010'
 - pid: hassapopoulou
   done: true
   name: Marina Hassapopoulou
@@ -122,7 +133,7 @@
   link: https://tisch.nyu.edu/about/directory/cinema-studies/1076827536
   local_image: hassapopoulou.jpg
   original_image: https://tisch.nyu.edu/content/dam/tisch/cinema-studies/Marina%20Hassapopoulou%202018.jpg.preset.square.jpeg?
-  order: '010'
+  order: '011'
   affiliated: true
 - pid: heath
   done: true
@@ -133,7 +144,7 @@
   link: https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath
   local_image: heath.jpg
   original_image: https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath/@@images/Image/mini
-  order: '011'
+  order: '012'
   affiliated: true
 - pid: hoover
   done: true
@@ -144,7 +155,7 @@
   link: https://as.nyu.edu/faculty/david-hoover.html
   local_image: hoover.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/g-k/Hoover-David.jpg
-  order: '012'
+  order: '013'
   affiliated: true
 - pid: kapp
   done: true
@@ -155,7 +166,7 @@
   link: https://cims.nyu.edu/~kapp/
   local_image: kapp.jpg
   original_image: https://cims.nyu.edu/cmt/assets/images/bio_pictures/Kapp.jpg
-  order: '013'
+  order: '014'
   affiliated: true
 - pid: keramidas
   done: true
@@ -167,7 +178,7 @@
   link: https://as.nyu.edu/faculty/kimon-keramidas.html
   local_image: keramidas.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/kimon.keramidas.jpg
-  order: '014'
+  order: '015'
 - pid: russell
   done: true
   name: Beth Russell
@@ -178,7 +189,7 @@
   link: https://library.nyu.edu/people/beth-russell/
   local_image: russell.jpg
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/beth-russell.jpg
-  order: '015'
+  order: '016'
   affiliated: true
 - pid: wrisley
   done: true
@@ -189,7 +200,7 @@
   link: https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/david-wrisley.html
   local_image: wrisley.jpg
   original_image: https://nyuad.nyu.edu/content/nyuad/en/home/academics/divisions/arts-and-humanities/faculty/david-wrisley/jcr:content/bio-info/image.adaptive.m1510293016018/290.jpg
-  order: '016'
+  order: '017'
   affiliated: true
 - pid: flouty
   done: true
@@ -200,7 +211,7 @@
   link: https://as.nyu.edu/faculty/rosanna-n-flouty.html
   local_image: flouty.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/Flouty_Rosanna.jpg
-  order: '017'
+  order: '018'
 - pid: mccormick
   done: true
   name: Jared McCormick
@@ -210,7 +221,7 @@
   link: https://as.nyu.edu/faculty/jared-mccormick.html
   local_image: mccormick.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/nearEast/images/Screen%20Shot%202021-10-26%20at%2011.22.45%20AM.png
-  order: '018'
+  order: '019'
 - pid: brill
   done: true
   name: Bobby Brill
@@ -219,7 +230,7 @@
   - exec_com
   local_image: brill.jpg
   original_image: https://s3-us-west-1.amazonaws.com/co-directory-images/brill.jpg
-  order: '019'
+  order: '020'
   affiliated: true
 - pid: efstathiadis
   done: true
@@ -228,7 +239,7 @@
   site_roles:
   - exec_com
   link: https://library.nyu.edu/people/stratos-efstathiadis/
-  order: '020'
+  order: '021'
   affiliated: true
 - pid: armoza
   done: true
@@ -236,7 +247,7 @@
   titles: Doctoral Student in English and American Literature
   site_roles:
   - fellow
-  order: '021'
+  order: '022'
 - pid: binyamini
   done: true
   name: Hadas Binyamini
@@ -245,7 +256,7 @@
   - fellow
   local_image: binyamini.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/hebrew/images/student-profile-pictures/Hadas%20Binyamini.png
-  order: '022'
+  order: '023'
 - pid: busser
   done: true
   name: Lauren Busser
@@ -254,14 +265,14 @@
   - fellow
   local_image: busser.jpg
   original_image: https://s18798.pcdn.co/digitalgallatin/wp-content/uploads/sites/1980/2020/09/IMG_6716-400x600.jpg
-  order: '023'
+  order: '024'
 - pid: caomhanach
   done: true
   name: Nuala Caomhanach
   titles: Doctoral Student in History
   site_roles:
   - fellow
-  order: '024'
+  order: '025'
 - pid: chenel
   done: true
   name: Lynn Chenel
@@ -270,7 +281,7 @@
   - fellow
   local_image: chenel.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/nearEast/images/62b219af-8d55-4493-80cc-73ac705f59a4%202%20-%20Pelin%20Senel%20(1).JPG
-  order: '025'
+  order: '026'
 - pid: hatanaka
   done: true
   name: Ayami Hatanaka
@@ -279,14 +290,14 @@
   - fellow
   local_image: hatanaka.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/sca/images/AH_Photo.JPG
-  order: '026'
+  order: '027'
 - pid: joslyn
   done: true
   name: Daniel Joslyn
   titles: Doctoral Student in History
   site_roles:
   - fellow
-  order: '027'
+  order: '028'
 - pid: marshall
   done: true
   name: Jubilee Marshall
@@ -295,21 +306,21 @@
   - fellow
   local_image: marshall.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/history/images/JubileeMarshall.jpg
-  order: '028'
+  order: '029'
 - pid: musto
   done: true
   name: Antonio Musto
   titles: Doctoral Student in Middle Eastern and Islamic Studies
   site_roles:
   - fellow
-  order: '029'
+  order: '030'
 - pid: ozkiral
   done: true
   name: Alijan Ozkiral
   titles: Doctoral Student in English
   site_roles:
   - fellow
-  order: '030'
+  order: '031'
 - pid: petiwala
   done: true
   name: Ada Petiwala
@@ -320,7 +331,7 @@
   link: https://as.nyu.edu/content/nyu-as/as/departments/meis/people/students/ada-petiwala.html
   local_image: petiwala.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/meis/images/Ada%20Petiwala.jpg
-  order: '031'
+  order: '032'
 - pid: rosenberg
   done: true
   name: Allegra Rosenberg
@@ -329,21 +340,21 @@
   - fellow
   local_image: rosenberg.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/ceh/images/students/Allegra%20Rosenberg.jpeg
-  order: '032'
+  order: '033'
 - pid: smith
   done: true
   name: Jackson Smith
   titles: Doctoral Student in American Studies
   site_roles:
   - fellow
-  order: '033'
+  order: '034'
 - pid: stec
   done: true
   name: Helen Frances Stec
   titles: Graduate Student in Experimental Humanities & Social Engagement
   site_roles:
   - fellow
-  order: '034'
+  order: '035'
 - pid: stuhler
   done: true
   name: Oscar Maria Stuhler
@@ -353,7 +364,7 @@
   link: https://as.nyu.edu/sociology/people/current-phd-students/stuhler--oscar.html
   local_image: stuhler.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/sociology/images/Oscar-Stuhler.jpg
-  order: '035'
+  order: '036'
 - pid: tsolakis
   done: true
   name: Georgios Tsolakis
@@ -363,7 +374,7 @@
   link: https://isaw.nyu.edu/people/students/georgios-tsolakis
   local_image: tsolakis.jpg
   original_image: https://isaw.nyu.edu/people/students/georgios-tsolakis/@@images/Image/mini
-  order: '036'
+  order: '037'
 - pid: zehngut-willits
   done: true
   name: Bryan Zehngut-Willits
@@ -372,7 +383,7 @@
   - fellow
   local_image: zehngut-willits.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/history/images/BryanZehngutWillits.jpg
-  order: '037'
+  order: '038'
 - pid: zohar
   done: true
   name: Ryan Zohar
@@ -380,7 +391,7 @@
     Library & Information Science
   site_roles:
   - fellow
-  order: '038'
+  order: '039'
 - pid: deniz
   done: true
   name: Fatma Deniz
@@ -389,7 +400,7 @@
   - fellow
   link: https://as.nyu.edu/meis/people/students/tara-stephan1.html
   original_image: https://as.nyu.edu/meis/people/students/tara-stephan1.html
-  order: '039'
+  order: '040'
 - pid: ansari
   done: true
   name: Ahmed Ansari
@@ -399,7 +410,7 @@
   link: https://engineering.nyu.edu/faculty/ahmed-ansari-1
   local_image: ansari.jpg
   original_image: https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2019-10/52303916_10161388995350282_1617569861465014272_n_0.jpg?h=f0d95172&itok=ePal-T28
-  order: '040'
+  order: '041'
 - pid: augst
   done: true
   name: Tom Augst
@@ -409,7 +420,7 @@
   link: https://as.nyu.edu/faculty/thomas-augst.html
   local_image: augst.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/a-f/ThomasAugst.jpg
-  order: '041'
+  order: '042'
 - pid: ayers
   done: true
   name: Elaine Ayers
@@ -419,7 +430,7 @@
   link: https://as.nyu.edu/faculty/MS.html
   local_image: ayers.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/museum/images/Ayers_Bio%20Pic.jpg
-  order: '042'
+  order: '043'
 - pid: brain
   done: true
   name: Tega Brain
@@ -429,7 +440,7 @@
   link: https://engineering.nyu.edu/faculty/tega-brain
   local_image: brain.jpg
   original_image: https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2021-04/tegabrain-headshot-square.jpg?h=0f87c4e1&itok=Z3gip1Qt
-  order: '043'
+  order: '044'
 - pid: bunde
   done: true
   name: Janet Bunde
@@ -439,7 +450,7 @@
   link: https://library.nyu.edu/people/janet-bunde/
   local_image: bunde.jpg
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/janet-bunde.jpg
-  order: '044'
+  order: '045'
 - pid: cabrera-arus
   done: true
   name: Maria A. Cabrera Arus
@@ -449,7 +460,7 @@
   link: https://gallatin.nyu.edu/people/faculty/mac29.html
   local_image: cabrera-arus.jpg
   original_image: https://www.brown.edu/research/projects/tracing-cuba-us-connections/sites/tracing-cuba-us-connections/files/images/large_Maria%20A%20Cabrera%20Arus%2C%20Bio%20Photo%20%281%29.jpeg
-  order: '045'
+  order: '046'
 - pid: jacobs
   done: true
   name: Thomas Jacobs
@@ -458,7 +469,7 @@
   - proj_pi
   local_image: jacobs.jpg
   original_image: https://cas.nyu.edu/content/dam/nyu-as/casEWP/images/faculty-photos/jacobs_tom.jpg
-  order: '046'
+  order: '047'
 - pid: kehoe
   done: true
   name: Lauren Kehoe
@@ -468,7 +479,7 @@
   link: https://library.nyu.edu/people/lauren-kehoe/
   local_image: kehoe.jpg
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/lauren-kehoe.jpg
-  order: '047'
+  order: '048'
 - pid: mahootian
   done: true
   name: Farzad Mahootian
@@ -476,7 +487,7 @@
   site_roles:
   - proj_pi
   link: https://liberalstudies.nyu.edu/content/nyu-as/liberalstudies/about/faculty-listing/farzad-mahootian.html
-  order: '048'
+  order: '049'
 - pid: martin
   done: true
   name: Nicholas Martin
@@ -486,7 +497,7 @@
   link: https://library.nyu.edu/people/nicholas-martin/
   local_image: martin.jpg
   original_image: https://s3.amazonaws.com/nyulibraries-www-assets/people-images/nicholas-martin.jpg
-  order: '049'
+  order: '050'
 - pid: noonan
   done: true
   name: Ellen Noonan
@@ -496,7 +507,7 @@
   link: https://as.nyu.edu/faculty/ellen-noonan.html
   local_image: noonan.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/ellenNoonan.png
-  order: '050'
+  order: '051'
   affiliated: true
 - pid: perry
   done: true
@@ -507,7 +518,7 @@
   link: https://shanghai.nyu.edu/academics/faculty/directory/david-perry
   local_image: perry.jpg
   original_image: https://cdn.shanghai.nyu.edu/sites/default/files/field/profile/david_perry.jpg
-  order: '051'
+  order: '052'
 - pid: ralph
   done: true
   name: Michael Ralph
@@ -516,7 +527,7 @@
   - proj_pi
   local_image: ralph.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/faculty/images/profilePhotos/q-u/MichaelRalph.jpg
-  order: '052'
+  order: '053'
 - pid: remes
   done: true
   name: Jacob Remes
@@ -526,7 +537,7 @@
   link: https://gallatin.nyu.edu/people/faculty/jar31.html
   local_image: remes.jpg
   original_image: https://gallatin.nyu.edu/gallatin/en/people/faculty/jar31/_jcr_content/image.img.320.medium.jpg
-  order: '053'
+  order: '054'
 - pid: schellmann
   done: true
   name: Hilke Schellmann
@@ -536,7 +547,7 @@
   link: https://journalism.nyu.edu/about-us/profile/hilke-schellmann/
   local_image: schellmann.jpg
   original_image: https://pulitzercenter.org/sites/default/files/styles/460x460/public/pictures/picture-440-1312740273.jpg?h=7bc5cf4e&itok=kYQctXYG
-  order: '054'
+  order: '055'
 - pid: sloane
   done: true
   name: Mona Sloane
@@ -546,14 +557,14 @@
   link: https://engineering.nyu.edu/faculty/mona-sloane
   local_image: sloane.jpg
   original_image: https://ipk.nyu.edu/wp-content/uploads/2018/09/MONA-435x435.jpg
-  order: '055'
+  order: '056'
 - pid: sloane-britt
   done: true
   name: Summer Sloane-Britt
   titles: Doctoral Student, Institute of Fine Arts
   site_roles:
   - proj_pi
-  order: '056'
+  order: '057'
 - pid: soffer
   done: true
   name: Jonathan Soffer
@@ -563,7 +574,7 @@
   link: https://engineering.nyu.edu/faculty/jonathan-soffer
   local_image: soffer.jpg
   original_image: https://engineering.nyu.edu/sites/default/files/styles/square_large_default_2x/public/2018-04/img_2764-soffer.jpg?h=0ccde02c&itok=Mkp8C1oc
-  order: '057'
+  order: '058'
 - pid: spielman
   done: true
   name: Andrew Spielman
@@ -573,7 +584,7 @@
   link: https://dental.nyu.edu/faculty/ft/ais1.html
   local_image: spielman.jpg
   original_image: https://dental.nyu.edu/content/nyudental/en/faculty/ft/ais1/_jcr_content/singleBox01/nyuimage.img.jpg/1496692443176.jpg
-  order: '058'
+  order: '059'
 - pid: vinkour
   done: true
   name: Maya Vinokour
@@ -583,7 +594,7 @@
   link: https://as.nyu.edu/content/nyu-as/as/faculty/maya-vinokour.html
   local_image: vinkour.jpg
   original_image: https://as.nyu.edu/content/dam/nyu-as/russian/images/Headshot.jpeg
-  order: '059'
+  order: '060'
 - pid: beinart-smollan
   done: true
   name: Gavin Beinart-Smollan
@@ -592,22 +603,22 @@
   - proj_pi
   local_image: beinart-smollan.jpg
   original_image: https://media-exp1.licdn.com/dms/image/C4D03AQEz-EuoDHduQA/profile-displayphoto-shrink_200_200/0/1517157595257?e=1655942400&v=beta&t=_OduBvWt9S-dznnKwuL2ASIyscMaKx4nrLFBZDCg3Yw
-  order: '060'
+  order: '061'
 - pid: katz
   done: true
   name: Esther Katz
   titles: Former NYU Associate Professor of US History
-  order: '061'
+  order: '062'
 - pid: dss
   done: true
   name: Digital Scholarship Services
   titles: Division of Libraries
   link: https://library.nyu.edu/departments/digital-scholarship-services/
-  order: '062'
+  order: '063'
 - pid: dh
   done: true
   name: Digital Humanities
-  order: '063'
+  order: '064'
 - pid: tawil-souri
   done: true
   name: Helga Tawil-Souri
@@ -616,12 +627,14 @@
   site_roles:
   - proj_pi
   link: http://www.helga.com/
-  order: '064'
+  order: '065'
 - pid: suk
   done: true
   name: Jo Suk
   titles: Digital Scholarship Graduate Student Specialist
-  order: '065'
+  site_roles:
+  - exec_com
+  order: '066'
   affiliated: true
 - pid: bach
   done: true
@@ -629,5 +642,7 @@
   titles: |-
     Director, Sponsored Research
     Arts and Science Office of Research
-  order: '066'
+  site_roles:
+  - exec_com
+  order: '067'
   affiliated: true
