@@ -34,6 +34,6 @@ pis:
 - kehoe
 link: https://zinecat.org/
 local_image: zinecat.jpg
-order: '009'
+order: '010'
 layout: project
 ---

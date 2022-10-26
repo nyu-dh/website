@@ -29,6 +29,6 @@ pis:
 - deniz
 local_image: g2022deniz.jpg
 original_img: https://drive.google.com/open?id=1juRqvI0mL2_xENMYVjeWClCKYr8OyeQZ
-order: '045'
+order: '046'
 layout: project
 ---

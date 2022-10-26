@@ -30,6 +30,6 @@ abstract: The Brownies’ Book Archive is a digital archive and exhibit of W.E.B
 pis:
 - stec
 link: https://helen.hosting.nyu.edu/browniesbookarchive/exhibits/show/intro/intro
-order: '033'
+order: '034'
 layout: project
 ---

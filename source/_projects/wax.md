@@ -17,6 +17,6 @@ pis:
 link: https://minicomp.github.io/wax/
 local_image: wax.jpg
 original_img: https://minicomp.github.io/wax/img/logo.png
-order: '027'
+order: '028'
 layout: project
 ---

@@ -37,6 +37,6 @@ pis:
 link: https://wp.nyu.edu/disasters/covid-collections-project/
 local_image: covid-collections.jpg
 original_img: https://images.pexels.com/photos/3786153/pexels-photo-3786153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
-order: '010'
+order: '011'
 layout: project
 ---
