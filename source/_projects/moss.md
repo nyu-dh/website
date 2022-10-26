@@ -37,6 +37,6 @@ pis:
 - brain
 local_image: moss.jpg
 original_img: https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage_1928656045.img.1280.high.jpg/1647273469309.jpg
-order: '007'
+order: '008'
 layout: project
 ---

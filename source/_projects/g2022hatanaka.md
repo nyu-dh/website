@@ -28,6 +28,6 @@ abstract: 'This research project stems from provocations by abolitionist organiz
   City.'
 pis:
 - hatanaka
-order: '038'
+order: '039'
 layout: project
 ---

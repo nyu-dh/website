@@ -15,11 +15,10 @@ abstract: 'José Antonio Aponte was a free man of color, carpenter, artist, and 
   history situated in diasporic and transatlantic past with the possibility of imagining
   a sovereign future for free and enslaved people of color in colonial Cuba. '
 pis:
-- rodriguez
 - ferrer
 link: https://aponte.hosting.nyu.edu/
 local_image: aponte.jpg
 original_img: https://aponte.hosting.nyu.edu/wp-content/uploads/2016/07/003.jpg
-order: '025'
+order: '026'
 layout: project
 ---

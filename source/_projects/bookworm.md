@@ -14,6 +14,6 @@ abstract: 'Bookworm makes it easy to interactively explore massive collections o
 pis:
 - schmidt
 link: https://github.com/Bookworm-project
-order: '029'
+order: '030'
 layout: project
 ---

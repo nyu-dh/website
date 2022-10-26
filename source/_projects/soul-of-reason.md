@@ -29,6 +29,6 @@ pis:
 link: https://nyu-dss.github.io/soul-of-reason/
 local_image: soul-of-reason.jpg
 original_img: https://nyu-dss.github.io/soul-of-reason/images/uploads/roscoe-brown-IAAA.jpg
-order: '004'
+order: '005'
 layout: project
 ---
