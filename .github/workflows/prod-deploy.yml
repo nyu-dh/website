@@ -24,8 +24,8 @@ jobs:
       - name: build site
         run: bundle exec rake site:build
       # test html
-      #  - name: test html
-      #    run: bundle exec rake site:test
+      - name: test html
+        run: bundle exec rake site:test
       # deploy via ftp
       - name: ftp deploy to host
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
