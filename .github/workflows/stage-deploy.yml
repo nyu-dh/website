@@ -1,0 +1,37 @@
+name: stage deploy
+
+on:
+  push:
+    branches:
+      - staging
+    paths-ignore:
+      - 'docs/**'
+      - 'lib/**'
+      - 'README.md'
+      - '.github/workflows/test*.yml'
+
+jobs:
+  prod-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # setup
+      - uses: actions/checkout@v3
+      - name: setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      # build site
+      - name: build site
+        run: bundle exec rake site:build
+      # test html
+      - name: test html
+        run: bundle exec rake site:test
+      # deploy via ftp
+      - name: ftp deploy to host
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: staging.dh.hosting.nyu.edu
+          username: ${{secrets.FTP_USERNAME_2}}
+          password: ${{secrets.FTP_PASSWORD_2}}
+          state-name: ./.ftp-deploy-sync-state.json
+          local-dir: ./_site/
