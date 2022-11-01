@@ -22,7 +22,7 @@ jobs:
           bundler-cache: true
       # build site
       - name: build site
-        run: bundle exec rake site:build
+        run: bundle exec jekyll build --config _config.yml,_staging.yml
       - name: block indexing
         run: 'mkdir -p _site && echo -e "User-agent: *\nDisallow: /\n" > _site/robots.txt'
       # deploy via ftp
