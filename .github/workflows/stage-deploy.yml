@@ -23,6 +23,8 @@ jobs:
       # build site
       - name: build site
         run: bundle exec rake site:build
+      - name: block indexing
+        run: mkdir -p _site && echo -e "User-agent: *\nDisallow: /\n" > _site/robots.txt
       # deploy via ftp
       - name: ftp deploy to host
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
