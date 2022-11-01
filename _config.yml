@@ -25,7 +25,6 @@ plugins:
   - jekyll-seo-tag
 
 permalink: pretty
-incremental: true
 logo-image-url: images/logo.png
 github_username: 'nyu-dh'
 twitter_username: 'nyu_dh'

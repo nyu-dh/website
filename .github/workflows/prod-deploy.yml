@@ -20,12 +20,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      # build site
-      - name: build site
-        run: bundle exec rake site:build
       # test html
       - name: test html
         run: bundle exec rake site:test
+      # build site
+      - name: build site
+        run: bundle exec rake site:build
       # deploy via ftp
       - name: ftp deploy to host
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
