@@ -14,7 +14,7 @@ Below, Digital Scholarship Graduate Student Specialist Jo Suk interviews Dr. Aye
 
 <hr/>
 
-## What are you most proud of about your project? How have people in your field engaged with your project? Has it helped you find new participants? Have you gotten feedback within your department or industry?
+## What are you most proud of about your project? How have people in your field engaged with your project?
 
 *__E.A.__ We have been incredibly proud of how our collaboration has expanded all of our work - as a historian, I hadn't considered many of the questions that Tega and Ahmed have raised during our many meetings and workshops, and they have also said that moss has expanded the way they think about design. While our participant list for the pilot workshop was smaller than expected because of last-minute covid-related cancellations, we have received incredibly positive feedback from those participants and from colleagues at the New York Botanical Garden and other botanical gardens around the world. Hopefully we'll have more to report in the next few months!*
 
