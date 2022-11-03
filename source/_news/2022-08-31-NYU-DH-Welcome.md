@@ -6,6 +6,8 @@ abstract: |
   A welcome letter to the NYU Digital Humanities list.
 --- 
 
+![NYU DH Doodle](/media/people/dh-list-blast.jpg){: .inline-right }
+
 Dear NYU DH list,
 
 With a new semester starting this week, we wanted to send a welcome to everyone on the [NYU DH list](mailto:nyudh@nyu.edu). We will continue to post to the list about opportunities and resources and we hope you will share your projects with the community!  Simply email [nyudh@nyu.edu](mailto:nyudh@nyu.edu) with your posting. We also encourage faculty to post course descriptions and any public DH syllabuses.
@@ -29,7 +31,5 @@ And stay tuned for details about the **2022 Digital Humanities Showcase** coming
 Can't wait for the DH to come,
 
 Cheers,
-
 Your Digital Scholarship Services team
-
 Zach, Jojo, Marii, and Jo
