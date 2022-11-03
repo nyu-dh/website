@@ -9,9 +9,9 @@ namespace :site do
       check_external_hash: true,
       allow_hash_href: true,
       check_html: true,
-      disable_external: false,
       empty_alt_ignore: true,
       assume_extension: true,
+      disable_external: true,
       only_4xx: true
     }
     HTMLProofer.check_directory('./_site', opts).run

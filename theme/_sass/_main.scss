@@ -272,3 +272,14 @@ figure.image {
     border-bottom: none;
   }
 }
+
+.blog {
+  img.inline-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    word-break: keep-all;
+    hyphens: none;
+  }
+}

@@ -22,13 +22,15 @@ jobs:
           bundler-cache: true
       # build site
       - name: build site
-        run: bundle exec rake site:build
+        run: bundle exec jekyll build --config _config.yml,_staging.yml
+      - name: block indexing
+        run: 'mkdir -p _site && echo -e "User-agent: *\nDisallow: /\n" > _site/robots.txt'
       # deploy via ftp
       - name: ftp deploy to host
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: staging.dh.hosting.nyu.edu
-          username: ${{secrets.FTP_USERNAME_2}}
-          password: ${{secrets.FTP_PASSWORD_2}}
+          server: ${{secrets.FTP_STAGE_SERVER}}
+          username: ${{secrets.FTP_STAGE_USER}}
+          password: ${{secrets.FTP_STAGE_PW}}
           state-name: ./.ftp-deploy-sync-state.json
           local-dir: ./_site/

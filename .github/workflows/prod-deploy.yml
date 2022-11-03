@@ -20,18 +20,18 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      # build site
-      - name: build site
-        run: bundle exec rake site:build
       # test html
       - name: test html
         run: bundle exec rake site:test
+      # build site
+      - name: build site
+        run: bundle exec rake site:build
       # deploy via ftp
       - name: ftp deploy to host
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: website.dh.hosting.nyu.edu
-          username: ${{secrets.FTP_USERNAME_2}}
-          password: ${{secrets.FTP_PASSWORD_2}}
+          server: ${{secrets.FTP_PROD_SERVER}}
+          username: ${{secrets.FTP_PROD_USER}}
+          password: ${{secrets.FTP_PROD_PW}}
           state-name: ./.ftp-deploy-sync-state.json
           local-dir: ./_site/
