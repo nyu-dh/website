@@ -11,4 +11,4 @@ On October 6th, the Division of Libraries, Research and Instructional Technology
 
 Presentations from NYU DH Seed Grants and Digital Humanities Graduate Student Fellowships demonstrated the range and depth of computationally engaged research and pedagogy, digital publication, and humanistic interrogation of technology. Seed Grant Recipients, Ahmed Ansari, Elaine Ayers, Tega Brain, Andrew Spielman, Maria Cabrera Arus, Lauren Kehoe, Jacob Remes, and Ellen Noonan, and DH Graduate Student Fellows Nuala Caomhanach, Lynn Chenel, Fatma Deniz, Ayami Hatanaka, Antonio Musto, Allegra Rosenberg, Helen Stec, Oscar Stuhler, Ryan Zohar were cheered on by over fifty attendees. 
 
-Read project abstracts for 2022 and all past winners at (https://digitalhumanities.nyu.edu/projects/).
+[Read project abstracts for 2022 and all past winners](https://digitalhumanities.nyu.edu/projects/).
