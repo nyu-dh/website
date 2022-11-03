@@ -27,6 +27,9 @@ The DSS team has been working on a new [NYU DH website](digitalhumanities.nyu.ed
 And stay tuned for details about the **2022 Digital Humanities Showcase** coming up October 6, 3:30pm, on Zoom. It's a great opportunity to see DH work of faculty and graduate students happening across NYU.
 
 Can't wait for the DH to come,
+
 Cheers,
+
 Your Digital Scholarship Services team
+
 Zach, Jojo, Marii, and Jo
