@@ -1,6 +1,6 @@
 ---
 title: "2022 Digital Humanities Showcase: Standing Ovation"
-date: 2022-08-31
+date: 2022-10-06
 author: Jojo Karlin
 abstract: |
   A brief recap of the 2022 Digital Humanities Showcase, which featured DH Seed Grant Winners and DH Graduate Student Fellows.
