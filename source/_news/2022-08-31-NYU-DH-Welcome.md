@@ -13,7 +13,7 @@ Dear NYU DH list,
 With a new semester starting this week, we wanted to send a welcome to everyone on the [NYU DH list](mailto:nyudh@nyu.edu). We will continue to post to the list about opportunities and resources and we hope you will share your projects with the community!  Simply email [nyudh@nyu.edu](mailto:nyudh@nyu.edu) with your posting. We also encourage faculty to post course descriptions and any public DH syllabuses.
 
 **NYU DH list: Who? What? How often?**
-NYU DH list is for anyone and everyone at NYU interested in digital humanities, whether as part of their studies or as a side interest. Please invite your friends, students, and colleagues! New students may not know about the list and we want you to share. Sign up at (https://groups.google.com/a/nyu.edu/d/forum/nyudh-group).
+NYU DH list is for anyone and everyone at NYU interested in digital humanities, whether as part of their studies or as a side interest. Please invite your friends, students, and colleagues! New students may not know about the list and we want you to share. Sign up for [nyudh-group](https://groups.google.com/a/nyu.edu/d/forum/nyudh-group).
 Posting will remain light, but if you want to change your list settings or leave the group, learn more at [NYU IT's page about groups](https://www.nyu.edu/life/information-technology/communication-and-collaboration/email-and-communication/nyu-groups.html).
 
 **NYU DH Support: DSS and Data Services here to help!**
@@ -24,7 +24,7 @@ Introduction to Data Services Wednesday, 9/7, 2PM
 Introduction to Digital Scholarship Services Thursday, 9/8, 1pm. 
 
 **NYU DH Website: SO much information!**
-The DSS team has been working on a new [NYU DH website](digitalhumanities.nyu.edu) which showcases [faculty and student projects](https://digitalhumanities.nyu.edu/projects/) and offers ways to get involved and information about funding.
+The DSS team has been working on a new [NYU DH website](https://digitalhumanities.nyu.edu) which showcases [faculty and student projects](https://digitalhumanities.nyu.edu/projects/) and offers ways to get involved and information about funding.
 
 And stay tuned for details about the **2022 Digital Humanities Showcase** coming up October 6, 3:30pm, on Zoom. It's a great opportunity to see DH work of faculty and graduate students happening across NYU.
 
