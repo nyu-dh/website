@@ -5,7 +5,7 @@ author: Jojo Karlin
 abstract: |
   A brief recap of the 2022 Digital Humanities Showcase, which featured DH Seed Grant Winners and DH Graduate Student Fellows.
 --- 
-![Illustration of the 2022 Digital Humanities Showcase by Jojo Karlin](media/news/2022DHShowcase.jpg)
+![Illustration of the 2022 Digital Humanities Showcase by Jojo Karlin](/media/news/2022DHShowcase.jpg)
 
 On October 6th, the Division of Libraries, Research and Instructional Technology, and the Center for Humanities, hosted the 2022 Digital Humanities Showcase to resounding applause. 
 
