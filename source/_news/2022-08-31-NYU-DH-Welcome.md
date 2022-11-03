@@ -6,7 +6,7 @@ abstract: |
   A welcome letter to the NYU Digital Humanities list.
 --- 
 
-![NYU DH Doodle](/media/people/dh-list-blast.jpg){: .inline-right }
+![NYU DH Doodle](/media/news/DH list blast.png){: .inline-right }
 
 Dear NYU DH list,
 
@@ -31,5 +31,7 @@ And stay tuned for details about the **2022 Digital Humanities Showcase** coming
 Can't wait for the DH to come,
 
 Cheers,
+
 Your Digital Scholarship Services team
+
 Zach, Jojo, Marii, and Jo
