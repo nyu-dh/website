@@ -24,7 +24,7 @@ Below, Digital Scholarship Graduate Student Specialist Jo Suk interviews Dr. Aye
 
 ## Did you apply for any other grants?
 
-*__E.A.__ We applied to the NEH Digital Humanities grant in the spring of 2021 and were successful - we are still actively working on the project and are launching a series of workshops, a website, and potential publications over the next year using this NEH funding. We used the seed grant funding in part to help with this NEH grant - we held a pilot workshop and several work sessions to use as evidence for the NEH proposal and were able to hire grad students to help with the process. The NEH has been labor intensive (like most governmental grants), but we are happy to extend our funding into the 2023 academic year.*
+*__E.A.__ We applied to the NEH Digital Humanities grant in the spring of 2021 and were successful - we are still actively working on the project and are launching a series of workshops, a website, and potential publications over the next year using this NEH funding. We used the seed grant funding in part to help with this NEH grant - we held a pilot workshop and several work sessions to use as evidence for the NEH proposal and were able to hire grad students to help with the process.*
 
 
 ## How, if at all, do you plan to build upon your project going forward?
