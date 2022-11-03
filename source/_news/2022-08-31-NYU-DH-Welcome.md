@@ -6,7 +6,7 @@ abstract: |
   A welcome letter to the NYU Digital Humanities list. Digital Scholarship Services explains the NYU DH list.
 --- 
 
-![NYU DH Doodle](/media/news/DH list blast.png){: .inline-right }
+![NYU DH Doodle](/media/news/DH list blast.png)
 
 Dear NYU DH list,
 
