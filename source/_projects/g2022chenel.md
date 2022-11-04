@@ -32,6 +32,7 @@ pis:
 link: https://lynnchenel.com/dopu/
 local_image: g2022chenel.jpg
 original_img: https://drive.google.com/file/d/1-rWnlcFgDDdnKeQjKeKVevOKgtUG0TtJ/view
+hero_image: "/media/banners/g2022chenel.png"
 order: '032'
 layout: project
 ---

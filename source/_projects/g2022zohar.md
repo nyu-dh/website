@@ -31,6 +31,7 @@ pis:
 - zohar
 local_image: g2022zohar.jpg
 original_img: https://drive.google.com/open?id=1pSYt5Rw1FCpnVOQTXtQcqcyhvZGZuQoS
+hero_image: "/media/banners/g2022zohar.jpg"
 order: '045'
 layout: project
 ---

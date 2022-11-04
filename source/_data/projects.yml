@@ -34,6 +34,7 @@
   link: https://brownbros.newyorkscapes.org/
   local_image: brown.jpg
   original_img: https://newyorkscapes.org/wp-content/uploads/2021/03/018.57733030.117d9410-dc97-0136-03f0-000d5d842228-edited-768x768.jpeg
+  hero_image: "/media/banners/brown.jpg"
   order: '000'
 - pid: pep
   done: true
@@ -82,6 +83,7 @@
   - coble
   link: https://digitaltheorylab.org/
   local_image: dtl.jpg
+  hero_image: "/media/projects/dtl.jpg"
   order: '002'
 - pid: hiring-ai
   done: true
@@ -153,6 +155,7 @@
   - ralph
   local_image: slave-insurance.jpg
   original_img: https://www.nyu.edu/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage.img.1280.high.jpg/1647273514669.jpg
+  hero_image: "/media/banners/slave-insurance.jpg"
   order: '004'
 - pid: soul-of-reason
   done: true
@@ -215,33 +218,10 @@
   pis:
   - beinart-smollan
   order: '006'
-- pid: occupy
-  done: true
-  title: No Turning Back
-  subtitle: Ten Years After Occupy
-  featured: true
-  category: Other
-  tags:
-  - exhibition
-  cohort_year: '2021'
-  abstract: This library-based exhibition uses Wax to tell the story of Occupy through
-    historical materials.
-  limerick: |-
-    Downtown, revolutionaries poured
-    Through Zucotti, and archivists stored
-    Their papers. Now this Wax site's
-    All there is (no wealth tax, right?)
-    Because Occupy's got Thermidor'ed.
-  pis:
-  - nyrop
-  link: https://specialcollections.hosting.nyu.edu/exhibitions/occupy/
-  local_image: occupy.jpg
-  original_img: https://image1.dlib.nyu.edu:8183/iiif/2/photo%2Ftamwag_tam630_cuid34928%2Ftamwag_tam630_cuid34928_n000001_d.jp2/full/321,/0/default.jpg
-  order: '007'
 - pid: moss
   done: true
-  title: Thinking With Moss
-  subtitle: Troubling Botanical Archives through Co-Designing Critical Interfaces
+  title: Inverting the Wunderkammer
+  subtitle: Rethinking Digital Humanities through Botanic Histories & Archives
   featured: true
   category: DH Seed Grant Recipient
   tags:
@@ -276,7 +256,8 @@
   - ayers
   - brain
   local_image: moss.jpg
-  original_img: https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage_1928656045.img.1280.high.jpg/1647273469309.jpg
+  image_alt: illustration by Jo Suk
+  hero_image: "/media/banners/moss.jpg"
   order: '008'
 - pid: archcus
   done: true
@@ -375,8 +356,6 @@
   - noonan
   - remes
   link: https://wp.nyu.edu/disasters/covid-collections-project/
-  local_image: covid-collections.jpg
-  original_img: https://images.pexels.com/photos/3786153/pexels-photo-3786153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
   order: '011'
 - pid: dental-tools
   done: true
@@ -569,8 +548,6 @@
     by means of endowments, benefactions, or priesthoods?'
   pis:
   - tsolakis
-  local_image: g2021tsolakis.jpg
-  original_img: https://live.staticflickr.com/5600/15400872168_e299ed41b4_b.jpg
   order: '019'
 - pid: g2021joslyn
   done: true
@@ -655,6 +632,7 @@
   link: https://www.postsoviet90s.com/
   local_image: soviet-sphere.jpg
   original_img: https://images.squarespace-cdn.com/content/v1/59836ba83e00be476e5686a5/1501801511310-OM7GCIPWGCYXIJXIPG8E/image-asset.jpeg?format=1500w
+  hero_image: "/media/projects/soviet-sphere.jpg"
   order: '022'
 - pid: city-record
   done: true
@@ -716,6 +694,7 @@
   link: https://artistarchives.hosting.nyu.edu/Initiative/
   local_image: artists-archive.jpg
   original_img: https://artistarchives.hosting.nyu.edu/Initiative/wp-content/uploads/2021/01/OHVR_PER_PHODOC_1972_AceGalleryLA_RNeiman_JJstudio-prnt005_ImageLink2-1024x679-1.jpg
+  hero_image: "/media/banners/artists-archive.jpg"
   order: '025'
 - pid: aponte
   done: true
@@ -738,6 +717,7 @@
   link: https://aponte.hosting.nyu.edu/
   local_image: aponte.jpg
   original_img: https://aponte.hosting.nyu.edu/wp-content/uploads/2016/07/003.jpg
+  hero_image: "/media/banners/aponte.jpg"
   order: '026'
 - pid: sanger
   done: true
@@ -778,22 +758,6 @@
   local_image: wax.jpg
   original_img: https://minicomp.github.io/wax/img/logo.png
   order: '028'
-- pid: bookworm
-  done: true
-  title: Bookworm
-  category: Other
-  tags:
-  - software
-  - text-analysis
-  - data-visualization
-  abstract: 'Bookworm makes it easy to interactively explore massive collections of
-    texts as data. If you have a huge collection of texts, it provides a way to interpret
-    them, make them explorable, and unlock them to a wide variety of uses even if
-    you can''t share them freely for copyright or other reasons. '
-  pis:
-  - schmidt
-  link: https://github.com/Bookworm-project
-  order: '030'
 - pid: directories
   done: true
   title: New York City Directories Extracted Persons Entries, 1850-1890
@@ -848,6 +812,7 @@
   link: https://lynnchenel.com/dopu/
   local_image: g2022chenel.jpg
   original_img: https://drive.google.com/file/d/1-rWnlcFgDDdnKeQjKeKVevOKgtUG0TtJ/view
+  hero_image: "/media/banners/g2022chenel.png"
   order: '032'
 - pid: g2022caomhanach
   done: true
@@ -987,6 +952,7 @@
   - rosenberg
   local_image: g2022rosenberg.jpg
   original_img: https://drive.google.com/open?id=1LTE_WVB4tJRsS077H75CzscQvEL69S3k
+  hero_image: "/media/banners/g2022rosenberg.png"
   order: '037'
 - pid: g2022musto
   done: true
@@ -1222,6 +1188,7 @@
   - zohar
   local_image: g2022zohar.jpg
   original_img: https://drive.google.com/open?id=1pSYt5Rw1FCpnVOQTXtQcqcyhvZGZuQoS
+  hero_image: "/media/banners/g2022zohar.jpg"
   order: '045'
 - pid: g2022deniz
   done: true
@@ -1254,4 +1221,5 @@
   - deniz
   local_image: g2022deniz.jpg
   original_img: https://drive.google.com/open?id=1juRqvI0mL2_xENMYVjeWClCKYr8OyeQZ
+  hero_image: "/media/banners/g2022deniz.png"
   order: '046'

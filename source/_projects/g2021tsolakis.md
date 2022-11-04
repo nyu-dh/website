@@ -18,8 +18,6 @@ abstract: 'This project asks how, when, and why people in the ancient world were
   benefactions, or priesthoods?'
 pis:
 - tsolakis
-local_image: g2021tsolakis.jpg
-original_img: https://live.staticflickr.com/5600/15400872168_e299ed41b4_b.jpg
 order: '019'
 layout: project
 ---
