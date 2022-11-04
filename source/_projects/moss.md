@@ -1,8 +1,8 @@
 ---
 pid: moss
 done: true
-title: Thinking With Moss
-subtitle: Troubling Botanical Archives through Co-Designing Critical Interfaces
+title: Inverting the Wunderkammer
+subtitle: Rethinking Digital Humanities through Botanic Histories & Archives
 featured: true
 category: DH Seed Grant Recipient
 tags:
@@ -36,7 +36,8 @@ pis:
 - ayers
 - brain
 local_image: moss.jpg
-original_img: https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage_1928656045.img.1280.high.jpg/1647273469309.jpg
+image_alt: illustration by Jo Suk
+hero_image: "/media/banners/moss.jpg"
 order: '008'
 layout: project
 ---

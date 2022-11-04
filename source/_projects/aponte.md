@@ -19,6 +19,7 @@ pis:
 link: https://aponte.hosting.nyu.edu/
 local_image: aponte.jpg
 original_img: https://aponte.hosting.nyu.edu/wp-content/uploads/2016/07/003.jpg
+hero_image: "/media/banners/aponte.jpg"
 order: '026'
 layout: project
 ---

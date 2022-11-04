@@ -8,14 +8,14 @@ namespace :media do
       exit
     end
 
-    width = 300
+    width = 500
 
     Dir.glob("./source/media/{people,projects}/**").each do |path|
       basename = File.basename(path, File.extname(path))
       next if basename == 'default'
 
       image = Vips::Image.new_from_file path
-      next if image.width < 301
+      next if image.width < 501
 
       pathname = File.dirname(path)
       tmppath  = "#{pathname}/#{basename}-tmp.jpg"

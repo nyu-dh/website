@@ -2,6 +2,9 @@
 title: "Seed Grant Spotlight: Inverting the Wunderkammer 🌱"
 date: 2022-11-01
 author: Jo Suk
+hero_image: /media/projects/moss.jpg
+tags:
+  - seed_grants
 abstract: |
   An interview with Elaine Ayers, Assistant Professor of the History of Science, Gallatin School
 ---  

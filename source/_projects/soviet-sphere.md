@@ -29,6 +29,7 @@ pis:
 link: https://www.postsoviet90s.com/
 local_image: soviet-sphere.jpg
 original_img: https://images.squarespace-cdn.com/content/v1/59836ba83e00be476e5686a5/1501801511310-OM7GCIPWGCYXIJXIPG8E/image-asset.jpeg?format=1500w
+hero_image: "/media/projects/soviet-sphere.jpg"
 order: '022'
 layout: project
 ---
