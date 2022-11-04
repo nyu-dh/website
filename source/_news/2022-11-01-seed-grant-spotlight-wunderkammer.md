@@ -37,4 +37,4 @@ Read more about [Inverting the Wunderkammer: Rethinking the Digital Humanities t
 
 The DH Seed Grants are administered and funded by NYU Libraries, the Center for the Humanities, and NYU Research and Instructional Technology. The goal of the program is to sponsor the initial development of projects that may go on to receive greater funding from external sources or otherwise build NYU’s institutional capacity in Digital Humanities work. We especially welcome projects that give voice or expression to underrepresented communities and that engage with the urban fabric of the cities in which NYU has campuses.
 
-You can also read more about the [NYU DH Seed Grant program](/funding/seed-grants) and keep a eye out for our call for proposals for the 2023-2024 cohort in December.
+You can also read more about the [NYU DH Seed Grant program](/funding/seed-grants) and keep an eye out for our call for proposals for the 2023-2024 cohort in December.
