@@ -1,14 +1,16 @@
 ---
 title: "Virtual Dental Museum: Historical Artifacts Go Digital"
 date: 2022-11-15
-author: Claire Gu
+author: NYU IT
 tags:
   - seed_grants
 abstract: |
   Highlights from an NYU DH seed grant project led by Dr. Andrew Spielman.
 ---  
 
-**The following article is cross-posted from its original source in NYU IT's *[The Download](https://www.nyu.edu/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum.html?utm_source=newsletter&utm_medium=email&utm_content=Virtual%20Dental%20Museum%3A%20Historical%20Artifacts%20Go%20Digital&utm_campaign=thedownload)*. It highlights *[Creating a Digital Museum of the History of Dentistry](/projects/dental-tools/)*, a project funded by the [NYU DH Seed Grants program](/funding/seed-grants/).**
+**The following article was written by Claire Gu and was originally published in NYU IT's *[The Download](https://www.nyu.edu/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum.html?utm_source=newsletter&utm_medium=email&utm_content=Virtual%20Dental%20Museum%3A%20Historical%20Artifacts%20Go%20Digital&utm_campaign=thedownload)*. It highlights *[Creating a Digital Museum of the History of Dentistry](/projects/dental-tools/)*, a project funded by the [NYU DH Seed Grants program](/funding/seed-grants/).**
+
+**You can get more great news from NYU IT by subscribing to [their feed](https://app.e2ma.net/app2/audience/signup/1918534/1914519.1158210199/).**
 
 ---
 {% include content/image-caption.html
