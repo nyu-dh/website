@@ -1,0 +1,16 @@
+<div class="columns is-centered">
+  <div class="column is-half">
+    <figure style="background: #F5EADF;padding: 1rem; height: 100%;">
+      <img src="{{ include.img }}" alt="{{ include.alt }}">
+      <figcaption style="font-size:.8rem;line-height:1rem;">{{ include.caption | default: include.alt }}</figcaption>
+    </figure>
+  </div>
+  {% if include.img2 %}
+  <div class="column is-half">
+    <figure style="background: #F5EADF;padding: 1rem; height: 100%;">
+      <img src="{{ include.img2 }}" alt="{{ include.alt2 }}">
+      <figcaption style="font-size:.8rem;line-height:1rem;">{{ include.caption2 | default: include.alt2 }}</figcaption>
+    </figure>
+  </div>
+  {% endif %}
+</div>
