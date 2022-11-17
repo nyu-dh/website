@@ -1,5 +1,5 @@
 ---
-title: "Seed Grant Spotlight: Inverting the Wunderkammer 🌱"
+title: "Seed Grant Spotlight: Inverting the Wunderkammer"
 date: 2022-11-01
 author: Jo Suk
 hero_image: /media/projects/moss.jpg
