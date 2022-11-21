@@ -2,7 +2,7 @@
 title: "Seed Grant Spotlight: Archive of Cuban Socialism (ArchCuS)"
 date: 2022-11-21
 author: Jo Suk
-hero_image: 
+hero_image: /media/projects/ArchCuS.png
 tags:
   - seed_grants
 abstract: |
