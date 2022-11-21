@@ -2,7 +2,7 @@
 title: "Seed Grant Spotlight: Archive of Cuban Socialism (ArchCuS)"
 date: 2022-11-21
 author: Jo Suk
-hero_image: /media/projects/ArchCuS.png
+hero_image: /media/projects/archcus.png
 tags:
   - seed_grants
 abstract: |
@@ -10,7 +10,7 @@ abstract: |
 ---  
 ![portrait of Dr. Maria Cabrera Arús](/media/people/cabrera-arus.jpg){: .inline-right } The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
 
-Dr. Cabrera Arús was selected for a 2021-2022 NYU DH Seed Grant for her project “Archive of Cuban Socialism (ArchCuS)”. 
+Dr. Cabrera Arús was selected for a 2021-2022 NYU DH Seed Grant for her project “Archive of Cuban Socialism (ArchCuS)”.
 
 Below, Digital Scholarship Graduate Student Specialist Jo Suk interviews Dr. Cabrera Arús.
 
