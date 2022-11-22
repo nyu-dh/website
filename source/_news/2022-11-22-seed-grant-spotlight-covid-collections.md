@@ -2,7 +2,7 @@
 title: "Seed Grant Spotlight: Covid Collections"
 date: 2022-11-22
 author: Jo Suk
-hero_image: 
+hero_image: /media/news/covid_collections.png
 tags:
   - seed_grants
 abstract: |
