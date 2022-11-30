@@ -283,6 +283,8 @@
     Caribbean, Latin American, and state socialist studies. '
   pis:
   - cabrera-arus
+  local_image: archcus.png
+  hero_image: "/media/projects/archcus.png"
   order: '009'
 - pid: zinecat
   done: true

@@ -11,7 +11,7 @@ on:
       - '.github/workflows/test*.yml'
 
 jobs:
-  prod-deploy:
+  stage-deploy:
     runs-on: ubuntu-latest
     steps:
       # setup
