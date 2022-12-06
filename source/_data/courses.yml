@@ -103,7 +103,7 @@
   title: Introduction to Programming
   semester: Fall 2022
   program: DHSS
-  faculty: Ben Schmidt
+  faculty: Marc Bacchus
   day: Tuesday
   time: 6:20-9:20 pm
   description: Provides an introduction to the practice, history, and principles of
@@ -116,7 +116,7 @@
   title: Working with Data
   semester: Spring 2023
   program: DHSS
-  faculty: Ben Schmidt
+  faculty: Christine Roughan
   description: 'Data analysis in the humanities presents challenges of scale, interpretation,
     and communication distinct from the social sciences and sciences. In recent years,
     a number of new practices in this sphere have begun to cohere: “cultural analytics,”
@@ -134,6 +134,8 @@
   semester: Spring 2023
   program: DHSS
   faculty: Zach Coble
+  day: Tuesday
+  time: 6:20-9:20 pm
   description: This course provides a project-based approach to web programming and
     development. Students will study the principles of web design and each student
     will build two distinct websites based on topics relevant to their interests.
@@ -142,25 +144,6 @@
     A deeper understanding of these topics will help you make better decisions not
     only in your own web development practice but also in sharing your work more effectively.
   order: '008'
-- pid: 1137-sp23
-  done: true
-  number: CEH-GA.1137
-  title: 'Digital Humanities: Analysis and Visualization'
-  semester: Spring 2023
-  program: XE
-  faculty: Kimon Keramidas
-  description: This course will consider how the analysis and visualization of information
-    through digital technologies has significantly changed the way we look at our
-    world both within the academic community and in society at large. The data portion
-    of the class will begin with an understanding of the ontologies of data and metadata
-    and address analysis techniques such as distant reading, topic modeling, text
-    encoding, and text analysis. The visualization portion of the class will interrogate
-    just what it means to visualize an argument and will include both a critique of
-    and experimentation with timelines, maps, infographics, charts, and visual confections
-    that are used as alternatives to textual explanation. We will work with digital
-    tools for analyzing and visualizing humanities data, such as AbbyFine, Voyant,
-    Topic Modeling Tool, ArcGIS, and Agisoft Metashape.
-  order: '009'
 - pid: 3040-fa22
   done: true
   number: CINE-GT.3040
@@ -187,3 +170,35 @@
     creating their own final projects to address significant research questions related
     to Cinema Studies and other fields.
   order: '013'
+- pid: 3023-sp23
+  done: true
+  number: ISAW-GA 3023
+  title: Graph Databases, Network Analysis (Special Topics in Digital Humanities for
+    the Ancient World)
+  semester: Spring 2023
+  program: ISAW
+  faculty: Sebastian Heath
+  day: Monday
+  time: 2:00-5:00pm
+  order: '014'
+- pid: 2018-sp23
+  done: true
+  number: ENYC-GE 2018
+  title: Environmental Justice through Digital Empowerment
+  semester: Spring 2023
+  program: Environmental Education
+  faculty: Raul Lejano and Carlos Restrepo
+  day: Tuesday
+  time: 5:00-6:30 pm
+  description: This spring, the NYU Environmental Education program is offering a
+    class on Environmental Justice and GIS. Digital mapping is a way of representing
+    claims we make about justice and the use of space, whether this be the phenomenon
+    of food deserts, resilience of coastal communities, sustainability of urban ecological
+    habitat, or exposure of children to air toxics. Students are not required to have
+    any knowledge of GIS entering the class. In class, four sessions at the computer
+    lab will be used to build a working knowledge of GIS, so that students will be
+    able to design and create maps using ArcGIS. These lab sessions require in-person
+    attendance and, so, there is no zoom option for this class. The meetings will
+    require, in total, eight in-class meetings (including the labs), and six or so
+    online meetings.
+  order: '015'
