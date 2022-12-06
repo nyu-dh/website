@@ -19,9 +19,7 @@ NYU Digital Humanities Faculty Seed Grants are awarded annually and must be spen
 
 * April: Decisions announced, funds available for summer work.
 
-* May: Funds available.
-
-* August of the year applying: Funds must be transferred to the receiving department.
+* September: Funds available.
 
 * August of the next year: Project end date, funds must be spent down.
 
