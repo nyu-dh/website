@@ -1,7 +1,5 @@
 # Adding and Editing Courses
 
-2. Data from the spreadsheet is pulled in by the site and parsed into a YAML file for the Jekyll to use. 
-
 ## Steps
 
 1. Find the Courses Google Sheet (in `NYU DH Website > Site Data`)
