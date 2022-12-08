@@ -2,9 +2,11 @@
 
 ## Steps
 
-1. People are added as rows in the Google Sheet following the [rules below](#schema-rules-and-behavior).
-2. If applicable, people images are downloaded to the appropriate file path. (See: link TODO)
-3. Data is fetched and parsed into a YAML file for the Jekyll site to use. (See: [Pulling Data](pull-data-from-google-sheets.md))
+1. Find the Courses Google Sheet (in `NYU DH Website > Site Data`)
+2. Edit and/or add new courses in the sheet following the [rules below](#schema-rules-and-behavior).
+3. Add people image files (as needed!) to the site's `source/media/people` folder. The actual file should be named as the person's `pid`, e.g., `nyrop.jpg`
+4. When you're ready, pull the updated spreadsheet data into the site build. (See: [Pulling Data](pull-data-from-google-sheets.md))
+
 
 ## Schema Rules and Behavior
 
