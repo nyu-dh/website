@@ -4,7 +4,7 @@ date: 2022-05-20
 featureUntil: 2022-08-01
 author: Jojo Karlin
 tags:
-- grad-fellows
+  - grad_fellows
 abstract: |
   Meet the recipients of the 2022 NYU Digital Humanities Graduate Student Fellows, sponsored by the NYU Center for Humanities, NYU Libraries, and NYU Research Technology.
 ---
@@ -13,7 +13,7 @@ The Center for the Humanities, NYU Libraries, and NYU Research Technology fund t
 
 We are excited to announce this year's cohort of funded fellows. Congratulations to them all!
 
----------
+---
 
 ## NYU DH Graduate Fellows 2022 Cohort
 

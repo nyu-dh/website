@@ -23,6 +23,7 @@ abstract: 'The proposed Archive of Cuban Socialism (ARCHCUS) will document and a
   studies. '
 pis:
 - cabrera-arus
+link: https://archcus.org/
 local_image: archcus.png
 hero_image: "/media/projects/archcus.png"
 order: '009'
