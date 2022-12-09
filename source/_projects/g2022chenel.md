@@ -4,7 +4,7 @@ done: true
 title: The Directory of Placenames Unforgotten
 category: Grad Fellowship Project
 tags:
-- mapping
+- spatial-humanities
 - text-analysis
 cohort_year: '2022'
 abstract: 'We make sense of the spatial world around us by dividing it into smaller
