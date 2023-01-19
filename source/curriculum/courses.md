@@ -16,15 +16,17 @@ contents_links:
     link: '/people/affiliated-faculty/'
 ---
 {% assign current_semester =  site.data.courses | where: 'semester', site.semester.current %}
-{% if current_semester.size  > 0 %}
 <h2 id="current-semester">{{ site.semester.current }}</h2>
-
+{% if current_semester.size  > 0 %}
 {% include cards/courses.html data=current_semester %}
+{% else %}
+No courses are currently posted for this semester. Check back!
 {% endif %}
 
 {% assign next_semester =  site.data.courses | where: 'semester', site.semester.next %}
-{% if next_semester.size  > 0 %}
 <h2 id="upcoming-semester">{{ site.semester.next }}</h2>
-
+{% if next_semester.size  > 0 %}
 {% include cards/courses.html data=next_semester %}
+{% else %}
+No courses are currently posted for this semester. Check back!
 {% endif %}
