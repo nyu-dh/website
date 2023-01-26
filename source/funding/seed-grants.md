@@ -3,15 +3,19 @@ title: NYU DH Seed Grants
 layout: default
 subtitle: |
   The multi-year seed grants program identifies and funds faculty-led projects that creatively bridge humanistic scholarship with new forms of computation, digital publishing, and digitization.
+hero_buttons:
+  - label: "2023 Applications Open – Apply Now!"
+    link: "https://nyuhumanities.org/opportunity/digital-humanities-seed-grants/"
+    external: true
 contents_links:
-  - label: 'Seed Grant News'
-    link: '#seed-grant-news'
-  - label: 'Funded Projects'
-    link: '#funded-projects'
-  - label: 'FAQ'
-    link: 'faq'
-  - label: 'Grant Cycle Information'
-    link: 'grant-cycles'
+  - label: "Seed Grant News"
+    link: "#seed-grant-news"
+  - label: "Funded Projects"
+    link: "#funded-projects"
+  - label: "FAQ"
+    link: "faq"
+  - label: "Grant Cycle Information"
+    link: "grant-cycles"
 ---
 
 <div class="container">
@@ -19,6 +23,7 @@ contents_links:
 The Center for the Humanities, NYU Libraries, and NYU Research Technology fund the initial development of new research projects that will analyze digital sources, apply algorithmic methods to humanities data, or create digital publications, exhibits, or websites. The goal of the program is to seed projects that may go on to receive greater funding from other sources or otherwise build NYU’s institutional capacity in Digital Humanities work.
 
 Grants may range in size between $5,000 and $20,000. Collaborative projects are encouraged, but must include at least one NYU faculty member in the humanities. Additional resources may be made available for those proposing computationally intensive work utilizing NYU’s high performance computing cluster and similar [Research & Instructional Technology resources](https://www.nyu.edu/research/navigating-research-technology.html). We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
+
   </div>
 </div>
 
@@ -32,6 +37,7 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
     <p>
       <a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All</a>
     </p>
+
   </div>
 </section>
 
@@ -76,5 +82,6 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
         </ul>
       {% endif %}
     </div>
+
   </div>
 </section>

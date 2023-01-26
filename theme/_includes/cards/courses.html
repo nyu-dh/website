@@ -23,10 +23,12 @@
       {{ course.number }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ course.semester }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ course.faculty }}
     </p>
 
+    {% if course.description.size > 0 %}
     <details>
       <summary>Course description</summary>
       <p>{{ course.description }}</p>
     </details>
+    {% endif %}
   </div>
 </article>
 {% endfor %}
