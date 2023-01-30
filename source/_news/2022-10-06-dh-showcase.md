@@ -1,5 +1,7 @@
 ---
 title: "2022 Digital Humanities Showcase: Standing Ovation"
+eyebrow:
+ label: announcement
 date: 2022-10-06
 author: Jojo Karlin
 abstract: |

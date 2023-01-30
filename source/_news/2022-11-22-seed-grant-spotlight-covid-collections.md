@@ -1,5 +1,7 @@
 ---
-title: "Seed Grant Spotlight: Covid Collections"
+title: "Ellen Noonan on <i>Covid Collections</i>"
+eyebrow:
+ label: seed grant spotlight
 date: 2022-11-22
 author: Jo Suk
 hero_image: /media/news/covid_collections.png

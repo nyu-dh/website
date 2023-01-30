@@ -1,7 +1,7 @@
 <nav class="navbar is-black">
   <div class="container" style="display:flex;justify-content:left;align-items:center;flex-wrap:wrap;padding:.5rem">
     <a class="logo" href="https://nyu.edu" target="_blank">
-      <img src="{{ 'assets/logo.png' | absolute_url }}" alt="NYU Torch Logo" style="height:1rem;margin-top:.6rem;">
+      <img src="{{ 'assets/logo.png' | absolute_url }}" alt="NYU Torch Logo" style="height:1rem;margin-top:.4rem;">
     </a>
     {% if site.data.navigation %}
       {% for item in site.data.units %}
@@ -14,38 +14,3 @@
   </div>
 </nav>
 
-<nav class="navbar is-spaced is-info" aria-label="main navigation">
-  <div class="container">
-    <div class="navbar-brand" style="margin-left:0;">
-      <a href="{{ '/' | absolute_url }}" class="navbar-item is-size-5 fancy-font" style="font-weight:bold;background-color:#F5EADF;color:#321650">
-      NYU DH
-      </a>
-      <span class="navbar-burger has-text-white" data-target="navbar" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-    </div>
-    <div class="navbar-menu">
-
-      <div class="navbar-end">
-        {% if site.data.navigation %}
-          {% for item in site.data.navigation %}
-            {% if item.dropdown %}
-            <div class="navbar-item is-size-6 has-dropdown is-hoverable">
-              <span class="navbar-link group-header">{{ item.name }}</span>
-              <div class="navbar-dropdown">
-                {% for subitem in item.dropdown %}
-                <a href="{{ subitem.link | relative_url }}" class="navbar-item">{{ subitem.name }}</a>
-                {% endfor %}
-              </div>
-            </div>
-            {% else %}
-            <a href="{{ item.link | relative_url }}" class="navbar-item is-size-6">{{ item.name }}</a>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-      </div>
-    </div>
-  </div>
-</nav>

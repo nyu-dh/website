@@ -1,5 +1,7 @@
 ---
 title: Meet the 2021 NYU DH Graduate Fellows
+eyebrow:
+ label: announcement
 date: 2021-05-01
 featureUntil: 2022-09-01
 author: Jojo Karlin

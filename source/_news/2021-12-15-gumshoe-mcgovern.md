@@ -1,5 +1,7 @@
 ---
 title: Gumshoe Wins $200k McGovern Foundation Grant
+eyebrow:
+ label: announcement
 date: 2021-12-15
 featureUntil: 2022-12-14
 tags:

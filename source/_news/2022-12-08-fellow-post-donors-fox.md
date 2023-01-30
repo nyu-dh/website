@@ -1,7 +1,10 @@
 ---
-title: 'Graduate Fellow Update: "Donors of the Fox"'
+title: 'Allegra Rosenberg on <i>Donors of the Fox</i>'
+eyebrow:
+ label: graduate fellow spotlight
 date: 2022-12-08
 author: Allegra Rosenberg
+hero_image: /media/projects/g2022rosenberg.jpg
 tags:
   - grad_fellows
 abstract: |

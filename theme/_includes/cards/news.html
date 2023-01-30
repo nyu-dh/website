@@ -3,15 +3,25 @@
   {% for item in data | limit: include.limit %}
     <div class="column is-one-third">
       <div class="card hover-zoom">
+        <div class="card-image">
+          <figure class="image is-3by1">
+            {% if item.hero_image %}
+            <img class="img-fit" src="{{ item.hero_image | absolute_url }}" alt="TO DO">
+            {% endif %}
+          </figure>
+        </div>
         <div class="card-content">
           <div class="content">
-            <p class="subtitle is-size-6 pb-3">
-              {% if item.event %}
-              <i class="far fa-calendar-alt"></i><b> Event</b>
-              {% else %}
-              <i class="far fa-newspaper"></i><b> News</b>
-              {% endif %}
-            </p>
+            {% if item.eyebrow %} 
+              <p class="eyebrow">
+                {%- if item.event -%}
+                <i class="far fa-calendar-alt"></i>&nbsp;&nbsp;
+                {%- else -%}
+                <i class="far fa-newspaper"></i>&nbsp;&nbsp;
+                {%- endif -%}
+                {{ item.eyebrow.label }}
+              </p>
+            {% endif %}
             <p class="title is-size-5">
               <a href="{{ item.url }}">
                 {{ item.title }}
@@ -24,8 +34,7 @@
               PUBLISHED {{ item.date | date: "%b %d, %Y" | upcase }}
               {% endif %}
             </p>
-            <p class="sm-lines" style="font-size:.8rem">{{ item.abstract | truncatewords: 14 }}</p>
-            <!-- <a class="is-size-7 has-text-dark is-underlined" href="{{ item.url | absolute_url }}">Read more</a> -->
+            <!-- <p class="sm-lines" style="font-size:.8rem">{{ item.abstract | truncatewords: 14 }}</p> -->
           </div>
         </div>
       </div>

@@ -1,16 +1,16 @@
 
-<footer class="footer">
+<footer class="footer has-text-white has-background-grey-darker">
   <div class="container">
     <div class="columns">
       {% for col in site.data.footer_menu.columns %}
       <div class="column">
-        <p class="has-text-bold is-size-7">
-          <span style="border-bottom: 1px solid black;">{{ col[0] }}</span>
+        <p class="has-text-bold has-text-white is-size-7">
+          <span style="border-bottom: 1px solid white;">{{ col[0] }}</span>
         </p>
         <ul class="is-size-6">
           {% for item in col[1] %}
           <li>
-            <a href="{{ item.link | relative_url }}" class="link" {% if item.link contains 'http' %}target="_blank"{% endif %}>
+            <a href="{{ item.link | relative_url }}" class="has-text-white" {% if item.link contains 'http' %}target="_blank"{% endif %}>
               {{ item.name }}
             </a>
           </li>

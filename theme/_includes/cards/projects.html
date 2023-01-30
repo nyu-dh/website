@@ -1,7 +1,7 @@
 {% assign projects = include.data %}
 <section class="{% if include.full_width == true and page.layout == 'default' %}full-width py-3 px-5{% endif %}">
   <div class="columns is-multiline is-vcentered">
-    {% for project in projects %}
+    {% for project in projects | limit: include.limit %}
       <div class="column is-4 full-h">
         <div class="card hover-zoom is-relative full-h">
           <div class="card-image">
@@ -17,10 +17,9 @@
             </p>
             <p class="is-size-6 sm-lines">{{ project.subtitle }}</p>
             {% if project.tags %}
-            {% comment %}style="position:absolute;top:.5rem;right:.5rem;text-align:right;z-index:1000;margin-left:.5rem;"{% endcomment %}
             <div class="tags mt-4">
               {% for tag in project.tags %}
-                <a href="/projects/tag/{{ tag | slugify }}" class="tag is-link is-light is-small">#{{ tag | slugify }}</a>
+                <a href="/projects/tag/{{ tag | slugify }}" class="tag is-link is-success is-small">#{{ tag | slugify }}</a>
               {% endfor %}
             </div>
             {% endif %}
