@@ -14,5 +14,9 @@ contents_links:
       link: 'alumni'
 ---
 
+<div class="container">
+
 {% assign people = site.data.people | where: 'affiliated', true | sort: 'order' %}
 {% include cards/people.html data=people full_width=false %}
+
+</div>

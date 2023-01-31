@@ -16,6 +16,10 @@ contents_links:
   - label: 'Affiliated Teaching Faculty'
     link: '/people/affiliated-faculty/'
 ---
+
+<div class="container">
+<div class="content" markdown="1">
+
 {% assign current_semester =  site.data.courses | where: 'semester', site.semester.current %}
 <h2 id="current-semester">{{ site.semester.current }}</h2>
 {% if current_semester.size  > 0 %}
@@ -31,3 +35,6 @@ No courses are currently posted for this semester. Check back!
 {% else %}
 No courses are currently posted for this semester. Check back!
 {% endif %}
+
+</div>
+</div>

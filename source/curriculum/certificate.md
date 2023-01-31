@@ -7,6 +7,9 @@ hero_buttons:
     link: 'https://forms.gle/gtwiFxP67e4c6nU16'
 ---
 
+<div class ="container">
+<div class ="content" markdown="1">
+
 The [Advanced Certificate in Digital Humanities](https://as.nyu.edu/dhss/advanced-certificate.html) trains
 students in the creative and critical work of productively bringing digital methods to issues in the humanities fields.
 Students learn the fundamentals of programming,
@@ -27,3 +30,6 @@ Most certificate program students are enrolled through joint degrees with GSAS d
 
 There are also ways to learn Digital Humanities without formally enrolling in coursework.
 The [NYU Library offers workshops](https://nyu.libcal.com/) led by Data Services, Digital Scholarship Services, and High Performance Computing.
+
+</div>
+</div>
