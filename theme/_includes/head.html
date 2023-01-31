@@ -10,10 +10,10 @@
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
     <title>
-      {% if page.title == site.title %}
-        {{ site.title }}
+      {% if page.home %}
+        {{ site.title | strip_html }}
       {% else %}
-        {{ page.title }} | {{ site.title }}
+        {{ page.title | strip_html }} | {{ site.title | strip_html }}
       {% endif %}
     </title>
 

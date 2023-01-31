@@ -304,26 +304,26 @@ html {
 //   }
 // }
 
-// .blog {
-//   img.max-h250 {
-//     max-height: 250px;
-//   }
-//   img.max-w250 {
-//     max-width: 250px;
-//   }
-//   img.inline-right {
-//     float: right;
-//     margin: 0 0 1rem 1rem;
-//   }
-//   img.inline-left {
-//     float: left;
-//     margin: 0 1rem 1rem 0;
-//   }
-//   h1, h2, h3, h4, h5, h6 {
-//     word-break: keep-all;
-//     hyphens: none;
-//   }
-// }
+.blog {
+  img.max-h250 {
+    max-height: 250px;
+  }
+  img.max-w250 {
+    max-width: 250px;
+  }
+  img.inline-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+  }
+  img.inline-left {
+    float: left;
+    margin: 0 1rem 1rem 0;
+  }
+  // h1, h2, h3, h4, h5, h6 {
+  //   word-break: keep-all;
+  //   hyphens: none;
+  // }
+}
 
 
 .eyebrow {
