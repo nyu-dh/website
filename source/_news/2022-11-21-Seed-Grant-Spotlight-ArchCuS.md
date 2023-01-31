@@ -1,7 +1,7 @@
 ---
 title: "Maria Cabrera Arús on <i>Archive of Cuban Socialism</i>"
-eyebrow:
- label: seed grant spotlight
+category: post
+series: seed grant spotlight
 date: 2022-11-21
 author: Jo Suk
 hero_image: /media/projects/archcus.png

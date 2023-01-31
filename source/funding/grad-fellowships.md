@@ -33,35 +33,24 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
   </div>
 </div>
 
-<hr>
+<div class="container mb-4">
+  <div class="content post-content">
+    <h2 class="is-size-3 pb-3" id="grad-fellow-news">Graduate Fellow News</h2>
+  </div>
 
-<section class="section full-width">
-  <div class="container">
-    <div class="content post-content mb-6">
-      <h2 class="is-size-3" id="past-fellows">Current and Past Fellows</h2>
+  {% assign grad_news = site.news | where: 'series', 'graduate fellow spotlight' %}
+  {% include cards/news.html data=grad_news limit=3 %}
+</div>
 
-      {% assign fellow2022 = site.projects | where: 'cohort_year', '2022' | where_exp: "i", "i.category contains 'Fellowship'" %}
-      {%- if fellow2022.size > 0 -%}
-        <h3 class="is-size-4">2022</h3>
-        <ul>
-          {%- for p in fellow2022 -%}
-            {%- assign piid = p.pis.first -%}
-            {%- assign pi = site.data.people | find: 'pid', piid %}
-            <li>
-              {%- if pi.size -%}<b>{{ pi.name }}</b>, {{ pi.titles }}&nbsp;—&nbsp;{%- endif -%}
-              <a class="is-italic" href="{{ p.url | absolute_url }}">
-                {{ p.title }}{%- if p.subtitle.size > 0 -%}:&nbsp;{{ p.subtitle }}{%- endif -%}
-              </a>
-            </li>
-          {%- endfor -%}
-        </ul>
-      {%- endif -%}
+<div class="container mt-6">
+  <div class="content post-content">
+    <h2 class="is-size-3" id="past-fellows">Current and Past Fellows</h2>
 
-      {% assign fellow2021 = site.projects | where: 'cohort_year', '2021' | where_exp: "i", "i.category contains 'Fellowship'" %}
-      {% if fellow2021.size > 0 -%}
-        <h3 class="is-size-4">2021</h3>
-        <ul>
-        {%- for p in fellow2021 -%}
+    {% assign fellow2022 = site.projects | where: 'cohort_year', '2022' | where_exp: "i", "i.category contains 'Fellowship'" %}
+    {%- if fellow2022.size > 0 -%}
+      <h3 class="is-size-4">2022</h3>
+      <ul>
+        {%- for p in fellow2022 -%}
           {%- assign piid = p.pis.first -%}
           {%- assign pi = site.data.people | find: 'pid', piid %}
           <li>
@@ -71,10 +60,26 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
             </a>
           </li>
         {%- endfor -%}
-        </ul>
-      {% endif %}
+      </ul>
+    {%- endif -%}
 
-    </div>
+    {% assign fellow2021 = site.projects | where: 'cohort_year', '2021' | where_exp: "i", "i.category contains 'Fellowship'" %}
+    {% if fellow2021.size > 0 -%}
+      <h3 class="is-size-4">2021</h3>
+      <ul>
+      {%- for p in fellow2021 -%}
+        {%- assign piid = p.pis.first -%}
+        {%- assign pi = site.data.people | find: 'pid', piid %}
+        <li>
+          {%- if pi.size -%}<b>{{ pi.name }}</b>, {{ pi.titles }}&nbsp;—&nbsp;{%- endif -%}
+          <a class="is-italic" href="{{ p.url | absolute_url }}">
+            {{ p.title }}{%- if p.subtitle.size > 0 -%}:&nbsp;{{ p.subtitle }}{%- endif -%}
+          </a>
+        </li>
+      {%- endfor -%}
+      </ul>
+    {% endif %}
 
   </div>
-</section>
+
+</div>

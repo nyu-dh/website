@@ -3,6 +3,7 @@ title: Congratulations to the 2022 NYU DH Graduate Fellows!
 date: 2022-05-20
 featureUntil: 2022-08-01
 author: Jojo Karlin
+category: announcement
 tags:
   - grad_fellows
 abstract: |

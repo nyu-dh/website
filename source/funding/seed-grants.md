@@ -27,19 +27,14 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
   </div>
 </div>
 
-<section class="section full-width is-bg-alt">
-  <div class="container content post-content">
-    <h2 class="is-size-3 pb-3" id="seed-grant-news">Seed Grant News</h2>
-
-    {% assign seed_news = site.news | where_exp: "i", "i.tags contains 'seed_grants'" %}
-    {% include cards/news.html data=seed_news limit=3 %}
-
-    <p>
-      <a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All</a>
-    </p>
-
+<div class="container">
+  <div class="content post-content">
+    <h2 class="is-size-3 pb-3" id="seed-grant-news">Seed Grant Spotlight</h2>
   </div>
-</section>
+
+  {% assign seed_news = site.news | where: 'series', 'seed grant spotlight' %}
+  {% include cards/news.html data=seed_news limit=3 %}
+</div>
 
 <section class="section full-width">
   <div class="container">

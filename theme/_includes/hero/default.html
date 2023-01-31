@@ -1,15 +1,16 @@
-{%- if page.hero_image -%}
 {%- capture img_style -%}
 style="
+  {%- if page.hero_image -%}
   background-image: url('{{ page.hero_image | absolute_url }}');
-  background-color: #340934ba;
+  {%- endif -%}
+  background-color: #340934e3;
   background-size: cover;
   background-blend-mode: darken;
   background-position: bottom center;
   background-attachment: fixed;
 "
 {%- endcapture -%}
-{%- endif -%}
+
 
 
 <section class="hero is-primary has-text-white" {{ img_style }}>

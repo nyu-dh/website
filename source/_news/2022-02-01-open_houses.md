@@ -2,6 +2,7 @@
 title: NYU DH Graduate Fellowships Open House Sessions
 date: 2022-02-01
 author: Jojo Karlin
+category: event
 event: true
 featureUntil: 2022-03-01
 eventDate: 2022-02-18

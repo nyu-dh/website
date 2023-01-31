@@ -1,7 +1,6 @@
 ---
 title: "NYU Digital Humanities Fall Welcome"
-eyebrow:
- label: announcement
+category: announcement
 date: 2022-08-31
 author: Jojo Karlin
 abstract: |

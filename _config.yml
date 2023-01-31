@@ -1,7 +1,9 @@
 title: 'New York University Digital Humanities'
 short_title: 'NYU DH'
+# tagline: >
+#   The Digital Humanities Initiative at [University Name] aims to integrate technology with the study of humanities subjects, creating new methods for research, teaching, and preservation. Our interdisciplinary approach combines expertise in the humanities, computer science, and information technology to explore digital approaches to cultural heritage, text analysis, and multimedia projects. Through our research and educational programs, we strive to advance digital literacy and facilitate innovative collaborations between scholars, students, and cultural organizations.
 tagline: >
-  NYU Digital Humanities focuses on new technologies, advanced computing, and public engagement to inform and interrogate humanistic inquiry.
+  We focus on new technologies, advanced computing, and public engagement to inform and interrogate humanistic inquiry.
 limerick: >
   Welcome to the NYU DH Periphery /
   Out here things are rather slippery /
