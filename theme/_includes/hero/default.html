@@ -1,9 +1,7 @@
-{% comment %}
+{%- if page.hero_image -%}
 {%- capture img_style -%}
 style="
-  {%- if page.hero_image -%}
   background-image: url('{{ page.hero_image | absolute_url }}');
-  {%- endif -%}
   background-color: #340934ba;
   background-size: cover;
   background-blend-mode: darken;
@@ -11,7 +9,7 @@ style="
   background-attachment: fixed;
 "
 {%- endcapture -%}
-{% endcomment %}
+{%- endif -%}
 
 
 <section class="hero is-primary has-text-white" {{ img_style }}>

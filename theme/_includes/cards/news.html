@@ -5,9 +5,7 @@
       <div class="card hover-zoom">
         <div class="card-image">
           <figure class="image is-3by1">
-            {% if item.hero_image %}
-            <img class="img-fit" src="{{ item.hero_image | absolute_url }}" alt="TO DO">
-            {% endif %}
+            <img class="img-fit" src="{{ item.hero_image | default: '/media/banners/tmp.jpg' | absolute_url }}" alt="TO DO">
           </figure>
         </div>
         <div class="card-content">

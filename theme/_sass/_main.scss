@@ -10,10 +10,10 @@ $family-secondary: 'Montserrat', sans-serif;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
-$primary: #571057;
+$primary: #760476; /* #571057; */
 $info: #340934;
 $white: #F0ECE1;
-$link: #760476;
+$link: $primary;
 $success: #827717;
 $warning: #57500F;
 
@@ -332,4 +332,8 @@ html {
   color: $black;
   font-size: .7rem;
   font-weight: bold;
+}
+
+summary {
+  cursor: pointer;
 }
