@@ -2,38 +2,25 @@
 layout: default
 home: true
 hero_image: '/media/banners/pots-test.jpg'
-title: Computation x Collaboration x Critique
+title: Computation + Collaboration + Critique
 ---
-
-<style>
-    .block {
-        padding: 2rem;
-        margin-bottom: 4rem;
-    }
-</style>
-
-
-<div class="container is-fluid block">
-<div class ="content">
-<h2 class="title">Announcements</h2>
+<div class="container">
+<h2 class="title is-size-4 mb-4">Announcements</h2>
+</div>
 
 
 {% assign announcements=site.news | where: 'category', 'announcement' %}
-{% include cards/news.html data=announcements limit=2 columns=2 %}
-</div>
-</div>
+{% include cards/news.html id='1' data=announcements columns=2 %}
 
 
-<div class="container is-fluid block">
-<div class ="content">
-<h2 class="title">Featured News</h2>
+<div class="container">
+<h2 class="title is-size-4 mb-4">Featured News</h2>
+</div>
 
 
 {% assign posts=site.news | where: 'category', 'post' %}
-{% include cards/news.html data=posts limit=3 %}
+{% include cards/news.html id='2' data=posts %}
 
-</div>
-</div>
 
 {% comment %}
 <div class ="content" markdown="1">
@@ -54,11 +41,9 @@ title: Computation x Collaboration x Critique
 <hr>
 {% endcomment %}
 
-<div class="container is-fluid block">
-<div class ="content">
-<h2 class="title">Featured Projects</h2>
+<div class="container">
+<h2 class="title is-size-4 mb-4">Featured Projects</h2>
+</div>
 
 {% assign featured_projects = site.projects | where: 'featured', true | sort: 'order' %}
 {% include cards/projects.html data=featured_projects limit=3 %}
-</div>
-</div>

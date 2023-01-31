@@ -1,9 +1,11 @@
+<script src="/assets/js/siema.min.js"></script>
+
 {% assign data = include.data | sort: 'date' | reverse %}
-<div class="columns is-multiline">
+<div id="siema-{{ include.id }}">
   {% for item in data | limit: include.limit %}
-    <div class="column {% if include.columns == 2%} if-half {% elsif include.columns == 1 %} is-12{% else %}is-one-third{% endif %}">
+    <div class="slide">
       <div class="card hover-zoom">
-        <div class="card-content p-0">
+        <div class="card-content">
           <div class="content">
             <p class="eyebrow">
               {%- if item.event -%}
@@ -36,3 +38,22 @@
     </div>
   {% endfor %}
 </div>
+
+<button class="prev-{{ include.id }}">prev</button>
+<button class="next-{{ include.id }}">next</button>
+
+<script>
+  var siema{{ include.id }} = new Siema({
+    selector: '#siema-{{ include.id }}',
+    perPage: {
+      800: 2,
+      1100: 3
+    },
+    loop: true,
+    draggable: true,
+  multipleDrag: true,
+  });
+  document.querySelector('.prev-{{ include.id }}').addEventListener('click', () => siema{{ include.id }}.prev());
+  document.querySelector('.next-{{ include.id }}').addEventListener('click', () => siema{{ include.id }}.next());
+</script>
+

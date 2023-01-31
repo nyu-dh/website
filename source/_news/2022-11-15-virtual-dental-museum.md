@@ -3,6 +3,7 @@ title: "Virtual Dental Museum: Historical Artifacts Go Digital"
 category: post
 date: 2022-11-15
 author: NYU IT
+hero_image: '/media/projects/dental-tools.jpg'
 tags:
   - seed_grants
 abstract: |
