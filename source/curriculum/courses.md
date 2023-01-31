@@ -1,6 +1,7 @@
 ---
 title: Relevant Courses
 layout: page
+hero_image: '/media/banners/5thfloor.jpg'
 subtitle: |
   The following courses include core and some of the elective courses in the [Advanced Certificate in Digital Humanities](/curriculum/certificate/), offered through the Graduate School of Arts and Sciences.
 
