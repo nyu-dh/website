@@ -13,16 +13,24 @@
 # - name: Curriculum
 #   link: '/curriculum/courses'
 - name: News + Events
+  link: '/news'
 - name: Community
   dropdown:
     - name: People
+      link: '/people'
     - name: Get Involved
+      link: '/get-involved'
+- name: Resources + Funding
+  dropdown:
+    - name: NYU DH Seed Grants
+      link: '/funding/seed-grants'
+    - name: NYU DH Graduate Fellowships
+      link: '/funding/grad-fellowships'
+    - name: Consultations + Services
+      link: '/get-involved'
 - name: Explore
   dropdown:
     - name: Projects
+      link: '/projects'
     - name: Courses
-- name: Research
-  dropdown:
-    - name: Faculty Seed Grants
-    - name: Graduate Student Fellowships
-    - name: Resources + Consultations
+      link: '/curriculum/courses'
