@@ -1,14 +1,28 @@
-- name: Get Involved
-  link: '/get-involved'
-- name: Curriculum
-  link: '/curriculum/courses'
-- name: Grants & Fellowships
+# - name: People
+#   link: '/people'
+# - name: Projects
+#   link: '/projects'
+# - name: News + Events
+#   link: '/get-involved'
+# - name: Resources + Funding
+#   dropdown:
+#     - name: Faculty Seed Grants
+#       link: '/funding/seed-grants'
+#     - name: Graduate Fellowships
+#       link: '/funding/grad-fellowships'
+# - name: Curriculum
+#   link: '/curriculum/courses'
+- name: News + Events
+- name: Community
+  dropdown:
+    - name: People
+    - name: Get Involved
+- name: Explore
+  dropdown:
+    - name: Projects
+    - name: Courses
+- name: Research
   dropdown:
     - name: Faculty Seed Grants
-      link: '/funding/seed-grants'
-    - name: Graduate Fellowships
-      link: '/funding/grad-fellowships'
-- name: People
-  link: '/people'
-- name: Projects
-  link: '/projects'
+    - name: Graduate Student Fellowships
+    - name: Resources + Consultations

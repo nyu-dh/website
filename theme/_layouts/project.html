@@ -4,22 +4,24 @@ breadcrumbs:
   - name: Projects
     link: /projects
 ---
-<div class="content">
-  {% if page.category == 'DH Seed Grant Recipient' %}
-    <b>
-      This project was funded through the {% if page.cohort_year %}{{ page.cohort_year }} {% endif %}<a href="/funding/seed-grants">NYU DH Seed Grant program</a>! We hope you'll <a href="/projects/seed-grants/">browse other projects</a> funded through this initiative.
-    </b>
-    <hr>
-  {% elsif page.category == 'Grad Fellowship Project' %}
-    <b>
-      This project was funded through the {% if page.cohort_year %}{{ page.cohort_year }} {% endif %}<a href="/funding/grad-fellowships">NYU DH Graduate Student Fellowship Program</a>! We hope you'll <a href="/projects/fellowships/">browse other projects</a> funded through this initiative.
-    </b>
-    <hr>
-  {% endif %}
+<div class="container">
+  <div class="content">
+    {% if page.category == 'DH Seed Grant Recipient' %}
+      <b>
+        This project was funded through the {% if page.cohort_year %}{{ page.cohort_year }} {% endif %}<a href="/funding/seed-grants">NYU DH Seed Grant program</a>! We hope you'll <a href="/projects/seed-grants/">browse other projects</a> funded through this initiative.
+      </b>
+      <hr>
+    {% elsif page.category == 'Grad Fellowship Project' %}
+      <b>
+        This project was funded through the {% if page.cohort_year %}{{ page.cohort_year }} {% endif %}<a href="/funding/grad-fellowships">NYU DH Graduate Student Fellowship Program</a>! We hope you'll <a href="/projects/fellowships/">browse other projects</a> funded through this initiative.
+      </b>
+      <hr>
+    {% endif %}
 
-  <div class="post-content">
-    {{ page.abstract | markdownify }}
-    <hr>
+    <div class="post-content">
+      {{ page.abstract | markdownify }}
+      <hr>
+    </div>
   </div>
 </div>
 
