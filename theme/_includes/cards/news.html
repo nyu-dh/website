@@ -1,70 +1,39 @@
-<script src="/assets/js/siema.min.js"></script>
-
 {% assign data = include.data | sort: 'date' | reverse %}
 
-<div class="columns m-auto is-vcentered is-gapless is-mobile">
-  <div class="column is-1 has-text-right noselect">
-    <a class="is-size-1 material-symbols-outlined prev-{{ include.id }}">&#xe5cb;</a>
-  </div>
-  <div class="column is-10">
-    
-    <div id="siema-{{ include.id }}">
-      {% for item in data | limit: include.limit %}
-        <div class="slide">
-          <div class="card hover-zoom">
-            <div class="card-content">
-              <div class="content">
-                <p class="eyebrow">
-                  {%- if item.event -%}
-                  <span class="material-symbols-outlined">event</span>&nbsp;&nbsp;
-                  {%- else -%}
-                  <span class="material-symbols-outlined">feed</span>&nbsp;&nbsp;
-                  {%- endif -%}
-                  {{ item.series | default: item.category }}
-                </p>
-                {% if item.hero_image %} 
-                <figure class="image is-3by1 mb-3 mt-0">
-                  <img class="img-fit" src="{{ item.hero_image | absolute_url }}" alt="">
-                </figure>
-                {% endif %}
-                <p class="title is-size-5">
-                  <a href="{{ item.url }}">
-                    {{ item.title }}
-                  </a>
-                </p>
-                <p class="subtitle is-size-7 pt-3">
-                  {% if item.event %}
-                  HAPPENING {{ item.eventDate | date: "%b %d, %Y" | upcase }}
-                  {% else %}
-                  PUBLISHED {{ item.date | date: "%b %d, %Y" | upcase }}
-                  {% endif %}
-                </p>
-              </div>
-            </div>
+<div class="columns is-multiline is-mobile">
+  {% for item in data | limit: include.limit %}
+    <div class="column is-one-third">
+      <div class="card hover-zoom">
+        <div class="card-content">
+          <div class="content">
+            <p class="eyebrow">
+              {%- if item.event -%}
+              <span class="material-symbols-outlined">event</span>&nbsp;&nbsp;
+              {%- else -%}
+              <span class="material-symbols-outlined">feed</span>&nbsp;&nbsp;
+              {%- endif -%}
+              {{ item.series | default: item.category }}
+            </p>
+            {% if item.hero_image %} 
+            <figure class="image is-3by1 mb-3 mt-0">
+              <img class="img-fit" src="{{ item.hero_image | absolute_url }}" alt="">
+            </figure>
+            {% endif %}
+            <p class="title is-size-5">
+              <a href="{{ item.url }}">
+                {{ item.title }}
+              </a>
+            </p>
+            <p class="subtitle is-size-7 pt-3">
+              {% if item.event %}
+              HAPPENING {{ item.eventDate | date: "%b %d, %Y" | upcase }}
+              {% else %}
+              PUBLISHED {{ item.date | date: "%b %d, %Y" | upcase }}
+              {% endif %}
+            </p>
           </div>
         </div>
-      {% endfor %}
+      </div>
     </div>
-
-  </div>
-  <div class="column is-1 has-text-left noselect">
-    <a class="is-size-1 material-symbols-outlined next-{{ include.id }}">&#xe5cc;</a>
-  </div>
+  {% endfor %}
 </div>
-
-
-<script>
-  var siema{{ include.id }} = new Siema({
-    selector: '#siema-{{ include.id }}',
-    perPage: {
-      800: 2,
-      1100: 3
-    },
-    loop: true,
-    draggable: true,
-  multipleDrag: true,
-  });
-  document.querySelector('.prev-{{ include.id }}').addEventListener('click', () => siema{{ include.id }}.prev());
-  document.querySelector('.next-{{ include.id }}').addEventListener('click', () => siema{{ include.id }}.next());
-</script>
-

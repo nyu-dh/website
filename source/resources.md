@@ -39,5 +39,5 @@ DH events and courses are sponsored by groups across the University. We recommen
 </div>
 </div>
 
-{% include cards/news.html data=site.news %}
+{% include carousels/news.html data=site.news %}
 

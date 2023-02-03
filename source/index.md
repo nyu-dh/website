@@ -16,7 +16,7 @@ title: Computation + Collaboration + Critique
 
 
 {% assign announcements=site.news | where: 'category', 'announcement' %}
-{% include cards/news.html id='1' data=announcements columns=2 %}
+{% include carousels/announcements.html id='1' data=announcements %}
 
 
 <br>
@@ -33,7 +33,7 @@ title: Computation + Collaboration + Critique
 
 
 {% assign posts=site.news | where: 'category', 'highlight' %}
-{% include cards/news.html id='2' data=posts %}
+{% include carousels/news.html id='2' data=posts %}
 
 
 

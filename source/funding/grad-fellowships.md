@@ -39,7 +39,7 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
   </div>
 
   {% assign grad_news = site.news | where: 'series', 'graduate fellow spotlight' %}
-  {% include cards/news.html data=grad_news limit=3 %}
+  {% include carousels/news.html data=grad_news limit=3 %}
 </div>
 
 <div class="container mt-6">

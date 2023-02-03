@@ -1,0 +1,65 @@
+{% assign data = include.data | sort: 'date' | reverse %}
+
+<div class="swiper-container">
+  <div class="splide" id="splide-{{ include.id }}" aria-label="News Highlights Slider">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {% for item in data | limit: include.limit %}
+          <li class="splide__slide">
+            <div class="card hover-zoom">
+              <div class="card-content">
+                <div class="content">
+                  <p class="eyebrow">
+                    {%- if item.event -%}
+                    <span class="material-symbols-outlined">event</span>&nbsp;&nbsp;
+                    {%- else -%}
+                    <span class="material-symbols-outlined">feed</span>&nbsp;&nbsp;
+                    {%- endif -%}
+                    {{ item.series | default: item.category }}
+                  </p>
+                  {% if item.hero_image %} 
+                  <figure class="image is-3by1 mb-3 mt-0">
+                    <img class="img-fit" src="{{ item.hero_image | absolute_url }}" alt="">
+                  </figure>
+                  {% endif %}
+                  <p class="title is-size-5">
+                    <a href="{{ item.url }}">
+                      {{ item.title }}
+                    </a>
+                  </p>
+                  <p class="subtitle is-size-7 pt-3">
+                    {% if item.event %}
+                    HAPPENING {{ item.eventDate | date: "%b %d, %Y" | upcase }}
+                    {% else %}
+                    PUBLISHED {{ item.date | date: "%b %d, %Y" | upcase }}
+                    {% endif %}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  var splide = new Splide( '#splide-{{ include.id }}', {
+    perPage: 3,
+    rewind : true,
+    gap    : '1.5rem',
+    breakpoints: {
+      900: {
+        perPage: 2,
+        gap    : '.7rem'
+      },
+      600: {
+        perPage: 1,
+        gap    : '.7rem'
+      },
+    },
+  } );
+  splide.mount();
+</script>
+
