@@ -1,5 +1,5 @@
 ---
-title: Relevant Courses
+title: Courses
 layout: page
 hero_image: '/media/banners/5thfloor.jpg'
 subtitle: |

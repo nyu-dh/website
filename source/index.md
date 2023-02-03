@@ -32,7 +32,7 @@ title: Computation + Collaboration + Critique
 </div>
 
 
-{% assign posts=site.news | where: 'category', 'post' %}
+{% assign posts=site.news | where: 'category', 'highlight' %}
 {% include cards/news.html id='2' data=posts %}
 
 

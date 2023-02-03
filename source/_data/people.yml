@@ -25,7 +25,7 @@
 - pid: nyrop
   done: true
   name: Marii Nyrop
-  titles: Digital Humanities Technology Specialist, NYU IT and Division of Libraries
+  titles: Senior Research Data Engineer for Digital Humanities, NYU IT
   site_roles:
   - exec_com
   link: https://library.nyu.edu/people/marii-nyrop/
@@ -43,21 +43,18 @@
   original_image: https://commons.gc.cuny.edu/files/avatars/5851/5d7424f5d81ff-bpfull.jpg
   order: '003'
   affiliated: true
-- pid: weatherby
+- pid: suk
   done: true
-  name: Leif Weatherby
-  titles: Associate Professor of German
+  name: Jo Suk
+  titles: Digital Scholarship Graduate Student Specialist
   site_roles:
   - exec_com
-  link: https://as.nyu.edu/faculty/leif-allison-reid-weatherby.html
-  local_image: weatherby.jpg
-  original_image: https://larb-main-wp-cdn.azureedge.net/wp-content/uploads/2016/12/leifweatherby.jpg
   order: '004'
   affiliated: true
 - pid: mistry
   done: true
   name: Himanshu Mistry
-  titles: Manager of Data Services, NYU IT
+  titles: Assistant Director for Data Services, NYU IT
   site_roles:
   - exec_com
   link: https://library.nyu.edu/people/himanshu-mistry/
@@ -92,7 +89,7 @@
 - pid: maddox
   done: true
   name: Ben Maddox
-  titles: Vice President, Research & Instructional Technology (RIT) and Chief Academic
+  titles: Vice President for Research & Instructional Technology and Chief Academic
     Technology Officer, NYU IT
   site_roles:
   - exec_com
@@ -628,14 +625,6 @@
   - proj_pi
   link: http://www.helga.com/
   order: '065'
-- pid: suk
-  done: true
-  name: Jo Suk
-  titles: Digital Scholarship Graduate Student Specialist
-  site_roles:
-  - exec_com
-  order: '066'
-  affiliated: true
 - pid: bach
   done: true
   name: Alona Bach
@@ -644,5 +633,5 @@
     Arts and Science Office of Research
   site_roles:
   - exec_com
-  order: '067'
+  order: '066'
   affiliated: true

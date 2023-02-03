@@ -3,8 +3,8 @@
 {% assign data = include.data | sort: 'date' | reverse %}
 
 <div class="columns m-auto is-vcentered is-gapless is-mobile">
-  <div class="column is-1 has-text-right">
-    <a class="is-size-1 material-symbols-outlined prev-{{ include.id }}">chevron_left</a>
+  <div class="column is-1 has-text-right noselect">
+    <a class="is-size-1 material-symbols-outlined prev-{{ include.id }}">&#xe5cb;</a>
   </div>
   <div class="column is-10">
     
@@ -47,8 +47,8 @@
     </div>
 
   </div>
-  <div class="column is-1 has-text-left">
-    <a class="is-size-1 material-symbols-outlined next-{{ include.id }}">chevron_right</a>
+  <div class="column is-1 has-text-left noselect">
+    <a class="is-size-1 material-symbols-outlined next-{{ include.id }}">&#xe5cc;</a>
   </div>
 </div>
 

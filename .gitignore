@@ -4,6 +4,7 @@ _site
 .jekyll-metadata
 vendor
 .secrets.yml
+secrets*
 .lighthouseci
 .DS_Store
 source/_data/.tmp
