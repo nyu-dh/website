@@ -20,17 +20,17 @@
       link: '/people'
     - name: Get Involved
       link: '/get-involved'
-- name: Resources + Funding
+- name: Funding
   dropdown:
     - name: NYU DH Seed Grants
       link: '/funding/seed-grants'
     - name: NYU DH Graduate Fellowships
       link: '/funding/grad-fellowships'
-    - name: Consultations + Services
-      link: '/get-involved'
 - name: Explore
   dropdown:
     - name: Projects
       link: '/projects'
     - name: Courses
       link: '/curriculum/courses'
+    - name: Resources
+      link: '/get-involved'
