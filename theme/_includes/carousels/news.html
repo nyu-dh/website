@@ -1,46 +1,44 @@
 {% assign data = include.data | sort: 'date' | reverse %}
 
-<div class="swiper-container">
-  <div class="splide" id="splide-{{ include.id }}" aria-label="News Highlights Slider">
-    <div class="splide__track">
-      <ul class="splide__list">
-        {% for item in data | limit: include.limit %}
-          <li class="splide__slide">
-            <div class="card hover-zoom">
-              <div class="card-content">
-                <div class="content">
-                  <p class="eyebrow">
-                    {%- if item.event -%}
-                    <span class="material-symbols-outlined">event</span>&nbsp;&nbsp;
-                    {%- else -%}
-                    <span class="material-symbols-outlined">feed</span>&nbsp;&nbsp;
-                    {%- endif -%}
-                    {{ item.series | default: item.category }}
-                  </p>
-                  {% if item.hero_image %} 
-                  <figure class="image is-3by1 mb-3 mt-0">
-                    <img class="img-fit" src="{{ item.hero_image | absolute_url }}" alt="">
-                  </figure>
+<div class="splide mb-3" id="splide-{{ include.id }}" aria-label="News Highlights Slider">
+  <div class="splide__track">
+    <ul class="splide__list">
+      {% for item in data | limit: include.limit %}
+        <li class="splide__slide">
+          <div class="card hover-zoom">
+            <div class="card-content">
+              <div class="content">
+                <p class="eyebrow">
+                  {%- if item.event -%}
+                  <span class="material-symbols-outlined">event</span>&nbsp;&nbsp;
+                  {%- else -%}
+                  <span class="material-symbols-outlined">feed</span>&nbsp;&nbsp;
+                  {%- endif -%}
+                  {{ item.series | default: item.category }}
+                </p>
+                {% if item.hero_image %} 
+                <figure class="image is-3by1 mb-3 mt-0 mx-0">
+                  <img class="img-fit" src="{{ item.hero_image | absolute_url }}" alt="">
+                </figure>
+                {% endif %}
+                <p class="title is-size-5 is-size-6-mobile">
+                  <a href="{{ item.url }}">
+                    {{ item.title }}
+                  </a>
+                </p>
+                <p class="subtitle is-size-6 is-size-7-mobile pt-3">
+                  {% if item.event %}
+                  HAPPENING {{ item.eventDate | date: "%b %d, %Y" | upcase }}
+                  {% else %}
+                  PUBLISHED {{ item.date | date: "%b %d, %Y" | upcase }}
                   {% endif %}
-                  <p class="title is-size-5">
-                    <a href="{{ item.url }}">
-                      {{ item.title }}
-                    </a>
-                  </p>
-                  <p class="subtitle is-size-7 pt-3">
-                    {% if item.event %}
-                    HAPPENING {{ item.eventDate | date: "%b %d, %Y" | upcase }}
-                    {% else %}
-                    PUBLISHED {{ item.date | date: "%b %d, %Y" | upcase }}
-                    {% endif %}
-                  </p>
-                </div>
+                </p>
               </div>
             </div>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
 

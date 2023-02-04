@@ -11,13 +11,19 @@ abstract: |
   An interview with Ellen Noonan, Clinical Associate Professor of History and Director, Archives and Public History program
 ---
 
-![portrait of Dr. Ellen Noonan](/media/people/noonan.jpg){: .inline-right } The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
+<article class="message is-success mb-4" style="max-width:800px">
+  <div class="message-body has-text-warning" markdown="1">
+<figure class="is-pulled-right">
+  <img src="/media/people/noonan.jpg" style="border-radius:50%;width:150px;" alt="portrait of Dr. Ellen Noonan"/>
+</figure>
+
+The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
 
 Dr. Noonan was selected for a 2021-2022 NYU DH Seed Grant for her project “Covid Collections”.
-
 Below, Digital Scholarship Graduate Student Specialist Jo Suk interviews Dr. Noonan.
 
-<hr/>
+  </div>
+</article>
 
 ## What are you most proud of about your project? How have people in your field engaged with your project?
 
@@ -31,7 +37,7 @@ _**E.N.** Our project team (made up of faculty and graduate students, split betw
 
 _**E.N.** The Covid Collections project has been looking at models and carefully considering what kind of digital tool it would like to build using the data collected by our initial (and ongoing) surveys. We want to be thoughtful about setting out to build a project that can encompass the tremendous diversity of Covid collections and be useful to a wide range of users (not just scholars) while also being sustainable in terms of both its technical infrastructure and the labor necessary to maintain it. We are close to making some key decisions and applying for production funding._
 
----
+<hr style="max-width:800px">
 
 Read more about [Covid Collections](https://digitalhumanities.nyu.edu/projects/covid-collections/).
 

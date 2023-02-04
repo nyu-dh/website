@@ -10,14 +10,19 @@ tags:
 abstract: |
   An interview with Elaine Ayers, Assistant Professor of the History of Science, Gallatin School
 ---  
+
+<article class="message is-success mb-4" style="max-width:800px">
+  <div class="message-body has-text-warning" markdown="1">
+<figure class="is-pulled-right">
+  <img src="/media/people/ayers.jpg" style="border-radius:50%;width:150px;" alt="portrait of Dr. Elaine Ayers"/>
+</figure>
 The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
 
-
-![portrait of Dr. Elaine Ayers](/media/people/ayers.jpg){: .inline-right } Dr. Elaine Ayers, along with Tandon professors Dr. Ahmed Ansari and Dr. Tega Brain, and Laura Briscoe of the New York Botanical Garden were selected for a 2021-2022 NYU DH Seed Grant for their project [Inverting the Wunderkammer: Rethinking Digital Humanities through Botanic Histories & Archives](/projects/moss/).
+Dr. Elaine Ayers, along with Tandon professors Dr. Ahmed Ansari and Dr. Tega Brain, and Laura Briscoe of the New York Botanical Garden were selected for a 2021-2022 NYU DH Seed Grant for their project [Inverting the Wunderkammer: Rethinking Digital Humanities through Botanic Histories & Archives](/projects/moss/).
 
 Below, Digital Scholarship Graduate Student Specialist Jo Suk interviews Dr. Ayers.
-
-<hr/>
+  </div>
+</article>
 
 ## What are you most proud of about your project? How have people in your field engaged with your project?
 
@@ -36,7 +41,7 @@ Below, Digital Scholarship Graduate Student Specialist Jo Suk interviews Dr. Aye
 
 *__E.A.__ The project is expanding massively over the next few months - we are launching a series of new experimental workshops starting in December 2022 that will be held internationally (our pilot workshop only included NY-area-based participants for logistical reasons during the pandemic), our prototyped website will go live, and we plan on co-authoring publications building on the work that we've done over the last couple of years.*
 
-<hr>
+<hr style="max-width:800px">
 
 Read more about [Inverting the Wunderkammer: Rethinking the Digital Humanities through Botanic Histories & Archives](/projects/moss).
 

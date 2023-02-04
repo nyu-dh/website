@@ -15,7 +15,7 @@
               {{ item.series | default: item.category }}
             </p>
             {% if item.hero_image %} 
-            <figure class="image is-3by1 mb-3 mt-0">
+            <figure class="image is-3by1 mb-3 mt-0 mx-0">
               <img class="img-fit" src="{{ item.hero_image | absolute_url }}" alt="">
             </figure>
             {% endif %}

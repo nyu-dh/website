@@ -21,16 +21,28 @@ style="
     {% include hero/partials/breadcrumbs.html %}
     <div class="container">
       <div class="columns">
-        <div class="column">
-          <div class="content">
-            <h1 class="title pb-2">
-              {%- if page.collection == 'project_tags' -%}Tag: {{ page.slug }}{%- else -%}{{ page.title }}{%- endif -%}
-            </h1>
+        {% if page.home %}
+          {% include hero/partials/home.html %}
+        {% elsif page.collection == 'news' %}
+          {% if page.category == 'event' %}
+            {% include hero/partials/event.html %}
+          {% else %}
+            {% include hero/partials/news.html %}
+          {% endif %}
+        {% elsif page.collection == 'projects' %}
+            {% include hero/partials/project.html %}
+        {% else %}
+          <div class="column">
+            <div class="content">
+              <h1 class="title is-size-2-widescreen is-size-3 pb-2 mt-0">
+                {%- if page.collection == 'project_tags' -%}Tag: {{ page.slug }}{%- else -%}{{ page.title }}{%- endif -%}
+              </h1>
 
-            {% if page.subtitle %}<p class="subtitle">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
-            {% include hero/partials/buttons.html %}
+              {% if page.subtitle %}<p class="subtitle is-size-6 is-size-5-widescreen">{{ page.subtitle | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
+              {% include hero/partials/buttons.html %}
+            </div>
           </div>
-        </div>
+        {% endif %}
         {% if page.contents_links %}
         <div class="column is-narrow">
           <div class="content">

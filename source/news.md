@@ -9,14 +9,6 @@ contents_links:
   - label: "Events"
     link: "#events"
 ---
-<div class="container">
-<div class="content">
-<h2 id="announcements">Announcements</h2>
-</div>
-</div>
-
-{% assign announcements=site.news | where: 'category', 'announcement' %}
-{% include cards/news.html data=announcements %}
 
 <div class="container">
 <div class="content">
@@ -26,6 +18,15 @@ contents_links:
 
 {% assign posts=site.news | where: 'category', 'highlight' %}
 {% include cards/news.html data=posts %}
+
+<div class="container">
+<div class="content">
+<h2 id="announcements">Announcements</h2>
+</div>
+</div>
+
+{% assign announcements=site.news | where: 'category', 'announcement' %}
+{% include cards/news.html data=announcements %}
 
 <div class="container">
 <div class="content">

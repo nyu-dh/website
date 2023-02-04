@@ -10,13 +10,21 @@ tags:
 abstract: |
   An interview with Maria Cabrera Arús, Assistant Professor of the History of Science, Gallatin School
 ---  
-![portrait of Dr. Maria Cabrera Arús](/media/people/cabrera-arus.jpg){: .inline-right } The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
+
+<article class="message is-success mb-4" style="max-width:800px">
+  <div class="message-body has-text-warning" markdown="1">
+<figure class="is-pulled-right">
+  <img src="/media/people/cabrera-arus.jpg" style="border-radius:50%;width:150px;" alt="portrait of Dr. Maria Cabrera Arús"/>
+</figure>
+
+The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
 
 Dr. Cabrera Arús was selected for a 2021-2022 NYU DH Seed Grant for her project “Archive of Cuban Socialism (ArchCuS)”.
 
 Below, Digital Scholarship Graduate Student Specialist Jo Suk interviews Dr. Cabrera Arús.
 
-<hr/>
+</div>
+</article>
 
 ## What are you most proud of about your project? How have people in your field engaged with your project?
 
@@ -34,7 +42,7 @@ Below, Digital Scholarship Graduate Student Specialist Jo Suk interviews Dr. Cab
 
 *__M.C.A.__  I will continue seeking grants to fund the digitalization, conservation, and preservation of the thousands of items in the collections (of which only a few are currently available in the online platform), as well as expanding the collection itself through donations and acquisitions.*
 
-<hr>
+<hr style="max-width:800px">
 
 Read more about the [Archive of Cuban Socialism](http://archcus.org).
 

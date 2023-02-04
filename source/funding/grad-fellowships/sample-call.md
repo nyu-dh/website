@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Sample Call for Applications
 breadcrumbs:
   - name: Graduate Student Fellowships

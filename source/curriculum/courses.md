@@ -1,6 +1,6 @@
 ---
 title: Courses
-layout: page
+layout: default
 hero_image: '/media/banners/5thfloor.jpg'
 subtitle: |
   The following courses include core and some of the elective courses in the [Advanced Certificate in Digital Humanities](/curriculum/certificate/), offered through the Graduate School of Arts and Sciences.
@@ -17,9 +17,6 @@ contents_links:
     link: '/people/affiliated-faculty/'
 ---
 
-<div class="container">
-<div class="content" markdown="1">
-
 {% assign current_semester =  site.data.courses | where: 'semester', site.semester.current %}
 <h2 id="current-semester">{{ site.semester.current }}</h2>
 {% if current_semester.size  > 0 %}
@@ -35,6 +32,3 @@ No courses are currently posted for this semester. Check back!
 {% else %}
 No courses are currently posted for this semester. Check back!
 {% endif %}
-
-</div>
-</div>
