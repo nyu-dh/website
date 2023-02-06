@@ -1,5 +1,5 @@
 ---
-title: NYU DH Graduate Student Fellowships
+title: NYU DH Graduate Fellowships
 hero_image: '/media/banners/doodles/fellows.png'
 layout: default
 subtitle: |

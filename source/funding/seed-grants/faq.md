@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions
+title: NYU DH Seed Grants — FAQ
 layout: faq
 hero_image: '/media/banners/doodles/seedgrants.png'
 breadcrumbs:

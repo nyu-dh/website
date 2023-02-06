@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions
+title: NYU DH Graduate Fellowships — FAQ
 layout: faq
 hero_image: '/media/banners/doodles/fellows.png'
 breadcrumbs:
