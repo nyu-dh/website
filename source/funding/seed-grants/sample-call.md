@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sample Call for Applications
+hero_image: '/media/banners/doodles/seedgrants.png'
 breadcrumbs:
   - name: Seed Grants
     link: /funding/seed-grants/

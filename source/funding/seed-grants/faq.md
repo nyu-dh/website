@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
 layout: default
+hero_image: '/media/banners/doodles/seedgrants.png'
 breadcrumbs:
   - name: Faculty Seed Grants
     link: /funding/seed-grants/

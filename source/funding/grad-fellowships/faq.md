@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
 layout: default
+hero_image: '/media/banners/doodles/fellows.png'
 breadcrumbs:
   - name: Graduate Student Fellowships
     link: /funding/grad-fellowships/

@@ -2,6 +2,7 @@
 title: NYU Community DH Projects
 subtitle: ''
 layout: default
+hero_image: '/media/banners/doodles/projects.png'
 breadcrumbs:
   - name: Projects
     link: /projects

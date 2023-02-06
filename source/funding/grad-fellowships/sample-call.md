@@ -1,5 +1,6 @@
 ---
 layout: default
+hero_image: '/media/banners/doodles/fellows.png'
 title: Sample Call for Applications
 breadcrumbs:
   - name: Graduate Student Fellowships

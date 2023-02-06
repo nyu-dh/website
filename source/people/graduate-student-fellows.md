@@ -1,6 +1,7 @@
 ---
 layout: default
 title: NYU DH Graduate Student Fellows
+hero_image: '/media/banners/doodles/people.png'
 breadcrumbs:
   - name: People
     link: /people

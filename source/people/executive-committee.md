@@ -1,6 +1,7 @@
 ---
 layout: default
 title: NYU DH Executive Committee
+hero_image: '/media/banners/doodles/people.png'
 breadcrumbs:
   - name: People
     link: /people
