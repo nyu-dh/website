@@ -2,6 +2,7 @@
 title: Resources
 layout: default
 subtitle: "TO DO"
+hero_image: '/media/banners/doodles/resources.png'
 # hero_buttons:
 #   - label: 'NYU DH Mailing List (Public)'
 #     link: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'

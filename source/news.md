@@ -1,6 +1,7 @@
 ---
 title: News + Events
 layout: default
+hero_image: '/media/banners/doodles/news.png'
 contents_links:
   - label: "Announcements"
     link: "#announcements"

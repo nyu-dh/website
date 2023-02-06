@@ -1,6 +1,7 @@
 ---
 title: Get Involved
 layout: default
+hero_image: '/media/banners/doodles/getinvolved.png'
 subtitle: "TO DO"
 hero_buttons:
   - label: 'NYU DH Mailing List (Public)'

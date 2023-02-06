@@ -1,7 +1,7 @@
 ---
 layout: default
 home: true
-hero_image: '/media/banners/pots-test.jpg'
+hero_image: '/media/banners/doodles/home.png'
 title: Computation + Collaboration + Critique
 ---
 
