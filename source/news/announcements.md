@@ -8,4 +8,4 @@ breadcrumbs:
 ---
 
 {% assign announcements=site.news | where: 'category', 'announcement' %}
-{% include cards/news.html data=announcements %}
+{% include cards/news.html data=announcements hide_images=true %}

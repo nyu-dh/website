@@ -3,11 +3,10 @@ title: "NYU Digital Humanities Fall Welcome"
 category: announcement
 date: 2022-08-31
 author: Jojo Karlin
+hero_image: '/media/news/DH_list_blast.png'
 abstract: |
   A welcome letter to the NYU Digital Humanities list. 
 --- 
-
-![NYU DH Doodle](/media/news/DH list blast.png)
 
 Digital Scholarship Service team welcomes students to the NYU DH List and encourages them to use NYU resources for any and all digital projects.
 

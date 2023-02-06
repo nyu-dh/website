@@ -22,7 +22,7 @@ contents_links:
 ## Announcements {% include misc/arrow-all-link.html link="/news/announcements" %}
 
 {% assign announcements=site.news | where: 'category', 'announcement' %}
-{% include sliders/news.html data=announcements id="2" %}
+{% include sliders/news.html hide_images=true data=announcements id="2" %}
 </div>
 
 
@@ -30,5 +30,5 @@ contents_links:
 ## Events {% include misc/arrow-all-link.html link="/news/events" %}
 
 {% assign events=site.news | where: 'category', 'event' %}
-{% include sliders/news.html data=events id="3" %}
+{% include sliders/news.html hide_images=true data=events id="3" %}
 </div>

@@ -10,8 +10,8 @@ $family-sans-serif: 'DM Sans', sans-serif;
 $family-secondary: 'Montserrat', sans-serif;
 
 $primary: #760476; /* #571057; */
-$info: #340934;
-$white: #F0ECE1;
+$info: #260326; 
+$white: #F0ECE1; 
 $link: $primary;
 $success: #827717;
 $warning: #57500F;
@@ -231,4 +231,8 @@ summary {
 
 .splide__pagination li {
   margin-top: 0 !important;
+}
+
+.material-symbols-outlined {
+  font-weight: bold;
 }
