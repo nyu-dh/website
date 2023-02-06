@@ -33,7 +33,7 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
 <h2 class="is-size-3 pb-3" id="grad-fellow-news">Graduate Fellow News</h2>
 
 {% assign grad_news = site.news | where: 'series', 'graduate fellow spotlight' %}
-{% include carousels/news.html data=grad_news limit=3 %}
+{% include sliders/news.html data=grad_news limit=3 %}
 
 <h2 class="is-size-3" id="past-fellows">Current and Past Fellows</h2>
 

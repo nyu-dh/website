@@ -23,12 +23,14 @@ The Center for the Humanities, NYU Libraries, and NYU Research Technology fund t
 
 Grants may range in size between $5,000 and $20,000. Collaborative projects are encouraged, but must include at least one NYU faculty member in the humanities. Additional resources may be made available for those proposing computationally intensive work utilizing NYU’s high performance computing cluster and similar [Research & Instructional Technology resources](https://www.nyu.edu/research/navigating-research-technology.html). We especially welcome projects that give voice or expression to underrepresented communities; that engage with the urban fabric of the cities in which NYU has campuses; and that contribute to the emerging subfield of Global Digital Humanities.
 
-<h2 class="is-size-3 pb-3" id="seed-grant-news">Seed Grant Spotlight</h2>
+<div class="block py-5" markdown="1">
+<h2 id="seed-grant-news">Seed Grant Spotlight</h2>
 
 {% assign seed_news = site.news | where: 'series', 'seed grant spotlight' %}
-{% include carousels/news.html data=seed_news id='1' %}
+{% include sliders/news.html data=seed_news id='1' %}
+</div>
 
-<h2 class="is-size-3" id="funded-projects">Funded Projects</h2>
+<h2 id="funded-projects">Funded Projects</h2>
 
 {% assign seeds2022 = site.projects | where: 'cohort_year', '2022' | where_exp: "i", "i.category contains 'Seed'" %}
 {%- if seeds2022.size > 0 -%}

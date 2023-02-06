@@ -1,8 +1,9 @@
-- name: ARTS & SCIENCE
-  link: 'https://cas.nyu.edu/'
 - name: LIBRARIES
   link: 'https://library.nyu.edu/'
 - name: INFORMATION TECHNOLOGY
   link: 'https://www.nyu.edu/life/information-technology.html'
 - name: CENTER FOR THE HUMANITIES
   link: 'https://nyuhumanities.org/'
+- name: ARTS & SCIENCE
+  link: 'https://cas.nyu.edu/'
+

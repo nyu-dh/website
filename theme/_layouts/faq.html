@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% for group in page.faq %}
+    {% assign heading = group[0] %}
+    {% assign questions = group[1] %}
+    <h2>{{ heading }}</h2>
+
+    {% for question in questions %}
+    <article class="message is-success">
+        <div class="message-body has-text-warning">
+            <details>
+                <summary class="title is-size-6 mb-1">{{ question.q }}</summary>
+                <p>{{ question.a | markdownify }}</p>
+            </details>
+        </div>
+    </article>
+    {% endfor %}
+{% endfor %}
+
+{{ content }}

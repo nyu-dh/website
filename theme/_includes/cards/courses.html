@@ -1,14 +1,14 @@
 {% for course in include.data %}
 <article class="message is-success">
   <div class="message-body has-text-warning">
-    <p class="title is-size-5 mb-1" style="max-width:100%">
+    <p class="title is-size-5 mb-1">
       {%- if course.url -%}
         <a href="{{ course.url | absolute_url }}">{{ course.title }}</a>
       {%- else -%}
         {{ course.title }}
       {%- endif -%}
     </p>
-    <p class="is-size-6" style="max-width:100%">
+    <p class="is-size-6">
       {{ course.number }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ course.semester }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ course.faculty }}
     </p>
 

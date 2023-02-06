@@ -5,24 +5,28 @@ hero_image: '/media/banners/doodles/home.png'
 title: Computation + Collaboration + Critique
 ---
 
-
-<h2>Highlights</h2>
+<div class="block pb-5" markdown="1">
+## Highlights {% include misc/arrow-all-link.html link="/news/highlights" %}
 
 {% assign posts=site.news | where: 'category', 'highlight' %}
-{% include carousels/news.html id='2' data=posts %}
+{% include sliders/news.html data=posts id="1" %}
+
+</div>
 
 
-<h2>Announcements</h2>
-
+<div class="block pb-5" markdown="1">
+## Announcements {% include misc/arrow-all-link.html link="/news/announcements" %}
 
 {% assign announcements=site.news | where: 'category', 'announcement' %}
-{% include carousels/announcements.html id='1' data=announcements %}
+{% include sliders/news.html data=announcements id="2" %}
+</div>
 
-<h2>Projects</h2>
+
+
+
+<div class="block pb-5" markdown="1">
+## Projects {% include misc/arrow-all-link.html link="/projects" %}
 
 {% assign featured_projects = site.projects | where: 'featured', true | sort: 'order' %}
 {% include cards/projects.html data=featured_projects limit=3 %}
-
-<br>
-<br>
-<br>
+</div>
