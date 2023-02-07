@@ -28,5 +28,5 @@ title: Computation + Collaboration + Critique
 ## Projects {% include misc/arrow-all-link.html link="/projects" %}
 
 {% assign featured_projects = site.projects | where: 'featured', true | sort: 'order' %}
-{% include cards/projects.html data=featured_projects limit=3 %}
+{% include sliders/projects.html data=featured_projects id="3" %}
 </div>

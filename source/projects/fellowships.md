@@ -14,16 +14,11 @@ contents_links:
 ---
 {% assign fellows = site.projects | where_exp: "i", "i.category contains 'Fellowship'" %}
 
-<div class="post-content">
-  <h2 id="2022" class="title mb-4">2022 Cohort</h2>
-</div>
+<h2 id="2022">2022 Cohort</h2>
 {% assign fellows2022 = fellows | where: 'cohort_year', '2022' %}
-{% include cards/projects.html data=fellows2022 full_width=false %}
-<hr>
+{% include cards/projects.html data=fellows2022  %}
 
-<div class="post-content">
-  <h2 id="2021" class="title mb-4">2021 Cohort</h2>
-</div>
+<h2 id="2021">2021 Cohort</h2>
 {% assign fellows2021 = fellows | where: 'cohort_year', '2021' %}
-{% include cards/projects.html data=fellows2021 full_width=false %}
-<hr>
+{% include cards/projects.html data=fellows2021 %}
+

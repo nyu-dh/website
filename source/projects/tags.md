@@ -1,5 +1,5 @@
 ---
-title: Tags
+title: Project Tags
 subtitle: ''
 layout: default
 hero_image: '/media/banners/doodles/projects.png'

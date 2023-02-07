@@ -1,29 +1,33 @@
 {% assign projects = include.data %}
 <section class="{% if include.full_width == true and page.layout == 'default' %}full-width py-3 px-5{% endif %}">
   <div class="columns is-multiline">
-    {% for project in projects | limit: include.limit %}
-      <div class="column is-one-third">
-        <div class="card hover-zoom is-relative">
-          <div class="card-content p-0">
-            <figure class="image is-3by1 mb-3">
-              {% if project.local_image %}
-              {% assign img = project.local_image | prepend: 'media/projects/' %}
-              {% else %}
-              {% assign img = '/media/defaults/projects.png' %}
-              {% endif %}
-              <img class="img-fit" src="{{ img | absolute_url }}" alt="Image for {{ project.title }} project">
-            </figure>
-            <p class="title is-size-5 mb-3 sm-lines">
-              <a href="{{ project.url | absolute_url }}">{{ project.title }}</a>
-            </p>
-            {% if project.tags %}
-            <div class="tags">
-              {% for tag in project.tags %}
-                <a href="/projects/tag/{{ tag | slugify }}" class="tag is-link is-success is-small">#{{ tag | slugify }}</a>
-              {% endfor %}
+    {% for item in projects | limit: include.limit %}
+      <div class="column is-3">
+        <div class="card hover-zoom">
+          <div class="card-content">
+              <div class="content">
+                  <figure class="image is-3by2 mx-0 mb-3 mt-0">
+                      {% if item.local_image %}
+                      {% assign image = 'media/projects/' | append: item.local_image %}
+                      {% else %}
+                      {% assign image = '/media/defaults/projects.png' %}
+                      {% endif %}
+                      <a href="{{ item.url }}">
+                          <img class="img-fit" src="{{ image | absolute_url }}" alt="Image for {{ project.title }}">
+                          {% if item.tags %}
+                          <div class="is-overlay has-text-left m-1">
+                          {% for tag in item.tags %}
+                              <p class="tag is-small is-warning is-dark is-family-monospace mb-1">#{{ tag | slugify }}</p>
+                          {% endfor %}
+                          </div>
+                          {% endif %}
+                      </a>
+                  </figure>
+                  <p class="title {% if item.title.size > 45 %} is-6 {% else %} is-5{% endif %} mb-0">
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                  </p>
+                </div>
             </div>
-            {% endif %}
-          </div>
         </div>
       </div>
     {% endfor %}

@@ -8,4 +8,4 @@ breadcrumbs:
     link: /projects
 ---
 {% assign projects = site.projects | where_exp: "i", "i.category contains 'Other'" %}
-{% include cards/projects.html data=projects full_width=false %}
+{% include cards/projects.html data=projects %}
