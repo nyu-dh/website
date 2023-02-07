@@ -6,7 +6,12 @@
         <div class="card hover-zoom is-relative">
           <div class="card-content p-0">
             <figure class="image is-3by1 mb-3">
-              <img class="img-fit" src="{{ project.local_image | default: 'tmp.jpg' | prepend: 'media/projects/' | absolute_url }}" alt="Image for {{ project.title }} project">
+              {% if project.local_image %}
+              {% assign img = project.local_image | prepend: 'media/projects/' %}
+              {% else %}
+              {% assign img = '/media/defaults/projects.png' %}
+              {% endif %}
+              <img class="img-fit" src="{{ img | absolute_url }}" alt="Image for {{ project.title }} project">
             </figure>
             <p class="title is-size-5 mb-3 sm-lines">
               <a href="{{ project.url | absolute_url }}">{{ project.title }}</a>

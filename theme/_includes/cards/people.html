@@ -1,43 +1,48 @@
+<style>
+  .circle-128 {
+    object-fit: cover !important;
+    width: 128px !important;
+    height: 128px !important;
+    border-radius: 50%;
+  }
+</style>
 <div class="columns is-multiline">
   {% for person in include.data %}
-    <div class="column is-3">
-      <div class="is-relative m-3">
-        {%- if person.local_image.size > 0 -%}
-          {% assign alt = "Photo of " | append: person.name %}
-        {%- else -%}
-          {% assign alt = '' %}
-        {%- endif -%}
-        {%- if person.link -%}
-          <a href="{{ person.link | absolute_url }}">
-            <figure class="bg-neutral-gradient image is-128x128">
-              {% if person.local_image %}
-              <img class="is-overlay" src="{{ person.local_image | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}"/>
-              {% endif %}
-            </figure>
-            <p class="is-size-5 pt-3 has-text-weight-bold">
-              {{ person.name }}
-            </p>
-          </a>
-        {%- else -%}
-          <figure class="bg-neutral-gradient image is-128x128">
-            {% if person.local_image %}
-            <img class="is-overlay" src="{{ person.local_image | prepend: 'media/people/' | absolute_url }}" alt="{{ alt }}"/>
-            {% endif %}
-          </figure>
-          <p class="is-size-5 pt-3 has-text-weight-bold">{{ person.name }}</p>
-        {%- endif -%}
-        <p class="is-size-6 sm-lines is-italic" style="color:#444">{{ person.titles }}</p>
+    <div class="column is-3-desktop is-4-tablet is-6-mobile">
+      <div class="card">
+        <div class="card-content">
+          {% if person.local_image %}
+            {% assign img = person.local_image | prepend: 'media/people/' %}
+            {% assign alt = "Portrait of " | append: person.name %}
+          {% else %}
+            {% assign img = '/media/defaults/people.png' %}
+            {% assign alt = 'Placeholder person image' %}
+          {% endif %}
 
-        {% assign projects = site.projects | where_exp: "p", "p.pis contains person.pid" %}
-        {% if projects.size > 0 %}
-        <p class="is-size-7 sm-lines mt-2">
-          Project{% if projects.size > 1%}s{% endif %}:&nbsp;
-          {%- for p in projects -%}
-          <a class="is-underlined" href="{{ p.url | absolute_url }}">{{ p.title }}</a>
-          {% unless forloop.last %}&nbsp;/&nbsp;{% endunless %}
-          {%- endfor -%}
-        </p>
-        {% endif %}
+          {%- if person.link -%}
+            <a href="{{ person.link | absolute_url }}" target="_blank">
+              <img class="circle-128 mb-2"  src="{{ img | absolute_url }}" alt="{{ alt }}">
+            </a>
+            <h5 class="title is-5">
+              <a href="{{ person.link | absolute_url }}" target="_blank">{{ person.name }}</a>
+            </h5>
+          {% else %}
+            <img class="circle-128 mb-2"  src="{{ img | absolute_url }}" alt="{{ alt }}">
+            <h5 class="title is-5">{{ person.name }}</h5>
+          {% endif %}
+
+          <p class="subtitle is-6 mb-2" style="max-width: 25ch">{{ person.titles }}</p>
+          {% assign projects = site.projects | where_exp: "p", "p.pis contains person.pid" %}
+          {% if projects.size > 0 %}
+          <p class="is-size-7 sm-lines mt-2">
+            Project{% if projects.size > 1%}s{% endif %}:&nbsp;
+            {%- for p in projects -%}
+            <a class="is-underlined has-text-warning" href="{{ p.url | absolute_url }}">{{ p.title }}</a>
+            {% unless forloop.last %}&nbsp;/&nbsp;{% endunless %}
+            {%- endfor -%}
+          </p>
+          {% endif %}
+        </div>
       </div>
     </div>
   {% endfor %}

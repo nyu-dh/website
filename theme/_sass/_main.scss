@@ -35,8 +35,8 @@ $card-shadow: unset;
 
 h1, h2, h3, h4, h5, h6 { font-family: $family-secondary }
 
-.hero.is-primary,
-.navbar.is-primary { 
+.hero.is-info,
+.navbar.is-info { 
   color: $white !important; 
 
   .subtitle,
@@ -233,6 +233,6 @@ summary {
   margin-top: 0 !important;
 }
 
-.material-symbols-outlined {
-  font-weight: bold;
+.material-symbols-outlined.is-bold {
+  font-weight: bold !important;
 }
