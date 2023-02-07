@@ -1,5 +1,5 @@
 ---
-title: Seed Grant Spotlights
+title: Graduate Fellow Spotlights
 layout: default
 hero_image: '/media/banners/doodles/news.png'
 breadcrumbs:
@@ -7,5 +7,5 @@ breadcrumbs:
     link: /news/
 ---
 
-{% assign spotlights=site.news | where: 'series', 'seed grant spotlight' %}
+{% assign spotlights=site.news | where: 'series', 'graduate fellow spotlight' %}
 {% include cards/news.html data=spotlights %}
