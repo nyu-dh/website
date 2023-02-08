@@ -18,8 +18,8 @@ pis:
 - wolf
 - augst
 link: https://newyorkscapes.org/
-local_image: nyscapes.jpg
-original_img: https://newyorkscapes.org/wp-content/themes/sink_nyscapes/images/logo.png
+image: nyscapes.jpg
+original_img: https://newyorkscapes.org/wp-content/uploads/2017/03/nypl.digitalcollections.510d47d9-4f4a-a3d9-e040-e00a18064a99.001.g-e1499967503198.jpg
 order: '024'
 layout: project
 ---

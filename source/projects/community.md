@@ -7,5 +7,5 @@ breadcrumbs:
   - name: Projects
     link: /projects
 ---
-{% assign projects = site.projects | where_exp: "i", "i.category contains 'Other'" %}
+{% assign projects = site.projects | where_exp: "i", "i.category contains 'Other'" | sort: 'image' | reverse %}
 {% include cards/projects.html data=projects %}

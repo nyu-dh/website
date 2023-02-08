@@ -16,9 +16,9 @@ abstract: The Artist Archives Initiative promotes research and disseminates know
 pis:
 - martin
 link: https://artistarchives.hosting.nyu.edu/Initiative/
-local_image: artists-archive.jpg
+image: artists-archive.jpg
 original_img: https://artistarchives.hosting.nyu.edu/Initiative/wp-content/uploads/2021/01/OHVR_PER_PHODOC_1972_AceGalleryLA_RNeiman_JJstudio-prnt005_ImageLink2-1024x679-1.jpg
-hero_image: "/media/banners/artists-archive.jpg"
+hero_image: "/media/projects/artists-archive.jpg"
 order: '025'
 layout: project
 ---

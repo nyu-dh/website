@@ -1,8 +1,7 @@
 ---
 pid: soul-of-reason
 done: true
-title: Raising the Volume
-subtitle: Amplifying <i>Soul of Reason</i>
+title: 'Raising the Volume: Amplifying <i>Soul of Reason</i>'
 featured: true
 category: DH Seed Grant Recipient
 tags:
@@ -25,10 +24,11 @@ limerick: |-
   to miss this would be treason
 pis:
 - bunde
-- dss
-link: https://nyu-dss.github.io/soul-of-reason/
-local_image: soul-of-reason.jpg
+- nyrop
+link: https://specialcollections.hosting.nyu.edu/projects/soul-of-reason/
+image: soul-of-reason.jpg
 original_img: https://nyu-dss.github.io/soul-of-reason/images/uploads/roscoe-brown-IAAA.jpg
+hero_image: "/media/projects/soul-of-reason.jpg"
 order: '005'
 layout: project
 ---

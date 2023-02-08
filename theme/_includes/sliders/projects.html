@@ -8,8 +8,8 @@
                 <div class="card-content">
                     <div class="content">
                         <figure class="image is-3by2 mx-0 mb-3 mt-0">
-                            {% if item.local_image %}
-                            {% assign image = 'media/projects/' | append: item.local_image %}
+                            {% if item.image %}
+                            {% assign image = 'media/projects/' | append: item.image %}
                             {% else %}
                             {% assign image = '/media/defaults/projects.png' %}
                             {% endif %}

@@ -16,6 +16,8 @@ abstract: Marshall created a digital walking tour of Old City Philadelphia that 
 pis:
 - marshall
 link: https://jubilee.hosting.nyu.edu/wordpress/home/
+image: g2021marshall.png
+hero_image: "/media/projects/g2021marshall.png"
 order: '014'
 layout: project
 ---

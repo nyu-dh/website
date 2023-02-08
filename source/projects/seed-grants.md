@@ -18,13 +18,13 @@ contents_links:
 
 
 <h2 id="2022">Funded for 2022 – 2023</h2>
-{% assign seeds2022 = seeds | where: 'cohort_year', '2022' %}
+{% assign seeds2022 = seeds | where: 'cohort_year', '2022' | sort: 'image' | reverse %}
 {% include cards/projects.html data=seeds2022 %}
 
 <h2 id="2021">Funded for 2021 – 2022</h2>
-{% assign seeds2021 = seeds | where: 'cohort_year', '2021' %}
+{% assign seeds2021 = seeds | where: 'cohort_year', '2021' | sort: 'image' | reverse %}
 {% include cards/projects.html data=seeds2021 %}
 
 <h2 id="2020">Funded for 2020 – 2021</h2>
-{% assign seeds2020 = seeds | where: 'cohort_year', '2020' %}
+{% assign seeds2020 = seeds | where: 'cohort_year', '2020' | sort: 'image' | reverse %}
 {% include cards/projects.html data=seeds2020 %}

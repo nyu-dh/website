@@ -7,7 +7,7 @@ category: Grad Fellowship Project
 tags:
 - visual-culture
 cohort_year: '2021'
-abstract: Pettiwala's dissertation explores the contemporary transnational processes
+abstract: Petiwala's dissertation explores the contemporary transnational processes
   by which Indian commodities and media circulate the Middle East, and simultaneously
   create and echo hybrid conceptions of Indianness, cosmopolitanism, and Orientalism.
   She is interested in understanding how the cultural consumption of India (as manifested

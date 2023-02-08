@@ -16,7 +16,6 @@ abstract: The City Record Project hosts the New York City Record from its first 
 pis:
 - soffer
 link: http://cityrecord.engineering.nyu.edu/
-local_image: city-record.jpg
 order: '023'
 layout: project
 ---

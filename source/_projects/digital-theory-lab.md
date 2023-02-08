@@ -20,7 +20,7 @@ pis:
 - weatherby
 - coble
 link: https://digitaltheorylab.org/
-local_image: dtl.jpg
+image: digital-theory.jpg
 hero_image: "/media/projects/dtl.jpg"
 order: '002'
 layout: project

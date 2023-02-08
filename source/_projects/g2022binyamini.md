@@ -29,6 +29,6 @@ abstract: 'Over the course of this summer, I propose to apply digital humanities
   overview of Orthodox activities in the late twentieth century.'
 pis:
 - binyamini
-order: '036'
+order: '035'
 layout: project
 ---

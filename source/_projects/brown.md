@@ -32,9 +32,9 @@ pis:
 - augst
 - wolf
 link: https://brownbros.newyorkscapes.org/
-local_image: brown.jpg
+image: brown.jpg
 original_img: https://newyorkscapes.org/wp-content/uploads/2021/03/018.57733030.117d9410-dc97-0136-03f0-000d5d842228-edited-768x768.jpeg
-hero_image: "/media/banners/brown.jpg"
+hero_image: "/media/projects/brown.jpg"
 order: '000'
 layout: project
 ---

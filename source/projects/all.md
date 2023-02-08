@@ -16,5 +16,5 @@ contents_links:
   - label: 'NYU Community DH Projects'
     link: '/projects/community'
 ---
-{% assign projects = site.projects %}
+{% assign projects = site.projects | sort: 'image' | reverse %}
 {% include cards/projects.html data=projects %}

@@ -16,14 +16,14 @@ contents_links:
 ---
 
 ## Seed Grant Projects {% include misc/arrow-all-link.html link="/projects/seed-grants/" %}
-{% assign seeds = site.projects | where_exp: "i", "i.category contains 'Seed'" | sort: 'order' %}
+{% assign seeds = site.projects | where_exp: "i", "i.category contains 'Seed'" | sort: 'image' | reverse %}
 {% include sliders/projects.html data=seeds id="1" %}
 
 ## Graduate Fellowship Projects {% include misc/arrow-all-link.html link="/projects/fellowships/" %}
-{% assign fellows = site.projects | where_exp: "i", "i.category contains 'Fellowship'" | sort: 'order' %}
+{% assign fellows = site.projects | where_exp: "i", "i.category contains 'Fellowship'" | sort: 'image' | reverse %}
 {% include sliders/projects.html data=fellows id="2" %}
 
 ## NYU Community DH Projects {% include misc/arrow-all-link.html link="/projects/community/" %}
 
-{% assign community = site.projects | where_exp: "i", "i.category contains 'Other'" | sort: 'order' %}
+{% assign community = site.projects | where_exp: "i", "i.category contains 'Other'" | sort: 'image' | reverse %}
 {% include sliders/projects.html data=community id="3" %}

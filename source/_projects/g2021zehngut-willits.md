@@ -1,7 +1,7 @@
 ---
 pid: g2021zehngut-willits
 done: true
-title: Record-Keeping and the Golden Gate
+title: 'A-Files: Record-Keeping and the Golden Gate'
 featured: true
 category: Grad Fellowship Project
 tags:
@@ -17,8 +17,9 @@ abstract: From the nineteenth century to the present, immigrants encountering th
   dissect, interpret, and analyze the A-File’s content and evolution.
 pis:
 - zehngut-willits
-local_image: g2021zehngut-willits.jpg
+image: g2021zehngut-willits.png
 original_img: https://www.mercurynews.com/wp-content/uploads/2016/08/20120517__alienfil1.jpg?w=400
+hero_image: "/media/projects/g2021zehngut-willits.png"
 order: '016'
 layout: project
 ---

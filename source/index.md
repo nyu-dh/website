@@ -27,6 +27,6 @@ title: Computation + Collaboration + Critique
 <div class="block pb-5" markdown="1">
 ## Projects {% include misc/arrow-all-link.html link="/projects" %}
 
-{% assign featured_projects = site.projects | where: 'featured', true | sort: 'order' %}
+{% assign featured_projects = site.projects | where: 'featured', true | sort: 'image' | reverse %}
 {% include sliders/projects.html data=featured_projects id="3" %}
 </div>

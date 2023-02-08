@@ -35,9 +35,9 @@ pis:
 - ansari
 - ayers
 - brain
-local_image: moss.jpg
+image: moss.jpg
 image_alt: illustration by Jo Suk
-hero_image: "/media/banners/moss.jpg"
+hero_image: "/media/projects/moss.png"
 order: '008'
 layout: project
 ---

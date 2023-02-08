@@ -24,6 +24,6 @@ abstract: 'n Lines and Changing is an ongoing digital poetry project that arises
   a Chinese translation "toggle," and a critical essay). '
 pis:
 - perry
-order: '041'
+order: '040'
 layout: project
 ---
