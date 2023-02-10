@@ -6,7 +6,7 @@ subtitle: |
   The following courses include core and some of the elective courses in the [Advanced Certificate in Digital Humanities](/curriculum/certificate/), offered through the Graduate School of Arts and Sciences.
 
   Certificate courses are open to all graduate students at NYU, and through the consortium to PhD candidates at other institutions.
-contents_links:
+quick_links:
   - label: 'Current Semester'
     link: '#current-semester'
   - label: 'Upcoming Semester'

@@ -8,7 +8,7 @@ hero_buttons:
   - label: "2023 Applications Open – Apply Now!"
     link: "https://nyuhumanities.org/opportunity/digital-humanities-seed-grants/"
     external: true
-contents_links:
+quick_links:
   - label: "Seed Grant News"
     link: "#seed-grant-news"
   - label: "Funded Projects"

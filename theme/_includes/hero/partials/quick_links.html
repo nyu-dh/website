@@ -1,0 +1,14 @@
+<div class="column is-narrow">
+    <div class="content">
+      <p class="has-text-weight-bold mb-0">Quick Links:</p>
+      <ul class="my-0 ml-0" style="list-style:inside;">
+        {% for item in page.quick_links %}
+        <li class="is-size-6 mt-0">
+          <a class="is-underlined has-text-weight-normal" href="{{ item.link }}">
+            {{ item.label }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>

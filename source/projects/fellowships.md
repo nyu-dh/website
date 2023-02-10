@@ -6,7 +6,7 @@ hero_image: '/media/banners/doodles/projects.png'
 breadcrumbs:
   - name: Projects
     link: /projects
-contents_links:
+quick_links:
   - label: 2022 Cohort
     link: '#2022'
   - label: 2021 Cohort

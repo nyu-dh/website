@@ -10,7 +10,7 @@ hero_image: '/media/banners/doodles/resources.png'
 #   - label: 'NYU DH Slack Channel (NYU Only)'
 #     link: 'https://forms.gle/kzxyJLetPz4pGGY78'
 #     external: true
-# contents_links:
+# quick_links:
 #     - label: 'Consultations and Resources'
 #       link: '#access-consultations-and-resources'
 #     - label: 'News and Events'

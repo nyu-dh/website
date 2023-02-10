@@ -1,0 +1,21 @@
+<div class="columns is-multiline">
+{% for item in include.data %}
+    <div class="column is-4">
+        <article class="message is-success">
+            <div class="message-body has-text-warning">
+                <p class="title is-size-5 mb-3">
+                {%- if item.url -%}
+                    <a class="has-text-primary no-underline" href="{{ item.url }}">
+                        {{ item.title }}
+                        {% include misc/arrow-all-link.html %}
+                    </a>
+                {%- else -%}
+                    {{ item.title }}
+                {%- endif -%}
+                </p>
+                <p class="is-size-7">{{ item.description }}</p>
+            </div>
+        </article>
+    </div>
+{% endfor %}
+</div>

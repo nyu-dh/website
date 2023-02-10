@@ -5,7 +5,7 @@ hero_image: '/media/banners/doodles/people.png'
 breadcrumbs:
   - name: People
     link: /people
-contents_links:
+quick_links:
     - label: 'Relevant Courses'
       link: '/curriculum/courses/'
 ---

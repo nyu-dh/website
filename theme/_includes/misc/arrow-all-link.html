@@ -1,1 +1,7 @@
-<a class="has-text-success is-inline is-bold" aria-label="view all" href="{{ include.link }}"><span class="material-symbols-outlined is-bold">&#xe5c8;</span></a>
+{%- if include.link -%}
+<a class="has-text-success is-inline is-bold" aria-label="view all" href="{{ include.link }}">
+{%- endif -%}
+<span class="material-symbols-outlined is-bold">&#xe5c8;</span>
+{%- if include.link -%}
+</a>
+{%- endif -%}

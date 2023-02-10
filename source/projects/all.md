@@ -6,7 +6,7 @@ hero_image: '/media/banners/doodles/projects.png'
 breadcrumbs:
   - name: Projects
     link: /projects
-contents_links:
+quick_links:
   - label: 'Featured Projects'
     link: '/projects'
   - label: 'NYU DH Seed Grant Projects'

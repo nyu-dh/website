@@ -16,10 +16,10 @@
   link: '/news'
 - name: Community
   dropdown:
-    - name: People
-      link: '/people'
     - name: Get Involved
       link: '/get-involved'
+    - name: People
+      link: '/people'
 - name: Funding
   dropdown:
     - name: NYU DH Seed Grants

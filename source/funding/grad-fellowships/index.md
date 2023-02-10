@@ -8,7 +8,7 @@ hero_buttons:
   - label: "2023 Applications Open – Apply Now!"
     link: "https://nyuhumanities.org/opportunity/digital-humanities-graduate-student-summer-fellowships/"
     external: true
-contents_links:
+quick_links:
   - label: "Current and Past Fellows"
     link: "#past-fellows"
   - label: "FAQ"
