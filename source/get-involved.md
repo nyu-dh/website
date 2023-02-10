@@ -4,13 +4,6 @@ layout: default
 hero_image: '/media/banners/doodles/getinvolved.png'
 subtitle: >
   Jump into the NYU Digital Humanities community by attending events or courses, proposing projects, joining communication channels, accessing resources, or just saying hello! Learn how below.
-# hero_buttons:
-#   - label: 'Join the NYU DH Mailing List'
-#     link: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'
-#     external: true
-#   - label: 'Join the NYU DH Slack Channel'
-#     link: 'https://forms.gle/kzxyJLetPz4pGGY78'
-#     external: true
 quick_links:
   - label: 'For Everyone at NYU'
     link: '#everyone'
