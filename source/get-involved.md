@@ -31,7 +31,7 @@ everyone:
   - title: Join our Slack Channel
     url: 'https://forms.gle/kzxyJLetPz4pGGY78'
     description: >
-      Fill out the linked Google Form to join our channel and chat! (Open to NYU commuity members only.)
+      Fill out the linked Google Form to join our channel and chat! (Open to NYU community members only.)
   - title: Browse News + Events
     url: '/news'
     description: >
