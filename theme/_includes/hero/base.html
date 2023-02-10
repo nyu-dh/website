@@ -1,6 +1,14 @@
+{% if page.hero_image %} 
+  {% assign img = page.hero_image %}
+{% elsif page.collection == "projects" %}
+  {% assign img = "/media/defaults/projects.png" %}
+{% else %}
+  {% assign img = "/media/defaults/news.png" %}
+{% endif %}
+
 {%- capture img_style -%}
 style="
-  background-image: url('{{ page.hero_image | default: "/media/defaults/news.png" | absolute_url }}');
+  background-image: url('{{ img | absolute_url }}');
   background-color: #260326;
   background-size: cover;
   background-blend-mode: overlay;
