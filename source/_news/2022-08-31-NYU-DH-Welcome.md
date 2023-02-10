@@ -28,7 +28,7 @@ Introduction to Data Services Wednesday, 9/7, 2PM
 Introduction to Digital Scholarship Services Thursday, 9/8, 1pm. 
 
 **NYU DH Website: SO much information!**
-The DSS team has been working on a new [NYU DH website](https://digitalhumanities.nyu.edu) which showcases [faculty and student projects](https://digitalhumanities.nyu.edu/projects/) and offers ways to get involved and information about funding.
+The DSS team has been working on a new [NYU DH website](/) which showcases [faculty and student projects](/projects/) and offers ways to get involved and information about funding.
 
 And stay tuned for details about the **2022 Digital Humanities Showcase** coming up October 6, 3:30pm, on Zoom. It's a great opportunity to see DH work of faculty and graduate students happening across NYU.
 
