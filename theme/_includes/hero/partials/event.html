@@ -11,18 +11,19 @@
 
 <div class="column is-narrow">
   <p class="is-size-6 mb-0">
-    <i class="far fa-calendar-alt mr-1"></i> Event
+    <span class="material-symbols-outlined has-text-weight-light">&#xe878;</span> {{ page.eventDate | date: "%m/%d/%Y" }}
   </p>
 
   <p class="is-size-6 mb-0">
-    <i class="fas fa-calendar-day mr-1"></i> {{ page.eventDate | date: "%m/%d/%Y" }}
+    <span class="material-symbols-outlined has-text-weight-light">&#xe8b5;</span> {{ page.startTime }}
   </p>
 
   <p class="is-size-6 mb-0">
-    <i class="far fa-clock mr-1"></i> {{ page.startTime }}
-  </p>
-
-  <p class="is-size-6 mb-0">
-    <i class="fas fa-map-marker-alt mr-1"></i> Location: {{ page.location }}
+    {% if page.location | downcase == 'zoom' %}
+    <span class="material-symbols-outlined has-text-weight-light">&#xe04b;</span> 
+    {% else %}
+    <span class="material-symbols-outlined has-text-weight-light">&#xe55e;</span> 
+    {% endif %}
+    {{ page.location }}
   </p>
 </div>
