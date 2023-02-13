@@ -3,6 +3,9 @@
     <div class="column is-4">
         <article class="message is-success">
             <div class="message-body has-text-warning">
+                {% if item.icon %}
+                <img src="{{ item.icon }}" style="height:70px;"/>
+                {% endif %}
                 <p class="title is-size-5 mb-3">
                 {%- if item.url -%}
                     <a class="has-text-primary no-underline" href="{{ item.url }}">

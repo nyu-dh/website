@@ -70,6 +70,8 @@ bibs_n_guides:
     url: https://guides.nyu.edu/journal-publishing
   - title: Affordable + Open Educational Resources Guide
     url: https://guides.nyu.edu/oer/home
+  - title: DH Software "Awesome List"
+    url: https://github.com/nyu-dh/awesome-digital-humanities#awesome-digital-humanities-
 ---
 
 
