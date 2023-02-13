@@ -1,7 +1,7 @@
 ---
 layout: default
 home: true
-hero_image: '/media/banners/doodles/home.png'
+hero_image: '/assets/images/banners/home.png'
 title: Computation + Collaboration + Critique
 ---
 

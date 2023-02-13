@@ -1,7 +1,7 @@
 ---
 layout: default
 title: NYU DH Course Archive
-hero_image: '/media/banners/doodles/courses.png'
+hero_image: '/assets/images/banners/courses.png'
 breadcrumbs:
   - name: Courses
     link: /curriculum/courses

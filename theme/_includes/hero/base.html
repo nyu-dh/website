@@ -1,9 +1,9 @@
 {% if page.hero_image %} 
   {% assign img = page.hero_image %}
 {% elsif page.collection == "projects" %}
-  {% assign img = "/media/defaults/projects.png" %}
+  {% assign img = "/assets/images/defaults/projects.png" %}
 {% else %}
-  {% assign img = "/media/defaults/news.png" %}
+  {% assign img = "/assets/images/defaults/news.png" %}
 {% endif %}
 
 {%- capture img_style -%}

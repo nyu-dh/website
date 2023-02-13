@@ -1,6 +1,6 @@
 ---
 title: NYU DH Graduate Fellowships
-hero_image: '/media/banners/doodles/fellows.png'
+hero_image: '/assets/images/banners/fellows.png'
 layout: default
 subtitle: |
   This annual DH Fellowship program supports selected NYU graduate students as they develop innovative digital humanities projects. Successful applicants receive mentoring, a $5,000 stipend, and participate in a cohort to develop their skills and sharpen their ideas.

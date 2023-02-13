@@ -1,7 +1,7 @@
 ---
 title: NYU DH Graduate Fellowships — FAQ
 layout: faq
-hero_image: '/media/banners/doodles/fellows.png'
+hero_image: '/assets/images/banners/fellows.png'
 breadcrumbs:
   - name: Graduate Student Fellowships
     link: /funding/grad-fellowships/

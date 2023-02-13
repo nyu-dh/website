@@ -1,7 +1,7 @@
 ---
 title: Get Involved
 layout: default
-hero_image: '/media/banners/doodles/getinvolved.png'
+hero_image: '/assets/images/banners/getinvolved.png'
 subtitle: >
   Jump into the NYU Digital Humanities community by attending events or courses, proposing projects, joining communication channels, accessing resources, or just saying hello! Learn how below.
 quick_links:

@@ -1,7 +1,7 @@
 ---
 title: News + Events
 layout: default
-hero_image: '/media/banners/doodles/news.png'
+hero_image: '/assets/images/banners/news.png'
 quick_links:
   - label: "Highlights"
     link: "/news/highlights"

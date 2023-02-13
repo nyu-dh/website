@@ -1,7 +1,7 @@
 ---
 title: Events
 layout: default
-hero_image: '/media/banners/doodles/news.png'
+hero_image: '/assets/images/banners/news.png'
 breadcrumbs:
   - name: News + Events
     link: /news/

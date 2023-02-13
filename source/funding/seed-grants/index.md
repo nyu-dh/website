@@ -1,7 +1,7 @@
 ---
 title: NYU DH Seed Grants
 layout: default
-hero_image: '/media/banners/doodles/seedgrants.png'
+hero_image: '/assets/images/banners/seedgrants.png'
 subtitle: |
   The multi-year seed grants program identifies and funds faculty-led projects that creatively bridge humanistic scholarship with new forms of computation, digital publishing, and digitization.
 hero_buttons:

@@ -2,7 +2,7 @@
 title: DH Resources at NYU
 layout: default
 subtitle:
-hero_image: '/media/banners/doodles/resources.png'
+hero_image: '/assets/images/banners/resources.png'
 quick_links:
   - label: 'Consultations'
     link: '#consultations'

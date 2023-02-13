@@ -1,6 +1,6 @@
 ---
 title: Grant Cycle Information
-hero_image: '/media/banners/doodles/fellows.png'
+hero_image: '/assets/images/banners/fellows.png'
 layout: default
 breadcrumbs:
   - name: Graduate Student Fellowships

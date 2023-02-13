@@ -1,7 +1,7 @@
 ---
 title: People
 layout: default
-hero_image: '/media/banners/doodles/people.png'
+hero_image: '/assets/images/banners/people.png'
 subtitle: |
   Meet some of the people affiliated with digital humanities at NYU. You can find more specific committees and cohorts in the quick links section.
 quick_links:

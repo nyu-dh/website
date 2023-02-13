@@ -2,7 +2,7 @@
 title: Projects
 subtitle: |
   Below you'll find a selection of featured projects. You can browse even more projects by category using the quick links.
-hero_image: '/media/banners/doodles/projects.png'
+hero_image: '/assets/images/banners/projects.png'
 layout: default
 quick_links:
   - label: 'NYU DH Seed Grant Projects'

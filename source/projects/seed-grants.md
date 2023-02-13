@@ -2,7 +2,7 @@
 title: NYU DH Seed Grant Projects
 subtitle: 'Browse the amazing projects funded through our [NYU DH Seed Grant Program](/funding/seed-grants) by cohort year.'
 layout: default
-hero_image: '/media/banners/doodles/projects.png'
+hero_image: '/assets/images/banners/projects.png'
 breadcrumbs:
   - name: Projects
     link: /projects

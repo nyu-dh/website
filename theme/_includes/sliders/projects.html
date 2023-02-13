@@ -11,7 +11,7 @@
                             {% if item.image %}
                             {% assign image = 'media/projects/' | append: item.image %}
                             {% else %}
-                            {% assign image = '/media/defaults/projects.png' %}
+                            {% assign image = '/assets/images/defaults/projects.png' %}
                             {% endif %}
                             <a href="{{ item.url }}">
                                 <img class="img-fit" src="{{ image | absolute_url }}" alt="Image for {{ project.title }}">
