@@ -14,7 +14,7 @@
                             {% assign image = '/assets/images/defaults/projects.png' %}
                             {% endif %}
                             <a href="{{ item.url }}">
-                                <img class="img-fit" src="{{ image | absolute_url }}" alt="Image for {{ project.title }}">
+                                <img class="img-fit" data-splide-lazy="{{ image | absolute_url }}" alt="Image for {{ project.title }}">
                                 {% if item.tags %}
                                 <div class="is-overlay has-text-left m-1">
                                 {% for tag in item.tags %}
@@ -42,6 +42,7 @@
   var splide = new Splide( '#splide-{{ include.id }}', {
     perPage: 4,
     rewind : true,
+    lazyLoad: 'nearby',
     gap    : '1.5rem',
     breakpoints: {
       1100: {

@@ -20,7 +20,7 @@
                 {% unless include.hide_images %}
                 <a href="{{ item.url }}">
                   <figure class="image is-3by1 mb-3 mt-0 mx-0">
-                    <img class="img-fit" src="{{ item.hero_image | default: '/assets/images/defaults/news.png' }}" alt="{{ item.hero_image_alt | default: 'Placeholder pots image' }}">
+                    <img class="img-fit" data-splide-lazy="{{ item.hero_image | default: '/assets/images/defaults/news.png' }}" alt="{{ item.hero_image_alt | default: 'Placeholder pots image' }}">
                   </figure>
                 </a>
                 {% endunless %}
@@ -48,6 +48,7 @@
 <script>
   var splide = new Splide( '#splide-{{ include.id }}', {
     perPage: 3,
+    lazyLoad: 'nearby',
     rewind : true,
     gap    : '1.5rem',
     breakpoints: {
