@@ -13,12 +13,12 @@ quick_links:
     link: '#grad-students'
 everyone:
   - title: Attend a DH Potluck
-    icon: /assets/images/icons/potluck.png
+    # icon: /assets/images/icons/potluck.png
     description: >
       DH Potlucks are an informal, in-person gathering for NYU students, faculty, and staff to co-work, troubleshoot, and share knowledge. Guests are welcome to bring projects, tools, questions, snacks, and/or friends.
       Join our <a target="_blank" href="https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1">mailing list</a> for updates!
   - title: Join our Mailing List
-    icon: /assets/images/icons/mail.png
+    # icon: /assets/images/icons/mail.png
     url: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'
     description: >
       The DH @ NYU email list is a great way to receive periodic updates on events, opportunities, and funding available to the NYU community.  
@@ -32,7 +32,7 @@ everyone:
     description: >
       Select news and events are featured on our <a href="/news">website</a>, but we also encourage you to browse <a href="https://library.nyu.edu/about/events/" target="_blank">NYU Library's events and workshops</a> and sign up for our <a href="https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1" target="_blank">mailing list</a> for more updates.
   - title: Access Resources + Consultations
-    icon: /assets/images/icons/consultations.png
+    # icon: /assets/images/icons/consultations.png
     url: '/resources'
     description: >
       There are many services available all across NYU to support and advance you project. Check out our <a href="/resources">Resources page</a> to browse a list of them.
@@ -45,7 +45,7 @@ grad_students:
     description: >
       We support selected NYU graduate students annually as they develop innovative digital humanities projects. Successful applicants receive mentoring, a $5,000 stipend, and participate in a cohort to develop their skills and sharpen their ideas.
   - title: Browse DH Courses
-    icon: /assets/images/icons/bibliography.png
+    # icon: /assets/images/icons/bibliography.png
     url: '/curriculum/courses'
     description: >
       All graduate students interested in digital humanities can enroll in <a href="/curriculum/courses/">individual courses</a> in the <a href="https://as.nyu.edu/departments/dh.html">Advanced Certificate program in Digital Humanities</a>. Talk to your advisor or email dh.help@nyu.edu if you are interested in formally enrolling.

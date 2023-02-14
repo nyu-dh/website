@@ -23,7 +23,9 @@ theme: nyu-dh-theme
 plugins:
   - pagemaster
   - jekyll-seo-tag
-
+sass:
+  style: compressed
+  
 permalink: pretty
 logo-image-url: images/logo.png
 github_username: 'nyu-dh'

@@ -14,7 +14,7 @@
                             {% assign image = '/assets/images/defaults/projects.png' %}
                             {% endif %}
                             <a href="{{ item.url }}">
-                                <img class="img-fit" data-splide-lazy="{{ image | absolute_url }}" alt="Image for {{ project.title }}">
+                                <img class="img-fit" srcset="{{ image | absolute_url }}" data-splide-lazy="{{ image | absolute_url }}" alt="Image for {{ project.title }}">
                                 {% if item.tags %}
                                 <div class="is-overlay has-text-left m-1">
                                 {% for tag in item.tags %}

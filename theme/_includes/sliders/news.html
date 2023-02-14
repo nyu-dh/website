@@ -16,11 +16,16 @@
                   {%- endif -%}
                   {% assign eyebrow = item.series | default: item.category %}
                   <a class="has-text-warning" href="/news/{{ eyebrow | slugify }}s/">{{ eyebrow }}</a>
+                  {% if item.hero_image %}
+                  {% assign image = item.hero_image %}
+                  {% else %}
+                  {% assign image = '/assets/images/defaults/news.png' %}
+                  {% endif %}
                 </p>
                 {% unless include.hide_images %}
                 <a href="{{ item.url }}">
                   <figure class="image is-3by1 mb-3 mt-0 mx-0">
-                    <img class="img-fit" data-splide-lazy="{{ item.hero_image | default: '/assets/images/defaults/news.png' }}" alt="{{ item.hero_image_alt | default: 'Placeholder pots image' }}">
+                    <img class="img-fit" srcset="{{ image | absolute_url }}" data-splide-lazy="{{ image | absolute_url }}" alt="{{ item.hero_image_alt | default: 'Placeholder pots image' }}">
                   </figure>
                 </a>
                 {% endunless %}

@@ -9,7 +9,7 @@
 $family-sans-serif: 'DM Sans', sans-serif;
 $family-secondary: 'Montserrat', sans-serif;
 
-$primary: #760476; /* #571057; */
+$primary: #760476;
 $info: #260326; 
 $white: #F0ECE1; 
 $link: $primary;
@@ -25,12 +25,15 @@ $navbar-breakpoint: $tablet !default;
 $card-background-color: unset;
 $card-shadow: unset;
 
-@import "../node_modules/bulma/bulma.sass";
+// @import "../node_modules/bulma/bulma.sass";
 
-// @import "layout";
-// @import "syntax";
-// @import "showcase";
-// @import "../node_modules/bulma-block-list/src/block-list.scss";
+@import "../node_modules/bulma/sass/utilities/_all";
+@import "../node_modules/bulma/sass/base/_all";
+@import "../node_modules/bulma/sass/elements/_all";
+@import "../node_modules/bulma/sass/components/_all";
+@import "../node_modules/bulma/sass/grid/_all";
+@import "../node_modules/bulma/sass/helpers/_all";
+@import "../node_modules/bulma/sass/layout/_all";
 
 
 h1, h2, h3, h4, h5, h6 { font-family: $family-secondary }
