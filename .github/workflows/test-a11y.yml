@@ -24,7 +24,7 @@ jobs:
           bundler-cache: true
       # build site
       - name: build site
-        run: bundle exec rake site:build
+        run: bundle exec jekyll build
       # test a11y
       - name: test a11y
         env:
