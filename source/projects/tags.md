@@ -1,7 +1,8 @@
 ---
-title: Tags
+title: Project Tags
 subtitle: ''
 layout: default
+hero_image: '/assets/images/banners/projects.png'
 breadcrumbs:
   - name: Projects
     link: /projects

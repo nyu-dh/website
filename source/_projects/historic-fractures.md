@@ -28,6 +28,6 @@ abstract: 'This project is a catalyst for access to open Villa La Pietra’s ric
 pis:
 - flouty
 - kapp
-order: '044'
+order: '043'
 layout: project
 ---

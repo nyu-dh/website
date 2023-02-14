@@ -1,6 +1,6 @@
 ---
 title: Advanced Certificate in Digital Humanities
-layout: page
+layout: default
 hero_buttons:
   - label: 'Apply (Current NYU students)'
     external: true
@@ -17,7 +17,7 @@ knowledge in their own disciplines and to build transferrable skills for carryin
 Students who wish to complete the degree on its own can
 [apply through NYU Slate](https://www.nyu.edu/admissions/graduate-admissions/humanities.html).
 Students currently
-enrolled in [one of the joint degree programs](/curriculum/certificate/joint-degrees) should
+enrolled in one of the joint degree programs should
 [apply through the form on this site](https://forms.gle/gtwiFxP67e4c6nU16).
 
 See the [digital humanities courses](/curriculum/courses/) page for a list of courses by semester.

@@ -1,5 +1,6 @@
 ---
 title: "Applications Open! 2023 NYU DH Seed Grants & Graduate Fellowships"
+category: announcement
 date: 2022-12-15
 author: Jojo Karlin
 tags:

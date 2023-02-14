@@ -1,14 +1,32 @@
 ---
 layout: default
 home: true
-hero_image: '/assets/images/coding-2(1).png'
-title: New York University Digital Humanities
+hero_image: '/assets/images/banners/home.png'
+title: Computation + Collaboration + Critique
 ---
 
-{% include cards/news.html data=site.news limit=6 %}
+<div class="block pb-5" markdown="1">
+## Highlights {% include misc/arrow-all-link.html link="/news/highlights" %}
 
-<br>
+{% assign posts=site.news | where: 'category', 'highlight' %}
+{% include sliders/news.html data=posts id="1" %}
 
-<p>
-  <a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All</a>
-</p>
+</div>
+
+
+<div class="block pb-5" markdown="1">
+## Announcements {% include misc/arrow-all-link.html link="/news/announcements" %}
+
+{% assign announcements=site.news | where: 'category', 'announcement' %}
+{% include sliders/news.html hide_images=true data=announcements id="2" %}
+</div>
+
+
+
+
+<div class="block pb-5" markdown="1">
+## Projects {% include misc/arrow-all-link.html link="/projects" %}
+
+{% assign featured_projects = site.projects | where: 'featured', true | sort: 'image' | reverse %}
+{% include sliders/projects.html data=featured_projects id="3" %}
+</div>

@@ -1,42 +1,68 @@
 ---
 title: Get Involved
 layout: default
-subtitle: "NYU DH invites you to get involved through consultations, events, and funding. Learn more here and join our communication channels for ongoing announcements. "
-hero_buttons:
-  - label: 'NYU DH Mailing List (Public)'
-    link: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'
-    external: true
-  - label: 'NYU DH Slack Channel (NYU Only)'
-    link: 'https://forms.gle/kzxyJLetPz4pGGY78'
-    external: true
-contents_links:
-    - label: 'Consultations and Resources'
-      link: '#access-consultations-and-resources'
-    - label: 'News and Events'
-      link: '#explore-news-and-events'
+hero_image: '/assets/images/banners/getinvolved.png'
+subtitle: >
+  Jump into the NYU Digital Humanities community by attending events or courses, proposing projects, joining communication channels, accessing resources, or just saying hello! Learn how below.
+quick_links:
+  - label: 'For Everyone at NYU'
+    link: '#everyone'
+  - label: 'For Faculty at NYU'
+    link: '#faculty'
+  - label: 'For Graduate Students at NYU'
+    link: '#grad-students'
+everyone:
+  - title: Attend a DH Potluck
+    # icon: /assets/images/icons/potluck.png
+    description: >
+      DH Potlucks are an informal, in-person gathering for NYU students, faculty, and staff to co-work, troubleshoot, and share knowledge. Guests are welcome to bring projects, tools, questions, snacks, and/or friends.
+      Join our <a target="_blank" href="https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1">mailing list</a> for updates!
+  - title: Join our Mailing List
+    # icon: /assets/images/icons/mail.png
+    url: 'https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1'
+    description: >
+      The DH @ NYU email list is a great way to receive periodic updates on events, opportunities, and funding available to the NYU community.  
+      (n.b. you will need to click the link for "joining the group")
+  - title: Join our Slack Channel
+    url: 'https://forms.gle/kzxyJLetPz4pGGY78'
+    description: >
+      Fill out the linked Google Form to join our channel and chat! (Open to NYU community members only.)
+  - title: Browse News + Events
+    url: '/news'
+    description: >
+      Select news and events are featured on our <a href="/news">website</a>, but we also encourage you to browse <a href="https://library.nyu.edu/about/events/" target="_blank">NYU Library's events and workshops</a> and sign up for our <a href="https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1" target="_blank">mailing list</a> for more updates.
+  - title: Access Resources + Consultations
+    # icon: /assets/images/icons/consultations.png
+    url: '/resources'
+    description: >
+      There are many services available all across NYU to support and advance you project. Check out our <a href="/resources">Resources page</a> to browse a list of them.
+  - title: Contact Us
+    description: >
+      Have more general question or idea? You can reach out to dh.help@nyu.edu.
+grad_students:
+  - title: Apply for an NYU DH Graduate Fellowship
+    url: '/funding/grad-fellowships'
+    description: >
+      We support selected NYU graduate students annually as they develop innovative digital humanities projects. Successful applicants receive mentoring, a $5,000 stipend, and participate in a cohort to develop their skills and sharpen their ideas.
+  - title: Browse DH Courses
+    # icon: /assets/images/icons/bibliography.png
+    url: '/curriculum/courses'
+    description: >
+      All graduate students interested in digital humanities can enroll in <a href="/curriculum/courses/">individual courses</a> in the <a href="https://as.nyu.edu/departments/dh.html">Advanced Certificate program in Digital Humanities</a>. Talk to your advisor or email dh.help@nyu.edu if you are interested in formally enrolling.
+faculty:
+  - title: Apply for an NYU DH Seed Grant
+    url: '/funding/seed-grants'
+    description: >
+      This program identifies and funds faculty-led projects that creatively bridge humanistic scholarship with new forms of computation, digital publishing, and digitization.
 ---
-<div class="content post-content" markdown="1">
-## Access Consultations and Resources
 
-There are lots of people and services at NYU to help digital humanities work at all stages, fresh ideas to established projects. The best way to find and secure resources is to ask for a consultation with one of the support groups.
+<h2 class="my-6" id="everyone">For Everyone at NYU</h2>
+{% include cards/info.html data=page.everyone %}
 
-- Contact [Digital Scholarship Services](https://library.nyu.edu/departments/digital-scholarship-services/) ([request appointment](https://nyu.qualtrics.com/jfe/form/SV_2srvrbNYpL05GW9)) for help with digital publishing & web hosting, project design & scoping.
-- Contact [Data Services](https://guides.nyu.edu/dataservices) ([request appointment](https://guides.nyu.edu/appointment)) for help with data management & analysis, and with digital materials you want help preserving and archiving.
-- Email [dh.help@nyu.edu](mailto:dh.help@nyu.edu) for help with project design & scoping, with questions about seed grants, curricula, or graduate summer fellowships, or for advice on applying to external grants.
-- FAS faculty should contact [FAS Educational Technology](https://wp.nyu.edu/fas-edtech/) if you’re teaching a course and want help integrating digital elements.
-- The NYU library also maintains some more detailed guides to DH resources with the [NYU DH LibGuide](https://guides.nyu.edu/digital-humanities), and a narrated overview in the [Guide to DH at NYU on Manifold](https://nyu.manifoldapp.org/projects/nyu-dh).
-</div>
+<h2 class="my-6" id="faculty">For Faculty</h2>
+{% include cards/info.html data=page.faculty %}
 
-<section class="section full-width mb-6 is-bg-alt">
-<div class="container">
+<h2 class="my-6" id="grad-students">For Graduate Students</h2>
+{% include cards/info.html data=page.grad_students %}
 
-<div class="content post-content" markdown="1">
-## Explore News and Events
 
-DH events and courses are sponsored by groups across the University. We recommend checking the calendars maintained by [NYU Libraries](https://nyu.libcal.com/calendar/?cid=1564&t=d&d=0000-00-00&cal=1564&inc=0), [NYU Center for the Humanities](https://nyuhumanities.org/events/), the [NYU Center for Data Science](https://cds.nyu.edu/cds-events/), as well as [New York City Digital Humanities](https://nycdh.org/calendar/).
-</div>
-
-{% include cards/news.html data=site.news limit=3 %}
-<p><a href="{{ '/news' | absolute_url }}" class="button is-medium is-info">View All</a></p>
-</div>
-</section>

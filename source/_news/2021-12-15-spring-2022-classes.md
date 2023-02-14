@@ -1,5 +1,6 @@
 ---
 title: Spring 2022 Classes
+category: announcement
 date: 2021-11-01
 featureUntil: 2022-03-01
 tags:

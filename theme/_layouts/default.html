@@ -4,30 +4,18 @@ layout: none
 <!DOCTYPE html>
 <!--class="has-navbar-fixed-top"-->
 <html lang="{{ site.lang | default: 'en' }}">
-  {% include head.html %}
+  {%- include head.html -%}
   <body>
-    {% include header.html %}
-      {% if page.home %}
-        {% include hero/home.html %}
-      {% elsif page.collection == 'news' %}
-        {% if page.event %}
-          {% include hero/event.html %}
-        {% else %}
-          {% include hero/news.html %}
-        {% endif %}
-      {% elsif page.collection == 'projects' %}
-          {% include hero/project.html %}
-      {% else %}
-        {% include hero/default.html %}
-      {% endif %}
+    {%- include header.html -%}
+    {%- include hero/base.html -%}
     <div class="section">
-      <div class="container m-auto">
-        {{ content }}
+      <div class="container">
+        <div class="content mb-6">
+          {{ content }}
+        </div>
       </div>
     </div>
-    {% unless page.hide_footer %}
-      {% include footer.html %}
-    {% endunless %}
+    {%- include footer.html -%}
     {%- include scripts/footer.html -%}
   </body>
 </html>

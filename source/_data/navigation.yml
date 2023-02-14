@@ -1,14 +1,36 @@
-- name: Get Involved
-  link: '/get-involved'
-- name: Curriculum
-  link: '/curriculum/courses'
-- name: Grants & Fellowships
+# - name: People
+#   link: '/people'
+# - name: Projects
+#   link: '/projects'
+# - name: News + Events
+#   link: '/get-involved'
+# - name: Resources + Funding
+#   dropdown:
+#     - name: Faculty Seed Grants
+#       link: '/funding/seed-grants'
+#     - name: Graduate Fellowships
+#       link: '/funding/grad-fellowships'
+# - name: Curriculum
+#   link: '/curriculum/courses'
+- name: News + Events
+  link: '/news'
+- name: Community
   dropdown:
-    - name: Faculty Seed Grants
+    - name: Get Involved
+      link: '/get-involved'
+    - name: People
+      link: '/people'
+- name: Funding
+  dropdown:
+    - name: NYU DH Seed Grants
       link: '/funding/seed-grants'
-    - name: Graduate Fellowships
+    - name: NYU DH Graduate Fellowships
       link: '/funding/grad-fellowships'
-- name: People
-  link: '/people'
-- name: Projects
-  link: '/projects'
+- name: Explore
+  dropdown:
+    - name: Projects
+      link: '/projects'
+    - name: Courses
+      link: '/curriculum/courses'
+    - name: Resources
+      link: '/resources'

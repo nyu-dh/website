@@ -29,6 +29,9 @@ limerick: |
 pis:
 - schellmann
 - sloane
+link: https://www.gumshoex.org/
+image: hiring-ai.jpg
+hero_image: "/media/projects/hiring-ai.jpg"
 order: '003'
 layout: project
 ---

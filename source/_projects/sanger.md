@@ -16,8 +16,9 @@ pis:
 - katz
 - dss
 link: https://sanger.hosting.nyu.edu/
-local_image: sanger.jpg
-original_img: https://sanger.hosting.nyu.edu/images/legacy/1929_writing.jpg
+image: sanger.jpg
+original_img: https://tile.loc.gov/storage-services/service/pnp/cph/3c30000/3c38000/3c38800/3c38888r.jpg
+hero_image: "/media/projects/sanger.jpg"
 order: '027'
 layout: project
 ---

@@ -1,7 +1,7 @@
 title: 'New York University Digital Humanities'
 short_title: 'NYU DH'
 tagline: >
-  NYU DH focuses on new technologies, advanced computing, and public engagement to inform and interrogate humanistic inquiry.
+  The NYU DH community advances humanities inquiry by supporting innovative research methods, offering training and project funding, and centering public engagement. 
 limerick: >
   Welcome to the NYU DH Periphery /
   Out here things are rather slippery /
@@ -23,7 +23,9 @@ theme: nyu-dh-theme
 plugins:
   - pagemaster
   - jekyll-seo-tag
-
+sass:
+  style: compressed
+  
 permalink: pretty
 logo-image-url: images/logo.png
 github_username: 'nyu-dh'

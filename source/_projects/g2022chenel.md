@@ -30,9 +30,9 @@ abstract: 'We make sense of the spatial world around us by dividing it into smal
 pis:
 - chenel
 link: https://lynnchenel.com/dopu/
-local_image: g2022chenel.jpg
+image: g2022chenel.png
 original_img: https://drive.google.com/file/d/1-rWnlcFgDDdnKeQjKeKVevOKgtUG0TtJ/view
-hero_image: "/media/banners/g2022chenel.png"
-order: '032'
+hero_image: "/media/projects/g2022chenel.png"
+order: '031'
 layout: project
 ---

@@ -9,15 +9,15 @@ columns:
     - name: GitHub
       link: 'https://github.com/nyu-dh'
   "NYU Partners":
-    - name: Arts & Science
-      link: 'https://cas.nyu.edu/'
     - name: Libraries
       link: 'https://library.nyu.edu/'
     - name: Information Technology
       link: 'https://www.nyu.edu/life/information-technology.html'
     - name: Center for the Humanities
       link: 'https://nyuhumanities.org/'
+    - name: Arts & Science
+      link: 'https://cas.nyu.edu/'
   "Policies":
     - name: NYU Accessibility
       link: 'https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/website-accessibility.html'
-copyright: '© New York University 2022'
+copyright: '© New York University 2023'

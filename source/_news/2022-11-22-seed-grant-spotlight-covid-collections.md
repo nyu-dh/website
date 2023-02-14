@@ -1,5 +1,7 @@
 ---
-title: "Seed Grant Spotlight: Covid Collections"
+title: "Ellen Noonan on <i>Covid Collections</i>"
+category: highlight
+series: seed grant spotlight
 date: 2022-11-22
 author: Jo Suk
 hero_image: /media/news/covid_collections.png
@@ -9,13 +11,19 @@ abstract: |
   An interview with Ellen Noonan, Clinical Associate Professor of History and Director, Archives and Public History program
 ---
 
-![portrait of Dr. Ellen Noonan](/media/people/noonan.jpg){: .inline-right } The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
+<article class="message is-success mb-4" style="max-width:800px">
+  <div class="message-body has-text-warning" markdown="1">
+<figure class="is-pulled-right">
+  <img src="/media/people/noonan.png" style="border-radius:50%;width:150px;" alt="portrait of Dr. Ellen Noonan"/>
+</figure>
+
+The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
 
 Dr. Noonan was selected for a 2021-2022 NYU DH Seed Grant for her project “Covid Collections”.
-
 Below, Digital Scholarship Graduate Student Specialist Jo Suk interviews Dr. Noonan.
 
-<hr/>
+  </div>
+</article>
 
 ## What are you most proud of about your project? How have people in your field engaged with your project?
 
@@ -29,9 +37,9 @@ _**E.N.** Our project team (made up of faculty and graduate students, split betw
 
 _**E.N.** The Covid Collections project has been looking at models and carefully considering what kind of digital tool it would like to build using the data collected by our initial (and ongoing) surveys. We want to be thoughtful about setting out to build a project that can encompass the tremendous diversity of Covid collections and be useful to a wide range of users (not just scholars) while also being sustainable in terms of both its technical infrastructure and the labor necessary to maintain it. We are close to making some key decisions and applying for production funding._
 
----
+<hr style="max-width:800px">
 
-Read more about [Covid Collections](https://digitalhumanities.nyu.edu/projects/covid-collections/).
+Read more about [Covid Collections](/projects/covid-collections/).
 
 The DH Seed Grants are administered and funded by NYU Libraries, the Center for the Humanities, and NYU Research and Instructional Technology. The goal of the program is to sponsor the initial development of projects that may go on to receive greater funding from external sources or otherwise build NYU’s institutional capacity in Digital Humanities work. We especially welcome projects that give voice or expression to underrepresented communities and that engage with the urban fabric of the cities in which NYU has campuses.
 

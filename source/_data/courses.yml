@@ -180,6 +180,35 @@
   faculty: Sebastian Heath
   day: Monday
   time: 2:00-5:00pm
+  description: 'This course will explore the relationship between two overlapping
+    approaches to working with data: Graph Databases and Network Analysis. Students
+    will learn to apply these approaches to their own work within the broad scope
+    of the Ancient World. A “Graph Database” is a collection of heterogeneous entities
+    and the relationships between them. The software tools that allow querying of
+    these collections start from the perspective of the individual entities and allow
+    these entities to be selected, grouped, and counted. For the purposes of this
+    course, a “Network” is a collection of nodes and the edges that connect them to
+    other nodes in the same set. A focus of the tools for working with networks is
+    the whole collection. Which nodes are highly connected? What is the nature of
+    the paths that exist between all the nodes? What subgroups exist within a network
+    and which nodes mediate between those subgroups? It is the case that ‘nodes’ are
+    analogous to ‘entities’ and that ‘edges’ are analogous to ‘relationships’. Starting
+    with working examples, the course will explore these similarities as students
+    learn how to implement these concepts within the context of their own work. How
+    do these generic terms, methods, and questions relate to the past phenomena we
+    study? Existing resources, including the Wikidata graph database and the networks
+    that can be derived from it, will introduce students to specific tools such as
+    the SPARQL query language and the Python programming-language libraries for working
+    with networks. Visualization of results will be one focus of our work. While there
+    is no prior technical expertise required, an openness and commitment to learning
+    digital methods is essential. As the course progresses, students will increasingly
+    work with their own data and this will lead to the development and implementation
+    of a final project that uses the methods we learn in class. Weekly readings will
+    explore working examples of both technologies and explore the impact they are
+    having on scholarship and research in the Ancient World. The course may be particularly
+    useful to archaeologists, historians, art historians, and philologists who want
+    to explore how Graph Databases and Network Analysis can contribute to their own
+    research.'
   order: '014'
 - pid: 2018-sp23
   done: true

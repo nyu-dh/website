@@ -1,0 +1,29 @@
+
+<div class="column">
+  <div class="content">
+    <h1 class="title pb-2">
+      {{ page.title }}
+    </h1>
+    {% if page.abstract %}<p class="subtitle">{{ page.abstract | trim }}</p>{% endif %}
+    {% include hero/partials/buttons.html %}
+  </div>
+</div>
+
+<div class="column is-narrow">
+  <p class="is-size-6 mb-0">
+    <span class="material-symbols-outlined has-text-weight-light">&#xe878;</span> {{ page.eventDate | date: "%m/%d/%Y" }}
+  </p>
+
+  <p class="is-size-6 mb-0">
+    <span class="material-symbols-outlined has-text-weight-light">&#xe8b5;</span> {{ page.startTime }}
+  </p>
+
+  <p class="is-size-6 mb-0">
+    {% if page.location | downcase == 'zoom' %}
+    <span class="material-symbols-outlined has-text-weight-light">&#xe04b;</span> 
+    {% else %}
+    <span class="material-symbols-outlined has-text-weight-light">&#xe55e;</span> 
+    {% endif %}
+    {{ page.location }}
+  </p>
+</div>

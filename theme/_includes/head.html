@@ -4,16 +4,21 @@
     <meta name="limerick" content="{{ site.limerick }}">
     <meta name="robots"   content="index, follow">
 
+    {% if jekyll.environment == 'development' %}
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    {% endif %}
+
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
     <link rel="shortcut icon" type="image/ico" href="{{ 'assets/favicon.ico' | absolute_url }}"/>
-
+    <link rel="stylesheet" href="/assets/css/splide.min.css">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
     <title>
-      {% if page.title == site.title %}
-        {{ site.title }}
+      {% if page.home %}
+        {{ site.title | strip_html }}
       {% else %}
-        {{ page.title }} | {{ site.title }}
+        {{ page.title | strip_html }} | {{ site.title | strip_html }}
       {% endif %}
     </title>
 

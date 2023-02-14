@@ -2,10 +2,11 @@
 title: All Projects
 subtitle: ''
 layout: default
+hero_image: '/assets/images/banners/projects.png'
 breadcrumbs:
   - name: Projects
     link: /projects
-contents_links:
+quick_links:
   - label: 'Featured Projects'
     link: '/projects'
   - label: 'NYU DH Seed Grant Projects'
@@ -15,5 +16,5 @@ contents_links:
   - label: 'NYU Community DH Projects'
     link: '/projects/community'
 ---
-{% assign projects = site.projects %}
-{% include cards/projects.html data=projects full_width=false %}
+{% assign projects = site.projects | sort: 'image' | reverse %}
+{% include cards/projects.html data=projects %}

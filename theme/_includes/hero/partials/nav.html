@@ -1,0 +1,36 @@
+<nav class="navbar is-spaced is-info" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="{{ '/' | absolute_url }}" class="navbar-item title is-size-4 is-family-secondary">
+          <img class="is-hidden-tablet pr-2" src="{{ 'assets/logo-torch-only.png' | absolute_url }}" alt="NYU Torch Logo">
+          {{ site.short_title }}
+        </a>
+        <span class="navbar-burger has-text-white" data-target="navbar" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div class="navbar-menu">
+  
+        <div class="navbar-end">
+          {% if site.data.navigation %}
+            {% for item in site.data.navigation %}
+              {% if item.dropdown %}
+              <div class="navbar-item is-size-6 has-dropdown is-hoverable">
+                <span class="navbar-link group-header">{{ item.name }}</span>
+                <div class="navbar-dropdown has-background-info">
+                  {% for subitem in item.dropdown %}
+                  <a href="{{ subitem.link | relative_url }}" class="navbar-item">{{ subitem.name }}</a>
+                  {% endfor %}
+                </div>
+              </div>
+              {% else %}
+              <a href="{{ item.link | relative_url }}" class="navbar-item is-size-6">{{ item.name }}</a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </nav>

@@ -1,8 +1,7 @@
 ---
 pid: slave-insurance
 done: true
-title: Insuring Slavery
-subtitle: Underwriting Risk in the 18th Century
+title: 'Insuring Slavery: Underwriting Risk in the 18th Century'
 featured: true
 category: DH Seed Grant Recipient
 tags:
@@ -34,9 +33,9 @@ limerick: "This project, our first love, that powered\nour bottom line suddenly 
   we lost our lucks \nof a half million bucks\nWith the PI decamping for Howard."
 pis:
 - ralph
-local_image: slave-insurance.jpg
+image: slave-insurance.jpg
 original_img: https://www.nyu.edu/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage.img.1280.high.jpg/1647273514669.jpg
-hero_image: "/media/banners/slave-insurance.jpg"
+hero_image: "/media/projects/slave-insurance.jpg"
 order: '004'
 layout: project
 ---

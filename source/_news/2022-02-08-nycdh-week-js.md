@@ -3,6 +3,7 @@ title: 'NYCDH Week Workshop: "The Web Is All You Need"'
 subtitle: "A Data Analysis Stack for the 2020s"
 date: 2022-02-01
 author: Benjamin Schmidt
+category: event
 event: true
 featureUntil: 2022-02-17
 eventDate: 2022-02-10

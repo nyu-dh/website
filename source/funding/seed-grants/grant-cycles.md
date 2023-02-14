@@ -1,6 +1,7 @@
 ---
 title: Grant Cycle Information
-layout: page
+layout: default
+hero_image: '/assets/images/banners/seedgrants.png'
 breadcrumbs:
   - name: Faculty Seed Grants
     link: /funding/seed-grants/

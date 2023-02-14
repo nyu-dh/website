@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: Sample Call for Applications
+hero_image: '/assets/images/banners/seedgrants.png'
 breadcrumbs:
   - name: Seed Grants
     link: /funding/seed-grants/
