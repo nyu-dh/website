@@ -1,7 +1,7 @@
 ---
 title: "Love Wikidata: See How It SPARQLs"
 date: 2023-02-13
-eventDate: 2022-02-13
+eventDate: 2023-02-13
 category: event
 location: Zoom
 startTime: 10:00am EST
