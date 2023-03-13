@@ -1,5 +1,5 @@
 ---
-title: "Applications Open! 2023 NYU DH Seed Grants & Graduate Fellowships"
+title: "NYU DH Seed Grants & Graduate Fellowships: Applications Open through 3/12"
 category: announcement
 date: 2022-12-15
 author: Jojo Karlin
@@ -7,7 +7,7 @@ tags:
   - seed_grants
   - grad_fellows
 abstract: |
-  Applications for NYU Digital Humanities Seed Grants and  Graduate Fellowships in the 2023 cycle are open until March 5, 2023.
+  Applications for NYU Digital Humanities Seed Grants and  Graduate Fellowships in the 2023 cycle are open until March 12, 2023.
 ---
 
 ## Digital Humanities Seed Grants (Faculty)
