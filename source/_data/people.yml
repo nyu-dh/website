@@ -671,7 +671,9 @@
   name: Alexandra Provo
   titles: Research Curation Librarian
   site_roles:
-  - affil_fac
+  - proj_pi
+  - exec_com
+  link: https://library.nyu.edu/people/alexandra-provo/
   image: provo.jpg
   order: '069'
   affiliated: true

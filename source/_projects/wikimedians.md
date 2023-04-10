@@ -13,7 +13,6 @@ abstract: Wikimedians@NYU Libraries, founded January 2019, is an informal group 
 pis:
 - provo
 - karlin
-hero_image: "/media/projects/soul-of-reason.jpg"
 order: '003'
 layout: project
 ---
