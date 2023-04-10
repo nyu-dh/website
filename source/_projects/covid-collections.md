@@ -38,6 +38,6 @@ link: https://wp.nyu.edu/disasters/covid-collections-project/
 image: covid-collections.png
 image_alt: illustration by Jo Suk
 hero_image: "/media/projects/covid-collections.png"
-order: '011'
+order: '012'
 layout: project
 ---

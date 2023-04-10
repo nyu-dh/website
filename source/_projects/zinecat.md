@@ -36,6 +36,6 @@ link: https://zinecat.org/
 image: zinecat.png
 original_img: https://i.ibb.co/x61zxDL/Welcome-to-the-Zine-Union-Catalog-1.png
 hero_image: "/media/projects/zinecat.png"
-order: '010'
+order: '011'
 layout: project
 ---

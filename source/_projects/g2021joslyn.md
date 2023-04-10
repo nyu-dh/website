@@ -16,6 +16,6 @@ abstract: Joslyn’s project sought to complete work on two essential elements o
   with a variety of community-based libraries and archives across New York City.
 pis:
 - joslyn
-order: '020'
+order: '021'
 layout: project
 ---

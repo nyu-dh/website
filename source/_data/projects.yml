@@ -85,6 +85,22 @@
   image: digital-theory.jpg
   hero_image: "/media/projects/dtl.jpg"
   order: '002'
+- pid: wikimedians
+  done: true
+  title: Wikimedians@NYU
+  category: Other
+  tags:
+  - public-humanities
+  abstract: Wikimedians@NYU Libraries, founded January 2019, is an informal group
+    of colleagues within the Division of Libraries who work to develop library initiatives
+    related to the Wiki world—for example, workshops for staff about how to add citations
+    to a Wikipedia page, or how to query and contribute to Wikidata. The group has
+    also supported Edit-a-thon events for faculty and students.
+  pis:
+  - provo
+  - karlin
+  hero_image: "/media/projects/soul-of-reason.jpg"
+  order: '003'
 - pid: hiring-ai
   done: true
   title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
@@ -118,7 +134,7 @@
   link: https://www.gumshoex.org/
   image: hiring-ai.jpg
   hero_image: "/media/projects/hiring-ai.jpg"
-  order: '003'
+  order: '004'
 - pid: slave-insurance
   done: true
   title: 'Insuring Slavery: Underwriting Risk in the 18th Century'
@@ -158,7 +174,7 @@
   image: slave-insurance.jpg
   original_img: https://www.nyu.edu/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage.img.1280.high.jpg/1647273514669.jpg
   hero_image: "/media/projects/slave-insurance.jpg"
-  order: '004'
+  order: '005'
 - pid: soul-of-reason
   done: true
   title: 'Raising the Volume: Amplifying <i>Soul of Reason</i>'
@@ -189,7 +205,7 @@
   image: soul-of-reason.jpg
   original_img: https://nyu-dss.github.io/soul-of-reason/images/uploads/roscoe-brown-IAAA.jpg
   hero_image: "/media/projects/soul-of-reason.jpg"
-  order: '005'
+  order: '006'
 - pid: jewish-cookbooks
   done: true
   title: The South African Jewish Cookbook Project
@@ -219,7 +235,7 @@
     latke, challah, matzoh
   pis:
   - beinart-smollan
-  order: '006'
+  order: '007'
 - pid: moss
   done: true
   title: Inverting the Wunderkammer
@@ -260,7 +276,7 @@
   image: moss.jpg
   image_alt: illustration by Jo Suk
   hero_image: "/media/projects/moss.png"
-  order: '008'
+  order: '009'
 - pid: archcus
   done: true
   title: Archive of Cuban Socialism (ARCHCUS)
@@ -288,7 +304,7 @@
   link: https://archcus.org/
   image: archcus.png
   hero_image: "/media/projects/archcus.png"
-  order: '009'
+  order: '010'
 - pid: zinecat
   done: true
   title: The Zine Union Catalog (ZineCat)
@@ -326,7 +342,7 @@
   image: zinecat.png
   original_img: https://i.ibb.co/x61zxDL/Welcome-to-the-Zine-Union-Catalog-1.png
   hero_image: "/media/projects/zinecat.png"
-  order: '010'
+  order: '011'
 - pid: covid-collections
   done: true
   title: COVID Collections
@@ -366,7 +382,7 @@
   image: covid-collections.png
   image_alt: illustration by Jo Suk
   hero_image: "/media/projects/covid-collections.png"
-  order: '011'
+  order: '012'
 - pid: dental-tools
   done: true
   title: Creating a Digital Museum of the History of Dentistry
@@ -392,7 +408,7 @@
   image: dental-tools.png
   original_img: https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum/jcr:content/1/par-left/nyuimage.img.1280.high.png/1668129726277.png
   hero_image: "/media/projects/dental-tools.png"
-  order: '012'
+  order: '013'
 - pid: g2021smith
   done: true
   title: Dirty Money and Disorderly Homes
@@ -425,7 +441,7 @@
     redevelopment.'
   pis:
   - smith
-  order: '013'
+  order: '014'
 - pid: g2021marshall
   done: true
   title: Black Burials in Philadelphia
@@ -445,7 +461,7 @@
   link: https://jubilee.hosting.nyu.edu/wordpress/home/
   image: g2021marshall.png
   hero_image: "/media/projects/g2021marshall.png"
-  order: '014'
+  order: '015'
 - pid: g2021ozkiral
   done: true
   title: Reading Comments Reading Instagram Comics
@@ -477,7 +493,7 @@
     while raising awareness for an international crisis."
   pis:
   - ozkiral
-  order: '015'
+  order: '016'
 - pid: g2021zehngut-willits
   done: true
   title: 'A-Files: Record-Keeping and the Golden Gate'
@@ -500,7 +516,7 @@
   image: g2021zehngut-willits.png
   original_img: https://www.mercurynews.com/wp-content/uploads/2016/08/20120517__alienfil1.jpg?w=400
   hero_image: "/media/projects/g2021zehngut-willits.png"
-  order: '016'
+  order: '017'
 - pid: g2021petiwala
   done: true
   title: Consuming India, Becoming Global
@@ -526,7 +542,7 @@
     alike) that she had previously not had the chance to incorporate.
   pis:
   - petiwala
-  order: '017'
+  order: '018'
 - pid: g2021busser
   done: true
   title: Knitting Patterns for S.T.E.A.M. Education
@@ -545,7 +561,7 @@
     in the field. '
   pis:
   - busser
-  order: '018'
+  order: '019'
 - pid: g2021tsolakis
   done: true
   title: Ancestors and Family Traditions in the Hellenistic and Imperial Polis
@@ -565,7 +581,7 @@
     by means of endowments, benefactions, or priesthoods?'
   pis:
   - tsolakis
-  order: '019'
+  order: '020'
 - pid: g2021joslyn
   done: true
   title: Organizing Resource Library
@@ -584,7 +600,7 @@
     New York City.
   pis:
   - joslyn
-  order: '020'
+  order: '021'
 - pid: g2021armoza
   done: true
   title: Literary Model Quality and the Autiobiography of Mark Twain
@@ -616,7 +632,7 @@
     humanities research beyond this project.'
   pis:
   - armoza
-  order: '021'
+  order: '022'
 - pid: soviet-sphere
   done: true
   title: The Post-Soviet Public Sphere
@@ -649,7 +665,7 @@
   image: soviet-sphere.jpg
   original_img: https://images.squarespace-cdn.com/content/v1/59836ba83e00be476e5686a5/1501801511310-OM7GCIPWGCYXIJXIPG8E/image-asset.jpeg?format=1500w
   hero_image: "/media/projects/soviet-sphere.jpg"
-  order: '022'
+  order: '023'
 - pid: city-record
   done: true
   title: City Record Project
@@ -667,7 +683,7 @@
   pis:
   - soffer
   link: http://cityrecord.engineering.nyu.edu/
-  order: '023'
+  order: '024'
 - pid: nyscapes
   done: true
   title: New York Scapes
@@ -690,7 +706,7 @@
   image: nyscapes.jpg
   original_img: https://newyorkscapes.org/wp-content/uploads/2017/03/nypl.digitalcollections.510d47d9-4f4a-a3d9-e040-e00a18064a99.001.g-e1499967503198.jpg
   hero_image: "/media/projects/nyscapes.jpg"
-  order: '024'
+  order: '025'
 - pid: artists-archive
   done: true
   title: Artists Archive Initiative
@@ -711,7 +727,7 @@
   image: artists-archive.jpg
   original_img: https://artistarchives.hosting.nyu.edu/Initiative/wp-content/uploads/2021/01/OHVR_PER_PHODOC_1972_AceGalleryLA_RNeiman_JJstudio-prnt005_ImageLink2-1024x679-1.jpg
   hero_image: "/media/projects/artists-archive.jpg"
-  order: '025'
+  order: '026'
 - pid: aponte
   done: true
   title: Digital Aponte
@@ -734,7 +750,7 @@
   image: aponte.jpg
   original_img: https://aponte.hosting.nyu.edu/wp-content/uploads/2016/07/003.jpg
   hero_image: "/media/projects/aponte.jpg"
-  order: '026'
+  order: '027'
 - pid: sanger
   done: true
   title: Margaret Sanger Papers Project
@@ -755,7 +771,7 @@
   image: sanger.jpg
   original_img: https://tile.loc.gov/storage-services/service/pnp/cph/3c30000/3c38000/3c38800/3c38888r.jpg
   hero_image: "/media/projects/sanger.jpg"
-  order: '027'
+  order: '028'
 - pid: wax
   done: true
   title: 'Wax: Scholarly Exhibitions with IIIF'
@@ -773,7 +789,7 @@
   image: wax.png
   original_img: https://minicomp.github.io/wax/img/logo.png
   hero_image: "/media/projects/wax.png"
-  order: '028'
+  order: '029'
 - pid: directories
   done: true
   title: New York City Directories Extracted Persons Entries, 1850-1890
@@ -795,7 +811,7 @@
   image: directories.jpg
   original_img: https://iiif-prod.nypl.org/index.php?id=57275760&t=w
   hero_image: "/media/projects/directories.jpg"
-  order: '030'
+  order: '031'
 - pid: g2022chenel
   done: true
   title: The Directory of Placenames Unforgotten
@@ -830,7 +846,7 @@
   image: g2022chenel.png
   original_img: https://drive.google.com/file/d/1-rWnlcFgDDdnKeQjKeKVevOKgtUG0TtJ/view
   hero_image: "/media/projects/g2022chenel.png"
-  order: '031'
+  order: '032'
 - pid: g2022caomhanach
   done: true
   title: The Land of the Giants
@@ -865,7 +881,7 @@
   image: g2022caomhanach.jpg
   original_img: https://upload.wikimedia.org/wikipedia/commons/e/e5/Avenue_of_Baobabs%2C_Madagascar_%2822558139260%29.jpg
   hero_image: "/media/projects/g2022caomhanach.jpg"
-  order: '032'
+  order: '033'
 - pid: g2022stec
   done: true
   title: The Brownies' Book Archive
@@ -900,7 +916,7 @@
   image: g2022stec.jpg
   original_img: https://helen.hosting.nyu.edu/browniesbookarchive/items/show/12#lg=1&slide=0
   hero_image: "/media/projects/g2022stec.jpg"
-  order: '033'
+  order: '034'
 - pid: g2022stuhler
   done: true
   title: Who Kisses Whom?
@@ -930,7 +946,7 @@
   image: g2022stuhler.png
   original_img: https://i0.wp.com/oscarstuhler.org/wp-content/uploads/2022/04/Plot_website-2.png?w=1800&ssl=1
   hero_image: "/media/projects/g2022stuhler.png"
-  order: '034'
+  order: '035'
 - pid: g2022binyamini
   done: true
   title: Structured Data, Mapping, and Textual Analysis of the American Jewish Year
@@ -962,7 +978,7 @@
     late twentieth century.'
   pis:
   - binyamini
-  order: '035'
+  order: '036'
 - pid: g2022rosenberg
   done: true
   title: Visualizing the Victorian Polar Network
@@ -981,7 +997,7 @@
   image: g2022rosenberg.jpg
   original_img: https://drive.google.com/open?id=1LTE_WVB4tJRsS077H75CzscQvEL69S3k
   hero_image: "/media/projects/g2022rosenberg.jpg"
-  order: '036'
+  order: '037'
 - pid: g2022musto
   done: true
   title: Demystifying the Digitization of Texts
@@ -1017,7 +1033,7 @@
   image: g2022musto.jpg
   original_img: https://www.nusus.net/static/img/header.jpeg
   hero_image: "/media/projects/g2022musto.jpg"
-  order: '037'
+  order: '038'
 - pid: g2022hatanaka
   done: true
   title: Why Are There No ACS Offices in SoHO?
@@ -1049,7 +1065,7 @@
   - hatanaka
   image: g2022hatanaka.jpg
   hero_image: "/media/projects/g2022hatanaka.jpg"
-  order: '038'
+  order: '039'
 - pid: errant-americas
   done: true
   title: Arts of the Errant Americas
@@ -1077,7 +1093,7 @@
     into the digital."
   pis:
   - sloane-britt
-  order: '039'
+  order: '040'
 - pid: nlines
   done: true
   title: nLines and Changing
@@ -1104,7 +1120,7 @@
     "toggle," and a critical essay). '
   pis:
   - perry
-  order: '040'
+  order: '041'
 - pid: sight-site-cite
   done: true
   title: Sight/Site/Cite in the Digital Middle East
@@ -1129,7 +1145,7 @@
   - mccormick
   - petiwala
   - tawil-souri
-  order: '041'
+  order: '042'
 - pid: chem-hum
   done: true
   title: Digitizing Chemical Humanities
@@ -1157,7 +1173,7 @@
     on extending his analysis of chemical knowledge production to pre-1750 periods.
   pis:
   - mahootian
-  order: '042'
+  order: '043'
 - pid: historic-fractures
   done: true
   title: Historic Fractures
@@ -1187,7 +1203,7 @@
   pis:
   - flouty
   - kapp
-  order: '043'
+  order: '044'
 - pid: g2022zohar
   done: true
   title: Mapping the Circulation of Mizrahi Texts in the Arab World, 1948-1982
@@ -1222,7 +1238,7 @@
   image: g2022zohar.jpg
   original_img: https://drive.google.com/open?id=1pSYt5Rw1FCpnVOQTXtQcqcyhvZGZuQoS
   hero_image: "/media/projects/g2022zohar.jpg"
-  order: '044'
+  order: '045'
 - pid: g2022deniz
   done: true
   title: Mapping, Visualizing and Analyzing the Sufi Mobility in the Early Modern
@@ -1255,4 +1271,4 @@
   image: g2022deniz.png
   original_img: https://drive.google.com/open?id=1juRqvI0mL2_xENMYVjeWClCKYr8OyeQZ
   hero_image: "/media/projects/g2022deniz.png"
-  order: '045'
+  order: '046'

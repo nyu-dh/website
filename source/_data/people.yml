@@ -666,3 +666,12 @@
   image: bach.jpg
   order: '068'
   affiliated: true
+- pid: provo
+  done: true
+  name: Alexandra Provo
+  titles: Research Curation Librarian
+  site_roles:
+  - affil_fac
+  image: provo.jpg
+  order: '069'
+  affiliated: true

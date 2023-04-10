@@ -29,6 +29,6 @@ link: https://specialcollections.hosting.nyu.edu/projects/soul-of-reason/
 image: soul-of-reason.jpg
 original_img: https://nyu-dss.github.io/soul-of-reason/images/uploads/roscoe-brown-IAAA.jpg
 hero_image: "/media/projects/soul-of-reason.jpg"
-order: '005'
+order: '006'
 layout: project
 ---
