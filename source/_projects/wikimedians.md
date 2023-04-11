@@ -14,6 +14,9 @@ pis:
 - provo
 - karlin
 - kehoe
+link: https://guides.nyu.edu/wikimedia-toolkit
+image: wikimedians.jpg
+hero_image: "/media/projects/wikimedians.jpg"
 order: '003'
 layout: project
 ---
