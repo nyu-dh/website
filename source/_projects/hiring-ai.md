@@ -32,6 +32,6 @@ pis:
 link: https://www.gumshoex.org/
 image: hiring-ai.jpg
 hero_image: "/media/projects/hiring-ai.jpg"
-order: '003'
+order: '004'
 layout: project
 ---

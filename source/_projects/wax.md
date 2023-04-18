@@ -16,6 +16,6 @@ link: https://minicomp.github.io/wax/
 image: wax.png
 original_img: https://minicomp.github.io/wax/img/logo.png
 hero_image: "/media/projects/wax.png"
-order: '028'
+order: '029'
 layout: project
 ---

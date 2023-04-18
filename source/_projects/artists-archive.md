@@ -19,6 +19,6 @@ link: https://artistarchives.hosting.nyu.edu/Initiative/
 image: artists-archive.jpg
 original_img: https://artistarchives.hosting.nyu.edu/Initiative/wp-content/uploads/2021/01/OHVR_PER_PHODOC_1972_AceGalleryLA_RNeiman_JJstudio-prnt005_ImageLink2-1024x679-1.jpg
 hero_image: "/media/projects/artists-archive.jpg"
-order: '025'
+order: '026'
 layout: project
 ---

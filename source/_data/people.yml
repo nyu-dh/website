@@ -666,3 +666,14 @@
   image: bach.jpg
   order: '068'
   affiliated: true
+- pid: provo
+  done: true
+  name: Alexandra Provo
+  titles: Research Curation Librarian
+  site_roles:
+  - proj_pi
+  - exec_com
+  link: https://library.nyu.edu/people/alexandra-provo/
+  image: provo.jpg
+  order: '069'
+  affiliated: true
