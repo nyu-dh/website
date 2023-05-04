@@ -28,6 +28,10 @@ abstract: 'This project is a catalyst for access to open Villa La Pietra’s ric
 pis:
 - flouty
 - kapp
+link: https://wp.nyu.edu/artsampscience-historicfractures/
+image: historic-fractures.jpg
+original_img: https://s18798.pcdn.co/artsampscience-historicfractures/wp-content/uploads/sites/26462/2023/05/IMG_4975-768x1024.jpg
+hero_image: "/media/projects/historic-fractures.jpg"
 order: '044'
 layout: project
 ---
