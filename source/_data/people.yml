@@ -680,7 +680,7 @@
 - pid: lam
   done: true
   name: Charmaine Lam
-  titles: History (GSAS)
+  titles: Doctoral Student in History (GSAS)
   site_roles:
   - fellow
   link: https://as.nyu.edu/departments/history/graduate/graduate-students.html
@@ -689,7 +689,7 @@
 - pid: warsco
   done: true
   name: Alía Warsco
-  titles: Center for Latin American and Caribbean Studies (GSAS)
+  titles: Graduate Student at Center for Latin American and Caribbean Studies (GSAS)
   site_roles:
   - fellow
   image: warsco.png
@@ -697,7 +697,7 @@
 - pid: janz
   done: true
   name: Avra Janz
-  titles: 'Sociology (GSAS) '
+  titles: Doctoral Student in Sociology (GSAS)
   site_roles:
   - fellow
   link: https://as.nyu.edu/departments/sociology/people/current-phd-students/janz--avra.html
@@ -706,7 +706,7 @@
 - pid: octavio-orsag
   done: true
   name: Jose Octavio Orsag
-  titles: History (GSAS)
+  titles: Doctoral Student in History (GSAS)
   site_roles:
   - fellow
   link: https://as.nyu.edu/departments/history/graduate/graduate-students.html
@@ -715,7 +715,7 @@
 - pid: dang
   done: true
   name: Dang Weiyu
-  titles: Social and Cultural Analysis (GSAS)
+  titles: Doctoral Student in Social and Cultural Analysis (GSAS)
   site_roles:
   - fellow
   image: dang.png
@@ -723,7 +723,7 @@
 - pid: kellogg
   done: true
   name: Sam Kellogg
-  titles: Media, Culture, and Communication (Steinhardt)
+  titles: Doctoral Student in Media, Culture, and Communication (Steinhardt)
   site_roles:
   - fellow
   link: https://steinhardt.nyu.edu/people/sam-p-kellogg
@@ -732,7 +732,7 @@
 - pid: lehine
   done: true
   name: Ian Lehine
-  titles: Cinema Studies (Tisch)
+  titles: Doctoral Student in Cinema Studies (Tisch)
   site_roles:
   - fellow
   link: https://tisch.nyu.edu/cinema-studies/phd-research-profiles/ian-russell-lehine
@@ -741,7 +741,7 @@
 - pid: bernstein-bunzl
   done: true
   name: Natasha Bernstein Bunzl
-  titles: Nutrition and Food Studies (Steinhardt)
+  titles: Doctoral Student in Nutrition and Food Studies (Steinhardt)
   site_roles:
   - fellow
   link: https://steinhardt.nyu.edu/degree/phd-food-studies/student-biographies
@@ -750,7 +750,7 @@
 - pid: ahlenius
   done: true
   name: Jason Ahlenius
-  titles: 'Spanish & Portuguese (GSAS) '
+  titles: 'Doctoral Student in Spanish & Portuguese (GSAS) '
   site_roles:
   - fellow
   link: https://as.nyu.edu/departments/spanish/graduate/phd/student-directory1.html
@@ -759,7 +759,7 @@
 - pid: hoque
   done: true
   name: Salwa Hoque
-  titles: Media, Culture, and Communication (Steinhardt)
+  titles: Doctoral Student in Media, Culture, and Communication (Steinhardt)
   site_roles:
   - fellow
   link: https://steinhardt.nyu.edu/people/salwa-hoque
