@@ -677,3 +677,91 @@
   image: provo.jpg
   order: '069'
   affiliated: true
+- pid: lam
+  done: true
+  name: Charmaine Lam
+  titles: History (GSAS)
+  site_roles:
+  - fellow
+  link: https://as.nyu.edu/departments/history/graduate/graduate-students.html
+  image: lam.jpg
+  order: '070'
+- pid: warsco
+  done: true
+  name: Alía Warsco
+  titles: Center for Latin American and Caribbean Studies (GSAS)
+  site_roles:
+  - fellow
+  image: warsco.png
+  order: '071'
+- pid: janz
+  done: true
+  name: Avra Janz
+  titles: 'Sociology (GSAS) '
+  site_roles:
+  - fellow
+  link: https://as.nyu.edu/departments/sociology/people/current-phd-students/janz--avra.html
+  image: janz.png
+  order: '072'
+- pid: octavio-orsag
+  done: true
+  name: Jose Octavio Orsag
+  titles: History (GSAS)
+  site_roles:
+  - fellow
+  link: https://as.nyu.edu/departments/history/graduate/graduate-students.html
+  image: octavio-orsag.jpg
+  order: '073'
+- pid: dang
+  done: true
+  name: Dang Weiyu
+  titles: Social and Cultural Analysis (GSAS)
+  site_roles:
+  - fellow
+  image: dang.png
+  order: '074'
+- pid: kellogg
+  done: true
+  name: Sam Kellogg
+  titles: Media, Culture, and Communication (Steinhardt)
+  site_roles:
+  - fellow
+  link: https://steinhardt.nyu.edu/people/sam-p-kellogg
+  image: kellogg.jpg
+  order: '075'
+- pid: lehine
+  done: true
+  name: Ian Lehine
+  titles: Cinema Studies (Tisch)
+  site_roles:
+  - fellow
+  link: https://tisch.nyu.edu/cinema-studies/phd-research-profiles/ian-russell-lehine
+  image: lehine.jpg
+  order: '076'
+- pid: bernstein-bunzl
+  done: true
+  name: Natasha Bernstein Bunzl
+  titles: Nutrition and Food Studies (Steinhardt)
+  site_roles:
+  - fellow
+  link: https://steinhardt.nyu.edu/degree/phd-food-studies/student-biographies
+  image: bernstein-bunzl.png
+  order: '077'
+- pid: ahlenius
+  done: true
+  name: Jason Ahlenius
+  titles: 'Spanish & Portuguese (GSAS) '
+  site_roles:
+  - fellow
+  link: https://as.nyu.edu/departments/spanish/graduate/phd/student-directory1.html
+  image: ahlenius.jpeg
+  order: '078'
+- pid: hoque
+  done: true
+  name: Salwa Hoque
+  titles: Media, Culture, and Communication (Steinhardt)
+  site_roles:
+  - fellow
+  link: https://steinhardt.nyu.edu/people/salwa-hoque
+  image: hoque.png
+  order: '079'
