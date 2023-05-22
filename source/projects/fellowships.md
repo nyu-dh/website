@@ -7,12 +7,18 @@ breadcrumbs:
   - name: Projects
     link: /projects
 quick_links:
+  - label: 2023 Cohort
+    link: '#2023'
   - label: 2022 Cohort
     link: '#2022'
   - label: 2021 Cohort
     link: '#2021'
 ---
 {% assign fellows = site.projects | where_exp: "i", "i.category contains 'Fellowship'" %}
+
+<h2 id="2023">2023 Cohort</h2>
+{% assign fellows2023 = fellows | where: 'cohort_year', '2023' | sort: 'image' | reverse %}
+{% include cards/projects.html data=fellows2023  %}
 
 <h2 id="2022">2022 Cohort</h2>
 {% assign fellows2022 = fellows | where: 'cohort_year', '2022' | sort: 'image' | reverse %}
