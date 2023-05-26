@@ -15,7 +15,7 @@ We are excited to announce this year's cohort of funded fellows. Congratulations
 
 ---
 
-## NYU DH Graduate Fellows 2022 Cohort
+## NYU DH Graduate Fellows 2023 Cohort
 
 - **Alía Warsco**, Dual Degree Graduate Student at Center for Latin American and Caribbean Studies (GSAS) and Library Science at Long Island University<br>_Making an Accessible Catalog for the CLACS Quechua Library_
 - **Avra Janz**, Doctoral Student in Sociology (GSAS)<br>_Excavating the Evolving Self in Autobiographies_
