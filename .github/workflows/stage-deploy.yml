@@ -32,5 +32,6 @@ jobs:
           server: ${{secrets.FTP_STAGE_SERVER}}
           username: ${{secrets.FTP_STAGE_USER}}
           password: ${{secrets.FTP_STAGE_PW}}
+          protocol: ftps
           state-name: ./.ftp-deploy-sync-state.json
           local-dir: ./_site/
