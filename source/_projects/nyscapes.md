@@ -17,7 +17,7 @@ abstract: NewYorkScapes is a research community exploring the application of dig
 pis:
 - wolf
 - augst
-link: https://newyorkscapes.org/
+# link: https://newyorkscapes.org/
 image: nyscapes.jpg
 original_img: https://newyorkscapes.org/wp-content/uploads/2017/03/nypl.digitalcollections.510d47d9-4f4a-a3d9-e040-e00a18064a99.001.g-e1499967503198.jpg
 hero_image: "/media/projects/nyscapes.jpg"
