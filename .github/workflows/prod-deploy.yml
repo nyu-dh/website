@@ -33,5 +33,6 @@ jobs:
           server: ${{secrets.FTP_PROD_SERVER}}
           username: ${{secrets.FTP_PROD_USER}}
           password: ${{secrets.FTP_PROD_PW}}
+          protocol: ftps
           state-name: ./.ftp-deploy-sync-state.json
           local-dir: ./_site/
