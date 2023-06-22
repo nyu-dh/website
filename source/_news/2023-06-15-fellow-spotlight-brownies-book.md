@@ -7,7 +7,7 @@ author: Jo Suk
 tags:
 - grad_fellows
 abstract: |
-2022 Graduate Fellow Helen Stec creates a record of early twentieth-century Black childhood
+  2022 Graduate Fellow Helen Stec creates a record of early twentieth-century Black childhood
 ---
 
 ![The front cover of the January 1920 issue of The Brownies' Book.](https://drive.google.com/open?id=1gm-2rVVzMjkctTuh3cVu6KhAQWq78BCc)
