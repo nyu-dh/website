@@ -13,9 +13,9 @@ abstract: |
 
 <article class="message is-success mb-4" style="max-width:800px">
   <div class="message-body has-text-warning" markdown="1">
-<figure class="is-pulled-right">
-  <img src="/media/people/ayers.jpg" style="border-radius:50%;width:150px;" alt="portrait of Dr. Elaine Ayers"/>
-</figure>
+
+  <img src="/media/people/ayers.jpg" class="is-pulled-right circle-128" alt="portrait of Dr. Elaine Ayers"/>
+
 The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
 
 Dr. Elaine Ayers, along with Tandon professors Dr. Ahmed Ansari and Dr. Tega Brain, and Laura Briscoe of the New York Botanical Garden were selected for a 2021-2022 NYU DH Seed Grant for their project [Inverting the Wunderkammer: Rethinking Digital Humanities through Botanic Histories & Archives](/projects/moss/).

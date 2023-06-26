@@ -4,13 +4,22 @@ category: highlight
 series: graduate fellow spotlight
 date: 2023-06-21
 author: Jo Suk
+hero_image: /media/projects/g2021marshall.png
 tags:
 - grad_fellows
 abstract: |
   2021 Graduate Fellow Jubilee Marshall designs a walking tour of historic sites in Old City Philadelphia
 ---
 
-![](image)
+<article class="message is-success mb-4" style="max-width:800px">
+  <div class="message-body has-text-warning">
+    <img src="/media/people/marshall.jpg" class="is-pulled-right circle-128" alt="portrait of Jubilee Marshall"/>
+
+    <p>The <a href="/news/graduate-fellow-spotlights/">DH Graduate Fellow Spotlights</a> highlight work supported by the <a href="/funding/grad-fellowships/">NYU DH Graduate Fellowship Program</a>.</p>
+    <p class="mb-3">Below, 2021 fellow Jubilee Marshall talks briefly about <i><a href="/projects/g2021marshall/">Black Burials in Philadelphia: A Walking Tour</a></i>.</p>
+
+  </div>
+</article>
 
 2021 Graduate Fellow Jubilee Marshall designs a walking tour of historic sites in Old City Philadelphia
 
