@@ -4,13 +4,14 @@ category: highlight
 series: graduate fellow spotlight
 date: 2023-06-15
 author: Jo Suk
+hero_image: /media/news/brownies.jpeg
 tags:
 - grad_fellows
 abstract: |
   2022 Graduate Fellow Helen Stec creates a record of early twentieth-century Black childhood
 ---
 
-![The front cover of the January 1920 issue of The Brownies' Book.](https://drive.google.com/open?id=1gm-2rVVzMjkctTuh3cVu6KhAQWq78BCc)
+![The front cover of the January 1920 issue of The Brownies' Book.](/media/news/brownies.jpeg)
 
 For her Graduate Fellowship project, 2022 Fellow Helen Stec created a digital collection of W. E. B. Du Bois and Jessie Redmon Fauset's children's magazine, The Brownies' Book. The magazine was published monthly from January 1920 to December 1921, around the time of the Harlem Renaissance, for a primary audience of Black youths. Stec created the archive to make The Brownies' Book more accessible to scholars, students, and the wider public.
 
