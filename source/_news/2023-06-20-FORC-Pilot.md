@@ -2,7 +2,7 @@
 title: Data Skills Immersion Training for Graduate Students
 category: announcement
 date: 2023-06-20
-author: Arts & Sciences Office of Educational Technology
+author: FAS EdTech Staff
 tags:
   - training
   - digital research
