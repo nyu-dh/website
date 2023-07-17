@@ -6,6 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # setup
+      - name: install libvips
+        run: sudo apt-get update && sudo apt-get install -y libvips libvips-dev
       - uses: actions/checkout@v3
       - name: setup ruby
         uses: ruby/setup-ruby@v1
