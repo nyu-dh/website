@@ -1,4 +1,4 @@
-name: fetch data open pr
+name: fetch data deploy prod
 on: workflow_dispatch
 
 jobs:
@@ -20,15 +20,20 @@ jobs:
           PEOPLE_SHEET_KEY: ${{secrets.PEOPLE_SHEET_KEY}}
           PROJECTS_SHEET_KEY: ${{secrets.PROJECTS_SHEET_KEY}}
         run: bundle exec rake fetch:all
-      # open pull request
-      - name: open pull request
-        uses: peter-evans/create-pull-request@v4
+      # test site
+      - name: test html
+        run: bundle exec rake site:test
+      # build site
+      - name: build site
+        run: bundle exec jekyll build
+      # deploy via ftp
+      - name: ftp deploy to host
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          title: New data fetched from Google Drive
-          commit-message: "Data fetched ${{ env.NOWISH }}"
-          body: |
-            **Data fetched from Google Drive ${{ env.NOWISH }}.**
-            
-            **TO TRIGGER TESTS**, please close this PR then immediately reopen it.
-            If tests pass, merging this PR into the main branch will trigger an automated deploy action to production.
-          branch: 'content/new-fetch-google-drive'
+          server: ${{secrets.FTP_PROD_SERVER}}
+          username: ${{secrets.FTP_PROD_USER}}
+          password: ${{secrets.FTP_PROD_PW}}
+          protocol: ftps
+          state-name: ./.ftp-deploy-sync-state.json
+          local-dir: ./_site/
+
