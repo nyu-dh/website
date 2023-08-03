@@ -1,9 +1,9 @@
 ---
 pid: g2023dang
 done: true
-title: Mapping Territorial Sovereignty
-subtitle: Progressive Imperialism and the Production of Geopolitics in US-China Relations,
-  1899-1949
+title: Searching for a “Back Door” to China
+subtitle: Wartime US Missions to Northwest China and a Global Frontier of Mid-century
+  Anti-Imperialism
 category: Grad Fellowship Project
 tags:
 - spatial-humanities

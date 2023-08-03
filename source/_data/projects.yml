@@ -1378,32 +1378,32 @@
   order: '050'
 - pid: g2023hoque
   done: true
-  title: Prototyping as Ethnographic Method
+  title: Prototyping as Ethnography
   subtitle: Bridging Digital Humanities and Anthropology
   category: Grad Fellowship Project
   tags:
   - text-analysis
   cohort_year: '2023'
-  abstract: "Due to proprietary rights and black-boxing, it is not possible for researchers
-    to study how private companies or the state construct AI Judges, i.e., using artificial
-    intelligence to generate legal judgments/verdicts. To get around this problem,
-    I applied Alexander Galloway’s method – algorithmic reenactment (2021) – which
-    draws from the digital humanities to build a small-scale prototype AI Judge and
-    understand the possibilities and limitations of code/coding. The goal for this
-    project is not about creating the “perfect” AI Judge, but rather noting the biases
-    and gaps within these processes from an encoder’s standpoint. In building an AI
-    Judge first-hand, I was able to understand how the core component of this model
-    relies on training AI to follow the decision-making patterns of elite courts and
-    trace how the offline biases of the higher court records are reinscribed online
-    during the automation process. \n \n Digital humanities have used computational
-    techniques to generate new interdisciplinary methods in various fields, but there
-    is an absence/resistance of it in anthropology. My project bridges the dialogue
-    within the digital humanities and anthropology to develop a method – prototyping
-    as ethnographic method – as a means to study block-boxed algorithmic technologies.
-    I will dedicate a chapter of my dissertation about this method and intend to develop
-    it during the NYU Digital Humanities Summer Grant. I already spoke with the editor
-    of American Anthropologist and they expressed interest in publishing this chapter
-    as a journal article in the Multimodal Anthropologies section after peer-review."
+  abstract: My doctoral dissertation explores the shortcomings of AI Judges, that
+    is, when artificial intelligence is used to generate the legal verdicts of cases.
+    Due to blackboxing and proprietary rights, it is not possible for a researcher
+    to study how AI Judge models and other automated technologies are being built
+    by states or private tech companies. To bypass this issue, I started building
+    a prototype AI Judge model to have a hands-on approach, allowing for a more immersive
+    means to understand the possibilities and limitations of code/coding. My NYU Digital
+    Humanities project – "Prototyping as Ethnography" – is a paper that bridges the
+    methods of Digital Humanities and Anthropology to conceptualize how ethnography
+    can be broadened to include prototyping. The goal of this project was not to create
+    the “perfect” AI Judge model, but rather having an immersive and hands-on approach
+    to engaging with programming language and learn how code “behaves.” My method
+    is connected to anthropologists Rabinow and Bennet’s work on how participant observation
+    can include researchers conducting their own experiments in the laboratory. I
+    also draw from Galloway’s method of ‘algorithmic reenactment’ which promotes re-enacting
+    code from archives and Hartman’s ‘critical fabulation’ which proposes that researchers
+    might have to fill in the gaps of archives by imagining what might have happened
+    when there is no way to know otherwise. The goal is to map new ways of diversity
+    in critical thinking, rupturing methodological and theoretical boundaries to locate
+    and analyze findings.
   pis:
   - hoque
   order: '051'
@@ -1415,28 +1415,28 @@
   - text-analysis
   - public-humanities
   cohort_year: '2023'
-  abstract: 'This proposed project involves two components: developing digital humanities
-    tools and creating digitally enhanced public history. It revolves around a collection
-    of interviews and memoranda from the British imperial government’s 1936 investigation
-    of the Mui Tsai controversy in colonial Hong Kong and the Straits Settlements.
-    The Mui Tsai institution placed young girls in what elite Chinese families viewed
-    as adoption and household duties and what European activists viewed as trafficking
-    and slavery. This disagreement of definitions and appropriate regulatory measures
-    caused international uproar. My project will contribute to our understanding of
-    how the British Empire navigated intercultural tension and international standard-setting
-    during a period of imperial decline. It will also provide insight on the intercultural
-    differences that convolute contemporary debates of trafficking, slavery and their
-    regulation. The testimonies provide a rare glimpse into the lived experiences
-    at the heart of a convoluted political debate. Existing scholarship has largely
-    overlooked both the everyday lives of Mui Tsai and this archive. The two-volume,
-    print-only collection lacks thematic organization and offers limited accessibility.
-    However, its English-language printed format, length and organization make it
-    ideal for digital analysis. In the digital methodology component of my project,
-    I will generate a dataset for text analysis in R Studio to explore frequencies
-    and correlations to uncover key themes in the testimonies. This text analysis
-    will inform the project’s public-facing component – an online resource that presents
-    thematic selections of testimonies to foster conversation and learning about this
-    history and the continued present-day significance of its themes.'
+  abstract: 'This project uses text analysis to examine evidence collected for the
+    1936 Mui Tsai Investigation. The interviews and memorandum that comprise this
+    material was part of the British Empire’s attempt to address a longstanding debate
+    concerning the mui tsai institution in British Hong Kong and Malaya. The Mui Tsai
+    institution placed young girls in what Chinese families viewed as adoption and
+    household duties and what European activists viewed as trafficking and slavery.
+    International uproar and debate stemmed from this disagreement of definitions
+    and appropriate regulatory measures. In this project, I use methods such as topic
+    modeling and sentiment analysis to conduct text analysis with R on a random selection
+    of this material to shed light on the investigation process. This analysis uncovers
+    insights such as biases in interview questioning and how witnesses’ overall sentiments
+    towards the mui tsai institution were influenced by their geo-cultural origins
+    and experiences. Together, these findings contribute to our understanding of the
+    British Empire during a period of imperial decline: how it navigated intercultural
+    tension and international standard-setting, and how the process of colonial knowledge
+    construction shifted accordingly. Further, the findings of this project hold great
+    potential for public humanities engagement. Throughout the processes of data creation
+    and text wrangling, this project creates digital social knowledge that can be
+    used to foster greater learning and exploration of the intercultural differences
+    that convolute contemporary debates of trafficking, slavery and their regulation.
+    While this project creates its own interpretations, it also provides a foundation
+    that invites further work.'
   pis:
   - lam
   order: '052'
@@ -1473,9 +1473,9 @@
   order: '053'
 - pid: g2023dang
   done: true
-  title: Mapping Territorial Sovereignty
-  subtitle: Progressive Imperialism and the Production of Geopolitics in US-China
-    Relations, 1899-1949
+  title: Searching for a “Back Door” to China
+  subtitle: Wartime US Missions to Northwest China and a Global Frontier of Mid-century
+    Anti-Imperialism
   category: Grad Fellowship Project
   tags:
   - spatial-humanities
@@ -1539,56 +1539,50 @@
   tags:
   - exhibition
   cohort_year: '2023'
-  abstract: 'During the Fall 2022 semester, I took part in the course “Advanced Seminar:
-    Cinema & the Digital Humanities” taught by Marina Hassapopoulou. For this course’s
-    final assignment, I created a project titled Museum for Ukraine, a prototype virtual
-    reality (VR) / mouse-and-keyboard digital museum hosted on the Mozilla Hubs platform
-    which consisted primarily of Ukrainian monuments and objects of material culture.
-    These artifacts, digitized by artists and activists as a part of the Backup Ukraine
-    UNESCO program, are currently being hosted on the website polycam.com where they
-    can be interacted with via a fairly standard “click and drag” web-based 3D model
-    viewer. The shortcomings of this setup (lack of search features, lack of qualitative
-    information, limited interaction paradigm, etc.) inspired me to create the virtual
-    museum—to bring the objects together into a curated digital space where users
-    could be with the objects in a compelling and immersive way. With the help of
-    a DH summer fellowship, I seek to take this intervention to the next level by
-    expanding upon my prototype, along the way generating papers that explore the
-    origin stories of these digital monuments, the art and activism of their digitizers,
-    digital cultural preservation, and/or VR critical making pedagogy. With this project,
-    it is my goal to create a digital home for these objects that preserves and presents
-    them in a meaningful way, one which by design affords users the opportunity to
-    make empathetic connections with them and continues the task of raising awareness
-    for Ukraine’s struggle.'
+  abstract: VR Museum Ukraine is a virtual museum project which explores the various
+    ways that artists, activists, and institutions have used digital technology to
+    preserve Ukrainian culture and document the realities of the ongoing war. The
+    museum presents objects such as 3D models of monuments and photographs alongside
+    accompanying interviews and information from their creators in a multimedia virtual
+    exhibition space where visitors can experience them via a VR headset.
   pis:
   - lehine
   order: '056'
 - pid: g2023bunzl
   done: true
-  title: Seeing Food (in)Access or Visioning Provisioning
+  title: Visioning Provisioning
   category: Grad Fellowship Project
   tags:
   - exhibition
   cohort_year: '2023'
-  abstract: Seeing Food (in)Access is a project that investigates and creates a visual
+  abstract: "Visioning Provisioning is a project that investigates and creates a visual
     representation of the food provisioning practices of food insecure New Yorkers.
     Food provisioning is defined as the “mental, physical and emotional labor involved
     in providing food for oneself and one’s family.” It is required daily, and made
     more difficult by socioeconomic and geographic constraints (Meierotto and Castellano,
-    2020). This project uses ArcGIS story maps to visualize the labor involved in
-    sourcing food for families living with food insecurity. My research has shown
-    that food insecure households expend an excess of time and energy each week figuring
-    out how to stretch resources, such as limited funds, limited transportation, SNAP
-    benefits, and food distribution opportunities. For those who have not experienced
-    food insecurity, the labor involved in this provisioning is much easier to comprehend
-    when represented geospatially. My ambition for this project is to conduct research
-    and create a resource that opens eyes to the lived experience of how food insecure
-    individuals navigate New York City’s food systems. The project will result in
-    maps that chart food provisioning routes, including the costs associated with
-    each location, and visual and textual insight about the impact of the process
-    on emotional and physical wellbeing. It is a failure of our food system that some
-    New Yorkers must spend an undue amount of time and energy providing food for their
-    families. Creating a resource for changemakers to understand this process is a
-    step towards reforming the food system.
+    2020). This project explores the possibility of using maps to visualize the labor
+    involved in sourcing food for families living with food insecurity. My prior research
+    has shown that food insecure households expend an excess of time and energy each
+    week figuring out how to stretch resources, such as limited funds, limited transportation,
+    SNAP benefits, and food distribution opportunities. This project is born from
+    my experience teaching food systems to undergraduates and seeing how for those
+    who have not experienced food insecurity, the labor involved in food provisioning
+    is much easier to comprehend when represented geospatially. My ambition for this
+    project is to conduct create a resource that opens eyes to the often invisible
+    lived experience of individuals navigating New York City’s food systems. With
+    qualitative data collected through in-depth interviews, photo logs and food journals,
+    I have created maps that chart food provisioning routes of the participants in
+    my study. These maps include the costs associated with locations, and visual and
+    textual insight about the impact of the process on emotional and physical wellbeing.
+    However, in some cases, the map proved to not to be the ideal representation.
+    In those instances, I have used timelines and direct quotes to illustrate experience.
+    \n\nIt is a failure of our food system that some New Yorkers must spend an undue
+    amount of time and energy providing food for their families. I believe representing
+    this failure is imperative for fighting narratives about individualized responsibility
+    for food insecurity and diet-related diseases. The potential for this project
+    extends beyond the classroom, as it could become a tool for food policy analysts
+    and advocates. It is my most ambitious hope that creating a resource for students
+    and change makers to see this process is a step towards reforming the food system."
   pis:
   - bernstein-bunzl
   order: '057'
@@ -1599,79 +1593,75 @@
   tags:
   - public-humanities
   cohort_year: '2023'
-  abstract: I began creating a Quechua library through NYU’s Center for Latin American
-    and Caribbean Studies (CLACS) this semester. This library includes Quechua language
+  abstract: 'I began creating a Quechua library through NYU’s Center for Latin American
+    and Caribbean Studies (CLACS) in Spring 2023. This library includes Quechua language
     learning books, story books, Andean history books, movies, audio files, and archival
     materials that have been a part of CLACS’s collection for many years. However,
-    these materials are largely unknown to the community, and aren’t easily accessible
-    or even browsable. Founded in critical and Indigenous library theory, the library
-    is aimed at providing students and community members in NYU, NYC, and beyond with
-    intentional, mindful, and relevant materials for their interests. This specific
-    portion of the project I am seeking funding for is the transition of these cataloged
-    materials into an ILS (integrated Library System) and to create a website to provide
-    broader access to these materials. This grant will support this next step, integration.
-    This would include creating a website that makes the library’s materials clearly
-    and easily accessible and browsable. The website will serve as an integrated library
-    system and catalog that includes the materials, relevant tags, recommendations,
-    and easier search functionalities than its current state. This work will feed
-    directly into the next steps of digitizing and distribution of the library, which
-    will be completed later in my graduate studies.
+    these materials are largely unknown to the community, and aren’t easily accessible.
+    This summer, using a database of the materials and CollectionBuilder: an open
+    source, Jekyll-based framework for creating digital collections, I created a Runakunaq
+    Bibliotecanku (The People''s Library) for easier browsing and searching through
+    the collection. The website is up, with many improvements on the way (including
+    trilingual browsing and search, more local metadata, and more visualizations of
+    the collection). At this time, patrons can browse, search, and request scans of
+    any of the print materials we have at the CLACS library.'
   pis:
   - warsco
   order: '058'
 - pid: g2023alhenius
   done: true
-  title: Mapping the Archives of Virtual Slavery in NIneteenth-Century Mexico
+  title: The Archives of Virtual Slavery
   category: Grad Fellowship Project
   tags:
   - public-humanities
   cohort_year: '2023'
-  abstract: My project with the NYU Digital Humanities Summer Fellowship will use
-    ArcGIS, Zotero, and a publishing platform (I hope to explore WordPress, StoryMaps,
-    and Wax as options) to map, categorize, and transcribe the core sources for my
-    dissertation on forced labor and race in nineteenth-century México. I will also
-    explore the use of OCR software for transcribing digitized documents. One significant
-    aspect of my dissertation is to understand why the persistence of slavery and
-    race have remained illegible in nineteenth-century Mexican history, culture, and
-    national identity. This project brings together a body of original sources consisting
-    of archival documents, printed materials, and photography that will make the under-studied
-    question of slavery and forced labor on nineteenth-century Mexico’s borderlands
-    accessible to other scholars. The final product will be a website that uses GIS
-    to plot these sources together on a map that provides the location of the archives
-    and documents, relevant metadata, and transcribed archival documents, so that
-    their geographical and thematic relationships can be intuitively explored.
+  abstract: The Archives of Virtual Slavery in Nineteenth-Century Mexico Nineteenth-century
+    Mexico was one of the first and most radical abolitionist nations in the Americas,
+    where elites constructed a national identity grounded on racial inclusion and
+    antislavery. Nevertheless, throughout this period, various forms of forced labor
+    and racial subjugation flourished in Mexico’s borderland regions of Texas, Yucatán,
+    and Chiapas. These practices of bondage, indenture, and peonage were legally ambiguous,
+    yet practically difficult to distinguish from slavery. While scholars have mentioned
+    in passing many of the documents that attested to this traffic, none have given
+    an in-depth analysis of the documents that attest to these forms of subjugation.
+    Many of these documents are contracts that employers used to maintain a pretense
+    of “free labor” relations, including simulating the workers’ consent. This summer
+    project has focused on digitizing and transcribing these documents and adding
+    metadata using optical character recognition (OCR) software through Transkribus.
+    Publicly available AI transcription models on Transkribus were trained on handwritten
+    documents date to 15th and 16th-century Spain. I have dedicated most of my time
+    to training an AI language model on 19th-century documents in Spanish from archives
+    in the Mexico, the U.S., Guatemala, and Spain. I have then used this model to
+    then transcribe hundreds of pages of archival documents related to the trafficking
+    of laborers across Mexico’s borders and make them fully searchable. This work
+    will make these documents more publicly accessible and easy to use for other scholars
+    interested in indenture on Mexico’s borderlands.
   pis:
   - ahlenius
   order: '059'
 - pid: g2023janz
   done: true
-  title: Excavating the “Model Man”
-  subtitle: Tracing Normative Models of Self in Psychotherapy
+  title: Excavating the Evolving Self in Autobiographies
   category: Grad Fellowship Project
   tags:
   - text-analysis
   cohort_year: '2023'
-  abstract: Scholars in the humanities and social sciences alike have hypothesized
-    that psychotherapists work not only to heal their clients’ maladies, but also
-    to mold and shape the character of their selves. Arguing that psychotherapists
-    seek to mold their clients in their visions of a “model man” (Foucault 1963),
-    scholars contend that therapists seek to orient their clients’ selves, or core
-    identities and modes of being, thinking, and feeling, toward distinct ends. Yet
-    while scholars agree that psychotherapists seek to shape the self, they diverge
-    regarding to which ends therapists seek to shape it. Do therapists seek to craft
-    selves that are individualistic and autonomous, or selves that are embedded within
-    the family? (Rose 1998; Weinstein 2013). Is the ideal self an emotional and expressive
-    self, or an introspective and inward-looking one? (Rieff 1996; Illouz 2008). This
-    project will adjudicate these debates by exploring how therapists depict the traits
-    of their clients in a novel dataset of 80,000 psychotherapy advertisements. Using
-    text analysis to engage in a distant reading of these ads, I will explore the
-    characteristics therapists suggest mark a self as either a desirable self towards
-    which one can strive in therapy or an undesirable self that merits therapeutic
-    modification. Then, I will explore whether images of the ideal self vary based
-    on therapists’ specializations. This research will refresh scholarship on psychotherapy
-    and the self with new empirical findings and produce a novel analysis of an important
-    but under-researched cultural formation, the twenty-first-century online mental
-    healthcare marketplace.
+  abstract: 'Sociologists have long hypothesized that the nature of the human self
+    has evolved over time. From Durkheim to Foucault, social theorists argue that
+    sociohistorical shifts ranging from the industrialization to the growth of psychotherapy
+    have coincided with changes in the characteristics that distinguish people’s core
+    modes of selfhood, rendering people more or less individualistic, calculating,
+    expressive, or narcissistic. In this paper, I leverage computational techniques
+    to assess whether people’s own self-understandings have evolved over time. Drawing
+    on a novel corpus of over 25,000 English-language autobiographies published between
+    1770 and 1968, I explore how the ways in which autobiographers characterize themselves
+    have evolved between the eighteenth and twentieth centuries. To gain insight into
+    how the self-characterizations of members of different social groups may have
+    converged or diverged over time, I also disaggregate trends in self-representations
+    based on the gender, nationality, location of birth, and occupation of autobiographers.
+    This research project will provide insight into how autobiographers understand
+    and represent themselves in texts, and it will constitute the first computational
+    analysis of a large-scale dataset of full-text, English-language autobiographies. '
   pis:
   - janz
   order: '060'
