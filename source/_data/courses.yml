@@ -108,7 +108,6 @@
   time: 6:20-9:20 pm
   description: Provides an introduction to the practice, history, and principles of
     programming for students in the humanities through the Python language.
-  url: https://benschmidt.org/code21
   order: '005'
 - pid: 1121-sp23
   done: true
@@ -125,7 +124,6 @@
     of the digital humanities. We’ll do so through more traditional seminar readings
     and a series of programming worksets that will teach you how to do a variety of
     types of data analysis and visualization.'
-  url: https://benschmidt.org/WWD22
   order: '007'
 - pid: 1122-sp23
   done: true
@@ -231,3 +229,126 @@
     require, in total, eight in-class meetings (including the labs), and six or so
     online meetings.
   order: '015'
+- pid: 1120-fa23
+  done: true
+  number: DHSS-GA.1120
+  title: Introduction to Programming
+  semester: Fall 2023
+  program: DHSS
+  faculty: Marc Bacchus
+  day: Tuesday
+  time: 6:20-9:20 pm
+  description: Provides an introduction to the practice, history, and principles of
+    programming for students in the humanities through the Python language.
+  order: '016'
+- pid: 3023-fa23
+  done: true
+  number: ISAW-GA 3023-001
+  title: Text Analysis for Historical Language Research
+  semester: Fall 2023
+  program: ISAW
+  faculty: Patrick Burns
+  day: Monday
+  time: 2:00-5:20pm
+  description: This course introduces students to computational research methods helpful
+    for producing data-driven scholarship involving large collections of historical-language
+    text. Drawing on relevant topics in exploratory data science, corpus linguistics,
+    and natural language processing, the course provides a forum for students to develop
+    hands-on skills in computer programming (using Python), focused primarily on managing
+    textual data, string manipulation, text mining and analysis, language modeling,
+    and data visualization. Special attention will be given to the use of word embeddings
+    and transformer models and their applicability to historical-language text collections.
+    Demonstrations throughout the course will draw primarily on English-language examples,
+    but because of the philological range and diversity at ISAW, students are encouraged
+    to work with digitized text collections in the languages most relevant to their
+    research. There are no prerequisites, though students are expected to be open
+    to reading, writing, and editing computer programs; students are required to bring
+    notebook computers to class. Note that historical-language text for the purpose
+    of this course covers texts or collections of texts written before the Early Modern
+    period. Permission of the instructor is required.
+  url: https://isaw.nyu.edu/graduate-studies/seminar-descriptions
+  order: '017'
+- pid: 3024-fa23
+  done: true
+  number: ISAW-GA 3024-001
+  title: Introduction to Digital Humanities for the Ancient World
+  semester: Fall 2023
+  program: ISAW
+  faculty: Sebastian Heath, Tom Elliott, and David Ratzan
+  day: Thursday
+  time: 2:00-5:20pm
+  description: This course will introduce students to the use of digital tools and
+    computational methods in the study of the ancient world. There are no technical
+    prerequisites and the course will be of particular interest to early-stage graduate
+    students who want a broad introduction that involves hands-on work. The course
+    will progress through topics and methods such as applying structure to text via
+    XML-based markup languages, introduction to the programmatic manipulation of textual
+    data, and how scholarly resources are shared on the public internet and edited
+    in collaborative environments. There will also be a focus on structured datasets.
+    Students will gain practical experience in acquiring, creating, querying, and
+    displaying spatial data, digital images, and 3D models. The course also addresses
+    the growing role of so-called "generative AI" and related tools. There will be
+    frequent introductions to existing digitally-informed work in disciplines that
+    are part of the study of the ancient world, such as textual studies, history,
+    and archaeology, as well as more specific fields such as epigraphy, papyrology,
+    and numismatics for which exemplary digital projects exist. Readings will introduce
+    students to current trends, theories, and ethics in Digital Humanities and will
+    encourage discussion of the impact that digital methods and open-licensed content
+    are having on research, teaching, and public engagement with scholarly practice.
+    Over the course of the semester students will design and then implement a final
+    project that can overlap with their existing research interests. It is a requirement
+    that students bring their own notebook computers to class. Permission of the instructors
+    is required.
+  url: https://isaw.nyu.edu/graduate-studies/seminar-descriptions
+  order: '018'
+- pid: 1972-fa23
+  done: true
+  number: ENGL-GA 1972
+  title: Topics in Digital Humanities
+  semester: Fall 2023
+  program: GSAS
+  faculty: Jeffrey Binder
+  day: Tuesday
+  time: 6:15-9:00pm
+  order: '019'
+- pid: 2033-fa23
+  done: true
+  number: HIST-GA 2033
+  title: Creating Digital History
+  semester: Fall 2023
+  program: GSAS
+  faculty: Leah Potter
+  day: Thursday
+  time: 4.55 PM - 7.35 PM
+  description: A hands-on introduction to “doing history” in the digital age, Creating
+    Digital History focuses on the evolving methodologies and tools used by public
+    historians to collect, preserve, and present digital sources. Students will become
+    familiar with a range of web-based tools and learn best practices for digitizing,
+    adding metadata, tagging, and clearing permissions. By evaluating existing digital
+    history projects and discussing perspectives from leading practitioners, students
+    will also consider the role of the general public as both audiences for, and co-creators
+    of, digital history. The core requirement is a collaborative digital history project
+    that will be developed throughout the semester on a selected historical theme.
+  order: '025'
+- pid: 2378-fa23
+  done: true
+  number: ITPG-GT 2378
+  title: 'Topics in ITP: Programming with Data for Artists, Designers and Researchers'
+  semester: Fall 2023
+  program: Tisch
+  faculty: Allison Parrish
+  day: Friday
+  time: 3.20 PM - 5.50 PM
+  description: 'Data is the means by which we turn experience into something that
+    can be published, compared, and analyzed. Data can facilitate the production of
+    new knowledge about the world—but it can also be used as a method of control and
+    exploitation. As such, the ability to understand and work with data is indispensable
+    both for those who want to uncover truth, and those who want to hold power to
+    account. This intensive course serves as an introduction to essential computational
+    tools and techniques for working with data. The course is designed for artists,
+    designers, and researchers in the humanities who have no previous programming
+    experience. Covered topics include: the Python programming language, Jupyter Notebook,
+    data formats, regular expressions, Pandas, web scraping, relational database concepts,
+    simple data visualization and data-driven text generation. Weekly technical tutorials
+    and short readings culminate in a self-directed final project.'
+  order: '026'
