@@ -1,0 +1,41 @@
+name: fetch data deploy prod
+on: workflow_dispatch
+
+jobs:
+  prod-fetch-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # setup
+      - name: install libvips
+        run: sudo apt-get update && sudo apt-get install -y libvips libvips-dev
+      - uses: actions/checkout@v3
+      - name: setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: get datetime
+        run: echo "NOWISH=$(TZ=America/New_York date)" >> ${GITHUB_ENV}
+      # fetch data
+      - name: fetch data
+        env:
+          COURSES_SHEET_KEY: ${{secrets.COURSES_SHEET_KEY}}
+          PEOPLE_SHEET_KEY: ${{secrets.PEOPLE_SHEET_KEY}}
+          PROJECTS_SHEET_KEY: ${{secrets.PROJECTS_SHEET_KEY}}
+        run: bundle exec rake fetch:all
+      # test site
+      - name: test html
+        run: bundle exec rake site:test
+      # build site
+      - name: build site
+        run: bundle exec jekyll build
+      # deploy via ftp
+      - name: ftp deploy to host
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{secrets.FTP_PROD_SERVER}}
+          username: ${{secrets.FTP_PROD_USER}}
+          password: ${{secrets.FTP_PROD_PW}}
+          protocol: ftps
+          state-name: ./.ftp-deploy-sync-state.json
+          local-dir: ./_site/
+
