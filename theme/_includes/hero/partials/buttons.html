@@ -3,7 +3,7 @@
   {% for button in page.hero_buttons %}
   <a class="button is-white is-outlined" href="{{ button.link | absolute_url }}" {% if button.external %}target="none"{% endif %}>
     {{ button.label }}
-    {% if button.external %}&nbsp;<i class="fas fa-external-link-alt"></i>{% endif %}
+    {% if button.link contains 'http' %}<span class="material-symbols-outlined">&#xf8ce;</span>{% endif %}
   </a>
   {% endfor %}
 </div>
