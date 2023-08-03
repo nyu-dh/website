@@ -1,7 +1,10 @@
+{% if site.url != "http://localhost:4000"%}
 <script async src="https://www.googletagmanager.com/gtag/js?{{ site.google_analytics }}"></script>
 <script>
+  console.log("i'm running ga4");
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', '{{ site.google_analytics }}');
 </script>
+{% endif %}
