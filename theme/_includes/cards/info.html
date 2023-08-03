@@ -8,7 +8,7 @@
                 {% endif %}
                 <p class="title is-size-5 mb-3">
                 {%- if item.url -%}
-                    <a class="has-text-primary no-underline" href="{{ item.url }}">
+                    <a class="has-text-primary no-underline" {% if item.url contains 'http' %}target="_blank"{% endif %} href="{{ item.url }}">
                         {{ item.title }}
                         {% include misc/arrow-all-link.html %}
                     </a>

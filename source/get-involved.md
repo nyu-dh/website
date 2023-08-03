@@ -44,11 +44,15 @@ grad_students:
     url: '/funding/grad-fellowships'
     description: >
       We support selected NYU graduate students annually as they develop innovative digital humanities projects. Successful applicants receive mentoring, a $5,000 stipend, and participate in a cohort to develop their skills and sharpen their ideas.
+  - title: Learn about the Advanced Certificate in DH
+    url: 'https://as.nyu.edu/departments/dh.html'
+    description: >
+      Prospective NYU students can apply through the Graduate School of Arts & Science. Current GSAS MA and PhD candidates may enroll in the program at any point by submitting an application.
+      Talk to your advisor or email dhss@nyu.edu if you are interested in formally enrolling.
   - title: Browse DH Courses
-    # icon: /assets/images/icons/bibliography.png
     url: '/curriculum/courses'
     description: >
-      All graduate students interested in digital humanities can enroll in <a href="/curriculum/courses/">individual courses</a> in the <a href="https://as.nyu.edu/departments/dh.html">Advanced Certificate program in Digital Humanities</a>. Talk to your advisor or email dh.help@nyu.edu if you are interested in formally enrolling.
+      Graduate students interested in digital humanities can enroll in <a href="/curriculum/courses/">individual courses</a> that are offered through the <a href="https://as.nyu.edu/departments/dh.html">GSAS Advanced Certificate program</a>.
 faculty:
   - title: Apply for an NYU DH Seed Grant
     url: '/funding/seed-grants'
