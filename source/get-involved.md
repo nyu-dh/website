@@ -7,10 +7,10 @@ subtitle: >
 quick_links:
   - label: 'For Everyone at NYU'
     link: '#everyone'
-  - label: 'For Faculty at NYU'
-    link: '#faculty'
   - label: 'For Graduate Students at NYU'
     link: '#grad-students'
+  - label: 'For Faculty at NYU'
+    link: '#faculty'
 everyone:
   - title: Attend a DH Potluck
     # icon: /assets/images/icons/potluck.png
@@ -59,10 +59,10 @@ faculty:
 <h2 class="my-6" id="everyone">For Everyone at NYU</h2>
 {% include cards/info.html data=page.everyone %}
 
-<h2 class="my-6" id="faculty">For Faculty</h2>
-{% include cards/info.html data=page.faculty %}
-
 <h2 class="my-6" id="grad-students">For Graduate Students</h2>
 {% include cards/info.html data=page.grad_students %}
+
+<h2 class="my-6" id="faculty">For Faculty</h2>
+{% include cards/info.html data=page.faculty %}
 
 

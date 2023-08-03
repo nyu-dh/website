@@ -3,7 +3,7 @@ title: Courses
 layout: default
 hero_image: '/assets/images/banners/courses.png'
 subtitle: |
-  The following courses include core and some of the elective courses in the [Advanced Certificate in Digital Humanities](/curriculum/certificate/), offered through the Graduate School of Arts and Sciences.
+  The following courses include core and some of the elective courses in the [Advanced Certificate in Digital Humanities](https://as.nyu.edu/departments/dh.html), offered through the Graduate School of Arts and Sciences.
 
   Certificate courses are open to all graduate students at NYU, and through the consortium to PhD candidates at other institutions.
 quick_links:
@@ -15,6 +15,9 @@ quick_links:
     link: 'archive/'
   - label: 'Affiliated Teaching Faculty'
     link: '/people/affiliated-faculty/'
+hero_buttons:
+  - label: GSAS Advanced Certificate in DH
+    link: https://as.nyu.edu/departments/dh.html
 ---
 
 {% assign current_semester =  site.data.courses | where: 'semester', site.semester.current %}
