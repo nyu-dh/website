@@ -1,17 +1,3 @@
-# - name: People
-#   link: '/people'
-# - name: Projects
-#   link: '/projects'
-# - name: News + Events
-#   link: '/get-involved'
-# - name: Resources + Funding
-#   dropdown:
-#     - name: Faculty Seed Grants
-#       link: '/funding/seed-grants'
-#     - name: Graduate Fellowships
-#       link: '/funding/grad-fellowships'
-# - name: Curriculum
-#   link: '/curriculum/courses'
 - name: News + Events
   link: '/news'
 - name: Community
@@ -20,6 +6,12 @@
       link: '/get-involved'
     - name: People
       link: '/people'
+- name: Curriculum
+  dropdown:
+    - name: GSAS Advanced Certificate in DH
+      link: https://as.nyu.edu/departments/dh.html
+    - name: Relevant Courses
+      link: '/curriculum/courses'
 - name: Funding
   dropdown:
     - name: NYU DH Seed Grants
@@ -30,6 +22,8 @@
   dropdown:
     - name: Projects
       link: '/projects'
+    - name: People
+      link: '/people'
     - name: Courses
       link: '/curriculum/courses'
     - name: Resources

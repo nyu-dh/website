@@ -20,7 +20,7 @@ $body-size: 18px !default;
 
 $hr-background-color: $info;
 
-$navbar-breakpoint: $tablet !default;
+$navbar-breakpoint: $desktop !default;
 
 $card-background-color: unset;
 $card-shadow: unset;
@@ -250,4 +250,10 @@ summary {
   width: 128px !important;
   height: 128px !important;
   border-radius: 50%;
+}
+
+.hero-body {
+  .subtitle {
+    a { text-decoration: underline; }
+  }
 }
