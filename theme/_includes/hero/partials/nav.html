@@ -21,7 +21,10 @@
                 <span class="navbar-link group-header">{{ item.name }}</span>
                 <div class="navbar-dropdown has-background-info">
                   {% for subitem in item.dropdown %}
-                  <a href="{{ subitem.link | relative_url }}" class="navbar-item">{{ subitem.name }}</a>
+                  <a href="{{ subitem.link | relative_url }}" {% if subitem.link contains 'http' %}target="_blank"{% endif %} class="navbar-item">
+                    {{ subitem.name }}
+                    {% if subitem.link contains 'http' %}&nbsp;<span class="material-symbols-outlined">&#xf8ce;</span>{% endif %} 
+                  </a>
                   {% endfor %}
                 </div>
               </div>

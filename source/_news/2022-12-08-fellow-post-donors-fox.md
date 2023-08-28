@@ -11,15 +11,21 @@ abstract: |
   2022 Graduate Fellow Allegra Rosenberg talks polar exploration and Victorian social network analysis.
 ---
 
-**The following article was written by Allegra Rosenberg and was originally published on [her personal blog](https://allegrarosenberg.com/polar/2022/12/07/the-donors-of-the-fox/). It highlights _[Visualizing the Victorian Polar Network](/projects/g2022rosenberg/)_, a project funded by the [NYU DH Graduate Fellows program](/funding/grad-fellowships/).**
+<article class="message is-success mb-4" style="max-width:800px">
+  <div class="message-body has-text-warning">
+    <img src="/media/people/rosenberg.jpg" class="is-pulled-right circle-128" alt="portrait of Allegra Rosenberg"/>
 
----
-
-![The 'Fox' on a rock near Buchan Island, drawn by Captain May](/media/projects/g2022rosenberg.jpg)
+    <p>The <a href="/news/graduate-fellow-spotlights/">DH Graduate Fellow Spotlights</a> highlight work supported by the <a href="/funding/grad-fellowships/">NYU DH Graduate Fellowship Program</a>.</p>
+    <p class="mb-3">Below, 2022 fellow Allegra Rosenberg talks about <i><a href="/projects/g2022rosenberg/">Visualizing the Victorian Polar Network</a></i> in an article originally published on <a href="https://allegrarosenberg.com/polar/2022/12/07/the-donors-of-the-fox/">her personal blog</a></p>
+  </div>
+</article>
+<br>
 
 This summer, I was the recipient of the generous Digital Humanities Fellowship from NYU. My proposed project was a broad-reaching initiative called [“Visualizing the Victorian Polar Network,”](/projects/g2022rosenberg/) but once the fellowship began I quickly realized I had to narrow my view, and ended up settling on a revised version of my project where I would create an interactive, annotated biographical database of all of the donors to Leopold McClintock’s 1857 Franklin search expedition, spearheaded by Lady Jane Franklin as a private expedition to look for her missing husband and his crew after the Admiralty had abdicated all responsibility for the continuing search.
 
 Ever since coming across the appendix in _The Voyage of the Fox_ that listed names like Charles Babbage and William Makepeace Thackeray amongst the donors, I was curious to see what the demographics of the full list were. Why would someone choose to donate money to the search? How many were directly connected to the crew members of the missing expedition, and how many were merely members of the sympathetic public? What were the professions of the donors, their age and gender? And were there any unexpected connections waiting to be discovered?
+
+![The 'Fox' on a rock near Buchan Island, drawn by Captain May](/media/projects/g2022rosenberg.jpg)
 
 I conducted research at the Scott Polar Research Institute in Cambridge as well as the British Library in London, where I discovered [the connection between a notable Chartist and Terror lieutenant Edward Little, with the Franklins in the middle](https://allegrarosenberg.com/polar/2022/07/14/g-julian-harney-the-1857-franklin-search/). That was by far the most interesting thing I came across, but by no means the only one.
 
