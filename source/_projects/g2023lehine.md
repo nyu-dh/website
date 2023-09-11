@@ -14,6 +14,6 @@ abstract: VR Museum Ukraine is a virtual museum project which explores the vario
   visitors can experience them via a VR headset.
 pis:
 - lehine
-order: '056'
+order: '055'
 layout: project
 ---

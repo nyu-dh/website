@@ -26,6 +26,6 @@ abstract: 'This project maps and visualizes the layered histories of media infra
   humanities.'
 pis:
 - kellogg
-order: '055'
+order: '054'
 layout: project
 ---

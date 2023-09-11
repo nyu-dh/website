@@ -22,6 +22,6 @@ abstract: The Mapping Artistic Activism Project (MAAP) is a living digital archi
 pis:
 - duncombe
 - desai
-order: '050'
+order: '049'
 layout: project
 ---

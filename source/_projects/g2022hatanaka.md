@@ -30,6 +30,6 @@ pis:
 - hatanaka
 image: g2022hatanaka.jpg
 hero_image: "/media/projects/g2022hatanaka.jpg"
-order: '039'
+order: '038'
 layout: project
 ---

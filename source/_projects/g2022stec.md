@@ -33,6 +33,6 @@ link: https://helen.hosting.nyu.edu/browniesbookarchive/exhibits/show/intro/intr
 image: g2022stec.jpg
 original_img: https://helen.hosting.nyu.edu/browniesbookarchive/items/show/12#lg=1&slide=0
 hero_image: "/media/projects/g2022stec.jpg"
-order: '034'
+order: '033'
 layout: project
 ---
