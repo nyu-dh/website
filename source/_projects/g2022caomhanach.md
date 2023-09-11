@@ -32,6 +32,6 @@ pis:
 image: g2022caomhanach.jpg
 original_img: https://upload.wikimedia.org/wikipedia/commons/e/e5/Avenue_of_Baobabs%2C_Madagascar_%2822558139260%29.jpg
 hero_image: "/media/projects/g2022caomhanach.jpg"
-order: '033'
+order: '032'
 layout: project
 ---

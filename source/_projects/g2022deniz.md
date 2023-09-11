@@ -30,6 +30,6 @@ pis:
 image: g2022deniz.png
 original_img: https://drive.google.com/open?id=1juRqvI0mL2_xENMYVjeWClCKYr8OyeQZ
 hero_image: "/media/projects/g2022deniz.png"
-order: '046'
+order: '045'
 layout: project
 ---

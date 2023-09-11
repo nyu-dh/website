@@ -180,7 +180,8 @@
   order: '005'
 - pid: soul-of-reason
   done: true
-  title: 'Raising the Volume: Amplifying <i>Soul of Reason</i>'
+  title: Raising the Volume
+  subtitle: Amplifying <i>Soul of Reason</i>
   featured: true
   category: DH Seed Grant Recipient
   tags:
@@ -240,6 +241,41 @@
   pis:
   - beinart-smollan
   order: '007'
+- pid: occupy
+  done: true
+  title: No Turning Back
+  subtitle: Ten Years After Occupy
+  featured: true
+  category: Other
+  tags:
+  - exhibition
+  cohort_year: '2021'
+  abstract: 'On the 10th anniversary of the movement, No Turning Back: Ten Years After
+    Occupy brings together materials from across the Tamiment Library and Robert F.
+    Wagner Labor Archives to examine that first, critical year of Occupy Wall Street.
+    It includes archival materials that not only capture much of the movement’s tactics,
+    strategies, aesthetics, and language, but also attempt to show how Occupy’s protests
+    became a national phenomenon and were a turning point for left movements globally.
+    The exhibit is organized around the Declaration of the Occupation of New York
+    City, a collectively authored letter to the world, drafted by the Call to Action
+    Working Group and ratified by NYCGA, stating why Occupy protestors were reclaiming
+    public space in the name of the 99%. It was curated by Shannon O''Neill, Curator
+    for Tamiment-Wagner Collections, and Michael Koncewicz, Michael Nash Archivist
+    & Ewen Center Program Coordinator and built by Marii Nyrop, Digital Scholarship
+    Services. Additonal credits can be found on the site.'
+  limerick: |-
+    Downtown, revolutionaries poured
+    Through Zucotti, and archivists stored
+    Their papers. Now this Wax site's
+    All there is (no wealth tax, right?)
+    Because Occupy's got Thermidor'ed.
+  pis:
+  - nyrop
+  link: https://specialcollections.hosting.nyu.edu/exhibitions/occupy/
+  image: occupy.jpg
+  original_img: https://image1.dlib.nyu.edu:8183/iiif/2/photo%2Ftamwag_tam630_cuid34928%2Ftamwag_tam630_cuid34928_n000001_d.jp2/full/800,/0/default.jpg
+  hero_image: "/media/projects/occupy.jpg"
+  order: '008'
 - pid: moss
   done: true
   title: Inverting the Wunderkammer
@@ -777,15 +813,17 @@
   order: '028'
 - pid: wax
   done: true
-  title: 'Wax: Scholarly Exhibitions with IIIF'
+  title: Minicomp/Wax
+  subtitle: Scholarly Exhibitions with Jekyll and IIIF
+  featured: true
   category: Other
   tags:
   - software
   - exhibition
-  abstract: Wax is a minimal computing project for producing digital exhibitions focused
-    on longevity, low costs, and flexibility. The underlying technology is made to
-    learn and to teach, and can produce beautifully rendered, high-quality image collections
-    and scholarly exhibits.
+  abstract: |-
+    Wax is an extensible workflow for producing scholarly exhibitions with minimal computing principles. It’s comprised of: a few Ruby gems for processing image data and associated metadata (wax_tasks, wax_iiif), a Jekyll theme (wax_theme), and documentation for creating, deploying, and maintaining digital exhibitions.
+
+    The exhibition sites created by Wax are static. This means they consist of flat HTML, CSS, and JavaScript files that don’t need to communicate in a complex way back to a server. This makes them cheaper, safer, and generally easier to maintain—as long as you’re willing to learn some new skills.
   pis:
   - nyrop
   link: https://minicomp.github.io/wax/
@@ -814,7 +852,7 @@
   image: directories.jpg
   original_img: https://iiif-prod.nypl.org/index.php?id=57275760&t=w
   hero_image: "/media/projects/directories.jpg"
-  order: '031'
+  order: '030'
 - pid: g2022chenel
   done: true
   title: The Directory of Placenames Unforgotten
@@ -849,7 +887,7 @@
   image: g2022chenel.png
   original_img: https://drive.google.com/file/d/1-rWnlcFgDDdnKeQjKeKVevOKgtUG0TtJ/view
   hero_image: "/media/projects/g2022chenel.png"
-  order: '032'
+  order: '031'
 - pid: g2022caomhanach
   done: true
   title: The Land of the Giants
@@ -884,7 +922,7 @@
   image: g2022caomhanach.jpg
   original_img: https://upload.wikimedia.org/wikipedia/commons/e/e5/Avenue_of_Baobabs%2C_Madagascar_%2822558139260%29.jpg
   hero_image: "/media/projects/g2022caomhanach.jpg"
-  order: '033'
+  order: '032'
 - pid: g2022stec
   done: true
   title: The Brownies' Book Archive
@@ -919,7 +957,7 @@
   image: g2022stec.jpg
   original_img: https://helen.hosting.nyu.edu/browniesbookarchive/items/show/12#lg=1&slide=0
   hero_image: "/media/projects/g2022stec.jpg"
-  order: '034'
+  order: '033'
 - pid: g2022stuhler
   done: true
   title: Who Kisses Whom?
@@ -949,7 +987,7 @@
   image: g2022stuhler.png
   original_img: https://i0.wp.com/oscarstuhler.org/wp-content/uploads/2022/04/Plot_website-2.png?w=1800&ssl=1
   hero_image: "/media/projects/g2022stuhler.png"
-  order: '035'
+  order: '034'
 - pid: g2022binyamini
   done: true
   title: Structured Data, Mapping, and Textual Analysis of the American Jewish Year
@@ -981,10 +1019,11 @@
     late twentieth century.'
   pis:
   - binyamini
-  order: '036'
+  order: '035'
 - pid: g2022rosenberg
   done: true
   title: Visualizing the Victorian Polar Network
+  featured: true
   category: Grad Fellowship Project
   tags:
   - spatial-humanities
@@ -1000,7 +1039,7 @@
   image: g2022rosenberg.jpg
   original_img: https://drive.google.com/open?id=1LTE_WVB4tJRsS077H75CzscQvEL69S3k
   hero_image: "/media/projects/g2022rosenberg.jpg"
-  order: '037'
+  order: '036'
 - pid: g2022musto
   done: true
   title: Demystifying the Digitization of Texts
@@ -1036,7 +1075,7 @@
   image: g2022musto.jpg
   original_img: https://www.nusus.net/static/img/header.jpeg
   hero_image: "/media/projects/g2022musto.jpg"
-  order: '038'
+  order: '037'
 - pid: g2022hatanaka
   done: true
   title: Why Are There No ACS Offices in SoHO?
@@ -1068,7 +1107,7 @@
   - hatanaka
   image: g2022hatanaka.jpg
   hero_image: "/media/projects/g2022hatanaka.jpg"
-  order: '039'
+  order: '038'
 - pid: errant-americas
   done: true
   title: Arts of the Errant Americas
@@ -1096,7 +1135,7 @@
     into the digital."
   pis:
   - sloane-britt
-  order: '040'
+  order: '039'
 - pid: nlines
   done: true
   title: nLines and Changing
@@ -1123,7 +1162,7 @@
     "toggle," and a critical essay). '
   pis:
   - perry
-  order: '041'
+  order: '040'
 - pid: sight-site-cite
   done: true
   title: Sight/Site/Cite in the Digital Middle East
@@ -1148,7 +1187,7 @@
   - mccormick
   - petiwala
   - tawil-souri
-  order: '042'
+  order: '041'
 - pid: chem-hum
   done: true
   title: Digitizing Chemical Humanities
@@ -1176,7 +1215,7 @@
     on extending his analysis of chemical knowledge production to pre-1750 periods.
   pis:
   - mahootian
-  order: '043'
+  order: '042'
 - pid: historic-fractures
   done: true
   title: Historic Fractures
@@ -1210,7 +1249,7 @@
   image: historic-fractures.jpg
   original_img: https://s18798.pcdn.co/artsampscience-historicfractures/wp-content/uploads/sites/26462/2023/05/IMG_4975-768x1024.jpg
   hero_image: "/media/projects/historic-fractures.jpg"
-  order: '044'
+  order: '043'
 - pid: g2022zohar
   done: true
   title: Mapping the Circulation of Mizrahi Texts in the Arab World, 1948-1982
@@ -1245,7 +1284,7 @@
   image: g2022zohar.jpg
   original_img: https://drive.google.com/open?id=1pSYt5Rw1FCpnVOQTXtQcqcyhvZGZuQoS
   hero_image: "/media/projects/g2022zohar.jpg"
-  order: '045'
+  order: '044'
 - pid: g2022deniz
   done: true
   title: Mapping, Visualizing and Analyzing the Sufi Mobility in the Early Modern
@@ -1278,7 +1317,7 @@
   image: g2022deniz.png
   original_img: https://drive.google.com/open?id=1juRqvI0mL2_xENMYVjeWClCKYr8OyeQZ
   hero_image: "/media/projects/g2022deniz.png"
-  order: '046'
+  order: '045'
 - pid: disability-social-media
   done: true
   title: Preserving Pandemic Activism on Disability Social Media
@@ -1302,7 +1341,7 @@
   pis:
   - mills
   - kornstein
-  order: '047'
+  order: '046'
 - pid: mutun
   done: true
   title: MUTUN
@@ -1331,7 +1370,7 @@
     for wider adoption.'
   pis:
   - musto
-  order: '048'
+  order: '047'
 - pid: biblio-politica
   done: true
   title: Biblio-Política
@@ -1350,7 +1389,7 @@
   pis:
   - belantara
   - nyrop
-  order: '049'
+  order: '048'
 - pid: maap
   done: true
   title: Mapping Artistic Activism Project (MAAP)
@@ -1375,7 +1414,7 @@
   pis:
   - duncombe
   - desai
-  order: '050'
+  order: '049'
 - pid: g2023hoque
   done: true
   title: Prototyping as Ethnography
@@ -1406,7 +1445,7 @@
     and analyze findings.
   pis:
   - hoque
-  order: '051'
+  order: '050'
 - pid: g2023lam
   done: true
   title: Disentangling and Interpreting the Mui Tsai Experience
@@ -1439,7 +1478,7 @@
     that invites further work.'
   pis:
   - lam
-  order: '052'
+  order: '051'
 - pid: g2023orsag
   done: true
   title: Amazonian Historical Cartography
@@ -1470,7 +1509,7 @@
     in the Western Amazon.
   pis:
   - octavio-orsag
-  order: '053'
+  order: '052'
 - pid: g2023dang
   done: true
   title: Searching for a “Back Door” to China
@@ -1503,7 +1542,7 @@
     diplomatic relations but the political and material creation of new geographies.
   pis:
   - dang
-  order: '054'
+  order: '053'
 - pid: g2023kellogg
   done: true
   title: Mapping Media Infrastructure in Glacier National Park
@@ -1531,7 +1570,7 @@
     as a method in the digital humanities.'
   pis:
   - kellogg
-  order: '055'
+  order: '054'
 - pid: g2023lehine
   done: true
   title: VR Museum for Ukraine
@@ -1547,7 +1586,7 @@
     exhibition space where visitors can experience them via a VR headset.
   pis:
   - lehine
-  order: '056'
+  order: '055'
 - pid: g2023bunzl
   done: true
   title: Visioning Provisioning
@@ -1585,7 +1624,7 @@
     and change makers to see this process is a step towards reforming the food system."
   pis:
   - bernstein-bunzl
-  order: '057'
+  order: '056'
 - pid: g2023warsco
   done: true
   title: Making an Accessible Catalog for the CLACS Quechua Library
@@ -1607,7 +1646,7 @@
     any of the print materials we have at the CLACS library.'
   pis:
   - warsco
-  order: '058'
+  order: '057'
 - pid: g2023alhenius
   done: true
   title: The Archives of Virtual Slavery
@@ -1638,7 +1677,7 @@
     interested in indenture on Mexico’s borderlands.
   pis:
   - ahlenius
-  order: '059'
+  order: '058'
 - pid: g2023janz
   done: true
   title: Excavating the Evolving Self in Autobiographies
@@ -1664,4 +1703,73 @@
     analysis of a large-scale dataset of full-text, English-language autobiographies. '
   pis:
   - janz
+  order: '059'
+- pid: gig
+  done: true
+  title: Liberal Studies Global Image Gallery
+  category: Other
+  tags:
+  - visual-culture
+  abstract: "The Global Image Gallery project began as an affordability and inclusivity
+    effort. Faculty sought to replace a costly and Eurocentric art history textbook
+    used across the LIberal Studies Program’s required three-semester Arts and Cultures
+    sequence with a data set that not only reflected the global focus of the program
+    but also gave students and faculty the ability to fashion their own narratives
+    and meanings with the images and metadata it contained. The resulting site, the
+    Liberal Studies Global Image Gallery, went into use for all first year courses
+    in the fall semester of 2019 and now serves all 2500 LS first and second year
+    students. In addition to having access to the image gallery itself, students and
+    faculty also have access to a copy of the data set itself, allowing them to fashion
+    timelines, exhibits, and other digital forms as products of personal or class
+    research projects. \n\nThe Global Image Gallery consists of a dataset stored in
+    Google Sheets, images (currently stored in Google Drive but slated to move to
+    an IIIF server), and a WordPress site into which content is delivered from the
+    dataset via a customized CSV uploader. The gallery currently includes 1113 unique
+    posts with more added on an ongoing basis."
+  pis:
+  - appert
+  link: https://www.google.com/url?q=https%3A%2F%2Fglobalimages.liberalstudies.hosting.nyu.edu%2F&sa=D&sntz=1&usg=AOvVaw2IJW9qUylLOsF41uPqKrlO
+  image: gig.png
+  hero_image: "/media/projects/gig.png"
   order: '060'
+- pid: migrants-state
+  done: true
+  title: Migrants and the State
+  subtitle: |-
+    Unlocking the Potential of A-files for the Histories
+    of U.S. Immigration
+  category: Other
+  tags:
+  - public-humanities
+  - machine-learning
+  abstract: This upcoming project received a 2023 Digital Humanities Advancement Grant
+    from the National Endowment for the Humanities (NEH). The project will create
+    a digital prototype that will develop open source machine learning techniques
+    for image segmentation and classification to facilitate expanded access to large
+    sets of heterogeneous government files. It will develop a robust metadata schema
+    for a set of historical migrant records held by the U.S. National Archives (NARA)
+    gathered in what are known as A-files (formerly Alien Files). A-files are in essence
+    portfolios that are generated by the state for migrants, immigrants, or refugees
+    who enter the U.S. and in the process come into contact with border control agencies.
+    They contain a wide variety of documentation specific to the individual migrant’s
+    life story and migration history. Historical A-files are in the public domain,
+    but are currently accessible only by request from NARA, on a file-by-file basis.
+    Searchability is limited to a few categories such as country of origin and date
+    of birth. M/S will use a corpus of 550 A-files gathered prior to the grant period
+    through NARA file requests (which we estimate contain 20,000-25,000 pages of documents
+    in total) to model new methods of digital access to large collections of government
+    records. Access will be facilitated and expanded through the segmentation of documents,
+    identification of document types, and the addition of detailed metadata about
+    document types (e.g. government forms, correspondence, employment records, etc.).
+    This level of indexing will make the diverse contents of the files discoverable
+    by social, political, and geographical criteria. It will enable researchers to
+    locate specific topics such as policing and detention, medical care, employment,
+    or types and outcomes of legal proceedings. As transnational records, A-files
+    will shed new light on immigration history in the U.S., the history of migrants’
+    home countries, and the often understudied ways in which the two interconnect.
+  pis:
+  - noonan
+  - fischer
+  - nyrop
+  - provo
+  order: '061'

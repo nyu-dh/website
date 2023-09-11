@@ -22,6 +22,6 @@ abstract: An enormous amount of disability theoretical and activist work takes p
 pis:
 - mills
 - kornstein
-order: '047'
+order: '046'
 layout: project
 ---

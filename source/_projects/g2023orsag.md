@@ -28,6 +28,6 @@ abstract: Cartography and geography fulfilled a crucial role in the process of c
   of the indigenous territories in the Western Amazon.
 pis:
 - octavio-orsag
-order: '053'
+order: '052'
 layout: project
 ---

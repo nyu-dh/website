@@ -1,15 +1,17 @@
 ---
 pid: wax
 done: true
-title: 'Wax: Scholarly Exhibitions with IIIF'
+title: Minicomp/Wax
+subtitle: Scholarly Exhibitions with Jekyll and IIIF
+featured: true
 category: Other
 tags:
 - software
 - exhibition
-abstract: Wax is a minimal computing project for producing digital exhibitions focused
-  on longevity, low costs, and flexibility. The underlying technology is made to learn
-  and to teach, and can produce beautifully rendered, high-quality image collections
-  and scholarly exhibits.
+abstract: |-
+  Wax is an extensible workflow for producing scholarly exhibitions with minimal computing principles. It’s comprised of: a few Ruby gems for processing image data and associated metadata (wax_tasks, wax_iiif), a Jekyll theme (wax_theme), and documentation for creating, deploying, and maintaining digital exhibitions.
+
+  The exhibition sites created by Wax are static. This means they consist of flat HTML, CSS, and JavaScript files that don’t need to communicate in a complex way back to a server. This makes them cheaper, safer, and generally easier to maintain—as long as you’re willing to learn some new skills.
 pis:
 - nyrop
 link: https://minicomp.github.io/wax/
