@@ -780,3 +780,9 @@
   titles: Associate Professor of Spanish and Portuguese
   link: https://as.nyu.edu/faculty/sibylle-m-fischer.html
   order: '087'
+- pid: engel
+  done: true
+  name: Deena Engel
+  titles: Clinical Professor Emerita of Computer Science
+  link: https://cs.nyu.edu/~deena/
+  order: '088'
