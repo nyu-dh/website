@@ -2,6 +2,7 @@
 title: Jo Suk Leads Hypertext Garden Workshop
 category: announcement
 date: 2023-10-31
+published: false
 hero_image: /media/projects/g2021zehngut-willits.png
 tags:
   - event
