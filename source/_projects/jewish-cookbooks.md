@@ -28,6 +28,7 @@ limerick: |-
   latke, challah, matzoh
 pis:
 - beinart-smollan
+link: http://sajewishcookbooks.org.za/
 order: '007'
 layout: project
 ---

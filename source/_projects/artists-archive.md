@@ -16,9 +16,8 @@ abstract: The Artist Archives Initiative promotes research and disseminates know
 pis:
 - martin
 - engel
-link: https://artistarchives.hosting.nyu.edu/Initiative/
+link: https://artistarchives.hosting.nyu.edu/projects/ 
 image: artists-archive.jpg
-original_img: http://artistarchives.hosting.nyu.edu/projects/
 hero_image: "/media/projects/artists-archive.jpg"
 order: '026'
 layout: project

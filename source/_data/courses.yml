@@ -352,3 +352,20 @@
     simple data visualization and data-driven text generation. Weekly technical tutorials
     and short readings culminate in a self-directed final project.'
   order: '026'
+- pid: 1018-sp24
+  done: true
+  number: CEH-GA 1018 004
+  title: DECOLONIZING THE DIGITAL
+  semester: Spring 2024
+  program: GSAS - XE
+  faculty: Toussaint Nothias
+  day: Monday
+  time: 5:30-8pm
+  description: In what ways do today’s digital technologies reproduce colonial power
+    relations? Are these technologies merely replicating old forms of colonialism,
+    or are they spearheading a distinctively new type of colonialism? Most importantly,
+    what does it take to decolonize these technologies? Come and join this graduate
+    seminar to read foundational texts in postcolonial and decolonial theory while
+    engaging with the latest debates and research in critical data studies.
+  url: https://as.nyu.edu/departments/xe/curriculum/courses-spring-2024/decolonizing-the-digital.html
+  order: '028'

@@ -784,7 +784,5 @@
   done: true
   name: Deena Engel
   titles: Clinical Professor Emerita of Computer Science
-  site_roles:
-  - proj_pi
   link: https://cs.nyu.edu/~deena/
   order: '088'

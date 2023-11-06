@@ -240,6 +240,7 @@
     latke, challah, matzoh
   pis:
   - beinart-smollan
+  link: http://sajewishcookbooks.org.za/
   order: '007'
 - pid: occupy
   done: true
@@ -763,9 +764,8 @@
   pis:
   - martin
   - engel
-  link: https://artistarchives.hosting.nyu.edu/Initiative/
+  link: https://artistarchives.hosting.nyu.edu/projects/ 
   image: artists-archive.jpg
-  original_img: http://artistarchives.hosting.nyu.edu/projects/
   hero_image: "/media/projects/artists-archive.jpg"
   order: '026'
 - pid: aponte
