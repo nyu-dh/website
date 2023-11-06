@@ -1,6 +1,6 @@
 ---
 title: Helen Stec on The Brownies' Book Archive
-category: highlight
+category: spotlight
 series: graduate fellow spotlight
 date: 2023-06-15
 hero_image: /media/news/brownies-banner.jpg

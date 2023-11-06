@@ -1,6 +1,6 @@
 ---
 title: 'Allegra Rosenberg on <i>Donors of the Fox</i>'
-category: highlight
+category: spotlight
 series: graduate fellow spotlight
 date: 2022-12-08
 author: Allegra Rosenberg

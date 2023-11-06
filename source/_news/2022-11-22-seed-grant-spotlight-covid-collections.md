@@ -1,6 +1,6 @@
 ---
 title: "Ellen Noonan on <i>Covid Collections</i>"
-category: highlight
+category: spotlight
 series: seed grant spotlight
 date: 2022-11-22
 author: Jo Suk
