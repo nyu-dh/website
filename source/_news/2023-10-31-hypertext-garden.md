@@ -1,6 +1,6 @@
 ---
-title: Teaching Hypertext Gardening with the Software Twine
-category: announcement
+title: Jo Suk on How to Build a Hypertext Garden
+category: spotlight
 date: 2023-10-31
 hero_image: /media/projects/hypertext_doodle.jpg
 author: Jo Suk
