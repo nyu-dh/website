@@ -1,7 +1,7 @@
 ---
 title: Jo Suk on How to Build a Hypertext Garden
 category: spotlight
-date: 2023-10-31
+date: 2023-11-07
 hero_image: /media/projects/hypertext_doodle.jpg
 author: Jo Suk
 tags:
