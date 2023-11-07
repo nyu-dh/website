@@ -11,7 +11,7 @@ abstract: |
   A recap of the 2023 Digital Humanities Showcase and the people and projects featured.
 --- 
 
-On October 5th, NYU [Division of Libraries](https://library.nyu.edu/), [Research and Instructional Technology](https://www.nyu.edu/research/navigating-research-technology.html), and the [Center for Humanities]() hosted the 2023 Digital Humanities Showcase to resounding applause.
+On October 5th, NYU [Division of Libraries](https://library.nyu.edu/), [Research and Instructional Technology](https://www.nyu.edu/research/navigating-research-technology.html), and the [Center for the Humanities](https://nyuhumanities.org/) hosted the 2023 Digital Humanities Showcase to resounding applause.
 
 Presenters spoke on histories of art, archives, and anti-imperialism. They used natural language processing (NLP) to glean patterns in chemistry papers, enthographies, and autobiographies at scale. They mapped food insecurity, built a VR museum, an AR garden, a digital Quechua library, and so much more.
 
