@@ -3,7 +3,7 @@ title: News + Events
 layout: default
 hero_image: '/assets/images/banners/news.png'
 quick_links:
-  - label: "Highlights"
+  - label: "Spotlights"
     link: "/news/highlights"
   - label: "Announcements"
     link: "/news/announcements"
@@ -11,9 +11,9 @@ quick_links:
     link: "/news/events"
 ---
 <div class="block pb-5" markdown="1">
-## Highlights {% include misc/arrow-all-link.html link="/news/highlights" %}
+## Spotlights {% include misc/arrow-all-link.html link="/news/spotlights" %}
 
-{% assign posts=site.news | where: 'category', 'highlight' %}
+{% assign posts=site.news | where: 'category', 'spotlight' %}
 {% include sliders/news.html data=posts id="1" %}
 </div>
 
