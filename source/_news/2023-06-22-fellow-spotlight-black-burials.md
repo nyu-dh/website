@@ -1,6 +1,6 @@
 ---
 title: "Jubilee Marshall on Black Burials in Philadelphia: A Walking Tour"
-category: highlight
+category: spotlight
 series: graduate fellow spotlight
 date: 2023-06-21
 author: Jo Suk

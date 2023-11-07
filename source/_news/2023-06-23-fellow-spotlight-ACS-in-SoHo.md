@@ -1,6 +1,6 @@
 ---
 title: "Ayami Hatanaka: Why Are There No ACS Offices in SoHo?"
-category: highlight
+category: spotlight
 series: graduate fellow spotlight
 hero_image: /media/news/banner-hatanaka.jpg
 date: 2023-06-23

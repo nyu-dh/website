@@ -1,6 +1,6 @@
 ---
 title: "Elaine Ayers on <i>Inverting the Wunderkammer</i>"
-category: highlight
+category: spotlight
 series: seed grant spotlight
 date: 2022-11-01
 author: Jo Suk
