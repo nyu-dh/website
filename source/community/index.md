@@ -13,9 +13,10 @@ quick_links:
     link: '#faculty'
 everyone:
   - title: Attend a DH Potluck
+    url: '/community/potlucks'
     # icon: /assets/images/icons/potluck.png
     description: >
-      DH Potlucks are an informal, in-person gathering for NYU students, faculty, and staff to co-work, troubleshoot, and share knowledge. Guests are welcome to bring projects, tools, questions, snacks, and/or friends.
+      DH Potlucks are informal, in-person gatherings for NYU students, faculty, and staff to co-work, troubleshoot, and share knowledge. Guests are welcome to bring projects, tools, questions, snacks, and/or friends.
       Join our <a target="_blank" href="https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1">mailing list</a> for updates!
   - title: Join our Mailing List
     # icon: /assets/images/icons/mail.png
