@@ -19,7 +19,6 @@ abstract: Digital technologies challenge the categories we use to interpret the 
 pis:
 - weatherby
 - coble
-link: https://digitaltheorylab.org/
 image: digital-theory.jpg
 hero_image: "/media/projects/dtl.jpg"
 order: '002'
