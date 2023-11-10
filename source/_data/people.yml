@@ -5,30 +5,31 @@
   titles: Digital Scholarship Specialist, Division of Libraries
   site_roles:
   - exec_com
+  - home
   link: https://library.nyu.edu/people/jojo-karlin/
   image: karlin.jpg
   order: '000'
-  affiliated: true
 - pid: nyrop
   done: true
   name: Marii Nyrop
   titles: Senior Research Data Engineer for Digital Humanities, NYU IT
   site_roles:
   - exec_com
+  - home
   link: https://marii.info
   image: nyrop.jpg
   order: '001'
-  affiliated: true
 - pid: weatherby
   done: true
   name: Leif Weatherby
   titles: Director of Digital Humanities and Associate Professor of German
   site_roles:
   - exec_com
+  - home
+  - proj_pi
   link: https://as.nyu.edu/faculty/leif-allison-reid-weatherby.html
   image: weatherby.jpg
   order: '002'
-  affiliated: true
 - pid: coble
   done: true
   name: Zach Coble
@@ -63,31 +64,31 @@
   name: Jo Suk
   titles: Digital Scholarship Graduate Student Specialist
   site_roles:
-  - exec_com
+  - home
   link: https://joannesuk.com/
   image: suk.jpg
   order: '006'
-  affiliated: true
 - pid: noonan
   done: true
   name: Ellen Noonan
   titles: Clinical Associate Professor and Director, Archives and Public History Program
   site_roles:
   - affil_fac
+  - home
+  - proj_pi
   link: https://as.nyu.edu/faculty/ellen-noonan.html
   image: noonan.png
   order: '007'
-  affiliated: true
 - pid: appert
   done: true
   name: Lucy Appert
   titles: Director of Educational Technology, FAS
   site_roles:
   - exec_com
+  - home
   link: https://wp.nyu.edu/fas-edtech/about/our-team/
   image: appert.jpg
   order: '008'
-  affiliated: true
 - pid: wolf
   done: true
   name: Nicholas Wolf
@@ -96,63 +97,60 @@
   site_roles:
   - exec_com
   - proj_pi
+  - home
   link: https://library.nyu.edu/people/nicholas-wolf/
   image: wolf.jpg
   order: '009'
-  affiliated: true
 - pid: mccormick
   done: true
   name: Jared McCormick
   titles: Clinical Assistant Professor, Hagop Kevorkian Center for Near Eastern Studies
   site_roles:
-  - exec_com
-  - affil_fac, proj_pi
+  - affil_fac
+  - proj_pi
+  - home
   link: https://as.nyu.edu/faculty/jared-mccormick.html
   image: mccormick.png
   order: '010'
-  affiliated: true
 - pid: rogers
   done: true
   name: Molly Rogers
   titles: Associate Director, NYU Center for the Humanities
   site_roles:
-  - exec_com
+  - home
   link: https://nyuhumanities.org/people/molly-rogers/
   image: rogers.png
   order: '011'
-  affiliated: true
 - pid: maddox
   done: true
   name: Ben Maddox
-  titles: Vice President for Research & Instructional Technology and Chief Academic
-    Technology Officer, NYU IT
+  titles: Former Vice President for Research & Instructional Technology and Chief
+    Academic Technology Officer, NYU IT
   site_roles:
-  - exec_com
+  - alum
   link: https://steinhardt.nyu.edu/people/ben-maddox
   image: maddox.jpg
   order: '012'
-  affiliated: true
 - pid: mistry
   done: true
   name: Himanshu Mistry
   titles: Assistant Director for Data Services, NYU IT
   site_roles:
   - exec_com
+  - home
   link: https://library.nyu.edu/people/himanshu-mistry/
   image: mistry.jpg
   order: '013'
-  affiliated: true
 - pid: provo
   done: true
   name: Alexandra Provo
   titles: Research Curation Librarian
   site_roles:
   - proj_pi
-  - exec_com
+  - home
   link: https://library.nyu.edu/people/alexandra-provo/
   image: provo.jpg
   order: '014'
-  affiliated: true
 - pid: bach
   done: true
   name: Alona Bach
@@ -160,49 +158,48 @@
     Director, Sponsored Research
     Arts and Science Office of Research
   site_roles:
-  - exec_com
+  - home
   image: bach.jpg
   order: '015'
-  affiliated: true
 - pid: brill
   done: true
   name: Bobby Brill
   titles: Director of Strategic Planning and Services, NYU IT
   site_roles:
   - exec_com
+  - home
   image: brill.jpg
   order: '016'
-  affiliated: true
 - pid: heath
   done: true
   name: Sebastian Heath
   titles: Clinical Associate Professor of Computational Humanities and Roman Archaeology
   site_roles:
   - affil_fac
+  - home
   link: https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath
   image: heath.jpg
   order: '017'
-  affiliated: true
 - pid: burns
   done: true
   name: Patrick Burns
   titles: Associate Research Scholar, Digital Projects, ISAW Library
   site_roles:
   - affil_fac
+  - home
   link: https://isaw.nyu.edu/people/staff/patrick-burns
   image: burns.jpg
   order: '018'
-  affiliated: true
 - pid: broussard
   done: true
   name: Meredith Broussard
   titles: Associate Professor of Journalism
   site_roles:
   - affil_fac
+  - home
   link: https://journalism.nyu.edu/about-us/profile/meredith-broussard/
   image: broussard.jpg
   order: '019'
-  affiliated: true
 - pid: gan
   done: true
   name: Elaine Gan
@@ -220,10 +217,10 @@
     Archiving and Preservation
   site_roles:
   - affil_fac
+  - home
   link: https://tisch.nyu.edu/about/directory/cinema-studies/1076827536
   image: hassapopoulou.jpg
   order: '021'
-  affiliated: true
 - pid: hoover
   done: true
   name: David Hoover
@@ -239,31 +236,31 @@
   titles: Clinical Associate Professor of Computer Science
   site_roles:
   - affil_fac
+  - proj_pi
+  - home
   link: https://cims.nyu.edu/~kapp/
   image: kapp.jpg
   order: '023'
-  affiliated: true
 - pid: russell
   done: true
   name: Beth Russell
   titles: Associate Director of Research Services & Strategy and Associate Academic
     Librarian for the Humanities, Division of Libraries
   site_roles:
-  - affil_fac
+  - home
   link: https://library.nyu.edu/people/beth-russell/
   image: russell.jpg
   order: '024'
-  affiliated: true
 - pid: wrisley
   done: true
   name: David Wrisley
   titles: Associate Professor of Digital Humanities, NYU AD
   site_roles:
   - affil_fac
+  - home
   link: https://nyuad.nyu.edu/en/academics/divisions/arts-and-humanities/faculty/david-wrisley.html
   image: wrisley.jpg
   order: '025'
-  affiliated: true
 - pid: flouty
   done: true
   name: Rosanna Flouty
@@ -533,6 +530,7 @@
   titles: Former NYU Associate Professor of Social and Cultural Analysis
   site_roles:
   - proj_pi
+  - alum
   image: ralph.jpg
   order: '058'
 - pid: remes
@@ -778,11 +776,15 @@
   done: true
   name: Sibylle Fischer
   titles: Associate Professor of Spanish and Portuguese
+  site_roles:
+  - proj_pi
   link: https://as.nyu.edu/faculty/sibylle-m-fischer.html
   order: '087'
 - pid: engel
   done: true
   name: Deena Engel
   titles: Clinical Professor Emerita of Computer Science
+  site_roles:
+  - home
   link: https://cs.nyu.edu/~deena/
   order: '088'

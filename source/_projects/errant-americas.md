@@ -26,6 +26,6 @@ abstract: "“Arts of the Errant Americas” proposes a pilot program for a seri
   into the digital."
 pis:
 - sloane-britt
-order: '039'
+order: '041'
 layout: project
 ---

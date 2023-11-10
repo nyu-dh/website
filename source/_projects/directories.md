@@ -2,7 +2,6 @@
 pid: directories
 done: true
 title: New York City Directories Extracted Persons Entries, 1850-1890
-featured: true
 category: Other
 tags:
 - urban-humanities
@@ -20,6 +19,6 @@ link: https://archive.nyu.edu/handle/2451/61521
 image: directories.jpg
 original_img: https://iiif-prod.nypl.org/index.php?id=57275760&t=w
 hero_image: "/media/projects/directories.jpg"
-order: '030'
+order: '032'
 layout: project
 ---

@@ -29,6 +29,6 @@ abstract: The Archives of Virtual Slavery in Nineteenth-Century Mexico Nineteent
   Mexico’s borderlands.
 pis:
 - ahlenius
-order: '058'
+order: '059'
 layout: project
 ---

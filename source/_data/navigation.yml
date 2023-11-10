@@ -3,7 +3,9 @@
 - name: Community
   dropdown:
     - name: Get Involved
-      link: '/get-involved'
+      link: '/community/'
+    - name: DH Potlucks
+      link: '/community/potlucks'
     - name: People
       link: '/people'
 - name: Curriculum

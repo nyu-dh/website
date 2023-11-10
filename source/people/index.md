@@ -15,5 +15,5 @@ quick_links:
       link: 'alumni'
 ---
 
-{% assign people = site.data.people | where: 'affiliated', true | sort: 'order' %}
+{% assign people = site.data.people | where_exp: "i", "i.site_roles contains 'home'" | sort: 'order' %}
 {% include cards/people.html data=people full_width=false %}

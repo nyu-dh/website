@@ -4,7 +4,7 @@ layout: default
 hero_image: '/assets/images/banners/news.png'
 quick_links:
   - label: "Spotlights"
-    link: "/news/highlights"
+    link: "/news/spotlights"
   - label: "Announcements"
     link: "/news/announcements"
   - label: "Events"
