@@ -1,7 +1,7 @@
 ---
 title: DH Potlucks
 layout: default
-hero_image: '/media/news/20231003-Ayami.jpg'
+hero_image: '/media/news/EdTech.jpg'
 subtitle: >
   A series of open community meet ups (with snacks!)
 quick_links:
