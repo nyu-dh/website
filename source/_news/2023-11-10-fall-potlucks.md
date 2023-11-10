@@ -2,7 +2,7 @@
 title: 'Potluck of Projects'
 category: spotlight
 date: 2023-11-10
-hero_image: /media/projects/potluckdoodle.jpg
+hero_image: /media/projects/potluck-no-background.png
 author: Jojo Karlin
 tags:
   - event
