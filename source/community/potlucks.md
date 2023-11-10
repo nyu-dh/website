@@ -13,7 +13,7 @@ quick_links:
 
 DH Potlucks are informal, in-person gatherings for NYU students, faculty, and staff to co-work, troubleshoot, and share knowledge. Guests are welcome to bring their own projects, tools, questions, snacks, and friends. 
 
-![NYU DH Potluck](/media/projects/potluckdoodle.jpg)
+![NYU DH Potluck](/media/projects/potluck-no-background.png)
 
 These potluck events generally happen once per month at Bobst Library and are casual and unstructured. Sometimes we have special potlucks with guest presentations and new locations. Recent and planned potlucks include a field trip to the NYU Institute of the Ancient World (ISAW) library and project presentations from former [NYU DH Graduate Fellows](/funding/grad-fellowships/) and [NYU Seed Grant winners](/funding/seed-grants/). 
 
