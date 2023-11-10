@@ -17,6 +17,6 @@ abstract: 'This project focused on gathering and developing knitting patterns th
   in the field. '
 pis:
 - busser
-order: '019'
+order: '022'
 layout: project
 ---

@@ -2,7 +2,6 @@
 pid: g2021zehngut-willits
 done: true
 title: 'A-Files: Record-Keeping and the Golden Gate'
-featured: true
 category: Grad Fellowship Project
 tags:
 - public-humanities
@@ -20,6 +19,6 @@ pis:
 image: g2021zehngut-willits.png
 original_img: https://www.mercurynews.com/wp-content/uploads/2016/08/20120517__alienfil1.jpg?w=400
 hero_image: "/media/projects/g2021zehngut-willits.png"
-order: '017'
+order: '020'
 layout: project
 ---

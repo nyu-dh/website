@@ -24,6 +24,6 @@ abstract: 'Sociologists have long hypothesized that the nature of the human self
   dataset of full-text, English-language autobiographies. '
 pis:
 - janz
-order: '059'
+order: '060'
 layout: project
 ---

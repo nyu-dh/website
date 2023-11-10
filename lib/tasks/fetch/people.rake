@@ -1,6 +1,5 @@
 require 'rainbow'
 require 'parsers/default'
-require 'parsers/people'
 require 'utils'
 require 'vars'
 
@@ -14,7 +13,6 @@ namespace :fetch do
 
     data  = Utils.csv_open Vars::People.csv_file
     data  = Parsers::Default.parse data, array_keys=%w(site_roles)
-    data  = Parsers::People.parse data
 
     puts "Parsing people into #{Vars::People.yml_file}"
     Utils.write_to_file data.to_yaml, Vars::People.yml_file

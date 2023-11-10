@@ -3,7 +3,11 @@ pid: biblio-politica
 done: true
 title: Biblio-Política
 subtitle: A Digital History of the Chicano Studies Library
+featured: true
 category: DH Seed Grant Recipient
+tags:
+- public-humanities
+- exhibition
 cohort_year: '2023'
 abstract: Biblio-Política is a virtual exhibit that documents and shares the story
   of the Chicano Studies Library at UC Berkeley, one of the first dedicated Chicano
@@ -17,6 +21,8 @@ abstract: Biblio-Política is a virtual exhibit that documents and shares the st
 pis:
 - belantara
 - nyrop
-order: '048'
+image: bibliopolitica.png
+hero_image: "/media/projects/bibliopolitica.png"
+order: '008'
 layout: project
 ---

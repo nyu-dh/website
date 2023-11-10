@@ -38,6 +38,6 @@ pis:
 image: moss.jpg
 image_alt: illustration by Jo Suk
 hero_image: "/media/projects/moss.png"
-order: '009'
+order: '004'
 layout: project
 ---

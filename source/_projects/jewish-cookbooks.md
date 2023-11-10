@@ -29,6 +29,6 @@ limerick: |-
 pis:
 - beinart-smollan
 link: http://sajewishcookbooks.org.za/
-order: '007'
+order: '010'
 layout: project
 ---

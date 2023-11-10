@@ -5,6 +5,7 @@ title: Migrants and the State
 subtitle: |-
   Unlocking the Potential of A-files for the Histories
   of U.S. Immigration
+featured: true
 category: Other
 tags:
 - public-humanities
@@ -39,6 +40,8 @@ pis:
 - fischer
 - nyrop
 - provo
-order: '061'
+image: g2021zehngut-willits.png
+hero_image: "/media/projects/g2021zehngut-willits.png"
+order: '003'
 layout: project
 ---

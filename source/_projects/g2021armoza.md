@@ -29,6 +29,6 @@ abstract: 'The publication of Mark Twain’s autobiography 100 years after his d
   to humanities research beyond this project.'
 pis:
 - armoza
-order: '022'
+order: '025'
 layout: project
 ---

@@ -3,7 +3,6 @@ pid: wax
 done: true
 title: Minicomp/Wax
 subtitle: Scholarly Exhibitions with Jekyll and IIIF
-featured: true
 category: Other
 tags:
 - software
@@ -18,6 +17,6 @@ link: https://minicomp.github.io/wax/
 image: wax.png
 original_img: https://minicomp.github.io/wax/img/logo.png
 hero_image: "/media/projects/wax.png"
-order: '029'
+order: '031'
 layout: project
 ---

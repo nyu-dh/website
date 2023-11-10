@@ -20,7 +20,7 @@ pis:
 - weatherby
 - coble
 image: digital-theory.jpg
-hero_image: "/media/projects/digital-theory.jpg"
+hero_image: "/media/projects/dtl.jpg"
 order: '002'
 layout: project
 ---
