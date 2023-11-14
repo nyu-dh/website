@@ -26,6 +26,6 @@ pis:
 link: https://archcus.org/
 image: archcus.png
 hero_image: "/media/projects/archcus.png"
-order: '013'
+order: '012'
 layout: project
 ---

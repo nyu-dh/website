@@ -21,6 +21,6 @@ pis:
 - coble
 image: digital-theory.jpg
 hero_image: "/media/projects/dtl.jpg"
-order: '002'
+order: '001'
 layout: project
 ---

@@ -23,6 +23,6 @@ pis:
 link: https://prisoneducation.nyu.edu
 image: pep.jpg
 original_img: https://prisoneducation.nyu.edu/wp-content/uploads/2017/07/DSC_0418-1-250x250.jpg
-order: '001'
+order: '014'
 layout: project
 ---

@@ -40,8 +40,10 @@ pis:
 - fischer
 - nyrop
 - provo
+- zehngut-willits
+- freire
 image: g2021zehngut-willits.png
 hero_image: "/media/projects/g2021zehngut-willits.png"
-order: '003'
+order: '002'
 layout: project
 ---

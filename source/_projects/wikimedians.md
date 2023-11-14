@@ -18,6 +18,6 @@ pis:
 link: https://guides.nyu.edu/wikimedia-toolkit
 image: wikimedians.jpg
 hero_image: "/media/projects/wikimedians.jpg"
-order: '011'
+order: '010'
 layout: project
 ---

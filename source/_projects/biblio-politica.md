@@ -23,6 +23,6 @@ pis:
 - nyrop
 image: bibliopolitica.png
 hero_image: "/media/projects/bibliopolitica.png"
-order: '008'
+order: '007'
 layout: project
 ---
