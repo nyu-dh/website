@@ -1,5 +1,5 @@
 ---
-title: "NYU DH Seed Grants & Graduate Fellowships: Applications Open through 3/12"
+title: "NYU DH Seed Grants & Graduate Fellowships: Applications Open through 3/3"
 category: announcement
 date: 2023-12-15
 author: Jojo Karlin
@@ -22,11 +22,12 @@ For application questions, contact dh.help@nyu.edu. You can also browse [past su
 
 We encourage you to attend one or many of DH Seed Grant grant workshops.
 Faculty Info Sessions/Grant Workshops
-[Tuesday Dec 19, 3 pm](https://nyu.libcal.com/event/11622463)
-[Monday Jan 8, 1pm](https://nyu.libcal.com/event/11640729)
-[Tuesday Jan 23, 3 pm](https://nyu.libcal.com/event/11640730)
-[Monday Feb 5, 12 pm](https://nyu.libcal.com/event/11640731)
-[Tuesday Feb 20, 3 pm](https://nyu.libcal.com/event/11640732)
+
+- [Tuesday Dec 19, 3 pm](https://nyu.libcal.com/event/11622463)
+- [Monday Jan 8, 1pm](https://nyu.libcal.com/event/11640729)
+- [Tuesday Jan 23, 3 pm](https://nyu.libcal.com/event/11640730)
+- [Monday Feb 5, 12 pm](https://nyu.libcal.com/event/11640731)
+- [Tuesday Feb 20, 3 pm](https://nyu.libcal.com/event/11640732)
 
 ---
 
@@ -42,8 +43,8 @@ For application questions, contact dh.help@nyu.edu. You can also browse [past su
 
 We encourage you to attend a Graduate Student Fellowship info session.
 Graduate Student Info Sessions
-[Tuesday Dec 19, 2 pm](https://nyu.libcal.com/event/11622497)
-[Monday Jan 8, 12pm](https://nyu.libcal.com/event/11640667)
-[Tuesday Jan 23, 2 pm](https://nyu.libcal.com/event/11640672)
-[Monday Feb 5, 1 pm](https://nyu.libcal.com/event/11640680)
-[Tuesday Feb 20, 2 pm](https://nyu.libcal.com/event/11640682)
+- [Tuesday Dec 19, 2 pm](https://nyu.libcal.com/event/11622497)
+- [Monday Jan 8, 12pm](https://nyu.libcal.com/event/11640667)
+- [Tuesday Jan 23, 2 pm](https://nyu.libcal.com/event/11640672)
+- [Monday Feb 5, 1 pm](https://nyu.libcal.com/event/11640680)
+- [Tuesday Feb 20, 2 pm](https://nyu.libcal.com/event/11640682)
