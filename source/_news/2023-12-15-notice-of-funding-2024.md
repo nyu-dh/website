@@ -21,8 +21,7 @@ For more info (and to apply), visit <a target="_none" href="https://nyuhumanitie
 For application questions, contact dh.help@nyu.edu. You can also browse [past successful projects](/projects/seed-grants/) on our own website to get inspired.
 
 We encourage you to attend one or many of DH Seed Grant grant workshops.
-Faculty Info Sessions/Grant Workshops
-
+### Faculty Info Sessions/Grant Workshops
 - [Tuesday Dec 19, 3 pm](https://nyu.libcal.com/event/11622463)
 - [Monday Jan 8, 1pm](https://nyu.libcal.com/event/11640729)
 - [Tuesday Jan 23, 3 pm](https://nyu.libcal.com/event/11640730)
@@ -42,7 +41,7 @@ For more info (and to apply) visit, <a target="_none" href="https://nyuhumanitie
 For application questions, contact dh.help@nyu.edu. You can also browse [past successful projects](/projects/fellowships/) on our own website to get inspired.
 
 We encourage you to attend a Graduate Student Fellowship info session.
-Graduate Student Info Sessions
+### Graduate Student Info Sessions
 - [Tuesday Dec 19, 2 pm](https://nyu.libcal.com/event/11622497)
 - [Monday Jan 8, 12pm](https://nyu.libcal.com/event/11640667)
 - [Tuesday Jan 23, 2 pm](https://nyu.libcal.com/event/11640672)
