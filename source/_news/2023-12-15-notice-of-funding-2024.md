@@ -23,7 +23,7 @@ For application questions, contact dh.help@nyu.edu. You can also browse [past su
 We encourage you to attend one or many of DH Seed Grant grant workshops.
 ### Faculty Info Sessions/Grant Workshops
 - [Tuesday Dec 19, 3 pm](https://nyu.libcal.com/event/11622463)
-- [Monday Jan 8, 1pm](https://nyu.libcal.com/event/11640729)
+- [Monday Jan 8, 1 pm](https://nyu.libcal.com/event/11640729)
 - [Tuesday Jan 23, 3 pm](https://nyu.libcal.com/event/11640730)
 - [Monday Feb 5, 12 pm](https://nyu.libcal.com/event/11640731)
 - [Tuesday Feb 20, 3 pm](https://nyu.libcal.com/event/11640732)
@@ -34,7 +34,7 @@ We encourage you to attend one or many of DH Seed Grant grant workshops.
 
 _Deadline:_ _March 3, 2024_
 
-NYU Center for the Humanities, NYU Libraries, and NYU Research and Instructional Technology  invite applications for 2024 Digital Humanities Graduate Student Fellowships. Students apply with their own proposed project, which might involve–for example–engaging with digital humanities methods as the basis for a dissertation chapter or article, or building a digital public humanities project or exhibit. Project work will take place during Summer 2023, and participants will report on work completed at a Fall 2023 event.
+NYU Center for the Humanities, NYU Libraries, and NYU Research and Instructional Technology invite applications for 2024 Digital Humanities Graduate Student Fellowships. Students apply with their own proposed project, which might involve–for example–engaging with digital humanities methods as the basis for a dissertation chapter or article, or building a digital public humanities project or exhibit. Project work will take place during Summer 2024, and participants will report on work completed at a Fall 2024 event.
 
 For more info (and to apply) visit, <a target="_none" href="https://nyuhumanities.org/opportunity/digital-humanities-graduate-student-summer-fellowships/">NYU Center for the Humanities</a>.
 
@@ -43,7 +43,7 @@ For application questions, contact dh.help@nyu.edu. You can also browse [past su
 We encourage you to attend a Graduate Student Fellowship info session.
 ### Graduate Student Info Sessions
 - [Tuesday Dec 19, 2 pm](https://nyu.libcal.com/event/11622497)
-- [Monday Jan 8, 12pm](https://nyu.libcal.com/event/11640667)
+- [Monday Jan 8, 12 pm](https://nyu.libcal.com/event/11640667)
 - [Tuesday Jan 23, 2 pm](https://nyu.libcal.com/event/11640672)
 - [Monday Feb 5, 1 pm](https://nyu.libcal.com/event/11640680)
 - [Tuesday Feb 20, 2 pm](https://nyu.libcal.com/event/11640682)
