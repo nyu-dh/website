@@ -4,10 +4,9 @@ layout: default
 hero_image: '/assets/images/banners/seedgrants.png'
 subtitle: |
   The multi-year seed grants program identifies and funds faculty-led projects that creatively bridge humanistic scholarship with new forms of computation, digital publishing, and digitization.
-# hero_buttons:
-  # - label: "2023 Applications Open – Apply Now!"
-  #   link: "https://nyuhumanities.org/opportunity/digital-humanities-seed-grants/"
-  #   external: true
+hero_buttons:
+  - label: "Attend an Info Session"
+    link: "/news/2023-12-15-notice-of-funding-2024/#faculty-sessions"
 quick_links:
   - label: "Seed Grant News"
     link: "#seed-grant-news"
