@@ -3,7 +3,6 @@ pid: brown
 done: true
 title: Brown Brothers Collection Transcription Project
 subtitle: Transforming historical bank records into data sets for research and teaching.
-featured: true
 category: DH Seed Grant Recipient
 tags:
 - dataset

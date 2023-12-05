@@ -19,6 +19,6 @@ pis:
 link: https://artistarchives.hosting.nyu.edu/projects/ 
 image: artists-archive.jpg
 hero_image: "/media/projects/artists-archive.jpg"
-order: '026'
+order: '028'
 layout: project
 ---

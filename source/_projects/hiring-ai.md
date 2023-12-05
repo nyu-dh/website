@@ -3,7 +3,6 @@ pid: hiring-ai
 done: true
 title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanistic
   Research
-featured: true
 category: DH Seed Grant Recipient
 tags:
 - machine-learning

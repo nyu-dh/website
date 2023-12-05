@@ -2,6 +2,7 @@
 pid: wikimedians
 done: true
 title: Wikimedians @ NYU
+featured: true
 category: Other
 tags:
 - public-humanities
@@ -17,6 +18,6 @@ pis:
 link: https://guides.nyu.edu/wikimedia-toolkit
 image: wikimedians.jpg
 hero_image: "/media/projects/wikimedians.jpg"
-order: '003'
+order: '010'
 layout: project
 ---

@@ -1,13 +1,14 @@
 ---
 - slug: dataset
 - slug: machine-learning
-- slug: exhibition
 - slug: digital-theory
 - slug: public-humanities
-- slug: data-visualization
 - slug: digitization
 - slug: computational-culture
 - slug: environmental-humanities
+- slug: data-visualization
+- slug: exhibition
+- slug: pedagogy
 - slug: archive
 - slug: medical-humanities
 - slug: spatial-humanities
@@ -16,7 +17,6 @@
 - slug: visual-culture
 - slug: making
 - slug: linked-open-data
-- slug: pedagogy
 - slug: urban-humanities
 - slug: digital-edition
 - slug: software

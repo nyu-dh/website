@@ -2,6 +2,7 @@
 pid: aponte
 done: true
 title: Digital Aponte
+featured: true
 category: Other
 tags:
 - exhibition
@@ -20,6 +21,6 @@ link: https://aponte.hosting.nyu.edu/
 image: aponte.jpg
 original_img: https://aponte.hosting.nyu.edu/wp-content/uploads/2016/07/003.jpg
 hero_image: "/media/projects/aponte.jpg"
-order: '027'
+order: '029'
 layout: project
 ---

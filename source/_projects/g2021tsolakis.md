@@ -2,7 +2,6 @@
 pid: g2021tsolakis
 done: true
 title: Ancestors and Family Traditions in the Hellenistic and Imperial Polis
-featured: true
 category: Grad Fellowship Project
 tags:
 - linked-open-data
@@ -18,6 +17,6 @@ abstract: 'This project asks how, when, and why people in the ancient world were
   benefactions, or priesthoods?'
 pis:
 - tsolakis
-order: '020'
+order: '023'
 layout: project
 ---

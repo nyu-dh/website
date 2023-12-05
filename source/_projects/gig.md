@@ -25,6 +25,6 @@ pis:
 link: https://www.google.com/url?q=https%3A%2F%2Fglobalimages.liberalstudies.hosting.nyu.edu%2F&sa=D&sntz=1&usg=AOvVaw2IJW9qUylLOsF41uPqKrlO
 image: gig.png
 hero_image: "/media/projects/gig.png"
-order: '060'
+order: '061'
 layout: project
 ---
