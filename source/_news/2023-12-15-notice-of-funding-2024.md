@@ -26,7 +26,7 @@ For application questions, contact dh.help@nyu.edu. You can also browse [past su
 We highly encourage you to attend one of our DH Seed Grant grant workshops (dates and registration links below).
 
 <h3 id="faculty-sessions"><a href="#faculty-sessions" class="has-text-grey">#</a>Faculty Info Sessions/Grant Workshops</h3>
-- [Tuesday, 12/19/2023, 3PM EST](https://nyu.libcal.com/event/11622463)
+- [Tuesday, 12/19/2023, 3PM EST](https://nyu.libcal.com/event/11640728)
 - [Monday, 01/08/2024 1PM EST](https://nyu.libcal.com/event/11640729)
 - [Tuesday, 01/23/2024, 3PM EST](https://nyu.libcal.com/event/11640730)
 - [Monday, 02/05/2024, 12PM EST](https://nyu.libcal.com/event/11640731)
