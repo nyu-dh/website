@@ -7,6 +7,10 @@ subtitle: |
 hero_buttons:
   - label: "Attend an Info Session"
     link: "/news/2023-12-15-notice-of-funding-2024/#faculty-sessions"
+  - label: "Read the CFP"
+    link: "https://nyuhumanities.org/opportunity/digital-humanities-seed-grants/"
+  - label: "Apply Now"
+    link: "https://nyu.infoready4.com/#competitionDetail/1924456"
 quick_links:
   - label: "Seed Grant News"
     link: "#seed-grant-news"
