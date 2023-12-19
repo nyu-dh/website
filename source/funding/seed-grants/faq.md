@@ -12,7 +12,7 @@ faq:
       Proposals must include at least one full-time NYU faculty member working in the humanities. This would include visiting professors and clinical faculty. Beyond that, there are no restrictions on school, department, or rank, but proposals from faculty in interdisciplinary departments may wish to identify how their research identifies with the humanities.
   - q: "Can a graduate student apply?"
     a: |
-      For larger projects that involve faculty, students can apply as principle investigators, but in general we encourage students to apply for the [Graduate Student Fellowships](/funding/grad-fellowships).
+      Because the Seed Grants require departmental administrative continuity, students are not eligible to apply. They may be hired to work on Seed Grants. Students are encourated to apply for the [NYU DH Graduate Student Fellowships](/funding/grad-fellowships).
   - q: "Are the Digital Humanities Seed Grants open to applications from NYU global network locations?"
     a: |
       Yes, the program is open to faculty at NYU Abu Dhabi, NYU Shanghai, and all global network campuses.
