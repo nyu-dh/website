@@ -33,9 +33,8 @@ limerick: |
 pis:
 - kehoe
 link: https://zinecat.org/
-image: zinecat.png
+image: https://nyu-dh.github.io/website-media/files/projects/zinecat.png
 original_img: https://i.ibb.co/x61zxDL/Welcome-to-the-Zine-Union-Catalog-1.png
-hero_image: "/media/projects/zinecat.png"
 order: '013'
 layout: project
 ---

@@ -2,7 +2,7 @@
 title: 'Potluck of Projects'
 category: spotlight
 date: 2023-11-10
-hero_image: /media/news/20231101-Gavin.jpg
+hero_image: https://nyu-dh.github.io/website-media/files/news/20231101-Gavin.jpg
 author: Jojo Karlin
 tags:
   - event
@@ -14,8 +14,8 @@ Once a month, the NYU Digital Humanities community gathers together at Bobst Lib
 
 This fall, we have had two students give informal presentations on upcoming works for feedback from other potluck guests. On October 10, [Ayami Hatanaka](https://digitalhumanities.nyu.edu/news/2023-06-23-fellow-spotlight-ACS-in-SoHo/), who gave a preview of her presentation “Being Made Visible: Surveillance and Mapping Family Policing Institutions in New York City” ahead of the ASA Conference. 
 
-<img style="max-height:500px" src="/media/news/20231003-Ayami.jpg" alt="Ayami presents at the October Potluck"/>
-<img style="max-height:500px" src="/media/news/20231101-Gavin.jpg" alt="Gavin presents at the November Potluck"/>
+<img style="max-height:500px" src="https://nyu-dh.github.io/website-media/files/news/20231003-Ayami.jpg" alt="Ayami presents at the October Potluck"/>
+<img style="max-height:500px" src="https://nyu-dh.github.io/website-media/files/news/20231101-Gavin.jpg" alt="Gavin presents at the November Potluck"/>
 
 
 <br>

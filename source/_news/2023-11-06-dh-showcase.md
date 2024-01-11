@@ -3,7 +3,7 @@ title: "2023 Digital Humanities Showcase: Accolades and Applause"
 category: announcement
 date: 2023-11-06
 author: Jojo Karlin
-hero_image: /media/news/20231005-DHShowcase.jpg
+hero_image: https://nyu-dh.github.io/website-media/files/news/20231005-DHShowcase.jpg
 tags:
   - seed_grants
   - grad_fellows
@@ -15,7 +15,7 @@ On October 5th, NYU [Division of Libraries](https://library.nyu.edu/), [Research
 
 Presenters spoke on histories of art, archives, and anti-imperialism. They used natural language processing (NLP) to glean patterns in chemistry papers, enthographies, and autobiographies at scale. They mapped food insecurity, built a VR museum, an AR garden, a digital Quechua library, and so much more.
 
-![Illustration of the 2023 Digital Humanities Showcase by Jojo Karlin](/media/news/20231005-DHShowcase.jpg)
+![Illustration of the 2023 Digital Humanities Showcase by Jojo Karlin](https://nyu-dh.github.io/website-media/files/news/20231005-DHShowcase.jpg)
 
 We heard from our wonderful 2022 – 2023 NYU DH Seed Grant winners:
 - Rosanna Flouty and Craig Kapp on [*Historic Fractures: Toward a Digital Future in Museum Accessibility*](/projects/historic-fractures/)

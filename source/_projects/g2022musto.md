@@ -31,9 +31,8 @@ abstract: 'The digitization of Latin-script languages has fundamentally changed 
 pis:
 - musto
 link: https://www.nusus.net/
-image: g2022musto.jpg
+image: https://nyu-dh.github.io/website-media/files/projects/g2022musto.jpg
 original_img: https://www.nusus.net/static/img/header.jpeg
-hero_image: "/media/projects/g2022musto.jpg"
 order: '039'
 layout: project
 ---

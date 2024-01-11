@@ -4,7 +4,7 @@ category: spotlight
 series: seed grant spotlight
 date: 2022-11-01
 author: Jo Suk
-hero_image: /media/projects/moss.jpg
+hero_image: https://nyu-dh.github.io/website-media/files/projects/moss.jpg
 tags:
   - seed_grants
 abstract: |
@@ -14,7 +14,7 @@ abstract: |
 <article class="message is-success mb-4" style="max-width:800px">
   <div class="message-body has-text-warning" markdown="1">
 
-  <img src="/media/people/ayers.jpg" class="is-pulled-right circle-128" alt="portrait of Dr. Elaine Ayers"/>
+  <img src="https://nyu-dh.github.io/website-media/files/people/ayers.jpg" class="is-pulled-right circle-128" alt="portrait of Dr. Elaine Ayers"/>
 
 The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
 

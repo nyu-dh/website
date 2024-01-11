@@ -4,7 +4,7 @@ category: spotlight
 series: seed grant spotlight
 date: 2022-11-22
 author: Jo Suk
-hero_image: /media/news/covid_collections.png
+hero_image: https://nyu-dh.github.io/website-media/files/news/covid_collections.png
 tags:
   - seed_grants
 abstract: |
@@ -13,7 +13,7 @@ abstract: |
 
 <article class="message is-success mb-4" style="max-width:800px">
   <div class="message-body has-text-warning" markdown="1">
-  <img src="/media/people/noonan.png" class="is-pulled-right circle-128"  alt="portrait of Dr. Ellen Noonan"/>
+  <img src="https://nyu-dh.github.io/website-media/files/people/noonan.png" class="is-pulled-right circle-128"  alt="portrait of Dr. Ellen Noonan"/>
 
 The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
 

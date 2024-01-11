@@ -1,5 +1,7 @@
 {% if page.hero_image %} 
   {% assign img = page.hero_image %}
+{% elsif page.image %}
+  {% assign img = page.image %}
 {% elsif page.collection == "projects" %}
   {% assign img = "/assets/images/defaults/projects.png" %}
 {% else %}

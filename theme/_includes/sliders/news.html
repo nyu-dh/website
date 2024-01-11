@@ -16,11 +16,7 @@
                   {%- endif -%}
                   {% assign eyebrow = item.series | default: item.category %}
                   <a class="has-text-warning" href="/news/{{ eyebrow | slugify }}s/">{{ eyebrow }}</a>
-                  {% if item.hero_image %}
-                  {% assign image = item.hero_image %}
-                  {% else %}
-                  {% assign image = '/assets/images/defaults/news.png' %}
-                  {% endif %}
+                  {% assign image = item.hero_image | default: '/assets/images/defaults/news.png' %}
                 </p>
                 {% unless include.hide_images %}
                 <a href="{{ item.url }}">

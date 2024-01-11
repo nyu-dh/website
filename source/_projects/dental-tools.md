@@ -21,9 +21,8 @@ limerick: |2-
 pis:
 - spielman
 link: https://dental.nyu.edu/aboutus/rare-book-collection/virtual-museum.html
-image: dental-tools.png
+image: https://nyu-dh.github.io/website-media/files/projects/dental-tools.png
 original_img: https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum/jcr:content/1/par-left/nyuimage.img.1280.high.png/1668129726277.png
-hero_image: "/media/projects/dental-tools.png"
 order: '016'
 layout: project
 ---

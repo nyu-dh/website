@@ -369,3 +369,20 @@
     engaging with the latest debates and research in critical data studies.
   url: https://as.nyu.edu/departments/xe/curriculum/courses-spring-2024/decolonizing-the-digital.html
   order: '028'
+- pid: 1122-sp24
+  done: true
+  number: DHSS-GA.1122
+  title: Introduction to Web Development
+  semester: Spring 2024
+  program: DHSS
+  faculty: Jojo Karlin
+  day: Tuesday
+  time: 5:00-8pm
+  description: This course provides a project-based approach to web programming and
+    development. Students will study the principles of web design and each student
+    will build two distinct websites based on topics relevant to their interests.
+    To complement these practical skills, we will look at how the web has expanded
+    our notions of discourse and explore how websites can be used for scholarly communication.
+    A deeper understanding of these topics will help you make better decisions not
+    only in your own web development practice but also in sharing your work more effectively.
+  order: '029'

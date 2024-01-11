@@ -16,9 +16,8 @@ abstract: This project compiles extracted, machine-readable entries from a serie
 pis:
 - wolf
 link: https://archive.nyu.edu/handle/2451/61521
-image: directories.jpg
+image: https://nyu-dh.github.io/website-media/files/projects/directories.jpg
 original_img: https://iiif-prod.nypl.org/index.php?id=57275760&t=w
-hero_image: "/media/projects/directories.jpg"
 order: '032'
 layout: project
 ---
