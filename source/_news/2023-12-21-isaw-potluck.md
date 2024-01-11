@@ -22,4 +22,4 @@ After the tour, we attended the final project presentations of students Manolis 
 
 Thank you to Patrick and our colleagues at ISAW for hosting our DH Potluck satellite visit! 
 
-You can learn about upcoming [DH Potluck](/community/potlucks/) events by joining our [mailing list](/get-involved) and learn about more DH courses like Introduction to Digital Humanities for the Ancient World Seminar on our [courses](/curriculum/courses/) page.
+You can learn about upcoming [DH Potluck](/community/potlucks/) events by joining our [mailing list](/community/) and learn about more DH courses like Introduction to Digital Humanities for the Ancient World Seminar on our [courses](/curriculum/courses/) page.
