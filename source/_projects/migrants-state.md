@@ -9,6 +9,7 @@ featured: true
 category: Other
 tags:
 - public-humanities
+- AI
 - machine-learning
 abstract: This upcoming project received a 2023 Digital Humanities Advancement Grant
   from the National Endowment for the Humanities (NEH). The project will create a

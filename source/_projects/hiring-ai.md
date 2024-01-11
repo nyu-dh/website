@@ -5,6 +5,7 @@ title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanist
   Research
 category: DH Seed Grant Recipient
 tags:
+- AI
 - machine-learning
 - public-humanities
 cohort_year: '2020'

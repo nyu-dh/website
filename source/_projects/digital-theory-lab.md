@@ -6,6 +6,7 @@ featured: true
 category: Other
 tags:
 - digital-theory
+- AI
 - machine-learning
 abstract: Digital technologies challenge the categories we use to interpret the world
   and understand ourselves. The Lab proceeds from the premise that understanding contemporary

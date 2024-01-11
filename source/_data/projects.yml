@@ -5,8 +5,9 @@
   subtitle: Transforming historical bank records into data sets for research and teaching.
   category: DH Seed Grant Recipient
   tags:
-  - dataset
+  - AI
   - machine-learning
+  - public-humanities
   cohort_year: '2020'
   abstract: The Brown Brothers Collection is a collaborative, cross-institutional
     research project that will develop robust teaching, research, and public humanities
@@ -41,6 +42,7 @@
   category: Other
   tags:
   - digital-theory
+  - AI
   - machine-learning
   abstract: Digital technologies challenge the categories we use to interpret the
     world and understand ourselves. The Lab proceeds from the premise that understanding
@@ -67,6 +69,7 @@
   category: Other
   tags:
   - public-humanities
+  - AI
   - machine-learning
   abstract: This upcoming project received a 2023 Digital Humanities Advancement Grant
     from the National Endowment for the Humanities (NEH). The project will create
@@ -148,6 +151,7 @@
     Research
   category: DH Seed Grant Recipient
   tags:
+  - AI
   - machine-learning
   - public-humanities
   cohort_year: '2020'

@@ -5,8 +5,9 @@ title: Brown Brothers Collection Transcription Project
 subtitle: Transforming historical bank records into data sets for research and teaching.
 category: DH Seed Grant Recipient
 tags:
-- dataset
+- AI
 - machine-learning
+- public-humanities
 cohort_year: '2020'
 abstract: The Brown Brothers Collection is a collaborative, cross-institutional research
   project that will develop robust teaching, research, and public humanities resources
