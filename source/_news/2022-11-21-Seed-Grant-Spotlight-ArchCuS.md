@@ -42,7 +42,7 @@ Below, Digital Scholarship Graduate Student Specialist Jo Suk interviews Dr. Cab
 
 <hr style="max-width:800px">
 
-Read more about the [Archive of Cuban Socialism](http://archcus.org).
+Read more about the [Archive of Cuban Socialism](https://archcus.org).
 
 The DH Seed Grants are administered and funded by NYU Libraries, the Center for the Humanities, and NYU Research and Instructional Technology. The goal of the program is to sponsor the initial development of projects that may go on to receive greater funding from external sources or otherwise build NYU’s institutional capacity in Digital Humanities work. We especially welcome projects that give voice or expression to underrepresented communities and that engage with the urban fabric of the cities in which NYU has campuses.
 

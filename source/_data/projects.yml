@@ -335,7 +335,7 @@
     latke, challah, matzoh
   pis:
   - beinart-smollan
-  link: http://sajewishcookbooks.org.za/
+  link: https://sajewishcookbooks.org.za/
   order: '009'
 - pid: wikimedians
   done: true
@@ -711,6 +711,8 @@
     by means of endowments, benefactions, or priesthoods?'
   pis:
   - tsolakis
+  image: https://nyu-dh.github.io/website-media/files/projects/Ehrendekrete.jpg
+  original_img: Ehrendekrete.jpg
   order: '023'
 - pid: g2021joslyn
   done: true
@@ -779,7 +781,6 @@
     grant, the digitized and searchable PDF documents openly accessible to the public.
   pis:
   - soffer
-  link: http://cityrecord.engineering.nyu.edu/
   order: '026'
 - pid: nyscapes
   done: true
@@ -1750,6 +1751,6 @@
     posts with more added on an ongoing basis."
   pis:
   - appert
-  link: https://www.google.com/url?q=https%3A%2F%2Fglobalimages.liberalstudies.hosting.nyu.edu%2F&sa=D&sntz=1&usg=AOvVaw2IJW9qUylLOsF41uPqKrlO
+  link: https://globalimages.liberalstudies.hosting.nyu.edu/
   image: https://nyu-dh.github.io/website-media/files/projects/gig.png
   order: '061'
