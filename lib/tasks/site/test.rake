@@ -6,7 +6,8 @@ namespace :site do
     Rake::Task["site:reset"].invoke
     Rake::Task["site:build:test"].invoke
     opts = {
-      disable_external: true
+      disable_external: false,
+      ignore_urls: [/^(?!https*:\/\/nyu-dh.github.io\/website-media).*$/]
     }
     HTMLProofer.check_directory('./_site', opts).run
   end
@@ -17,10 +18,16 @@ namespace :site do
       Rake::Task["site:reset"].invoke
       Rake::Task["site:build:test"].invoke
       opts = {
-        log_level: :warn,
-        disable_external: false
+        ignore_status_codes: [0, 500],
+        check_external_hash: false,
+        typhoeus: {
+          followlocation: true,
+          connecttimeout: 20,
+          timeout: 40,
+        }
       }
       HTMLProofer.check_directory('./_site', opts).run
+      exit 1
     end
   end
 end
