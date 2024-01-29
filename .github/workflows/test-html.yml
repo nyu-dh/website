@@ -14,9 +14,9 @@ jobs:
         uses: ruby/setup-ruby@v1
         # with:
         #   bundler-cache: true
-      # test html + internal links
+      - name: install gems 
+        run: bundle install
       - name: test html
         run: bundle exec rake site:test
-      # test external links
       - name: test linkrot
         run:  bundle exec rake site:test:linkrot
