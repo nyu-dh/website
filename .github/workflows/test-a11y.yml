@@ -11,7 +11,6 @@ jobs:
   test-a11y:
     runs-on: ubuntu-latest
     steps:
-      # setup
       - uses: actions/checkout@v3
       - run: echo "NODE_VERSION=$(cat '.nvmrc')" >> ${GITHUB_ENV}
       - name: setup node
@@ -22,10 +21,10 @@ jobs:
         uses: ruby/setup-ruby@v1
         # with:
         #   bundler-cache: true
-      # build site
+      - name: install gems 
+        run: bundle install
       - name: build site
         run: bundle exec jekyll build
-      # test a11y
       - name: test a11y
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

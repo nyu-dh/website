@@ -14,19 +14,17 @@ jobs:
   prod-deploy:
     runs-on: ubuntu-latest
     steps:
-      # setup
       - uses: actions/checkout@v3
       - name: setup ruby
         uses: ruby/setup-ruby@v1
         # with:
         #   bundler-cache: true
-      # test html
+      - name: install gems 
+        run: bundle install
       - name: test html
         run: bundle exec rake site:test
-      # build site
       - name: build site
         run: bundle exec jekyll build
-      # deploy via ftp
       - name: ftp deploy to host
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
