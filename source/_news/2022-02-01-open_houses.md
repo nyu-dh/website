@@ -13,9 +13,6 @@ abstract: |
   Bring your questions to our Open House events about the 2022 NYU Digital Humanities Graduate Fellowships.
 tags:
   - grad_fellows
-image:
-  url: 'media/news/what_could_you_do.jpeg'
-  alt: "'What could you do with a Digital Humanities Graduate Student Summer Fellowship?' floats above a sand castle laptop, graph, book and map beside a rainbow sun umbrella and beach ball."
 ---
 Join us for an an Open House about the Digital Humanities Graduate Fellowships.
 
@@ -28,4 +25,4 @@ We welcome any questions about your project proposals and/or the summer program.
 
 The deadline for summer fellowships is March 6, 2022. You can also direct any questions to dh.help@nyu.edu.
 
-![{{ page.image.alt }}]({{ page.image.url | absolute_url }})
+!['What could you do with a Digital Humanities Graduate Student Summer Fellowship?' floats above a sand castle laptop, graph, book and map beside a rainbow sun umbrella and beach ball.](https://nyu-dh.github.io/website-media/files/news/what_could_you_do.jpeg)

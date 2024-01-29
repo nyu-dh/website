@@ -5,6 +5,7 @@ title: Holding Hiring Algorithms Accountable and Creating New Tools for Humanist
   Research
 category: DH Seed Grant Recipient
 tags:
+- AI
 - machine-learning
 - public-humanities
 cohort_year: '2020'
@@ -29,8 +30,7 @@ pis:
 - schellmann
 - sloane
 link: https://www.gumshoex.org/
-image: hiring-ai.jpg
-hero_image: "/media/projects/hiring-ai.jpg"
+image: https://nyu-dh.github.io/website-media/files/projects/hiring-ai.jpg
 order: '004'
 layout: project
 ---

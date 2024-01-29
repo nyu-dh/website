@@ -9,6 +9,7 @@ featured: true
 category: Other
 tags:
 - public-humanities
+- AI
 - machine-learning
 abstract: This upcoming project received a 2023 Digital Humanities Advancement Grant
   from the National Endowment for the Humanities (NEH). The project will create a
@@ -42,8 +43,7 @@ pis:
 - provo
 - zehngut-willits
 - freire
-image: g2021zehngut-willits.png
-hero_image: "/media/projects/g2021zehngut-willits.png"
+image: https://nyu-dh.github.io/website-media/files/projects/g2021zehngut-willits.png
 order: '002'
 layout: project
 ---

@@ -22,9 +22,8 @@ abstract: "The Global Image Gallery project began as an affordability and inclus
   The gallery currently includes 1113 unique posts with more added on an ongoing basis."
 pis:
 - appert
-link: https://www.google.com/url?q=https%3A%2F%2Fglobalimages.liberalstudies.hosting.nyu.edu%2F&sa=D&sntz=1&usg=AOvVaw2IJW9qUylLOsF41uPqKrlO
-image: gig.png
-hero_image: "/media/projects/gig.png"
+link: https://globalimages.liberalstudies.hosting.nyu.edu/
+image: https://nyu-dh.github.io/website-media/files/projects/gig.png
 order: '061'
 layout: project
 ---

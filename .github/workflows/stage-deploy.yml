@@ -14,18 +14,17 @@ jobs:
   stage-deploy:
     runs-on: ubuntu-latest
     steps:
-      # setup
       - uses: actions/checkout@v3
       - name: setup ruby
         uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
-      # build site
+        # with:
+        #   bundler-cache: true
+      - name: install gems 
+        run: bundle install
       - name: build site
         run: bundle exec jekyll build --config _config.yml,_staging.yml
       - name: block indexing
         run: 'mkdir -p _site && echo -e "User-agent: *\nDisallow: /\n" > _site/robots.txt'
-      # deploy via ftp
       - name: ftp deploy to host
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:

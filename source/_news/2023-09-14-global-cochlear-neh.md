@@ -2,7 +2,7 @@
 title: '"The Global Cochlear Implant" Wins 2023 NEH Grant'
 category: announcement
 date: 2023-09-14
-hero_image: /media/news/cochlear.png
+hero_image: https://nyu-dh.github.io/website-media/files/news/cochlear.png
 tags:
  - seed_grants
  - external_funding
@@ -17,7 +17,7 @@ In their project "The Global Cochlear Implant: Provincializing ‘Brain Implants
 <br>
 
 {% include content/image-caption.html
-  img="/media/news/cochlear.png"
+  img="https://nyu-dh.github.io/website-media/files/news/cochlear.png"
   caption="Image from collaborating artist <a href='https://darrinmartin.myportfolio.com/noise-print-sculptures'>Darrin Martin</a>"
   alt="Image shows mutiple exhibit photos relating to cochlear implants with a lecturer"
 %}
@@ -31,7 +31,7 @@ Congrats, all!
 <br>
 <br>
 
-![NEH logo](/media/news/neh.png)
+![NEH logo](https://nyu-dh.github.io/website-media/files/news/neh.png)
 
 
 

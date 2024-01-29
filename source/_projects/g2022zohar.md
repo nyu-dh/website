@@ -29,9 +29,8 @@ abstract: 'Looking at a number of publications from research institutes and publ
   Communism, Arab leftism, and Third Worldist thought.'
 pis:
 - zohar
-image: g2022zohar.jpg
+image: https://nyu-dh.github.io/website-media/files/projects/g2022zohar.jpg
 original_img: https://drive.google.com/open?id=1pSYt5Rw1FCpnVOQTXtQcqcyhvZGZuQoS
-hero_image: "/media/projects/g2022zohar.jpg"
 order: '046'
 layout: project
 ---

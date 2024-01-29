@@ -27,9 +27,8 @@ abstract: 'My proposed project aims to visualize the mobility of the prominent S
   the urban fabric and thus, the religious and urban history of the Ottoman Empire.'
 pis:
 - deniz
-image: g2022deniz.png
+image: https://nyu-dh.github.io/website-media/files/projects/g2022deniz.png
 original_img: https://drive.google.com/open?id=1juRqvI0mL2_xENMYVjeWClCKYr8OyeQZ
-hero_image: "/media/projects/g2022deniz.png"
 order: '047'
 layout: project
 ---

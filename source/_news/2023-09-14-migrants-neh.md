@@ -2,7 +2,7 @@
 title: '"Migrants and the State" Wins 2023 NEH Grant'
 category: announcement
 date: 2023-09-14
-hero_image: /media/projects/g2021zehngut-willits.png
+hero_image: https://nyu-dh.github.io/website-media/files/projects/g2021zehngut-willits.png
 tags:
 - seed_grants
 - external_funding

@@ -19,7 +19,7 @@ abstract: The South African Jewish Cookbook Project will digitize a corpus of 50
   scholars working on topics relating to South Africa, food, Judaism, race, gender,
   and the postwar period. It will actively engage the public, encouraging users to
   contribute cookbooks and share written and video memories relating to the cookbooks
-  and to South African Jewish food culture.
+  and to South African Jewish food culture. To contribute email sajewishcookbooks@gmail.com.
 limerick: |-
   in twentieth century south africa
   many jews decamped in diaspora
@@ -28,7 +28,7 @@ limerick: |-
   latke, challah, matzoh
 pis:
 - beinart-smollan
-link: http://sajewishcookbooks.org.za/
+link: https://sajewishcookbooks.org.za/
 order: '009'
 layout: project
 ---

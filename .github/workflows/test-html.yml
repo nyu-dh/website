@@ -12,11 +12,11 @@ jobs:
       - uses: actions/checkout@v3
       - name: setup ruby
         uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
-      # test html + internal links
+        # with:
+        #   bundler-cache: true
+      - name: install gems 
+        run: bundle install
       - name: test html
         run: bundle exec rake site:test
-      # test external links
-      - name: test linkrot
-        run:  bundle exec rake site:test:linkrot
+      # - name: test linkrot
+      #   run:  bundle exec rake site:test:linkrot

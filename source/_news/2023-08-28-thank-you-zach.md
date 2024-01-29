@@ -17,4 +17,4 @@ Zach also oversaw the creation of the [DH Graduate Fellows program](/funding/gra
 
 Zach has championed DH at NYU and beyond. We extend gratitude to Zach for his unwavering dedication, thoughtful and inclusive vision, and commitment to fostering interdisciplinary collaborations. We wish him all the best in his next adventures!
 
-<img src="{{ '/media/news/dss_team.jpg' | absolute_url }}" alt="Illustration by Jojo Karlin of NYU Digital Scholarship Services team: Zach Coble, Marii Nyrop, and Jojo Karlin." style="max-height:400px;width:auto;margin:1rem 0 1rem 0"/>
+<img src="{{ 'https://nyu-dh.github.io/website-media/files/news/dss_team.jpg' | absolute_url }}" alt="Illustration by Jojo Karlin of NYU Digital Scholarship Services team: Zach Coble, Marii Nyrop, and Jojo Karlin." style="max-height:400px;width:auto;margin:1rem 0 1rem 0"/>

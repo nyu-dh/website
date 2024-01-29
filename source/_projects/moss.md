@@ -35,9 +35,8 @@ pis:
 - ansari
 - ayers
 - brain
-image: moss.jpg
+image: https://nyu-dh.github.io/website-media/files/projects/moss.jpg
 image_alt: illustration by Jo Suk
-hero_image: "/media/projects/moss.png"
 order: '003'
 layout: project
 ---

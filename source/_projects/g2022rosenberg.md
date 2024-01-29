@@ -15,9 +15,8 @@ abstract: |-
 pis:
 - rosenberg
 link: https://allegrarosenberg.notion.site/9d3c4db5a6f743668405ef7166729358?v=25c9bbaa820c4542b8e1a6278f5ec7c7
-image: g2022rosenberg.jpg
+image: https://nyu-dh.github.io/website-media/files/projects/g2022rosenberg.jpg
 original_img: https://drive.google.com/open?id=1LTE_WVB4tJRsS077H75CzscQvEL69S3k
-hero_image: "/media/projects/g2022rosenberg.jpg"
 order: '038'
 layout: project
 ---

@@ -44,7 +44,7 @@ tools:
     description: >
       StoryMaps is a story authoring web-based application that allows you to share your maps in the context of narrative text and other multimedia content.
   - title: Manifold
-    url: http://nyu.manifoldapp.org
+    url: https://nyu.manifoldapp.org
     description: >
       NYU Libraries' collaborative, open-source, open-access scholarly publishing platform for projects, edited collections, or student projects. From Google or word docs and EPUBs to polished publications with built in social annotation. Supported by Digital Scholarship Services.
   - title: Research Workspace

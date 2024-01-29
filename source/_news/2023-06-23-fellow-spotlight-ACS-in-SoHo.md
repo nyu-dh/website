@@ -2,7 +2,7 @@
 title: "Ayami Hatanaka: Why Are There No ACS Offices in SoHo?"
 category: spotlight
 series: graduate fellow spotlight
-hero_image: /media/news/banner-hatanaka.jpg
+hero_image: https://nyu-dh.github.io/website-media/files/news/banner-hatanaka.jpg
 date: 2023-06-23
 author: Jojo Karlin
 tags:
@@ -13,7 +13,7 @@ abstract: |
 
 <article class="message is-success mb-4" style="max-width:800px">
   <div class="message-body has-text-warning">
-      <img src="/media/people/hatanaka.jpg" class="is-pulled-right circle-128" alt="portrait of Ayami Hatanaka"/>
+      <img src="https://nyu-dh.github.io/website-media/files/people/hatanaka.jpg" class="is-pulled-right circle-128" alt="portrait of Ayami Hatanaka"/>
       <p>The <a href="/news/graduate-fellow-spotlights/">DH Graduate Fellow Spotlights</a> highlight work supported by the <a href="/funding/grad-fellowships/">NYU DH Graduate Fellowship Program</a>.</p>
       <p class="mb-3">Below, 2022 Fellow Ayami Hatanaka briefly about <i><a href="/projects/g2022hatanaka/">Why Are There No ACS Offices in SoHo?</a></i>.</p>
 

@@ -4,7 +4,7 @@ category: spotlight
 series: seed grant spotlight
 date: 2022-11-21
 author: Jo Suk
-hero_image: /media/projects/archcus.png
+hero_image: https://nyu-dh.github.io/website-media/files/projects/archcus.png
 tags:
   - seed_grants
 abstract: |
@@ -13,7 +13,7 @@ abstract: |
 
 <article class="message is-success mb-4" style="max-width:800px">
   <div class="message-body has-text-warning" markdown="1">
-  <img src="/media/people/cabrera-arus.jpg" class="is-pulled-right circle-128" alt="portrait of Dr. Maria Cabrera Arús"/>
+  <img src="https://nyu-dh.github.io/website-media/files/people/cabrera-arus.jpg" class="is-pulled-right circle-128" alt="portrait of Dr. Maria Cabrera Arús"/>
 
 The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Over the next several posts we will feature the work of the 2021-2022 cohort of faculty grant recipients.
 
@@ -42,7 +42,7 @@ Below, Digital Scholarship Graduate Student Specialist Jo Suk interviews Dr. Cab
 
 <hr style="max-width:800px">
 
-Read more about the [Archive of Cuban Socialism](http://archcus.org).
+Read more about the [Archive of Cuban Socialism](https://archcus.org).
 
 The DH Seed Grants are administered and funded by NYU Libraries, the Center for the Humanities, and NYU Research and Instructional Technology. The goal of the program is to sponsor the initial development of projects that may go on to receive greater funding from external sources or otherwise build NYU’s institutional capacity in Digital Humanities work. We especially welcome projects that give voice or expression to underrepresented communities and that engage with the urban fabric of the cities in which NYU has campuses.
 

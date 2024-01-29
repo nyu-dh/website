@@ -3,7 +3,7 @@ title: "Applications Open and Info Sessions Available for 2024 DH Seed Grants & 
 category: announcement
 date: 2023-12-15
 author: Jojo Karlin
-hero_image: /media/news/SeedGrantHands.jpg
+hero_image: https://nyu-dh.github.io/website-media/files/news/SeedGrantHands.jpg
 tags:
   - seed_grants
   - grad_fellows

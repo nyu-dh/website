@@ -25,9 +25,8 @@ abstract: Following the framework of distant reading, this project aims to provi
 pis:
 - stuhler
 link: https://journals.sagepub.com/doi/abs/10.1177/00491241221099551?journalCode=smra
-image: g2022stuhler.png
+image: https://nyu-dh.github.io/website-media/files/projects/g2022stuhler.png
 original_img: https://i0.wp.com/oscarstuhler.org/wp-content/uploads/2022/04/Plot_website-2.png?w=1800&ssl=1
-hero_image: "/media/projects/g2022stuhler.png"
 order: '036'
 layout: project
 ---

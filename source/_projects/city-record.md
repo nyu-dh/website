@@ -15,7 +15,6 @@ abstract: The City Record Project hosts the New York City Record from its first 
   and searchable PDF documents openly accessible to the public.
 pis:
 - soffer
-link: http://cityrecord.engineering.nyu.edu/
 order: '026'
 layout: project
 ---
