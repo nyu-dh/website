@@ -20,8 +20,8 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
       - name: setup ruby
         uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
+        # with:
+        #   bundler-cache: true
       # build site
       - name: build site
         run: bundle exec jekyll build
