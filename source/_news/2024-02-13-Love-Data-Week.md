@@ -1,8 +1,9 @@
 ---
-title: "Digital Humanities Loves Data Week"
+title: "Digital Humanities Love Data Week"
 date: 2024-02-13
 eventDate: 2024-02-13
 category: event
+category: announcement
 location: Bobst, room 743
 startTime: 11:00am EST
 endTime: 1:00pm EST
@@ -10,6 +11,7 @@ link: https://nyu.libcal.com/event/11885657
 author: Jojo Karlin
 tags:
   - workshop
+  - Love Data Week
 abstract: This Potluck inaugurates the DH DS Snack Off! In the spirit of culinary fun, we invite Data and DH students to bring their game. We encourage participants to come with Love Data-themed snacks and projects.  
 ---  
 
