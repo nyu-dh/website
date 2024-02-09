@@ -3,14 +3,14 @@ title: "Digital Humanities Loves Data Week"
 date: 2024-02-13
 eventDate: 2024-02-13
 category: event
-location: Zoom
+location: Bobst, room 743
 startTime: 11:00am EST
 endTime: 1:00pm EST
 link: https://nyu.libcal.com/event/11885657
 author: Jojo Karlin
 tags:
   - workshop
-abstract: This Potluck inaugurates the DH DS Snack Off! In the spirit of culinary fun, we invite Data and DH students to bring their game. We will convene in room 743 in Bobst and encourage participants to come with LoveData-themed snacks and projects.  
+abstract: This Potluck inaugurates the DH DS Snack Off! In the spirit of culinary fun, we invite Data and DH students to bring their game. We encourage participants to come with Love Data-themed snacks and projects.  
 ---  
 
 In the first DH Potluck of the Spring 2024 semester, NYU DH joins up with Data Services for the first ever Digital Humanities Data Services Snackoff! Held on February 13, 11am-1pm, in Bobst 743, the event is part of NYU's celebration of the [International Love Data Week](https://www.icpsr.umich.edu/web/about/cms/3799).
