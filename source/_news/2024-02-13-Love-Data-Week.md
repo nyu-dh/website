@@ -2,8 +2,7 @@
 title: "Digital Humanities Love Data Week"
 date: 2024-02-13
 eventDate: 2024-02-13
-category: event
-category: announcement
+category: event 
 location: Bobst, room 743
 startTime: 11:00am EST
 endTime: 1:00pm EST
