@@ -26,7 +26,7 @@ jobs:
       - name: block indexing
         run: 'mkdir -p _site && echo -e "User-agent: *\nDisallow: /\n" > _site/robots.txt'
       - name: ftp deploy to host
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{secrets.FTP_STAGE_SERVER}}
           username: ${{secrets.FTP_STAGE_USER}}
