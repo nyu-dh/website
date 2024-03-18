@@ -1,5 +1,5 @@
 ---
-title: "Applications Open and Info Sessions Available for 2024 DH Seed Grants & Graduate Fellowships"
+title: "Applications Open Until March 3rd for 2024 DH Seed Grants & Graduate Fellowships"
 category: announcement
 date: 2023-12-15
 author: Jojo Karlin
@@ -8,7 +8,7 @@ tags:
   - seed_grants
   - grad_fellows
 abstract: |
-  The call for 2024 NYU Digital Humanities Seed Grants and Graduate Fellowships will be open until 3/3.
+  The call for 2024 NYU Digital Humanities Seed Grants and Graduate Fellowships is online and Info Sessions are available.
 ---
 
 <h2 id="seed-grants"><a href="#seed-grants" class="has-text-grey">#</a>Digital Humanities Seed Grants (Faculty)</h2>
