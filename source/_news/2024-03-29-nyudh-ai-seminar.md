@@ -13,7 +13,7 @@ tags:
 abstract: NYU DH and Digital Theory Lab host a seminar on AI research and current issues
 ---
 
-![Illustration of speakers David Bering-Porter, Leif Weatherby, Claire Song, and Ryan Healey surrounded by keywords from their talks, by Jojo Karlin](https://nyu-dh.github.io/website-media/files/news/20240313-AIandDH-DigitalTheoryLab.jpg)
+<img src="https://nyu-dh.github.io/website-media/files/news/20240313-AIandDH-DigitalTheoryLab.jpg" class="is-pulled-right circle-128" alt="illustration of speakers David Bering-Porter, Leif Weatherby, Claire Song, and Ryan Healey surrounded by keywords from their talks, by Jojo Karlin"/>
 
 This month, NYU Digital Humanities hosted [NYU Digital Theory Lab](https://digitalhumanities.nyu.edu/projects/digital-theory-lab/) for an online seminar about AI on March 13, 2024. The event featured work by faculty and student members of the NYU Digital Theory Lab, who shared their research and perspectives on the current state of the field.
 
