@@ -142,6 +142,7 @@
   - ansari
   - ayers
   - brain
+  link: https://www.thinkingwithmoss.net/
   image: https://nyu-dh.github.io/website-media/files/projects/moss.jpg
   image_alt: illustration by Jo Suk
   order: '003'
@@ -969,6 +970,7 @@
     legacies of conservation science over Malagasy knowledge. 
   pis:
   - caomhanach
+  link: https://niche-canada.org/2023/05/19/digitizing-death-the-botanical-collections-of-madagascar-and-the-race-to-document-life/
   image: https://nyu-dh.github.io/website-media/files/projects/g2022caomhanach.jpg
   original_img: https://upload.wikimedia.org/wikipedia/commons/e/e5/Avenue_of_Baobabs%2C_Madagascar_%2822558139260%29.jpg
   order: '034'
@@ -1200,11 +1202,10 @@
     the city" in line with its constant, dynamic, ongoing change. I do not intend
     to "finish" in the conventional sense, but keep it "open" as I take new trips,
     and as new lines and stations are added, and as collaborators join (including,
-    eventually, via a public app). I would use this grant to take it from its current
-    proof-of-concept stage and to launch it publicly, both online and in talks, readings
-    and lectures. The grant would allow me to develop and expand the site (adding
-    documentation, photography, video and sound recordings, a Chinese translation
-    "toggle," and a critical essay). '
+    eventually, via a public app). I used this grant to take it from its current proof-of-concept
+    stage and to launch it publicly, both online and in talks, readings and lectures.
+    The grant helped me to develop and expand the site (adding documentation, photography,
+    video and sound recordings, a Chinese translation "toggle," and a critical essay). '
   pis:
   - perry
   order: '042'
@@ -1669,6 +1670,7 @@
     any of the print materials we have at the CLACS library.'
   pis:
   - warsco
+  link: https://runaqlib.hosting.nyu.edu/
   order: '058'
 - pid: g2023alhenius
   done: true

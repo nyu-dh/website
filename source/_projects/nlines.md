@@ -17,9 +17,9 @@ abstract: 'n Lines and Changing is an ongoing digital poetry project that arises
   by chance procedures. The goal is to "write the city" in line with its constant,
   dynamic, ongoing change. I do not intend to "finish" in the conventional sense,
   but keep it "open" as I take new trips, and as new lines and stations are added,
-  and as collaborators join (including, eventually, via a public app). I would use
-  this grant to take it from its current proof-of-concept stage and to launch it publicly,
-  both online and in talks, readings and lectures. The grant would allow me to develop
+  and as collaborators join (including, eventually, via a public app). I used this
+  grant to take it from its current proof-of-concept stage and to launch it publicly,
+  both online and in talks, readings and lectures. The grant helped me to develop
   and expand the site (adding documentation, photography, video and sound recordings,
   a Chinese translation "toggle," and a critical essay). '
 pis:
