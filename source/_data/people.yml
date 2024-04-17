@@ -790,3 +790,115 @@
   link: https://engineering.nyu.edu/faculty/juliana-freire
   image: https://nyu-dh.github.io/website-media/files/people/friere.jpg
   order: '089'
+- pid: bliziotis
+  done: true
+  name: Alexandra Bliziotis
+  titles: Graduate Student in Media, Culture and Communication
+  site_roles:
+  - fellow
+  image: https://nyu-dh.github.io/website-media/files/people/bliziotis.jpg
+  order: '091'
+- pid: joyner
+  done: true
+  name: Devin Joyner
+  titles: Graduate Student in Dance Education, Music & Performing Arts Professions
+  site_roles:
+  - fellow
+  image: https://nyu-dh.github.io/website-media/files/people/joyner.jpg
+  order: '092'
+- pid: georgieva
+  done: true
+  name: Elena Georgieva
+  titles: Doctoral Student in Music Technology, Music & Performing Arts Professions
+  site_roles:
+  - fellow
+  image: https://nyu-dh.github.io/website-media/files/people/georgieva.png
+  order: '093'
+- pid: landry
+  done: true
+  name: Katelyn Landry
+  titles: Doctoral Student in History
+  site_roles:
+  - fellow
+  image: https://nyu-dh.github.io/website-media/files/people/landry.jpg
+  order: '094'
+- pid: almenara
+  done: true
+  name: Maria Paz Almenara
+  titles: Doctoral Student in Media, Culture and Communication
+  site_roles:
+  - fellow
+  image: https://nyu-dh.github.io/website-media/files/people/paz.jpg
+  order: '095'
+- pid: veras
+  done: true
+  name: Mariana Veras
+  titles: Doctoral Student in Sociology
+  site_roles:
+  - fellow
+  image: https://nyu-dh.github.io/website-media/files/people/veras.png
+  order: '096'
+- pid: whitley
+  done: true
+  name: Marlas Yvonne Whitley
+  titles: Doctoral Student in English
+  site_roles:
+  - fellow
+  image: https://nyu-dh.github.io/website-media/files/people/whitley.jpg
+  order: '097'
+- pid: hassein
+  done: true
+  name: Nabli Hassein
+  titles: Doctoral Student in Media, Culture and Communication
+  site_roles:
+  - fellow
+  image: https://nyu-dh.github.io/website-media/files/people/hassein.jpg
+  order: '098'
+- pid: qu
+  done: true
+  name: Yilia Qu
+  titles: Graduate Student in Media, Culture and Communication
+  site_roles:
+  - fellow
+  image: https://nyu-dh.github.io/website-media/files/people/qu.jpg
+  order: '099'
+- pid: kulpa
+  done: true
+  name: Ula Kulpa
+  titles: Graduate Student in Archives and Public History
+  site_roles:
+  - fellow
+  image: https://nyu-dh.github.io/website-media/files/people/kulpa.jpg
+  order: '100'
+- pid: bradley
+  done: true
+  name: Isabel Bradley
+  titles: Assistant Professor of French Literature, Thought, and Culture
+  site_roles:
+  - proj_pi
+  image: https://nyu-dh.github.io/website-media/files/people/bradley.jpg
+  order: '101'
+- pid: swarns
+  done: true
+  name: Rachel Swarns
+  titles: Assistant Professor in Journalism
+  site_roles:
+  - proj_pi
+  image: https://nyu-dh.github.io/website-media/files/people/swarns.jpg
+  order: '102'
+- pid: martin-meredith
+  done: true
+  name: Meredith Martin
+  titles: Assistant Professor of Art History
+  site_roles:
+  - proj_pi
+  image: https://nyu-dh.github.io/website-media/files/people/martin.jpg
+  order: '103'
+- pid: pickens
+  done: true
+  name: Roxane Pickens
+  titles: External Engagement, Teaching, Learning, & Engagement, Division of Libraries
+  site_roles:
+  - proj_pi
+  image: https://nyu-dh.github.io/website-media/files/people/pickens.jpg
+  order: '104'
