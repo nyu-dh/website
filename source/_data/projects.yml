@@ -337,6 +337,7 @@
   pis:
   - beinart-smollan
   link: https://sajewishcookbooks.org.za/
+  image: https://nyu-dh.github.io/website-media/files/projects/cookbooks.jpg
   order: '009'
 - pid: wikimedians
   done: true
@@ -1385,7 +1386,7 @@
   - mills
   - kornstein
   link: https://disabilitycovidchronicles.nyu.edu/fieldnotes/
-  image: https://nyu-dh.github.io/website-media/files/projects/disability.webp
+  image: https://nyu-dh.github.io/website-media/files/projects/disability.jpg
   order: '048'
 - pid: mutun
   done: true
@@ -1536,6 +1537,7 @@
     in the Western Amazon.
   pis:
   - octavio-orsag
+  image: https://nyu-dh.github.io/website-media/files/projects/g2023orsag.jpg
   order: '053'
 - pid: g2023dang
   done: true
