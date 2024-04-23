@@ -20,7 +20,7 @@ We are excited to announce this year's cohort of funded fellows. Congratulations
 - **Alexandra Bliziotis**, Graduate Student in Media, Culture and Communications, Steinhardt <br> _The Language of Trans-Misogyny in News Media_
 - **Devin Joyner**, Graduate Student in Dance Education (Steinhardt) <br> _Dance Griot_
 - **Elena Georgieva**, Doctoral Student in Music Technology (Steinhardt) <br> _Evaluating Voices: A Computational Analysis of Skill and Expression in Singing and Narration_
-- **Katelyn Landry**, Graduate Student in Archives and Public History (GSAS) <br> _Mestizaje on the Map_
+- **Katelyn Landry**, Graduate Student in Archives and Public History (GSAS) <br> _Finding Mestizaje in Archival Metadata_
 - **Maria Paz Almenara**, Doctoral Student in Media, Culture and Communications (Steinhardt) <br> _Visualizing Post-Extractive Time_
 - **Mariana Veras**, Doctoral Student in Sociology (GSAS) <br> _Ohio Jails Repository_
 - **Marlas Yvonne Whitley**, Doctoral Student in English (GSAS) <br> _The Purple Perspective_
