@@ -1,5 +1,5 @@
 ---
-title: Congratulations to the 2023 NYU DH Graduate Fellows!
+title: Congratulations to the 2024 NYU DH Graduate Fellows!
 date: 2024-04-25
 author: Jojo Karlin
 category: announcement
