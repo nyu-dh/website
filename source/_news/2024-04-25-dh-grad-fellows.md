@@ -17,7 +17,7 @@ We are excited to announce this year's cohort of funded fellows. Congratulations
 
 ## NYU DH Graduate Fellows 2024 Cohort
 
-- **Alexandra Bliziotis**, Graduate Student in Media, Culture and Communications, Steinhardt <br> _The Language of Trans-Misogyny in News Media_
+- **Alexandra Bliziotis**, Graduate Student in Media, Culture and Communications (Steinhardt) <br> _The Language of Trans-Misogyny in News Media_
 - **Devin Joyner**, Graduate Student in Dance Education (Steinhardt) <br> _Dance Griot_
 - **Elena Georgieva**, Doctoral Student in Music Technology (Steinhardt) <br> _Evaluating Voices: A Computational Analysis of Skill and Expression in Singing and Narration_
 - **Katelyn Landry**, Graduate Student in Archives and Public History (GSAS) <br> _Finding Mestizaje in Archival Metadata_
