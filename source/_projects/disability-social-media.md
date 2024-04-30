@@ -22,6 +22,8 @@ abstract: An enormous amount of disability theoretical and activist work takes p
 pis:
 - mills
 - kornstein
+link: https://disabilitycovidchronicles.nyu.edu/fieldnotes/
+image: https://nyu-dh.github.io/website-media/files/projects/disability.jpg
 order: '048'
 layout: project
 ---

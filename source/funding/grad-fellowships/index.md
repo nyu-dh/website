@@ -40,6 +40,23 @@ Graduate students in the humanities from all NYU schools, including NYU Global S
 
 <h2 class="is-size-3" id="past-fellows">Current and Past Fellows</h2>
 
+{% assign fellow2024 = site.projects | where: 'cohort_year', '2024' | where_exp: "i", "i.category contains 'Fellowship'" %}
+{%- if fellow2024.size > 0 -%}
+  <h3 class="is-size-4">2024</h3>
+  <ul>
+    {%- for p in fellow2024 -%}
+      {%- assign piid = p.pis.first -%}
+      {%- assign pi = site.data.people | find: 'pid', piid %}
+      <li>
+        {%- if pi.size -%}<b>{{ pi.name }}</b>, {{ pi.titles }}&nbsp;—&nbsp;{%- endif -%}
+        <a class="is-italic" href="{{ p.url | absolute_url }}">
+          {{ p.title }}{%- if p.subtitle.size > 0 -%}:&nbsp;{{ p.subtitle }}{%- endif -%}
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+
 {% assign fellow2023 = site.projects | where: 'cohort_year', '2023' | where_exp: "i", "i.category contains 'Fellowship'" %}
 {%- if fellow2023.size > 0 -%}
   <h3 class="is-size-4">2023</h3>

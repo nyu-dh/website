@@ -337,6 +337,7 @@
   pis:
   - beinart-smollan
   link: https://sajewishcookbooks.org.za/
+  image: https://nyu-dh.github.io/website-media/files/projects/cookbooks.jpg
   order: '009'
 - pid: wikimedians
   done: true
@@ -1384,6 +1385,8 @@
   pis:
   - mills
   - kornstein
+  link: https://disabilitycovidchronicles.nyu.edu/fieldnotes/
+  image: https://nyu-dh.github.io/website-media/files/projects/disability.jpg
   order: '048'
 - pid: mutun
   done: true
@@ -1438,6 +1441,7 @@
   pis:
   - duncombe
   - desai
+  image: https://artactcolab.org/wp-content/uploads/2024/02/AARC-map-long-01.png
   order: '050'
 - pid: g2023hoque
   done: true
@@ -1533,6 +1537,7 @@
     in the Western Amazon.
   pis:
   - octavio-orsag
+  image: https://nyu-dh.github.io/website-media/files/projects/g2023orsag.jpg
   order: '053'
 - pid: g2023dang
   done: true
@@ -1756,3 +1761,418 @@
   link: https://globalimages.liberalstudies.hosting.nyu.edu/
   image: https://nyu-dh.github.io/website-media/files/projects/gig.png
   order: '061'
+- pid: g2024bliziotis
+  done: true
+  title: The Language of Trans-Misogyny in News Media
+  category: Grad Fellowship Project
+  tags:
+  - text-analysis
+  cohort_year: '2024'
+  abstract: 'Since 2020, the language surrounding transgender women in American media
+    outlets has become increasingly vitriolic through the misrecognition and projection
+    of a threatening trans-femininity. While violence against trans women is unfortunately
+    nothing new, trans-misogyny has only relatively recently become a viral phenomenon
+    in mainstream news outlets. I propose a textual coding schema in which to analyze
+    the news and create a map of the rhetoric it draws on to address this new media
+    landscape of trans-misogyny. Utilizing Python and Intelligent Archive, I will
+    analyze aggregated news articles using discursive analysis and sentiment analysis.
+    This project will address language and linguistic forms only, pulling sample articles
+    discussing trans women from the ten most-visited news sites in the United States
+    from January 2023 onward. My analysis identifies common features in popular American
+    news stories regarding trans women: stereotypes, passive language, misleading
+    language, inaccurate statistics, false balance or faux-neutrality, and false dichotomies.
+    Following this period of qualitative coding, I will build a conclusive rubric
+    on how to recognize trans-misogynistic language and rhetoric, hosting an interactive
+    map of the compiled data online.'
+  pis:
+  - bliziotis
+  order: '062'
+- pid: g2024joyner
+  done: true
+  title: Dance Griot
+  category: Grad Fellowship Project
+  tags:
+  - public-humanities
+  cohort_year: '2024'
+  abstract: This project will be a digital dance archive that not only holds the visual
+    work on a website but also includes the choreographers’ intent of the work and
+    the current audience’s interpretation of the work. There will be a sheet sent
+    out to each choreographer, where they will detail the themes and symbols they
+    deem important in the dance they created on the sheet. From these themes and symbols
+    questions will be formed and logged into a polling software called PollEverywhere.
+    Guests will be invited to a showing with the understanding that they will have
+    the opportunity to share their in the moment/live interpretations of the dances
+    during the show. They will also be informed about the archiving of the data and
+    have the option to remain anonymous. To be clear, the audience will not be sharing
+    opinions about the work or conducting critics, the only data that will be shared
+    is those who answer the questions given. The guest will be given a QR code to
+    scan to access the poll through the show in between each dance piece the audience
+    will have a set amount of time to complete the questions for each dance piece.
+    The dance pieces will be filmed and footage will be uploaded alongside the data
+    and details of each dance piece on the website. The audience will only have a
+    title and the visual experience as reference to the dance piece they will see
+    therefore no bias is likely to take place.
+  pis:
+  - joyner
+  order: '063'
+- pid: g2024georgieva
+  done: true
+  title: Evaluating Voices
+  subtitle: A Computational Analysis of Skill and Expression in Singing and Narration
+  category: Grad Fellowship Project
+  tags:
+  - sound-studies
+  cohort_year: '2024'
+  abstract: 'The goal of this project is to study amateur singing and voice narration,
+    aiming to investigate how more skilled singers and voice narrators perform differently
+    from their less skilled counterparts, and to explore the expressive distinctions
+    between narrated and sung vocal performances. In order to answer these questions,
+    this summer I will collect subjective data from online listeners, who will evaluate
+    recordings of singers and audiobook narrators. I will then use linear mixed models
+    in RStudio to quantify how perceived performer skill correlates with seven other
+    vocal performance features: likeability, enthusiasm, authenticity/realness, emotional
+    expression, vocal strength/intensity, intelligibility, and tone color. The singing
+    voice recordings will be sourced from the DAMP (Digital Archive of Mobile Performances)
+    karaoke dataset, and the narration recordings will be drawn from the LibriSpeech
+    audiobook narration dataset. An equal number of recordings will be dedicated to
+    singing and narration. This work will be a chapter of my doctoral dissertation
+    on digital analyses of singing voice and speech, exploring the intersection of
+    music, speech, and sound recording. This project will advance the field of musicology
+    by demonstrating the potential for computational methods in the field, and bring
+    music and audio analysis into digital humanities scholarship.'
+  pis:
+  - georgieva
+  order: '064'
+- pid: g2024landry
+  done: true
+  title: Finding Mestizaje in Archival Metadata
+  category: Grad Fellowship Project
+  tags:
+  - spatial-humanities
+  cohort_year: '2024'
+  abstract: Finding Mestizaje in Archival Metadata is an interdisciplinary digital
+    humanities project that seeks to analyze and visualize descriptive metadata created
+    by archivists to describe historical records regarding mestizos, mulattos, and
+    other people racialized as “mixed” in colonial Texas. By using qualitative data
+    analysis software to code concepts and descriptions of cultural and racial “mixing”
+    that appear in online finding aids and digital object descriptions, I hope to
+    understand how mestizaje is represented in archival descriptive metadata. This
+    project builds on ongoing movements within the archives field to 1) envision archival
+    description as structured data rather than prose and 2) investigate and remediate
+    harmful language historically used by archivists to describe Black, Indigenous,
+    and people of color. While digital humanities tools have mostly been used as platforms
+    for presenting digital exhibitions and archival collections, I believe there is
+    significant potential to use data analysis and visualization to produce new insights
+    into how archivists are categorizing and describing BIPOC archival actors, particularly
+    those who have historically disrupted Eurocentric racial hierarchies. By approaching
+    archival description with Gloria Anzaldúa’s concept of mestiza consciousness –
+    “a holistic, nonbinary way of thinking…that includes a transformational tolerance
+    for contradiction” – Finding Mestizaje in Archival Metadata intends to spark critical
+    reflections among archivists about how we can responsibly and ethically create
+    metadata for records involving mixed-race archival actors.
+  pis:
+  - landry
+  order: '065'
+- pid: g2024almenara
+  done: true
+  title: Visualizing Post-Extractive Time
+  category: Grad Fellowship Project
+  tags:
+  - spatial-humanities
+  - public-humanities
+  cohort_year: '2024'
+  abstract: Yanacocha, named in Quechua after the “black” lake that formerly occupied
+    the site, was once the largest gold mine in South America. Today, the mine’s 251-square
+    kilometer open-pit reserves is almost entirely depleted. Yanacocha’s three decades
+    of extraction have led to drastic changes in the surrounding landscapes with trends
+    of rapid urbanization and environmental degradation. As the project enters its
+    last phase of operations, “closure plans” are activated to address the enduring
+    environmental and social legacy of the mine. This digital humanities project develops
+    an interactive virtual timeline that 1. Visualizes the changes to the landscape
+    produce by large-scale mineral extraction projects and 2. Tracks the promises
+    and post-closure commitments to corporate social responsibility made by Newmont,
+    the American corporation in charge of the project, alongside dissenting claims
+    by local and indigenous activists. Drawing on materials included in environmental
+    impact reports (EIAs) and closure plans submitted for public review, I restructure
+    these documents to challenge their associations with imperial capitalist interests.
+    The elements of these reports (their photographs, maps, and modeled plans) become
+    evidence of irreparably-changed landscapes and of the limits of these formats
+    to meaningfully address the “alterlives” of extractivism. My curation of the virtual
+    space also acknowledges and includes the claims of activist groups, as featured
+    in local journalistic accounts and international human rights reports. The timeline
+    then allows for a political encounter that challenges the limited scales of corporate
+    accountability and explores the contested potential of post-extractive time.
+  pis:
+  - almenara
+  order: '066'
+- pid: g2024veras
+  done: true
+  title: Ohio Jails Repository
+  category: Grad Fellowship Project
+  tags:
+  - public-humanities
+  cohort_year: '2024'
+  abstract: Understanding the relationship between legal, fiscal, and political pressures
+    and jail conditions is especially pressing given the magnitude of exposure to
+    jail in the US, the conditions within these spaces, the politically unique position
+    of US jail administrators, and the racism endemic to the criminal justice system.
+    Currently, there exists no centralized resource presenting information on jail
+    conditions over time, or on shifts in legal, fiscal, and political processes pertinent
+    to jail operations. The Ohio Jails Repository will serve as a digital resource
+    for users to navigate through various timelines of events and actors in the history
+    of the Cleveland and Columbus area jails since the 1980s through the 2020 pandemic,
+    and to learn about how and why jail conditions change over time more broadly.
+    This proposed data visualization resource can facilitate insight into how the
+    complex network of actors, finances, and governmental institutions have shaped
+    outcomes for generations of individuals moving through county jails. The primary
+    goals of this project are to preserve a unique collection of information, make
+    this material accessible to the public, and provide a model for other studies
+    of local jails. The Ohio Jails Repository will also be a digital resource that
+    will facilitate civic engagement, and provide analytic resources for those looking
+    to advocate for individuals involved in the carceral system.
+  pis:
+  - veras
+  order: '067'
+- pid: g2024whitley
+  done: true
+  title: The Purple Perspective
+  category: Grad Fellowship Project
+  tags:
+  - visual-culture
+  cohort_year: '2024'
+  abstract: The Purple Perspective is a summer project that aims to build a digital
+    feminist archive of Black women and gender expansive people’s print and material
+    artifacts that utilize or feature the color purple, and illustrate the significance
+    of purple to these cultures through qualitative-data visualization. This work
+    is born out of my Master’s research on purple and Black women’s rhetorics, where
+    I argue novelist and scholar Alice Walker’s definition of ‘womanist’–”Womanist
+    is to feminist as purple is to lavender” (Walker, xvi)--has not only offset the
+    radical concept and practice of Womanism, but arguably has set in motion a ‘Womanist
+    aesthetic’(D. Bhagyathara) in the prominence of purple across Black women’s media
+    broadly defined. From the dust jackets of books on Black women’s studies and marketing
+    for Black dolls, to website interfaces, scholarly databases and digital fliers
+    for symposia on Black femmes’ lives, the physical and digital artifacts have become
+    staggering and far reaching within the contemporary moment. There has yet to be
+    a dedicated archive to such artifacts; this, in addition to the phenomenon rarely
+    being talked about, if at all. The Purple Perspective aspires to reformulate the
+    digital feminist archive to also function as a visualization tool to best illustrate
+    the depth and scope of the significance of purple in Black women and gender expansive
+    people’s lives.
+  pis:
+  - whitley
+  order: '068'
+- pid: g2024hassein
+  done: true
+  title: A Digital Archive of Arabic-based Programming Languages
+  category: Grad Fellowship Project
+  tags:
+  - technology-studies
+  cohort_year: '2024'
+  abstract: 'My dissertation project, “Arabic-based programming languages and communities”,
+    consists of several distinct methodological and thematic components: the history
+    of the titular genre of software artifact; digital ethnographic work in two open
+    source programming communities which have dedicated themselves to multilingual
+    inclusion via translation of documentation; in person ethnographic work in both
+    a bilingual Arabic-English NYC public school and an Egyptian school; and a media
+    theorization based in Arabic programming practice. I am seeking the support of
+    the NYU Digital Humanities Graduate Fellowship to spend the majority of my time
+    this summer on building a publicly accessible bilingual English-Arabic digital
+    archive of Arabic-based programming languages, as a basis for writing a conference
+    paper in the near term before eventually a journal article and dissertation chapter
+    on the history of Arabic-based programming languages. I also hope this summer
+    to continue to contribute to the translation of programming documentation from
+    English into Arabic as a means of further immersion into the communities I am
+    dedicated to researching, and to begin recording ethnographic data about those
+    communities of translators in particular and programmers/learners more broadly.
+    This project builds on my undergraduate study of computer science, professional
+    experience as a software developer and teacher, graduate training in media studies
+    and allied fields such as science and technology studies and semiotics, and post-advanced
+    study of my heritage language of Arabic, in order to interrogate the interrelationships
+    among language, culture, and computing, and help imagine and build a future of
+    linguistic diversity and justice in the field.'
+  pis:
+  - hassein
+  order: '069'
+- pid: g2024qu
+  done: true
+  title: You Are Your Own Child
+  subtitle: Explore Alternatives For Baby Simulation Games
+  category: Grad Fellowship Project
+  tags:
+  - technology-studies
+  cohort_year: '2024'
+  abstract: Baby simulation games are a subcategory of life simulation games that
+    are built around the life trajectory of their playable character(s), such as the
+    Princess Maker series (first released in 1991), Chinese Parents (2018), and Growing
+    Up (2021). By continuously making decisions for their virtual babies, players
+    lead their playable characters into periodical and terminal results. During the
+    gaming process, the players simultaneously identify as the parent and caretaker
+    of the characters and as the characters themselves, creating an elastic, dynamic,
+    and posthuman relationship. However, these games also usually depend on a teleological
+    logic that implies not only that there are certain life goals every individual
+    must reach, but also that certain life outcomes are better than others. My project
+    will first look into the history of baby simulation games to study how the hardware
+    of gaming consoles and algorithmic culture interact with the understanding of
+    caregiving in contemporary American popular culture. Then, After the research,
+    I plan on using game design tools such as Twine or Ren’Py to create a baby simulation
+    game to explore if there is a way to build on this tradition of encouraging attachment
+    and identification between human players and virtual characters while challenging
+    the traditional linear structure of storytelling in games and rejecting an eugenic,
+    hierarchical understanding of life.
+  pis:
+  - qu
+  order: '070'
+- pid: g2024kulpa
+  done: true
+  title: Knoxo Freedom Schools Oral History Archive
+  category: Grad Fellowship Project
+  tags:
+  - oral-history
+  - public-humanities
+  cohort_year: '2024'
+  abstract: The Knoxo Freedom Schools Oral History Archive is the digital home of
+    an ongoing collection of oral history interviews about the Freedom Schools in
+    Knoxo, Mississippi. In 2023, the Mississippi Heritage Trust named the Freedom
+    Schools one of the top 10 most endangered historical sites in the state. Though
+    dilapidated and located in a town of fewer than 13,000 people, the Freedom Schools
+    are an essential part of the history of Black resistance during the Civil Rights
+    Era. The Archive is designed to preserve and make the history of Knoxo available
+    to everyone by acting as a repository for oral history interviews with people
+    who attended the Freedom Schools. The site also hosts transcripts of the interviews,
+    scans of photographs and archival documents, a map of the area, and a 3D spatial
+    scan of the site as it exists today.
+  pis:
+  - kulpa
+  order: '071'
+- pid: kalinago
+  done: true
+  title: Kalinago Living Language Project
+  subtitle: Digitizing Lexical Resources for Indigenous Survivance
+  category: DH Seed Grant Recipient
+  tags:
+  - indigenous-studies
+  - multilingual-dh
+  cohort_year: '2024'
+  abstract: Kalinago Living Language is a digitization and translation project that
+    endeavors to reformat and improve access to Indigenous Kalinago language resources
+    by producing a lexical repository and user-friendly dictionary website. The pilot
+    seeks to first compile a dataset from a corpus of printed evangelization materials
+    created by Raymond Breton, a French missionary in the seventeenth-century Caribbean.
+    We will lift entries from an OCRenabled PDF of a critical edition of Breton’s
+    Kalinago-French dictionary. Using Transkribus, an AI text recognition and transcription
+    tool trained on historical manuscripts, we will also transcribe text from a French-
+    Kalinago dictionary, a grammar, and a catechism, available in digitized rare books
+    formats. The goal is to comprehensively translate, using collaborative and machine
+    translation, French text into English to generate a direct Kalinago-to-English
+    vocabulary dataset. Once this dataset is complete, we will build a user interface
+    structured as a searchable and browsable dictionary. The landing page of this
+    online dictionary will offer a historical and linguistic framing of the project.
+    We anticipate that this resource will not only be of interest to linguists, historians,
+    and anthropologists in the anglophone academy, but also to English-speaking descendent
+    communities living in the eastern Caribbean.
+  pis:
+  - bradley
+  order: '072'
+- pid: hidden-legacies
+  done: true
+  title: Colonial Networks
+  subtitle: Remapping the “Paris” Art World in a 1786 Map of Haiti
+  category: DH Seed Grant Recipient
+  tags:
+  - spatial-humanities
+  - public-humanities
+  cohort_year: '2024'
+  abstract: |-
+    The proposed Hidden Legacies project will create a digital repository of archival records that will document the foundational role that slavery played in fueling the growth of contemporary institutions in the United States.
+    This digital archive will allow users to access primary source records that document the connections between slavery and contemporary institutions, starting with three sectors, universities, religious institutions and
+    financial institutions. It will include mapping to allow users to visualize and locate these institutions geographically. This digital humanities project will fill an important gap. Over the past decade, the ties between
+    slavery and contemporary institutions have attracted growing interest from historians, journalists, policy makers and community members. Yet identifying, locating and accessing the archival records necessary to do
+    this research remains challenging, limiting the scope and breadth of scholarly and community research projects. Archival records are scattered across the country, in libraries, historical societies and university and
+    corporate archives. This project will bring many of those records together in one place, allowing scholars, students and researchers to build on this growing body of research, which is critical to providing a deeper
+    understanding of the systemic role that slavery played in building many of the institutions around us today.
+  pis:
+  - martin-meredith
+  order: '073'
+- pid: colonial-networks
+  done: true
+  title: Hidden Legacies
+  subtitle: Slavery, Race and the Making of 21st-Century America
+  category: DH Seed Grant Recipient
+  tags:
+  - public-humanities
+  cohort_year: '2024'
+  abstract: This project focuses on a 1786 property map of the French colony of Saint-Domingue
+    (Haiti) dedicated to the comte de Vaudreuil, a prominent Paris-based art collector
+    whose father had governed the colony. This map records the parceling of land around
+    Cap Français, where many of the island's most lucrative sugar plantations were
+    located. It is inscribed with surnames, each belonging to a plantation owner.
+    Strikingly, they include some of the highest-profile members of the Paris art
+    world at the time. While these names may be visible on the surface, the deeper
+    histories of the connections they reveal remain unexplored. We propose to create
+    an interactive, digitally enhanced version of this map with an ambitious interface
+    comprising text, image, and linked data that allows users to discover stories
+    and pursue further research. Our project will “remap” the Paris art world in two
+    key ways. Although the 1786 map illustrates crucial if unknown links between colonial
+    networks and art in metropolitan France, it also shows the contribution of unnamed
+    individuals—notably enslaved laborers—whose lives were inextricably linked to
+    the buying and selling of art. We aim to visualize this network of people, objects,
+    and places and publish an open data set and metadata standard that encourages
+    other scholars to build on our research while interrogating mapping as a process.
+    In so doing, we hope to profoundly shift views of the eighteenth-century art world.
+  pis:
+  - swarns
+  order: '074'
+- pid: library-journal
+  done: true
+  title: Bridging Degrees and Critical Perspectives
+  subtitle: Creating an Open Source Peer-Reviewed Journal for Interdisciplinary Library
+    Science Graduate Students
+  category: DH Seed Grant Recipient
+  tags:
+  - interdisciplinary-studies
+  cohort_year: '2024'
+  abstract: |-
+    With interdisciplinary humanistic inquiry at the heart of paired library and information science and subject
+    studies, MLIS and MA dual degree programs are uniquely positioned to positively impact critical scholarship
+    and discourse at the intersections of cultural production and information exchange. And as publication is
+    fundamental to the research lifecycle, creating a space for dialogic engagement is key. This project aims to
+    solicit, collect, and publish the works of MLIS-MA dual degree graduate students using the NYU Manifold
+    platform by building an infrastructure for a sustainable peer-review editing process and a design that allows for
+    multi-modal format submissions. Based on the Division of Libraries’ Dual Degree Mentorship Program, which
+    provides mentorship, publishing and career-building opportunities for students pursuing the MSLIS at Long
+    Island University's Palmer School of Library and Information Science and subject master degrees across
+    interdisciplinary programs at NYU, this journal will be a first for NYU Manifold, allowing for the initiation of likeminded
+    open-access projects by scholars and content creators across NYU communities. This project creates a
+    model for the journal structure within Manifold while simultaneously providing a site for scholarly conversation
+    that bridges the information landscape and the humanities.
+  pis:
+  - pickens
+  order: '075'
+- pid: turkish-music
+  done: true
+  title: Digitizing Cultural Heritage
+  subtitle: The Walter Feldman Collection of Turkish Classical Music
+  category: DH Seed Grant Recipient
+  tags:
+  - exhibition
+  cohort_year: '2024'
+  abstract: This project involves digitizing audio cassette recordings gathered by
+    retired NYU Abu Dhabi Professor Walter Feldman during research for his book, Music
+    of the Ottoman Court (1996, repr. 2024). Dr. Feldman is the leading authority
+    on Turkish classical music, and his book is the standard work on the subject.
+    Dr. Feldman’s recordings include never-before-heard audio materials—lessons, private
+    concerts, and public performances— featuring prominent Turkish classical musicians
+    Necdet Yasar, Niyazi Sayin, Ihsan Özgen, and others. Digitizing this collection
+    is crucial for preservation of this music and to make it accessible to a wider
+    audience. This project emphasizes the intercultural connections between Greeks,
+    Turks, Armenians, Romanians, Hungarians, Arabs, and Sephardic Jews within the
+    Ottoman Empire. The project will transfer these recordings to a digital format
+    and exhibit them on a publicly accessible website, accompanied by detailed cataloging
+    and metadata creation to facilitate research and exploration. By making these
+    recordings available, this initiative not only preserves a crucial part of musical
+    history but also celebrates the complex tapestry of relationships that characterizes
+    the music of the Ottoman court and its enduring legacy in shaping the cultural
+    identities of the region.
+  pis:
+  - mavromatis
+  order: '076'
