@@ -902,3 +902,11 @@
   - proj_pi
   image: https://nyu-dh.github.io/website-media/files/people/pickens.jpg
   order: '103'
+- pid: mavromatis
+  done: true
+  name: Panayotis Mavromatis
+  titles: Associate Professor of Music and Performing Arts Professions
+  site_roles:
+  - proj_pi
+  image: https://nyu-dh.github.io/website-media/files/people/mavromatis.jpg
+  order: '104'
