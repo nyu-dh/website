@@ -35,6 +35,18 @@ Grants may range in size between $5,000 and $20,000. Collaborative projects are 
 
 <h2 id="funded-projects">Funded Projects</h2>
 
+{% assign seeds2024 = site.projects | where: 'cohort_year', '2024' | where_exp: "i", "i.category contains 'Seed'" %}
+{%- if seeds2024.size > 0 -%}
+  <h3 class="is-size-4">2024 - 2025</h3>
+  <ul>
+    {%- for p in seeds2024 -%}
+      <li><a href="{{ p.url | absolute_url }}">
+        {{ p.title }}{%- if p.subtitle.size > 0 -%}:&nbsp;{{ p.subtitle }}{%- endif -%}
+      </a></li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+
 {% assign seeds2023 = site.projects | where: 'cohort_year', '2023' | where_exp: "i", "i.category contains 'Seed'" %}
 {%- if seeds2023.size > 0 -%}
   <h3 class="is-size-4">2023 - 2024</h3>
