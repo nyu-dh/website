@@ -6,10 +6,10 @@ category: announcement
 tags:
   - grad_fellows
 abstract: |
-  Meet the recipients of the 2024 NYU Digital Humanities Graduate Student Fellows, sponsored by the NYU Center for Humanities, NYU Libraries, and NYU Research and Instructional Technology.
+  Meet the recipients of 2024 NYU Digital Humanities Graduate Student Fellowships sponsored by NYU Libraries and NYU Research and Instructional Technology.
 ---
 
-The Center for the Humanities, NYU Libraries, and NYU Research and Technology fund ten Digital Humanities Graduate Fellows. These students from across NYU employ a range of DH methods whether they analyze digital sources, apply algorithmic methods to humanities data, or create digital publications, exhibits, or websites. The goal of the program is to support digital projects and bolster a sense of NYU DH Community across schools and departments.
+NYU Libraries and NYU Research and Technology have funded ten [Digital Humanities Graduate Fellows](/funding/grad-fellowships) for 2024. These students from across NYU employ a range of DH methods whether they analyze digital sources, apply algorithmic methods to humanities data, or create digital publications, exhibits, or websites. The goal of the program is to support digital projects and bolster a sense of NYU DH Community across schools and departments.
 
 We are excited to announce this year's cohort of funded fellows. Congratulations to them all!
 
