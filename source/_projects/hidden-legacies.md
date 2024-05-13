@@ -1,11 +1,10 @@
 ---
 pid: hidden-legacies
 done: true
-title: Colonial Networks
-subtitle: Remapping the “Paris” Art World in a 1786 Map of Haiti
+title: Hidden Legacies
+subtitle: Slavery, Race and the Making of 21st-Century America
 category: DH Seed Grant Recipient
 tags:
-- spatial-humanities
 - public-humanities
 cohort_year: '2024'
 abstract: |-
@@ -17,7 +16,7 @@ abstract: |-
   corporate archives. This project will bring many of those records together in one place, allowing scholars, students and researchers to build on this growing body of research, which is critical to providing a deeper
   understanding of the systemic role that slavery played in building many of the institutions around us today.
 pis:
-- martin-meredith
-order: '073'
+- swarns
+order: '074'
 layout: project
 ---

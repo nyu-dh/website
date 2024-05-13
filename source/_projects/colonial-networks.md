@@ -1,10 +1,11 @@
 ---
 pid: colonial-networks
 done: true
-title: Hidden Legacies
-subtitle: Slavery, Race and the Making of 21st-Century America
+title: Colonial Networks
+subtitle: Remapping the “Paris” Art World in a 1786 Map of Haiti
 category: DH Seed Grant Recipient
 tags:
+- spatial-humanities
 - public-humanities
 cohort_year: '2024'
 abstract: This project focuses on a 1786 property map of the French colony of Saint-Domingue
@@ -26,7 +27,7 @@ abstract: This project focuses on a 1786 property map of the French colony of Sa
   mapping as a process. In so doing, we hope to profoundly shift views of the eighteenth-century
   art world.
 pis:
-- swarns
-order: '074'
+- martin-meredith
+order: '073'
 layout: project
 ---
