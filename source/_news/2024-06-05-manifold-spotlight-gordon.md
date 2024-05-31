@@ -1,5 +1,5 @@
 ---
-title: "Zuri Gordon: Why Are There No ACS Offices in SoHo?"
+title: "Zuri Gordon: Women's Studies at NYU"
 category: spotlight
 series: Manifold spotlight
 hero_image: https://nyu-dh.github.io/website-media/files/news/banner-gordon.jpg
