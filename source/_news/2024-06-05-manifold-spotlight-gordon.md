@@ -2,13 +2,13 @@
 title: "Zuri Gordon: Women's Studies at NYU"
 category: spotlight
 series: Manifold spotlight
-hero_image: https://nyu-dh.github.io/website-media/files/news/banner-gordon.jpg
+hero_image: https://nyu-dh.github.io/website-media/files/news/gordon.jpg
 date: 2024-06-05
 author: Jojo Karlin
 tags:
 - manifold
 abstract: |
-  Zuri Gordon Reflects on her Manifold publication: "Women's Studies at NYU"
+  Zuri Gordon reflects on her Manifold publication: "Women's Studies at NYU"
 ---
 
 <article class="message is-success mb-4" style="max-width:800px">
