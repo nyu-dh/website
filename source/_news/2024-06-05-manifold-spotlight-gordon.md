@@ -2,7 +2,7 @@
 title: "Zuri Gordon: Women's Studies at NYU"
 category: spotlight
 series: Manifold spotlight
-hero_image: https://nyu-dh.github.io/website-media/files/news/gordon.jpg
+hero_image: https://nyu-dh.github.io/website-media/files/projects/gordon.jpg
 date: 2024-06-05
 author: Jojo Karlin
 tags:
@@ -21,6 +21,8 @@ abstract: |
 </article>
 
 For her MA in Higher Education and Student Affairs, Zuri Gordon created a digital publication on NYU Manifold to bring togther resources from NYU Special Collections with her own reflections. "Women's Studies at NYU" provides a point of entry for public engagement with the history of these fields at NYU. 
+
+<img src="https://nyu-dh.github.io/website-media/files/projects/gordon.jpg" alt="screenshot of homepage of Women's Studies at NYU Manifold project"/>
 
 When asked what she was most proud of, Gordon remarked, "I am so proud to share the stories, voices, and materials of people who have been involved in WGS at NYU! The institution has never had a dedicated WGS department, but there have always been feminist academics, administrators, and students doing important and necessary work here. It was a complete shock to me to learn that a few decades ago, there was a WGS program in the NYU school I am currently attending, or that students created a feminist journal with original work. Everyone I spoke to was so kind. Even in their responses to my email requests for interviews, I consistently got positive affirmations from them about my project, and interest in speaking with me. I hope it can reach more people who have been involved in this programming at NYU, and are interested in WGS as an academic discipline in general."
 
