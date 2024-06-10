@@ -1,5 +1,5 @@
 ---
-title: David Perry on "n Lines & Changing"
+title: David Perry on <i>n Lines & Changing</i>
 category: spotlight
 series: seed grant spotlight
 date: 2024-01-26
