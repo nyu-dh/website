@@ -20,3 +20,9 @@ For the remainder of the workshop, we taught the participants how to do their ow
 Participants progressed at their own pace while we troubleshot error messages one at a time. Some participants were able to help the others with bugs that they themselves had run into just a few minutes before. The resulting atmosphere was one of both collaboration and solitary exploration.
 
 Overall, we were pleased with the pace of the lesson and happy to have provided the first few steps in our participants’ longer journeys with text analysis and perhaps even programming generally.
+
+<img src="https://nyu-dh.github.io/website-media/files/news/TextAnalysisDoodle.jpg" style="max-height:350px" alt="illustration of speakers David Bering-Porter, Leif Weatherby, Claire Song, and Ryan Healey surrounded by keywords from their talks, by Jojo Karlin"/>
+
+**Above:** Illustration by Jojo Karlin.
+
+
