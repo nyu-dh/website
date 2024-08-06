@@ -11,8 +11,8 @@ timezone: UTC
 email: dh.help@nyu.edu
 
 semester:
-  current: 'Fall 2023'
-  next: 'Spring 2024'
+  current: 'Spring 2024'
+  next: 'Fall 2024'
 
 url: 'https://digitalhumanities.nyu.edu'
 baseurl: ''

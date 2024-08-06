@@ -817,7 +817,7 @@
 - pid: landry
   done: true
   name: Katelyn Landry
-  titles: Doctoral Student in History
+  titles: Graduate Student in Archives and Public History
   site_roles:
   - fellow
   image: https://nyu-dh.github.io/website-media/files/people/landry.jpg
@@ -881,7 +881,7 @@
 - pid: swarns
   done: true
   name: Rachel Swarns
-  titles: Assistant Professor in Journalism
+  titles: Associate Professor in Journalism
   site_roles:
   - proj_pi
   image: https://nyu-dh.github.io/website-media/files/people/swarns.jpg
