@@ -12,20 +12,19 @@ abstract: Understanding the relationship between legal, fiscal, and political pr
   US jail administrators, and the racism endemic to the criminal justice system. Currently,
   there exists no centralized resource presenting information on jail conditions over
   time, or on shifts in legal, fiscal, and political processes pertinent to jail operations.
-  The Ohio Jails Repository will serve as a digital resource for users to navigate
-  through various timelines of events and actors in the history of the Cleveland and
-  Columbus area jails since the 1980s through the 2020 pandemic, and to learn about
-  how and why jail conditions change over time more broadly. This proposed data visualization
-  resource can facilitate insight into how the complex network of actors, finances,
-  and governmental institutions have shaped outcomes for generations of individuals
-  moving through county jails. The primary goals of this project are to preserve a
-  unique collection of information, make this material accessible to the public, and
-  provide a model for other studies of local jails. The Ohio Jails Repository will
-  also be a digital resource that will facilitate civic engagement, and provide analytic
-  resources for those looking to advocate for individuals involved in the carceral
-  system.
+  The Ohio Jails Repository serves as a digital resource for users to understand developments
+  in the Cleveland and Columbus area jails since over the past decade, and to learn
+  about how and why jail conditions change over time more broadly. This resource facilitates
+  insight into how the complex network of actors, finances, and governmental institutions
+  have shaped outcomes for generations of individuals moving through county jails.
+  The primary goals of this project are to preserve a unique collection of information,
+  make this material accessible to the public, and provide a model for other studies
+  of local jails. The Ohio Jails Repository will also be a digital resource that will
+  facilitate civic engagement, and provide analytic resources for those looking to
+  advocate for individuals involved in the carceral system.
 pis:
 - veras
+link: 'https://marianaveras.github.io/ohio-jails/ '
 order: '067'
 layout: project
 ---

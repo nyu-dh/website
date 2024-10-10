@@ -1441,7 +1441,7 @@
   pis:
   - duncombe
   - desai
-  image: https://artactcolab.org/wp-content/uploads/2024/02/AARC-map-long-01.png
+  original_img: https://artactcolab.org/wp-content/uploads/2024/02/AARC-map-long-01.png
   order: '050'
 - pid: g2023hoque
   done: true
@@ -1763,29 +1763,36 @@
   order: '061'
 - pid: g2024bliziotis
   done: true
-  title: The Language of Trans-Misogyny in News Media
+  title: 'The Language of Transmisogyny and Conspiracy in News Media '
   category: Grad Fellowship Project
   tags:
   - text-analysis
   cohort_year: '2024'
   abstract: 'Since 2020, the language surrounding transgender women in American media
-    outlets has become increasingly vitriolic through the misrecognition and projection
-    of a threatening trans-femininity. While violence against trans women is unfortunately
-    nothing new, trans-misogyny has only relatively recently become a viral phenomenon
-    in mainstream news outlets. I propose a textual coding schema in which to analyze
-    the news and create a map of the rhetoric it draws on to address this new media
-    landscape of trans-misogyny. Utilizing Python and Intelligent Archive, I will
-    analyze aggregated news articles using discursive analysis and sentiment analysis.
-    This project will address language and linguistic forms only, pulling sample articles
-    discussing trans women from the ten most-visited news sites in the United States
-    from January 2023 onward. My analysis identifies common features in popular American
-    news stories regarding trans women: stereotypes, passive language, misleading
-    language, inaccurate statistics, false balance or faux-neutrality, and false dichotomies.
-    Following this period of qualitative coding, I will build a conclusive rubric
-    on how to recognize trans-misogynistic language and rhetoric, hosting an interactive
-    map of the compiled data online.'
+    outlets has become increasingly vitriolic through the misrecognition and subsequent
+    projection of a threatening transfemininity. While violence against trans women
+    is unfortunately nothing new, transmisogyny has only relatively recently become
+    a viral phenomenon in mainstream news outlets. Alarmingly, the recent rise in
+    transmisogynistic rhetoric in the news coincides with a resurgence of reactionary
+    populism and the mainstreaming of conspiratorial rhetoric. As organized transphobia
+    increasingly relies on the discursive myth of a “silent majority” to provide cover
+    for its political program, transgender women have become the latest bogeymen for
+    the far-right. This current wave of organized transphobia includes language pulled
+    from anti-semitic conspiracy theories slightly shifted for a new scapegoat. My
+    project implements a textual coding schema via  which to analyze the news, in
+    order to create a map of the conspiratorial rhetoric underpinning [this new media
+    landscape of transmisogyny. Using MAXQDA, I will analyze aggregated news articles
+    using discursive and sentiment analysis. This project will address language and
+    linguistic forms only, pulling sample articles discussing transgender issues from
+    popular news sites in the United States, identifying common tropes, including:
+    transgressing the mainstream, the creation of recency, appeal to reason, the weaponization
+    of children , anecdotal language, and moral appeals to tradition. Following this
+    period of qualitative coding, I will build a conclusive rubric on how to recognize
+    organized transmisogyny, hosting an interactive map of the compiled data online. '
   pis:
   - bliziotis
+  image: https://nyu-dh.github.io/website-media/files/projects/g2024bliziotis.png
+  original_img: https://drive.google.com/open?id=1nhcrYHFezvbPU6Kp-w7m9QUReXvXk24Y
   order: '062'
 - pid: g2024joyner
   done: true
@@ -1818,60 +1825,59 @@
 - pid: g2024georgieva
   done: true
   title: Evaluating Voices
-  subtitle: A Computational Analysis of Skill and Expression in Singing and Narration
+  subtitle: 'A Computational Analysis of Skill and Expression in Singing and Narration '
   category: Grad Fellowship Project
   tags:
   - sound-studies
   cohort_year: '2024'
-  abstract: 'The goal of this project is to study amateur singing and voice narration,
-    aiming to investigate how more skilled singers and voice narrators perform differently
-    from their less skilled counterparts, and to explore the expressive distinctions
-    between narrated and sung vocal performances. In order to answer these questions,
-    this summer I will collect subjective data from online listeners, who will evaluate
-    recordings of singers and audiobook narrators. I will then use linear mixed models
-    in RStudio to quantify how perceived performer skill correlates with seven other
-    vocal performance features: likeability, enthusiasm, authenticity/realness, emotional
-    expression, vocal strength/intensity, intelligibility, and tone color. The singing
-    voice recordings will be sourced from the DAMP (Digital Archive of Mobile Performances)
-    karaoke dataset, and the narration recordings will be drawn from the LibriSpeech
-    audiobook narration dataset. An equal number of recordings will be dedicated to
-    singing and narration. This work will be a chapter of my doctoral dissertation
-    on digital analyses of singing voice and speech, exploring the intersection of
-    music, speech, and sound recording. This project will advance the field of musicology
-    by demonstrating the potential for computational methods in the field, and bring
-    music and audio analysis into digital humanities scholarship.'
+  abstract: |-
+    In this project, I use computational methods to predict human ratings of singing and speech samples based solely on audio input. This work will help future audio researchers assess the quality of their recordings without relying on human listeners.
+    This project consists of two phases. First, over the course of the summer, I have put together a user study online on Qualtrics with participants coming from the NYU Psychology SONA program. I will be gathering 4000 user evaluations of 1000 singing voice and speech recordings. The singing voice recordings are sourced from the DAMP (Digital Archive of Mobile Performances) karaoke dataset, and the spoken recordings are from the LibriSpeech dataset. Users will evaluate recordings, responding to five questions including inquiries about the recording's quality and the performer's skill level, likeability, enthusiasm, authenticity, emotional expression, and intensity.
+    The second step will be to use audio signal processing tools and statistical methods to estimate these user ratings based solely on the audio files.
+    This project builds directly upon my dissertation on digital analyses of singing voice and speech, exploring the intersection of music, speech, sound recording, and statistical methods. The singing voice portion of this project will advance the field of musicology and demonstrate the potential for digital humanities methods in the field, while the speech portion of the project holds relevance for the technology industry, and highlights parallels between singing and speaking voices.
   pis:
   - georgieva
+  image: https://nyu-dh.github.io/website-media/files/projects/g2024georgieva.png
+  original_img: https://drive.google.com/open?id=1p8-eBSdCUMAIfr7AUlCYnYkiw2b9YTof
   order: '064'
 - pid: g2024landry
   done: true
-  title: Finding Mestizaje in Archival Metadata
+  title: Only Your Labels Split Me'
+  subtitle: Finding Mestizaje in Archival Description
   category: Grad Fellowship Project
   tags:
   - spatial-humanities
   cohort_year: '2024'
-  abstract: Finding Mestizaje in Archival Metadata is an interdisciplinary digital
-    humanities project that seeks to analyze and visualize descriptive metadata created
-    by archivists to describe historical records regarding mestizos, mulattos, and
-    other people racialized as “mixed” in colonial Texas. By using qualitative data
-    analysis software to code concepts and descriptions of cultural and racial “mixing”
-    that appear in online finding aids and digital object descriptions, I hope to
-    understand how mestizaje is represented in archival descriptive metadata. This
-    project builds on ongoing movements within the archives field to 1) envision archival
-    description as structured data rather than prose and 2) investigate and remediate
-    harmful language historically used by archivists to describe Black, Indigenous,
-    and people of color. While digital humanities tools have mostly been used as platforms
-    for presenting digital exhibitions and archival collections, I believe there is
-    significant potential to use data analysis and visualization to produce new insights
-    into how archivists are categorizing and describing BIPOC archival actors, particularly
-    those who have historically disrupted Eurocentric racial hierarchies. By approaching
-    archival description with Gloria Anzaldúa’s concept of mestiza consciousness –
-    “a holistic, nonbinary way of thinking…that includes a transformational tolerance
-    for contradiction” – Finding Mestizaje in Archival Metadata intends to spark critical
-    reflections among archivists about how we can responsibly and ethically create
-    metadata for records involving mixed-race archival actors.
+  abstract: "‘Only your labels split me’: Finding Mestizaje in Archival Metadata and
+    Description is a text analysis project that seeks to collect, code, and visualize
+    archival descriptions of mestizos, mulattos, and other people racialized as “mixed”
+    in New Spain (with an emphasis on present-day Mexico and the American Southwest).
+    The NYU DH Graduate Fellowship supported the foundational data collection and
+    coding phases of this project, which I will continue to develop as my capstone
+    project for the Archives and Public History MA program. Using Texas Archival Resources
+    Online (TARO), a database of finding aids for archival collections housed in Texas,
+    I collected a sample of finding aids which I uploaded to ATLAS.ti, a qualitative
+    data analysis software, to code concepts and descriptions of cultural and racial
+    “mixing” that appear within them. This project builds on ongoing movements within
+    the archives field to 1) envision archival description as structured data rather
+    than prose and 2) investigate and remediate harmful language historically used
+    by archivists to describe Black, Indigenous, and people of color. While digital
+    humanities tools have mostly been used as platforms for presenting digital exhibitions
+    and archival collections, I believe there is significant potential to use data
+    analysis and visualization to produce new insights into how archivists are categorizing
+    and describing BIPOC archival actors, particularly those who have historically
+    disrupted Eurocentric racial hierarchies. By approaching archival description
+    with Gloria Anzaldúa’s concept of mestiza consciousness – “a holistic, nonbinary
+    way of thinking…that includes a transformational tolerance for contradiction”
+    – this project intends to spark critical reflections among archivists about how
+    we can responsibly and ethically create metadata for records involving mixed-race
+    archival actors who were not only marginalized at the time they were recorded
+    in the archive but also continue to defy Western racial hierarchies that are taken
+    for granted in U.S. archival descriptive practices."
   pis:
   - landry
+  image: https://nyu-dh.github.io/website-media/files/projects/g2024landry.jpg
+  original_img: https://drive.google.com/file/d/1HAq0CA9uU2Khs6UcuwqjZuoZ9JbrBXzF/view
   order: '065'
 - pid: g2024almenara
   done: true
@@ -1882,28 +1888,25 @@
   - public-humanities
   cohort_year: '2024'
   abstract: Yanacocha, named in Quechua after the “black” lake that formerly occupied
-    the site, was once the largest gold mine in South America. Today, the mine’s 251-square
-    kilometer open-pit reserves is almost entirely depleted. Yanacocha’s three decades
-    of extraction have led to drastic changes in the surrounding landscapes with trends
-    of rapid urbanization and environmental degradation. As the project enters its
-    last phase of operations, “closure plans” are activated to address the enduring
-    environmental and social legacy of the mine. This digital humanities project develops
-    an interactive virtual timeline that 1. Visualizes the changes to the landscape
-    produce by large-scale mineral extraction projects and 2. Tracks the promises
-    and post-closure commitments to corporate social responsibility made by Newmont,
-    the American corporation in charge of the project, alongside dissenting claims
-    by local and indigenous activists. Drawing on materials included in environmental
-    impact reports (EIAs) and closure plans submitted for public review, I restructure
-    these documents to challenge their associations with imperial capitalist interests.
-    The elements of these reports (their photographs, maps, and modeled plans) become
-    evidence of irreparably-changed landscapes and of the limits of these formats
-    to meaningfully address the “alterlives” of extractivism. My curation of the virtual
-    space also acknowledges and includes the claims of activist groups, as featured
-    in local journalistic accounts and international human rights reports. The timeline
-    then allows for a political encounter that challenges the limited scales of corporate
-    accountability and explores the contested potential of post-extractive time.
+    the site, was once the largest gold and silver mine in South America. Today, the
+    mine’s 251-square kilometer open-pit reserves are almost entirely depleted. Yanacocha’s
+    three decades of extraction have led to drastic changes in the surrounding landscapes
+    with trends of rapid urbanization and environmental degradation. As the project
+    enters its last phase of operations, “closure plans” are activated to address
+    the enduring environmental and social legacy of the mine. This digital humanities
+    project develops an interactive virtual timeline that 1. Visualizes the changes
+    to the landscape produce by large-scale mineral extraction projects and 2. Critically
+    considers the proposed strategies for environmental remediation and their own
+    implications to local politics and ecosystems. Drawing on Landsat satellite images
+    and closure plans submitted for public review on behalf of Newmont, the American
+    mining corporation which currently manages the mine, I develop a new visual record
+    that evidences the concrete impacts of foreign investment on the Andean territory
+    and challenges the discursive framing of “environmental protection” within neoliberal
+    capitalist logics.
   pis:
   - almenara
+  image: https://nyu-dh.github.io/website-media/files/projects/g2024almenara.png
+  original_img: https://drive.google.com/file/d/18x8Q5oseah906D6ycAE8wxoohddeglj4/view
   order: '066'
 - pid: g2024veras
   done: true
@@ -1918,20 +1921,20 @@
     of US jail administrators, and the racism endemic to the criminal justice system.
     Currently, there exists no centralized resource presenting information on jail
     conditions over time, or on shifts in legal, fiscal, and political processes pertinent
-    to jail operations. The Ohio Jails Repository will serve as a digital resource
-    for users to navigate through various timelines of events and actors in the history
-    of the Cleveland and Columbus area jails since the 1980s through the 2020 pandemic,
-    and to learn about how and why jail conditions change over time more broadly.
-    This proposed data visualization resource can facilitate insight into how the
-    complex network of actors, finances, and governmental institutions have shaped
-    outcomes for generations of individuals moving through county jails. The primary
-    goals of this project are to preserve a unique collection of information, make
-    this material accessible to the public, and provide a model for other studies
-    of local jails. The Ohio Jails Repository will also be a digital resource that
-    will facilitate civic engagement, and provide analytic resources for those looking
-    to advocate for individuals involved in the carceral system.
+    to jail operations. The Ohio Jails Repository serves as a digital resource for
+    users to understand developments in the Cleveland and Columbus area jails since
+    over the past decade, and to learn about how and why jail conditions change over
+    time more broadly. This resource facilitates insight into how the complex network
+    of actors, finances, and governmental institutions have shaped outcomes for generations
+    of individuals moving through county jails. The primary goals of this project
+    are to preserve a unique collection of information, make this material accessible
+    to the public, and provide a model for other studies of local jails. The Ohio
+    Jails Repository will also be a digital resource that will facilitate civic engagement,
+    and provide analytic resources for those looking to advocate for individuals involved
+    in the carceral system.
   pis:
   - veras
+  link: 'https://marianaveras.github.io/ohio-jails/ '
   order: '067'
 - pid: g2024whitley
   done: true
@@ -1946,7 +1949,7 @@
     of purple to these cultures through qualitative-data visualization. This work
     is born out of my Master’s research on purple and Black women’s rhetorics, where
     I argue novelist and scholar Alice Walker’s definition of ‘womanist’–”Womanist
-    is to feminist as purple is to lavender” (Walker, xvi)--has not only offset the
+    is to feminist as purple is to lavender” (Walker, xvi)–has not only offset the
     radical concept and practice of Womanism, but arguably has set in motion a ‘Womanist
     aesthetic’(D. Bhagyathara) in the prominence of purple across Black women’s media
     broadly defined. From the dust jackets of books on Black women’s studies and marketing
@@ -1960,6 +1963,9 @@
     people’s lives.
   pis:
   - whitley
+  link: https://www.instagram.com/perspextive333
+  image: https://nyu-dh.github.io/website-media/files/projects/g2024whitley.png
+  original_img: https://drive.google.com/open?id=1a6aKuklnmbEZiZRGJcRxAEsnF0uEj13N
   order: '068'
 - pid: g2024hassein
   done: true
@@ -1968,59 +1974,45 @@
   tags:
   - technology-studies
   cohort_year: '2024'
-  abstract: 'My dissertation project, “Arabic-based programming languages and communities”,
-    consists of several distinct methodological and thematic components: the history
-    of the titular genre of software artifact; digital ethnographic work in two open
-    source programming communities which have dedicated themselves to multilingual
-    inclusion via translation of documentation; in person ethnographic work in both
-    a bilingual Arabic-English NYC public school and an Egyptian school; and a media
-    theorization based in Arabic programming practice. I am seeking the support of
-    the NYU Digital Humanities Graduate Fellowship to spend the majority of my time
-    this summer on building a publicly accessible bilingual English-Arabic digital
-    archive of Arabic-based programming languages, as a basis for writing a conference
-    paper in the near term before eventually a journal article and dissertation chapter
-    on the history of Arabic-based programming languages. I also hope this summer
-    to continue to contribute to the translation of programming documentation from
-    English into Arabic as a means of further immersion into the communities I am
-    dedicated to researching, and to begin recording ethnographic data about those
-    communities of translators in particular and programmers/learners more broadly.
-    This project builds on my undergraduate study of computer science, professional
-    experience as a software developer and teacher, graduate training in media studies
-    and allied fields such as science and technology studies and semiotics, and post-advanced
-    study of my heritage language of Arabic, in order to interrogate the interrelationships
-    among language, culture, and computing, and help imagine and build a future of
-    linguistic diversity and justice in the field.'
+  abstract: My project for the Summer 2024 NYU Digital Humanities Graduate Fellowship
+    was to build the initial version of a publicly accessible bilingual English-Arabic
+    digital archive of Arabic-based programming languages, as the basis for the first
+    historical chapter of my dissertation on Arabic-based programming languages and
+    communities, which also includes ethnographic, technical and media-theoretical
+    components.
   pis:
   - hassein
+  link: https://nabilhassein.github.io/arabic-programming-language-archive/
   order: '069'
 - pid: g2024qu
   done: true
-  title: You Are Your Own Child
-  subtitle: Explore Alternatives For Baby Simulation Games
+  title: Simulating Parent-Child Kinship
+  subtitle: Exploring Topographic Time in Parenting Simulation Game Development
   category: Grad Fellowship Project
   tags:
   - technology-studies
   cohort_year: '2024'
-  abstract: Baby simulation games are a subcategory of life simulation games that
-    are built around the life trajectory of their playable character(s), such as the
-    Princess Maker series (first released in 1991), Chinese Parents (2018), and Growing
-    Up (2021). By continuously making decisions for their virtual babies, players
-    lead their playable characters into periodical and terminal results. During the
-    gaming process, the players simultaneously identify as the parent and caretaker
-    of the characters and as the characters themselves, creating an elastic, dynamic,
-    and posthuman relationship. However, these games also usually depend on a teleological
-    logic that implies not only that there are certain life goals every individual
-    must reach, but also that certain life outcomes are better than others. My project
-    will first look into the history of baby simulation games to study how the hardware
-    of gaming consoles and algorithmic culture interact with the understanding of
-    caregiving in contemporary American popular culture. Then, After the research,
-    I plan on using game design tools such as Twine or Ren’Py to create a baby simulation
-    game to explore if there is a way to build on this tradition of encouraging attachment
-    and identification between human players and virtual characters while challenging
-    the traditional linear structure of storytelling in games and rejecting an eugenic,
-    hierarchical understanding of life.
+  abstract: My research looks into how temporality in Parenting Simulation Games (PSG)
+    impacts the simulation of kinship. Building off my research, I developed a text-based
+    PSG that explores an alternative way of simulation by incorporating a non-linear
+    topographic time. In classic PSGs, the player takes care of a child by allocating
+    their limited lifetime to different activities to reach specific career and marriage
+    endings. Although extremely time-consuming, it is common for the players to micromanage
+    every moment of their child’s life trajectory to achieve their desired results
+    through the function of saving and restoration. Time as an infrastructure in this
+    circumstance determines a highly teleological simulation of parental care because
+    the more time the players invest in programming the process, the more importance
+    is granted to the endings. To push back this logic in simulation, I developed
+    a Twine-based PSG that incorporates a topological temporality that downplays the
+    achievements of the result and emphasizes on fostering care. In my game, the parent
+    no longer has the power to determine the child’s life but has the power to rebuild
+    the emotional connection between them by recollecting scattered memories. This
+    project allows me to gain perspective as a game developer and thus contribute
+    to my larger research project on the simulation of parent-child kinship.
   pis:
   - qu
+  image: https://nyu-dh.github.io/website-media/files/projects/g2024qu.png
+  original_img: https://drive.google.com/open?id=1_YW-fI7xvBxapARFNenfASlWmzGZcQoq
   order: '070'
 - pid: g2024kulpa
   done: true
