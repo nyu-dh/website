@@ -14,7 +14,7 @@ jobs:
   prod-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: setup ruby
         uses: ruby/setup-ruby@v1
         # with:
@@ -26,7 +26,7 @@ jobs:
       - name: build site
         run: bundle exec jekyll build
       - name: ftp deploy to host
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{secrets.FTP_PROD_SERVER}}
           username: ${{secrets.FTP_PROD_USER}}

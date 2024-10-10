@@ -14,7 +14,7 @@ jobs:
   stage-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: setup ruby
         uses: ruby/setup-ruby@v1
         # with:
@@ -26,7 +26,7 @@ jobs:
       - name: block indexing
         run: 'mkdir -p _site && echo -e "User-agent: *\nDisallow: /\n" > _site/robots.txt'
       - name: ftp deploy to host
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{secrets.FTP_STAGE_SERVER}}
           username: ${{secrets.FTP_STAGE_USER}}
