@@ -1,7 +1,7 @@
 ---
 title: Zuri Gordon on Her New Manifold Publication <i>Women's Studies at NYU</i>
 category: spotlight
-hero_image: https://nyu-dh.github.io/website-media/files/projects/gordon.jpg
+hero_image: /media/projects/gordon.jpg
 date: 2024-06-05
 author: Jojo Karlin
 tags:
@@ -12,7 +12,7 @@ abstract: |
 
 <article class="message is-success mb-12" style="max-width:800px">
   <div class="message-body has-text-warning">
-      <img src="https://nyu-dh.github.io/website-media/files/people/gordon.jpg" class="is-pulled-right circle-128" alt="portrait of Zuri Gordon"/>
+      <img src="/media/people/gordon.jpg" class="is-pulled-right circle-128" alt="portrait of Zuri Gordon"/>
       <p>The Manifold <a href="/news/spotlights/">Spotlights</a> highlight work published on <a href="https://nyu.manifoldapp.org">NYU Manifold</a>.</p>
       <p class="mb-3">Below, Steinhardt MA Student in Higher Ed and Student Affairs (HESA) Zuri Gordon briefly talks about her publication <i><a href="https://nyu.manifoldapp.org/projects/wgsatnyu">Women's Studies at NYU</a></i>.</p>
 
@@ -23,7 +23,7 @@ For her MA in Higher Education and Student Affairs, Zuri Gordon created a digita
 
 <br>
 
-<img src="https://nyu-dh.github.io/website-media/files/projects/gordon-screen.jpg" alt="screenshot of homepage of Women's Studies at NYU Manifold project"/>
+<img src="/media/projects/gordon-screen.jpg" alt="screenshot of homepage of Women's Studies at NYU Manifold project"/>
 
 <br>
 

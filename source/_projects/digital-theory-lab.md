@@ -21,7 +21,7 @@ pis:
 - weatherby
 - coble
 link: https://hlabs.nyuhumanities.org/digital-theory/
-image: https://nyu-dh.github.io/website-media/files/projects/digital-theory.jpg
+image: /media/projects/digital-theory.jpg
 order: '001'
 layout: project
 ---

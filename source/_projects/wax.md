@@ -14,7 +14,7 @@ abstract: |-
 pis:
 - nyrop
 link: https://minicomp.github.io/wax/
-image: https://nyu-dh.github.io/website-media/files/projects/wax.png
+image: /media/projects/wax.png
 original_img: https://minicomp.github.io/wax/img/logo.png
 order: '031'
 layout: project

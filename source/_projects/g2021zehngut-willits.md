@@ -16,7 +16,7 @@ abstract: From the nineteenth century to the present, immigrants encountering th
   dissect, interpret, and analyze the A-File’s content and evolution.
 pis:
 - zehngut-willits
-image: https://nyu-dh.github.io/website-media/files/projects/g2021zehngut-willits.png
+image: /media/projects/g2021zehngut-willits.png
 original_img: https://www.mercurynews.com/wp-content/uploads/2016/08/20120517__alienfil1.jpg?w=400
 order: '020'
 layout: project

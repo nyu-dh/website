@@ -29,7 +29,7 @@ pis:
 - flouty
 - kapp
 link: https://wp.nyu.edu/artsampscience-historicfractures/
-image: https://nyu-dh.github.io/website-media/files/projects/historic-fractures.jpg
+image: /media/projects/historic-fractures.jpg
 original_img: https://s18798.pcdn.co/artsampscience-historicfractures/wp-content/uploads/sites/26462/2023/05/IMG_4975-768x1024.jpg
 order: '045'
 layout: project

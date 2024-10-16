@@ -16,7 +16,7 @@ pis:
 - karlin
 - kehoe
 link: https://guides.nyu.edu/wikimedia-toolkit
-image: https://nyu-dh.github.io/website-media/files/projects/wikimedians.jpg
+image: /media/projects/wikimedians.jpg
 order: '010'
 layout: project
 ---

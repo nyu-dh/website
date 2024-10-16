@@ -28,7 +28,7 @@ pis:
 - nyrop
 - provo
 link: https://specialcollections.hosting.nyu.edu/projects/soul-of-reason/
-image: https://nyu-dh.github.io/website-media/files/projects/soul-of-reason.jpg
+image: /media/projects/soul-of-reason.jpg
 original_img: https://nyu-dss.github.io/soul-of-reason/images/uploads/roscoe-brown-IAAA.jpg
 order: '006'
 layout: project

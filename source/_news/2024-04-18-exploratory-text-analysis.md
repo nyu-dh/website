@@ -2,7 +2,7 @@
 title: Exploratory Text Analysis Workshop
 category: event
 date: 2024-04-18
-hero_image: https://nyu-dh.github.io/website-media/files/news/TextAnalysisDoodle.jpg
+hero_image: /media/news/TextAnalysisDoodle.jpg
 tags:
   - event
 abstract: |
@@ -21,7 +21,7 @@ Participants progressed at their own pace while we troubleshot error messages on
 
 Overall, we were pleased with the pace of the lesson and happy to have provided the first few steps in our participants’ longer journeys with text analysis and perhaps even programming generally.
 
-<img src="https://nyu-dh.github.io/website-media/files/news/TextAnalysisDoodle.jpg" style="max-height:350px" alt="illustration of speakers David Bering-Porter, Leif Weatherby, Claire Song, and Ryan Healey surrounded by keywords from their talks, by Jojo Karlin"/>
+<img src="/media/news/TextAnalysisDoodle.jpg" style="max-height:350px" alt="illustration of speakers David Bering-Porter, Leif Weatherby, Claire Song, and Ryan Healey surrounded by keywords from their talks, by Jojo Karlin"/>
 
 **Above:** Illustration by Jojo Karlin.
 

@@ -4,7 +4,7 @@ category: spotlight
 series: seed grant spotlight
 date: 2024-01-26
 author: Jo Suk
-hero_image: https://nyu-dh.github.io/website-media/files/projects/nlines.png
+hero_image: /media/projects/nlines.png
 tags:
   - seed_grants
 abstract: |
@@ -14,7 +14,7 @@ abstract: |
 <article class="message is-success mb-4" style="max-width:800px">
   <div class="message-body has-text-warning" markdown="1">
 
-  <img src="https://nyu-dh.github.io/website-media/files/people/perry.jpg" class="is-pulled-right circle-128" alt="portrait of David Perry"/>
+  <img src="/media/people/perry.jpg" class="is-pulled-right circle-128" alt="portrait of David Perry"/>
 
 The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). David Perry was selected for a 2022-2023 NYU DH Seed Grant for his project [n Lines & Changing](/projects/nlines/), an ongoing digital poetry project that emerged from Perry’s time living in Shanghai.
 

@@ -36,7 +36,7 @@ pis:
 - ayers
 - brain
 link: https://www.thinkingwithmoss.net/
-image: https://nyu-dh.github.io/website-media/files/projects/moss.jpg
+image: /media/projects/moss.jpg
 image_alt: illustration by Jo Suk
 order: '003'
 layout: project

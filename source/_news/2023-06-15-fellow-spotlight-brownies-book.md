@@ -3,7 +3,7 @@ title: Helen Stec on The Brownies' Book Archive
 category: spotlight
 series: graduate fellow spotlight
 date: 2023-06-15
-hero_image: https://nyu-dh.github.io/website-media/files/news/brownies-banner.jpg
+hero_image: /media/news/brownies-banner.jpg
 author: Jo Suk
 tags:
 - grad_fellows
@@ -13,7 +13,7 @@ abstract: |
 
 <article class="message is-success mb-4" style="max-width:800px">
   <div class="message-body has-text-warning">
-    <img src="https://nyu-dh.github.io/website-media/files/people/stec.jpg" class="is-pulled-right circle-128" alt="portrait of Helen Stec"/>
+    <img src="/media/people/stec.jpg" class="is-pulled-right circle-128" alt="portrait of Helen Stec"/>
 
     <p>The <a href="/news/graduate-fellow-spotlights/">DH Graduate Fellow Spotlights</a> highlight work supported by the <a href="/funding/grad-fellowships/">NYU DH Graduate Fellowship Program</a>.</p>
     <p class="mb-3">Below, 2022 fellow Helen Stec talks briefly about <i><a href="/projects/g2022stec/">The Brownies’ Book Archive</a></i>.</p>
@@ -28,5 +28,5 @@ For her Graduate Fellowship project, 2022 Fellow Helen Stec created a digital co
 Stec cites the help of NYU Data Services in the making of her project.
 
 <a href="https://helen.hosting.nyu.edu/browniesbookarchive/" target="_none">
-  <img src="https://nyu-dh.github.io/website-media/files/news/brownies_book_stec.jpeg" alt="The front cover of the January 1920 issue of The Brownies' Book."/>
+  <img src="/media/news/brownies_book_stec.jpeg" alt="The front cover of the January 1920 issue of The Brownies' Book."/>
 </a>

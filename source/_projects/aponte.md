@@ -18,7 +18,7 @@ abstract: 'José Antonio Aponte was a free man of color, carpenter, artist, and 
 pis:
 - ferrer
 link: https://aponte.hosting.nyu.edu/
-image: https://nyu-dh.github.io/website-media/files/projects/aponte.jpg
+image: /media/projects/aponte.jpg
 original_img: https://aponte.hosting.nyu.edu/wp-content/uploads/2016/07/003.jpg
 order: '029'
 layout: project

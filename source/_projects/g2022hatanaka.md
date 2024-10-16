@@ -28,7 +28,7 @@ abstract: 'This research project stems from provocations by abolitionist organiz
   City.'
 pis:
 - hatanaka
-image: https://nyu-dh.github.io/website-media/files/projects/g2022hatanaka.jpg
+image: /media/projects/g2022hatanaka.jpg
 order: '040'
 layout: project
 ---

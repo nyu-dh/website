@@ -17,7 +17,7 @@ abstract: 'This project asks how, when, and why people in the ancient world were
   benefactions, or priesthoods?'
 pis:
 - tsolakis
-image: https://nyu-dh.github.io/website-media/files/projects/Ehrendekrete.jpg
+image: /media/projects/Ehrendekrete.jpg
 original_img: Ehrendekrete.jpg
 order: '023'
 layout: project

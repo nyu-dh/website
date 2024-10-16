@@ -14,7 +14,7 @@ abstract: |-
   This project builds directly upon my dissertation on digital analyses of singing voice and speech, exploring the intersection of music, speech, sound recording, and statistical methods. The singing voice portion of this project will advance the field of musicology and demonstrate the potential for digital humanities methods in the field, while the speech portion of the project holds relevance for the technology industry, and highlights parallels between singing and speaking voices.
 pis:
 - georgieva
-image: https://nyu-dh.github.io/website-media/files/projects/g2024georgieva.png
+image: /media/projects/g2024georgieva.png
 original_img: https://drive.google.com/open?id=1p8-eBSdCUMAIfr7AUlCYnYkiw2b9YTof
 order: '064'
 layout: project

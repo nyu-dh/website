@@ -9,3 +9,4 @@ secrets*
 .DS_Store
 source/_data/.tmp
 .bundle
+website-media

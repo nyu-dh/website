@@ -29,7 +29,7 @@ abstract: 'Since 2020, the language surrounding transgender women in American me
   an interactive map of the compiled data online. '
 pis:
 - bliziotis
-image: https://nyu-dh.github.io/website-media/files/projects/g2024bliziotis.png
+image: /media/projects/g2024bliziotis.png
 original_img: https://drive.google.com/open?id=1nhcrYHFezvbPU6Kp-w7m9QUReXvXk24Y
 order: '062'
 layout: project

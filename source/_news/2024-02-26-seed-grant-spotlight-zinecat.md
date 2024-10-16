@@ -4,7 +4,7 @@ category: spotlight
 series: seed grant spotlight
 date: 2024-02-26
 author: Jo Suk
-hero_image: https://nyu-dh.github.io/website-media/files/projects/zinecat.png
+hero_image: /media/projects/zinecat.png
 tags:
   - seed_grants
 abstract: |
@@ -14,7 +14,7 @@ abstract: |
 <article class="message is-success mb-4" style="max-width:800px">
   <div class="message-body has-text-warning" markdown="1">
 
-  <img src="https://nyu-dh.github.io/website-media/files/people/kehoe.jpg" class="is-pulled-right circle-128" alt="portrait of Lauren Kehoe"/>
+  <img src="/media/people/kehoe.jpg" class="is-pulled-right circle-128" alt="portrait of Lauren Kehoe"/>
 
 The DH Seed Grant Spotlights highlight work supported by the [NYU DH Seed Grants](/funding/seed-grants). Lauren Kehoe and Jenna Freedman were selected for a 2021-2022 NYU DH Seed Grant for their project [The Zine Union Catalog (ZineCat)](https://digitalhumanities.nyu.edu/projects/zinecat/). This year, ZineCat earned a grant from NEH to continue expanding the catalog.
 

@@ -3,7 +3,7 @@ title: "NYU Digital Humanities Fall Welcome"
 category: announcement
 date: 2022-08-31
 author: Jojo Karlin
-hero_image: 'https://nyu-dh.github.io/website-media/files/news/DH_list_blast.png'
+hero_image: '/media/news/DH_list_blast.png'
 abstract: |
   A welcome letter to the NYU Digital Humanities list. 
 --- 

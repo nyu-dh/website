@@ -16,7 +16,7 @@ pis:
 - katz
 - dss
 link: https://sanger.hosting.nyu.edu/
-image: https://nyu-dh.github.io/website-media/files/projects/sanger.jpg
+image: /media/projects/sanger.jpg
 original_img: https://tile.loc.gov/storage-services/service/pnp/cph/3c30000/3c38000/3c38800/3c38888r.jpg
 order: '030'
 layout: project

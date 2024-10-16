@@ -29,7 +29,7 @@ limerick: |-
 pis:
 - beinart-smollan
 link: https://sajewishcookbooks.org.za/
-image: https://nyu-dh.github.io/website-media/files/projects/cookbooks.jpg
+image: /media/projects/cookbooks.jpg
 order: '009'
 layout: project
 ---

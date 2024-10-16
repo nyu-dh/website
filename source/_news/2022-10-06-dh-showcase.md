@@ -3,7 +3,7 @@ title: "2022 Digital Humanities Showcase: Standing Ovation"
 category: announcement
 date: 2022-10-06
 author: Jojo Karlin
-hero_image: https://nyu-dh.github.io/website-media/files/news/2022DHShowcase.jpg
+hero_image: /media/news/2022DHShowcase.jpg
 tags:
   - seed_grants
   - grad_fellows
@@ -17,4 +17,4 @@ Presentations from NYU DH Seed Grants and Digital Humanities Graduate Student Fe
 
 [Read project abstracts for 2022 and all past winners](/projects/).
 
-![Illustration of the 2022 Digital Humanities Showcase by Jojo Karlin](https://nyu-dh.github.io/website-media/files/news/2022DHShowcase.jpg)
+![Illustration of the 2022 Digital Humanities Showcase by Jojo Karlin](/media/news/2022DHShowcase.jpg)

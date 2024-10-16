@@ -21,7 +21,7 @@ abstract: This project will establish a website that showcases the finest writin
 pis:
 - jacobs
 link: https://prisoneducation.nyu.edu
-image: https://nyu-dh.github.io/website-media/files/projects/pep.jpg
+image: /media/projects/pep.jpg
 original_img: https://prisoneducation.nyu.edu/wp-content/uploads/2017/07/DSC_0418-1-250x250.jpg
 order: '014'
 layout: project

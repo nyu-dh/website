@@ -3,7 +3,7 @@ title: "Applications Open Until March 3rd for 2024 DH Seed Grants & Graduate Fel
 category: announcement
 date: 2023-12-15
 author: Jojo Karlin
-hero_image: https://nyu-dh.github.io/website-media/files/news/SeedGrantHands.jpg
+hero_image: /media/news/SeedGrantHands.jpg
 tags:
   - seed_grants
   - grad_fellows

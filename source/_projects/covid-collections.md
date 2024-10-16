@@ -34,7 +34,7 @@ pis:
 - noonan
 - remes
 link: https://wp.nyu.edu/disasters/covid-collections-project/
-image: https://nyu-dh.github.io/website-media/files/projects/covid-collections.png
+image: /media/projects/covid-collections.png
 image_alt: illustration by Jo Suk
 order: '015'
 layout: project

@@ -4,7 +4,7 @@ category: spotlight
 series: graduate fellow spotlight
 date: 2023-06-21
 author: Jo Suk
-hero_image: https://nyu-dh.github.io/website-media/files/projects/g2021marshall.png
+hero_image: /media/projects/g2021marshall.png
 tags:
 - grad_fellows
 abstract: |
@@ -13,7 +13,7 @@ abstract: |
 
 <article class="message is-success mb-4" style="max-width:800px">
   <div class="message-body has-text-warning">
-    <img src="https://nyu-dh.github.io/website-media/files/people/marshall.jpg" class="is-pulled-right circle-128" alt="portrait of Jubilee Marshall"/>
+    <img src="/media/people/marshall.jpg" class="is-pulled-right circle-128" alt="portrait of Jubilee Marshall"/>
 
     <p>The <a href="/news/graduate-fellow-spotlights/">DH Graduate Fellow Spotlights</a> highlight work supported by the <a href="/funding/grad-fellowships/">NYU DH Graduate Fellowship Program</a>.</p>
     <p class="mb-3">Below, 2021 fellow Jubilee Marshall talks briefly about <i><a href="/projects/g2021marshall/">Black Burials in Philadelphia: A Walking Tour</a></i>.</p>

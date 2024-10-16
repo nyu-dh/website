@@ -30,7 +30,7 @@ pis:
 - schellmann
 - sloane
 link: https://www.gumshoex.org/
-image: https://nyu-dh.github.io/website-media/files/projects/hiring-ai.jpg
+image: /media/projects/hiring-ai.jpg
 order: '004'
 layout: project
 ---

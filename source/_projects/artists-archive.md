@@ -17,7 +17,7 @@ pis:
 - martin
 - engel
 link: https://artistarchives.hosting.nyu.edu/projects/ 
-image: https://nyu-dh.github.io/website-media/files/projects/artists-archive.jpg
+image: /media/projects/artists-archive.jpg
 order: '028'
 layout: project
 ---

@@ -7,7 +7,7 @@ location: Zoom
 startTime: 3:00pm EST
 endTime: 4:25pm EST
 author: Jo Suk
-hero_image: https://nyu-dh.github.io/website-media/files/news/20240313-AIandDH-DigitalTheoryLab.jpg
+hero_image: /media/news/20240313-AIandDH-DigitalTheoryLab.jpg
 tags:
   - ai
   - seminar
@@ -25,6 +25,6 @@ Led by Leif Weatherby and formerly Zach Coble, Digital Theory Lab has been inter
 
 You can view a recording of the event on [NYU Stream](https://stream.nyu.edu/media/t/1_biun5t5q).
 
-<img src="https://nyu-dh.github.io/website-media/files/news/20240313-AIandDH-DigitalTheoryLab.jpg" style="max-height:350px" alt="illustration of speakers David Bering-Porter, Leif Weatherby, Claire Song, and Ryan Healey surrounded by keywords from their talks, by Jojo Karlin"/>
+<img src="/media/news/20240313-AIandDH-DigitalTheoryLab.jpg" style="max-height:350px" alt="illustration of speakers David Bering-Porter, Leif Weatherby, Claire Song, and Ryan Healey surrounded by keywords from their talks, by Jojo Karlin"/>
 
 **Above:** Illustration by Jojo Karlin.

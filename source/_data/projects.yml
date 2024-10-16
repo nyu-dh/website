@@ -32,7 +32,7 @@
   - augst
   - wolf
   link: https://brownbros.newyorkscapes.org/
-  image: https://nyu-dh.github.io/website-media/files/projects/brown.jpg
+  image: /media/projects/brown.jpg
   original_img: https://newyorkscapes.org/wp-content/uploads/2021/03/018.57733030.117d9410-dc97-0136-03f0-000d5d842228-edited-768x768.jpeg
   order: '000'
 - pid: digital-theory-lab
@@ -57,7 +57,7 @@
   - weatherby
   - coble
   link: https://hlabs.nyuhumanities.org/digital-theory/
-  image: https://nyu-dh.github.io/website-media/files/projects/digital-theory.jpg
+  image: /media/projects/digital-theory.jpg
   order: '001'
 - pid: migrants-state
   done: true
@@ -103,7 +103,7 @@
   - provo
   - zehngut-willits
   - freire
-  image: https://nyu-dh.github.io/website-media/files/projects/g2021zehngut-willits.png
+  image: /media/projects/g2021zehngut-willits.png
   order: '002'
 - pid: moss
   done: true
@@ -143,7 +143,7 @@
   - ayers
   - brain
   link: https://www.thinkingwithmoss.net/
-  image: https://nyu-dh.github.io/website-media/files/projects/moss.jpg
+  image: /media/projects/moss.jpg
   image_alt: illustration by Jo Suk
   order: '003'
 - pid: hiring-ai
@@ -177,7 +177,7 @@
   - schellmann
   - sloane
   link: https://www.gumshoex.org/
-  image: https://nyu-dh.github.io/website-media/files/projects/hiring-ai.jpg
+  image: /media/projects/hiring-ai.jpg
   order: '004'
 - pid: slave-insurance
   done: true
@@ -215,7 +215,7 @@
     for Howard."
   pis:
   - ralph
-  image: https://nyu-dh.github.io/website-media/files/projects/slave-insurance.jpg
+  image: /media/projects/slave-insurance.jpg
   original_img: https://www.nyu.edu/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/digital-humanities-seed-grants/jcr:content/1/par-left/nyuimage.img.1280.high.jpg/1647273514669.jpg
   order: '005'
 - pid: soul-of-reason
@@ -247,7 +247,7 @@
   - nyrop
   - provo
   link: https://specialcollections.hosting.nyu.edu/projects/soul-of-reason/
-  image: https://nyu-dh.github.io/website-media/files/projects/soul-of-reason.jpg
+  image: /media/projects/soul-of-reason.jpg
   original_img: https://nyu-dss.github.io/soul-of-reason/images/uploads/roscoe-brown-IAAA.jpg
   order: '006'
 - pid: biblio-politica
@@ -272,7 +272,7 @@
   pis:
   - belantara
   - nyrop
-  image: https://nyu-dh.github.io/website-media/files/projects/bibliopolitica.png
+  image: /media/projects/bibliopolitica.png
   order: '007'
 - pid: soviet-sphere
   done: true
@@ -304,7 +304,7 @@
   pis:
   - vinkour
   link: https://www.postsoviet90s.com/
-  image: https://nyu-dh.github.io/website-media/files/projects/soviet-sphere.jpg
+  image: /media/projects/soviet-sphere.jpg
   original_img: https://images.squarespace-cdn.com/content/v1/59836ba83e00be476e5686a5/1501801511310-OM7GCIPWGCYXIJXIPG8E/image-asset.jpeg?format=1500w
   order: '008'
 - pid: jewish-cookbooks
@@ -337,7 +337,7 @@
   pis:
   - beinart-smollan
   link: https://sajewishcookbooks.org.za/
-  image: https://nyu-dh.github.io/website-media/files/projects/cookbooks.jpg
+  image: /media/projects/cookbooks.jpg
   order: '009'
 - pid: wikimedians
   done: true
@@ -356,7 +356,7 @@
   - karlin
   - kehoe
   link: https://guides.nyu.edu/wikimedia-toolkit
-  image: https://nyu-dh.github.io/website-media/files/projects/wikimedians.jpg
+  image: /media/projects/wikimedians.jpg
   order: '010'
 - pid: occupy
   done: true
@@ -389,7 +389,7 @@
   pis:
   - nyrop
   link: https://specialcollections.hosting.nyu.edu/exhibitions/occupy/
-  image: https://nyu-dh.github.io/website-media/files/projects/occupy.jpg
+  image: /media/projects/occupy.jpg
   original_img: https://image1.dlib.nyu.edu:8183/iiif/2/photo%2Ftamwag_tam630_cuid34928%2Ftamwag_tam630_cuid34928_n000001_d.jp2/full/800,/0/default.jpg
   order: '011'
 - pid: archcus
@@ -417,7 +417,7 @@
   pis:
   - cabrera-arus
   link: https://archcus.org/
-  image: https://nyu-dh.github.io/website-media/files/projects/archcus.png
+  image: /media/projects/archcus.png
   order: '012'
 - pid: zinecat
   done: true
@@ -453,7 +453,7 @@
   pis:
   - kehoe
   link: https://zinecat.org/
-  image: https://nyu-dh.github.io/website-media/files/projects/zinecat.png
+  image: /media/projects/zinecat.png
   original_img: https://i.ibb.co/x61zxDL/Welcome-to-the-Zine-Union-Catalog-1.png
   order: '013'
 - pid: pep
@@ -478,7 +478,7 @@
   pis:
   - jacobs
   link: https://prisoneducation.nyu.edu
-  image: https://nyu-dh.github.io/website-media/files/projects/pep.jpg
+  image: /media/projects/pep.jpg
   original_img: https://prisoneducation.nyu.edu/wp-content/uploads/2017/07/DSC_0418-1-250x250.jpg
   order: '014'
 - pid: covid-collections
@@ -516,7 +516,7 @@
   - noonan
   - remes
   link: https://wp.nyu.edu/disasters/covid-collections-project/
-  image: https://nyu-dh.github.io/website-media/files/projects/covid-collections.png
+  image: /media/projects/covid-collections.png
   image_alt: illustration by Jo Suk
   order: '015'
 - pid: dental-tools
@@ -541,7 +541,7 @@
   pis:
   - spielman
   link: https://dental.nyu.edu/aboutus/rare-book-collection/virtual-museum.html
-  image: https://nyu-dh.github.io/website-media/files/projects/dental-tools.png
+  image: /media/projects/dental-tools.png
   original_img: https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum/jcr:content/1/par-left/nyuimage.img.1280.high.png/1668129726277.png
   order: '016'
 - pid: g2021smith
@@ -595,7 +595,7 @@
   pis:
   - marshall
   link: https://jubilee.hosting.nyu.edu/wordpress/home/
-  image: https://nyu-dh.github.io/website-media/files/projects/g2021marshall.png
+  image: /media/projects/g2021marshall.png
   order: '018'
 - pid: g2021ozkiral
   done: true
@@ -647,7 +647,7 @@
     and evolution.
   pis:
   - zehngut-willits
-  image: https://nyu-dh.github.io/website-media/files/projects/g2021zehngut-willits.png
+  image: /media/projects/g2021zehngut-willits.png
   original_img: https://www.mercurynews.com/wp-content/uploads/2016/08/20120517__alienfil1.jpg?w=400
   order: '020'
 - pid: g2021petiwala
@@ -713,7 +713,7 @@
     by means of endowments, benefactions, or priesthoods?'
   pis:
   - tsolakis
-  image: https://nyu-dh.github.io/website-media/files/projects/Ehrendekrete.jpg
+  image: /media/projects/Ehrendekrete.jpg
   original_img: Ehrendekrete.jpg
   order: '023'
 - pid: g2021joslyn
@@ -802,7 +802,7 @@
   pis:
   - wolf
   - augst
-  image: https://nyu-dh.github.io/website-media/files/projects/nyscapes.jpg
+  image: /media/projects/nyscapes.jpg
   original_img: https://newyorkscapes.org/wp-content/uploads/2017/03/nypl.digitalcollections.510d47d9-4f4a-a3d9-e040-e00a18064a99.001.g-e1499967503198.jpg
   order: '027'
 - pid: artists-archive
@@ -823,7 +823,7 @@
   - martin
   - engel
   link: https://artistarchives.hosting.nyu.edu/projects/ 
-  image: https://nyu-dh.github.io/website-media/files/projects/artists-archive.jpg
+  image: /media/projects/artists-archive.jpg
   order: '028'
 - pid: aponte
   done: true
@@ -845,7 +845,7 @@
   pis:
   - ferrer
   link: https://aponte.hosting.nyu.edu/
-  image: https://nyu-dh.github.io/website-media/files/projects/aponte.jpg
+  image: /media/projects/aponte.jpg
   original_img: https://aponte.hosting.nyu.edu/wp-content/uploads/2016/07/003.jpg
   order: '029'
 - pid: sanger
@@ -865,7 +865,7 @@
   - katz
   - dss
   link: https://sanger.hosting.nyu.edu/
-  image: https://nyu-dh.github.io/website-media/files/projects/sanger.jpg
+  image: /media/projects/sanger.jpg
   original_img: https://tile.loc.gov/storage-services/service/pnp/cph/3c30000/3c38000/3c38800/3c38888r.jpg
   order: '030'
 - pid: wax
@@ -883,7 +883,7 @@
   pis:
   - nyrop
   link: https://minicomp.github.io/wax/
-  image: https://nyu-dh.github.io/website-media/files/projects/wax.png
+  image: /media/projects/wax.png
   original_img: https://minicomp.github.io/wax/img/logo.png
   order: '031'
 - pid: directories
@@ -903,7 +903,7 @@
   pis:
   - wolf
   link: https://archive.nyu.edu/handle/2451/61521
-  image: https://nyu-dh.github.io/website-media/files/projects/directories.jpg
+  image: /media/projects/directories.jpg
   original_img: https://iiif-prod.nypl.org/index.php?id=57275760&t=w
   order: '032'
 - pid: g2022chenel
@@ -937,7 +937,7 @@
   pis:
   - chenel
   link: https://lynnchenel.com/dopu/
-  image: https://nyu-dh.github.io/website-media/files/projects/g2022chenel.png
+  image: /media/projects/g2022chenel.png
   original_img: https://drive.google.com/file/d/1-rWnlcFgDDdnKeQjKeKVevOKgtUG0TtJ/view
   order: '033'
 - pid: g2022caomhanach
@@ -972,7 +972,7 @@
   pis:
   - caomhanach
   link: https://niche-canada.org/2023/05/19/digitizing-death-the-botanical-collections-of-madagascar-and-the-race-to-document-life/
-  image: https://nyu-dh.github.io/website-media/files/projects/g2022caomhanach.jpg
+  image: /media/projects/g2022caomhanach.jpg
   original_img: https://upload.wikimedia.org/wikipedia/commons/e/e5/Avenue_of_Baobabs%2C_Madagascar_%2822558139260%29.jpg
   order: '034'
 - pid: g2022stec
@@ -1007,7 +1007,7 @@
   pis:
   - stec
   link: https://helen.hosting.nyu.edu/browniesbookarchive/exhibits/show/intro/intro
-  image: https://nyu-dh.github.io/website-media/files/projects/g2022stec.jpg
+  image: /media/projects/g2022stec.jpg
   original_img: https://helen.hosting.nyu.edu/browniesbookarchive/items/show/12#lg=1&slide=0
   order: '035'
 - pid: g2022stuhler
@@ -1036,7 +1036,7 @@
   pis:
   - stuhler
   link: https://journals.sagepub.com/doi/abs/10.1177/00491241221099551?journalCode=smra
-  image: https://nyu-dh.github.io/website-media/files/projects/g2022stuhler.png
+  image: /media/projects/g2022stuhler.png
   original_img: https://i0.wp.com/oscarstuhler.org/wp-content/uploads/2022/04/Plot_website-2.png?w=1800&ssl=1
   order: '036'
 - pid: g2022binyamini
@@ -1087,7 +1087,7 @@
   pis:
   - rosenberg
   link: https://allegrarosenberg.notion.site/9d3c4db5a6f743668405ef7166729358?v=25c9bbaa820c4542b8e1a6278f5ec7c7
-  image: https://nyu-dh.github.io/website-media/files/projects/g2022rosenberg.jpg
+  image: /media/projects/g2022rosenberg.jpg
   original_img: https://drive.google.com/open?id=1LTE_WVB4tJRsS077H75CzscQvEL69S3k
   order: '038'
 - pid: g2022musto
@@ -1122,7 +1122,7 @@
   pis:
   - musto
   link: https://www.nusus.net/
-  image: https://nyu-dh.github.io/website-media/files/projects/g2022musto.jpg
+  image: /media/projects/g2022musto.jpg
   original_img: https://www.nusus.net/static/img/header.jpeg
   order: '039'
 - pid: g2022hatanaka
@@ -1154,7 +1154,7 @@
     in New York City.'
   pis:
   - hatanaka
-  image: https://nyu-dh.github.io/website-media/files/projects/g2022hatanaka.jpg
+  image: /media/projects/g2022hatanaka.jpg
   order: '040'
 - pid: errant-americas
   done: true
@@ -1293,7 +1293,7 @@
   - flouty
   - kapp
   link: https://wp.nyu.edu/artsampscience-historicfractures/
-  image: https://nyu-dh.github.io/website-media/files/projects/historic-fractures.jpg
+  image: /media/projects/historic-fractures.jpg
   original_img: https://s18798.pcdn.co/artsampscience-historicfractures/wp-content/uploads/sites/26462/2023/05/IMG_4975-768x1024.jpg
   order: '045'
 - pid: g2022zohar
@@ -1327,7 +1327,7 @@
     and Third Worldist thought.'
   pis:
   - zohar
-  image: https://nyu-dh.github.io/website-media/files/projects/g2022zohar.jpg
+  image: /media/projects/g2022zohar.jpg
   original_img: https://drive.google.com/open?id=1pSYt5Rw1FCpnVOQTXtQcqcyhvZGZuQoS
   order: '046'
 - pid: g2022deniz
@@ -1359,7 +1359,7 @@
     religious and urban history of the Ottoman Empire.'
   pis:
   - deniz
-  image: https://nyu-dh.github.io/website-media/files/projects/g2022deniz.png
+  image: /media/projects/g2022deniz.png
   original_img: https://drive.google.com/open?id=1juRqvI0mL2_xENMYVjeWClCKYr8OyeQZ
   order: '047'
 - pid: disability-social-media
@@ -1386,7 +1386,7 @@
   - mills
   - kornstein
   link: https://disabilitycovidchronicles.nyu.edu/fieldnotes/
-  image: https://nyu-dh.github.io/website-media/files/projects/disability.jpg
+  image: /media/projects/disability.jpg
   order: '048'
 - pid: mutun
   done: true
@@ -1537,7 +1537,7 @@
     in the Western Amazon.
   pis:
   - octavio-orsag
-  image: https://nyu-dh.github.io/website-media/files/projects/g2023orsag.jpg
+  image: /media/projects/g2023orsag.jpg
   order: '053'
 - pid: g2023dang
   done: true
@@ -1759,7 +1759,7 @@
   pis:
   - appert
   link: https://globalimages.liberalstudies.hosting.nyu.edu/
-  image: https://nyu-dh.github.io/website-media/files/projects/gig.png
+  image: /media/projects/gig.png
   order: '061'
 - pid: g2024bliziotis
   done: true
@@ -1791,7 +1791,7 @@
     organized transmisogyny, hosting an interactive map of the compiled data online. '
   pis:
   - bliziotis
-  image: https://nyu-dh.github.io/website-media/files/projects/g2024bliziotis.png
+  image: /media/projects/g2024bliziotis.png
   original_img: https://drive.google.com/open?id=1nhcrYHFezvbPU6Kp-w7m9QUReXvXk24Y
   order: '062'
 - pid: g2024joyner
@@ -1837,7 +1837,7 @@
     This project builds directly upon my dissertation on digital analyses of singing voice and speech, exploring the intersection of music, speech, sound recording, and statistical methods. The singing voice portion of this project will advance the field of musicology and demonstrate the potential for digital humanities methods in the field, while the speech portion of the project holds relevance for the technology industry, and highlights parallels between singing and speaking voices.
   pis:
   - georgieva
-  image: https://nyu-dh.github.io/website-media/files/projects/g2024georgieva.png
+  image: /media/projects/g2024georgieva.png
   original_img: https://drive.google.com/open?id=1p8-eBSdCUMAIfr7AUlCYnYkiw2b9YTof
   order: '064'
 - pid: g2024landry
@@ -1876,7 +1876,7 @@
     for granted in U.S. archival descriptive practices."
   pis:
   - landry
-  image: https://nyu-dh.github.io/website-media/files/projects/g2024landry.jpg
+  image: /media/projects/g2024landry.jpg
   original_img: https://drive.google.com/file/d/1HAq0CA9uU2Khs6UcuwqjZuoZ9JbrBXzF/view
   order: '065'
 - pid: g2024almenara
@@ -1905,7 +1905,7 @@
     capitalist logics.
   pis:
   - almenara
-  image: https://nyu-dh.github.io/website-media/files/projects/g2024almenara.png
+  image: /media/projects/g2024almenara.png
   original_img: https://drive.google.com/file/d/18x8Q5oseah906D6ycAE8wxoohddeglj4/view
   order: '066'
 - pid: g2024veras
@@ -1964,7 +1964,7 @@
   pis:
   - whitley
   link: https://www.instagram.com/perspextive333
-  image: https://nyu-dh.github.io/website-media/files/projects/g2024whitley.png
+  image: /media/projects/g2024whitley.png
   original_img: https://drive.google.com/open?id=1a6aKuklnmbEZiZRGJcRxAEsnF0uEj13N
   order: '068'
 - pid: g2024hassein
@@ -2011,7 +2011,7 @@
     to my larger research project on the simulation of parent-child kinship.
   pis:
   - qu
-  image: https://nyu-dh.github.io/website-media/files/projects/g2024qu.png
+  image: /media/projects/g2024qu.png
   original_img: https://drive.google.com/open?id=1_YW-fI7xvBxapARFNenfASlWmzGZcQoq
   order: '070'
 - pid: g2024kulpa

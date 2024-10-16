@@ -23,7 +23,7 @@ abstract: "The Global Image Gallery project began as an affordability and inclus
 pis:
 - appert
 link: https://globalimages.liberalstudies.hosting.nyu.edu/
-image: https://nyu-dh.github.io/website-media/files/projects/gig.png
+image: /media/projects/gig.png
 order: '061'
 layout: project
 ---

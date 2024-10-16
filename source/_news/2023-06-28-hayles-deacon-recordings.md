@@ -18,7 +18,7 @@ Below are links to the video recordings, along with full descriptions of each ta
 - [A conversation with Terrence W. Deacon & N. Katherine Hayles moderated by Leif Weatherby](https://www.youtube.com/watch?v=Nj6m3vAUwEc) 
 
 
-![Illustration advertising the event, Signs of Artificial Life: A Symposium and Debate with N. Katherine Hayles and Terrence W. Deacon](https://nyu-dh.github.io/website-media/files/news/hayles-deacon.jpg)
+![Illustration advertising the event, Signs of Artificial Life: A Symposium and Debate with N. Katherine Hayles and Terrence W. Deacon](/media/news/hayles-deacon.jpg)
 
 
 [Inside the Mind of an AI: How to Read Machine-Generated Literature with N. Katherine Hayles](https://www.youtube.com/watch?v=ynN84pPcgEM)  

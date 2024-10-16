@@ -27,7 +27,7 @@ abstract: The Purple Perspective is a summer project that aims to build a digita
 pis:
 - whitley
 link: https://www.instagram.com/perspextive333
-image: https://nyu-dh.github.io/website-media/files/projects/g2024whitley.png
+image: /media/projects/g2024whitley.png
 original_img: https://drive.google.com/open?id=1a6aKuklnmbEZiZRGJcRxAEsnF0uEj13N
 order: '068'
 layout: project

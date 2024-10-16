@@ -43,7 +43,7 @@ pis:
 - provo
 - zehngut-willits
 - freire
-image: https://nyu-dh.github.io/website-media/files/projects/g2021zehngut-willits.png
+image: /media/projects/g2021zehngut-willits.png
 order: '002'
 layout: project
 ---

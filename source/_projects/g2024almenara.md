@@ -24,7 +24,7 @@ abstract: Yanacocha, named in Quechua after the “black” lake that formerly o
   discursive framing of “environmental protection” within neoliberal capitalist logics.
 pis:
 - almenara
-image: https://nyu-dh.github.io/website-media/files/projects/g2024almenara.png
+image: /media/projects/g2024almenara.png
 original_img: https://drive.google.com/file/d/18x8Q5oseah906D6ycAE8wxoohddeglj4/view
 order: '066'
 layout: project

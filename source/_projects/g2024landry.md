@@ -35,7 +35,7 @@ abstract: "‘Only your labels split me’: Finding Mestizaje in Archival Metada
   practices."
 pis:
 - landry
-image: https://nyu-dh.github.io/website-media/files/projects/g2024landry.jpg
+image: /media/projects/g2024landry.jpg
 original_img: https://drive.google.com/file/d/1HAq0CA9uU2Khs6UcuwqjZuoZ9JbrBXzF/view
 order: '065'
 layout: project

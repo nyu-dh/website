@@ -23,7 +23,7 @@ pis:
 - mills
 - kornstein
 link: https://disabilitycovidchronicles.nyu.edu/fieldnotes/
-image: https://nyu-dh.github.io/website-media/files/projects/disability.jpg
+image: /media/projects/disability.jpg
 order: '048'
 layout: project
 ---

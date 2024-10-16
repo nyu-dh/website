@@ -30,7 +30,7 @@ abstract: By the late twentieth century, conservation scientists declared that t
 pis:
 - caomhanach
 link: https://niche-canada.org/2023/05/19/digitizing-death-the-botanical-collections-of-madagascar-and-the-race-to-document-life/
-image: https://nyu-dh.github.io/website-media/files/projects/g2022caomhanach.jpg
+image: /media/projects/g2022caomhanach.jpg
 original_img: https://upload.wikimedia.org/wikipedia/commons/e/e5/Avenue_of_Baobabs%2C_Madagascar_%2822558139260%29.jpg
 order: '034'
 layout: project

@@ -21,7 +21,7 @@ abstract: Biblio-Política is a virtual exhibit that documents and shares the st
 pis:
 - belantara
 - nyrop
-image: https://nyu-dh.github.io/website-media/files/projects/bibliopolitica.png
+image: /media/projects/bibliopolitica.png
 order: '007'
 layout: project
 ---

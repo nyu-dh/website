@@ -3,7 +3,7 @@ title: "Mapping the Black Digital and Public Humanities"
 category: announcement
 date: 2023-11-06
 author: DSS Staff
-hero_image: https://nyu-dh.github.io/website-media/files/news/mapping-black-dh.png
+hero_image: /media/news/mapping-black-dh.png
 tags:
   - community
 abstract: |
@@ -22,4 +22,4 @@ We highly recommend exploring their map and database, where you'll find several 
 
 If you would like to add a project to the map, the Mapping the Black Digital and Public Humanities team provides a form on their [contact page](https://sites.lib.jmu.edu/mappingbdph/contact/). Let us know (dh.help at nyu dot edu) if you do!
 
-[![Screenshot from Mapping the Black Digital and Public Humanities](https://nyu-dh.github.io/website-media/files/news/mapping-black-dh.png)](https://sites.lib.jmu.edu/mappingbdph/)
+[![Screenshot from Mapping the Black Digital and Public Humanities](/media/news/mapping-black-dh.png)](https://sites.lib.jmu.edu/mappingbdph/)
