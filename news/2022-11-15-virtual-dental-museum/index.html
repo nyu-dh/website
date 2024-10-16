@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<!--class="has-navbar-fixed-top"-->
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="limerick" content="Welcome to the NYU DH Periphery / Out here things are rather slippery / We have great Initiative and a Center of thought / Come join our NYU DH Mystery
+">
+    <meta name="robots"   content="index, follow">
+
+    
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    
+
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/ico" href="https://digitalhumanities.nyu.edu/assets/favicon.ico"/>
+    <link rel="stylesheet" href="/assets/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <title>
+      
+        Virtual Dental Museum: Historical Artifacts Go Digital | New York University Digital Humanities
+      
+    </title>
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Virtual Dental Museum: Historical Artifacts Go Digital" />
+<meta name="author" content="NYU IT" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The following article was written by Claire Gu and was originally published in NYU IT’s The Download. It highlights Creating a Digital Museum of the History of Dentistry, a project funded by the NYU DH Seed Grants program." />
+<meta property="og:description" content="The following article was written by Claire Gu and was originally published in NYU IT’s The Download. It highlights Creating a Digital Museum of the History of Dentistry, a project funded by the NYU DH Seed Grants program." />
+<link rel="canonical" href="https://digitalhumanities.nyu.edu/news/2022-11-15-virtual-dental-museum/" />
+<meta property="og:url" content="https://digitalhumanities.nyu.edu/news/2022-11-15-virtual-dental-museum/" />
+<meta property="og:site_name" content="New York University Digital Humanities" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-10-31T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Virtual Dental Museum: Historical Artifacts Go Digital" />
+<meta name="twitter:site" content="@nyu_dh" />
+<meta name="twitter:creator" content="@NYU IT" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"NYU IT"},"dateModified":"2022-10-31T00:00:00+00:00","datePublished":"2022-10-31T00:00:00+00:00","description":"The following article was written by Claire Gu and was originally published in NYU IT’s The Download. It highlights Creating a Digital Museum of the History of Dentistry, a project funded by the NYU DH Seed Grants program.","headline":"Virtual Dental Museum: Historical Artifacts Go Digital","mainEntityOfPage":{"@type":"WebPage","@id":"https://digitalhumanities.nyu.edu/news/2022-11-15-virtual-dental-museum/"},"url":"https://digitalhumanities.nyu.edu/news/2022-11-15-virtual-dental-museum/"}</script>
+<!-- End Jekyll SEO tag -->
+<meta property="og:image" content="https://digitalhumanities.nyu.edu/assets/og_image.jpg" />
+    <meta name="twitter:image" content="https://digitalhumanities.nyu.edu/assets/og_image.jpg">
+    <meta name="description" content="The NYU DH community advances humanities inquiry by supporting innovative research methods, offering training and project funding, and centering public engagement. 
+"/>
+    <meta property="og:description" content="The NYU DH community advances humanities inquiry by supporting innovative research methods, offering training and project funding, and centering public engagement. 
+" />
+    <meta name="twitter:description" content="The NYU DH community advances humanities inquiry by supporting innovative research methods, offering training and project funding, and centering public engagement. 
+">
+<script async src="https://www.googletagmanager.com/gtag/js?G-R2JKDFQRDJ"></script>
+<script>
+  console.log("i'm running ga4");
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-R2JKDFQRDJ');
+</script>
+<!-- head scripts -->
+<script src="/assets/js/splide.min.js"></script></head>
+<body><nav class="navbar is-black is-spaced py-0 is-hidden-mobile">
+  <div class="container" style="display:flex;justify-content:left;align-items:center;flex-wrap:wrap;">
+    <a class="logo" href="https://nyu.edu" target="_blank">
+      <img src="https://digitalhumanities.nyu.edu/assets/logo.png" alt="NYU Torch Logo" style="height:1rem;margin-top:.4rem;">
+    </a>
+    
+      
+      <span class="unit-item is-size-7">
+        &nbsp;&nbsp;|&nbsp;
+        <a class="has-text-white" href="https://library.nyu.edu/" target="_blank">LIBRARIES</a>
+      </span>
+      
+      <span class="unit-item is-size-7">
+        &nbsp;&nbsp;|&nbsp;
+        <a class="has-text-white" href="https://www.nyu.edu/life/information-technology.html" target="_blank">INFORMATION TECHNOLOGY</a>
+      </span>
+      
+      <span class="unit-item is-size-7">
+        &nbsp;&nbsp;|&nbsp;
+        <a class="has-text-white" href="https://nyuhumanities.org/" target="_blank">CENTER FOR THE HUMANITIES</a>
+      </span>
+      
+      <span class="unit-item is-size-7">
+        &nbsp;&nbsp;|&nbsp;
+        <a class="has-text-white" href="https://cas.nyu.edu/" target="_blank">ARTS & SCIENCE</a>
+      </span>
+      
+    
+  </div>
+</nav>
+
+<section class="hero is-info has-text-white" style="
+  background-image: url('https://nyu-dh.github.io/website-media/files/projects/dental-tools.png');
+  background-color: #260326;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: bottom center;
+  background-attachment: fixed;
+">
+  <div class="hero-head">
+    <nav class="navbar is-spaced is-info" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a href="https://digitalhumanities.nyu.edu/" class="navbar-item title is-size-4 is-family-secondary">
+          <img class="is-hidden-tablet pr-2" src="https://digitalhumanities.nyu.edu/assets/logo-torch-only.png" alt="NYU Torch Logo">
+          NYU DH
+        </a>
+        <span class="navbar-burger has-text-white" data-target="navbar" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div class="navbar-menu">
+  
+        <div class="navbar-end">
+          
+            
+              
+              <a href="/news" class="navbar-item is-size-6">News + Events</a>
+              
+            
+              
+              <div class="navbar-item is-size-6 has-dropdown is-hoverable">
+                <span class="navbar-link group-header">Community</span>
+                <div class="navbar-dropdown has-background-info">
+                  
+                  <a href="/community/"  class="navbar-item">
+                    Get Involved
+                     
+                  </a>
+                  
+                  <a href="/community/potlucks"  class="navbar-item">
+                    DH Potlucks
+                     
+                  </a>
+                  
+                  <a href="/people"  class="navbar-item">
+                    People
+                     
+                  </a>
+                  
+                </div>
+              </div>
+              
+            
+              
+              <div class="navbar-item is-size-6 has-dropdown is-hoverable">
+                <span class="navbar-link group-header">Curriculum</span>
+                <div class="navbar-dropdown has-background-info">
+                  
+                  <a href="https://as.nyu.edu/departments/dh.html" target="_blank" class="navbar-item">
+                    GSAS Advanced Certificate in DH
+                    &nbsp;<span class="material-symbols-outlined">&#xf8ce;</span> 
+                  </a>
+                  
+                  <a href="/curriculum/courses"  class="navbar-item">
+                    Relevant Courses
+                     
+                  </a>
+                  
+                </div>
+              </div>
+              
+            
+              
+              <div class="navbar-item is-size-6 has-dropdown is-hoverable">
+                <span class="navbar-link group-header">Funding</span>
+                <div class="navbar-dropdown has-background-info">
+                  
+                  <a href="/funding/seed-grants"  class="navbar-item">
+                    NYU DH Seed Grants
+                     
+                  </a>
+                  
+                  <a href="/funding/grad-fellowships"  class="navbar-item">
+                    NYU DH Graduate Fellowships
+                     
+                  </a>
+                  
+                </div>
+              </div>
+              
+            
+              
+              <div class="navbar-item is-size-6 has-dropdown is-hoverable">
+                <span class="navbar-link group-header">Explore</span>
+                <div class="navbar-dropdown has-background-info">
+                  
+                  <a href="/projects"  class="navbar-item">
+                    Projects
+                     
+                  </a>
+                  
+                  <a href="/people"  class="navbar-item">
+                    People
+                     
+                  </a>
+                  
+                  <a href="/curriculum/courses"  class="navbar-item">
+                    Courses
+                     
+                  </a>
+                  
+                  <a href="/resources"  class="navbar-item">
+                    Resources
+                     
+                  </a>
+                  
+                </div>
+              </div>
+              
+            
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>  
+  <div class="hero-body">
+    
+<nav class="breadcrumb" aria-label="breadcrumbs">
+  <div class="container">
+    <ul>
+      <li><a href="https://digitalhumanities.nyu.edu/">Home</a></li>
+      
+      
+      <li><a href="https://digitalhumanities.nyu.edu/news">News + Events</a></li>
+      
+      <li></li>
+    </ul>
+  </div>
+</nav>
+
+
+    <div class="container">
+      <div class="columns">
+        
+          
+            <div class="column">
+  <div class="content">
+    <h1 class="title pb-2">
+      Virtual Dental Museum: Historical Artifacts Go Digital
+    </h1>
+    <p class="subtitle">Highlights from an NYU DH seed grant project led by Dr. Andrew Spielman.
+</p>
+    
+
+  </div>
+</div>
+
+<div class="column is-narrow">
+  <p class="is-size-6 mb-0">
+    <span class="material-symbols-outlined has-text-weight-light">&#xea3e;</span>  10/31/2022
+  </p>
+  <p class="is-size-6 mb-0">
+    <span class="material-symbols-outlined has-text-weight-light">&#xe853;</span>&nbsp;
+    NYU IT
+    
+  </p>
+</div>
+
+          
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+<div class="section">
+      <div class="container">
+        <div class="content mb-6">
+          <div class="post">
+  <p><strong>The following article was written by Claire Gu and was originally published in NYU IT’s <em><a href="https://www.nyu.edu/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum.html?utm_source=newsletter&amp;utm_medium=email&amp;utm_content=Virtual%20Dental%20Museum%3A%20Historical%20Artifacts%20Go%20Digital&amp;utm_campaign=thedownload">The Download</a></em>. It highlights <em><a href="/projects/dental-tools/">Creating a Digital Museum of the History of Dentistry</a></em>, a project funded by the <a href="/funding/seed-grants/">NYU DH Seed Grants program</a>.</strong></p>
+
+<p><strong>You can get more great news from NYU IT by subscribing to <a href="https://app.e2ma.net/app2/audience/signup/1918534/1914519.1158210199/">their feed</a>.</strong></p>
+
+<hr />
+<div class="columns">
+  <div class="column is-half">
+    <figure style="height: 100%;">
+      <img src="https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum/jcr:content/1/par-left/nyuimage_968153594.img.1280.high.jpg/1668103416938.jpg" alt="High resolution scans of two antique bottles of dubious dental medicine" />
+      <figcaption style="font-size:.8rem;line-height:1rem;">High resolution scans of two antique bottles of dubious dental medicine</figcaption>
+    </figure>
+  </div>
+  
+</div>
+
+<h2 id="history-in-a-patent-medicine-bottle">History in a Patent Medicine Bottle</h2>
+
+<p>Fear of the dentist is one of the most common phobias among people of all ages, despite the fact that modern dental techniques and treatments are far more gentle than in the past. Dentistry has a surprisingly long history, with archaeological records dating back some 14,000 years (though you might not want to visit a circa 7,000 B.C. dentist); however, it didn’t become a more defined profession <a href="https://www.adea.org/GoDental/Health_Professions_Advisors/History_of_Dentistry.aspx">until the 1700s</a>. With such a long history, including its archaeological record, dentistry has produced a lot of artifacts. For the past two years, <a href="https://dental.nyu.edu/faculty/ft/ais1.html">Andrew Spielman</a>, DMD, MS, PhD, a professor of molecular pathobiology and the director of the Rare Book Library and Historical Archives at NYU’s <a href="https://dental.nyu.edu/">College of Dentistry</a> has been working with LaGuardia Studio to develop a <a href="https://dental.nyu.edu/aboutus/rare-book-collection/virtual-museum.html">virtual museum</a> that bring to life the Library’s growing collection of treasures from the history of dentistry, currently spanning from 1600 to the early 1900s.</p>
+
+<p>The foundation of the virtual dental museum came from two collections of historical artifacts: one of dental instruments from the 17th and 18th century that Dr. Spielman inherited from Bobst Library, and another composed of vintage bottles and containers of patent medicine that were commonly prescribed by dentists in the past.</p>
+
+<p>“When the dental school joined, NYU in 1925, they transferred a whole set of documents and boxes full of items,” says Dr. Spielman. “Many of them were from the 17th and 18th century, and they were just sitting there when I started to work on the history of the NYU College of Dentistry. They called me and said, ‘Do you want these instruments?’ I said sure, and so they ended up in my office.”</p>
+
+<p>Regarding the collection of patent medicine bottles, Dr. Spielman explains that a former student approached him with a collection of bottles of such “medicine” and asked if he would like to add it to the growing collection.</p>
+
+<p>“We found it so intriguing, because some of these again have [what are] now controlled substances in them, like morphine, heroin, opium. Others claim to have magnetic and electric properties. It was just a free- for- all.”</p>
+
+<p>Since acquiring these artifacts, Dr. Spielman had been searching for ways to make them available to the public. Because this effort intersected with the onset of the COVID-19 pandemic, one of Dr. Spielman’s considerations were reducing person-to-person contact in museum visiting while maintaining the educational and inspiring experience. Dr.Spielman began thinking about creating a virtual museum, which would enable viewers from across the globe to digitally explore the collection. To accomplish this, he approached the 3D scanning, content development, and post-production experts at NYU LaGuardia Studio.
+High resolution scan of an antique tongue depressor</p>
+
+<div class="columns">
+  <div class="column is-half">
+    <figure style="height: 100%;">
+      <img src="https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum/jcr:content/1/par-left/nyucolumncontrol/1/nyuimage.img.1280.high.jpg/1668103699617.jpg" alt="H3D scan of a mouth opener and tongue depressor - c. 1940. From the VR Dental Museum website." />
+      <figcaption style="font-size:.8rem;line-height:1rem;">H3D scan of a mouth opener and tongue depressor - c. 1940. From the VR Dental Museum website.</figcaption>
+    </figure>
+  </div>
+  
+  <div class="column is-half">
+    <figure style="height: 100%;">
+      <img src="https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum/jcr:content/1/par-left/nyucolumncontrol/2/nyuimage.img.1280.high.jpg/1668103733115.jpg" alt="Three stages of creating a 3D scan of a tooth extractor: raw scan data, refined image, and final VR object." />
+      <figcaption style="font-size:.8rem;line-height:1rem;">Three stages of creating a 3D scan of a tooth extractor: raw scan data, refined image, and final VR object.</figcaption>
+    </figure>
+  </div>
+  
+</div>
+
+<h2 id="from-idea-to-grant">From Idea to Grant</h2>
+
+<p>The LaGuardia Studio team recommended Dr. Spielman to apply for <a href="/funding/seed-grants/">Digital Humanities Seed Grants</a> that aim at supporting the development of “new research projects that analyze digital sources, apply algorithmic methods to humanities data, or create digital publications, exhibits, or websites.” These grants are intended to seed projects that contribute to the emerging subfield of Global Digital Humanities and power them to achieve more future fundings from other sources. Dr. Spielman and LaGuardia Studio worked together to craft the application and were awarded a grant for the initial development of the dental museum project.</p>
+
+<p>The virtual dental museum is now online with dental tools, oral hygiene implements, and toothache patent medicine bottles scanned and rendered in 3D. They can be manipulated for full inspection on the museum’s website, and work is currently going on to create an immersive VR experience. Getting to this stage, however, took quite a bit of work.</p>
+
+<div class="columns">
+  <div class="column is-half">
+    <figure style="height: 100%;">
+      <img src="https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum/jcr:content/1/par-left/nyuimage_1833820906.img.1280.high.jpg/1668104469330.jpg" alt="3D scan of a bottle of vintage snake oil" />
+      <figcaption style="font-size:.8rem;line-height:1rem;">Sometimes, when they say "snake oil salesman" they mean it literally. So-called medicines such as Rattlesnake Bill's Linement were, as Dr. Spielman explains on the Dental Museum website, "peddled by unscrupulous druggists, adventurers, but mostly quacks."</figcaption>
+    </figure>
+  </div>
+  
+</div>
+
+<h2 id="overcoming-the-challenges-of-3d-scanning">Overcoming the Challenges of 3D Scanning</h2>
+
+<p>At LaGuardia Studio, Taylor Absher and Shentong Yu are the two 3D scanning experts that scanned Dr. Spielman’s dental historical artifacts. 3D scanning and photogrammetry (the extraction of three-dimensional measurements from two-dimensional data, such as a photograph) are far more accurate than human eyes in capturing a high level of detail. However, certain shapes and reflective surfaces can complicate the scanning process. To compensate, Absher and Yu leveraged a number of techniques to ensure a high imaging quality. In some cases, this meant using photogrammetry, rather than 3D scanning to capture data. This process, in which 2D photographs are used to build the detail in a 3D model, requires quite a bit of manual processing. For reflective and transparent surfaces, they used a temporary matting spray to coat the object and provide the scanner a more readily scannable surface.</p>
+
+<p>Another beneficial technique Absher and Yu employed during post-production is called decimation, which reduces the number of polygons in the 3D mesh that is obtained when scanning an object. This process significantly shortens the processing time without sacrificing detail.</p>
+
+<p>Scanning an item is only part of the process to attaining a high-resolution final digital artifact. Although 3d scanning technology has progressed in leaps and bounds over the past decade, raw scanning data still requires a substantial amount of manual refinement. Working in software such as ZBrush, Absher and Yu and able to revise scanned data and repair any discrepancies in color and shape (although complex shapes are a challenge, Absher points out that symmetrical objects can be even more difficult) in order to ensure the finished product is as exact a digital copy of the physical item as can be achieved. This often involves hours of meticulous attention to detail that takes substantially longer than the actual scanning process. There is no automated process for this step. It is dependent entirely on the skill and digital artistry of the experts at LaGuardia Studio.</p>
+
+<p>Once finished, the Studio had produced for Dr. Spielman a collection of highly-detailed, full-color 3D scans that were then placed on the museum website, accompanied by extensive notes provided by Dr. Spielman on the purpose and history of each item. The images can be rotated 360 degrees by visitors to the museum site.</p>
+
+<p>Already having built an impressive resource for dental history, Dr. Spielman and LaGuardia Studio then began to wonder about ways to take it to the next level. That’s when they started thinking about an immersive virtual experience.</p>
+
+<div class="columns">
+  <div class="column is-half">
+    <figure style="height: 100%;">
+      <img src="https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum/jcr:content/1/par-left/nyucolumncontrol_cop_457985539/1/nyuimage.img.1280.high.jpg/1668104050862.jpg" alt="3D scan of a leather dentist's bag" />
+      <figcaption style="font-size:.8rem;line-height:1rem;">3D scan of a vintage dentist's bag, making use of optimization to reduce the number of polygons without sacrificing image detail. Two versions of a scan of a medicine bottle, showing the difference between raw and optimized data</figcaption>
+    </figure>
+  </div>
+  
+  <div class="column is-half">
+    <figure style="height: 100%;">
+      <img src="https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum/jcr:content/1/par-left/nyucolumncontrol_cop_457985539/2/nyuimage.img.1280.high.jpg/1668112122144.jpg" alt="“Dense mesh” obtained from a scan is optimized for VR. Final detail from 2D photography can then be added." />
+      <figcaption style="font-size:.8rem;line-height:1rem;">“Dense mesh” obtained from a scan is optimized for VR. Final detail from 2D photography can then be added.</figcaption>
+    </figure>
+  </div>
+  
+</div>
+
+<h2 id="a-virtual-victorian-dental-office">A Virtual Victorian Dental Office</h2>
+
+<p>For Dr. Spielman, the museum represents something of a full circle. Before entering his specialty of molecular pathobiology, he developed a passion for history. Dental history is vital in keeping track of the technologies that have enhanced both the scope and quality of dental care through the ages. As Dr. Spielman notes, “There’s a traumatic history behind dentistry, and if we want to show that there’s no anxiety associated with the care, to educate the public about how much has changed, and attract some individuals to the profession, we need to show what it is.”</p>
+
+<p>The LaGuardia Studio team is using a software that has been widely used in gaming and film industries, called Unreal Engine, for 3D modeling and developing a VR environment that simulated a Victorian-era dental office. It’s the first time that the team leveraged their expertise in 3D scanning and post-scanning production into a VR museum project, according to Absher. It has been a brand-new experience for the team to see “the amazing work craftsmanship in detail” of the dental tools and artifacts, while it still reminds us of the power of functionality and modern dental technology that makes treatment less traumatic.</p>
+
+<p>“Some of the forceps are literally hand- forged,” says Dr. Spielman. “I mean, you can see this was made by a blacksmith. We actually have an engraving showing a blacksmith operating in a dental office.”</p>
+
+<p>For the LaGuardia Studio team, restoring a Victoria era dental room itself is fascinating. Taylor Absher explained, “Visualizing a Victorian house where you can walk around in the room, see a patient sitting on the couch, and have a haptic experience to feel the texture of the instruments, this is such an interactive, operational, and educational 3D virtual experience.”</p>
+
+<p>To provide a more intimate and personal voyage for the virtual dental museum visitors, the team is looking forward to reproducing individual furniture and making the dental office look real like one that you would walk in and interact with today.</p>
+
+<p>“They didn’t have dental offices like today,” explains Dr. Spielman. “You would have it in your living room, or a separate portion of your house. So imagine an 1890s brownstone in downtown New York. You come up a few stairs, and you enter a room which had a large window because there was no electricity, and you had to work during the day when the sun was up. We are going to reproduce that.”</p>
+
+<div class="columns">
+  <div class="column is-half">
+    <figure style="height: 100%;">
+      <img src="https://www.nyu.edu/content/nyu/en/life/information-technology/about-nyu-it/nyu-it-news/the-download/the-download-features/virtual-dental-museum/jcr:content/1/par-left/nyuimage.img.1280.high.png/1668129726277.png" alt="VR environment simulating a Victorian dental office, with chair, window, and various implements" />
+      <figcaption style="font-size:.8rem;line-height:1rem;">VR environment simulating a Victorian dental office, with chair, window, and various implements</figcaption>
+    </figure>
+  </div>
+  
+</div>
+
+<p>Virtual Victorian dental office being built by Taylor Absher and the LaGuardia Studio.</p>
+
+<h2 id="plans-for-future-expansion">Plans for Future Expansion</h2>
+
+<p>Aside from the virtual museum, the NYU Dentistry’s collection of historical artifacts also serve as a rich research resource for students researching dental history. Several papers have been published in the Journal of the History of Dentistry since the collection was built up about the history of dental treatment and oral health. Dr. Spielman is also currently working on an expansive encyclopedia of dental history, which served as the basis for the artifact descriptions present on the museum website.</p>
+
+<p>Dr. Spielman and LaGuardia Studio also plan to present dental offices and practices of different eras. Absher and Yu mention that they are planning on building 3D images for a medieval dental office, and Dr. Spielman also notes that they are planning to demonstrate at least six or seven different periods, and may even go as far back as  ancient Rome. With numerous historical details chronicling the unique evolution of the dental profession already cataloged, the Virtual Museum is continuing to expand its collection and upgrade its interactive exhibits.</p>
+
+<hr />
+
+<p><em>You can view the <a href="https://dental.nyu.edu/aboutus/rare-book-collection/virtual-museum.html">Virtual Museum</a> online now, as well as the NYU College of Dentistry’s <a href="https://dental.nyu.edu/aboutus/rare-book-collection.html">Rare Book Collection</a>, which is also curated by Dr. Spielman.</em></p>
+
+<p><em>Interested in other LaGuardia Studio projects? Check out their <a href="https://www.nyu.edu/life/information-technology/research-computing-services/additive-manufacturing-3d-digitization/laguardia-studio-3d-scanning-3d-printing/laguardia-studio-resources/laguardia-studio-portfolio.html">portfolio</a>.</em></p>
+
+</div>
+        </div>
+      </div>
+    </div>
+<footer class="footer has-text-white has-background-grey-darker">
+  <div class="container">
+    <div class="columns">
+      
+      <div class="column">
+        <p class="has-text-bold has-text-white is-size-7">
+          <span style="border-bottom: 1px solid white;">Contact</span>
+        </p>
+        <ul class="is-size-6">
+          
+          <li>
+            <a href="mailto:dh.help@nyu.edu" class="has-text-white" >
+              Contact Us
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://groups.google.com/a/nyu.edu/g/nyudh-group?pli=1" class="has-text-white" target="_blank">
+              Mailing List
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://forms.gle/kzxyJLetPz4pGGY78" class="has-text-white" target="_blank">
+              Slack Channel
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://github.com/nyu-dh" class="has-text-white" target="_blank">
+              GitHub
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="column">
+        <p class="has-text-bold has-text-white is-size-7">
+          <span style="border-bottom: 1px solid white;">NYU Partners</span>
+        </p>
+        <ul class="is-size-6">
+          
+          <li>
+            <a href="https://library.nyu.edu/" class="has-text-white" target="_blank">
+              Libraries
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://www.nyu.edu/life/information-technology.html" class="has-text-white" target="_blank">
+              Information Technology
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://nyuhumanities.org/" class="has-text-white" target="_blank">
+              Center for the Humanities
+            </a>
+          </li>
+          
+          <li>
+            <a href="https://cas.nyu.edu/" class="has-text-white" target="_blank">
+              Arts & Science
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="column">
+        <p class="has-text-bold has-text-white is-size-7">
+          <span style="border-bottom: 1px solid white;">Policies</span>
+        </p>
+        <ul class="is-size-6">
+          
+          <li>
+            <a href="https://www.nyu.edu/about/policies-guidelines-compliance/policies-and-guidelines/website-accessibility.html" class="has-text-white" target="_blank">
+              NYU Accessibility
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+
+    <div class="is-small">
+      <p class="is-size-7">© New York University 2024</p>
+    </div>
+  </div>
+</footer>
+<!-- footer scripts -->
+<script>
+  /* scroll to top button */
+  configObj = {
+    "buttonD": "M8 18.568L10.8 21.333 16 16.198 21.2 21.333 24 18.568 16 10.667z",
+    "buttonT": "translate(-1148 -172) translate(832 140) translate(32 32) translate(284)",
+    "shadowSize": "none",
+    "roundnessSize": "12px",
+    "buttonDToBottom": "32px",
+    "buttonDToRight": "32px",
+    "selectedBackgroundColor": "#919191",
+    "selectedIconColor": "#feffff",
+    "buttonWidth": "40px",
+    "buttonHeight": "40px",
+    "svgWidth": "32px",
+    "svgHeight": "32px"
+  };
+
+  function createButton(obj, pageSimulator) {
+    const body = document.querySelector("body");
+    backToTopButton = document.createElement("span");
+    backToTopButton.classList.add("softr-back-to-top-button");
+    backToTopButton.id = "softr-back-to-top-button";
+    pageSimulator ? pageSimulator.appendChild(backToTopButton) : body.appendChild(backToTopButton);
+    backToTopButton.style.width = obj.buttonWidth;
+    backToTopButton.style.height = obj.buttonHeight;
+    backToTopButton.style.marginRight = obj.buttonDToRight;
+    backToTopButton.style.marginBottom = obj.buttonDToBottom;
+    backToTopButton.style.borderRadius = obj.roundnessSize;
+    backToTopButton.style.boxShadow = obj.shadowSize;
+    backToTopButton.style.color = obj.selectedBackgroundColor;
+    backToTopButton.style.backgroundColor = obj.selectedBackgroundColor;
+    pageSimulator ? backToTopButton.style.position = "absolute" : backToTopButton.style.position = "fixed";
+    backToTopButton.style.outline = "none";
+    backToTopButton.style.bottom = "0px";
+    backToTopButton.style.right = "0px";
+    backToTopButton.style.cursor = "pointer";
+    backToTopButton.style.textAlign = "center";
+    backToTopButton.style.border = "solid 2px currentColor";
+    backToTopButton.innerHTML =
+      '<svg class="back-to-top-button-svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" > <g fill="none" fill-rule="evenodd"> <path d="M0 0H32V32H0z" transform="translate(-1028 -172) translate(832 140) translate(32 32) translate(164) matrix(1 0 0 -1 0 32)" /> <path class="back-to-top-button-img" fill-rule="nonzero" d="M11.384 13.333h9.232c.638 0 .958.68.505 1.079l-4.613 4.07c-.28.246-.736.246-1.016 0l-4.613-4.07c-.453-.399-.133-1.079.505-1.079z" transform="translate(-1028 -172) translate(832 140) translate(32 32) translate(164) matrix(1 0 0 -1 0 32)" /> </g> </svg>';
+    backToTopButtonSvg = document.querySelector(".back-to-top-button-svg");
+    backToTopButtonSvg.style.verticalAlign = "middle";
+    backToTopButtonSvg.style.margin = "auto";
+    backToTopButtonSvg.style.justifyContent = "center";
+    backToTopButtonSvg.style.width = obj.svgWidth;
+    backToTopButtonSvg.style.height = obj.svgHeight;
+    backToTopButton.appendChild(backToTopButtonSvg);
+    backToTopButtonImg = document.querySelector(".back-to-top-button-img");
+    backToTopButtonImg.style.fill = obj.selectedIconColor;
+    backToTopButtonSvg.appendChild(backToTopButtonImg);
+    backToTopButtonImg.setAttribute("d", obj.buttonD);
+    backToTopButtonImg.setAttribute("transform", obj.buttonT);
+    if (!pageSimulator) {
+      backToTopButton.style.display = "none";
+      window.onscroll = function() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          backToTopButton.style.display = "block";
+        } else {
+          backToTopButton.style.display = "none";
+        }
+      };
+      backToTopButton.onclick = function() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      };
+    }
+  };
+  document.addEventListener("DOMContentLoaded", function() {
+    createButton(configObj, null);
+  });
+</script>
+</body>
+</html>
