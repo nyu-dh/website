@@ -34,3 +34,10 @@ jobs:
           protocol: ftps
           state-name: ./.ftp-deploy-sync-state.json
           local-dir: ./_site/
+      - name: gh-deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site/
+          
+         
